@@ -185,6 +185,7 @@
   },
   "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
+    "README.md",
     "companies/google-deepmind.md",
     "concepts/agi.md",
     "people/demis-hassabis.md",
@@ -210,7 +211,6 @@
     "tools/claude-obsidian.md",
     "sources/github-claude-obsidian.md",
     "tools/crewai.md",
-    "log.md",
-    "topics/agentic-ai.md"
+    "log.md"
   ]
 }
