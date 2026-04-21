@@ -2,9 +2,13 @@
 
 ## Tools & Frameworks
 - [[claude-code]] — Anthropic's CLI/agentic coding tool; recommended layer for LLM Wiki workflows
+- [[crewai]] — Python framework for multi-agent role-playing workflows
+- [[langchain]] — agent engineering platform; broad LLM application framework
+- [[llama-index]] — document ingestion and RAG framework; "leading document agent platform"
 - [[obsidian]] — local-first markdown knowledge graph; visualization layer for the wiki
 - [[obsidian-dataview]] — Obsidian plugin for querying wiki frontmatter with SQL-like syntax
-- [[mem0]] — open-source memory layer for AI agents; used for two-tier long/short-term memory alongside wikis
+- [[ollama]] — run open-weight LLMs locally (Llama, Gemma, DeepSeek, Qwen, etc.)
+- [[mem0]] — open-source memory layer for AI agents; two-tier long/short-term memory
 
 ## Models & Providers
 <!-- model pages go here -->
@@ -24,4 +28,4 @@
 <!-- tutorial pages go here -->
 
 ## Topics & Themes
-<!-- topic pages go here -->
+- [[agentic-ai]] — LLMs that take autonomous actions; multi-agent, tool use, MCP, A2A

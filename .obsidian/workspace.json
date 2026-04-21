@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "115d5021c017a686",
+        "id": "9a723a7ef5837f07",
         "type": "tabs",
         "children": [
           {
-            "id": "6ff32cb282e180be",
+            "id": "c20f65f87b1414ce",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "tools/crewai.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "crewai"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tools/crewai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for crewai"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tools/crewai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from crewai"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "tools/crewai.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of crewai"
             }
           }
         ]
@@ -176,11 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "6ff32cb282e180be",
+  "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
+    "index.md",
+    "log.md",
+    "topics/agentic-ai.md",
+    "tools/llama-index.md",
+    "tools/langchain.md",
+    "tools/ollama.md",
+    "tools/crewai.md",
+    "sources/github-hornof-profile.md",
+    "CLAUDE.md",
     "tools/obsidian-dataview.md",
     "tools/obsidian.md",
-    "index.md",
     "people/andrej-karpathy.md",
     "Andrej Karpathy.md",
     "sources/karpathy-llm-wiki-gist.md",
