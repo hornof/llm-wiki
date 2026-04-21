@@ -11,3 +11,7 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-21 | lint | full health check | deleted 2 ghost files (Andrej Karpathy.md, LLM Wiki Pattern.md); fixed 6 broken wikilink targets across 10 files; updated CLAUDE.md slug convention
 2026-04-21 | lint | follow-up fixes | karpathy-llm-wiki-gist Pages Updated completed; orewadeveloper linked to karpathy-llm-wiki-overview
 2026-04-21 | ingest | github-hornof-profile (wiki owner's GitHub) | crewai (new), ollama (new), langchain (new), llama-index (new), agentic-ai topic (new)
+2026-04-21 | ingest | github-claude-obsidian (2626 stars) | claude-obsidian (new), hot-cache (new), claude-canvas (new), agrici-daniel (new), llm-wiki-pattern (updated), obsidian-dataview (updated)
+2026-04-21 | maintenance | renamed .raw/ → _raw/ | Obsidian excludes dotfolders so Web Clipper couldn't write there; updated .gitignore and CLAUDE.md
+2026-04-21 | ingest | wikipedia-fei-fei-li + wikipedia-andrew-ng (Web Clipper test) | fei-fei-li (new), andrew-ng (new)
+2026-04-21 | ingest | thread-milkroadai-hassabis-agi (Twitter thread) | demis-hassabis (new), agi (new), google-deepmind (new)

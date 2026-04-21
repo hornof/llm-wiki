@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/crewai.md",
+                "file": "_raw/Thread by @MilkRoadAI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "crewai"
+              "title": "Thread by @MilkRoadAI"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/crewai.md",
+                "file": "_raw/Thread by @MilkRoadAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for crewai"
+              "title": "Backlinks for Thread by @MilkRoadAI"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/crewai.md",
+                "file": "_raw/Thread by @MilkRoadAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from crewai"
+              "title": "Outgoing links from Thread by @MilkRoadAI"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/crewai.md",
+                "file": "_raw/Thread by @MilkRoadAI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of crewai"
+              "title": "Outline of Thread by @MilkRoadAI"
             }
           }
         ]
@@ -185,21 +185,32 @@
   },
   "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
+    "companies/google-deepmind.md",
+    "concepts/agi.md",
+    "people/demis-hassabis.md",
+    "sources/thread-milkroadai-hassabis-agi.md",
     "index.md",
-    "log.md",
-    "topics/agentic-ai.md",
-    "tools/llama-index.md",
-    "tools/langchain.md",
-    "tools/ollama.md",
+    "_raw/Thread by @MilkRoadAI.md",
+    "people/andrew-ng.md",
+    "people/fei-fei-li.md",
+    "sources/wikipedia-andrew-ng.md",
+    "sources/wikipedia-fei-fei-li.md",
+    "_raw/Andrew Ng.md",
+    "_raw/Fei-Fei Li.md",
+    "people/agrici-daniel.md",
+    "_raw/reddit-llm-wiki-weekend-build.md",
+    "_raw/karpathy-llm-wiki-overview.md",
+    "_raw/karpathy-llm-wiki-gist.md",
+    "_raw/github-hornof-profile.md",
+    "_raw/github-claude-obsidian.md",
+    "_raw",
+    "tools/claude-canvas.md",
+    "concepts/hot-cache.md",
+    "tools/mem0.md",
+    "tools/claude-obsidian.md",
+    "sources/github-claude-obsidian.md",
     "tools/crewai.md",
-    "sources/github-hornof-profile.md",
-    "CLAUDE.md",
-    "tools/obsidian-dataview.md",
-    "tools/obsidian.md",
-    "people/andrej-karpathy.md",
-    "Andrej Karpathy.md",
-    "sources/karpathy-llm-wiki-gist.md",
-    "LLM Wiki Pattern.md",
-    "concepts/rag.md"
+    "log.md",
+    "topics/agentic-ai.md"
   ]
 }

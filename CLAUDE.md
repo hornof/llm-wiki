@@ -18,7 +18,7 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 ├── CLAUDE.md          # This file — schema, workflows, conventions
 ├── index.md           # Content catalog organized by category (LLM-maintained)
 ├── log.md             # Append-only ingest/query/lint log
-├── .raw/              # Immutable source drops (transcripts, links, pastes)
+├── _raw/              # Immutable source drops (transcripts, links, pastes)
 ├── tools/             # One page per AI tool or framework
 ├── models/            # One page per model family or provider
 ├── concepts/          # Foundational and emerging AI/ML concepts
@@ -186,19 +186,19 @@ Wikilinks to all entity pages this ingest touched.
 ## Source Handling by Medium
 
 ### Twitter / X Threads
-- Paste the full thread text (or screenshot transcript) into `.raw/`.
+- Paste the full thread text (or screenshot transcript) into `_raw/`.
 - Extract: tool mentions, traction signals, contrarian takes, person attributions.
 - If the thread is from a tracked person, update their `people/` page.
 - Traction signals (many RTs, quote-tweets from known figures) → update `tools/` status field.
 
 ### Reddit Posts & Threads
-- Paste post + top comments into `.raw/`.
+- Paste post + top comments into `_raw/`.
 - Reddit is a strong signal for **practitioner sentiment** — weight it accordingly.
 - Look for: tool comparisons, "switched from X to Y" reports, frustration patterns, tutorial recommendations.
 - Aggregate multiple Reddit mentions before updating a tool's status to `gaining-traction`.
 
 ### Podcast Episodes
-- Paste transcript or detailed notes into `.raw/`.
+- Paste transcript or detailed notes into `_raw/`.
 - Extract: guest identity → `people/`, tools mentioned → `tools/`, concepts discussed → `concepts/`.
 - Note timestamps for key claims so they can be verified later.
 - Podcasts are good for **narrative and context**, not ground truth on benchmarks.
@@ -216,7 +216,7 @@ Wikilinks to all entity pages this ingest touched.
 
 When given a new source:
 
-1. Save the raw content to `.raw/<slug>.<ext>`.
+1. Save the raw content to `_raw/<slug>.<ext>`.
 2. Create or update `sources/<slug>.md`.
 3. Identify all entity references: tools, models, concepts, people, companies.
 4. For each entity:

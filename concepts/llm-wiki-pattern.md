@@ -13,7 +13,7 @@ A pattern for building persistent personal knowledge bases where an LLM incremen
 Solves the re-discovery problem: every conversation with an LLM starts cold. A wiki externalizes accumulated knowledge so it compounds across sessions. Shifts human effort from filing/organizing to thinking and curation.
 
 ## Current State
-Proposed by Andrej Karpathy. Pattern is early-stage and gaining attention among AI practitioners. Not a product — it's a workflow pattern you implement yourself (typically with Claude Code + Obsidian or similar). Sweet spot is ~100 curated sources / hundreds of wiki pages; index.md overflows context windows at 100-500 pages, requiring secondary retrieval infrastructure beyond that.
+Proposed by Andrej Karpathy. Pattern is gaining real traction — [[claude-obsidian]], a full Claude Code plugin implementation, reached 2,626 stars and 307 forks in ~2 weeks. Not a product — it's a workflow pattern you implement yourself (typically with Claude Code + Obsidian or similar). Sweet spot is ~100 curated sources / hundreds of wiki pages; index.md overflows context windows at 100-500 pages, requiring secondary retrieval infrastructure beyond that.
 
 ## Three-Layer Architecture
 - **Raw sources** (immutable): articles, transcripts, papers you curate
@@ -70,7 +70,14 @@ Combining LLM Wiki with RAG is being explored and considered promising — wiki 
 - [[rag]]: better for large dynamic corpora; LLM Wiki better when synthesis and compounding matter more than retrieval scale
 - Obsidian alone: requires human to do all the filing; LLM Wiki automates the maintenance burden
 
+## Extensions to the Base Pattern
+- **[[hot-cache]]**: session memory layer (`wiki/hot.md`) — solves cold-start; introduced by [[claude-obsidian]]
+- **Contradiction flagging at ingest**: write `[!contradiction]` callouts immediately rather than deferring to lint — [[github-claude-obsidian]]
+- **Batch ingestion via parallel agents**: process multiple sources simultaneously
+- **/autoresearch**: autonomous research loop with configurable objectives
+
 ## Resources
 - [[karpathy-llm-wiki-gist]] — PRIMARY SOURCE: Karpathy's original gist
 - [[karpathy-llm-wiki-overview]] — Medium article overview of the pattern
 - [[reddit-llm-wiki-weekend-build]] — first-hand build experience, practical use-case guidance
+- [[github-claude-obsidian]] — full implementation; 2,626 stars in ~2 weeks
