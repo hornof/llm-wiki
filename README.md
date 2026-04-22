@@ -4,7 +4,7 @@ A personal AI Engineering knowledge base, built on [Andrej Karpathy's LLM Wiki p
 
 Rather than re-deriving knowledge on every query, this wiki compiles sources into structured, interlinked markdown pages that compound over time. New sources update existing pages. The graph gets richer with every ingest.
 
-Maintained by [Luke Hornof](https://github.com/hornof) — AI Engineering Leader — 1x founder, CTO, VP of Eng.
+Maintained by [Luke Hornof](https://github.com/hornof) — AI Engineering Leader | founder (acq.) · PhD in CS · CTO · Intel Nervana
 
 ---
 

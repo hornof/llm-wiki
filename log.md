@@ -16,3 +16,4 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-21 | ingest | wikipedia-fei-fei-li + wikipedia-andrew-ng (Web Clipper test) | fei-fei-li (new), andrew-ng (new)
 2026-04-21 | ingest | thread-milkroadai-hassabis-agi (Twitter thread) | demis-hassabis (new), agi (new), google-deepmind (new)
 2026-04-22 | ingest | thread-aakashgupta-1b-model + thread-minchoi-gpt-image-2 + thread-phosphenq-karpathy-video (3 Twitter threads) | training-data-quality (new), gpt-image-2 (new), openai (new), andrej-karpathy (updated)
+2026-04-22 | ingest | Luke Hornof LinkedIn (wiki owner profile) | memory updated; no wiki entity page created

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_raw/Thread by @phosphenq.md",
+                "file": "Untitled 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread by @phosphenq"
+              "title": "Untitled 2"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_raw/Thread by @phosphenq.md",
+                "file": "Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Thread by @phosphenq"
+              "title": "Backlinks for Untitled 2"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_raw/Thread by @phosphenq.md",
+                "file": "Untitled 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Thread by @phosphenq"
+              "title": "Outgoing links from Untitled 2"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_raw/Thread by @phosphenq.md",
+                "file": "Untitled 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Thread by @phosphenq"
+              "title": "Outline of Untitled 2"
             }
           }
         ]
@@ -185,6 +185,13 @@
   },
   "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
+    "_raw/Luke Hornof 2.md",
+    "Untitled 2.md",
+    "_raw/Luke Hornof 1.md",
+    "_raw/Luke Hornof.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "_raw/Thread by @phosphenq.md",
     "companies/openai.md",
     "models/gpt-image-2.md",
     "concepts/training-data-quality.md",
@@ -192,7 +199,6 @@
     "sources/thread-minchoi-gpt-image-2.md",
     "sources/thread-aakashgupta-1b-model.md",
     "_raw/Thread by @minchoi.md",
-    "_raw/Thread by @phosphenq.md",
     "_raw/Thread by @aakashgupta.md",
     "_raw/Thread by @MilkRoadAI.md",
     "README.md",
@@ -205,12 +211,6 @@
     "people/fei-fei-li.md",
     "sources/wikipedia-andrew-ng.md",
     "sources/wikipedia-fei-fei-li.md",
-    "_raw/Andrew Ng.md",
-    "_raw/Fei-Fei Li.md",
-    "people/agrici-daniel.md",
-    "_raw/reddit-llm-wiki-weekend-build.md",
-    "_raw/karpathy-llm-wiki-overview.md",
-    "_raw/karpathy-llm-wiki-gist.md",
     "_raw"
   ]
 }
