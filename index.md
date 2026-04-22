@@ -13,13 +13,15 @@
 - [[mem0]] — open-source memory layer for AI agents; two-tier long/short-term memory
 
 ## Models & Providers
-<!-- model pages go here -->
+- [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 
 ## Concepts & Techniques
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
+- [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[llm-wiki-pattern]] — compilation-time knowledge base pattern by Karpathy; the pattern this wiki runs on
 - [[rag]] — query-time retrieval-augmented generation; complementary to LLM Wiki at different scales
+- [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 
 ## People & Voices
 - [[agrici-daniel]] — built claude-obsidian; extends LLM Wiki with hot cache, autoresearch, canvas
@@ -31,6 +33,7 @@
 
 ## Companies & Labs
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
+- [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
 
 ## Tutorials & Hands-On
 <!-- tutorial pages go here -->
