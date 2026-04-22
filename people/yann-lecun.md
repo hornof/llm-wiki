@@ -14,7 +14,7 @@ AMI Labs (Advanced Machine Intelligence Labs) — building world-model architect
 
 ## Notable Takes
 - **LLMs as a dead end**: "I'm sure there's a lot of people at Meta who would like me to NOT tell the world that LLMs basically are a dead end when it comes to superintelligence." — [[wikipedia-yann-lecun]]
-- **World models over LLMs**: believes general intelligence requires systems that build internal models of how the world works, not systems that predict next tokens — [[wikipedia-yann-lecun]]
+- **World models over LLMs**: believes general intelligence requires systems that build internal models of how the world works, not systems that predict next tokens — [[wikipedia-yann-lecun]]; proposed JEPA as the specific architecture — [[lecun-path-autonomous-machine-intelligence]]
 - **Open-source AI**: strong advocate for open-source AI development; frequently clashes with those calling for AI restrictions [unsourced beyond general knowledge — needs ingestion]
 - **AI safety skepticism**: pushes back on AI existential risk framing [unsourced — needs ingestion]
 

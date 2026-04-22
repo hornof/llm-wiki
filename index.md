@@ -18,6 +18,7 @@
 ## Concepts & Techniques
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
+- [[world-models]] — LeCun's alternative to LLMs; JEPA architecture; predict in representation space not token space
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[llm-wiki-pattern]] — compilation-time knowledge base pattern by Karpathy; the pattern this wiki runs on
 - [[rag]] — query-time retrieval-augmented generation; complementary to LLM Wiki at different scales
