@@ -41,5 +41,9 @@
 ## Tutorials & Hands-On
 <!-- tutorial pages go here -->
 
+## Owner
+- [[owner-profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
+- [[owner-publications]] — academic publications; NeurIPS, IWAN/Springer
+
 ## Topics & Themes
 - [[agentic-ai]] — LLMs that take autonomous actions; multi-agent, tool use, MCP, A2A

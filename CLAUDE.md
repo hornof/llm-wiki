@@ -26,6 +26,7 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 ├── companies/         # AI labs, startups, and relevant orgs
 ├── tutorials/         # Step-by-step guides and hands-on walkthroughs
 ├── topics/            # Broader themes that span multiple entities (e.g., "Agent Frameworks", "Evals")
+├── owner/             # Wiki owner's professional identity: profile, publications, social presence
 └── sources/           # One page per ingested source (podcast ep, thread, etc.)
 ```
 
@@ -160,6 +161,30 @@ Owner's first-person notes on surprises, friction points, and real takeaways.
 ## Next Steps
 What to tackle after this.
 ```
+
+### owner/profile.md and owner/publications.md
+```
+---
+name: <Page Name>
+type: owner-profile | owner-publications
+last_updated: YYYY-MM-DD
+---
+
+## Bio / Career Summary
+First-person professional identity. Keep career table up to date as roles change.
+
+## Professional Profiles
+Canonical links to LinkedIn, GitHub, Google Scholar, Twitter/X, homepage, etc.
+
+## Publications (publications.md only)
+One entry per publication: venue, authors, link, one-paragraph abstract, context note.
+```
+- `owner/profile.md` — bio, career summary, all professional/social links
+- `owner/publications.md` — academic and professional publications list
+- Add new files to `owner/` as needed (e.g., `owner/talks.md`, `owner/notes.md`)
+- These pages are not tracked in `index.md` under the standard categories; they are self-referential wiki-owner pages
+
+---
 
 ### sources/\<source-slug\>.md
 ```
