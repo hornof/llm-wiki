@@ -20,3 +20,5 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-22 | ingest | wikipedia-yann-lecun | yann-lecun (new), ami-labs (new)
 2026-04-22 | ingest | lecun-path-autonomous-machine-intelligence (2022 paper) | world-models (new), yann-lecun (updated), ami-labs (updated)
 2026-04-22 | maintenance | added owner/ directory | owner/profile.md (new), owner/publications.md (new); updated CLAUDE.md schema and index.md
+2026-04-22 | ingest | thread-zan2434-flipbook (Twitter thread) | model-rendered-ui (new)
+2026-04-22 | maintenance | deleted junk _raw files | Self-Specializing Mobile Code.md, Luke Hornof.md (stub)

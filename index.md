@@ -18,6 +18,7 @@
 ## Concepts & Techniques
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
+- [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
 - [[world-models]] — LeCun's alternative to LLMs; JEPA architecture; predict in representation space not token space
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[llm-wiki-pattern]] — compilation-time knowledge base pattern by Karpathy; the pattern this wiki runs on
