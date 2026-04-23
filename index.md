@@ -19,6 +19,7 @@
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
+- [[spatial-intelligence]] — Fei-Fei Li's thesis: 3D world understanding complements (not replaces) LLMs; "wordsmiths in the dark"; World Labs / Marble
 - [[world-models]] — LeCun's alternative to LLMs; JEPA architecture; predict in representation space not token space
 - [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[llm-wiki-pattern]] — compilation-time knowledge base pattern by Karpathy; the pattern this wiki runs on
@@ -38,6 +39,9 @@
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
+
+## Canvases
+- [[agi-debate.canvas]] — visual map of the AGI debate: LeCun vs. Hassabis vs. Karpathy
 
 ## Tutorials & Hands-On
 <!-- tutorial pages go here -->

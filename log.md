@@ -22,3 +22,7 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-22 | maintenance | added owner/ directory | owner/profile.md (new), owner/publications.md (new); updated CLAUDE.md schema and index.md
 2026-04-22 | ingest | thread-zan2434-flipbook (Twitter thread) | model-rendered-ui (new)
 2026-04-22 | maintenance | deleted junk _raw files | Self-Specializing Mobile Code.md, Luke Hornof.md (stub)
+2026-04-22 | ingest | Google Scholar profile PDF | owner/publications.md (full list: 20 pubs, 1408 citations, h-index 14); owner/profile.md (Scholar URL fixed)
+2026-04-23 | canvas | agi-debate.canvas | AGI debate landscape: LeCun, Hassabis, Karpathy — 3 zones, 13 nodes, 3 edges
+2026-04-23 | ingest | feifei-substack-spatial-intelligence | spatial-intelligence (new), fei-fei-li (updated), agi-debate.canvas (updated: 4th zone added)
+2026-04-23 | ingest | bloomberg-feifei-li-2025 (Bloomberg interview Nov 2025) | fei-fei-li (updated: complementary framing, action-perception loop, QE Prize), spatial-intelligence (updated), agi-debate.canvas (updated: Li zone text refined)

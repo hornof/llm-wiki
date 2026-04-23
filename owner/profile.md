@@ -14,7 +14,7 @@ Career arc: deep engineering and research roots (PhD CS, published at NeurIPS) â
 
 - **LinkedIn**: https://www.linkedin.com/in/lukehornof/
 - **GitHub**: https://github.com/hornof
-- **Google Scholar**: https://scholar.google.com/citations?user=lukehornof (Compilers, Artificial Intelligence)
+- **Google Scholar**: https://scholar.google.com/citations?hl=en&user=Al_FuxQAAAAJ (1,408 citations, h-index 14; Compilers, Artificial Intelligence)
 - **Homepage**: http://www.hornof.org/
 - **Email**: luke@hornof.org
 

@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"text-title-1745400000","type":"text","text":"# AGI Debate Landscape\n\nFour camps. One question: what does it actually take to reach general intelligence?","x":-280,"y":-660,"width":560,"height":110,"color":"6"},
+		{"id":"zone-lecun-1745400001","type":"group","label":"LeCun — World Models","x":-930,"y":-450,"width":420,"height":620,"color":"1"},
+		{"id":"zone-hassabis-1745400002","type":"group","label":"Hassabis — Continual Learning","x":-450,"y":-450,"width":420,"height":620,"color":"5"},
+		{"id":"zone-karpathy-1745400003","type":"group","label":"Karpathy — Data Quality","x":30,"y":-450,"width":420,"height":620,"color":"3"},
+		{"id":"zone-feifei-1745400004","type":"group","label":"Fei-Fei Li — Spatial Intelligence","x":510,"y":-450,"width":420,"height":620,"color":"2"},
+		{"id":"file-lecun-1745400010","type":"file","file":"people/yann-lecun.md","x":-910,"y":-400,"width":380,"height":100},
+		{"id":"text-lecun-1745400011","type":"text","text":"**\"LLMs are a dead end for superintelligence.\"**\n\nFix: build **world models** (JEPA) — predict in abstract representation space, not token space. Humans learn through observation; AI should too.\n\nLeft Meta after 12 years to found AMI Labs ($1.03B raised) and build this out.","x":-910,"y":-280,"width":380,"height":200},
+		{"id":"file-worldmodels-1745400012","type":"file","file":"concepts/world-models.md","x":-910,"y":-60,"width":180,"height":120},
+		{"id":"file-amilabs-1745400013","type":"file","file":"companies/ami-labs.md","x":-720,"y":-60,"width":180,"height":120},
+		{"id":"file-hassabis-1745400020","type":"file","file":"people/demis-hassabis.md","x":-430,"y":-400,"width":380,"height":100},
+		{"id":"text-hassabis-1745400021","type":"text","text":"**\"Jagged intelligence\"** — current AI excels at some things, fails surprisingly on others.\n\nMissing pieces: continual learning, creativity, curiosity, open-ended goal pursuit.\n\nSets the **Einstein Test** as the bar for AGI. Estimates 5–10 years if progress holds.","x":-430,"y":-280,"width":380,"height":200},
+		{"id":"file-agi-1745400022","type":"file","file":"concepts/agi.md","x":-430,"y":-60,"width":180,"height":120},
+		{"id":"file-deepmind-1745400023","type":"file","file":"companies/google-deepmind.md","x":-240,"y":-60,"width":180,"height":120},
+		{"id":"file-karpathy-1745400030","type":"file","file":"people/andrej-karpathy.md","x":50,"y":-400,"width":380,"height":100},
+		{"id":"text-karpathy-1745400031","type":"text","text":"**Data quality is the binding constraint** — not model size.\n\n1B parameter model on clean data beats 1.8T on noisy data.\n\nCognitive core + retrieval > monolithic large models. This wiki is a direct expression of that thesis: compile knowledge at ingestion time, retrieve at query time.","x":50,"y":-280,"width":380,"height":200},
+		{"id":"file-trainingdata-1745400032","type":"file","file":"concepts/training-data-quality.md","x":50,"y":-60,"width":180,"height":120},
+		{"id":"file-llmwiki-1745400033","type":"file","file":"concepts/llm-wiki-pattern.md","x":240,"y":-60,"width":180,"height":120},
+		{"id":"file-feifei-1745400040","type":"file","file":"people/fei-fei-li.md","x":530,"y":-400,"width":380,"height":100},
+		{"id":"text-feifei-1745400041","type":"text","text":"**\"AGI will not be complete without spatial intelligence.\"**\n\nSpatial is **complementary** to language — not a replacement. LLMs are 'wordsmiths in the dark': cannot estimate distance, navigate mazes, or predict basic physics.\n\n'We see, because we move.' World models must be generative, multimodal, and interactive — grounded in 3D geometry and physical laws.","x":530,"y":-280,"width":380,"height":200},
+		{"id":"file-spatial-1745400042","type":"file","file":"concepts/spatial-intelligence.md","x":530,"y":-60,"width":180,"height":120},
+		{"id":"file-feifei-source-1745400043","type":"file","file":"sources/bloomberg-feifei-li-2025.md","x":720,"y":-60,"width":180,"height":120},
+		{"id":"text-bottom-1745400050","type":"text","text":"**Where they agree**: current systems are insufficient for general intelligence.\n**Where they diverge**: LeCun → world models (reject LLMs); Hassabis → continual learning; Karpathy → data quality; Li → spatial intelligence (complements LLMs, doesn't replace them).","x":-450,"y":240,"width":900,"height":90,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge-lecun-hassabis-1745400060","fromNode":"zone-lecun-1745400001","fromSide":"right","toNode":"zone-hassabis-1745400002","toSide":"left"},
+		{"id":"edge-hassabis-karpathy-1745400061","fromNode":"zone-hassabis-1745400002","fromSide":"right","toNode":"zone-karpathy-1745400003","toSide":"left"},
+		{"id":"edge-karpathy-feifei-1745400062","fromNode":"zone-karpathy-1745400003","fromSide":"right","toNode":"zone-feifei-1745400004","toSide":"left"},
+		{"id":"edge-lecun-feifei-1745400063","fromNode":"zone-lecun-1745400001","fromSide":"bottom","toNode":"zone-feifei-1745400004","toSide":"bottom"}
+	]
+}
