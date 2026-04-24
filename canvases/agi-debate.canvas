@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"text-title-1745400000","type":"text","text":"# AGI Debate Landscape\n\nFive camps. One question: what does it actually take to reach general intelligence?","x":-280,"y":-660,"width":560,"height":110,"color":"6"},
+		{"id":"text-title-1745400000","type":"text","text":"# AGI Debate Landscape\n\nFive camps. One question: what does it actually take to reach general intelligence?","x":-40,"y":-660,"width":560,"height":110,"color":"6"},
 		{"id":"zone-lecun-1745400001","type":"group","label":"LeCun — World Models","x":-930,"y":-450,"width":420,"height":620,"color":"1"},
 		{"id":"zone-hassabis-1745400002","type":"group","label":"Hassabis — Continual Learning","x":-450,"y":-450,"width":420,"height":620,"color":"5"},
 		{"id":"zone-karpathy-1745400003","type":"group","label":"Karpathy — Data Quality","x":30,"y":-450,"width":420,"height":620,"color":"3"},
@@ -19,20 +19,20 @@
 		{"id":"file-trainingdata-1745400032","type":"file","file":"concepts/training-data-quality.md","x":50,"y":-60,"width":180,"height":120},
 		{"id":"file-llmwiki-1745400033","type":"file","file":"concepts/llm-wiki-pattern.md","x":240,"y":-60,"width":180,"height":120},
 		{"id":"file-feifei-1745400040","type":"file","file":"people/fei-fei-li.md","x":530,"y":-400,"width":380,"height":100},
-		{"id":"text-feifei-1745400041","type":"text","text":"**\"AGI will not be complete without spatial intelligence.\"**\n\nSpatial is **complementary** to language — not a replacement. LLMs are 'wordsmiths in the dark': cannot estimate distance, navigate mazes, or predict basic physics.\n\n'We see, because we move.' World models must be generative, multimodal, and interactive — grounded in 3D geometry and physical laws.","x":530,"y":-280,"width":380,"height":200},
+		{"id":"text-feifei-1745400041","type":"text","text":"**\"AGI will not be complete without spatial intelligence.\"**\n\nSpatial is **complementary** to language — not a replacement. LLMs are 'wordsmiths in the dark': cannot estimate distance, navigate mazes, or predict basic physics.\n\n'We see, because we move.' World models must be grounded in 3D geometry and physical laws.","x":530,"y":-280,"width":380,"height":200},
 		{"id":"file-spatial-1745400042","type":"file","file":"concepts/spatial-intelligence.md","x":530,"y":-60,"width":180,"height":120},
 		{"id":"file-feifei-source-1745400043","type":"file","file":"sources/bloomberg-feifei-li-2025.md","x":720,"y":-60,"width":180,"height":120},
 		{"id":"file-amitjain-1745400050","type":"file","file":"people/amit-jain.md","x":1010,"y":-400,"width":380,"height":100},
-		{"id":"text-luma-1745400051","type":"text","text":"**\"Instead of language backbones retrofitting everything, we need a unified, singular latent space.\"**\n\nLuma's generative world model (Uni-1): jointly trained on audio, video, image, language, and spatial reasoning. 'Think in language, imagine and render in pixels.'\n\nDirectly opposes LeCun: generating in pixel/token space is not a bug — it's the path to intelligence. A world model is 'necessary but not sufficient' for AGI.","x":1010,"y":-280,"width":380,"height":220},
-		{"id":"file-lumaai-1745400052","type":"file","file":"companies/luma-ai.md","x":1010,"y":-40,"width":180,"height":120},
-		{"id":"file-lumasource-1745400053","type":"file","file":"sources/cognitive-revolution-luma-worldsim.md","x":1200,"y":-40,"width":180,"height":120},
-		{"id":"text-bottom-1745400060","type":"text","text":"**Where they agree**: current systems are insufficient for general intelligence.\n**Where they diverge**: LeCun → world models (non-generative, representation space); Hassabis → continual learning; Karpathy → data quality; Li → spatial grounding (complements LLMs); Luma → generative unified latent space (opposes LeCun directly).","x":-450,"y":240,"width":1890,"height":90,"color":"4"}
+		{"id":"text-luma-1745400051","type":"text","text":"**\"Instead of language backbones retrofitting everything, we need a unified, singular latent space.\"**\n\nLuma's Uni-1 model jointly trains on audio, video, image, language, and spatial reasoning — 'think in language, imagine and render in pixels.'\n\nDirectly opposes LeCun: generating in pixel/token space is the path to intelligence. A world model is 'necessary but not sufficient' for AGI.","x":1010,"y":-280,"width":380,"height":200},
+		{"id":"file-lumaai-1745400052","type":"file","file":"companies/luma-ai.md","x":1010,"y":-60,"width":180,"height":120},
+		{"id":"file-lumasource-1745400053","type":"file","file":"sources/cognitive-revolution-luma-worldsim.md","x":1200,"y":-60,"width":180,"height":120},
+		{"id":"text-bottom-1745400060","type":"text","text":"**Where they agree**: current systems are insufficient for general intelligence.\n\n**Where they diverge**: LeCun → world models (non-generative, representation space) · Hassabis → continual learning · Karpathy → data quality · Li → spatial grounding (complements LLMs) · Luma → generative unified latent space (opposes LeCun directly)","x":-930,"y":240,"width":2340,"height":110,"color":"4"}
 	],
 	"edges":[
 		{"id":"edge-lecun-hassabis-1745400070","fromNode":"zone-lecun-1745400001","fromSide":"right","toNode":"zone-hassabis-1745400002","toSide":"left"},
 		{"id":"edge-hassabis-karpathy-1745400071","fromNode":"zone-hassabis-1745400002","fromSide":"right","toNode":"zone-karpathy-1745400003","toSide":"left"},
 		{"id":"edge-karpathy-feifei-1745400072","fromNode":"zone-karpathy-1745400003","fromSide":"right","toNode":"zone-feifei-1745400004","toSide":"left"},
 		{"id":"edge-feifei-luma-1745400073","fromNode":"zone-feifei-1745400004","fromSide":"right","toNode":"zone-luma-1745400005","toSide":"left"},
-		{"id":"edge-lecun-luma-1745400074","fromNode":"zone-lecun-1745400001","fromSide":"bottom","toNode":"zone-luma-1745400005","toSide":"bottom","label":"direct opposition: generative vs. non-generative"}
+		{"id":"edge-lecun-luma-1745400074","fromNode":"zone-lecun-1745400001","fromSide":"bottom","toNode":"zone-luma-1745400005","toSide":"bottom","label":"direct opposition"}
 	]
 }
