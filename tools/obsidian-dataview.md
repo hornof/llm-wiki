@@ -12,7 +12,6 @@ An [[obsidian]] plugin that lets you query your vault's frontmatter and content 
 ## Traction Signals
 - Recommended in Karpathy's original LLM Wiki gist as part of the optional tool stack — [[karpathy-llm-wiki-gist]]
 - One of the most-installed Obsidian plugins; effectively standard in any serious Obsidian vault
-- **Status note**: As of Obsidian v1.9.10 (August 2025), the native Bases plugin is the primary dashboard for [[claude-obsidian]] vaults. Dataview is now the legacy fallback — [[github-claude-obsidian]]
 
 ## How to Use It
 Install from Obsidian's community plugins. Write queries inline in notes using code blocks tagged `dataview`. Example — list all tools with gaining-traction status:

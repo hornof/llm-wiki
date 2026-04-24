@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-04-21
+last_updated: 2026-04-24
 
 ---
 
@@ -12,18 +12,23 @@ A pattern for building persistent personal knowledge bases where an LLM incremen
 ## Why It Matters
 Solves the re-discovery problem: every conversation with an LLM starts cold. A wiki externalizes accumulated knowledge so it compounds across sessions. Shifts human effort from filing/organizing to thinking and curation.
 
+> "The tedious part of maintaining a knowledge base is not the reading or the thinking — it's the bookkeeping. Humans abandon wikis because the maintenance burden grows faster than the value. LLMs don't get bored, don't forget to update a cross-reference, and can touch 15 files in one pass." — Karpathy
+
 ## Current State
-Proposed by Andrej Karpathy. Pattern is gaining real traction — [[claude-obsidian]], a full Claude Code plugin implementation, reached 2,626 stars and 307 forks in ~2 weeks. Not a product — it's a workflow pattern you implement yourself (typically with Claude Code + Obsidian or similar). Sweet spot is ~100 curated sources / hundreds of wiki pages; index.md overflows context windows at 100-500 pages, requiring secondary retrieval infrastructure beyond that.
+Proposed by Andrej Karpathy. Not a product — it's a workflow pattern you implement yourself (typically with Claude Code + Obsidian or similar). Sweet spot is ~100 curated sources / hundreds of wiki pages; index.md overflows context windows at 100-500 pages, requiring secondary retrieval infrastructure beyond that.
 
 ## Three-Layer Architecture
 - **Raw sources** (immutable): articles, transcripts, papers you curate
 - **The wiki** (LLM-maintained): markdown entity pages, cross-references, summaries
-- **The schema** (configuration): CLAUDE.md or equivalent file defining structure and workflows
+- **The schema** (configuration): `CLAUDE.md` (Claude Code) or `AGENTS.md` (OpenAI Codex / other agents) — defines page structure, ingestion workflows, and answer formatting
 
 ## Three Core Operations
 - **Ingest**: process a new source, LLM reads and updates 10-15 related wiki pages per source
 - **Query**: search compiled wiki, synthesize answers with citations; high-value answers become new wiki pages
 - **Lint**: health-check for contradictions, stale claims, orphan pages, missing cross-references
+
+## The Compounding Property
+Each ingest doesn't just add new pages — it updates existing ones. When a second source on a related topic is ingested, the LLM reads the existing wiki first, recognizes conceptual connections, and strengthens cross-links that no human added. The wiki gets denser, not just bigger. This is the core value proposition over RAG.
 
 ## Key Risks
 - **Error propagation**: a wrong summary on ingest gets cross-referenced into 10-15 pages as "fact." Lint is non-negotiable.
@@ -66,13 +71,16 @@ The schema (CLAUDE.md) is designed to be co-evolved by you and the LLM over time
 ## Hybrid Approach
 Combining LLM Wiki with RAG is being explored and considered promising — wiki handles synthesis and compounding; RAG handles high-volume retrieval. [unsourced beyond community discussion]
 
+## Historical Roots
+Karpathy's pattern resurrects Vannevar Bush's 1945 **Memex** vision — a personal, curated knowledge store where the connections between documents are as valuable as the documents themselves. The Memex was never practically built because nobody wanted to do the bookkeeping. LLMs finally solve that.
+
 ## Compared To
 - [[rag]]: better for large dynamic corpora; LLM Wiki better when synthesis and compounding matter more than retrieval scale
 - Obsidian alone: requires human to do all the filing; LLM Wiki automates the maintenance burden
 
 ## Extensions to the Base Pattern
-- **[[hot-cache]]**: session memory layer (`wiki/hot.md`) — solves cold-start; introduced by [[claude-obsidian]]
-- **Contradiction flagging at ingest**: write `[!contradiction]` callouts immediately rather than deferring to lint — [[github-claude-obsidian]]
+- **Hot cache**: session memory layer (`wiki/hot.md`) — update at session end so next session starts with full recent context; solves the cold-start problem
+- **Contradiction flagging at ingest**: write `[!contradiction]` callouts immediately rather than deferring to lint
 - **Batch ingestion via parallel agents**: process multiple sources simultaneously
 - **/autoresearch**: autonomous research loop with configurable objectives
 
@@ -80,4 +88,3 @@ Combining LLM Wiki with RAG is being explored and considered promising — wiki 
 - [[karpathy-llm-wiki-gist]] — PRIMARY SOURCE: Karpathy's original gist
 - [[karpathy-llm-wiki-overview]] — Medium article overview of the pattern
 - [[reddit-llm-wiki-weekend-build]] — first-hand build experience, practical use-case guidance
-- [[github-claude-obsidian]] — full implementation; 2,626 stars in ~2 weeks

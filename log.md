@@ -33,3 +33,5 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-24 | ingest | thread-phosphenq-lecun-lecture (X post April 2026) | yann-lecun (traction signal: lecture circulating on X, attacks Musk/Amodei by name)
 2026-04-24 | lint-fix | created concepts/mcp.md; fixed dead [[mcp]] link in agentic-ai; added MCP to index
 2026-04-24 | ingest | linkedin-luke-hornof-2026 (LinkedIn PDF export) | owner/profile (career table corrected: ThirdLaw CTO, TensorWave VP Eng added; education added; consulting details expanded)
+2026-04-24 | maintenance | removed agrici-daniel references | deleted: people/agrici-daniel, tools/claude-obsidian, tools/claude-canvas, concepts/hot-cache, sources/github-claude-obsidian; updated: index, concepts/llm-wiki-pattern, tools/obsidian-dataview
+2026-04-24 | ingest | karpathy-llm-wiki-medium-article (re-ingest from full web clip) | karpathy-llm-wiki-overview source (updated), llm-wiki-pattern (compounding property, Memex section, bookkeeping quote, AGENTS.md)

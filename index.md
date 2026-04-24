@@ -1,9 +1,7 @@
 # Wiki Index
 
 ## Tools & Frameworks
-- [[claude-canvas]] — AI-orchestrated visual canvas; companion to claude-obsidian
 - [[claude-code]] — Anthropic's CLI/agentic coding tool; recommended layer for LLM Wiki workflows
-- [[claude-obsidian]] — full LLM Wiki implementation as Claude Code plugin; 2,626 stars in ~2 weeks
 - [[crewai]] — Python framework for multi-agent role-playing workflows
 - [[langchain]] — agent engineering platform; broad LLM application framework
 - [[llama-index]] — document ingestion and RAG framework; "leading document agent platform"
@@ -17,7 +15,6 @@
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 
 ## Concepts & Techniques
-- [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
 - [[spatial-intelligence]] — Fei-Fei Li's thesis: 3D world understanding complements (not replaces) LLMs; "wordsmiths in the dark"; World Labs / Marble
@@ -28,7 +25,6 @@
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 
 ## People & Voices
-- [[agrici-daniel]] — built claude-obsidian; extends LLM Wiki with hot cache, autoresearch, canvas
 - [[demis-hassabis]] — CEO Google DeepMind; Nobel laureate; strict AGI definition; Einstein Test
 - [[yann-lecun]] — CNN inventor; Turing Award; founder AMI Labs; "LLMs are a dead end for superintelligence"
 - [[andrej-karpathy]] — AI researcher/educator; proposed the LLM Wiki pattern
