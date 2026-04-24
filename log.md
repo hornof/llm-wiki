@@ -35,3 +35,6 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-24 | ingest | linkedin-luke-hornof-2026 (LinkedIn PDF export) | owner/profile (career table corrected: ThirdLaw CTO, TensorWave VP Eng added; education added; consulting details expanded)
 2026-04-24 | maintenance | removed agrici-daniel references | deleted: people/agrici-daniel, tools/claude-obsidian, tools/claude-canvas, concepts/hot-cache, sources/github-claude-obsidian; updated: index, concepts/llm-wiki-pattern, tools/obsidian-dataview
 2026-04-24 | ingest | karpathy-llm-wiki-medium-article (re-ingest from full web clip) | karpathy-llm-wiki-overview source (updated), llm-wiki-pattern (compounding property, Memex section, bookkeeping quote, AGENTS.md)
+2026-04-24 | ingest | cognitive-revolution-luma-worldsim (podcast ep) | amit-jain (new), luma-ai (new), world-models (updated: Luma generative approach, three-way comparison table)
+2026-04-24 | ingest | techcrunch-luma-uni1 (article, March 2026) | amit-jain (updated), luma-ai (updated: Uni-1, Luma Agents, benchmarks)
+2026-04-24 | ingest | amplify-amit-jain-interview (article) | amit-jain (updated: joint training quote, efficiency vs. scale), luma-ai (updated: Dream Machine token count, Kardashev framing)

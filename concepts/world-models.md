@@ -2,7 +2,7 @@
 name: World Models
 type: concept
 maturity: active-research
-last_updated: 2026-04-22
+last_updated: 2026-04-24
 ---
 
 ## Definition
@@ -37,15 +37,51 @@ LeCun proposes six differentiable modules working together:
 - **Actor**: generates actions
 - **Short-term memory**: holds current state and recent context
 
+## Contrasting Approaches to World Models
+
+Three major labs are building world models, but with fundamentally different architectures and philosophies:
+
+### LeCun / JEPA (AMI Labs)
+- **Representation**: abstract latent space — explicitly NOT pixel/token space
+- **Generative?**: No. Rejects generative models as inefficient and unscalable to irreducible noise
+- **Temporal emphasis**: hierarchical temporal prediction; short-term concrete to long-term abstract
+- **Modalities**: primarily video (V-JEPA); multi-modal via separate encoders, not joint training
+- **Key claim**: "the world is not fully predictable — don't generate what can't be predicted"
+
+### Fei-Fei Li / Spatial Intelligence (World Labs)
+- **Representation**: 3D geometric structure of the physical world
+- **Generative?**: Yes, but grounded in spatial geometry
+- **Temporal emphasis**: action-perception loop — agent acts in space, perception updates model
+- **Modalities**: vision-first; current LLMs are "wordsmiths in the dark" without spatial grounding
+- **Key claim**: "intelligence lives in the physical world; language alone cannot capture it"
+
+### Luma AI / Unified Intelligence (Uni-1)
+- **Representation**: single unified latent space across all modalities
+- **Generative?**: Yes — "think in language, imagine and render in pixels"
+- **Temporal emphasis**: all modalities jointly; not temporal-first
+- **Modalities**: audio, video, image, language, spatial reasoning — jointly trained from scratch
+- **Key claim**: "nature makes no distinction between modalities — all are signals from the same physical environment"
+- **Against LLM retrofitting**: "Instead of language backbones retrofitting everything, we need a unified, singular latent space" — [[amit-jain]]
+
+**Core tension**: LeCun says generating in pixel/token space is wrong. Luma says it's the path to intelligence. Both claim world models are necessary for AGI but disagree sharply on what "world model" means.
+
 ## Relationship to AGI Debate
 LeCun's world-model thesis is a direct challenge to scaling LLMs as a path to AGI. Compare with:
 - [[demis-hassabis]]: agrees current systems are insufficient (jagged intelligence); believes continual learning and creativity are missing; building Gemini at Google DeepMind
 - [[andrej-karpathy]]: focused on data quality and cognitive core + retrieval; less specific on world models vs. LLMs
+- [[amit-jain]]: world model is "a necessary condition, but not a sufficient condition for AGI"; the generative unified approach
 
 ## Current State
-Theoretical and early-experimental stage. AMI Labs ([[ami-labs]]) is LeCun's vehicle for building this out. JEPA variants (I-JEPA for images, V-JEPA for video) have been released by Meta FAIR. Not yet demonstrated at general intelligence scale.
+Multiple labs at active-research stage with diverging architectures:
+- **LeCun/JEPA**: theoretical and early-experimental; I-JEPA and V-JEPA released by Meta FAIR; not yet at general intelligence scale
+- **Fei-Fei/World Labs**: Marble prototype demonstrated; focused on 3D spatial reasoning
+- **Luma/Uni-1**: Uni-1 shipped March 2026; deployed in production (Dream Machine, Luma Agents); outscores Google/OpenAI on reasoning benchmarks at 30% lower cost
 
 ## Resources
-- [[lecun-path-autonomous-machine-intelligence]] — PRIMARY SOURCE: the 2022 paper
-- [[yann-lecun]] — architect of this approach
-- [[ami-labs]] — the lab building it out
+- [[lecun-path-autonomous-machine-intelligence]] — PRIMARY SOURCE: the 2022 JEPA paper
+- [[yann-lecun]] — architect of the JEPA approach
+- [[ami-labs]] — LeCun's lab building JEPA out
+- [[fei-fei-li]] — spatial intelligence framing
+- [[amit-jain]] — Luma AI's generative unified approach
+- [[luma-ai]] — Uni-1 architecture and deployment
+- [[cognitive-revolution-luma-worldsim]] — deepest technical discussion of Luma's approach

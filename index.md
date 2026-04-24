@@ -30,11 +30,13 @@
 - [[andrej-karpathy]] — AI researcher/educator; proposed the LLM Wiki pattern
 - [[andrew-ng]] — co-founder Google Brain; DeepLearning.AI; 8M+ students; key AI educator
 - [[fei-fei-li]] — created ImageNet; Stanford HAI; World Labs (spatial intelligence, $1B raised)
+- [[amit-jain]] — Co-founder/CEO Luma AI; unified latent space thesis; "intelligence in pixels"
 - [[orewadeveloper]] — AI practitioner; built LLM Wiki end-to-end and documented it across Reddit, YouTube, Medium
 
 ## Companies & Labs
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
+- [[luma-ai]] — multimodal AGI lab; Dream Machine, Uni-1, Luma Agents; $900M Series C; generative unified latent space
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
 
 ## Canvases
