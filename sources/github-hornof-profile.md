@@ -21,4 +21,4 @@ GitHub profile for Luke Hornof (wiki owner). Bio confirms background: AI Enginee
 - [[ollama]]
 - [[langchain]]
 - [[llama-index]]
-- [[learn-agentic-ai]]
+

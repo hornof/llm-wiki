@@ -269,7 +269,8 @@ When asked to lint or health-check the wiki:
 3. Check that every `sources/` page lists at least one updated entity page.
 4. Check that every `tools/` page has a non-empty Traction Signals section.
 5. Flag any contradictions found across pages (e.g., tool listed as `emerging` in one place and `mainstream` in another).
-6. Produce a lint report and ask the owner which issues to fix.
+6. Scan `_raw/` for files not referenced by any `sources/` page — flag as unprocessed drops or deletable empties.
+7. Produce a lint report and ask the owner which issues to fix.
 
 ---
 

@@ -26,3 +26,10 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-04-23 | canvas | agi-debate.canvas | AGI debate landscape: LeCun, Hassabis, Karpathy — 3 zones, 13 nodes, 3 edges
 2026-04-23 | ingest | feifei-substack-spatial-intelligence | spatial-intelligence (new), fei-fei-li (updated), agi-debate.canvas (updated: 4th zone added)
 2026-04-23 | ingest | bloomberg-feifei-li-2025 (Bloomberg interview Nov 2025) | fei-fei-li (updated: complementary framing, action-perception loop, QE Prize), spatial-intelligence (updated), agi-debate.canvas (updated: Li zone text refined)
+2026-04-24 | ingest | reddit-3-things-claude-output-quality (r/claude April 2026) | claude-code (community sentiment, practitioner patterns, harnesses, MCP context-mode)
+2026-04-24 | ingest | datachaz-google-design-md (X post April 2026) | stitch (new: Google DESIGN.md spec, open-sourced)
+2026-04-24 | ingest | how-to-learn-claude-infographic (r/AIToolsPromptWorkflow, April 2026) | claude-code (confirmed community framing: agentic coding CLI)
+2026-04-24 | lint | full health check | 10 issues found; report at meta/lint-report-2026-04-24.md
+2026-04-24 | ingest | thread-phosphenq-lecun-lecture (X post April 2026) | yann-lecun (traction signal: lecture circulating on X, attacks Musk/Amodei by name)
+2026-04-24 | lint-fix | created concepts/mcp.md; fixed dead [[mcp]] link in agentic-ai; added MCP to index
+2026-04-24 | ingest | linkedin-luke-hornof-2026 (LinkedIn PDF export) | owner/profile (career table corrected: ThirdLaw CTO, TensorWave VP Eng added; education added; consulting details expanded)

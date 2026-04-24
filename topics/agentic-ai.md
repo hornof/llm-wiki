@@ -17,7 +17,7 @@ Agents are the current frontier of applied AI engineering. Moving from "LLM as a
 - **Human-in-the-loop**: agent pauses for human approval at key decision points
 
 ## Key Protocols
-- **MCP (Model Context Protocol)**: Anthropic's open standard for connecting LLMs to tools and data sources — [[mcp]]
+- **MCP (Model Context Protocol)**: Anthropic's open standard for connecting LLMs to tools and data sources — [[mcp]] (see also [[claude-code]] for practical gotchas)
 - **A2A (Agent-to-Agent)**: protocol for agents to communicate with each other [unsourced — needs ingestion]
 - **OpenAI Agents SDK**: OpenAI's framework for building agents [unsourced — needs ingestion]
 

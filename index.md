@@ -11,6 +11,7 @@
 - [[obsidian-dataview]] — Obsidian plugin for querying wiki frontmatter with SQL-like syntax
 - [[ollama]] — run open-weight LLMs locally (Llama, Gemma, DeepSeek, Qwen, etc.)
 - [[mem0]] — open-source memory layer for AI agents; two-tier long/short-term memory
+- [[stitch]] — Google Labs AI design tool; open-sourced DESIGN.md spec (April 2026); portable design rules for agents
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -21,8 +22,8 @@
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
 - [[spatial-intelligence]] — Fei-Fei Li's thesis: 3D world understanding complements (not replaces) LLMs; "wordsmiths in the dark"; World Labs / Marble
 - [[world-models]] — LeCun's alternative to LLMs; JEPA architecture; predict in representation space not token space
-- [[hot-cache]] — session memory layer (wiki/hot.md) that solves the LLM cold-start problem
 - [[llm-wiki-pattern]] — compilation-time knowledge base pattern by Karpathy; the pattern this wiki runs on
+- [[mcp]] — Model Context Protocol; Anthropic's open standard for connecting LLMs to tools and data sources; infrastructure layer for agentic AI
 - [[rag]] — query-time retrieval-augmented generation; complementary to LLM Wiki at different scales
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 
@@ -46,9 +47,12 @@
 ## Tutorials & Hands-On
 <!-- tutorial pages go here -->
 
+## Sources & References
+- [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)
+
 ## Owner
-- [[owner-profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
-- [[owner-publications]] — academic publications; NeurIPS, IWAN/Springer
+- [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
+- [[owner/publications]] — academic publications; NeurIPS, IWAN/Springer
 
 ## Topics & Themes
 - [[agentic-ai]] — LLMs that take autonomous actions; multi-agent, tool use, MCP, A2A

@@ -17,6 +17,7 @@ AMI Labs (Advanced Machine Intelligence Labs) — building world-model architect
 - **World models over LLMs**: believes general intelligence requires systems that build internal models of how the world works, not systems that predict next tokens — [[wikipedia-yann-lecun]]; proposed JEPA as the specific architecture — [[lecun-path-autonomous-machine-intelligence]]
 - **Open-source AI**: strong advocate for open-source AI development; frequently clashes with those calling for AI restrictions [unsourced beyond general knowledge — needs ingestion]
 - **AI safety skepticism**: pushes back on AI existential risk framing [unsourced — needs ingestion]
+- **Publicly attacks Musk and Amodei**: April 2026 lecture circulating widely on X; LeCun names both in critique of LLM scaling thesis — [[thread-phosphenq-lecun-lecture]]
 
 ## Key Contributions
 - **LeNet / CNNs** (Bell Labs, 1980s–90s): convolutional neural networks for image recognition; deployed commercially for bank check recognition
