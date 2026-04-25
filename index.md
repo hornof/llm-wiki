@@ -15,6 +15,7 @@
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 
 ## Concepts & Techniques
+- [[constitutional-ai]] — Anthropic's training methodology; replaces human harmlessness labels with AI-generated feedback (RLAIF); foundation of Claude's training
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
 - [[spatial-intelligence]] — Fei-Fei Li's thesis: 3D world understanding complements (not replaces) LLMs; "wordsmiths in the dark"; World Labs / Marble
@@ -34,6 +35,7 @@
 - [[orewadeveloper]] — AI practitioner; built LLM Wiki end-to-end and documented it across Reddit, YouTube, Medium
 
 ## Companies & Labs
+- [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
 - [[luma-ai]] — multimodal AGI lab; Dream Machine, Uni-1, Luma Agents; $900M Series C; generative unified latent space

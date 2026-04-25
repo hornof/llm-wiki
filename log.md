@@ -4,6 +4,7 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 
 ---
 
+2026-04-24 | ingest | anthropic-constitutional-ai-research + anthropic-claudes-constitution (Anthropic research page + model spec) | constitutional-ai (new), anthropic (new)
 2026-04-21 | init | Wiki created with CLAUDE.md schema, index, and directory structure | —
 2026-04-21 | ingest | karpathy-llm-wiki-overview (Medium article) | andrej-karpathy, llm-wiki-pattern, rag, obsidian, claude-code
 2026-04-21 | ingest | reddit-llm-wiki-weekend-build (r/AI_Agents, 74 upvotes) | llm-wiki-pattern (updated), rag (updated), orewadeveloper (new), mem0 (new)
