@@ -27,6 +27,8 @@
 
 ## People & Voices
 - [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
+- [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute
+- [[aakashgupta]] — X/product analyst; AI company strategy and management coverage
 - [[demis-hassabis]] — CEO Google DeepMind; Nobel laureate; strict AGI definition; Einstein Test
 - [[yann-lecun]] — CNN inventor; Turing Award; founder AMI Labs; "LLMs are a dead end for superintelligence"
 - [[andrej-karpathy]] — AI researcher/educator; proposed the LLM Wiki pattern
@@ -37,6 +39,7 @@
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
 - [[luma-ai]] — multimodal AGI lab; Dream Machine, Uni-1, Luma Agents; $900M Series C; generative unified latent space
@@ -46,7 +49,7 @@
 - [[agi-debate.canvas]] — visual map of the AGI debate: LeCun vs. Hassabis vs. Karpathy
 
 ## Tutorials & Hands-On
-<!-- tutorial pages go here -->
+- [[tutorials/writing-claude-code-skills]] — 6-pattern framework for effective Claude Code slash commands; skill structure, output formats, progressive disclosure
 
 ## Sources & References
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)

@@ -30,6 +30,17 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
 - **Context clearing**: Use `/clear` between distinct tasks; fresh context reduces hallucinations and token burn
 - **Model tiering**: Drop to Haiku for simple formatting/parsing; reserve Sonnet/Opus for complex reasoning
 
+## Skill Writing (slash commands)
+Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. Six patterns that separate working skills from ones that never fire — [[zodchiii-anatomy-perfect-skill]]:
+1. **Description = WHEN, not just WHAT**: Include trigger keywords; front-load use case in first 250 chars; under 50 chars → 3-5x fewer invocations
+2. **Directive, not conversational**: Imperative verbs + numbered steps
+3. **Explicit output format**: Without it, Claude invents a new format every time
+4. **"Read first" step**: Tell Claude to inspect existing project files before generating
+5. **Define out of scope**: Prevents wrong-skill routing; appears in 70% of high-quality skills
+6. **Under 500 lines**: Use progressive disclosure (sub-files loaded only when referenced)
+
+See [[tutorials/writing-claude-code-skills]] for a full walkthrough.
+
 ## Compared To
 - Cursor / Windsurf: IDE-based, better for interactive coding; Claude Code is terminal-native and better for agentic/autonomous tasks
 - ChatGPT / Claude.ai: web interfaces without persistent filesystem access
@@ -40,3 +51,5 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
 ## Resources
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern
 - [[reddit-3-things-claude-output-quality]] — April 2026 practitioner thread; community-validated tips and workflow patterns
+- [[zodchiii-anatomy-perfect-skill]] — April 2026 thread; 6-pattern framework for effective skills
+- [[tutorials/writing-claude-code-skills]] — full skill-writing walkthrough

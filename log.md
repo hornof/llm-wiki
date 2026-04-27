@@ -4,6 +4,7 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 
 ---
 
+2026-04-26 | ingest | post-aakashgupta-jensen-huang-management + zodchiii-anatomy-perfect-skill (2 X posts) | jensen-huang (new), nvidia (new), aakashgupta (new), writing-claude-code-skills tutorial (new), claude-code (updated: skill patterns)
 2026-04-25 | ingest | hamming-you-and-your-research (1986 Bellcore talk, paulgraham.com mirror) | richard-hamming (new), doing-great-work (new)
 2026-04-24 | ingest | anthropic-constitutional-ai-research + anthropic-claudes-constitution (Anthropic research page + model spec) | constitutional-ai (new), anthropic (new)
 2026-04-21 | init | Wiki created with CLAUDE.md schema, index, and directory structure | —
