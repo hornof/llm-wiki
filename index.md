@@ -26,6 +26,7 @@
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 
 ## People & Voices
+- [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
 - [[demis-hassabis]] — CEO Google DeepMind; Nobel laureate; strict AGI definition; Einstein Test
 - [[yann-lecun]] — CNN inventor; Turing Award; founder AMI Labs; "LLMs are a dead end for superintelligence"
 - [[andrej-karpathy]] — AI researcher/educator; proposed the LLM Wiki pattern
@@ -56,3 +57,4 @@
 
 ## Topics & Themes
 - [[agentic-ai]] — LLMs that take autonomous actions; multi-agent, tool use, MCP, A2A
+- [[doing-great-work]] — Hamming's principles for first-class research; compounding effort, important problems, open doors, field rotation
