@@ -30,17 +30,9 @@ All 4 auto-fixable items from the prior report were resolved:
 
 ## Remaining Issues
 
-### Missing Pages: `hot-cache`, `claude-canvas`, `agrici-daniel` (carry-over)
+### ~~Missing Pages: `hot-cache`, `claude-canvas`, `agrici-daniel`~~ — CLOSED
 
-The `2026-04-21` ingest log records these three pages as created from `_raw/github-claude-obsidian.md`, but no files exist for any of them. They appear to have been created in a session that was not committed.
-
-- `hot-cache` — Claude Code / LLM Wiki caching concept
-- `claude-canvas` — feature of the claude-obsidian plugin
-- `agrici-daniel` — author of the claude-obsidian plugin (2,626 GitHub stars)
-
-**Recommendation**: re-ingest `_raw/github-claude-obsidian.md` (force) to recreate these pages properly.
-
-**Status**: awaiting owner decision.
+These were intentionally deleted on 2026-04-24 as part of removing the claude-obsidian effort (owner's first wiki setup attempt, superseded by the orewadeveloper tutorial approach). The `_raw/github-claude-obsidian.md` source file was also deleted on 2026-04-27. No action needed.
 
 ---
 
