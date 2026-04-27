@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-04-24
+last_updated: 2026-04-26
 ---
 
 ## What It Is

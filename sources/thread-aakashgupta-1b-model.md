@@ -23,3 +23,4 @@ Twitter thread by @aakashgupta summarizing Karpathy's claim (made to Dwarkesh Pa
 ## Pages Updated
 - [[andrej-karpathy]]
 - [[training-data-quality]]
+- [[aakashgupta]]

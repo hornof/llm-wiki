@@ -77,6 +77,10 @@ Multiple labs at active-research stage with diverging architectures:
 - **Fei-Fei/World Labs**: Marble prototype demonstrated; focused on 3D spatial reasoning
 - **Luma/Uni-1**: Uni-1 shipped March 2026; deployed in production (Dream Machine, Luma Agents); outscores Google/OpenAI on reasoning benchmarks at 30% lower cost
 
+## Terminology Note
+
+"World model" is also used in organizational/business contexts to mean an AI-maintained operational picture of a company's internal state — as in [[block]]'s architecture. That usage is entirely distinct from the ML/AGI sense described on this page. See [[ai-native-organizations]] for that thread.
+
 ## Resources
 - [[lecun-path-autonomous-machine-intelligence]] — PRIMARY SOURCE: the 2022 JEPA paper
 - [[yann-lecun]] — architect of the JEPA approach

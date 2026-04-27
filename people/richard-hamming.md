@@ -30,3 +30,8 @@ Deceased (1998). Primary legacy: error-correcting codes and the essay/talk "You 
 - Talk transcript: https://paulgraham.com/hamming.html (Paul Graham mirror)
 - Original source: Bellcore talk, March 7, 1986
 - Book: *The Art of Doing Science and Engineering* (1997)
+
+## Resources
+
+- [[hamming-you-and-your-research]] — primary source; full talk transcript
+- [[doing-great-work]] — topics page synthesizing his principles for AI engineering context
