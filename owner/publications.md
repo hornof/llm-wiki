@@ -134,4 +134,4 @@ last_updated: 2026-04-22
 
 ## Related Pages
 
-- [[owner-profile]] — bio, career summary, social links
+- [[owner/profile]] — bio, career summary, social links

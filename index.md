@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Tools & Frameworks
+- [[goose]] — Block's agent coding harness; AI-native tooling dogfooded internally since early 2024
 - [[claude-code]] — Anthropic's CLI/agentic coding tool; recommended layer for LLM Wiki workflows
 - [[crewai]] — Python framework for multi-agent role-playing workflows
 - [[langchain]] — agent engineering platform; broad LLM application framework
@@ -15,6 +16,7 @@
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 
 ## Concepts & Techniques
+- [[ai-native-organizations]] — replacing corporate hierarchy with AI world models; Block's architecture; DRIs and player-coaches
 - [[constitutional-ai]] — Anthropic's training methodology; replaces human harmlessness labels with AI-generated feedback (RLAIF); foundation of Claude's training
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 5–10 year timeline
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
@@ -26,6 +28,7 @@
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 
 ## People & Voices
+- [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
 - [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
 - [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute
 - [[aakashgupta]] — X/product analyst; AI company strategy and management coverage
@@ -39,6 +42,7 @@
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
