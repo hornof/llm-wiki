@@ -8,7 +8,7 @@ ingested: 2026-04-29
 
 ## Summary
 
-Forbes' inaugural AI 50 Brink List spotlights 20 early-stage (Seed and Series A) AI startups that are promising but just below the AI 50 cut. Published April 16, 2026. The 20 companies have raised over $3.5 billion in Seed/Series A funding combined. Average company age at time of listing: 24 months. This list is explicitly a "future pipeline" view — early signals of where the industry may go. See also the companion [[sources/forbes-ai-50-2026|Forbes AI 50 2026]] for the main list.
+Forbes' inaugural AI 50 Brink List spotlights 20 early-stage (Seed and Series A) AI startups that are promising but just below the AI 50 cut. Published April 16, 2026. The 20 companies have raised over $3.5 billion in Seed/Series A funding combined. Average company age at time of listing: 24 months. This list is explicitly a "future pipeline" view — early signals of where the industry may go. See also the companion [[forbes-ai-50-2026|Forbes AI 50 2026]] for the main list.
 
 ## Key Claims / Takeaways
 
@@ -62,4 +62,4 @@ Forbes' inaugural AI 50 Brink List spotlights 20 early-stage (Seed and Series A)
 
 - [[ami-labs]] — Brink List inclusion; healthcare focus confirmed; >$1B raised since 2026 launch
 - [[yann-lecun]] — Brink List mention of AMI Labs and healthcare focus
-- [[topics/ai-50-2026-snapshot]] — neo-labs trend, Brink List context
+- [[ai-50-2026-snapshot]] — neo-labs trend, Brink List context

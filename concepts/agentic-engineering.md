@@ -53,13 +53,13 @@ See [[vibe-coding]]. Vibe coding raises the floor; agentic engineering raises th
 
 ## Solo Operator Vision (Naval's Reinforcement)
 
-Naval Ravikant (April 2026) articulates the same capability from an investor/founder perspective: a 1-person company operating at the velocity of a 50-person team via agents. Users report bugs → agent reviews → agent writes fixes, opens PRs, runs tests → founder reviews and ships. No coordination overhead, no political compromise, no vision diluted by committee. This is the market-facing consequence of agentic engineering applied to product companies. See [[topics/saas-disruption-thesis]] and [[sources/naval-ravikant-saas-is-next]].
+Naval Ravikant (April 2026) articulates the same capability from an investor/founder perspective: a 1-person company operating at the velocity of a 50-person team via agents. Users report bugs → agent reviews → agent writes fixes, opens PRs, runs tests → founder reviews and ships. No coordination overhead, no political compromise, no vision diluted by committee. This is the market-facing consequence of agentic engineering applied to product companies. See [[saas-disruption-thesis]] and [[naval-ravikant-saas-is-next]].
 
 ## The Missing "Why" Layer (Chamath, April 2026)
 
-Chamath Palihapitiya identifies a team-level gap that individual agent speed gains don't solve: architectural reasoning (the "why" behind decisions) typically lives in Slack threads, Linear tickets, or individual heads. Individual engineers can go faster with AI, but team collective knowledge doesn't compound — so the team goes the same speed or slower. The implication for agentic engineering: agents need access to decision context, not just code. A good multiplayer AI dev experience must capture the reasoning layer, not only accelerate the execution layer. — [[sources/chamath-decision-context-agents]]
+Chamath Palihapitiya identifies a team-level gap that individual agent speed gains don't solve: architectural reasoning (the "why" behind decisions) typically lives in Slack threads, Linear tickets, or individual heads. Individual engineers can go faster with AI, but team collective knowledge doesn't compound — so the team goes the same speed or slower. The implication for agentic engineering: agents need access to decision context, not just code. A good multiplayer AI dev experience must capture the reasoning layer, not only accelerate the execution layer. — [[chamath-decision-context-agents]]
 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
-- [[sources/naval-ravikant-saas-is-next]] — Naval's investor framing of the solo-operator outcome; "pure software is uninvestable"
-- [[sources/chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer for team AI leverage
+- [[naval-ravikant-saas-is-next]] — Naval's investor framing of the solo-operator outcome; "pure software is uninvestable"
+- [[chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer for team AI leverage

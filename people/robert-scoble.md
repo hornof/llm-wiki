@@ -16,8 +16,8 @@ Unaligned Newsletter — weekly analysis of AI and spatial computing companies a
 
 ## Notable Takes
 
-- **AI-native companies**: "businesses designed around AI from the beginning rather than adding AI to old workflows... smaller teams, automated processes, AI agents to move faster, reduce manual work, scale output without growing headcount at the same pace" — [[sources/scobleizer-ai-native-companies]]
-- **Human + AI balance**: "The strongest companies will combine this speed with human judgment, strong governance, clear oversight, and accountability" — [[sources/scobleizer-ai-native-companies]]
+- **AI-native companies**: "businesses designed around AI from the beginning rather than adding AI to old workflows... smaller teams, automated processes, AI agents to move faster, reduce manual work, scale output without growing headcount at the same pace" — [[scobleizer-ai-native-companies]]
+- **Human + AI balance**: "The strongest companies will combine this speed with human judgment, strong governance, clear oversight, and accountability" — [[scobleizer-ai-native-companies]]
 
 ## Where to Follow
 

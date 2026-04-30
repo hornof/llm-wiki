@@ -13,10 +13,10 @@ Safe Superintelligence (SSI) is an AI research company (founded 2024, Palo Alto)
 
 ## Traction Signals
 
-- $3B raised — third largest funding on Forbes 2026 AI 50 after OpenAI and Anthropic — [[sources/forbes-ai-50-2026]]
+- $3B raised — third largest funding on Forbes 2026 AI 50 after OpenAI and Anthropic — [[forbes-ai-50-2026]]
 - Forbes 2026 AI 50 inclusion
 
 ## Resources
 
-- [[sources/forbes-ai-50-2026]] — AI 50 list inclusion, funding
-- [[topics/ai-50-2026-snapshot]] — landscape context
+- [[forbes-ai-50-2026]] — AI 50 list inclusion, funding
+- [[ai-50-2026-snapshot]] — landscape context

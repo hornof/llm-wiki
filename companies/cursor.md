@@ -15,13 +15,13 @@ Cursor sits in a market now also contested by Anthropic's Claude Code and OpenAI
 
 ## Traction Signals
 
-- $3.3B raised; $29.3B valuation — [[sources/forbes-ai-50-2026]]
+- $3.3B raised; $29.3B valuation — [[forbes-ai-50-2026]]
 - Forbes 2026 AI 50 inclusion
 - Named alongside Claude Code (Anthropic) and Codex (OpenAI) as the primary players in the coding agent market
 - Substantial valuation despite competitive pressure from Anthropic and OpenAI directly
 
 ## Resources
 
-- [[sources/forbes-ai-50-2026]] — AI 50 coverage; competitive framing with Claude Code and Codex
+- [[forbes-ai-50-2026]] — AI 50 coverage; competitive framing with Claude Code and Codex
 - [[claude-code]] — direct competitor
-- [[topics/ai-50-2026-snapshot]] — coding agents sector analysis
+- [[ai-50-2026-snapshot]] — coding agents sector analysis

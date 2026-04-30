@@ -13,14 +13,14 @@ World Labs is a spatial intelligence AI startup founded by [[fei-fei-li]] and ba
 
 Li co-founded World Labs after going on partial leave from Stanford in January 2024. The founding thesis: spatial intelligence is the major missing capability in current AI — current multimodal LLMs "rarely perform better than chance on estimating distance, orientation, and size." World Labs aims to build models that can perceive, reason about, and generate 3D environments, grounding AI in the physical world.
 
-In Li's words: "I am co-founder and CEO of World Labs. We are building the next frontier of AI — spatial intelligence — which people don't hear too much about today because we're all about large language models. I believe spatial intelligence is as critical [as] — and complementary to — language intelligence." — [[sources/bloomberg-feifei-li-2025]]
+In Li's words: "I am co-founder and CEO of World Labs. We are building the next frontier of AI — spatial intelligence — which people don't hear too much about today because we're all about large language models. I believe spatial intelligence is as critical [as] — and complementary to — language intelligence." — [[bloomberg-feifei-li-2025]]
 
 ## Funding
 
-- **$230M** raised ahead of public launch in 2024 — [[sources/bloomberg-feifei-li-2025]]
-- NEA led a $100M round; valuation exceeded $1B at that point (TechCrunch, August 2024) — [[sources/bloomberg-feifei-li-2025]]
-- **$1B total raised** as of 2026 — [[sources/forbes-ai-50-2026]]
-- Listed on **Forbes 2026 AI 50** — [[sources/forbes-ai-50-2026]]
+- **$230M** raised ahead of public launch in 2024 — [[bloomberg-feifei-li-2025]]
+- NEA led a $100M round; valuation exceeded $1B at that point (TechCrunch, August 2024) — [[bloomberg-feifei-li-2025]]
+- **$1B total raised** as of 2026 — [[forbes-ai-50-2026]]
+- Listed on **Forbes 2026 AI 50** — [[forbes-ai-50-2026]]
 
 ## Key Product: Marble
 
@@ -36,7 +36,7 @@ In Li's words: "I am co-founder and CEO of World Labs. We are building the next 
 - **Robotics simulation**: generate training and evaluation data for robot learning (physically consistent worlds for sim-to-real transfer)
 - **AR/VR education**: immersive learning environments — Li's example: "walk into a cell" to understand nucleus, enzymes, membranes
 
-Li on Marble's broader vision: "The ability to create a 3D world is fundamental to humans. I hope one day it's fundamental to AI." — [[sources/bloomberg-feifei-li-2025]]
+Li on Marble's broader vision: "The ability to create a 3D world is fundamental to humans. I hope one day it's fundamental to AI." — [[bloomberg-feifei-li-2025]]
 
 ## Technical Thesis
 
@@ -58,7 +58,7 @@ Compare the world-model approaches:
 - **Li / World Labs / Marble**: 3D spatial geometry; generative; builds on top of current AI
 - **Luma AI / Uni-1**: unified latent space across all modalities; also generative
 
-See [[concepts/world-models]] for the full comparison.
+See [[world-models]] for the full comparison.
 
 ## Competitive Landscape
 
@@ -76,8 +76,8 @@ World Labs sits at the intersection of two research traditions Li drew on for Im
 
 ## Resources
 
-- [[sources/bloomberg-feifei-li-2025]] — PRIMARY SOURCE: full Bloomberg Weekend Interview (Nov 2025); founding story, Marble, spatial intelligence thesis, AGI stance
-- [[sources/forbes-ai-50-2026]] — AI 50 list inclusion; $1B total funding
+- [[bloomberg-feifei-li-2025]] — PRIMARY SOURCE: full Bloomberg Weekend Interview (Nov 2025); founding story, Marble, spatial intelligence thesis, AGI stance
+- [[forbes-ai-50-2026]] — AI 50 list inclusion; $1B total funding
 - [[fei-fei-li]] — founder profile with full context
-- [[concepts/spatial-intelligence]] — deep dive on the spatial intelligence concept
-- [[concepts/world-models]] — comparative analysis of world-model architectures (LeCun vs. Li vs. Luma)
+- [[spatial-intelligence]] — deep dive on the spatial intelligence concept
+- [[world-models]] — comparative analysis of world-model architectures (LeCun vs. Li vs. Luma)

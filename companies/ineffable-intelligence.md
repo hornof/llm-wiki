@@ -36,4 +36,4 @@ Ineffable Intelligence was the third $1B+ raise in two months by a senior AI res
 
 ## Resources
 
-- [[sources/ric-rtp-david-silver-ineffable]] — primary source; thread covering Silver's background, thesis, and funding
+- [[ric-rtp-david-silver-ineffable]] — primary source; thread covering Silver's background, thesis, and funding

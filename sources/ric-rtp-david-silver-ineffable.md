@@ -24,8 +24,9 @@ Long-form Twitter thread by @Ric_RTP summarizing David Silver's departure from G
 
 ## Pages Updated
 
-- [[companies/ineffable-intelligence]] — created
-- [[people/david-silver]] — created
-- [[companies/ami-labs]] — added cross-reference to "resume raises" trend
-- [[companies/thinking-machines-lab]] — added cross-reference to "resume raises" trend
-- [[concepts/agi]] — added Silver/Ineffable Intelligence framing as fourth position in the AGI debate
+- [[ineffable-intelligence]] — created
+- [[david-silver]] — created
+- [[ami-labs]] — added cross-reference to "resume raises" trend
+- [[thinking-machines-lab]] — added cross-reference to "resume raises" trend
+- [[agi]] — added Silver/Ineffable Intelligence framing as fourth position in the AGI debate
+- [[world-models]] — added Silver's RL-from-self-play as a distinct fourth position in the architecture debate (alongside LeCun JEPA, Hassabis simulation, Luma generative)

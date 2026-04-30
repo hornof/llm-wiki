@@ -11,7 +11,7 @@ Mistral AI is a French AI startup (founded 2023, Paris) that develops open-weigh
 
 ## Key Signals
 
-- **Forbes 2026 AI 50** inclusion — [[sources/forbes-ai-50-2026]]
+- **Forbes 2026 AI 50** inclusion — [[forbes-ai-50-2026]]
 - Customers include Cisco and European government agencies; local (French/European) roots are described as a "winning differentiator" for government buyers
 - Valued at $14B (per Forbes accompanying feature)
 - Open-weight models compete directly with DeepSeek as an "American-friendly" alternative on the open-source side, and with proprietary models on performance
@@ -22,5 +22,5 @@ The Forbes AI 50 coverage calls out Mistral explicitly as a geopolitical play: E
 
 ## Resources
 
-- [[sources/forbes-ai-50-2026]] — AI 50 list inclusion, funding, government customer angle
-- [[topics/ai-50-2026-snapshot]] — open-source as geopolitical play framing
+- [[forbes-ai-50-2026]] — AI 50 list inclusion, funding, government customer angle
+- [[ai-50-2026-snapshot]] — open-source as geopolitical play framing

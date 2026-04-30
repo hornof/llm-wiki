@@ -20,7 +20,7 @@ Sequoia Capital's AI Ascent 2026 conference. The source file is a stub — a You
 > [!note] Placeholder ingest — partially resolved
 > This source was ingested as a stub. The raw file contains only a playlist URL and speaker list — no talk content, quotes, or claims. Re-ingest individual session transcripts from the playlist to populate entity pages with sourced takeaways.
 >
-> **Update (2026-04-29)**: Konstantine Buhler (Sequoia partner) confirmed the Demis Hassabis fireside chat is now publicly available (seq.vc/goj). The Hassabis session content is documented in [[sources/hassabis-deepmind-alphafold-agi]]. See [[sources/konstantine-hassabis-ai-ascent-fireside]] for the announcement.
+> **Update (2026-04-29)**: Konstantine Buhler (Sequoia partner) confirmed the Demis Hassabis fireside chat is now publicly available (seq.vc/goj). The Hassabis session content is documented in [[hassabis-deepmind-alphafold-agi]]. See [[konstantine-hassabis-ai-ascent-fireside]] for the announcement.
 
 ## Pages Updated
 

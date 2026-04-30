@@ -15,11 +15,11 @@ Trains foundation models for robotics using human teleoperator data collected in
 
 ## Traction Signals
 
-- $1B in funding — [[sources/forbes-ai-50-2026]]
+- $1B in funding — [[forbes-ai-50-2026]]
 - Forbes 2026 AI 50 inclusion
 - Robotics foundation model space is nascent; one of a small number of well-funded players alongside Skild AI ($2B)
 
 ## Resources
 
-- [[sources/forbes-ai-50-2026]] — AI 50 list inclusion, funding, approach
-- [[topics/ai-50-2026-snapshot]] — robotics cluster context
+- [[forbes-ai-50-2026]] — AI 50 list inclusion, funding, approach
+- [[ai-50-2026-snapshot]] — robotics cluster context

@@ -19,9 +19,9 @@ Konstantine Buhler (Sequoia partner) announces that a fireside chat with Demis H
 
 ## Notes
 
-This source confirms the Hassabis session at AI Ascent is now public. It supplements [[sources/ai-ascent-2026]] (previously a stub). The actual Hassabis content is already extensively documented in [[sources/hassabis-deepmind-alphafold-agi]] — this post adds no new factual claims but confirms the AI Ascent session as the source for that content.
+This source confirms the Hassabis session at AI Ascent is now public. It supplements [[ai-ascent-2026]] (previously a stub). The actual Hassabis content is already extensively documented in [[hassabis-deepmind-alphafold-agi]] — this post adds no new factual claims but confirms the AI Ascent session as the source for that content.
 
 ## Pages Updated
 
-- [[sources/ai-ascent-2026]] — updated to note Hassabis fireside is now confirmed public; add Konstantine Buhler as the Sequoia host
-- [[people/demis-hassabis]] — no new factual claims; session publicly available
+- [[ai-ascent-2026]] — updated to note Hassabis fireside is now confirmed public; add Konstantine Buhler as the Sequoia host
+- [[demis-hassabis]] — no new factual claims; session publicly available

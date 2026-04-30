@@ -41,7 +41,7 @@ Note: This source is a third-party summary of Naval's podcast remarks, not a dir
 
 ## Pages Updated
 
-- [[people/naval-ravikant]] — created
-- [[topics/saas-disruption-thesis]] — created
-- [[tools/claude-code]] — added traction signal from Naval source
-- [[concepts/agentic-engineering]] — added Naval's solo-operator vision as a reinforcing data point
+- [[naval-ravikant]] — created
+- [[saas-disruption-thesis]] — created
+- [[claude-code]] — added traction signal from Naval source
+- [[agentic-engineering]] — added Naval's solo-operator vision as a reinforcing data point

@@ -23,11 +23,11 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - ChatGPT has largest consumer AI user base
 - GPT-Image-2 launch (April 2026) received strong community reaction — [[thread-minchoi-gpt-image-2]]
 - Inference costs for GPT-3.5 level performance fell 280x (2022–2024) — [[thread-aakashgupta-1b-model]]
-- **Forbes 2026 AI 50**: $182.6B total funding; annualized revenue >$25B as of February 2026 — [[sources/forbes-ai-50-2026]]
-- Codex product named alongside Anthropic's Claude Code as dominant tools in the coding agent market, pressuring standalone players like Cursor — [[sources/forbes-ai-50-2026]]
-- xAI (Elon Musk) acquired by SpaceX, removing a competitor from the private AI list — [[sources/forbes-ai-50-2026]]
+- **Forbes 2026 AI 50**: $182.6B total funding; annualized revenue >$25B as of February 2026 — [[forbes-ai-50-2026]]
+- Codex product named alongside Anthropic's Claude Code as dominant tools in the coding agent market, pressuring standalone players like Cursor — [[forbes-ai-50-2026]]
+- xAI (Elon Musk) acquired by SpaceX, removing a competitor from the private AI list — [[forbes-ai-50-2026]]
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — GPT-Image-2 launch
 - [[thread-aakashgupta-1b-model]] — efficiency trends referencing GPT-4o vs. GPT-4
-- [[sources/forbes-ai-50-2026]] — Forbes 2026 AI 50; revenue and funding data
+- [[forbes-ai-50-2026]] — Forbes 2026 AI 50; revenue and funding data

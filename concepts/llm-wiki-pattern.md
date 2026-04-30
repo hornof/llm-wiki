@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-04-24
+last_updated: 2026-04-29
 
 ---
 

@@ -8,7 +8,7 @@ last_updated: 2026-04-29
 
 A landscape snapshot of the private AI company ecosystem as captured by Forbes' 2026 AI 50 list and its companion Brink List, published April 2026. Together, the two lists cover 70 companies: 50 established players and 20 early-stage startups. This page synthesizes the structural signals visible in both lists.
 
-Sources: [[sources/forbes-ai-50-2026]], [[sources/ai-50-brink-list-2026]]
+Sources: [[forbes-ai-50-2026]], [[ai-50-brink-list-2026]]
 
 ## Scale of Capital
 
@@ -31,7 +31,7 @@ Competing for the remaining ~20% of capital, plus their own growth. Top funded i
 ## Sector Themes Visible in the 2026 List
 
 **Coding agents are a major battleground**
-Claude Code (Anthropic), Codex (OpenAI), Cursor ($29.3B valuation), Cognition ($10B, acquired Windsurf), and Replit ($880M) are all competing for the same developer market. The coding layer has become the clearest commercial battleground in AI. See [[companies/cursor]], [[claude-code]].
+Claude Code (Anthropic), Codex (OpenAI), Cursor ($29.3B valuation), Cognition ($10B, acquired Windsurf), and Replit ($880M) are all competing for the same developer market. The coding layer has become the clearest commercial battleground in AI. See [[cursor]], [[claude-code]].
 
 **Drug discovery is a serious cluster**
 Chai Discovery ($225M), [[isomorphic-labs]] (Google DeepMind spin-out), and Physical Intelligence (robotics-adjacent) represent the AI-for-science thesis playing out commercially. AlphaFold provided the foundation. See [[ai-for-science]], [[alphafold]].
@@ -46,7 +46,7 @@ Reflection (Brooklyn, $8B valuation, open-source) is explicitly framed as the Am
 EliseAI (property management + healthcare), Harvey ($1B, legal), Legora ($815M, legal), Decagon ($481M, customer service), Sierra ($635M, customer service), Glean ($770M, enterprise search), Abridge ($830M, medical notes) — each targeting a single vertical with deep automation.
 
 **Spatial intelligence and world models**
-[[companies/world-labs]] ($1B, [[fei-fei-li]]'s company) is on the main list. AMI Labs ([[ami-labs]], [[yann-lecun]]'s company) is on the Brink List. Both challenge the pure LLM paradigm, though from different angles.
+[[world-labs]] ($1B, [[fei-fei-li]]'s company) is on the main list. AMI Labs ([[ami-labs]], [[yann-lecun]]'s company) is on the Brink List. Both challenge the pure LLM paradigm, though from different angles.
 
 ## Consolidation Events (Former AI 50 Companies Lost in 2025–2026)
 
@@ -79,18 +79,18 @@ Brink List: 3 of 20 female-led (Ricursive Intelligence/Anna Goldie, Axiom/Carina
 - [[fei-fei-li]] — World Labs founder
 - [[yann-lecun]] — AMI Labs co-founder
 - [[sequoia-capital]] — investor in Reflection
-- [[companies/world-labs]] — on AI 50
-- [[companies/mistral-ai]] — on AI 50
-- [[companies/physical-intelligence]] — on AI 50
-- [[companies/safe-superintelligence]] — on AI 50
-- [[companies/thinking-machines-lab]] — on AI 50
-- [[companies/reflection]] — on AI 50
-- [[companies/cursor]] — on AI 50
+- [[world-labs]] — on AI 50
+- [[mistral-ai]] — on AI 50
+- [[physical-intelligence]] — on AI 50
+- [[safe-superintelligence]] — on AI 50
+- [[thinking-machines-lab]] — on AI 50
+- [[reflection]] — on AI 50
+- [[cursor]] — on AI 50
 
 ## Related Pages
 
-- [[sources/forbes-ai-50-2026]] — full AI 50 list with funding data
-- [[sources/ai-50-brink-list-2026]] — Brink List; 20 early-stage companies
+- [[forbes-ai-50-2026]] — full AI 50 list with funding data
+- [[ai-50-brink-list-2026]] — Brink List; 20 early-stage companies
 - [[agi]] — the long-term target most of these companies claim to be working toward
 - [[ai-for-science]] — theme spanning Isomorphic Labs, Chai Discovery, Periodic Labs
 - [[spatial-intelligence]] — World Labs and AMI Labs both relevant

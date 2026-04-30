@@ -74,10 +74,10 @@
 - [[world-labs]] — Fei-Fei Li's spatial-AI lab; $1B raised; on Forbes 2026 AI 50
 
 ## Canvases
-- [[agi-debate.canvas]] — visual map of the AGI debate: LeCun vs. Hassabis vs. Karpathy
+- [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
 
 ## Tutorials & Hands-On
-- [[tutorials/writing-claude-code-skills]] — 6-pattern framework for effective Claude Code slash commands; skill structure, output formats, progressive disclosure
+- [[writing-claude-code-skills]] — 6-pattern framework for effective Claude Code slash commands; skill structure, output formats, progressive disclosure
 
 ## Sources & References
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)

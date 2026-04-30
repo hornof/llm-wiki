@@ -16,9 +16,9 @@ Building [[ineffable-intelligence]] — a "superlearner" AI that discovers knowl
 
 ## Notable Takes
 
-- **LLMs have a hard ceiling**: ChatGPT, Claude, Gemini, and Grok can "remix human knowledge" but "CANNOT discover something genuinely new" because their training signal is human-generated text — [[sources/ric-rtp-david-silver-ineffable]]
-- **RL from self-play is the path**: the approach behind AlphaGo/AlphaZero/AlphaStar — learning only from rules and self-play — is the only demonstrated path to discovering knowledge beyond the human frontier — [[sources/ric-rtp-david-silver-ineffable]]
-- **Mission framing**: "To make first contact with superintelligence" — [[sources/ric-rtp-david-silver-ineffable]]
+- **LLMs have a hard ceiling**: ChatGPT, Claude, Gemini, and Grok can "remix human knowledge" but "CANNOT discover something genuinely new" because their training signal is human-generated text — [[ric-rtp-david-silver-ineffable]]
+- **RL from self-play is the path**: the approach behind AlphaGo/AlphaZero/AlphaStar — learning only from rules and self-play — is the only demonstrated path to discovering knowledge beyond the human frontier — [[ric-rtp-david-silver-ineffable]]
+- **Mission framing**: "To make first contact with superintelligence" — [[ric-rtp-david-silver-ineffable]]
 
 ## Where to Follow
 

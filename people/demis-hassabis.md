@@ -35,4 +35,4 @@ Building toward AGI at Google DeepMind, with an explicit 2030 target. Simultaneo
 ## Where to Follow
 - Twitter/X: @demishassabis
 - Google DeepMind: deepmind.google
-- Sequoia AI Ascent 2026 fireside (confirmed public as of 2026-04-29): seq.vc/goj — see [[sources/konstantine-hassabis-ai-ascent-fireside]]
+- Sequoia AI Ascent 2026 fireside (confirmed public as of 2026-04-29): seq.vc/goj — see [[konstantine-hassabis-ai-ascent-fireside]]

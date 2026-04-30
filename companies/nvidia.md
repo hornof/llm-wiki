@@ -23,7 +23,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 - $5 trillion market cap crossed April 2026 — [[post-aakashgupta-jensen-huang-management]]
 - H100/H200 demand consistently outpaces supply; waitlists measured in quarters [unsourced]
 - Blackwell architecture (2025) adopted by all major hyperscalers [unsourced]
-- Investor in Reflection ($8B valuation, open-source model startup competing with DeepSeek) alongside Sequoia and Lightspeed — [[sources/forbes-ai-50-2026]]
+- Investor in Reflection ($8B valuation, open-source model startup competing with DeepSeek) alongside Sequoia and Lightspeed — [[forbes-ai-50-2026]]
 
 ## Management Notes
 

@@ -21,5 +21,5 @@ Chamath Palihapitiya argues that the missing layer in AI-assisted software devel
 
 ## Pages Updated
 
-- [[concepts/agentic-engineering]] — added decision-context capture as a key gap; Chamath's framing
-- [[sources/chamath-decision-context-agents]] — this page
+- [[agentic-engineering]] — added decision-context capture as a key gap; Chamath's framing
+- [[chamath-decision-context-agents]] — this page

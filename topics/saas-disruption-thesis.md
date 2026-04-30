@@ -6,15 +6,15 @@ last_updated: 2026-04-29
 
 ## What This Is
 
-The emerging investment and strategic view that AI is commoditizing software execution fast enough to structurally threaten most SaaS business models — not by improving incumbents, but by enabling AI-native replacements built with radically smaller teams at radically lower cost. The thesis is most crisply stated by [[people/naval-ravikant]] (April 2026): **"pure software is uninvestable."**
+The emerging investment and strategic view that AI is commoditizing software execution fast enough to structurally threaten most SaaS business models — not by improving incumbents, but by enabling AI-native replacements built with radically smaller teams at radically lower cost. The thesis is most crisply stated by [[naval-ravikant]] (April 2026): **"pure software is uninvestable."**
 
-Source: [[sources/naval-ravikant-saas-is-next]]
+Source: [[naval-ravikant-saas-is-next]]
 
 ## The Core Mechanism
 
 Traditional SaaS businesses exist because technical execution was hard. Capital was raised because building required a team. The moat — whether stated or not — was the difficulty of replication.
 
-That difficulty is collapsing. Per the Naval source: a 2-person team using [[tools/claude-code]] can replicate 80% of most B2B SaaS products in under 90 days. Not a toy version — a working product with proper architecture, basic security, and room to scale. The remaining 20% (specific integrations, enterprise sales motion, compliance stack) is friction, not a moat. Friction gets compressed by the next generation of agents every quarter.
+That difficulty is collapsing. Per the Naval source: a 2-person team using [[claude-code]] can replicate 80% of most B2B SaaS products in under 90 days. Not a toy version — a working product with proper architecture, basic security, and room to scale. The remaining 20% (specific integrations, enterprise sales motion, compliance stack) is friction, not a moat. Friction gets compressed by the next generation of agents every quarter.
 
 The argument parallels how mobile disrupted Microsoft: Microsoft's dominance in the prior era convinced them the old paradigm would hold. By the time they accepted touch-native OS requirements, Apple had won the next decade. Microsoft is still worth $3T, but Windows lost the consumer war it could have won.
 
@@ -72,10 +72,10 @@ Thesis: "The next billion-dollar company might have one employee. The next decac
 
 ## Relationship to Adjacent Concepts
 
-- [[concepts/agentic-engineering]] — the technical discipline enabling the solo-operator vision Naval describes; Karpathy's framing of what happens when agents coordinate production-quality software
-- [[concepts/software-3-0]] — Karpathy's paradigm shift framing; "pure software is uninvestable" is the investor-side articulation of the same underlying shift
-- [[concepts/vibe-coding]] — floor-raising complement; Naval's solo-operator vision requires the ceiling-raising of agentic engineering
-- [[tools/claude-code]] — explicitly named in the source as the tool enabling 2-person teams to replicate 80% of SaaS products in 90 days
+- [[agentic-engineering]] — the technical discipline enabling the solo-operator vision Naval describes; Karpathy's framing of what happens when agents coordinate production-quality software
+- [[software-3-0]] — Karpathy's paradigm shift framing; "pure software is uninvestable" is the investor-side articulation of the same underlying shift
+- [[vibe-coding]] — floor-raising complement; Naval's solo-operator vision requires the ceiling-raising of agentic engineering
+- [[claude-code]] — explicitly named in the source as the tool enabling 2-person teams to replicate 80% of SaaS products in 90 days
 
 ## Tracking Signals
 

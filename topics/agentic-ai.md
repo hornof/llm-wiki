@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-04-21
+last_updated: 2026-04-29
 ---
 
 ## What It Is

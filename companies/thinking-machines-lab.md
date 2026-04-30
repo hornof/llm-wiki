@@ -15,7 +15,7 @@ Thinking Machines Lab is an AI research and product company founded in 2025 by M
 
 ## Traction Signals
 
-- $2B raised — [[sources/forbes-ai-50-2026]]
+- $2B raised — [[forbes-ai-50-2026]]
 - Forbes 2026 AI 50 inclusion; described as one of four female-led companies on the list
 - Murati's pedigree (OpenAI CTO who oversaw ChatGPT launch) gives the lab credibility and talent draw
 
@@ -26,10 +26,10 @@ Thinking Machines Lab is one of three $1B+ raises in approximately two months (e
 2. Thinking Machines Lab (Murati) — $2B at $12B
 3. [[ineffable-intelligence]] (David Silver, ex-DeepMind) — $1.1B at $5.1B (April 2026)
 
-— [[sources/ric-rtp-david-silver-ineffable]]
+— [[ric-rtp-david-silver-ineffable]]
 
 ## Resources
 
-- [[sources/forbes-ai-50-2026]] — AI 50 list inclusion, funding, female-led companies context
-- [[topics/ai-50-2026-snapshot]] — landscape context
-- [[sources/ric-rtp-david-silver-ineffable]] — "resume raises" context
+- [[forbes-ai-50-2026]] — AI 50 list inclusion, funding, female-led companies context
+- [[ai-50-2026-snapshot]] — landscape context
+- [[ric-rtp-david-silver-ineffable]] — "resume raises" context

@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-04-26
+last_updated: 2026-04-29
 ---
 
 ## What It Is
@@ -15,7 +15,7 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - Karpathy specifically cites "Claude Code or Codex" as the primary interface for [[agentic-engineering]] — the professional discipline of coordinating agents for production-quality software — [[karpathy-vibe-coding-agentic-engineering]]
 - April 2026 r/claude community actively discusses CLI as displacing standard IDE integrations for agentic tasks — [[reddit-3-things-claude-output-quality]]
 - Multiple practitioners report Claude Code CLI as more token-efficient than MCP-heavy setups
-- Naval Ravikant (April 2026): explicitly cited Claude Code as the tool enabling a 2-person team to replicate 80% of most B2B SaaS products in under 90 days — used as evidence for the "pure software is uninvestable" thesis — [[sources/naval-ravikant-saas-is-next]]
+- Naval Ravikant (April 2026): explicitly cited Claude Code as the tool enabling a 2-person team to replicate 80% of most B2B SaaS products in under 90 days — used as evidence for the "pure software is uninvestable" thesis — [[naval-ravikant-saas-is-next]]
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
@@ -41,7 +41,7 @@ Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. 
 5. **Define out of scope**: Prevents wrong-skill routing; appears in 70% of high-quality skills
 6. **Under 500 lines**: Use progressive disclosure (sub-files loaded only when referenced)
 
-See [[tutorials/writing-claude-code-skills]] for a full walkthrough.
+See [[writing-claude-code-skills]] for a full walkthrough.
 
 ## Compared To
 - Cursor / Windsurf: IDE-based, better for interactive coding; Claude Code is terminal-native and better for agentic/autonomous tasks
@@ -54,4 +54,4 @@ See [[tutorials/writing-claude-code-skills]] for a full walkthrough.
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern
 - [[reddit-3-things-claude-output-quality]] — April 2026 practitioner thread; community-validated tips and workflow patterns
 - [[zodchiii-anatomy-perfect-skill]] — April 2026 thread; 6-pattern framework for effective skills
-- [[tutorials/writing-claude-code-skills]] — full skill-writing walkthrough
+- [[writing-claude-code-skills]] — full skill-writing walkthrough

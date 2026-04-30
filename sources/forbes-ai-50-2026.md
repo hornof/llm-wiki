@@ -8,7 +8,7 @@ ingested: 2026-04-29
 
 ## Summary
 
-Forbes' eighth annual AI 50 list spotlights the most promising privately-held AI companies in the world as of April 2026. OpenAI and Anthropic together have raised $242.6 billion — roughly 80% of the $305.6 billion total raised by all 50 companies. The list includes 20 newcomers and reflects both consolidation (Scale AI, xAI, Windsurf absorbed by acquirers) and explosive growth in coding agents, drug discovery, robotics, and open-source model development. See also the companion [[sources/ai-50-brink-list-2026|AI 50 Brink List]] for early-stage companies just below the cut.
+Forbes' eighth annual AI 50 list spotlights the most promising privately-held AI companies in the world as of April 2026. OpenAI and Anthropic together have raised $242.6 billion — roughly 80% of the $305.6 billion total raised by all 50 companies. The list includes 20 newcomers and reflects both consolidation (Scale AI, xAI, Windsurf absorbed by acquirers) and explosive growth in coding agents, drug discovery, robotics, and open-source model development. See also the companion [[ai-50-brink-list-2026|AI 50 Brink List]] for early-stage companies just below the cut.
 
 ## Key Claims / Takeaways
 
@@ -94,11 +94,11 @@ Forbes' eighth annual AI 50 list spotlights the most promising privately-held AI
 
 - [[anthropic]] — Forbes AI 50 rank, revenue, valuation, Pentagon blacklist
 - [[openai]] — Forbes AI 50 rank, revenue figure
-- [[companies/world-labs]] — funding and list inclusion confirmed
-- [[companies/mistral-ai]] — new stub created
-- [[companies/physical-intelligence]] — new stub created
-- [[companies/safe-superintelligence]] — new stub created
-- [[companies/thinking-machines-lab]] — new stub created
-- [[companies/reflection]] — new stub created
-- [[companies/cursor]] — new stub created
-- [[topics/ai-50-2026-snapshot]] — aggregate landscape page
+- [[world-labs]] — funding and list inclusion confirmed
+- [[mistral-ai]] — new stub created
+- [[physical-intelligence]] — new stub created
+- [[safe-superintelligence]] — new stub created
+- [[thinking-machines-lab]] — new stub created
+- [[reflection]] — new stub created
+- [[cursor]] — new stub created
+- [[ai-50-2026-snapshot]] — aggregate landscape page

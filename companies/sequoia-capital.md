@@ -16,9 +16,9 @@ AI Ascent is Sequoia's AI-focused conference event. The 2026 edition featured sp
 
 ## Portfolio Highlights (2026 AI 50 Context)
 
-- Investor in **Reflection** ($8B valuation; open-source model startup competing with DeepSeek) alongside Nvidia and Lightspeed — [[sources/forbes-ai-50-2026]]
+- Investor in **Reflection** ($8B valuation; open-source model startup competing with DeepSeek) alongside Nvidia and Lightspeed — [[forbes-ai-50-2026]]
 
 ## Resources
 
 - [[ai-ascent-2026]] — Sequoia AI Ascent 2026; YouTube playlist; speaker list only (stub ingest as of 2026-04-29)
-- [[sources/forbes-ai-50-2026]] — Reflection investment noted in AI 50 context
+- [[forbes-ai-50-2026]] — Reflection investment noted in AI 50 context

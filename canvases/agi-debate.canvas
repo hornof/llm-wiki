@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"text-title-1745400000","type":"text","text":"# AGI Debate Landscape\n\nFive camps. One question: what does it actually take to reach general intelligence?","x":-40,"y":-660,"width":560,"height":110,"color":"6"},
+		{"id":"text-title-1745400000","type":"text","text":"# AGI Debate Landscape\n\nSix camps. One question: what does it actually take to reach general intelligence?","x":-40,"y":-660,"width":560,"height":110,"color":"6"},
 		{"id":"zone-lecun-1745400001","type":"group","label":"LeCun — World Models","x":-930,"y":-450,"width":420,"height":620,"color":"1"},
 		{"id":"zone-hassabis-1745400002","type":"group","label":"Hassabis — Continual Learning","x":-450,"y":-450,"width":420,"height":620,"color":"5"},
 		{"id":"zone-karpathy-1745400003","type":"group","label":"Karpathy — Data Quality","x":30,"y":-450,"width":420,"height":620,"color":"3"},
@@ -11,7 +11,7 @@
 		{"id":"file-worldmodels-1745400012","type":"file","file":"concepts/world-models.md","x":-910,"y":-60,"width":180,"height":120},
 		{"id":"file-amilabs-1745400013","type":"file","file":"companies/ami-labs.md","x":-720,"y":-60,"width":180,"height":120},
 		{"id":"file-hassabis-1745400020","type":"file","file":"people/demis-hassabis.md","x":-430,"y":-400,"width":380,"height":100},
-		{"id":"text-hassabis-1745400021","type":"text","text":"**\"Jagged intelligence\"** — current AI excels at some things, fails surprisingly on others.\n\nMissing pieces: continual learning, creativity, curiosity, open-ended goal pursuit.\n\nSets the **Einstein Test** as the bar for AGI. Estimates 5–10 years if progress holds.","x":-430,"y":-280,"width":380,"height":200},
+		{"id":"text-hassabis-1745400021","type":"text","text":"**\"Jagged intelligence\"** — current AI excels at some things, fails surprisingly on others.\n\nMissing pieces: continual learning, creativity, curiosity, open-ended goal pursuit.\n\nSets the **Einstein Test** as the bar for AGI. **AGI by 2030** explicitly (AI Ascent 2026) — sharpened from earlier 5–10 year range. '20-year mission from 2009 — basically on track.'","x":-430,"y":-280,"width":380,"height":200},
 		{"id":"file-agi-1745400022","type":"file","file":"concepts/agi.md","x":-430,"y":-60,"width":180,"height":120},
 		{"id":"file-deepmind-1745400023","type":"file","file":"companies/google-deepmind.md","x":-240,"y":-60,"width":180,"height":120},
 		{"id":"file-karpathy-1745400030","type":"file","file":"people/andrej-karpathy.md","x":50,"y":-400,"width":380,"height":100},
@@ -26,12 +26,18 @@
 		{"id":"text-luma-1745400051","type":"text","text":"**\"Instead of language backbones retrofitting everything, we need a unified, singular latent space.\"**\n\nLuma's Uni-1 model jointly trains on audio, video, image, language, and spatial reasoning — 'think in language, imagine and render in pixels.'\n\nDirectly opposes LeCun: generating in pixel/token space is the path to intelligence. A world model is 'necessary but not sufficient' for AGI.","x":1010,"y":-280,"width":380,"height":200},
 		{"id":"file-lumaai-1745400052","type":"file","file":"companies/luma-ai.md","x":1010,"y":-60,"width":180,"height":120},
 		{"id":"file-lumasource-1745400053","type":"file","file":"sources/cognitive-revolution-luma-worldsim.md","x":1200,"y":-60,"width":180,"height":120},
-		{"id":"text-bottom-1745400060","type":"text","text":"**Where they agree**: current systems are insufficient for general intelligence.\n\n**Where they diverge**:\nLeCun → world models, non-generative (opposes Luma directly)\nHassabis → continual learning + creativity\nKarpathy → data quality over model size\nLi → spatial grounding complements LLMs\nLuma → generative unified latent space","x":-210,"y":230,"width":900,"height":220,"color":"4"}
+		{"id":"zone-silver-1745400006","type":"group","label":"Silver — RL from Self-Play","x":1470,"y":-450,"width":420,"height":620,"color":"6"},
+		{"id":"file-silver-1745400080","type":"file","file":"people/david-silver.md","x":1490,"y":-400,"width":380,"height":100},
+		{"id":"text-silver-1745400081","type":"text","text":"**\"LLMs trained on human data hit a ceiling — they can remix, not discover.\"**\n\nFix: pure RL from self-play, no human training data. Path of AlphaGo, AlphaZero, AlphaStar.\n\nMove 37 (1-in-10,000) showed self-play can exceed the human knowledge frontier. Founded Ineffable Intelligence (2026); $1.1B seed — largest in EU history.","x":1490,"y":-280,"width":380,"height":200},
+		{"id":"file-ineffable-1745400082","type":"file","file":"companies/ineffable-intelligence.md","x":1490,"y":-60,"width":180,"height":120},
+		{"id":"file-silver-source-1745400083","type":"file","file":"sources/ric-rtp-david-silver-ineffable.md","x":1680,"y":-60,"width":180,"height":120},
+		{"id":"text-bottom-1745400060","type":"text","text":"**Where they agree**: current systems are insufficient for general intelligence.\n\n**Where they diverge**:\nLeCun → world models, non-generative (opposes Luma directly)\nHassabis → continual learning + creativity\nKarpathy → data quality over model size\nLi → spatial grounding complements LLMs\nLuma → generative unified latent space\nSilver → RL from self-play, no human data (LLMs hit a remix ceiling)","x":-210,"y":260,"width":1500,"height":240,"color":"4"}
 	],
 	"edges":[
 		{"id":"edge-lecun-hassabis-1745400070","fromNode":"zone-lecun-1745400001","fromSide":"right","toNode":"zone-hassabis-1745400002","toSide":"left"},
 		{"id":"edge-hassabis-karpathy-1745400071","fromNode":"zone-hassabis-1745400002","fromSide":"right","toNode":"zone-karpathy-1745400003","toSide":"left"},
 		{"id":"edge-karpathy-feifei-1745400072","fromNode":"zone-karpathy-1745400003","fromSide":"right","toNode":"zone-feifei-1745400004","toSide":"left"},
-		{"id":"edge-feifei-luma-1745400073","fromNode":"zone-feifei-1745400004","fromSide":"right","toNode":"zone-luma-1745400005","toSide":"left"}
+		{"id":"edge-feifei-luma-1745400073","fromNode":"zone-feifei-1745400004","fromSide":"right","toNode":"zone-luma-1745400005","toSide":"left"},
+		{"id":"edge-luma-silver-1745400074","fromNode":"zone-luma-1745400005","fromSide":"right","toNode":"zone-silver-1745400006","toSide":"left"}
 	]
 }

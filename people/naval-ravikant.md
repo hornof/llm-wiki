@@ -14,11 +14,11 @@ He is best known outside VC circles for his 2018 Twitter thread "How to Get Rich
 
 ## Their Current Focus
 
-As of April 2026 (per podcast remarks summarized in [[sources/naval-ravikant-saas-is-next]]): making an explicit investment call that pure software is no longer investable. His thesis is that AI is commoditizing the software execution layer, leaving only hardware, AI models, and network effect businesses as durable investment candidates. He is articulating a framework for what survives the AI platform shift, with a specific focus on the agent-era opportunity for solo operators.
+As of April 2026 (per podcast remarks summarized in [[naval-ravikant-saas-is-next]]): making an explicit investment call that pure software is no longer investable. His thesis is that AI is commoditizing the software execution layer, leaving only hardware, AI models, and network effect businesses as durable investment candidates. He is articulating a framework for what survives the AI platform shift, with a specific focus on the agent-era opportunity for solo operators.
 
 ## Notable Takes
 
-- **"Pure software is uninvestable. Full stop."** — Naval's podcast (April 2026), summarized in [[sources/naval-ravikant-saas-is-next]]. Delivered without qualifier; author characterizes this as a deliberate call, not commentary.
+- **"Pure software is uninvestable. Full stop."** — Naval's podcast (April 2026), summarized in [[naval-ravikant-saas-is-next]]. Delivered without qualifier; author characterizes this as a deliberate call, not commentary.
 - **Apple is structurally dead** — Not operationally (not going bankrupt), but economically. Apple's $3T valuation rests on premium hardware margins justified by software experience; AI commoditizes that experience layer within 24 months. Apple's Gemini license from Google is the canary: the company that built its identity on owning the experience layer just outsourced the experience layer to its biggest competitor.
 - **The Microsoft-after-mobile analogy**: Microsoft missed mobile by refusing to build a touch-native OS; Apple is making the same mistake with AI by betting hardware identity carries through the agent transition.
 - **The 1-person company vision**: Naval's bullish frame is a solo founder operating with the velocity of a 50-person team via agents. Users report bugs → agent reviews → agent writes fixes → agent opens PRs → founder reviews and ships. No coordination overhead, no political compromises, no vision dilution.
@@ -33,4 +33,4 @@ As of April 2026 (per podcast remarks summarized in [[sources/naval-ravikant-saa
 
 ## Context Note
 
-The April 2026 source ([[sources/naval-ravikant-saas-is-next]]) is a third-party Twitter thread by @mustufa4socials summarizing Naval's podcast remarks. Some claims in the thread are the author's extrapolations extending Naval's thesis. The direct Naval quote explicitly sourced is: "pure software is uninvestable." Other positions are paraphrased from the podcast.
+The April 2026 source ([[naval-ravikant-saas-is-next]]) is a third-party Twitter thread by @mustufa4socials summarizing Naval's podcast remarks. Some claims in the thread are the author's extrapolations extending Naval's thesis. The direct Naval quote explicitly sourced is: "pure software is uninvestable." Other positions are paraphrased from the podcast.

@@ -8,7 +8,7 @@ ingested: 2026-04-29
 
 ## Summary
 
-Robert Scoble (co-author of Unaligned Newsletter with Irena Cronin, unaligned.io) posts a promotional thread about the concept of "AI Native Companies" and links to their newsletter. Defines the term and names key distinguishing characteristics.
+[[robert-scoble]] (co-author of Unaligned Newsletter with Irena Cronin, unaligned.io) posts a promotional thread about the concept of "AI Native Companies" and links to their newsletter. Defines the term and names key distinguishing characteristics.
 
 ## Key Claims / Takeaways
 
@@ -16,8 +16,9 @@ Robert Scoble (co-author of Unaligned Newsletter with Irena Cronin, unaligned.io
 - They use "smaller teams, automated processes, and AI agents to move faster, reduce manual work, and scale output without growing headcount at the same pace"
 - "The strongest companies will combine this speed with human judgment, strong governance, clear oversight, and accountability"
 - Newsletter: unaligned.io (co-authored with Irena Cronin)
-- This framing aligns directly with YC's Summer 2026 RFS "AI-native service companies" category (see [[sources/benln-yc-summer-2026-rfs]])
+- This framing aligns directly with YC's Summer 2026 RFS "AI-native service companies" category (see [[benln-yc-summer-2026-rfs]])
 
 ## Pages Updated
 
-- [[concepts/ai-native-organizations]] — added Scoble/Cronin newsletter framing as external-facing complement to Block's internal architecture story
+- [[robert-scoble]] — new person page created from this source
+- [[ai-native-organizations]] — added Scoble/Cronin newsletter framing as external-facing complement to Block's internal architecture story

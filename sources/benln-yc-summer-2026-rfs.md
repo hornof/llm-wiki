@@ -22,4 +22,4 @@ Tweet by @benln sharing Y Combinator's Summer 2026 Request for Startups (RFS) vi
 
 ## Pages Updated
 
-- [[concepts/ai-native-organizations]] — added YC RFS as traction signal for AI-native service company category
+- [[ai-native-organizations]] — added YC RFS as traction signal for AI-native service company category

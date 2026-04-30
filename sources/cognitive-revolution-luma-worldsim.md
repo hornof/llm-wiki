@@ -22,4 +22,4 @@ Cognitive Revolution podcast episode with Luma AI CEO Amit Jain and co-founder J
 ## Pages Updated
 - [[amit-jain]] — new page
 - [[luma-ai]] — new page
-- [[concepts/world-models]] — Luma's generative approach added as contrast to JEPA
+- [[world-models]] — Luma's generative approach added as contrast to JEPA

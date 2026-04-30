@@ -25,4 +25,4 @@ April 2026 X thread by @zodchiii reverse-engineering 6 structural patterns that 
 ## Pages Updated
 
 - [[claude-code]] (updated: skill-writing patterns)
-- [[tutorials/writing-claude-code-skills]] (new)
+- [[writing-claude-code-skills]] (new)

@@ -67,7 +67,7 @@ Three major labs are building world models, but with fundamentally different arc
 
 ## Silver / Ineffable Intelligence (2026): A Fourth Position
 
-David Silver (architect of AlphaGo, AlphaZero, AlphaStar) argues that the training signal itself — not just the architecture — is the fundamental bottleneck. Even world models trained on human-generated data would face the same ceiling. The only path to exceeding the human knowledge frontier is RL from self-play (with no human data at all, only rules), the same approach that produced Move 37 in AlphaGo. Silver founded [[ineffable-intelligence]] with $1.1B to pursue this thesis. — [[sources/ric-rtp-david-silver-ineffable]]
+David Silver (architect of AlphaGo, AlphaZero, AlphaStar) argues that the training signal itself — not just the architecture — is the fundamental bottleneck. Even world models trained on human-generated data would face the same ceiling. The only path to exceeding the human knowledge frontier is RL from self-play (with no human data at all, only rules), the same approach that produced Move 37 in AlphaGo. Silver founded [[ineffable-intelligence]] with $1.1B to pursue this thesis. — [[ric-rtp-david-silver-ineffable]]
 
 This creates a fourth distinct position in the AGI debate:
 - **LeCun/JEPA**: wrong architecture (LLMs) — fix the architecture (world models)
@@ -92,7 +92,7 @@ Multiple labs at active-research stage with diverging architectures:
 "World model" is also used in organizational/business contexts to mean an AI-maintained operational picture of a company's internal state — as in [[block]]'s architecture. That usage is entirely distinct from the ML/AGI sense described on this page. See [[ai-native-organizations]] for that thread.
 
 ## Resources
-- [[sources/ric-rtp-david-silver-ineffable]] — Silver's RL-from-self-play thesis; fourth position in the AGI debate
+- [[ric-rtp-david-silver-ineffable]] — Silver's RL-from-self-play thesis; fourth position in the AGI debate
 - [[ineffable-intelligence]] — Silver's lab; the pure-RL-no-human-data bet
 - [[lecun-path-autonomous-machine-intelligence]] — PRIMARY SOURCE: the 2022 JEPA paper
 - [[yann-lecun]] — architect of the JEPA approach

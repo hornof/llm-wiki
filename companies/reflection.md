@@ -23,14 +23,14 @@ Reflection's founding rationale is explicitly tied to the Trump administration's
 
 ## Traction Signals
 
-- $2.1B raised; $8B valuation — [[sources/forbes-ai-50-2026]]
+- $2.1B raised; $8B valuation — [[forbes-ai-50-2026]]
 - Forbes 2026 AI 50 inclusion (newcomer)
 - Backed by Nvidia and Sequoia — rare for a pre-product company
 - Founded by DeepMind/Gemini veterans
 
 ## Resources
 
-- [[sources/forbes-ai-50-2026]] — AI 50 coverage with founding story
-- [[topics/ai-50-2026-snapshot]] — open-source as geopolitical play framing
+- [[forbes-ai-50-2026]] — AI 50 coverage with founding story
+- [[ai-50-2026-snapshot]] — open-source as geopolitical play framing
 - [[nvidia]] — investor
 - [[sequoia-capital]] — investor
