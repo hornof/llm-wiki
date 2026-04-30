@@ -2,7 +2,7 @@
 name: Spatial Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-04-23
+last_updated: 2026-04-29
 ---
 
 ## Definition
@@ -49,4 +49,6 @@ Compare with:
 
 ## Resources
 - [[feifei-substack-spatial-intelligence]] — PRIMARY SOURCE: Li's Substack post
+- [[sources/bloomberg-feifei-li-2025]] — Bloomberg Weekend Interview (Nov 2025); Marble use cases, action-perception loop, AGI framing
 - [[fei-fei-li]] — architect of this approach
+- [[world-labs]] — World Labs company page; Marble frontier model details, funding, use cases

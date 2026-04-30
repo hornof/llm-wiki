@@ -12,8 +12,10 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 ## Traction Signals
 - Recommended by Karpathy as the LLM agent layer for running the LLM Wiki pattern — [[karpathy-llm-wiki-overview]]
 - This wiki itself is maintained via Claude Code
+- Karpathy specifically cites "Claude Code or Codex" as the primary interface for [[agentic-engineering]] — the professional discipline of coordinating agents for production-quality software — [[karpathy-vibe-coding-agentic-engineering]]
 - April 2026 r/claude community actively discusses CLI as displacing standard IDE integrations for agentic tasks — [[reddit-3-things-claude-output-quality]]
 - Multiple practitioners report Claude Code CLI as more token-efficient than MCP-heavy setups
+- Naval Ravikant (April 2026): explicitly cited Claude Code as the tool enabling a 2-person team to replicate 80% of most B2B SaaS products in under 90 days — used as evidence for the "pure software is uninvestable" thesis — [[sources/naval-ravikant-saas-is-next]]
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.

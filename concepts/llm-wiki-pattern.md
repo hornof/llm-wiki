@@ -84,7 +84,11 @@ Karpathy's pattern resurrects Vannevar Bush's 1945 **Memex** vision — a person
 - **Batch ingestion via parallel agents**: process multiple sources simultaneously
 - **/autoresearch**: autonomous research loop with configurable objectives
 
+## Karpathy's Ongoing Use (Confirmed 2026)
+At AI Ascent 2026, Karpathy confirmed he still actively uses a personal LLM Wiki: "Anytime I see a different projection onto information, I always feel like I gain insight. So it's really just a lot of prompts for me to do synthetic data generation over some fixed data... I love asking questions about things." He frames it as a tool to enhance human *understanding* specifically — the bottleneck he identifies is not access to information but the ability to understand and direct. — [[karpathy-vibe-coding-agentic-engineering]]
+
 ## Resources
 - [[karpathy-llm-wiki-gist]] — PRIMARY SOURCE: Karpathy's original gist
 - [[karpathy-llm-wiki-overview]] — Medium article overview of the pattern
 - [[reddit-llm-wiki-weekend-build]] — first-hand build experience, practical use-case guidance
+- [[karpathy-vibe-coding-agentic-engineering]] — Karpathy confirms active personal use (2026); frames wiki as tool for enhancing understanding, not just information access

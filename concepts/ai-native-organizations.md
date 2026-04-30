@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-04-26
+last_updated: 2026-04-29
 ---
 
 ## Definition
@@ -54,6 +54,16 @@ Sequoia called this "significant enough that it will reshape how companies of al
 - [[world-models]] — LeCun's ML concept; different meaning, overlapping term
 - [[agentic-ai]] — the intelligence layer in Block's architecture is an agentic AI system
 
+## Startup Signal: YC + Scoble (April 2026)
+
+Y Combinator's Summer 2026 Request for Startups includes "AI-Native Service Companies" as an explicit category — companies that wrap AI into services and deliver outcomes (accounting done, compliance filed, claim processed) rather than selling software tools. Commenters noted this is the category with the strongest switching costs and is underrated relative to tool-builders. — [[sources/benln-yc-summer-2026-rfs]]
+
+Robert Scoble (co-author of Unaligned Newsletter with Irena Cronin) defines the same concept from an investor/media perspective: "businesses designed around AI from the beginning rather than adding AI to old workflows... smaller teams, automated processes, AI agents to move faster, reduce manual work, scale output without growing headcount." — [[sources/scobleizer-ai-native-companies]]
+
+The internal (Block-style org redesign) and external (startup-facing service delivery) meanings of "AI-native" are converging on the same underlying claim: the companies that will win built around AI rather than added it.
+
 ## Key Sources
 
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
+- [[sources/benln-yc-summer-2026-rfs]] — YC Summer 2026 RFS; AI-native service companies as explicit startup category
+- [[sources/scobleizer-ai-native-companies]] — Scoble/Cronin newsletter framing of AI-native companies

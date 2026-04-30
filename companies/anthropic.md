@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-04-24
+last_updated: 2026-04-29
 ---
 
 ## What It Is
@@ -27,8 +27,13 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - Claude models consistently rank highly on coding and reasoning benchmarks [unsourced]
 - MCP adopted broadly as infrastructure standard for agentic AI ecosystems
 - Constitutional AI paper widely cited in alignment research community [unsourced]
+- **Forbes 2026 AI 50**: #1 by strategic prominence; $60B total funding; revenue $4.5B in 2025; annualized revenue run rate crossed $30B in early April 2026; valued at $380B — [[sources/forbes-ai-50-2026]]
+- Claude surpassed ChatGPT to become most downloaded app on the App Store (February 2026) — [[sources/forbes-ai-50-2026]]
+- Pentagon blacklisted Anthropic after it refused to accept reduced safeguards on autonomous weapons and mass domestic surveillance; Dario Amodei described as "a hero of sorts" with support from OpenAI and Google — [[sources/forbes-ai-50-2026]]
+- Claude Code and Codex (OpenAI) named as the tools that established labs are using to dominate the coding agent market, pressuring startups like Cursor ($29.3B valuation) — [[sources/forbes-ai-50-2026]]
 
 ## Resources
 
 - [[anthropic-constitutional-ai-research]] — CAI research page (Dec 2022)
 - [[anthropic-claudes-constitution]] — Claude's model spec (CC0)
+- [[sources/forbes-ai-50-2026]] — Forbes 2026 AI 50; revenue, valuation, Pentagon blacklist

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_raw/3 things you must do immediately after opening Claude to fix your output quality.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 things you must do immediately after opening Claude to fix your output quality"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_raw/3 things you must do immediately after opening Claude to fix your output quality.md",
+                "file": "_raw/Richard Hamming You and Your Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3 things you must do immediately after opening Claude to fix your output quality"
+              "title": "Backlinks for Richard Hamming You and Your Research"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_raw/3 things you must do immediately after opening Claude to fix your output quality.md",
+                "file": "_raw/Richard Hamming You and Your Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3 things you must do immediately after opening Claude to fix your output quality"
+              "title": "Outgoing links from Richard Hamming You and Your Research"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_raw/3 things you must do immediately after opening Claude to fix your output quality.md",
+                "file": "_raw/Richard Hamming You and Your Research.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3 things you must do immediately after opening Claude to fix your output quality"
+              "title": "Outline of Richard Hamming You and Your Research"
             }
           }
         ]
@@ -185,34 +185,39 @@
   },
   "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
-    "canvases/agi-debate.canvas",
-    "_raw/3 things you must do immediately after opening Claude to fix your output quality.md",
-    "sources/bloomberg-feifei-li-2025.md",
-    "index.md",
-    "_raw/World Labs Founder Fei-Fei Li Wants AI to Be More Democratized.md",
-    "concepts/spatial-intelligence.md",
-    "sources/feifei-substack-spatial-intelligence.md",
-    "_raw/feifei-substack-spatial-intelligence.md",
-    "companies/ami-labs.md",
-    "people/demis-hassabis.md",
-    "CLAUDE.md",
-    "agi-debate.md",
+    "meta/lint-report-2026-04-29.md",
     "log.md",
-    "README.md",
-    "_raw/Luke Hornof 1.md",
+    "index.md",
+    "people/aakashgupta.md",
+    "people/robert-scoble.md",
+    "sources/scobleizer-ai-native-companies.md",
+    "sources/benln-yc-summer-2026-rfs.md",
+    "sources/konstantine-hassabis-ai-ascent-fireside.md",
+    "sources/chamath-decision-context-agents.md",
+    "sources/ric-rtp-david-silver-ineffable.md",
+    "people/david-silver.md",
+    "companies/ineffable-intelligence.md",
+    "sources/ai-ascent-2026.md",
+    "topics/saas-disruption-thesis.md",
+    "people/naval-ravikant.md",
+    "sources/naval-ravikant-saas-is-next.md",
+    "companies/cursor.md",
+    "companies/reflection.md",
+    "companies/thinking-machines-lab.md",
+    "companies/safe-superintelligence.md",
+    "companies/physical-intelligence.md",
+    "companies/mistral-ai.md",
+    "companies/world-labs.md",
+    "topics/ai-50-2026-snapshot.md",
+    "sources/ai-50-brink-list-2026.md",
+    "sources/forbes-ai-50-2026.md",
+    "canvases/agi-debate.canvas",
+    "_raw/how-to-learn-claude-infographic.jpeg",
+    "_raw/zzymcg41c2xg1.jpeg",
+    "_raw/Luke LinkedIn Profile.pdf",
+    "meta",
     "canvases",
-    "_raw/Luke Hornof.md",
     "_raw/_Luke Hornof_ - _Google Scholar_.pdf",
-    "_raw/reddit-llm-wiki-weekend-build.md",
-    "_raw/karpathy-llm-wiki-overview.md",
-    "_raw/karpathy-llm-wiki-gist.md",
-    "_raw/github-hornof-profile.md",
-    "_raw/github-claude-obsidian.md",
-    "_raw/Fei-Fei Li.md",
-    "_raw/Thread by @zan2434.md",
-    "owner/publications.md",
-    "owner/profile.md",
-    "tools/claude-code.md",
     "owner",
     "_raw"
   ]

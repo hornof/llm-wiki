@@ -38,3 +38,4 @@ Bloomberg Weekend Interview with Fei-Fei Li (November 2025), conducted in London
 ## Pages Updated
 - [[fei-fei-li]] — updated Notable Takes, awards
 - [[spatial-intelligence]] — updated with action-perception loop, "complementary" framing
+- [[world-labs]] — substantially fleshed out from stub: founding story, Marble use cases, technical thesis, competitive landscape, intellectual lineage (2026-04-29)

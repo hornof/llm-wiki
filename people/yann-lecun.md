@@ -3,14 +3,14 @@ name: Yann LeCun
 type: person
 affiliation: AMI Labs (Executive Chair); NYU (Professor)
 signal_sources: [twitter, substack, academic, youtube]
-last_updated: 2026-04-22
+last_updated: 2026-04-29
 ---
 
 ## Who They Are
 French-American computer scientist. Co-inventor of convolutional neural networks (CNNs/LeNet) — the foundational architecture behind modern computer vision. Turing Award 2018 (shared with Bengio and Hinton). One of the "Godfathers of Deep Learning." Was Chief AI Scientist at Meta/FAIR for 12 years. Left in November 2025 to found AMI Labs, focused on world-model architectures as an alternative path to general intelligence.
 
 ## Their Current Focus
-AMI Labs (Advanced Machine Intelligence Labs) — building world-model architectures and human-like AI as an alternative to LLMs. AMI raised $1.03B at $3.5B valuation in March 2026 (co-led by Bezos Expeditions). His technical thesis: Joint Embedding Predictive Architecture (JEPA) and world models are the right path to general intelligence; LLMs are not.
+AMI Labs (Advanced Machine Intelligence Labs) — building world-model architectures and human-like AI as an alternative to LLMs. AMI raised $1.03B at $3.5B valuation in March 2026 (co-led by Bezos Expeditions); cumulative raise has crossed $1B as of Forbes' April 2026 reporting. His technical thesis: Joint Embedding Predictive Architecture (JEPA) and world models are the right path to general intelligence; LLMs are not. AMI is now explicitly targeting **healthcare applications** as its initial domain — per [[ai-50-brink-list-2026]], "building systems that learn from real-world data beyond text" with healthcare as the first vertical.
 
 ## Notable Takes
 - **LLMs as a dead end**: "I'm sure there's a lot of people at Meta who would like me to NOT tell the world that LLMs basically are a dead end when it comes to superintelligence." — [[wikipedia-yann-lecun]]
@@ -18,6 +18,7 @@ AMI Labs (Advanced Machine Intelligence Labs) — building world-model architect
 - **Open-source AI**: strong advocate for open-source AI development; frequently clashes with those calling for AI restrictions [unsourced beyond general knowledge — needs ingestion]
 - **AI safety skepticism**: pushes back on AI existential risk framing [unsourced — needs ingestion]
 - **Publicly attacks Musk and Amodei**: April 2026 lecture circulating widely on X; LeCun names both in critique of LLM scaling thesis — [[thread-phosphenq-lecun-lecture]]
+- **Brink List recognition**: AMI Labs named to Forbes' inaugural 2026 AI 50 Brink List; cited as a leading example of the "neo-labs" trend (senior researchers leaving frontier labs to found research-first ventures) — [[ai-50-brink-list-2026]]
 
 ## Key Contributions
 - **LeNet / CNNs** (Bell Labs, 1980s–90s): convolutional neural networks for image recognition; deployed commercially for bank check recognition
