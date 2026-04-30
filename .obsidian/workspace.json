@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "tools/claude-design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "claude-design"
             }
           }
         ]
@@ -185,9 +185,18 @@
   },
   "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
+    "index.md",
+    "concepts/training-data-quality.md",
+    "_raw/Post by @JulianGoldieSEO on X.md",
+    "tools/claude-design.md",
+    "meta/lint-report-2026-04-30.md",
+    "sources/nateherk-claude-design-masterclass.md",
+    "sources/julian-goldie-notebooklm-skills-factory.md",
+    "sources/dami-defi-mit-claude-research.md",
+    "_raw/Post by @nateherk on X.md",
+    "_raw/Post by @DamiDefi on X.md",
     "meta/lint-report-2026-04-29.md",
     "log.md",
-    "index.md",
     "people/aakashgupta.md",
     "people/robert-scoble.md",
     "sources/scobleizer-ai-native-companies.md",
@@ -202,15 +211,6 @@
     "people/naval-ravikant.md",
     "sources/naval-ravikant-saas-is-next.md",
     "companies/cursor.md",
-    "companies/reflection.md",
-    "companies/thinking-machines-lab.md",
-    "companies/safe-superintelligence.md",
-    "companies/physical-intelligence.md",
-    "companies/mistral-ai.md",
-    "companies/world-labs.md",
-    "topics/ai-50-2026-snapshot.md",
-    "sources/ai-50-brink-list-2026.md",
-    "sources/forbes-ai-50-2026.md",
     "canvases/agi-debate.canvas",
     "_raw/how-to-learn-claude-infographic.jpeg",
     "_raw/zzymcg41c2xg1.jpeg",

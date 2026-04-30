@@ -3,7 +3,7 @@ name: Writing Effective Claude Code Skills
 type: tutorial
 tool: claude-code
 difficulty: intermediate
-last_updated: 2026-04-26
+last_updated: 2026-04-30
 ---
 
 ## Goal
@@ -176,6 +176,22 @@ Create commits from current git state.
 - Merging branches
 ```
 
+## Source-Grounded Skills (NotebookLM Pattern)
+
+The 6 patterns above govern *skill structure*. A complementary practice — circulated by @JulianGoldieSEO in April 2026 — addresses *skill provenance*: where the recipe inside a skill comes from. The pattern uses NotebookLM as a source-curation layer whose grounding-on-sources behavior is reused to author the skill itself.
+
+The five-step loop:
+
+1. Open NotebookLM and add the canonical sources for the task — PDFs, articles, YouTube transcripts, internal docs.
+2. Ask NotebookLM to write a `skill.md` file based **only** on those sources. Constrain it to the patterns above (description with trigger keywords, numbered imperative steps, explicit output format, "read first" step, out-of-scope list).
+3. Drop the generated file into `~/.claude/skills/<skill-name>/SKILL.md`.
+4. Claude follows the recipe every time the skill is invoked. Hallucinations drop because the recipe inherits NotebookLM's source grounding.
+5. One skill per job — email composition, landing page, FAQ, support reply — and stack them. Practitioners report ~10 stacked skills functioning as a "mini AI team," substituting for re-explaining context every session.
+
+When this is worth the extra step: tasks where wrongness is expensive (legal, medical, brand voice, customer-specific tone) and where the canonical sources fit inside a NotebookLM notebook. For tasks where the right answer is structural rather than evidential (a /commit skill, a /pr skill), source-grounding adds little.
+
+Mixed-source notebooks work: practitioners confirm YouTube transcripts + PDFs + articles compose well as a single grounding set. Source: [[julian-goldie-notebooklm-skills-factory]].
+
 ## Diagnosing Broken Skills
 
 Run through this checklist against any skill that Claude never invokes:
@@ -205,4 +221,5 @@ Fix failing items. Then test by asking Claude something the skill should handle 
 ## Resources
 
 - [[zodchiii-anatomy-perfect-skill]] — source thread; 6-pattern framework
+- [[julian-goldie-notebooklm-skills-factory]] — NotebookLM-as-skills-factory pattern; source-grounded skill.md authoring
 - [[claude-code]] — parent tool page

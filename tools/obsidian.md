@@ -15,11 +15,11 @@ A local-first markdown note-taking app built around a personal knowledge graph. 
 - Karpathy quote: "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase." — [[karpathy-llm-wiki-overview]]
 
 ## How to Use It
-Point Obsidian at the wiki directory as a vault. The graph view then visualizes all `[[wikilink]]` cross-references between pages. No special setup needed beyond opening the folder.
+Point Obsidian at the wiki directory as a vault. The graph view then visualizes all `` `[[wikilink]]` `` cross-references between pages. No special setup needed beyond opening the folder.
 
 ## Key Concepts
 - **Vault**: a folder that Obsidian treats as a workspace
-- **Wikilinks**: `[[Page Name]]` syntax for cross-references — creates graph edges
+- **Wikilinks**: `` `[[Page Name]]` `` syntax for cross-references — creates graph edges
 - **Graph view**: visual map of all linked pages in the vault
 - **Backlinks**: shows all pages that link to the current page
 

@@ -12,6 +12,7 @@
 - [[mem0]] — open-source memory layer for AI agents; two-tier long/short-term memory
 - [[stitch]] — Google Labs AI design tool; open-sourced DESIGN.md spec (April 2026); portable design rules for agents
 - [[alphafold]] — DeepMind's protein structure prediction system; ~200M structures predicted; Nobel Prize 2024
+- [[claude-design]] — emerging Anthropic-surface capability for end-to-end brand/marketing/prototype design; thin signal as of April 2026
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -92,6 +93,9 @@
 - [[konstantine-hassabis-ai-ascent-fireside]] — Sequoia partner shares Hassabis AI Ascent 2026 fireside
 - [[chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer in AI dev tooling
 - [[ric-rtp-david-silver-ineffable]] — David Silver leaves DeepMind; founds Ineffable Intelligence; $1.1B seed
+- [[julian-goldie-notebooklm-skills-factory]] — NotebookLM as a skills factory; source-grounded skill.md authoring (April 2026)
+- [[nateherk-claude-design-masterclass]] — Claude Design masterclass: brand → deck → landing → app prototype → launch video in 2 hours (April 2026)
+- [[dami-defi-mit-claude-research]] — feeding MIT's free 12-course AI curriculum into Claude to build a research system (April 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

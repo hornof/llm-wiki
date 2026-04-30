@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-04-29
+last_updated: 2026-04-30
 ---
 
 ## What It Is
@@ -16,6 +16,9 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - April 2026 r/claude community actively discusses CLI as displacing standard IDE integrations for agentic tasks — [[reddit-3-things-claude-output-quality]]
 - Multiple practitioners report Claude Code CLI as more token-efficient than MCP-heavy setups
 - Naval Ravikant (April 2026): explicitly cited Claude Code as the tool enabling a 2-person team to replicate 80% of most B2B SaaS products in under 90 days — used as evidence for the "pure software is uninvestable" thesis — [[naval-ravikant-saas-is-next]]
+- April 2026: practitioner workflow gaining traction — use NotebookLM as a "skills factory" by feeding it canonical sources, having it author a `skill.md`, and dropping the file into the Claude Code skills folder. Source-grounded skills are framed as the durable replacement for re-prompting context every session — [[julian-goldie-notebooklm-skills-factory]]
+- April 2026: AI educators using Claude as a single tool for end-to-end brand-and-launch packages (brand guidelines, pitch deck, landing page, mobile app prototype, launch video) — Nate Herk's 2-hour "Claude Design" masterclass — [[nateherk-claude-design-masterclass]]. The "Claude Design" surface (distinct product vs. artifact flow inside Claude.ai) is not yet clearly documented in this wiki.
+- April 2026: practitioners feeding entire open courseware sets (e.g., MIT's free 12-course AI curriculum) into Claude to build personal "research systems" — [[dami-defi-mit-claude-research]] (anecdotal)
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
@@ -55,3 +58,6 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[reddit-3-things-claude-output-quality]] — April 2026 practitioner thread; community-validated tips and workflow patterns
 - [[zodchiii-anatomy-perfect-skill]] — April 2026 thread; 6-pattern framework for effective skills
 - [[writing-claude-code-skills]] — full skill-writing walkthrough
+- [[julian-goldie-notebooklm-skills-factory]] — NotebookLM-as-skills-factory pattern for source-grounded skill.md authoring
+- [[nateherk-claude-design-masterclass]] — Claude Design masterclass: end-to-end brand and launch package in 2 hours
+- [[dami-defi-mit-claude-research]] — feeding MIT's free 12-course AI curriculum into Claude to build a personal research system
