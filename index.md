@@ -33,6 +33,7 @@
 - [[mcp]] — Model Context Protocol; Anthropic's open standard for connecting LLMs to tools and data sources; infrastructure layer for agentic AI
 - [[rag]] — query-time retrieval-augmented generation; complementary to LLM Wiki at different scales
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
+- [[claude-certified-architect]] — Anthropic's first official technical certification (March 2026); 5 weighted domains (agentic, Claude Code, prompting, MCP, context); part of Claude Partner Network
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -96,6 +97,8 @@
 - [[julian-goldie-notebooklm-skills-factory]] — NotebookLM as a skills factory; source-grounded skill.md authoring (April 2026)
 - [[nateherk-claude-design-masterclass]] — Claude Design masterclass: brand → deck → landing → app prototype → launch video in 2 hours (April 2026)
 - [[dami-defi-mit-claude-research]] — feeding MIT's free 12-course AI curriculum into Claude to build a research system (April 2026)
+- [[anthropic-claude-partner-network]] — Anthropic launches $100M Claude Partner Network and first official technical certification (March 2026)
+- [[elora-khatun-claude-certified-architect-roadmap]] — practitioner 6-week roadmap for the Claude Certified Architect exam (April 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

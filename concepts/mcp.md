@@ -2,7 +2,7 @@
 name: Model Context Protocol (MCP)
 type: concept
 maturity: active-research
-last_updated: 2026-04-24
+last_updated: 2026-04-30
 ---
 
 ## Definition
@@ -17,10 +17,12 @@ MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool
 - Community building MCP servers for: filesystem access, web search, GitHub, Slack, databases, browser control
 - **Gotcha**: unconstrained MCP can ingest enormous amounts of context — e.g., pulling an entire `node_modules` tree when looking for one dependency. `context-mode` is a server-side setting that constrains file ingestion scope — [[claude-code]]
 - **A2A** (Agent-to-Agent protocol, Google): a complementary standard at a different layer — MCP connects models to tools; A2A connects agents to other agents — [[agentic-ai]]
+- **Production status confirmed**: Anthropic's first official certification ([[claude-certified-architect]], March 2026) names "Tool Design & MCP Integration" as a weighted exam domain (~18% per third-party guides), elevating MCP from emerging-protocol to required-knowledge for solution architects — [[anthropic-claude-partner-network]]
 
 ## Key Papers / Posts
 - [[github-hornof-profile]] — `learn-agentic-ai` repo (forked by owner) covers MCP alongside OpenAI Agents SDK, A2A, Knowledge Graphs, Dapr
 - [[reddit-3-things-claude-output-quality]] — community tip: use `context-mode` to prevent MCP token bloat
+- [[anthropic-claude-partner-network]] — Anthropic announcement (March 2026); MCP integration codified as a Claude Certified Architect exam domain
 
 ## Related Concepts
 - [[agentic-ai]] — MCP is the tool-connection layer for agentic systems

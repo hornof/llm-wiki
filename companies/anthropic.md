@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-04-29
+last_updated: 2026-04-30
 ---
 
 ## What It Is
@@ -21,6 +21,8 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - **Claude** — frontier AI assistant (Opus, Sonnet, Haiku tiers)
 - **Claude Code** — agentic coding CLI; see [[claude-code]]
 - **Anthropic API** — developer access to Claude models
+- **Claude Partner Network** — partner program launched 2026-03-12 with $100M committed; free membership for any org bringing Claude to market; provides Partner Portal access, Anthropic Academy training, sales playbooks, Services Partner Directory listing, dedicated Applied AI engineers, and technical architects — [[anthropic-claude-partner-network]]
+- **Claude Certified Architect, Foundations** — Anthropic's first official technical certification (March 2026); proctored exam for solution architects building production Claude applications; gateway to a multi-track cert program with seller/architect/developer tracks promised later in 2026 — [[claude-certified-architect]]
 
 ## Traction Signals
 
@@ -31,9 +33,12 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - Claude surpassed ChatGPT to become most downloaded app on the App Store (February 2026) — [[forbes-ai-50-2026]]
 - Pentagon blacklisted Anthropic after it refused to accept reduced safeguards on autonomous weapons and mass domestic surveillance; Dario Amodei described as "a hero of sorts" with support from OpenAI and Google — [[forbes-ai-50-2026]]
 - Claude Code and Codex (OpenAI) named as the tools that established labs are using to dominate the coding agent market, pressuring startups like Cursor ($29.3B valuation) — [[forbes-ai-50-2026]]
+- 2026-03-12: Claude Partner Network launched with $100M commitment; positioned explicitly against the "no partner ecosystem" critique often levied at frontier labs — Steve Corfield (Head of Global BD & Partnerships): "Anthropic is the most committed AI company in the world to the partner ecosystem—and we're putting $100 million behind that this year to prove it." — [[anthropic-claude-partner-network]]
+- 2026-03-12: launched first official technical certification (Claude Certified Architect, Foundations); third-party study guides and practitioner roadmaps proliferated within 6 weeks (Medium, lowcode.agency, FlashGenius, dev.to, X) — [[claude-certified-architect]], [[elora-khatun-claude-certified-architect-roadmap]]
 
 ## Resources
 
 - [[anthropic-constitutional-ai-research]] — CAI research page (Dec 2022)
 - [[anthropic-claudes-constitution]] — Claude's model spec (CC0)
 - [[forbes-ai-50-2026]] — Forbes 2026 AI 50; revenue, valuation, Pentagon blacklist
+- [[anthropic-claude-partner-network]] — Partner Network announcement; first technical certification launch (March 2026)

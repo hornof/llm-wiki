@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/claude-design.md",
+                "file": "_raw/Post by @tomcrawshaw01 on X.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude-design"
+              "title": "Post by @tomcrawshaw01 on X"
             }
           }
         ]
@@ -185,10 +185,17 @@
   },
   "active": "c20f65f87b1414ce",
   "lastOpenFiles": [
+    "concepts/claude-certified-architect.md",
+    "sources/elora-khatun-claude-certified-architect-roadmap.md",
+    "sources/anthropic-claude-partner-network.md",
+    "_raw/anthropic-claude-partner-network-2026-03.md",
+    "_raw/Post by @elora_khatun on X 1.md",
+    "_raw/Post by @tomcrawshaw01 on X.md",
+    "_raw/Post by @elora_khatun on X.md",
+    "tools/claude-design.md",
     "index.md",
     "concepts/training-data-quality.md",
     "_raw/Post by @JulianGoldieSEO on X.md",
-    "tools/claude-design.md",
     "meta/lint-report-2026-04-30.md",
     "sources/nateherk-claude-design-masterclass.md",
     "sources/julian-goldie-notebooklm-skills-factory.md",
@@ -204,13 +211,6 @@
     "sources/konstantine-hassabis-ai-ascent-fireside.md",
     "sources/chamath-decision-context-agents.md",
     "sources/ric-rtp-david-silver-ineffable.md",
-    "people/david-silver.md",
-    "companies/ineffable-intelligence.md",
-    "sources/ai-ascent-2026.md",
-    "topics/saas-disruption-thesis.md",
-    "people/naval-ravikant.md",
-    "sources/naval-ravikant-saas-is-next.md",
-    "companies/cursor.md",
     "canvases/agi-debate.canvas",
     "_raw/how-to-learn-claude-infographic.jpeg",
     "_raw/zzymcg41c2xg1.jpeg",
