@@ -32,6 +32,7 @@ The Foundations cert codifies what Anthropic considers the production-grade comp
   - **Context Management & Reliability** — 15%
 - Reported by multiple independent third-party guides (Medium "Reliable Data Engineering" March 2026; lowcode.agency; FlashGenius; dev.to community; the-ai-corner.com; claudecertifications.com). The structural numbers were *not* extracted from the Anthropic news page; treat them as well-corroborated practitioner consensus rather than primary-source-confirmed.
 - Practitioner study roadmaps appearing on X within ~6 weeks of launch — [[elora-khatun-claude-certified-architect-roadmap]]
+- Audience-uncertainty signal: as of late April 2026, X commenters in roadmap-promo threads still question whether the certification is officially offered by Anthropic (e.g., "unless Anthropic officially offers that certification, treat this as a solid learning roadmap, not a guaranteed credential path" — @MarcelVelica). The cert *is* official (per the Anthropic primary source), so the skepticism is an awareness-gap signal, not a contradiction.
 
 ### Implications by domain weight (if the third-party numbers are accurate)
 - **Agentic Architecture & Orchestration at 27%** is the largest single domain — confirms Anthropic's positioning around [[agentic-engineering]] (Karpathy's framing) and [[agentic-ai]] as the central skill.

@@ -99,6 +99,7 @@
 - [[dami-defi-mit-claude-research]] — feeding MIT's free 12-course AI curriculum into Claude to build a research system (April 2026)
 - [[anthropic-claude-partner-network]] — Anthropic launches $100M Claude Partner Network and first official technical certification (March 2026)
 - [[elora-khatun-claude-certified-architect-roadmap]] — practitioner 6-week roadmap for the Claude Certified Architect exam (April 2026)
+- [[tomcrawshaw-claude-code-blueprint]] — interactive 60-minute Claude Code onboarding pattern; CLAUDE.md framed as "the trick" (April 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

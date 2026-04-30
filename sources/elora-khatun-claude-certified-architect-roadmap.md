@@ -17,7 +17,9 @@ X post (2026-04-29) by @elora_khatun proposing a 6-week study roadmap for the An
 - Score-target framing ("850+/1000") implies a proctored, scored format consistent with [[claude-certified-architect]] reports; specific passing threshold is not in any primary source I've fetched
 - Practitioner-curriculum framing: Foundations week explicitly bundles Claude API + MCP + Claude Code + "Claude 101" — the same four areas covered in the Anthropic-published exam domains, suggesting roadmap authors are working from the published exam blueprint
 - Provenance caveat: this is promotional, not instructional. The post does not link to primary Anthropic resources. Useful as ecosystem signal, not as a study guide.
+- Practitioner skepticism in the comments worth flagging: @MarcelVelica writes "Ambitious, but unless Anthropic officially offers that certification, treat this as a solid learning roadmap, not a guaranteed credential path." This captures a notable Apr 30 X-audience uncertainty about the cert's officialness — even though Anthropic *did* officially launch it on March 12. The skepticism reflects how thin the cert's reach into the wider X AI-influencer ecosystem still is, ~7 weeks post-launch. (Captured from a re-clip of this same post with extended comments, ingested 2026-04-30 — same content, manifest-distinct file.)
+- Other commenter dynamics: @CrappyUsername predicts Claude could be "left in the dustbin in 6 days" with users returning to GPT/Codex — typical bear-case noise. @Prithvi_Jadwani asks whether real-world pipelines are achievable with Claude — a sincere practitioner question with no answer in the thread.
 
 ## Pages Updated
 
-- [[claude-certified-architect]] — added as a secondary practitioner traction signal (third-party study roadmaps circulating on X)
+- [[claude-certified-architect]] — added as a secondary practitioner traction signal (third-party study roadmaps circulating on X); added the audience-uncertainty signal from the comments
