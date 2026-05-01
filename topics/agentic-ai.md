@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-04-29
+last_updated: 2026-05-01
 ---
 
 ## What It Is
@@ -33,7 +33,23 @@ Agents are the current frontier of applied AI engineering. Moving from "LLM as a
 - [[agentic-engineering]] — Karpathy's term for the professional discipline of coordinating agents for production-quality software; >10x speedup; engineers remain responsible for taste, design, and oversight
 - [[vibe-coding]] — Karpathy's term for the floor-raising counterpart; anyone can build anything; quality bar is lower
 - [[software-3-0]] — the paradigm shift from writing code to prompting agents; agents are intelligent interpreters of context
+- [[company-brain]] — the **memory substrate** layer beneath agentic systems at organizational scale; per [[ashwingop]], agents fail not because companies lack data but because they lack memory of *why* the data means what it means
+- [[ai-native-organizations]] — org-design counterpart to the company-brain memory substrate (Block / Jack Dorsey)
+
+## Two Scales of the Same Pattern (April 2026)
+
+A recurring observation across recent ingests: the same **factual-memory + reasoning + action** structure shows up at two scales.
+
+| Scale | Source | Memory layer | Action layer |
+| --- | --- | --- | --- |
+| Organizational | [[company-brain]] / [[sentra]] / [[ashwingop]] | Communication channels, KBs, agent traces; semantic file system | Drafts follow-ups, creates tickets, warns of cross-team drift, governs agent action |
+| Personal | [[seelffff-personal-ai-agent]] / [[personal-ai-agent-claude-desktop-mcp]] | `CLAUDE.md` + `context.md` + `tasks.md` + `notes.md` | Browses real sites, updates files, pushes Telegram notifications |
+
+Both insist that the agent must *read context before acting* and that **memory must participate** rather than wait to be queried.
 
 ## Resources
 - [[github-hornof-profile]] — wiki owner is actively tracking crewAI, learn-agentic-ai, OpenAI Agents SDK
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy at AI Ascent 2026; sensors/actuators framing, agent-native infrastructure, agentic engineering as discipline
+- [[ashwingop-company-brain-part-1]] — Company Brain thesis Part 1 (memory substrate underneath agentic AI)
+- [[ashwingop-company-brain-part-2]] — Company Brain Part 2 (factual memory ≠ RAG; semantic file system; memory participates)
+- [[seelffff-personal-ai-agent]] — personal-scale agent stack on Claude Desktop + MCP

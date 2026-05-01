@@ -3,7 +3,7 @@ name: Playwright MCP
 type: tool
 category: api
 status: emerging
-last_updated: 2026-04-30
+last_updated: 2026-05-01
 ---
 
 ## What It Is
@@ -14,11 +14,16 @@ The official package is published by Microsoft at [`@playwright/mcp`](https://gi
 
 ## Traction Signals
 
-- **April 2026, two independent practitioner stacks within one week**:
+- **April 2026 — three independent practitioner stacks in two weeks** (third signal arrived end of April):
   - [[heygurisingh-career-ops]] uses Playwright MCP for ATS-optimized PDF generation (Space Grotesk + DM Sans) inside an open-source job-search system at 8.2k GitHub stars.
   - [[alfiejcarter-linkedin-claude-stack]] uses Playwright MCP to open LinkedIn, paste posts, upload photos, handle resizing, and schedule at default posting time — full end-to-end browser automation from a Claude Code skill.
-- Both practitioners describe Playwright MCP as a default, not a debated choice. Indicates the **MCP-server-for-browser-automation niche is consolidating around this single implementation** rather than fragmenting across Selenium/Puppeteer wrappers.
+  - [[seelffff-personal-ai-agent]] uses Playwright MCP from [[claude-desktop]] (not [[claude-code]]) for daily life-management commands: TechCrunch headlines, Polymarket odds, X trending topics, multi-source research. Consumer-grade use; expands the user base from "developer building production skills" to "anyone with Claude Pro."
+- **Cross-host validation**: Playwright MCP now sees independent practitioner use from both [[claude-code]] (career-ops, LinkedIn stack) and [[claude-desktop]] (seelffff). Cross-host adoption is a stronger signal than within a single host.
+- All three practitioners describe Playwright MCP as a default, not a debated choice. The **MCP-server-for-browser-automation niche has consolidated around this single implementation** rather than fragmenting across Selenium/Puppeteer wrappers.
 - Microsoft maintenance + Playwright's existing TypeScript-first developer story make it the path-of-least-resistance MCP for any agent that needs a real browser.
+
+> [!note] Status review
+> With three independent practitioner uses across two MCP hosts, this tool is on the boundary between `emerging` and `gaining-traction`. Holding at `emerging` for now pending first-hand wiki-owner use; promote on the next ingest if a fourth signal lands or owner builds a workflow.
 
 ## How to Use It
 
@@ -50,4 +55,5 @@ For a starting point, Microsoft's repo at https://github.com/microsoft/playwrigh
 - Playwright docs: https://playwright.dev/
 - [[heygurisingh-career-ops]] — career-ops uses Playwright MCP for ATS PDF generation
 - [[alfiejcarter-linkedin-claude-stack]] — LinkedIn posting stack uses Playwright MCP for end-to-end publishing
-- Related: [[mcp]] — the underlying protocol; [[claude-code]] — primary client integrating Playwright MCP in these workflows
+- [[seelffff-personal-ai-agent]] / [[personal-ai-agent-claude-desktop-mcp]] — Claude Desktop life-management agent using Playwright MCP for browsing TechCrunch / X / Polymarket
+- Related: [[mcp]] — the underlying protocol; [[claude-code]] and [[claude-desktop]] — both clients integrating Playwright MCP in real workflows

@@ -15,6 +15,7 @@
 - [[claude-design]] — emerging Anthropic-surface capability for end-to-end brand/marketing/prototype design; thin signal as of April 2026
 - [[career-ops]] — open-source AI job-search system on Claude Code; 14 skill modes, real sub-agent batch mode, MIT, 8.2k GitHub stars (April 2026)
 - [[playwright-mcp]] — Microsoft's MCP server exposing Playwright browser automation; emerging default for browser-side execution in Claude Code skills
+- [[claude-desktop]] — Anthropic's desktop app; persistent Projects + MCP host; default surface for personal-agent stacks (April 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -36,6 +37,7 @@
 - [[rag]] — query-time retrieval-augmented generation; complementary to LLM Wiki at different scales
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 - [[claude-certified-architect]] — Anthropic's first official technical certification (March 2026); 5 weighted domains (agentic, Claude Code, prompting, MCP, context); part of Claude Partner Network
+- [[company-brain]] — three-layer memory substrate (factual + context graph + action coordination) beneath agentic AI at organizational scale; YC RFS phrasing, Sentra thesis (April 2026)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -56,6 +58,12 @@
 - [[dmitri-dolgov]] — Waymo co-CEO; AI Ascent 2026 speaker
 - [[david-silver]] — ex-DeepMind; AlphaGo/AlphaZero/AlphaStar lead; founded Ineffable Intelligence (April 2026)
 - [[robert-scoble]] — tech journalist; Unaligned Newsletter (with Irena Cronin); "AI-native companies" framing
+- [[ashwingop]] — founder Sentra; Company Brain thesis; April 2026 longform organizational-memory writing
+- [[seelffff]] — independent practitioner; April 2026 viral Claude Desktop + MCP personal-agent tutorial
+- [[tom-blomfield]] — YC Group Partner; authored YC Summer 2026 "Company Brain" RFS (primary source for the phrase)
+- [[diana-hu]] — YC Group Partner; authored 3 RFS items (Inference Chips for Agent Workflows, Semiconductor Supply Chain 2.0, AI Operating System for Companies)
+- [[garry-tan]] — YC President & CEO; authored AI for Low-Pesticide Agriculture RFS; "G-Brain" framing referenced internally
+- [[gustaf-alstromer]] — YC Group Partner; authored AI-Native Service Companies RFS (the practitioner-flagged underrated category)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -76,14 +84,27 @@
 - [[sequoia-capital]] — venture firm; hosts AI Ascent (annual AI founder conference)
 - [[thinking-machines-lab]] — Mira Murati's lab (ex-OpenAI CTO); $2B raised; founded 2025
 - [[world-labs]] — Fei-Fei Li's spatial-AI lab; $1B raised; on Forbes 2026 AI 50
+- [[sentra]] — early-stage; "enterprise general intelligence" / Company Brain memory substrate; founder [[ashwingop]]
+- [[y-combinator]] — early-stage accelerator; RFS treated as high-signal demand-side leading indicator
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
 
 ## Tutorials & Hands-On
 - [[writing-claude-code-skills]] — 6-pattern framework for effective Claude Code slash commands; skill structure, output formats, progressive disclosure
+- [[personal-ai-agent-claude-desktop-mcp]] — beginner tutorial: build a personal life-management agent with Claude Desktop + Filesystem MCP + Playwright MCP + custom Telegram MCP ($0 incremental on Claude Pro)
 
 ## Sources & References
+
+### Foundational primary sources
+- [[karpathy-llm-wiki-overview]] — Karpathy's Medium article; primary articulation of the LLM Wiki pattern this project runs on
+- [[karpathy-llm-wiki-gist]] — Karpathy's original gist; risks, schema evolution, tool stack, alternatives (primary source)
+- [[lecun-path-autonomous-machine-intelligence]] — Yann LeCun's 2022 paper; primary source for [[world-models]] and JEPA architecture
+- [[hamming-you-and-your-research]] — Richard Hamming's 1986 Bellcore talk; primary source for [[doing-great-work]]
+- [[block-organizational-intelligence]] — Block/Sequoia essay; primary source for [[ai-native-organizations]]
+- [[bloomberg-feifei-li-2025]] — primary source for World Labs / spatial-intelligence updates ([[fei-fei-li]], [[world-labs]])
+
+### Recent ingests
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy on Software 3.0, vibe coding, agentic engineering, jagged intelligence (April 2026)
 - [[hassabis-deepmind-alphafold-agi]] — Hassabis on DeepMind founding, AlphaFold, AGI by 2030, AI for science (April 2026)
@@ -105,6 +126,12 @@
 - [[heygurisingh-career-ops]] — career-ops open-sourced (8.2k stars); end-to-end Claude Code skill stack for AI job search (April 2026)
 - [[alfiejcarter-linkedin-claude-stack]] — Claude Code + Playwright MCP LinkedIn-publishing stack; profile.md + hooks.md voice scaffolding (April 2026)
 - [[aina-ai2-eight-senior-prompts]] — 8 senior-role Claude prompts; community shift from one-line imperatives to structured deliverables (April 2026)
+- [[ashwingop-company-brain-part-1]] — Sentra founder's Company Brain thesis; three-layer memory substrate underneath agentic AI (April 29 2026)
+- [[ashwingop-company-brain-part-2]] — factual-memory deep dive; semantic file system, individual-outward emergence, "memory ≠ RAG" (April 30 2026)
+- [[seelffff-personal-ai-agent]] — viral X tutorial: Claude Desktop + MCP personal life-management agent stack ($0 on Claude Pro) (April 30 2026)
+- [[reddit-claude-code-workflow-cheatsheet]] — community-built Claude Code cheatsheet circulating on r/AskVibecoders (image-only, low signal) (May 2026)
+- [[yc-summer-2026-rfs]] — **primary source** for YC Summer 2026 RFS (15 categories with author attribution); origin of "Company Brain" phrase; two RFS items overlap company-brain thesis (April 2026)
+- [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of YC Summer 2026 RFS (April 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

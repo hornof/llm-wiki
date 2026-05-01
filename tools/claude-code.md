@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-04-30
+last_updated: 2026-05-01
 ---
 
 ## What It Is
@@ -24,6 +24,7 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - **April 2026 — flagship open-source skill stack**: [[career-ops]] by santifer (8.2k GitHub stars, MIT) is one of the cleanest end-to-end Claude Code skill stacks in the wild — 14 skill modes, real Claude sub-agents for parallel batch evaluation, [[playwright-mcp]] for ATS PDF generation, and a Go TUI on top. Author built it during a layoff to evaluate 740+ job offers, landed Head of Applied AI, then open-sourced — strong existence proof for "Claude Code as production substrate" rather than as a chat interface — [[heygurisingh-career-ops]]
 - **April 2026 — voice-scaffolding pattern**: practitioners converging on a `profile.md` + `hooks.md` two-file split for stable voice context across sessions — `profile.md` carries the author's voice/background/ICP, `hooks.md` carries the format library plus a no-go list of overused openers. Demonstrated end-to-end in a Claude Code + [[playwright-mcp]] LinkedIn-publishing stack — [[alfiejcarter-linkedin-claude-stack]]
 - **April 2026 — senior-role prompting as default register**: community internalizing the "treat Claude as senior, not junior intern" framing; copy-paste libraries of role-prompted recipes (senior full-stack engineer / senior debugging engineer / systems architect / etc.) circulating with explicit deliverable structure (architecture, file layout, data flow, schema). Persona-prompting for a 4-role multi-agent team in a single session noted as a poor-person's substitute for real Claude Code sub-agents — [[aina-ai2-eight-senior-prompts]]
+- **April 2026 — YC RFS name-check**: Y Combinator's Summer 2026 "AI Personalized Medicine" RFS by Ankit Gupta explicitly names Claude Code as the agent harness for analyzing personalized health data ("an agent harness like Claude Code to analyze personalized health data, whether that be a diagnostic test, genome scan, EHR data, or wearables information") — first YC RFS naming a specific Anthropic product as an enabling primitive — [[yc-summer-2026-rfs]]
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
@@ -70,3 +71,5 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[heygurisingh-career-ops]] — career-ops, 8.2k-star open-source job-search skill stack
 - [[alfiejcarter-linkedin-claude-stack]] — LinkedIn publishing skill stack with profile.md + hooks.md voice context
 - [[aina-ai2-eight-senior-prompts]] — eight senior-role prompts; community shift away from one-line imperatives
+- [[reddit-claude-code-workflow-cheatsheet]] — May 2026 r/AskVibecoders cheatsheet circulation (image-only, low signal); recurring practitioner-built reference-card pattern
+- [[personal-ai-agent-claude-desktop-mcp]] — sibling harness ([[claude-desktop]]) using identical CLAUDE.md schema-driven configuration

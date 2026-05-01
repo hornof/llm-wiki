@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-04-29
+last_updated: 2026-05-01
 ---
 
 ## Definition
@@ -56,7 +56,7 @@ Sequoia called this "significant enough that it will reshape how companies of al
 
 ## Startup Signal: YC + Scoble (April 2026)
 
-Y Combinator's Summer 2026 Request for Startups includes "AI-Native Service Companies" as an explicit category — companies that wrap AI into services and deliver outcomes (accounting done, compliance filed, claim processed) rather than selling software tools. Commenters noted this is the category with the strongest switching costs and is underrated relative to tool-builders. — [[benln-yc-summer-2026-rfs]]
+Y Combinator's Summer 2026 Request for Startups includes "AI-Native Service Companies" as an explicit category — companies that wrap AI into services and deliver outcomes (accounting done, compliance filed, claim processed) rather than selling software tools. Commenters noted this is the category with the strongest switching costs and is underrated relative to tool-builders. The full RFS text now ingested at [[yc-summer-2026-rfs]]; this category authored by [[gustaf-alstromer]]: "AI-native companies that don't sell software — they sell the service." Target verticals (insurance brokerage, accounting/tax/audit, compliance, healthcare administration) called out explicitly. — originally surfaced via [[benln-yc-summer-2026-rfs]]
 
 [[robert-scoble]] (co-author of Unaligned Newsletter with Irena Cronin) defines the same concept from an investor/media perspective: "businesses designed around AI from the beginning rather than adding AI to old workflows... smaller teams, automated processes, AI agents to move faster, reduce manual work, scale output without growing headcount." — [[scobleizer-ai-native-companies]]
 
@@ -65,5 +65,7 @@ The internal (Block-style org redesign) and external (startup-facing service del
 ## Key Sources
 
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
-- [[benln-yc-summer-2026-rfs]] — YC Summer 2026 RFS; AI-native service companies as explicit startup category
+- [[benln-yc-summer-2026-rfs]] — YC Summer 2026 RFS; AI-native service companies as explicit startup category (image-only social signal)
+- [[yc-summer-2026-rfs]] — full primary-source RFS text; Gustaf Alströmer's AI-Native Service Companies entry, plus Tom Blomfield's Company Brain and Diana Hu's AI OS for Companies as adjacent organizational-substrate categories
+- [[gustaf-alstromer]] — author of the AI-Native Service Companies RFS
 - [[scobleizer-ai-native-companies]] — Scoble/Cronin newsletter framing of AI-native companies

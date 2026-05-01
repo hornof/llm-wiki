@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-04-29
+last_updated: 2026-05-01
 ---
 
 ## What This Is
@@ -76,6 +76,15 @@ Thesis: "The next billion-dollar company might have one employee. The next decac
 - [[software-3-0]] — Karpathy's paradigm shift framing; "pure software is uninvestable" is the investor-side articulation of the same underlying shift
 - [[vibe-coding]] — floor-raising complement; Naval's solo-operator vision requires the ceiling-raising of agentic engineering
 - [[claude-code]] — explicitly named in the source as the tool enabling 2-person teams to replicate 80% of SaaS products in 90 days
+
+## YC Partner-Level Validation (April 2026)
+
+Two RFS items in [[yc-summer-2026-rfs]] independently endorse the thesis:
+
+- **SaaS Challengers** (Jared Friedman): "AI has collapsed the cost of producing software by 10–100x… The moat that protected legacy SaaS — millions of lines of code, built over decades — is gone… The next generation will be built by replacing legacy SaaS with AI-native software." Direct YC partner-level call to attack the products that "seem invulnerable" (chip design software, ERPs, industrial control systems, supply chain management). Independent validation of Naval's "pure software is uninvestable" framing.
+- **AI-Native Service Companies** ([[gustaf-alstromer]]): the explicit category for outcome-delivery rather than tool-augmentation; YC partner-level confirmation that the durable value migrates from "selling software" to "selling the service done." Total spend on services >> spend on software, and most services are already outsourced — structurally easier to replace.
+
+Two YC partners independently calling for SaaS challengers and AI-native service replacements, in the same RFS, raises Naval's thesis from "podcast take" to "deal-flow filter at the most influential early-stage accelerator." Watch YC Summer 2026 batch composition for early evidence.
 
 ## Tracking Signals
 
