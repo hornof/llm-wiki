@@ -13,6 +13,8 @@
 - [[stitch]] — Google Labs AI design tool; open-sourced DESIGN.md spec (April 2026); portable design rules for agents
 - [[alphafold]] — DeepMind's protein structure prediction system; ~200M structures predicted; Nobel Prize 2024
 - [[claude-design]] — emerging Anthropic-surface capability for end-to-end brand/marketing/prototype design; thin signal as of April 2026
+- [[career-ops]] — open-source AI job-search system on Claude Code; 14 skill modes, real sub-agent batch mode, MIT, 8.2k GitHub stars (April 2026)
+- [[playwright-mcp]] — Microsoft's MCP server exposing Playwright browser automation; emerging default for browser-side execution in Claude Code skills
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -100,6 +102,9 @@
 - [[anthropic-claude-partner-network]] — Anthropic launches $100M Claude Partner Network and first official technical certification (March 2026)
 - [[elora-khatun-claude-certified-architect-roadmap]] — practitioner 6-week roadmap for the Claude Certified Architect exam (April 2026)
 - [[tomcrawshaw-claude-code-blueprint]] — interactive 60-minute Claude Code onboarding pattern; CLAUDE.md framed as "the trick" (April 2026)
+- [[heygurisingh-career-ops]] — career-ops open-sourced (8.2k stars); end-to-end Claude Code skill stack for AI job search (April 2026)
+- [[alfiejcarter-linkedin-claude-stack]] — Claude Code + Playwright MCP LinkedIn-publishing stack; profile.md + hooks.md voice scaffolding (April 2026)
+- [[aina-ai2-eight-senior-prompts]] — 8 senior-role Claude prompts; community shift from one-line imperatives to structured deliverables (April 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

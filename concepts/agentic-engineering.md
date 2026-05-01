@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-04-29
+last_updated: 2026-04-30
 
 ---
 
@@ -44,6 +44,8 @@ See [[vibe-coding]]. Vibe coding raises the floor; agentic engineering raises th
 ## Tools in This Space
 - [[claude-code]] — Karpathy specifically cites "Claude Code or Codex" as the layer where agentic engineering happens
 - Codex (OpenAI) — mentioned alongside Claude Code as a primary agentic engineering interface
+- [[career-ops]] — flagship open-source example of an agent-leveraged production tool stack (8.2k stars, MIT)
+- [[playwright-mcp]] — emerging convention for browser-side execution within agentic workflows
 
 ## Related Concepts
 - [[vibe-coding]] — the floor-raising complement; entry-level
@@ -54,6 +56,18 @@ See [[vibe-coding]]. Vibe coding raises the floor; agentic engineering raises th
 ## Solo Operator Vision (Naval's Reinforcement)
 
 Naval Ravikant (April 2026) articulates the same capability from an investor/founder perspective: a 1-person company operating at the velocity of a 50-person team via agents. Users report bugs → agent reviews → agent writes fixes, opens PRs, runs tests → founder reviews and ships. No coordination overhead, no political compromise, no vision diluted by committee. This is the market-facing consequence of agentic engineering applied to product companies. See [[saas-disruption-thesis]] and [[naval-ravikant-saas-is-next]].
+
+## Real-World Example: career-ops (April 2026)
+
+[[career-ops]] (santifer, MIT, 8.2k GitHub stars at announcement) is one of the cleanest end-to-end instantiations of agentic engineering in the wild. The pipeline composes:
+
+- **14 skill modes** as the spec layer (the engineer's design authority — what each stage produces)
+- **Real Claude Code sub-agents** for `batch` mode, evaluating 10+ job offers in parallel (genuine multi-process parallelism, not prompt-time persona simulation)
+- **[[playwright-mcp]]** for ATS-optimized PDF generation
+- **A Go TUI on top** (Bubble Tea) for browsing pipeline state
+- **Self-modifiability**: because career-ops *is* a Claude Code skill stack, the user asks Claude to rewrite the system itself ("change archetypes to backend roles," "add these 10 companies"). The [[llm-wiki-pattern]] applied recursively to a tool's own configuration.
+
+The author's framing is a textbook agentic-engineering claim — a quality bar is *enforced* (the system refuses to recommend any role scoring below 4.0/5), human judgment is preserved at the decisive step (which offers to pursue), and execution toil (PDF generation, salary research, story banking) is fully agent-driven. **Filter, not firehose** — explicitly inverting spray-and-pray automation. — [[heygurisingh-career-ops]]
 
 ## The Missing "Why" Layer (Chamath, April 2026)
 

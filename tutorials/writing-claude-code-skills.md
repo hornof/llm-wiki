@@ -192,6 +192,37 @@ When this is worth the extra step: tasks where wrongness is expensive (legal, me
 
 Mixed-source notebooks work: practitioners confirm YouTube transcripts + PDFs + articles compose well as a single grounding set. Source: [[julian-goldie-notebooklm-skills-factory]].
 
+### Voice-Scaffolded Skills (`profile.md` + `hooks.md`)
+
+A more granular variant of source grounding — circulated by [@AlfieJCarter](https://x.com/AlfieJCarter/status/2049908404349501820) in April 2026 — splits the grounding set into **two persistent files** with distinct jobs:
+
+1. **`profile.md`** — *who you are*. Voice, stories, professional background, ICP, characteristic phrasings. Loaded at the start of every session so generated output reads as the author from session one. Equivalent to the system-prompt slot for voice context.
+2. **`hooks.md`** — *what good output looks like*. A curated library of proven formats with concrete examples, **plus an explicit "no-go list" of overused openers** Claude must avoid. Functions as both positive (formats to imitate) and negative (lines saturating the space) constraint.
+
+Why split these: voice and format change at different rates. `profile.md` is updated when the author's role/positioning shifts (months); `hooks.md` is updated when a new format proves itself or when Claude's output starts cliché-drifting toward overused patterns (weeks). Keeping them in separate files lets each evolve on its own cadence.
+
+Pattern instantiation in [[alfiejcarter-linkedin-claude-stack]] — Claude Code skill that generates **three draft variants per topic** (the "pick the best of N" technique), matches each draft to a folder photo by descriptive filename, and uses [[playwright-mcp]] to publish to LinkedIn end-to-end. The author claims 70-80% draft quality out of the box and 5 minutes of editing to publishable.
+
+When this is worth doing: any **voice-sensitive output** task that the user repeats weekly+ — LinkedIn posts, newsletters, customer email replies, brand announcements. The `profile.md`/`hooks.md` split is overkill for one-off generation but pays back the configuration cost over many sessions.
+
+Pushback to track: a fair critique ([@Prithvi_Jadwani](https://x.com/Prithvi_Jadwani/status/2049934770294116414) on the original post) is that this pattern outsources voice production even with `profile.md` constraints. The line between "scaffolded my voice" and "let an LLM speak for me" depends entirely on how rigorously the user reviews and rewrites drafts before publishing.
+
+### Senior-Role Prompts as a Skill Pattern
+
+A cousin of the source-grounded pattern — circulated by [@Aina_Ai2](https://x.com/Aina_Ai2/status/2049490182211301527) in April 2026 — is **role-prompting with explicit deliverable structure**. The shape is shared across the 8 prompts in the source:
+
+```
+Think like a senior <role>. <Goal>.
+Result:
+- <Named deliverable section 1>
+- <Named deliverable section 2>
+- ...
+```
+
+Filed here because role-prompting fits naturally into the **description (Pattern 1)** and **output format (Pattern 3)** of a skill file: the role goes in the description's "use when" clause; the named deliverable sections become the explicit output format. Most of the 8 prompts could be promoted into reusable skills with one revision pass: add trigger keywords, add a "read first" step, add an out-of-scope list. Source: [[aina-ai2-eight-senior-prompts]].
+
+Caveat on Pattern 7 of the source — "you are 4 collaborating agents (Architect/Engineer/Reviewer/Optimizer) in one response" — is **prompt-time persona simulation**, not Claude Code's actual sub-agent feature (separate context windows, parallel execution, isolated tool permissions). For real parallelism, see [[career-ops]]'s `batch` mode: 10+ offers evaluated concurrently using genuine Claude Code sub-agents.
+
 ## Diagnosing Broken Skills
 
 Run through this checklist against any skill that Claude never invokes:
@@ -222,4 +253,8 @@ Fix failing items. Then test by asking Claude something the skill should handle 
 
 - [[zodchiii-anatomy-perfect-skill]] — source thread; 6-pattern framework
 - [[julian-goldie-notebooklm-skills-factory]] — NotebookLM-as-skills-factory pattern; source-grounded skill.md authoring
+- [[alfiejcarter-linkedin-claude-stack]] — `profile.md` + `hooks.md` voice-scaffolding pattern in production
+- [[aina-ai2-eight-senior-prompts]] — eight senior-role prompts; role + deliverable-structure recipe
+- [[heygurisingh-career-ops]] — career-ops, 14-skill production stack; `batch` mode using real Claude sub-agents
+- [[career-ops]] — flagship example skill stack
 - [[claude-code]] — parent tool page
