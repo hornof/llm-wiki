@@ -64,6 +64,7 @@
 - [[diana-hu]] — YC Group Partner; authored 3 RFS items (Inference Chips for Agent Workflows, Semiconductor Supply Chain 2.0, AI Operating System for Companies)
 - [[garry-tan]] — YC President & CEO; authored AI for Low-Pesticide Agriculture RFS; "G-Brain" framing referenced internally
 - [[gustaf-alstromer]] — YC Group Partner; authored AI-Native Service Companies RFS (the practitioner-flagged underrated category)
+- [[imran-ahmad]] — technical author (Packt); *50 Algorithms Every Programmer Should Know* + *30 Agents Every AI Engineer Must Build* (2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -132,6 +133,7 @@
 - [[reddit-claude-code-workflow-cheatsheet]] — community-built Claude Code cheatsheet circulating on r/AskVibecoders (image-only, low signal) (May 2026)
 - [[yc-summer-2026-rfs]] — **primary source** for YC Summer 2026 RFS (15 categories with author attribution); origin of "Company Brain" phrase; two RFS items overlap company-brain thesis (April 2026)
 - [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of YC Summer 2026 RFS (April 2026)
+- [[30-agents-every-ai-engineer-must-build]] — Packt book listing by [[imran-ahmad]]; agent engineering as a 30-pattern catalog using LangChain + LangGraph (listing-only ingest, book not read) (2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

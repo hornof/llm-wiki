@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-05-01
+last_updated: 2026-05-02
 ---
 
 ## What It Is
@@ -17,6 +17,20 @@ Agents are the current frontier of applied AI engineering. Moving from "LLM as a
 - **ReAct**: Reasoning + Acting — LLM interleaves thinking steps with tool calls
 - **Multi-agent**: multiple specialized agents collaborate, delegate, or check each other's work
 - **Human-in-the-loop**: agent pauses for human approval at key decision points
+
+## Recurring Cognitive Decomposition
+
+Across academic surveys, framework documentation, and Packt's *30 Agents* book ([[30-agents-every-ai-engineer-must-build]] by [[imran-ahmad]]), the same five-capability decomposition shows up as the foundational core of any production agent:
+
+| Capability | What it does |
+| --- | --- |
+| Perception | Reads inputs from the environment (user prompt, tool output, retrieved docs, sensor data) |
+| Memory | Holds short-term working state and longer-term context across runs ([[mem0]], [[company-brain]] at organizational scale, CLAUDE.md at personal scale — [[seelffff-personal-ai-agent]]) |
+| Reasoning | Plans, evaluates, decides next action |
+| Planning | Decomposes goals into action sequences; backtracks on failure |
+| Learning | Updates from feedback loops (rare in current production; mostly research) |
+
+This decomposition is the lens to use when reading any new agent-architecture proposal — most "novel" patterns are recombinations of these five capabilities with different scaffolding around memory, planning, or tool integration.
 
 ## Key Protocols
 - **MCP (Model Context Protocol)**: Anthropic's open standard for connecting LLMs to tools and data sources — [[mcp]] (see also [[claude-code]] for practical gotchas)
@@ -53,3 +67,4 @@ Both insist that the agent must *read context before acting* and that **memory m
 - [[ashwingop-company-brain-part-1]] — Company Brain thesis Part 1 (memory substrate underneath agentic AI)
 - [[ashwingop-company-brain-part-2]] — Company Brain Part 2 (factual memory ≠ RAG; semantic file system; memory participates)
 - [[seelffff-personal-ai-agent]] — personal-scale agent stack on Claude Desktop + MCP
+- [[30-agents-every-ai-engineer-must-build]] — Packt book by [[imran-ahmad]] structuring agent engineering as a 30-pattern catalog (listing-only ingest)

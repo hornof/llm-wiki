@@ -3,7 +3,7 @@ name: LangChain
 type: tool
 category: framework
 status: mainstream
-last_updated: 2026-04-21
+last_updated: 2026-05-02
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ A Python (and JavaScript) framework for building LLM-powered applications. Provi
 ## Traction Signals
 - Forked by wiki owner for active exploration — [[github-hornof-profile]]
 - One of the earliest and most widely adopted LLM frameworks; large ecosystem [unsourced]
+- **2026 book-publishing signal**: Packt's *30 Agents Every AI Engineer Must Build* by [[imran-ahmad]] explicitly names LangChain + LangGraph as the build stack for the book's pattern-catalog approach. Trade-publisher commitment to the LangChain stack as the canonical teaching surface is a durability signal — separate from frontier practitioner adoption (which has shifted toward [[claude-code]] / [[claude-desktop]] + [[mcp]] for direct-agent workflows). — [[30-agents-every-ai-engineer-must-build]]
 
 ## How to Use It
 Build chains (sequences of LLM calls and transformations), RAG pipelines (document loading → embedding → retrieval → generation), or agents (LLM + tools in a loop). LangGraph (a sub-project) handles stateful, graph-based agent workflows.
@@ -30,3 +31,4 @@ Build chains (sequences of LLM calls and transformations), RAG pipelines (docume
 
 ## Resources
 - [[github-hornof-profile]] — forked by wiki owner; signals active interest
+- [[30-agents-every-ai-engineer-must-build]] — Packt book by [[imran-ahmad]] using LangChain + LangGraph as the build stack for 30 agent-architecture patterns (listing-only ingest, book content not read)
