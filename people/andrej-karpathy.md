@@ -3,7 +3,7 @@ name: Andrej Karpathy
 type: person
 affiliation: Eureka Labs (founder)
 signal_sources: [twitter, blog, github, youtube]
-last_updated: 2026-04-29
+last_updated: 2026-05-04
 ---
 
 ## Who They Are
@@ -31,6 +31,7 @@ Building AI education tools at Eureka Labs. Actively vibe-coding and agentic eng
 - **1B model claim** (via Dwarkesh podcast): a 1B parameter model on clean data could match a 1.8T parameter frontier model — current large models burn most capacity on noise memorization; proposes separating a small cognitive core from external retrieval memory — [[thread-aakashgupta-1b-model]]
 - **"The Bitter Lesson" alignment**: Generally agrees with Sutton's thesis that scale + compute beats hand-crafted approaches
 - **LLM tutorial video**: a 2-hour Karpathy video on using LLMs is circulating; community describes it as better than "99% of AI influencers" — [[thread-phosphenq-karpathy-video]]
+- **"Agentic engineering" term confirmed as working vocabulary**: an X comment thread (May 2026) on @benln's share of Karpathy's framing shows practitioners independently adopting "agentic engineering" as their category label for hiring conversations, skill stratification, and organizational planning — [[benln-x-karpathy-agentic-engineering-2026-05]]. Rahul Kumar (@hellorahulk): "karpathy calling the shift agentic engineering is the label i keep reaching for when hiring asks what changed." The term is working vocabulary, not just a Karpathy coinage.
 
 ## Where to Follow
 - Twitter/X: @karpathy
