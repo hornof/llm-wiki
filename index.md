@@ -134,6 +134,7 @@
 - [[yc-summer-2026-rfs]] — **primary source** for YC Summer 2026 RFS (15 categories with author attribution); origin of "Company Brain" phrase; two RFS items overlap company-brain thesis (April 2026)
 - [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of YC Summer 2026 RFS (April 2026)
 - [[30-agents-every-ai-engineer-must-build]] — Packt book listing by [[imran-ahmad]]; agent engineering as a 30-pattern catalog using LangChain + LangGraph (listing-only ingest, book not read) (2026)
+- [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party Reddit popularization of Karpathy's vibe-coding/agentic-engineering split; adds 4-step workflow, three failure modes, "cognitive debt" coinage; comments show practitioner pushback against AI-formatted explainers (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

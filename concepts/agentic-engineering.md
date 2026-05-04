@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-04-30
+last_updated: 2026-05-03
 
 ---
 
@@ -73,7 +73,19 @@ The author's framing is a textbook agentic-engineering claim — a quality bar i
 
 Chamath Palihapitiya identifies a team-level gap that individual agent speed gains don't solve: architectural reasoning (the "why" behind decisions) typically lives in Slack threads, Linear tickets, or individual heads. Individual engineers can go faster with AI, but team collective knowledge doesn't compound — so the team goes the same speed or slower. The implication for agentic engineering: agents need access to decision context, not just code. A good multiplayer AI dev experience must capture the reasoning layer, not only accelerate the execution layer. — [[chamath-decision-context-agents]]
 
+## Practical Workflow (Practitioner Distillation, May 2026)
+
+A r/AIAgentsInAction popularization of Karpathy's framing distills agentic engineering into a 4-step working loop. Useful because Karpathy himself articulates the *philosophy* but not a step-by-step procedure:
+
+1. **Spec first** — write what the feature does, edge cases, data model, what can break, *before* prompting the agent. Use the model to help draft if you want, but the spec exists before the agent touches a file. This is the step vibe coders skip.
+2. **Scope tasks tightly** — "Build a user auth system" is a vibe prompt. "Implement password reset using existing Resend integration, store the token in Redis with a 15-minute TTL, here's the spec" is a scoped task. Constrained, reviewable, the agent can't drift.
+3. **Review the diff like a human PR** — "If you can't explain what a module does, it doesn't merge." Reading every diff is the gate that prevents the [[vibe-coding]] failure modes (security holes compound, context collapses).
+4. **Test before shipping** — tests you wrote or reviewed, not tests the agent generated and you skimmed. If tests don't exist, write them first and have the agent pass them.
+
+Three habits the post recommends: spec before every agent task; read every diff (200 lines changed = 200 lines read); run tests before calling anything done. — [[reddit-karpathy-moved-on-from-vibe-coding]]
+
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
+- [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party practitioner popularization (May 2026); adds 4-step workflow, three failure modes, and "cognitive debt" coinage
 - [[naval-ravikant-saas-is-next]] — Naval's investor framing of the solo-operator outcome; "pure software is uninvestable"
 - [[chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer for team AI leverage

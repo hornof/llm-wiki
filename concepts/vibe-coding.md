@@ -2,7 +2,7 @@
 name: Vibe Coding
 type: concept
 maturity: emerging
-last_updated: 2026-04-29
+last_updated: 2026-05-03
 ---
 
 ## Definition
@@ -34,6 +34,18 @@ Karpathy notes that December 2025 was when vibe coding became reliably effective
 - Agents still make architectural mistakes without human oversight (e.g., using email addresses as cross-system user IDs instead of a persistent user ID).
 - Generated code can be "bloaty" with copy-paste and brittle abstractions — aesthetics and simplicity require human judgment.
 
+## Why It Breaks at Scale (Three Failure Modes)
+A May 2026 r/AIAgentsInAction popularization names the failure modes that kill vibe coding in production work — useful sharper articulation of the limits above:
+
+1. **Security holes compound.** An agent writing 1,000 PRs/week at a 1% vulnerability rate ships ~10 new vulnerabilities per week. Vibe coding has no gate for this because the human isn't reading what gets merged.
+2. **Architecture rots.** Skipping design means months later nobody can explain why the codebase is shaped the way it is — no reasoning to follow because no reasoning happened.
+3. **Context collapses.** Long sessions degrade; the agent loses track of earlier decisions, code contradicts itself, the developer never catches it.
+
+The accumulated cost of all three is **cognitive debt** — the price of poor agent management, lost context, and unreliable behavior. — [[reddit-karpathy-moved-on-from-vibe-coding]]
+
+## Propagation Signal (May 2026)
+Karpathy's vibe-coding/agentic-engineering distinction is propagating into practitioner subreddits within ~5 weeks of the AI Ascent talk. But comments on the r/AIAgentsInAction popularization show a sharp split: the *concepts* are spreading, but AI-formatted summaries are getting rejected as "slop" — practitioner antibodies against LLM-written advice posts even when the framing they carry is sound. The signal is two-sided: distinction is catching on; second-hand explainers are not. — [[reddit-karpathy-moved-on-from-vibe-coding]]
+
 ## Related Concepts
 - [[agentic-engineering]] — the professional counterpart
 - [[software-3-0]] — the broader paradigm; vibe coding is one manifestation
@@ -41,3 +53,4 @@ Karpathy notes that December 2025 was when vibe coding became reliably effective
 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy's own description at AI Ascent 2026; coined the term, now contextualizes it relative to agentic engineering
+- [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party Reddit popularization (May 2026); adds the cognitive-debt coinage and three-failure-mode framing
