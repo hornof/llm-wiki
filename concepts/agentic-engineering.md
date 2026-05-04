@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-05-03
+last_updated: 2026-05-04
 
 ---
 
@@ -84,8 +84,41 @@ A r/AIAgentsInAction popularization of Karpathy's framing distills agentic engin
 
 Three habits the post recommends: spec before every agent task; read every diff (200 lines changed = 200 lines read); run tests before calling anything done. — [[reddit-karpathy-moved-on-from-vibe-coding]]
 
+## Practitioner Reactions: The X Comment Thread (May 2026)
+
+An X comment thread on @benln's share of Karpathy's framing surfaced five distinct practitioner angles that extend the core concept. These are independent voices — not Karpathy — attesting to how the framing is landing in practice. — [[benln-x-karpathy-agentic-engineering-2026-05]]
+
+### The Economics of Being Wrong
+ByteCrafter (@bytecrafter_1): the core shift is not that agents write code — it's that **the cost of being wrong has dropped**. When an agent reruns tests in 90 seconds and self-corrects three times before you read the diff, you stop optimizing for first-try correctness. The bottleneck moves to **spec quality**. This is a different claim than Karpathy's "intern" framing — ByteCrafter is pointing to the incentive structure change, not the capability level.
+
+### Floor vs. Ceiling (Confirmed Externally)
+Facundo Franco (@facundofranco_): "Vibe coding gives everyone a floor. Agentic engineering raises the ceiling for people who actually understand what they're building." Independent practitioner confirmation of the two-tier model Karpathy articulates.
+
+### Agent-Native Documentation Gap
+Gagan (@gagansaluja08): "CLAUDE.md is the only thing we actively maintain for agent consumption. Everything else fails them." This is a strong practitioner signal that Karpathy's observation about docs-written-for-humans is real in the field, not just a theoretical concern. Gagan's "agents are interns — great recall, weak judgment" independently echoes Karpathy's framing, suggesting the intern metaphor has broad resonance.
+
+### Term Adoption in Hiring
+Rahul Kumar (@hellorahulk): "agentic engineering is the label I keep reaching for when hiring asks what changed." The term is functioning as a practical category for practitioners navigating the transition — a signal that it is working vocabulary, not just a Karpathy coinage.
+
+### Verifiability and Auditability
+Balaji Jegadeesh (@Vbj0818): "Verifiability is the unlock. Agents can generate more work now but the bottleneck moves to knowing what was built, why it changed, and whether the result can be trusted. Agentic engineering is going to need a lot more auditability." This extends [[verifiability-and-jagged-intelligence]] into an organizational requirement — not just an epistemological observation but an operational demand.
+
+### Organizational Harness (Zohar Einy's 7-Point Framework)
+Zohar Einy (@ZoharEiny, newsletter.port.io) contributes the most structurally novel take: individual engineer productivity is not enough — agents need an **organizational harness** to function at professional quality. His seven-point list:
+
+1. **Pre-cleared integrations** — agents can only touch what's been explicitly authorized
+2. **Context lake** — the memory substrate agents draw from (parallels [[company-brain]] at organizational scale)
+3. **Agent registry** — known inventory of agents, their capabilities, their current state
+4. **Measurement** — observability layer; you can't govern what you can't see
+5. **HITL** — Human-In-The-Loop; structured approval gates at consequential steps
+6. **Governance** — policy layer; rules for what agents can and can't do autonomously
+7. **Orchestration** — coordination layer; how multiple agents collaborate without collision
+
+This framework is complementary to (not competing with) the individual-engineer framing. Karpathy's agentic engineering addresses the individual practitioner. Zohar's harness addresses the organizational substrate beneath them. See also [[company-brain]] (organizational memory), [[agentic-ai]] (multi-agent patterns), and [[chamath-decision-context-agents]] (the "why" capture gap).
+
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party practitioner popularization (May 2026); adds 4-step workflow, three failure modes, and "cognitive debt" coinage
+- [[benln-x-karpathy-agentic-engineering-2026-05]] — X comment thread (May 2026); practitioner reactions: cost-of-being-wrong economics, term adoption as hiring vocabulary, organizational harness 7-point framework
 - [[naval-ravikant-saas-is-next]] — Naval's investor framing of the solo-operator outcome; "pure software is uninvestable"
 - [[chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer for team AI leverage

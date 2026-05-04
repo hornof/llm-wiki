@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-04-30
+last_updated: 2026-05-04
 ---
 
 ## What It Is
@@ -21,8 +21,9 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - **Claude** — frontier AI assistant (Opus, Sonnet, Haiku tiers)
 - **Claude Code** — agentic coding CLI; see [[claude-code]]
 - **Anthropic API** — developer access to Claude models
-- **Claude Partner Network** — partner program launched 2026-03-12 with $100M committed; free membership for any org bringing Claude to market; provides Partner Portal access, Anthropic Academy training, sales playbooks, Services Partner Directory listing, dedicated Applied AI engineers, and technical architects — [[anthropic-claude-partner-network]]
+- **Claude Partner Network** — partner program launched 2026-03-12 with $100M committed; free membership for any org bringing Claude to market; provides Partner Portal access, Anthropic Academy training, sales playbooks, Services Partner Directory listing, dedicated Applied AI engineers, and technical architects — [[anthropic-claude-partner-network]]; expanding steadily (see enterprise JV below)
 - **Claude Certified Architect, Foundations** — Anthropic's first official technical certification (March 2026); proctored exam for solution architects building production Claude applications; gateway to a multi-track cert program with seller/architect/developer tracks promised later in 2026 — [[claude-certified-architect]]
+- **Enterprise AI Services Joint Venture** (announced 2026-05-03, name TBD) — new company co-founded with Blackstone, Hellman & Friedman, and Goldman Sachs; backed by General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital. Purpose-built to deliver custom Claude implementations for mid-sized companies (community banks, regional health systems, mid-sized manufacturers) that lack in-house frontier-AI capacity. Anthropic contributes Applied AI engineers who embed alongside the firm's engineering team. Will become a Claude Partner Network member. Distinct from existing SI partners (Accenture, Deloitte, PwC), which serve large enterprises — [[anthropic-enterprise-ai-services-company-2026-05]]
 
 ## Traction Signals
 
@@ -35,6 +36,7 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - Claude Code and Codex (OpenAI) named as the tools that established labs are using to dominate the coding agent market, pressuring startups like Cursor ($29.3B valuation) — [[forbes-ai-50-2026]]
 - 2026-03-12: Claude Partner Network launched with $100M commitment; positioned explicitly against the "no partner ecosystem" critique often levied at frontier labs — Steve Corfield (Head of Global BD & Partnerships): "Anthropic is the most committed AI company in the world to the partner ecosystem—and we're putting $100 million behind that this year to prove it." — [[anthropic-claude-partner-network]]
 - 2026-03-12: launched first official technical certification (Claude Certified Architect, Foundations); third-party study guides and practitioner roadmaps proliferated within 6 weeks (Medium, lowcode.agency, FlashGenius, dev.to, X) — [[claude-certified-architect]], [[elora-khatun-claude-certified-architect-roadmap]]
+- 2026-05-03: announced unnamed enterprise AI services joint venture with Blackstone, H&F, and Goldman Sachs (+ General Atlantic, Leonard Green, Apollo, GIC, Sequoia); targets mid-market companies not reachable by existing SI-led Claude deployments; Krishna Rao (CFO): "Enterprise demand for Claude is significantly outpacing any single delivery model" — [[anthropic-enterprise-ai-services-company-2026-05]]
 
 ## Resources
 
@@ -42,3 +44,4 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - [[anthropic-claudes-constitution]] — Claude's model spec (CC0)
 - [[forbes-ai-50-2026]] — Forbes 2026 AI 50; revenue, valuation, Pentagon blacklist
 - [[anthropic-claude-partner-network]] — Partner Network announcement; first technical certification launch (March 2026)
+- [[anthropic-enterprise-ai-services-company-2026-05]] — enterprise AI services JV with PE/finance firms; mid-market delivery expansion (May 2026)
