@@ -16,6 +16,7 @@
 - [[career-ops]] — open-source AI job-search system on Claude Code; 14 skill modes, real sub-agent batch mode, MIT, 8.2k GitHub stars (April 2026)
 - [[playwright-mcp]] — Microsoft's MCP server exposing Playwright browser automation; emerging default for browser-side execution in Claude Code skills
 - [[claude-desktop]] — Anthropic's desktop app; persistent Projects + MCP host; default surface for personal-agent stacks (April 2026)
+- [[claude-financial-services]] — Anthropic's first vertical agent product line (May 2026); 10 templates spanning IB / equity research / accounting / audit / compliance
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -65,6 +66,7 @@
 - [[garry-tan]] — YC President & CEO; authored AI for Low-Pesticide Agriculture RFS; "G-Brain" framing referenced internally
 - [[gustaf-alstromer]] — YC Group Partner; authored AI-Native Service Companies RFS (the practitioner-flagged underrated category)
 - [[imran-ahmad]] — technical author (Packt); *50 Algorithms Every Programmer Should Know* + *30 Agents Every AI Engineer Must Build* (2026)
+- [[linas-beliunas]] — independent FinTech & AI commentator (~379k subscribers); product/strategy synthesis voice; called the Anthropic vertical-build map 48hrs before the financial-services launch (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -137,6 +139,11 @@
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party Reddit popularization of Karpathy's vibe-coding/agentic-engineering split; adds 4-step workflow, three failure modes, "cognitive debt" coinage; comments show practitioner pushback against AI-formatted explainers (May 2026)
 - [[anthropic-enterprise-ai-services-company-2026-05]] — Anthropic + Blackstone + H&F + Goldman Sachs form unnamed enterprise AI services JV; mid-market Claude delivery; Claude Partner Network expansion (May 2026)
 - [[benln-x-karpathy-agentic-engineering-2026-05]] — X comment thread reactions to Karpathy's agentic engineering framing; cost-of-being-wrong economics, floor/ceiling confirmation, organizational harness 7-point framework (Zohar Einy), "agentic engineering" confirmed as working practitioner vocabulary (May 2026)
+- [[claudeai-financial-services-agents-2026-05]] — primary @claudeai post: 10-agent vertical template launch; Claude Code / Cowork / Managed Agents as deployment surfaces (May 5 2026)
+- [[joshkale-anthropic-finance-agents-2026-05]] — third-party amplification with concrete agent inventory; "first-year analyst job" framing (May 5 2026)
+- [[linas-anthropic-startup-playbook-2026-05]] — Linas Beliūnas Substack: 9 consumer PMF domains + 4 Anthropic-vertical-build map; Cal AI as conversion proof point (May 3 2026)
+- [[linasbeliunas-anthropic-vertical-builds-2026-05]] — companion X post; GM-level vertical hiring claim; calendar-correlation with May 3 enterprise JV (May 4 2026)
+- [[brianlamanna-paraform-talent-density-2026-05]] — Paraform Talent Density top-50 snapshot; Thinking Machines #1, OpenAI #2, Anthropic #3 (May 4 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

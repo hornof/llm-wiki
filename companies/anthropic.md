@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-04
+last_updated: 2026-05-05
 ---
 
 ## What It Is
@@ -24,6 +24,9 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - **Claude Partner Network** — partner program launched 2026-03-12 with $100M committed; free membership for any org bringing Claude to market; provides Partner Portal access, Anthropic Academy training, sales playbooks, Services Partner Directory listing, dedicated Applied AI engineers, and technical architects — [[anthropic-claude-partner-network]]; expanding steadily (see enterprise JV below)
 - **Claude Certified Architect, Foundations** — Anthropic's first official technical certification (March 2026); proctored exam for solution architects building production Claude applications; gateway to a multi-track cert program with seller/architect/developer tracks promised later in 2026 — [[claude-certified-architect]]
 - **Enterprise AI Services Joint Venture** (announced 2026-05-03, name TBD) — new company co-founded with Blackstone, Hellman & Friedman, and Goldman Sachs; backed by General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital. Purpose-built to deliver custom Claude implementations for mid-sized companies (community banks, regional health systems, mid-sized manufacturers) that lack in-house frontier-AI capacity. Anthropic contributes Applied AI engineers who embed alongside the firm's engineering team. Will become a Claude Partner Network member. Distinct from existing SI partners (Accenture, Deloitte, PwC), which serve large enterprises — [[anthropic-enterprise-ai-services-company-2026-05]]
+- **Claude for Financial Services** (launched 2026-05-05) — packaged set of 10 ready-to-run agent templates for IB, equity research, accounting, audit, and compliance workflows; ships as plugins for [[claude-code]] and Cowork or as cookbooks for production deployment as Managed Agents — [[claude-financial-services]], [[claudeai-financial-services-agents-2026-05]]
+- **Claude Cowork** (named publicly 2026-05-05 as a plugin host alongside Claude Code) — collaborative product surface for vertical-agent plugins; product details not yet documented in the wiki
+- **Managed Agents** (named publicly 2026-05-05) — production deployment mode for Claude agents via Anthropic's cookbooks; first-class hosted runtime path distinct from CLI plugin install
 
 ## Traction Signals
 
@@ -37,6 +40,9 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - 2026-03-12: Claude Partner Network launched with $100M commitment; positioned explicitly against the "no partner ecosystem" critique often levied at frontier labs — Steve Corfield (Head of Global BD & Partnerships): "Anthropic is the most committed AI company in the world to the partner ecosystem—and we're putting $100 million behind that this year to prove it." — [[anthropic-claude-partner-network]]
 - 2026-03-12: launched first official technical certification (Claude Certified Architect, Foundations); third-party study guides and practitioner roadmaps proliferated within 6 weeks (Medium, lowcode.agency, FlashGenius, dev.to, X) — [[claude-certified-architect]], [[elora-khatun-claude-certified-architect-roadmap]]
 - 2026-05-03: announced unnamed enterprise AI services joint venture with Blackstone, H&F, and Goldman Sachs (+ General Atlantic, Leonard Green, Apollo, GIC, Sequoia); targets mid-market companies not reachable by existing SI-led Claude deployments; Krishna Rao (CFO): "Enterprise demand for Claude is significantly outpacing any single delivery model" — [[anthropic-enterprise-ai-services-company-2026-05]]
+- 2026-05-03 to 2026-05-05: **vertical-build pattern made public**. May 3 personal-guidance research paper (1M conversations, 9 consumer domains) read as a PMF map by [[linas-beliunas]]; May 4 X analysis claims Anthropic is now staffing GMs for 4 verticals (healthcare, financial services, legal, life sciences) per public job postings — [[linas-anthropic-startup-playbook-2026-05]], [[linasbeliunas-anthropic-vertical-builds-2026-05]]; May 5 [[claude-financial-services]] launch confirms at least one vertical has shipped product
+- 2026-05-05: **first vertical agent product line shipped** — Claude for Financial Services with 10 named agents (pitch builder, meeting preparer, earnings reviewer, model builder, market researcher, valuation reviewer, GL reconciler, month-end closer, statement auditor, KYC screener); installable as plugins in Claude Code and Cowork or runnable as Managed Agents — [[claudeai-financial-services-agents-2026-05]], [[joshkale-anthropic-finance-agents-2026-05]]; framed by amplifiers as "automating the first-year analyst job at every bank on Wall Street"
+- 2026-05-04: **talent-density signal** — Anthropic ranked #3 on Paraform's Talent Density Index (behind only [[thinking-machines-lab]] and [[openai]]); strong recruiting position despite intense competition from new neo-labs — [[brianlamanna-paraform-talent-density-2026-05]]
 
 ## Resources
 
@@ -45,3 +51,8 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - [[forbes-ai-50-2026]] — Forbes 2026 AI 50; revenue, valuation, Pentagon blacklist
 - [[anthropic-claude-partner-network]] — Partner Network announcement; first technical certification launch (March 2026)
 - [[anthropic-enterprise-ai-services-company-2026-05]] — enterprise AI services JV with PE/finance firms; mid-market delivery expansion (May 2026)
+- [[claudeai-financial-services-agents-2026-05]] — Claude for Financial Services launch (10 vertical agent templates, May 5 2026)
+- [[joshkale-anthropic-finance-agents-2026-05]] — third-party amplification with concrete agent inventory + "first-year analyst" framing
+- [[linas-anthropic-startup-playbook-2026-05]] — strategic context: 4-vertical Anthropic build map + 9-domain consumer PMF surface (May 2026)
+- [[linasbeliunas-anthropic-vertical-builds-2026-05]] — companion X post; GM-level vertical hiring claim
+- [[brianlamanna-paraform-talent-density-2026-05]] — May 2026 talent-density top-50 (Anthropic #3)
