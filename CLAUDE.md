@@ -249,6 +249,12 @@ When given a new source:
    - If page doesn't exist: create it from the schema above.
 5. Update `index.md` if new pages were created.
 6. Append a one-line entry to `log.md`: `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`.
+7. **Submit changes as a PR for owner review — do not commit directly to `main`.**
+   - Create a branch named `ingest/YYYY-MM-DD` (or `ingest/YYYY-MM-DD-<short-tag>` if multiple ingest PRs land the same day).
+   - Stage only ingest-related files. Exclude local Obsidian state (`.obsidian/workspace.json`), unrelated untracked files at vault root (e.g., `Untitled.md`, `Daily Briefs/`), and anything under gitignored paths (`_raw/` is intentionally excluded).
+   - Commit with a `Ingest YYYY-MM-DD: <one-line summary>` title and a body that lists each source and the judgment calls made (new pages skipped, contradictions, etc.).
+   - Push with `-u` and open a PR via `gh pr create` with a Summary + Test plan section. The owner reviews and merges via the GitHub UI.
+   - After merge, the next session syncs with `git checkout main && git pull`.
 
 ### Query
 
