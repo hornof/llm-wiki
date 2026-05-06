@@ -258,3 +258,4 @@ Fix failing items. Then test by asking Claude something the skill should handle 
 - [[heygurisingh-career-ops]] — career-ops, 14-skill production stack; `batch` mode using real Claude sub-agents
 - [[career-ops]] — flagship example skill stack
 - [[claude-code]] — parent tool page
+- [[anthropic-academy-courses-catalog-2026-05]] — official Anthropic Academy curriculum: **Introduction to agent skills** (build, configure, distribute Skills + troubleshoot) and **Introduction to subagents** (delegate tasks, manage context, build specialized workflows). First-party complement to the practitioner sources above.

@@ -2,7 +2,7 @@
 name: Sentra
 type: company
 status: early-stage
-last_updated: 2026-05-01
+last_updated: 2026-05-06
 ---
 
 ## What It Is
@@ -33,9 +33,13 @@ Three-layer memory thesis:
 
 See [[company-brain]] for the concept page.
 
+## Updated Positioning (May 2026)
+
+After a year of design-partner work, [[ashwingop]] sharpened the positioning to **"shared semantic company state"** — the substrate beneath both humans and agents — and disclosed that the project's original internal name was **"Enterprise General Intelligence"** before being simplified to Company Brain. Ambition unchanged; primitive sharpened. New product principles introduced (see [[company-brain]] for full treatment): **pace > automation** (latency collapse is the real wow, not task automation), **surfacing > browsing** (TikTok analogy, not a knowledge-graph browser), **cockpit > copilot** (a memory instrument, not another employee). Ontology layer added above the three memory layers: same substrate, different role-specific lenses (CEO / PM / lawyer / support / agent), each producing valid but distinct memories from the same underlying artifacts. — [[ashwingop-company-brain-year-lessons-2026-05]]
+
 ## Traction Signals
 
-- April 2026 longform thesis posts on X getting practitioner reach: [[ashwingop-company-brain-part-1]] (Apr 29) and [[ashwingop-company-brain-part-2]] (Apr 30) — both substantive, link-rich, with citations to McKinsey, Glean, Granola, Otter, ServiceNow, organizational-memory research.
+- **6-piece longform series** on X (Apr 29 – May 6, 2026) — [[ashwingop-company-brain-part-1]], [[ashwingop-company-brain-part-2]], plus parts 3–5 (interaction memory, action memory, "memory is state, not a service") and the year-lessons summary [[ashwingop-company-brain-year-lessons-2026-05]]. Substantive, link-rich, with citations to McKinsey, Glean, Granola, Otter, ServiceNow, Walsh & Ungson on organizational memory.
 - People are pinging Ashwin saying "isn't this what you're building?" after YC's April 2026 RFS named "company brain" — Ashwin claims the product but acknowledges the name is YC's framing. Now confirmed via primary source: **two separate YC partners independently described the same gap in [[yc-summer-2026-rfs]]** — [[tom-blomfield]] under "Company Brain" (§5) and [[diana-hu]] under "The AI Operating System for Companies" (§16). Two-partner overlap inside one RFS is a strong demand-side signal for Sentra's wedge.
 - Independent validation of the underlying problem: McKinsey ([building agentic AI foundations](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/building-the-foundations-for-agentic-ai-at-scale)) argues agentic AI needs stronger data foundations, lineage, access control, governance to scale — Ashwin uses this as supporting evidence.
 
@@ -51,4 +55,5 @@ See [[company-brain]] for the concept page.
 - [[company-brain]] — concept page
 - [[ashwingop-company-brain-part-1]] — April 2026 thesis (Part 1)
 - [[ashwingop-company-brain-part-2]] — April 2026 deep dive on factual memory (Part 2)
+- [[ashwingop-company-brain-year-lessons-2026-05]] — May 2026 year-of-design-partners summary
 - Site: https://www.sentra.app/

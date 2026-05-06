@@ -3,7 +3,7 @@ name: Ashwin Gopalan
 type: person
 affiliation: Sentra (founder)
 signal_sources: [twitter, blog]
-last_updated: 2026-05-01
+last_updated: 2026-05-06
 ---
 
 ## Who They Are
@@ -26,6 +26,13 @@ Building Sentra. Positioning the "Company Brain" thesis as a sharper alternative
 - **Semantic file system over RAG** (April 2026): durable factual memory is a semantic file system — provenance, permissions, ownership, freshness, source-of-truth, and *relationships between artifacts*. Embedding retrieval alone cannot preserve meaning; "the quality of the relationships determines the quality of the memory" — [[ashwingop-company-brain-part-2]]
 - **Memory participates, knowledge bases wait** (April 2026): proactive memory — surfaces commitments before a customer call, related asks while editing a roadmap doc, prior incidents on ticket assignment, precedent on pricing exceptions — is the differentiator vs. Glean-style search. — [[ashwingop-company-brain-part-2]]
 - **System 3 thinking**: cognition above individual reasoning, at the level of groups and institutions; framing Ashwin uses to position Sentra in the agent landscape (referenced via prior X threads from Ashwin, not yet ingested directly).
+- **Universal substrate, multiple ontologies** (May 2026): "the substrate has to be universal without forcing one universal interpretation." A CEO, support lead, PM, and account owner should look at the *same* memory through different ontological lenses, not separate memories per role. Dumping everything into one store does not solve fragmentation; it just moves fragmentation down a layer. — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **"LLMs help understand what was said; ontology determines what it means inside the company."** (May 2026) — sharp formulation of why memory is not a transcription problem and why the same artifact (a customer call, an email) creates simultaneous risk/commitment/decision/action traces depending on the ontology applied. — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **World model of the company** (May 2026): memory traces + decision traces + action traces let the substrate learn how work tends to move — which signals precede risk, which commitments slip, which handoffs fail. Direct framing: "the beginning of reinforcement learning inside the company: traces, actions, outcomes, and feedback loops." — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **Pace, not automation, is the deeper effect** (May 2026): in design-partner pilots the real wow was *latency collapse* — churn-risk signal flagged to a CTO during the customer call, not via a summary chain. "Signals move faster, misunderstandings appear earlier… the company can notice more of itself in motion." — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **Surfacing > browsing (TikTok analogy)** (May 2026): the default "knowledge graph" visualization is wrong as a daily UX. "The value of memory is often experienced through surfacing, not browsing." For CEOs especially, the product cannot become a firehose with a better search box. — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **Cockpit, not copilot** (May 2026): Company Brain should not feel like another person inside the company. "If it behaves too much like a copilot or an employee, it can quietly take agency away from the humans who still own the decision." Target: tool / cockpit / memory instrument. Architecture, not culture, is what enforces the boundary. — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **Original name was "Enterprise General Intelligence"** (May 2026): naming history disclosed — Ashwin pursued EGI as a research-shaped framing before settling on "Company Brain" as simpler and more accurate; ambition unchanged, primitive sharpened. — [[ashwingop-company-brain-year-lessons-2026-05]]
 
 ## Where to Follow
 

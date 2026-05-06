@@ -76,3 +76,5 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[personal-ai-agent-claude-desktop-mcp]] — sibling harness ([[claude-desktop]]) using identical CLAUDE.md schema-driven configuration
 - [[claude-financial-services]] — May 2026 vertical agent template line; Claude Code is the developer-facing plugin host
 - [[claudeai-financial-services-agents-2026-05]] — primary launch source for vertical agent plugin distribution
+- [[anthropic-academy-courses-catalog-2026-05]] — official Anthropic Academy courses (Claude Code 101, Claude Code in Action, Introduction to agent skills, Introduction to subagents); first-party self-serve curriculum
+- [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner glossary; useful as quick onboarding map for the full Anthropic surface around Claude Code
