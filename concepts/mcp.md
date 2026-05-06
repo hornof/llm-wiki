@@ -28,6 +28,7 @@ MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool
 - [[seelffff-personal-ai-agent]] — April 2026 hands-on tutorial: build a personal life-management agent with Filesystem MCP + Playwright MCP + custom 25-line Telegram MCP on Claude Desktop ($0 incremental cost on Claude Pro)
 - [[personal-ai-agent-claude-desktop-mcp]] — wiki-side tutorial derived from above
 - [[yc-summer-2026-rfs]] — Aaron Epstein's "Software for Agents" RFS names MCPs as one of the machine-readable interfaces agents need
+- [[anthropic-academy-courses-catalog-2026-05]] — official Anthropic Academy MCP courses ("Introduction to Model Context Protocol", "Model Context Protocol: Advanced Topics" — sampling, notifications, file system access, transport mechanisms, production server development)
 
 ## Related Concepts
 - [[agentic-ai]] — MCP is the tool-connection layer for agentic systems

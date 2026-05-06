@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-05-01
+last_updated: 2026-05-06
 ---
 
 ## Definition
@@ -46,6 +46,49 @@ If one is missing, you get something useful but incomplete:
 - Communication without structure → transcripts and summaries
 - Reasoning without provenance → plausible guesses
 - Action without context → brittle automation
+
+## Cross-Cutting Principle: Universal Substrate, Multiple Ontologies
+
+After a year of design-partner work, [[ashwingop]] reframed the architecture above the three layers ([[ashwingop-company-brain-year-lessons-2026-05]]):
+
+- **The same conversation means different things to different parts of the company.** A customer call: salesperson hears renewal risk, PM hears a roadmap signal, support lead hears an escalation, lawyer hears an obligation. The *artifact* is shared; the *useful memory* depends on perspective.
+- **"LLMs help understand what was said; ontology determines what it means inside the company."**
+- Therefore: **the substrate has to be universal without forcing one universal interpretation.** A CEO, support lead, PM, and account owner should all be looking at the same memory, through different ontological lenses — not separate memories per role.
+- Failure mode: dumping everything into one store does not solve fragmentation; it just moves fragmentation down a layer. If the substrate cannot support multiple ontologies over the same data, sales / product / legal / support / agents end up with separate memories, and the unified interface masks already-split memory.
+- **Context graphs are not static objects.** The same email may simultaneously create a risk trace, commitment trace, decision trace, and action trace. The ontology decides which relationships matter and which state changes get remembered.
+- Why organizational memory is tractable in the first place: roles, functions, customers, products, risks, commitments, owners, workflows, and decisions are bounded — the set of meaningful perspectives is *not infinite*.
+
+## World Model of the Company
+
+Above the three layers, the substrate enables a **learned representation of how work tends to move** across the org — which signals precede risk, which commitments slip, which handoffs fail, which decisions create downstream work, which actions resolve problems.
+
+> **Memory traces, decision traces, and action traces** let the system learn from outcomes over time. In Ashwin's words, "the beginning of reinforcement learning inside the company: traces, actions, outcomes, and feedback loops" — grounded, not metaphorical RL.
+
+Without this layer, agents act only from the context they are handed in the moment. With it, the org can begin to learn from its own outcomes. — [[ashwingop-company-brain-year-lessons-2026-05]]
+
+## Product Principles
+
+Three principles emerged from a year of testing with design partners ([[ashwingop-company-brain-year-lessons-2026-05]]):
+
+### 1. The deeper effect is pace, not automation
+
+The first observed "wow" in real customer use was not that the system found something hidden — it was **latency collapse**. A churn-risk signal that would normally move through summaries, weekly reviews, and escalations surfaced to the CTO *while the customer call was still happening*. "Signals move faster, misunderstandings appear earlier, and collaboration starts to feel different because the company can notice more of itself in motion."
+
+This shifts the product question from "what can we automate?" to "who should see this, how should it be framed, and what should the system ask a human to do next?"
+
+### 2. Surfacing > browsing (the TikTok analogy)
+
+Default visual answer to "show me company memory" is a knowledge graph. Useful for explaining architecture; **not how most people should experience memory day to day**.
+
+> "TikTok does not show you a giant map of all your interests. It understands enough about what you care about to surface the next thing you are likely to engage with… **The value of memory is often experienced through surfacing, not browsing.**"
+
+For CEOs especially: the product cannot be a firehose with a search box. It has to be "a tool for interacting with the company's live memory: what changed, what is drifting, what is misunderstood, what requires judgment, and what can safely wait."
+
+### 3. Cockpit, not copilot
+
+> "I do not think Company Brain should feel like another person inside the company. If it behaves too much like a copilot or an employee, it can quietly take agency away from the humans who still own the decision."
+
+Target feel: **a tool, a cockpit, or a memory instrument** — surfaces reality, shows disagreement, prepares the work, but humans remain responsible for judgment. Boundary discipline (provenance, permissions, scope) is architectural, not just cultural: "the goal is not to make everyone feel watched. The goal is to make work legible, creditable, and easier to act on."
 
 ## Who It Serves
 
@@ -95,5 +138,6 @@ The bet underlying [[sentra]] is that the durable position is the integration po
 - [[diana-hu]] — author of the parallel "AI OS for Companies" RFS
 - [[ashwingop-company-brain-part-1]] — Why Most Companies Have Data But No Memory (April 29, 2026)
 - [[ashwingop-company-brain-part-2]] — Factual Memory deep dive (April 30, 2026)
+- [[ashwingop-company-brain-year-lessons-2026-05]] — year-of-design-partners summary essay (May 6, 2026); introduces world-model framing, ontology-as-perspective, and the surfacing/cockpit/pace product principles
 - [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of the YC RFS
 - [Paul Graham — Founder Mode](https://www.paulgraham.com/foundermode.html) — Ashwin extends "founder mode" toward "contact with company truth"

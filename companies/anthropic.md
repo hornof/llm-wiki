@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-05
+last_updated: 2026-05-06
 ---
 
 ## What It Is
@@ -27,6 +27,19 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - **Claude for Financial Services** (launched 2026-05-05) — packaged set of 10 ready-to-run agent templates for IB, equity research, accounting, audit, and compliance workflows; ships as plugins for [[claude-code]] and Cowork or as cookbooks for production deployment as Managed Agents — [[claude-financial-services]], [[claudeai-financial-services-agents-2026-05]]
 - **Claude Cowork** (named publicly 2026-05-05 as a plugin host alongside Claude Code) — collaborative product surface for vertical-agent plugins; product details not yet documented in the wiki
 - **Managed Agents** (named publicly 2026-05-05) — production deployment mode for Claude agents via Anthropic's cookbooks; first-class hosted runtime path distinct from CLI plugin install
+
+### Additional named surfaces (May 2026, secondary-source inventory)
+
+Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary-source post listing Anthropic's full named product surface as of May 6 2026. Each entry is `[unsourced beyond secondary post]` until verified against Anthropic primary docs.
+
+- **Claude in Excel** — spreadsheet-native Claude
+- **Claude in Chrome** — browsing agent (Anthropic-native, distinct from [[playwright-mcp]])
+- **Computer Use** — screen-control capability ("clicks and types on your screen")
+- **Dispatch** — mobile app to fire tasks to a desktop session
+- **Memory** — cross-chat consumer memory feature (distinct from [[mem0]] and from [[company-brain]])
+- **Adaptive Thinking** — toggleable extended-thinking mode
+- **Scheduled Tasks** — recurring-timer Claude
+- **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
 
@@ -56,3 +69,4 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - [[linas-anthropic-startup-playbook-2026-05]] — strategic context: 4-vertical Anthropic build map + 9-domain consumer PMF surface (May 2026)
 - [[linasbeliunas-anthropic-vertical-builds-2026-05]] — companion X post; GM-level vertical hiring claim
 - [[brianlamanna-paraform-talent-density-2026-05]] — May 2026 talent-density top-50 (Anthropic #3)
+- [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner 30-term glossary; full named-product-surface inventory as of May 6 2026 (secondary source)

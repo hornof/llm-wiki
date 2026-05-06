@@ -144,6 +144,10 @@
 - [[linas-anthropic-startup-playbook-2026-05]] — Linas Beliūnas Substack: 9 consumer PMF domains + 4 Anthropic-vertical-build map; Cal AI as conversion proof point (May 3 2026)
 - [[linasbeliunas-anthropic-vertical-builds-2026-05]] — companion X post; GM-level vertical hiring claim; calendar-correlation with May 3 enterprise JV (May 4 2026)
 - [[brianlamanna-paraform-talent-density-2026-05]] — Paraform Talent Density top-50 snapshot; Thinking Machines #1, OpenAI #2, Anthropic #3 (May 4 2026)
+- [[ashwingop-company-brain-year-lessons-2026-05]] — Sentra year-of-design-partners summary essay; world-model framing, ontology-as-perspective, surfacing/cockpit/pace product principles (May 6 2026)
+- [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner 30-term Claude/Anthropic glossary; first wiki appearance of Claude in Excel/Chrome, Computer Use, Dispatch, consumer Memory, Adaptive Thinking, Scheduled Tasks (May 6 2026)
+- [[anthropic-academy-courses-catalog-2026-05]] — primary catalog of 16 first-party Claude/MCP/Skills/Subagents courses on Anthropic Academy (Skilljar); confirms Cowork and Subagents as official curriculum subjects (May 5 2026)
+- [[reddit-20-notebooklm-prompts-image-2026-05]] — image-only Reddit clip (low signal); NotebookLM-explainer infographic circulation pattern (May 5 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
