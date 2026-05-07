@@ -17,6 +17,7 @@
 - [[playwright-mcp]] — Microsoft's MCP server exposing Playwright browser automation; emerging default for browser-side execution in Claude Code skills
 - [[claude-desktop]] — Anthropic's desktop app; persistent Projects + MCP host; default surface for personal-agent stacks (April 2026)
 - [[claude-financial-services]] — Anthropic's first vertical agent product line (May 2026); 10 templates spanning IB / equity research / accounting / audit / compliance
+- [[microgpt]] — Karpathy's 200-line, zero-dependency Python GPT (Feb 2026); educational artifact distilling the GPT algorithm to its essence
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -39,6 +40,7 @@
 - [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
 - [[claude-certified-architect]] — Anthropic's first official technical certification (March 2026); 5 weighted domains (agentic, Claude Code, prompting, MCP, context); part of Claude Partner Network
 - [[company-brain]] — three-layer memory substrate (factual + context graph + action coordination) beneath agentic AI at organizational scale; YC RFS phrasing, Sentra thesis (April 2026)
+- [[vibe-physics]] — Lupsasca's coined-by-analogy term for using GPT-5.x to derive novel theoretical physics results; second "vibe X" pattern propagating into adjacent disciplines (May 2026)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -67,6 +69,8 @@
 - [[gustaf-alstromer]] — YC Group Partner; authored AI-Native Service Companies RFS (the practitioner-flagged underrated category)
 - [[imran-ahmad]] — technical author (Packt); *50 Algorithms Every Programmer Should Know* + *30 Agents Every AI Engineer Must Build* (2026)
 - [[linas-beliunas]] — independent FinTech & AI commentator (~379k subscribers); product/strategy synthesis voice; called the Anthropic vertical-build map 48hrs before the financial-services launch (May 2026)
+- [[simon-willison]] — independent engineer; creator of Datasette, co-creator of Django; daily-cadence LLM-tooling blog at simonwillison.net; high-signal practitioner voice
+- [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined [[vibe-physics]] using GPT-5.x to derive novel gluon/graviton results (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -89,6 +93,7 @@
 - [[world-labs]] — Fei-Fei Li's spatial-AI lab; $1B raised; on Forbes 2026 AI 50
 - [[sentra]] — early-stage; "enterprise general intelligence" / Company Brain memory substrate; founder [[ashwingop]]
 - [[y-combinator]] — early-stage accelerator; RFS treated as high-signal demand-side leading indicator
+- [[cloudflare]] — internet infrastructure provider; co-launched Stripe Projects (May 2026) — protocol for agent-driven account creation, domain purchase, and deployment
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
@@ -106,6 +111,7 @@
 - [[hamming-you-and-your-research]] — Richard Hamming's 1986 Bellcore talk; primary source for [[doing-great-work]]
 - [[block-organizational-intelligence]] — Block/Sequoia essay; primary source for [[ai-native-organizations]]
 - [[bloomberg-feifei-li-2025]] — primary source for World Labs / spatial-intelligence updates ([[fei-fei-li]], [[world-labs]])
+- [[karpathy-lecun1989-33-years]] — Karpathy's 2022 essay; states the [[software-3-0]] thesis 4 years before naming it; "10,000,000X-sized neural net megabrain" projection
 
 ### Recent ingests
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)
@@ -148,6 +154,11 @@
 - [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner 30-term Claude/Anthropic glossary; first wiki appearance of Claude in Excel/Chrome, Computer Use, Dispatch, consumer Memory, Adaptive Thinking, Scheduled Tasks (May 6 2026)
 - [[anthropic-academy-courses-catalog-2026-05]] — primary catalog of 16 first-party Claude/MCP/Skills/Subagents courses on Anthropic Academy (Skilljar); confirms Cowork and Subagents as official curriculum subjects (May 5 2026)
 - [[reddit-20-notebooklm-prompts-image-2026-05]] — image-only Reddit clip (low signal); NotebookLM-explainer infographic circulation pattern (May 5 2026)
+- [[karpathy-microgpt-2026-02]] — Karpathy's 200-line zero-dependency GPT release (Feb 2026); resurfaced via Daily Brief; "Everything else is just efficiency"
+- [[simonwillison-vibe-coding-agentic-engineering-2026-05]] — Simon Willison reports vibe-coding/agentic-engineering practitioner-discipline convergence (May 6 2026)
+- [[latent-space-lupsasca-vibe-physics-2026-05]] — Latent Space interview; Alex Lupsasca / OpenAI Science team derives novel gluon and graviton results using GPT-5.x; coins "vibe physics" (May 2026)
+- [[deepmind-decoupled-diloco-2026-05]] — Google DeepMind announces Decoupled DiLoCo: distributed-training islands with chaos-engineering self-healing; Gemma 4 12B trained across 4 U.S. regions (May 2026)
+- [[cloudflare-stripe-projects-agents-2026-05]] — Cloudflare + Stripe co-launch Stripe Projects: agent-as-customer protocol primitives (account creation, domain purchase, payment tokenization) (May 6 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

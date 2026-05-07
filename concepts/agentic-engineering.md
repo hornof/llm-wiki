@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-05-04
+last_updated: 2026-05-06
 
 ---
 
@@ -116,9 +116,16 @@ Zohar Einy (@ZoharEiny, newsletter.port.io) contributes the most structurally no
 
 This framework is complementary to (not competing with) the individual-engineer framing. Karpathy's agentic engineering addresses the individual practitioner. Zohar's harness addresses the organizational substrate beneath them. See also [[company-brain]] (organizational memory), [[agentic-ai]] (multi-agent patterns), and [[chamath-decision-context-agents]] (the "why" capture gap).
 
+## Practitioner-Discipline Erosion (Simon Willison, May 2026)
+
+[[simon-willison]] reports in a May 6 2026 blog post that the line between vibe coding and agentic engineering is harder to maintain in his own practice: "The problem is that as the coding agents get more reliable, I'm not reviewing every line of code that they write anymore, even for my production level stuff." This does not collapse the analytical distinction (Willison still wants higher-quality output, not just less-checked output), but it does flag that the *review discipline* on which agentic engineering depends has to be actively maintained — agent unreliability used to enforce it, and that enforcement is fading.
+
+Implication for the framing: Karpathy's two-mode picture (floor-raise vs. ceiling-raise) is conceptually clean, but the practitioner gap between them is narrower in 2026 than it was at AI Ascent. The professional discipline now requires *active* review effort, not the friction of fixing buggy output. — [[simonwillison-vibe-coding-agentic-engineering-2026-05]]
+
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party practitioner popularization (May 2026); adds 4-step workflow, three failure modes, and "cognitive debt" coinage
 - [[benln-x-karpathy-agentic-engineering-2026-05]] — X comment thread (May 2026); practitioner reactions: cost-of-being-wrong economics, term adoption as hiring vocabulary, organizational harness 7-point framework
+- [[simonwillison-vibe-coding-agentic-engineering-2026-05]] — Simon Willison on the practitioner-discipline-erosion convergence (May 2026)
 - [[naval-ravikant-saas-is-next]] — Naval's investor framing of the solo-operator outcome; "pure software is uninvestable"
 - [[chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer for team AI leverage

@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-04-29
+last_updated: 2026-05-06
 ---
 
 ## Definition
@@ -28,6 +28,8 @@ Google DeepMind is the most prominent institution pursuing AI for science at sca
 | WeatherNext | Meteorology / climate simulation | Described as most accurate available |
 | Virtual cell | Cell biology simulation | In development |
 
+A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT-5.x) are used in iterative dialogue to *derive novel theoretical results*. [[alex-lupsasca]] (OpenAI Science) documented GPT-5.2 deriving novel gluon-amplitude and graviton results that had stumped expert humans for over a year. This is a categorically different mode than AlphaFold-style application: model produces *frontier theoretical conjectures*, not interpolation on a well-defined problem. — [[latent-space-lupsasca-vibe-physics-2026-05]]
+
 ## Simulations as New Science
 Hassabis argues AI-powered simulations could unlock entirely new sciences for emergent-system domains (economics, social science) by enabling repeatable controlled experiments that are impossible in the real world. Economics, for example, can't run "interest rates +0.5%" a thousand times; accurate simulators could change this.
 
@@ -39,9 +41,12 @@ AI-for-science simulations (weather, virtual cell, economics) are closely relate
 ## Key People
 - [[demis-hassabis]] — founding philosophy; calls this his "personal passion"
 - [[pushmeet-kohli]] — head of Google DeepMind's AI for Science group
+- [[alex-lupsasca]] — OpenAI Science team; coined and demonstrated [[vibe-physics]] (May 2026)
 
 ## Resources
 - [[hassabis-deepmind-alphafold-agi]] — primary source; Hassabis's detailed framing
 - [[google-deepmind]] — institution building this out
 - [[alphafold]] — flagship success case
 - [[world-models]] — related architectural concept
+- [[vibe-physics]] — second-pattern derivation-mode AI-for-science from OpenAI Science (May 2026)
+- [[latent-space-lupsasca-vibe-physics-2026-05]] — Lupsasca primary source documenting vibe physics
