@@ -3,14 +3,14 @@ name: Andrej Karpathy
 type: person
 affiliation: Eureka Labs (founder)
 signal_sources: [twitter, blog, github, youtube]
-last_updated: 2026-05-04
+last_updated: 2026-05-06
 ---
 
 ## Who They Are
 AI researcher and educator. Co-founded OpenAI, led Tesla Autopilot's vision team, returned to OpenAI, then went independent. Founder of [[eureka-labs]], an AI education company. One of the most influential voices in practical AI/ML — known for making complex concepts accessible without dumbing them down. Strong following among both researchers and practitioners.
 
 ## Their Current Focus
-Building AI education tools at Eureka Labs. Actively vibe-coding and agentic engineering — side projects folder is "extremely full." Personally maintains an LLM Wiki from articles and uses it as a primary knowledge-management tool. Also known for neural network tutorials (nanoGPT, micrograd) and the "Software 2.0"/"Software 3.0" framing.
+Building AI education tools at Eureka Labs. Actively vibe-coding and agentic engineering — side projects folder is "extremely full." Personally maintains an LLM Wiki from articles and uses it as a primary knowledge-management tool. Also known for neural network tutorials (nanoGPT, micrograd, [[microgpt]]) and the "Software 2.0"/"Software 3.0" framing. Released [[microgpt]] (200-line, zero-dependency GPT in a single Python file) on 2026-02-12 — "the culmination of multiple projects... and a decade-long obsession to simplify LLMs to their bare essentials." — [[karpathy-microgpt-2026-02]]
 
 ## Notable Takes
 - **LLM Wiki pattern**: Raw sources should be "compiled" into a structured wiki — "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase." — [[karpathy-llm-wiki-gist]]
@@ -32,6 +32,10 @@ Building AI education tools at Eureka Labs. Actively vibe-coding and agentic eng
 - **"The Bitter Lesson" alignment**: Generally agrees with Sutton's thesis that scale + compute beats hand-crafted approaches
 - **LLM tutorial video**: a 2-hour Karpathy video on using LLMs is circulating; community describes it as better than "99% of AI influencers" — [[thread-phosphenq-karpathy-video]]
 - **"Agentic engineering" term confirmed as working vocabulary**: an X comment thread (May 2026) on @benln's share of Karpathy's framing shows practitioners independently adopting "agentic engineering" as their category label for hiring conversations, skill stratification, and organizational planning — [[benln-x-karpathy-agentic-engineering-2026-05]]. Rahul Kumar (@hellorahulk): "karpathy calling the shift agentic engineering is the label i keep reaching for when hiring asks what changed." The term is working vocabulary, not just a Karpathy coinage.
+- **microgpt as the algorithmic core**: 200-line, zero-dependency GPT in a single Python file. "Everything else is just efficiency." Companion to nanoGPT and micrograd — the explicit thesis is that the GPT *algorithm* is small; the rest of modern LLM stacks is engineering for scale. — [[karpathy-microgpt-2026-02]] / [[microgpt]]
+- **2022 prediction of Software 3.0** (resurfaced May 2026): Karpathy's 2022 essay *Deep Neural Nets: 33 years ago and 33 years from now* projected that by 2055 "you will ask a 10,000,000X-sized neural net megabrain to perform some task by speaking... to it in English." This is the [[software-3-0]] thesis stated 4 years before he formally names it at AI Ascent 2026. — [[karpathy-lecun1989-33-years]]
+- **Macro-level architectural constancy**: "Not much has changed in 33 years on the macro level. We're still setting up differentiable neural net architectures made of layers of neurons and optimizing them end-to-end with backpropagation." The revolution has been scale (data, model, compute), not paradigm shift. — [[karpathy-lecun1989-33-years]]
+- **Independent practitioner echo of two-mode framing (Simon Willison, May 2026)**: [[simon-willison]] reports the practitioner discipline that distinguishes [[vibe-coding]] from [[agentic-engineering]] is harder to maintain in practice as agents improve — even ceiling-side practitioners find themselves not reviewing every line. Willison frames the convergence as uncomfortable, not triumphant. Independent extension of Karpathy's framing from a long-tracked high-signal voice. — [[simonwillison-vibe-coding-agentic-engineering-2026-05]]
 
 ## Where to Follow
 - Twitter/X: @karpathy

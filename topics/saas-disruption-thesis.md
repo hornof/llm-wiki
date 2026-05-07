@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-05
+last_updated: 2026-05-06
 ---
 
 ## What This Is
@@ -101,6 +101,14 @@ The line for founders is precise:
 | Consumer: any of 9 personal-guidance domains | **No** (Anthropic targets enterprise only) | **Wide open** — Cal AI is the proof point |
 
 The structural implication: the AI-native disruption layer does *not* uniformly belong to startups. In specific enterprise verticals, the frontier-lab platform itself becomes a competitive surface. The remaining open territory is (1) consumer-facing professional-substitution products and (2) enterprise sub-workflows the lab has not packaged yet. Watch Anthropic's healthcare / legal / life-sciences launches over 2026 to see how fast the enterprise vertical surface narrows further.
+
+## Agent-as-Customer Infrastructure (May 2026)
+
+A complementary mechanism activated 2026-05-06 when [[cloudflare]] and Stripe co-launched **Stripe Projects**, a protocol that lets agents *autonomously create accounts, purchase domains, and deploy apps* under Stripe-attested identity and pre-set spending budgets. This makes agents *economic actors*, not just labor — they can now buy SaaS the way humans do, with default $100/month per-provider caps and tokenized payments.
+
+If the SaaS disruption thesis is "AI-native replacements eat incumbents," Stripe Projects supplies the missing primitive for the *purchase-side* of that replacement: agents need identity attestation, payment tokenization, and budget guardrails before they can be customers. Cloudflare and Stripe are co-defining those primitives at the protocol level, which (a) accelerates the disruption (lower friction for AI-native challengers to onboard customers, even agentic ones), and (b) creates a new layer of disintermediation risk for SaaS companies whose distribution depends on humans clicking through dashboards. — [[cloudflare-stripe-projects-agents-2026-05]]
+
+The thesis question "do humans still buy SaaS in 2027?" now has a concrete protocol answer: maybe agents do.
 
 ## Tracking Signals
 

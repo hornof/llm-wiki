@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-04-29
+last_updated: 2026-05-06
 ---
 
 ## What It Is
@@ -28,6 +28,7 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 - **Math Olympiad**: gold medal performance on IMO 2025
 - **WeatherNext**: AI-powered weather simulation; most accurate + fastest available
 - **Virtual cell**: ongoing project to simulate a biological cell as a complex emergent system
+- **Decoupled DiLoCo** (May 2026): distributed-training architecture splitting compute into asynchronous "islands" with chaos-engineering-driven self-healing. Built on Pathways. 198 Gbps → 0.84 Gbps inter-DC bandwidth across 8 datacenters; 88% goodput vs 27% baseline at high failure rates. Production-validated on a 12B Gemma 4 trained across four U.S. regions at 2-5 Gbps, >20× faster than conventional sync (64.1% accuracy vs 64.4% baseline). Lead: Arthur Douillard. — [[deepmind-decoupled-diloco-2026-05]]
 
 ## Spin-outs
 - **[[isomorphic-labs]]**: drug discovery company using AlphaFold protein structures to design binding compounds; Hassabis runs this alongside Google DeepMind
@@ -38,3 +39,4 @@ Formally started the day after the AlphaGo Seoul match (~2016); has existed for 
 ## Resources
 - [[thread-milkroadai-hassabis-agi]] — Hassabis on AGI definition, jagged intelligence, Einstein Test
 - [[hassabis-deepmind-alphafold-agi]] — founding story, AI for science, WeatherNext, virtual cell, Isomorphic Labs
+- [[deepmind-decoupled-diloco-2026-05]] — Decoupled DiLoCo announcement; resilient distributed training (May 2026)

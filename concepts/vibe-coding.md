@@ -2,7 +2,7 @@
 name: Vibe Coding
 type: concept
 maturity: emerging
-last_updated: 2026-05-03
+last_updated: 2026-05-06
 ---
 
 ## Definition
@@ -46,11 +46,18 @@ The accumulated cost of all three is **cognitive debt** — the price of poor ag
 ## Propagation Signal (May 2026)
 Karpathy's vibe-coding/agentic-engineering distinction is propagating into practitioner subreddits within ~5 weeks of the AI Ascent talk. But comments on the r/AIAgentsInAction popularization show a sharp split: the *concepts* are spreading, but AI-formatted summaries are getting rejected as "slop" — practitioner antibodies against LLM-written advice posts even when the framing they carry is sound. The signal is two-sided: distinction is catching on; second-hand explainers are not. — [[reddit-karpathy-moved-on-from-vibe-coding]]
 
+## Convergence Pressure (Simon Willison, May 2026)
+[[simon-willison]] (long-tracked, high-signal practitioner voice — creator of Datasette, co-creator of Django) reports in a May 6 2026 blog post that the line distinguishing vibe coding from [[agentic-engineering]] is collapsing in his own practice as agents become more reliable: "The problem is that as the coding agents get more reliable, I'm not reviewing every line of code that they write anymore, even for my production level stuff." He frames this as uncomfortable, not triumphant — he wants higher quality, not less review.
+
+This is not a claim that the two modes are equivalent. It is a report that the *practitioner discipline* keeping ceiling-side work out of vibe-coding territory is harder to maintain. The two-mode framing remains analytically useful; the practitioner needs to *actively* preserve the review discipline rather than rely on the agent's unreliability to enforce it. — [[simonwillison-vibe-coding-agentic-engineering-2026-05]]
+
 ## Related Concepts
 - [[agentic-engineering]] — the professional counterpart
+- [[vibe-physics]] — the same coined-by-analogy pattern extended into theoretical physics by [[alex-lupsasca]]; demonstrates "vibe X" propagating into adjacent disciplines
 - [[software-3-0]] — the broader paradigm; vibe coding is one manifestation
 - [[verifiability-and-jagged-intelligence]] — explains why vibe coding works better in some domains than others
 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy's own description at AI Ascent 2026; coined the term, now contextualizes it relative to agentic engineering
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party Reddit popularization (May 2026); adds the cognitive-debt coinage and three-failure-mode framing
+- [[simonwillison-vibe-coding-agentic-engineering-2026-05]] — Simon Willison reports practitioner-discipline-erosion (May 2026)

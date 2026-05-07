@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-05-02
+last_updated: 2026-05-06
 ---
 
 ## What It Is
@@ -61,6 +61,14 @@ A recurring observation across recent ingests: the same **factual-memory + reaso
 
 Both insist that the agent must *read context before acting* and that **memory must participate** rather than wait to be queried.
 
+## Agent-as-Customer Pattern (May 2026)
+
+A new primitive surfaced May 6 2026: [[cloudflare]] and Stripe co-launched **Stripe Projects**, a protocol that lets agents *autonomously create accounts, purchase domains, and deploy apps* under Stripe-attested identity and pre-set spending budgets. Agents can now be economic actors, not just labor: discover services via `stripe projects catalog`, authenticate via Stripe-orchestrated OAuth, and pay via tokenized cards with default $100/month per-provider caps.
+
+This is a step beyond "agent uses tools" — it is "agent buys SaaS." Distinct primitives required: identity attestation, payment tokenization, budget guardrails, MCP-driven service catalogs ([[mcp]]), human approval gates for critical actions. — [[cloudflare-stripe-projects-agents-2026-05]]
+
+Strategic read: this is the protocol-level answer to the [[saas-disruption-thesis]] question of *how agents purchase software*. If agents become buyers, infrastructure providers either co-define the agent-purchase primitives (as Cloudflare and Stripe just did) or get disintermediated by whoever does.
+
 ## Resources
 - [[github-hornof-profile]] — wiki owner is actively tracking crewAI, learn-agentic-ai, OpenAI Agents SDK
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy at AI Ascent 2026; sensors/actuators framing, agent-native infrastructure, agentic engineering as discipline
@@ -68,3 +76,4 @@ Both insist that the agent must *read context before acting* and that **memory m
 - [[ashwingop-company-brain-part-2]] — Company Brain Part 2 (factual memory ≠ RAG; semantic file system; memory participates)
 - [[seelffff-personal-ai-agent]] — personal-scale agent stack on Claude Desktop + MCP
 - [[30-agents-every-ai-engineer-must-build]] — Packt book by [[imran-ahmad]] structuring agent engineering as a 30-pattern catalog (listing-only ingest)
+- [[cloudflare-stripe-projects-agents-2026-05]] — Cloudflare + Stripe co-launch agent-as-customer protocol primitives (May 2026)

@@ -2,7 +2,7 @@
 name: Model Context Protocol (MCP)
 type: concept
 maturity: active-research
-last_updated: 2026-05-01
+last_updated: 2026-05-06
 ---
 
 ## Definition
@@ -20,6 +20,7 @@ MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool
 - **Production status confirmed**: Anthropic's first official certification ([[claude-certified-architect]], March 2026) names "Tool Design & MCP Integration" as a weighted exam domain (~18% per third-party guides), elevating MCP from emerging-protocol to required-knowledge for solution architects — [[anthropic-claude-partner-network]]
 - **Consumer-grade MCP stacks** (April 2026): [[claude-desktop]] is now hosting personal-agent stacks (Filesystem MCP + [[playwright-mcp]] + custom-built MCP servers) on a $20/mo Claude Pro subscription with no API keys, no AWS, no developer accounts. Expands the practitioner population from developers-with-API-budget to anyone-with-Claude-Pro. Community shorthand crystallizing: **"MCP = USB ports for AI."** — [[seelffff-personal-ai-agent]]
 - **YC partner-level validation** (April 2026): YC's Summer 2026 RFS includes a "Software for Agents" category (Aaron Epstein) explicitly calling for "machine-readable interfaces: APIs, MCPs, CLIs" — frames MCP as foundational primitive for the next-generation agent-native software stack. "While everyone else is building agents, the biggest opportunity might be building the software those agents depend on." — [[yc-summer-2026-rfs]]
+- **Cloudflare Code Mode MCP server** (May 2026): [[cloudflare]]'s edge-hosted MCP server is one of the named technical surfaces in the Stripe Projects launch — agents use Code Mode MCP to provision Cloudflare infrastructure (accounts, domains, deployments) under Stripe-attested identity and budgets. First wiki appearance of an infrastructure provider co-designing a payments protocol around MCP-driven agent purchasing. — [[cloudflare-stripe-projects-agents-2026-05]]
 
 ## Key Papers / Posts
 - [[github-hornof-profile]] — `learn-agentic-ai` repo (forked by owner) covers MCP alongside OpenAI Agents SDK, A2A, Knowledge Graphs, Dapr
