@@ -2,7 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-04-29
+last_updated: 2026-05-07
 ---
 
 ## Definition
@@ -54,11 +54,19 @@ Karpathy also uses a "ghosts vs. animals" framing to resist anthropomorphizing L
 
 The practical implication is the same as the verifiability thesis: be suspicious, explore the capability landscape empirically, don't assume human-like cognition.
 
+## Auditability as a Verifiability Adjacent Demand (May 2026)
+
+Practitioner pressure is also pushing on the *auditability* axis: the demand to know not just whether a model output is correct but **why** the model produced it, and whether the underlying process can be trusted. Balaji Jegadeesh ([[benln-x-karpathy-agentic-engineering-2026-05]]): "Verifiability is the unlock. Agents can generate more work now but the bottleneck moves to knowing what was built, why it changed, and whether the result can be trusted. Agentic engineering is going to need a lot more auditability."
+
+[[anthropic]]'s **Natural Language Autoencoders** ([[anthropic-natural-language-autoencoders-2026-05]]) are a candidate primitive for this. NLAs translate model activations into human-readable text via a verbalizer/reconstructor pair. Auditors equipped with NLAs uncover hidden motivations in misaligned models 12-15% of the time vs. <3% without — roughly 4-5× audit-effectiveness improvement. Distinct from output-verification (did this code work?); this is process-verification (what was the model thinking?). See [[mechanistic-interpretability]].
+
 ## Related Concepts
 - [[agi]] — Hassabis uses "jagged intelligence" to describe why current systems aren't AGI; Karpathy's verifiability thesis is a mechanistic complement
 - [[agentic-engineering]] — one response to jaggedness: keep engineers in the loop to catch edge cases
 - [[vibe-coding]] — works best in the high-verifiability zones (code); struggles in unverifiable aesthetic domains
 - [[software-3-0]] — verifiability determines which parts of Software 3.0 are currently ready
+- [[mechanistic-interpretability]] — process-verification (auditability) primitives
 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: AI Ascent 2026; Karpathy elaborates verifiability thesis, jagged intelligence, ghosts vs. animals, chess data example
+- [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic's Natural Language Autoencoders; candidate auditability primitive (May 2026)

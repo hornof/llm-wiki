@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-05-06
+last_updated: 2026-05-07
 
 ---
 
@@ -122,10 +122,20 @@ This framework is complementary to (not competing with) the individual-engineer 
 
 Implication for the framing: Karpathy's two-mode picture (floor-raise vs. ceiling-raise) is conceptually clean, but the practitioner gap between them is narrower in 2026 than it was at AI Ascent. The professional discipline now requires *active* review effort, not the friction of fixing buggy output. — [[simonwillison-vibe-coding-agentic-engineering-2026-05]]
 
+## Counter-Position: Control Flow Over Prompts (Brian / bsuh, May 2026)
+
+A counter-positioning voice in the May 2026 conversation: most practitioner content is about **better prompts and better skills** (the [[zodchiii-anatomy-perfect-skill]] 6-pattern framework, eight-senior-prompts in [[aina-ai2-eight-senior-prompts]], voice-context patterns in [[alfiejcarter-linkedin-claude-stack]]). Brian (bsuh.bearblog.dev) pushes back: prompts are "non-deterministic, weakly specified, and difficult to verify" — adding more imperative language ("MANDATORY", "DO NOT SKIP") doesn't change those properties, only obscures them.
+
+The position: reliable agents need **deterministic control flow encoded in software**, not increasingly elaborate prompt chains. The LLM is a *component* of a larger software system, not the system itself. Diagnostic signal — when your prompt has imperatives in caps, you've hit prompting's limit.
+
+Conceptual stake-in-the-ground; no code patterns provided. But the position aligns with Zohar Einy's organizational harness in [[benln-x-karpathy-agentic-engineering-2026-05]] (orchestration / governance / measurement layers around agents) and with Karpathy's spec-first framing (the spec is what enables deterministic structure). See [[control-flow-agents]]. — [[bsuh-agents-need-control-flow-2026-05]]
+
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party practitioner popularization (May 2026); adds 4-step workflow, three failure modes, and "cognitive debt" coinage
 - [[benln-x-karpathy-agentic-engineering-2026-05]] — X comment thread (May 2026); practitioner reactions: cost-of-being-wrong economics, term adoption as hiring vocabulary, organizational harness 7-point framework
 - [[simonwillison-vibe-coding-agentic-engineering-2026-05]] — Simon Willison on the practitioner-discipline-erosion convergence (May 2026)
+- [[bsuh-agents-need-control-flow-2026-05]] — Brian / bsuh's counter-position: deterministic control flow in code over more prompts
+- [[control-flow-agents]] — concept page on the control-flow argument
 - [[naval-ravikant-saas-is-next]] — Naval's investor framing of the solo-operator outcome; "pure software is uninvestable"
 - [[chamath-decision-context-agents]] — Chamath on decision-context capture as the missing layer for team AI leverage
