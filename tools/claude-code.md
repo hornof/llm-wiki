@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-05
+last_updated: 2026-05-07
 ---
 
 ## What It Is
@@ -26,6 +26,8 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - **April 2026 — senior-role prompting as default register**: community internalizing the "treat Claude as senior, not junior intern" framing; copy-paste libraries of role-prompted recipes (senior full-stack engineer / senior debugging engineer / systems architect / etc.) circulating with explicit deliverable structure (architecture, file layout, data flow, schema). Persona-prompting for a 4-role multi-agent team in a single session noted as a poor-person's substitute for real Claude Code sub-agents — [[aina-ai2-eight-senior-prompts]]
 - **April 2026 — YC RFS name-check**: Y Combinator's Summer 2026 "AI Personalized Medicine" RFS by Ankit Gupta explicitly names Claude Code as the agent harness for analyzing personalized health data ("an agent harness like Claude Code to analyze personalized health data, whether that be a diagnostic test, genome scan, EHR data, or wearables information") — first YC RFS naming a specific Anthropic product as an enabling primitive — [[yc-summer-2026-rfs]]
 - **May 2026 — host surface for Anthropic's first vertical product line**: [[claude-financial-services]] launched May 5 2026 ships its 10 agent templates (pitch builder, earnings reviewer, KYC screener, etc.) as **plugins for Claude Code** (alongside Cowork, plus Managed Agents for production). Anthropic positions Claude Code as one of three first-party deployment surfaces for vertical agents — formal endorsement of Claude Code as the developer-facing distribution channel for productized agent workflows — [[claudeai-financial-services-agents-2026-05]], [[joshkale-anthropic-finance-agents-2026-05]]
+- **2026-05-06 — Code w/ Claude 2026 product expansion**: six new feature surfaces announced inside Claude Code — **Code Review** (cross-team automated review), **Remote Agents** (control laptop sessions from a phone), **CI Auto-fix** (automatic PR fixes), **Security Reviews** (automated security review primitive in-CLI), **Claude Code Routines** (higher-order async automation prompts that can generate PRs), and a **Claude Code Desktop App** (full-screen IDE GUI with rich outputs — distinct from [[claude-desktop]] which is the chat/MCP host). Pro/Max/Enterprise rate limits doubled. Cat Wu (Head of Product, Claude Code): "Thank you for trusting Claude Code on your production databases" — explicit production-grade positioning. — [[willison-code-w-claude-2026]], [[cat-wu]]
+- **2026-05-06 — SDK consolidation**: the **Claude Agent SDK** ([[claude-agent-sdk]]) is now the formal SDK powering both IDE (Claude Code) and Desktop hosts — Claude Code is one consumer of the Agent SDK, not a standalone harness. Repositions Claude Code architecturally as a *product* on top of a sanctioned SDK rather than a one-off CLI
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
@@ -78,3 +80,6 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[claudeai-financial-services-agents-2026-05]] — primary launch source for vertical agent plugin distribution
 - [[anthropic-academy-courses-catalog-2026-05]] — official Anthropic Academy courses (Claude Code 101, Claude Code in Action, Introduction to agent skills, Introduction to subagents); first-party self-serve curriculum
 - [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner glossary; useful as quick onboarding map for the full Anthropic surface around Claude Code
+- [[willison-code-w-claude-2026]] — Code w/ Claude 2026 live-blog; full feature inventory of the May 2026 Claude Code expansion
+- [[claude-agent-sdk]] — sanctioned SDK powering Claude Code; architectural sibling
+- [[claude-opus-4-7]] — current Opus generation; default model in Claude Code as of May 2026

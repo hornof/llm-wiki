@@ -18,9 +18,12 @@
 - [[claude-desktop]] — Anthropic's desktop app; persistent Projects + MCP host; default surface for personal-agent stacks (April 2026)
 - [[claude-financial-services]] — Anthropic's first vertical agent product line (May 2026); 10 templates spanning IB / equity research / accounting / audit / compliance
 - [[microgpt]] — Karpathy's 200-line, zero-dependency Python GPT (Feb 2026); educational artifact distilling the GPT algorithm to its essence
+- [[claude-agent-sdk]] — Anthropic's developer SDK powering both IDE (Claude Code) and Desktop hosts; consolidates the developer surface (announced May 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
+- [[claude-opus-4-7]] — Anthropic's current Opus generation; ships with Claude Design built in (May 2026)
+- [[claude-mythos]] — Anthropic preview model surfaced via Mozilla / Firefox security partnership and Natural Language Autoencoders research (May 2026); not yet GA
 
 ## Concepts & Techniques
 - [[ai-native-organizations]] — replacing corporate hierarchy with AI world models; Block's architecture; DRIs and player-coaches
@@ -41,6 +44,8 @@
 - [[claude-certified-architect]] — Anthropic's first official technical certification (March 2026); 5 weighted domains (agentic, Claude Code, prompting, MCP, context); part of Claude Partner Network
 - [[company-brain]] — three-layer memory substrate (factual + context graph + action coordination) beneath agentic AI at organizational scale; YC RFS phrasing, Sentra thesis (April 2026)
 - [[vibe-physics]] — Lupsasca's coined-by-analogy term for using GPT-5.x to derive novel theoretical physics results; second "vibe X" pattern propagating into adjacent disciplines (May 2026)
+- [[mechanistic-interpretability]] — research program for understanding how LLMs compute internally; Anthropic NLAs and Cheng & Zhang ICL-localization gap (May 2026)
+- [[control-flow-agents]] — counter-position: agents need deterministic control flow in code, not more elaborate prompts (May 2026)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -71,6 +76,8 @@
 - [[linas-beliunas]] — independent FinTech & AI commentator (~379k subscribers); product/strategy synthesis voice; called the Anthropic vertical-build map 48hrs before the financial-services launch (May 2026)
 - [[simon-willison]] — independent engineer; creator of Datasette, co-creator of Django; daily-cadence LLM-tooling blog at simonwillison.net; high-signal practitioner voice
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined [[vibe-physics]] using GPT-5.x to derive novel gluon/graviton results (May 2026)
+- [[ami-vora]] — Anthropic Chief Product Officer; opening keynote at Code w/ Claude 2026 (May 2026)
+- [[cat-wu]] — Anthropic Head of Product, Claude Code; "trusting Claude Code on your production databases" framing (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -94,6 +101,9 @@
 - [[sentra]] — early-stage; "enterprise general intelligence" / Company Brain memory substrate; founder [[ashwingop]]
 - [[y-combinator]] — early-stage accelerator; RFS treated as high-signal demand-side leading indicator
 - [[cloudflare]] — internet infrastructure provider; co-launched Stripe Projects (May 2026) — protocol for agent-driven account creation, domain purchase, and deployment
+- [[xai]] — Elon Musk's AI subsidiary of SpaceX; operator of the Memphis Colossus 1 data center (300MW); contracted entirely to Anthropic for training (May 2026)
+- [[mozilla]] — Firefox / Thunderbird; preview-access partner using Claude Mythos to drive 20× monthly Firefox security-fix throughput (May 2026)
+- [[andon-labs]] — autonomous-business research outfit; SF retail store + Stockholm cafe experiments running real commercial operations under AI control
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
@@ -159,6 +169,13 @@
 - [[latent-space-lupsasca-vibe-physics-2026-05]] — Latent Space interview; Alex Lupsasca / OpenAI Science team derives novel gluon and graviton results using GPT-5.x; coins "vibe physics" (May 2026)
 - [[deepmind-decoupled-diloco-2026-05]] — Google DeepMind announces Decoupled DiLoCo: distributed-training islands with chaos-engineering self-healing; Gemma 4 12B trained across 4 U.S. regions (May 2026)
 - [[cloudflare-stripe-projects-agents-2026-05]] — Cloudflare + Stripe co-launch Stripe Projects: agent-as-customer protocol primitives (account creation, domain purchase, payment tokenization) (May 6 2026)
+- [[willison-code-w-claude-2026]] — Simon Willison live-blog of Code w/ Claude 2026; 12 product/feature announcements; Opus 4.7 + Mythos preview, Multi-agent Orchestration / Outcomes / Dreaming, Claude Agent SDK, Code Review / Remote Agents / CI Auto-fix / Security Reviews / Routines / Desktop App (May 6 2026)
+- [[willison-firefox-claude-mythos-2026-05]] — Mozilla / Firefox security partnership using Claude Mythos preview; 20× monthly fix-volume jump (May 7 2026)
+- [[willison-anthropic-xai-colossus-2026-05]] — Anthropic contracts entire xAI Colossus 1 capacity; first frontier-lab full-compute outsourcing with non-commercial discretionary clause (May 7 2026)
+- [[willison-andon-cafe-stockholm-2026-05]] — Andon Labs' Stockholm AI-cafe experiment; consent-ethics critique of autonomous-business research (May 5 2026)
+- [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic Natural Language Autoencoders; activations → human-readable text; 4-5× audit-effectiveness multiplier on hidden-misalignment detection (May 2026)
+- [[cheng-zhang-distributed-icl-2026-05]] — Cheng & Zhang preprint: 100% probing accuracy ↔ 0% causal effect at the same positions; distributed-output-templates framing for ICL (May 2026)
+- [[bsuh-agents-need-control-flow-2026-05]] — Brian / bsuh: counter-position arguing agents need deterministic control flow in code, not more elaborate prompt chains (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-06
+last_updated: 2026-05-07
 ---
 
 ## What It Is
@@ -15,18 +15,23 @@ Anthropic is an AI safety company founded in 2021 by Dario Amodei, Daniela Amode
 - **Model Spec / Claude's Constitution** — publicly released document (CC0) specifying Claude's values, priority ordering, and behavioral guidelines
 - **Constitutional Classifiers** — extension of CAI ideas to jailbreak defense (2025)
 - **Model Context Protocol (MCP)** — open standard for connecting LLMs to tools and data sources; see [[mcp]]
+- **Natural Language Autoencoders (NLAs)** — May 2026 interpretability technique; converts model activations into human-readable text via verbalizer/reconstructor pair; surfaces evaluation-awareness (16-26% benchmark suspicion rate) and hidden-reasoning content; ~4-5× audit-effectiveness improvement on misaligned-model detection — [[anthropic-natural-language-autoencoders-2026-05]]; see [[mechanistic-interpretability]]
 
 ## Products
 
-- **Claude** — frontier AI assistant (Opus, Sonnet, Haiku tiers)
+- **Claude** — frontier AI assistant (Opus, Sonnet, Haiku tiers, plus the **Mythos** preview line announced May 2026)
+- **Claude Opus 4.7** (announced 2026-05-06 at Code w/ Claude 2026) — current Opus generation; ships with [[claude-design]] visual capability built in — [[claude-opus-4-7]], [[willison-code-w-claude-2026]]
+- **Claude Mythos** (preview, surfaced 2026-05) — preview-access model used in Mozilla's Firefox security partnership and Anthropic's Natural Language Autoencoders research; not yet GA. Naming breaks the Opus/Sonnet/Haiku scheme; positioning vs. Opus tier not yet clarified — [[claude-mythos]], [[willison-firefox-claude-mythos-2026-05]]
 - **Claude Code** — agentic coding CLI; see [[claude-code]]
+- **Claude Agent SDK** (announced 2026-05-06) — developer-accessible SDK powering both IDE and Desktop hosts; consolidates the developer surface previously split across product-specific harnesses — [[claude-agent-sdk]]
 - **Anthropic API** — developer access to Claude models
 - **Claude Partner Network** — partner program launched 2026-03-12 with $100M committed; free membership for any org bringing Claude to market; provides Partner Portal access, Anthropic Academy training, sales playbooks, Services Partner Directory listing, dedicated Applied AI engineers, and technical architects — [[anthropic-claude-partner-network]]; expanding steadily (see enterprise JV below)
 - **Claude Certified Architect, Foundations** — Anthropic's first official technical certification (March 2026); proctored exam for solution architects building production Claude applications; gateway to a multi-track cert program with seller/architect/developer tracks promised later in 2026 — [[claude-certified-architect]]
 - **Enterprise AI Services Joint Venture** (announced 2026-05-03, name TBD) — new company co-founded with Blackstone, Hellman & Friedman, and Goldman Sachs; backed by General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital. Purpose-built to deliver custom Claude implementations for mid-sized companies (community banks, regional health systems, mid-sized manufacturers) that lack in-house frontier-AI capacity. Anthropic contributes Applied AI engineers who embed alongside the firm's engineering team. Will become a Claude Partner Network member. Distinct from existing SI partners (Accenture, Deloitte, PwC), which serve large enterprises — [[anthropic-enterprise-ai-services-company-2026-05]]
 - **Claude for Financial Services** (launched 2026-05-05) — packaged set of 10 ready-to-run agent templates for IB, equity research, accounting, audit, and compliance workflows; ships as plugins for [[claude-code]] and Cowork or as cookbooks for production deployment as Managed Agents — [[claude-financial-services]], [[claudeai-financial-services-agents-2026-05]]
 - **Claude Cowork** (named publicly 2026-05-05 as a plugin host alongside Claude Code) — collaborative product surface for vertical-agent plugins; product details not yet documented in the wiki
-- **Managed Agents** (named publicly 2026-05-05) — production deployment mode for Claude agents via Anthropic's cookbooks; first-class hosted runtime path distinct from CLI plugin install
+- **Managed Agents** (named publicly 2026-05-05; expanded at Code w/ Claude 2026 on 2026-05-06) — production deployment mode for Claude agents via Anthropic's cookbooks; first-class hosted runtime path distinct from CLI plugin install. Code w/ Claude 2026 added three named features: **Multi-agent Orchestration** (public beta — agent fleets for complex tasks), **Outcomes** (public beta — agents iterate toward defined success criteria), **Dreaming** (research preview — agents inspect previous sessions and self-improve) — [[willison-code-w-claude-2026]]
+- **Claude Code subsystems** (Code w/ Claude 2026 announcements, 2026-05-06) — **Code Review** (cross-team automated review), **Remote Agents** (control laptop from phone), **CI Auto-fix** (automatic fixes against PRs), **Security Reviews** (automated security review primitive), **Claude Code Routines** (higher-order async automation prompts), **Claude Code Desktop App** (full-screen IDE GUI, distinct from [[claude-desktop]] which is the chat/MCP host) — [[willison-code-w-claude-2026]]
 
 ### Additional named surfaces (May 2026, secondary-source inventory)
 
@@ -56,6 +61,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-03 to 2026-05-05: **vertical-build pattern made public**. May 3 personal-guidance research paper (1M conversations, 9 consumer domains) read as a PMF map by [[linas-beliunas]]; May 4 X analysis claims Anthropic is now staffing GMs for 4 verticals (healthcare, financial services, legal, life sciences) per public job postings — [[linas-anthropic-startup-playbook-2026-05]], [[linasbeliunas-anthropic-vertical-builds-2026-05]]; May 5 [[claude-financial-services]] launch confirms at least one vertical has shipped product
 - 2026-05-05: **first vertical agent product line shipped** — Claude for Financial Services with 10 named agents (pitch builder, meeting preparer, earnings reviewer, model builder, market researcher, valuation reviewer, GL reconciler, month-end closer, statement auditor, KYC screener); installable as plugins in Claude Code and Cowork or runnable as Managed Agents — [[claudeai-financial-services-agents-2026-05]], [[joshkale-anthropic-finance-agents-2026-05]]; framed by amplifiers as "automating the first-year analyst job at every bank on Wall Street"
 - 2026-05-04: **talent-density signal** — Anthropic ranked #3 on Paraform's Talent Density Index (behind only [[thinking-machines-lab]] and [[openai]]); strong recruiting position despite intense competition from new neo-labs — [[brianlamanna-paraform-talent-density-2026-05]]
+- 2026-05-06: **Code w/ Claude 2026 event metrics** — Anthropic-stated 17× year-on-year API volume growth; Mercado Libre publicly committed to 90% autonomous coding by Q3 2026 (first customer-side autonomy threshold the wiki has tracked) — [[willison-code-w-claude-2026]]
+- 2026-05-06: **first ceiling-side production-grade security partnership** — Mozilla's Firefox security-fix throughput jumped from ~20-30/month to **423 in April 2026** under [[claude-mythos]] preview access, including 20- and 15-year-old long-tail bugs. Categorically different signal than B2B security-tooling vendor claims — [[willison-firefox-claude-mythos-2026-05]]
+- 2026-05-07: **xAI / Colossus 1 compute deal** — Anthropic contracts the entire 300MW capacity of [[xai]]'s Memphis-area Colossus 1 data center (reported $5B/yr in Daily Brief synopses; pricing not in primary source). Deal includes a clause giving Musk discretion to reclaim compute if Anthropic models cross his unilateral definition of "harm" — first documented case of a frontier lab outsourcing its full compute layer to a competitor's infrastructure with a non-commercial discretionary clause attached — [[willison-anthropic-xai-colossus-2026-05]]
 
 ## Resources
 
@@ -70,3 +78,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[linasbeliunas-anthropic-vertical-builds-2026-05]] — companion X post; GM-level vertical hiring claim
 - [[brianlamanna-paraform-talent-density-2026-05]] — May 2026 talent-density top-50 (Anthropic #3)
 - [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner 30-term glossary; full named-product-surface inventory as of May 6 2026 (secondary source)
+- [[willison-code-w-claude-2026]] — Simon Willison live-blog of Code w/ Claude 2026; 12 product/feature announcements, Opus 4.7 + Mythos preview, Multi-agent Orchestration / Outcomes / Dreaming, Claude Agent SDK, Claude Code Desktop App
+- [[willison-firefox-claude-mythos-2026-05]] — Mozilla Firefox security partnership; 20× monthly fix-volume jump
+- [[willison-anthropic-xai-colossus-2026-05]] — xAI / Colossus 1 compute deal; first frontier-lab full-compute outsourcing
+- [[anthropic-natural-language-autoencoders-2026-05]] — Natural Language Autoencoders research; first-person model introspection text
