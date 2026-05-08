@@ -241,6 +241,7 @@ Wikilinks to all entity pages this ingest touched.
 
 When given a new source:
 
+0. **Daily Brief deduplication check** (skip if not ingesting from a Daily Brief). When the source is a Daily Brief in `Daily Briefs/`, before doing any work `grep` the brief filename (e.g., `2026-05-07-personal.md`) verbatim against `log.md`. If a hit is returned, the brief has already been processed — surface that to the owner and stop. If no hit, proceed.
 1. Save the raw content to `_raw/<slug>.<ext>`.
 2. Create or update `sources/<slug>.md`.
 3. Identify all entity references: tools, models, concepts, people, companies.
@@ -248,7 +249,7 @@ When given a new source:
    - If page exists: update only the sections that are materially changed. Preserve existing content unless contradicted.
    - If page doesn't exist: create it from the schema above.
 5. Update `index.md` if new pages were created.
-6. Append a one-line entry to `log.md`: `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`.
+6. Append a one-line entry to `log.md`: `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`. **If the ingest was driven by a Daily Brief, the description field MUST include the brief filename(s) verbatim** (e.g., `Daily Briefs/2026-05-07-personal.md`, `Daily Briefs/2026-05-07-neutral.md`) so step 0 of the next ingest can detect prior processing via grep.
 7. **Submit changes as a PR for owner review — do not commit directly to `main`.**
    - Create a branch named `ingest/YYYY-MM-DD` (or `ingest/YYYY-MM-DD-<short-tag>` if multiple ingest PRs land the same day).
    - Stage only ingest-related files. Exclude local Obsidian state (`.obsidian/workspace.json`), unrelated untracked files at vault root (e.g., `Untitled.md`, `Daily Briefs/`), and anything under gitignored paths (`_raw/` is intentionally excluded).
