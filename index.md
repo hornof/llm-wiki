@@ -48,6 +48,7 @@
 - [[mechanistic-interpretability]] — research program for understanding how LLMs compute internally; Anthropic NLAs and Cheng & Zhang ICL-localization gap (May 2026)
 - [[control-flow-agents]] — counter-position: agents need deterministic control flow in code, not more elaborate prompts (May 2026)
 - [[ai-energy-efficiency]] — Joules-per-token framing; data-movement-dominates-arithmetic; Amdahl's-Law-in-energy; the 1000× target as a memory problem (May 2026)
+- [[code-mode]] — runtime pattern where the agent writes code that calls tools through a runtime; tool definitions enter context only on import lines; resolves the MCP-vs-CLI debate by making both sides primitives the runtime composes (Anthropic Nov 2025)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -82,6 +83,8 @@
 - [[cat-wu]] — Anthropic Head of Product, Claude Code; "trusting Claude Code on your production databases" framing (May 2026)
 - [[naveen-rao]] — founder of Unconventional AI; ex-Nervana, ex-MosaicML; full-stack co-design for 1000× AI energy efficiency (May 2026)
 - [[peter-mcmahon]] — Research Fellow at Unconventional AI; primary author of the 1000× memory-bottleneck essay (May 2026)
+- [[akshay-pachaar]] — independent AI/ML educator; primary practitioner reframer of the MCP-vs-CLI debate around Anthropic's Code Mode pattern (May 2026)
+- [[jeff-kaufman]] — independent programmer/blogger at jefftk.com; "AI is breaking two vulnerability cultures" essay surfaces the structural collision between AI-assisted commit-stream analysis and disclosure norms (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -214,6 +217,15 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[ashwingop-semantics-ontology-2026-05-07]] — Sentra Part 7: semantics ≠ ontology; substrate-vs-lens architectural separation; roles give organizational memory more stable ontologies than individuals; falsifiable 18-month "decisions-into-action" bet (May 7 2026)
 - [[claude-cowork-cheatsheet-2026-05-07]] — practitioner cheat sheet for Claude Cowork; full feature surface including MCP→Chrome→Computer Use priority ladder, 38+ named connectors, Plugins, Skills, Scheduled Tasks, Dispatch, Projects, plan-availability matrix (May 7 2026)
 - [[realbigbrainai-dario-b2b-vs-consumer-2026-05-07]] — third-party amplification of Dario Amodei framing Anthropic's B2B-first positioning as a structural choice (avoid engagement-maximization incentives) rather than a moral one (May 7 2026)
+- [[ashwingop-systems-of-record-2026-05-09]] — Sentra Part 9: from systems of record to systems of intelligence; Alteryx/Intuit "system of intelligence" framing called too weak; "model-as-brain is like RAM-as-permanent-storage"; uncomfortable question for incumbent SaaS (May 9 2026)
+- [[aakashgupta-anthropic-growth-acceleration-2026-05-09]] — Anthropic's $1B → $44B ARR in 17 months; annualized rate at $14B exceeds the rate at $1B; run-rate now exceeds Salesforce's full FY2025 revenue; Claude Code as the named acceleration driver (May 9 2026)
+- [[akshay-pachaar-mcp-vs-cli-2026-05-09]] — practitioner reframing of the MCP-vs-CLI debate around Anthropic's Code Mode pattern; concrete token-cost data (Playwright MCP = 13.7K, Cloudflare 1.17M → 1K via search+execute, 98.7% reduction in Anthropic's published example); 300M MCP SDK downloads up from 100M at start of year (May 9 2026)
+- [[anthropic-teaching-claude-why-2026-05-08]] — Anthropic alignment-by-reasoning research; 28× sample-efficiency on the Difficult Advice dataset; 65% → 19% → 0–<1% misalignment trajectory; pairs with NLAs as trained-in reasoning vs. read-out reasoning (May 8 2026)
+- [[openai-testing-ads-in-chatgpt-2026-05-08]] — OpenAI tests ads in ChatGPT free tier; structural counterpoint to Anthropic's Dario B2B-first framing 48 hours earlier (May 8 2026; primary not fetched, secondary-source synopsis)
+- [[openai-realtime-voice-api-2026-05-08]] — OpenAI realtime voice models with reasoning + translation; single-pass voice (May 8 2026; primary not fetched)
+- [[openai-running-codex-safely-2026-05-08]] — OpenAI Codex production-safety post; four-layer operational pattern (sandboxing / network policies / approval flows / agent-native telemetry) (May 8 2026; primary not fetched)
+- [[jefftk-vulnerability-cultures-2026-05-08]] — Jeff Kaufman essay; AI is breaking both Coordinated Disclosure and "Bugs are Bugs" norms simultaneously; Copy Fail vulnerability had a second independent report nine hours after disclosure (May 8 2026)
+- [[laban-llms-corrupt-documents-2026-05]] — arXiv preprint by Laban / Schnabel / Neville; frontier LLMs corrupt ~25% of document content during long delegated workflows on the DELEGATE-52 benchmark; agentic tool use does not improve performance (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

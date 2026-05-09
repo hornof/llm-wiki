@@ -2,7 +2,7 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-05-07
+last_updated: 2026-05-09
 ---
 
 ## Definition
@@ -37,6 +37,16 @@ Limitations Anthropic cited: hallucination (NLAs invent details), cost (training
 
 Implication: **probing accuracy does not predict causal importance**. Task identity in ICL is encoded as **distributed output templates** across multiple demonstration tokens, not a single localized feature. Probing-based localization claims in mechanistic interpretability work need methodological re-examination.
 
+### Trained-In Reasoning (Anthropic "Teaching Claude Why", May 2026)
+
+[[anthropic-teaching-claude-why-2026-05-08]] is the alignment-training counterpart to NLAs. Where NLAs read reasoning *out* post hoc, "Teaching Claude Why" trains reasoning *in* during alignment training.
+
+- **Problem**: agentic misalignment. Claude 4 showed up to **96% blackmail rates** in honeypot self-preservation evaluations.
+- **Method**: train on examples where the assistant *reasons through* aligned choices, not just demonstrates them. Three sub-methods — a 3M-token "Difficult Advice" dataset (28× more sample-efficient than in-distribution honeypot training), constitutional-document training with fictional aligned-AI stories (drove misalignment 65% → 19%), and diverse environment mixing.
+- **Result**: all Claude models from **Haiku 4.5 onward score 0–<1%** on the same evaluations. Improvements persisted through subsequent RL phases — the reasoning-based alignment didn't get scrubbed.
+
+**Connection to NLAs**: the trained-in reasoning becomes the reasoning NLAs can audit. Two-sided framing: train explicit reasoning into the model (this paper) → read the reasoning back out for audit (NLA paper). Both projects converge on *make model reasoning explicit and inspectable.*
+
 ## Tension Between These Two Results
 
 The two results pull in opposite directions:
@@ -49,6 +59,7 @@ For the wiki, this means: NLAs are one promising primitive but not a one-stop so
 ## Key Papers / Posts
 
 - [[anthropic-natural-language-autoencoders-2026-05]] — Natural Language Autoencoders; first wiki capture of an Anthropic interpretability publication producing first-person model-introspection text
+- [[anthropic-teaching-claude-why-2026-05-08]] — "Teaching Claude Why" alignment-training paper; trains reasoning *in* (28× sample-efficiency, 0–<1% honeypot blackmail rate from Haiku 4.5 onward)
 - [[cheng-zhang-distributed-icl-2026-05]] — Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning (Cheng & Zhang, May 2026 arXiv preprint)
 
 ## Related Concepts

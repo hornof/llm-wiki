@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-07
+last_updated: 2026-05-09
 ---
 
 ## What It Is
@@ -28,6 +28,7 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - **May 2026 — host surface for Anthropic's first vertical product line**: [[claude-financial-services]] launched May 5 2026 ships its 10 agent templates (pitch builder, earnings reviewer, KYC screener, etc.) as **plugins for Claude Code** (alongside Cowork, plus Managed Agents for production). Anthropic positions Claude Code as one of three first-party deployment surfaces for vertical agents — formal endorsement of Claude Code as the developer-facing distribution channel for productized agent workflows — [[claudeai-financial-services-agents-2026-05]], [[joshkale-anthropic-finance-agents-2026-05]]
 - **2026-05-06 — Code w/ Claude 2026 product expansion**: six new feature surfaces announced inside Claude Code — **Code Review** (cross-team automated review), **Remote Agents** (control laptop sessions from a phone), **CI Auto-fix** (automatic PR fixes), **Security Reviews** (automated security review primitive in-CLI), **Claude Code Routines** (higher-order async automation prompts that can generate PRs), and a **Claude Code Desktop App** (full-screen IDE GUI with rich outputs — distinct from [[claude-desktop]] which is the chat/MCP host). Pro/Max/Enterprise rate limits doubled. Cat Wu (Head of Product, Claude Code): "Thank you for trusting Claude Code on your production databases" — explicit production-grade positioning. — [[willison-code-w-claude-2026]], [[cat-wu]]
 - **2026-05-06 — SDK consolidation**: the **Claude Agent SDK** ([[claude-agent-sdk]]) is now the formal SDK powering both IDE (Claude Code) and Desktop hosts — Claude Code is one consumer of the Agent SDK, not a standalone harness. Repositions Claude Code architecturally as a *product* on top of a sanctioned SDK rather than a one-off CLI
+- **2026-05-09 — explicit revenue-acceleration driver**: [[aakashgupta]] surfaces Anthropic's growth numbers ([[aakashgupta-anthropic-growth-acceleration-2026-05-09]]) and attributes the curve specifically to Claude Code: *"$2.5B in run-rate revenue by February 2026. Weekly active users doubled since January. Enterprise customers spending over $1M per year went from 500 to 1,000 in two months. That's where the curve comes from. The check size is compounding. The user count is secondary."* Claude Code is the named product driving Anthropic's run-rate past Salesforce.
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
