@@ -3,7 +3,7 @@ name: Ashwin Gopalan
 type: person
 affiliation: Sentra (founder)
 signal_sources: [twitter, blog]
-last_updated: 2026-05-06
+last_updated: 2026-05-08
 ---
 
 ## Who They Are
@@ -33,6 +33,12 @@ Building Sentra. Positioning the "Company Brain" thesis as a sharper alternative
 - **Surfacing > browsing (TikTok analogy)** (May 2026): the default "knowledge graph" visualization is wrong as a daily UX. "The value of memory is often experienced through surfacing, not browsing." For CEOs especially, the product cannot become a firehose with a better search box. — [[ashwingop-company-brain-year-lessons-2026-05]]
 - **Cockpit, not copilot** (May 2026): Company Brain should not feel like another person inside the company. "If it behaves too much like a copilot or an employee, it can quietly take agency away from the humans who still own the decision." Target: tool / cockpit / memory instrument. Architecture, not culture, is what enforces the boundary. — [[ashwingop-company-brain-year-lessons-2026-05]]
 - **Original name was "Enterprise General Intelligence"** (May 2026): naming history disclosed — Ashwin pursued EGI as a research-shaped framing before settling on "Company Brain" as simpler and more accurate; ambition unchanged, primitive sharpened. — [[ashwingop-company-brain-year-lessons-2026-05]]
+- **The App Mistake** (May 2026): "Vibe coding makes the demo seductive… But infrastructure is not judged by the first answer. It is judged by what happens after six months of writes, permission changes, stale documents, duplicate customers, renamed projects, conflicting sources, and agents acting at the same time." Apps can be useful while messy; **infrastructure has to survive being depended on**. — [[ashwingop-managed-agents-company-brain-2026-05-08]]
+- **Markdown brains are prototypes — useful, but bounded** (May 2026): Karpathy's LLM Wiki and Garry Tan's GBrain are "directionally right" for personal/small-team brains — humans inspect, agents write, Git tracks, portable. **Scaling boundary appears when the brain becomes organizational**: multiple writers, inherited permissions, regulated data, agents acting on what they read. "A markdown file can hold information. It does not, by itself, decide who can see it, which ontology applies, whether it is stale, whether it is fact or interpretation, or what happens when two agents update related state at the same time." — [[ashwingop-managed-agents-company-brain-2026-05-08]]
+- **AWS lesson for Company Brain** (May 2026): pre-AWS, every company believed infrastructure was too central to outsource. They were right that infrastructure mattered, **wrong about which parts were differentiated.** Same shape applies: own ontology, policy, judgment — but don't rebuild the substrate. **Shared infrastructure with company-specific ontology** is the right architecture. — [[ashwingop-managed-agents-company-brain-2026-05-08]]
+- **Tool access ≠ Company Brain** (May 2026): MCP and managed-agent tool access lets an agent search systems, fetch docs, summarize. But "**the agent is still reconstructing the company every time it acts.**" Query-time context is "flexible. It is also slow, expensive, hard to verify, and easy to miss the thing that matters." Company Brain runs the other way: context graph as maintained state, updated as work happens. — [[ashwingop-managed-agents-company-brain-2026-05-08]]
+- **Hard-part-is-state checklist** (May 2026): concurrency control, provenance, permission propagation, ontology binding, action traces, evals, deletion policy, conflict handling. "Those are not features you sprinkle on after the demo. They are the reason the system can be trusted." — [[ashwingop-managed-agents-company-brain-2026-05-08]]
+- **Reading Anthropic's Managed Agents as a structural signal** (May 2026): the move from "everyone builds the loop themselves" to managed primitives (sessions, containers, tools, files, events, permissions, state) implies the *next* infra layer is the company-state substrate that every app, agent, and human surface acts from. — [[ashwingop-managed-agents-company-brain-2026-05-08]]
 
 ## Where to Follow
 

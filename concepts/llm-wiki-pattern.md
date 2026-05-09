@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-04-29
+last_updated: 2026-05-08
 
 ---
 
@@ -56,6 +56,16 @@ The schema (CLAUDE.md) is designed to be co-evolved by you and the LLM over time
 - Reading a book and building a reference wiki as you go
 - Tracking a specific evolving topic over months
 - Internal team wikis fed by meeting transcripts
+
+## Organizational-Scale Boundary
+
+[[ashwingop]] (May 2026, [[ashwingop-managed-agents-company-brain-2026-05-08]]) names the LLM Wiki as **"directionally right"** alongside Garry Tan's GBrain — markdown is a great medium for personal/small-team brain systems because humans inspect, agents write, Git tracks, the whole thing stays portable. But the pattern hits a scaling boundary when the brain becomes organizational:
+
+- Personal brain: one owner, one trust boundary, one tolerance for messiness, one final arbiter. Bad summary? Fix it. Two pages contradict? Decide.
+- Companies don't get that simplicity: multiple writers, multiple readers, inherited permissions, regulated data, stale sources, conflicting teams, and **agents that may act on what they read**.
+- "A markdown file can hold information. It does not, by itself, decide who can see it, which ontology applies, whether it is stale, whether it is fact or interpretation, or what happens when two agents update related state at the same time."
+
+This is not a contradiction of the LLM Wiki Pattern — it's a scope marker. Files can be the source. The wiki pattern handles personal/small-team knowledge compounding well. At organizational scale, additional substrate is needed (concurrency, provenance, permission propagation, ontology binding, action traces, evals, deletion, conflict handling) — see [[company-brain]].
 
 ## When to Use RAG Instead
 - Customer support over constantly-updated docs

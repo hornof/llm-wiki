@@ -46,6 +46,7 @@
 - [[vibe-physics]] — Lupsasca's coined-by-analogy term for using GPT-5.x to derive novel theoretical physics results; second "vibe X" pattern propagating into adjacent disciplines (May 2026)
 - [[mechanistic-interpretability]] — research program for understanding how LLMs compute internally; Anthropic NLAs and Cheng & Zhang ICL-localization gap (May 2026)
 - [[control-flow-agents]] — counter-position: agents need deterministic control flow in code, not more elaborate prompts (May 2026)
+- [[ai-energy-efficiency]] — Joules-per-token framing; data-movement-dominates-arithmetic; Amdahl's-Law-in-energy; the 1000× target as a memory problem (May 2026)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -78,6 +79,8 @@
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined [[vibe-physics]] using GPT-5.x to derive novel gluon/graviton results (May 2026)
 - [[ami-vora]] — Anthropic Chief Product Officer; opening keynote at Code w/ Claude 2026 (May 2026)
 - [[cat-wu]] — Anthropic Head of Product, Claude Code; "trusting Claude Code on your production databases" framing (May 2026)
+- [[naveen-rao]] — founder of Unconventional AI; ex-Nervana, ex-MosaicML; full-stack co-design for 1000× AI energy efficiency (May 2026)
+- [[peter-mcmahon]] — Research Fellow at Unconventional AI; primary author of the 1000× memory-bottleneck essay (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -104,6 +107,7 @@
 - [[xai]] — Elon Musk's AI subsidiary of SpaceX; operator of the Memphis Colossus 1 data center (300MW); contracted entirely to Anthropic for training (May 2026)
 - [[mozilla]] — Firefox / Thunderbird; preview-access partner using Claude Mythos to drive 20× monthly Firefox security-fix throughput (May 2026)
 - [[andon-labs]] — autonomous-business research outfit; SF retail store + Stockholm cafe experiments running real commercial operations under AI control
+- [[unconventional-ai]] — early-stage AI hardware-software co-design company; pursuing 1000× energy efficiency for GenAI inference; founded by Naveen Rao (May 2026)
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
@@ -176,6 +180,9 @@
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic Natural Language Autoencoders; activations → human-readable text; 4-5× audit-effectiveness multiplier on hidden-misalignment detection (May 2026)
 - [[cheng-zhang-distributed-icl-2026-05]] — Cheng & Zhang preprint: 100% probing accuracy ↔ 0% causal effect at the same positions; distributed-output-templates framing for ICL (May 2026)
 - [[bsuh-agents-need-control-flow-2026-05]] — Brian / bsuh: counter-position arguing agents need deterministic control flow in code, not more elaborate prompt chains (May 2026)
+- [[mcmahon-1000x-energy-efficiency-2026-05]] — Unconventional AI's primary technical thesis: data movement, not arithmetic, is the binding constraint; Amdahl's-Law-in-energy forces full-stack co-design (May 7 2026)
+- [[nrao-linkedin-1000x-2026-05]] — Naveen Rao LinkedIn amplification; "building in the open"; substantive practitioner comment thread on coordination physics and heterogeneous-fleet orchestration (May 8 2026)
+- [[ashwingop-managed-agents-company-brain-2026-05-08]] — Ashwin Gopalan reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; engages directly with [[karpathy-llm-wiki-gist]] and Garry Tan's GBrain framing as "directionally right" but bounded by the single-owner regime (May 8 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-05-06
+last_updated: 2026-05-08
 ---
 
 ## Definition
@@ -90,6 +90,55 @@ For CEOs especially: the product cannot be a firehose with a search box. It has 
 
 Target feel: **a tool, a cockpit, or a memory instrument** — surfaces reality, shows disagreement, prepares the work, but humans remain responsible for judgment. Boundary discipline (provenance, permissions, scope) is architectural, not just cultural: "the goal is not to make everyone feel watched. The goal is to make work legible, creditable, and easier to act on."
 
+## Infrastructure, Not an App (Part 8 framing, May 2026)
+
+Following Anthropic's Managed Agents launch at Code w/ Claude 2026 ([[willison-code-w-claude-2026]]), [[ashwingop]] sharpened the positioning ([[ashwingop-managed-agents-company-brain-2026-05-08]]):
+
+- **Managed Agents are a structural signal**, not a competing product. Anthropic taking responsibility for sessions, containers, tools, files, events, permissions, and state is the same shape that AWS gave to compute. The pattern propagates upward: the next layer is the **company-state substrate** every app, agent, and human surface acts from.
+- **Memory tool ≠ Company Brain.** Anthropic's [Memory Tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool) and [Managed Agents Memory](https://platform.claude.com/docs/en/managed-agents/memory) describe file-based directories, workspace-scoped collections, path-traversal protection. That's a knowledge base. **"A knowledge base stores useful information. Company Brain maintains operational state."** State means: what happened, why it mattered, who saw it, which source is trusted, what action followed, which permission applies, what the company should learn from the outcome.
+
+### Markdown Brains Are Prototypes (Bounded by Single-Owner Regime)
+
+Karpathy's [[llm-wiki-pattern|LLM Wiki]] and Garry Tan's GBrain are explicitly named as **directionally right** for personal/small-team brains: "humans can inspect, agents can write, Git can track, the whole thing stays portable." But the pattern hits a scaling boundary:
+
+- Personal brain: one owner, one trust boundary, one tolerance for messiness, one final arbiter.
+- Companies don't get that simplicity: multiple writers, multiple readers, inherited permissions, regulated data, stale sources, conflicting teams, and **agents that may *act* on what they read**.
+- "A markdown file can hold information. It does not, by itself, decide who can see it, which ontology applies, whether it is stale, whether it is fact or interpretation, or what happens when two agents update related state at the same time."
+
+The file metaphor is **useful but incomplete**. Files can be the source. Company Brain is the substrate that makes files, traces, semantics, ontology, permissions, and actions work together.
+
+### Tool Access Is Not Company Brain
+
+MCP is a major step. Tool access will be part of every serious enterprise agent stack. But it's a different layer:
+
+- With tool-access alone, **the agent reconstructs the company every time it acts** — query-time context. "Flexible. It is also slow, expensive, hard to verify, and easy to miss the thing that matters."
+- Company Brain runs the other way: the context graph already exists as **maintained state**. Meetings, messages, tickets, docs, customer calls, decisions, and actions update the brain *as work happens*. When an agent needs to act, it operates from current state, with sources and permissions attached.
+
+### The AWS Lesson
+
+Pre-AWS, every company believed infrastructure was too central to depend on someone else for. They were right that infrastructure mattered, **wrong about which parts were differentiated**. Cloud didn't make infrastructure disappear; it made the primitive reliable enough to build higher up the stack. Company Brain has the same shape: **own the ontology, own the policy, own the judgment** — but don't rebuild the substrate. The architecture is **shared infrastructure with company-specific ontology**, not generic-brain vs. fully-internal-brain.
+
+### The Hard Part Is State
+
+Reading is hard. **Writing turns the internal build into infrastructure.** Imagine multiple agents and humans writing into the same brain: a support agent updates a customer risk; a sales agent writes a follow-up; a product agent changes a feature request status; a human edits the source doc; a Slack thread contradicts yesterday's summary. The non-negotiable substrate features:
+
+- Concurrency control
+- Provenance
+- Permission propagation
+- Ontology binding
+- Action traces
+- Evals (did the agent actually have the right context before it acted?)
+- Deletion policy
+- Conflict handling
+
+"Those are not features you sprinkle on after the demo. They are the reason the system can be trusted."
+
+### Apps On Top, Brain Underneath
+
+Apps sit on top of Company Brain: CEO surface, manager surface, IC surface, support agent, sales agent, engineering agent, customer follow-up workflow, escalation workflow, planning workflow. The same underlying company state serves all of them through different lenses (the universal-substrate-multiple-ontologies principle).
+
+> "The companies that win will not be the ones with the most internal AI demos. They will be the ones that turn work into company state quickly enough for humans and agents to act from it." — [[ashwingop-managed-agents-company-brain-2026-05-08]]
+
 ## Who It Serves
 
 The Company Brain has to serve each role at the right level of abstraction (see also [[ashwingop-company-brain-part-2]] for the personalization argument):
@@ -139,5 +188,6 @@ The bet underlying [[sentra]] is that the durable position is the integration po
 - [[ashwingop-company-brain-part-1]] — Why Most Companies Have Data But No Memory (April 29, 2026)
 - [[ashwingop-company-brain-part-2]] — Factual Memory deep dive (April 30, 2026)
 - [[ashwingop-company-brain-year-lessons-2026-05]] — year-of-design-partners summary essay (May 6, 2026); introduces world-model framing, ontology-as-perspective, and the surfacing/cockpit/pace product principles
+- [[ashwingop-managed-agents-company-brain-2026-05-08]] — Part 8 (May 8, 2026); reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; introduces the App Mistake, AWS Lesson, query-time-vs-maintained-state distinction, and the hard-part-is-state checklist
 - [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of the YC RFS
 - [Paul Graham — Founder Mode](https://www.paulgraham.com/foundermode.html) — Ashwin extends "founder mode" toward "contact with company truth"

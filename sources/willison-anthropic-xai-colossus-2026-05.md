@@ -8,7 +8,7 @@ ingested: 2026-05-07
 
 ## Summary
 
-[[simon-willison]] reaction post (May 7 2026) to the announcement that [[anthropic]] will use all of the capacity of [[xai]]'s Colossus 1 data center. Willison frames the deal as strategically necessary but reputationally costly: ongoing political controversy around the Memphis facility, Clean Air Act issues with its gas turbines, and a clause giving Musk discretion to "reclaim the compute" if Anthropic's models cross his unilateral definition of harm. The deal pricing/capacity ($5B/yr, 300MW Colossus 1) is not in this post — it's the secondary AINews recap from the same week that supplies those numbers.
+[[simon-willison]] reaction post (May 7 2026) to the announcement that [[anthropic]] will use all of the capacity of [[xai]]'s Colossus 1 data center. Willison frames the deal as strategically necessary but reputationally costly: ongoing political controversy around the Memphis facility, Clean Air Act issues with its gas turbines, and a clause giving Musk discretion to "reclaim the compute" if Anthropic's models cross his unilateral definition of harm. The deal pricing/capacity (**$5B/year, 300MW Colossus 1**, ~8000% ARR-growth-annualized framing) is not in this post directly — it's the Latent Space / AINews recap from the same week that supplies those numbers, surfaced via the 2026-05-08 Daily Brief.
 
 ## Key Claims / Takeaways
 
