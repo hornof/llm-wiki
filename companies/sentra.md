@@ -37,6 +37,17 @@ See [[company-brain]] for the concept page.
 
 After a year of design-partner work, [[ashwingop]] sharpened the positioning to **"shared semantic company state"** — the substrate beneath both humans and agents — and disclosed that the project's original internal name was **"Enterprise General Intelligence"** before being simplified to Company Brain. Ambition unchanged; primitive sharpened. New product principles introduced (see [[company-brain]] for full treatment): **pace > automation** (latency collapse is the real wow, not task automation), **surfacing > browsing** (TikTok analogy, not a knowledge-graph browser), **cockpit > copilot** (a memory instrument, not another employee). Ontology layer added above the three memory layers: same substrate, different role-specific lenses (CEO / PM / lawyer / support / agent), each producing valid but distinct memories from the same underlying artifacts. — [[ashwingop-company-brain-year-lessons-2026-05]]
 
+## Substrate vs. Lens (Part 7, May 7 2026)
+
+[[ashwingop-semantics-ontology-2026-05-07]] introduces the architectural separation that ties the rest of Sentra's stack together:
+
+- **Substrate**: shared, permissioned, inspectable, durable. One memory underneath the company.
+- **Lens**: functional, customizable, per-vertical. Each function (sales, product, support, legal, leadership) carries a narrower ontology of how it sees its slice.
+
+The substrate-vs-lens framing reframes Sentra's wedge: not "one assistant per company" (the dominant 2026 enterprise AI playbook, where adoption stays uneven across functions), but **one substrate, many lenses**. Sales / product / support / legal / leadership all pull from the same memory, each through its own ontology. *"The substrate holds the same memory underneath. The lens decides what that memory means in context."*
+
+Falsifiable bet attached: within 18 months from May 7 2026 (≈ end of 2027), the gap between companies that built shared semantic state and companies that bolted agents onto fragmented data will be measurable in **decisions-into-action rate** — *how often the company successfully does the thing it decided to do* — not in AI usage metrics. Both groups will have high usage; only the first will close the loop.
+
 ## Reading the Anthropic Managed Agents Launch (Part 8, May 2026)
 
 After [[anthropic]]'s Managed Agents launch at Code w/ Claude 2026 ([[willison-code-w-claude-2026]]), Ashwin published Part 8 — [[ashwingop-managed-agents-company-brain-2026-05-08]] — reading the move as a structural signal:
@@ -53,7 +64,7 @@ Crisp closing positioning: *"The companies that win will not be the ones with th
 
 ## Traction Signals
 
-- **8-piece longform series** on X (Apr 29 – May 8, 2026) — [[ashwingop-company-brain-part-1]], [[ashwingop-company-brain-part-2]], plus parts 3–5 (interaction memory, action memory, "memory is state, not a service"), the year-lessons summary [[ashwingop-company-brain-year-lessons-2026-05]], and the May 8 Managed-Agents reading [[ashwingop-managed-agents-company-brain-2026-05-08]]. Substantive, link-rich, with citations to McKinsey, Glean, Granola, Otter, ServiceNow, Walsh & Ungson on organizational memory, and (in Part 8) explicit engagement with [[karpathy-llm-wiki-gist|Karpathy's LLM Wiki gist]] and Garry Tan's GBrain framing.
+- **8-piece longform series** on X (Apr 29 – May 8, 2026) — [[ashwingop-company-brain-part-1]], [[ashwingop-company-brain-part-2]], plus parts 3–5 (interaction memory, action memory, "memory is state, not a service"), the year-lessons summary [[ashwingop-company-brain-year-lessons-2026-05]], the May 7 semantics-and-ontology piece [[ashwingop-semantics-ontology-2026-05-07]], and the May 8 Managed-Agents reading [[ashwingop-managed-agents-company-brain-2026-05-08]]. Substantive, link-rich, with citations to McKinsey, Glean, Granola, Otter, ServiceNow, Walsh & Ungson on organizational memory, and (in Part 8) explicit engagement with [[karpathy-llm-wiki-gist|Karpathy's LLM Wiki gist]] and Garry Tan's GBrain framing.
 - People are pinging Ashwin saying "isn't this what you're building?" after YC's April 2026 RFS named "company brain" — Ashwin claims the product but acknowledges the name is YC's framing. Now confirmed via primary source: **two separate YC partners independently described the same gap in [[yc-summer-2026-rfs]]** — [[tom-blomfield]] under "Company Brain" (§5) and [[diana-hu]] under "The AI Operating System for Companies" (§16). Two-partner overlap inside one RFS is a strong demand-side signal for Sentra's wedge.
 - Independent validation of the underlying problem: McKinsey ([building agentic AI foundations](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/building-the-foundations-for-agentic-ai-at-scale)) argues agentic AI needs stronger data foundations, lineage, access control, governance to scale — Ashwin uses this as supporting evidence.
 
@@ -70,5 +81,6 @@ Crisp closing positioning: *"The companies that win will not be the ones with th
 - [[ashwingop-company-brain-part-1]] — April 2026 thesis (Part 1)
 - [[ashwingop-company-brain-part-2]] — April 2026 deep dive on factual memory (Part 2)
 - [[ashwingop-company-brain-year-lessons-2026-05]] — May 2026 year-of-design-partners summary
+- [[ashwingop-semantics-ontology-2026-05-07]] — Part 7: semantics ≠ ontology; substrate vs. lens; falsifiable 18-month "decisions-into-action" bet
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Part 8: reading Anthropic Managed Agents as the structural signal pointing to Company Brain
 - Site: https://www.sentra.app/

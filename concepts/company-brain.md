@@ -90,6 +90,51 @@ For CEOs especially: the product cannot be a firehose with a search box. It has 
 
 Target feel: **a tool, a cockpit, or a memory instrument** — surfaces reality, shows disagreement, prepares the work, but humans remain responsible for judgment. Boundary discipline (provenance, permissions, scope) is architectural, not just cultural: "the goal is not to make everyone feel watched. The goal is to make work legible, creditable, and easier to act on."
 
+## Substrate vs. Lens (Part 7 framing, May 7 2026)
+
+Published one day before Part 8, [[ashwingop-semantics-ontology-2026-05-07]] introduces the **architectural separation** that organizes the rest of the Company Brain stack:
+
+- **Substrate**: shared, permissioned, inspectable, durable. One memory underneath the whole company.
+- **Lens**: functional, customizable, per-vertical. Sales / product / support / legal / leadership each carry a narrower ontology of how they see their slice.
+
+> "The substrate is shared, permissioned, inspectable, and durable. The lens is functional, customizable, and per-vertical. A company defines a broad ontology of how it operates, and each function defines a narrower ontology of how it sees its slice. The substrate holds the same memory underneath. **The lens decides what that memory means in context.**"
+
+### Semantics ≠ Ontology
+
+A **place to remember is not the same as memory that understands.** Useful memory needs both:
+
+- **Semantics** — what something *is* (vendor, PO, dates, content, file type, location).
+- **Ontology** — why it *matters* from a particular perspective.
+
+Two grounding examples ([[ashwingop-semantics-ontology-2026-05-07]]):
+
+- **A rock**: same object, same physical facts. Hiker → chair. Sculptor → raw material. Geologist → evidence. Construction crew → obstacle.
+- **A supplier-delay email**: same semantic fields (vendor, PO, delayed item, original/revised dates, reason). Procurement → supplier risk. Finance → accrual issue. Operations → production delay. Legal → contractual exposure. *"Same file. Same semantic facts. Different ontology."*
+
+### Why Organizational Memory Is More Tractable Than Personal Memory
+
+Personal ontology is fluid — a person is parent / friend / colleague / patient / customer / manager / student / founder, often in the same day. Same artifact changes meaning as the person changes frame. **Organizations have roles** — sales / finance / legal / support / engineering / procurement / operations / leadership — and roles give organizational memory **more stable ontologies than individuals**. This is what makes Company Brain a tractable engineering target where personal memory is not.
+
+### Custom Ontologies Are the Adoption Path
+
+> "The dominant enterprise AI playbook is still one assistant per company, with one company-wide model of how the work fits together. Even when companies invest heavily in that direction, adoption stays uneven. Sales uses it one way, product another, support barely at all, legal almost never, and leadership turns it into a search box."
+
+Reason: **one ontology cannot fit how seven different functions actually see their work.** The architectural move: reverse the burden of translation. Instead of forcing employees to translate their work into the AI's interface, AI understands the way each function already sees the work.
+
+### One Issue, Many Traces
+
+A customer issue surfaces in a meeting, reappears in a Slack thread, becomes a support ticket, triggers a sales concern, and later changes a roadmap priority. Those should not become five unrelated memories — they should be **one evolving memory with different traces**: support, customer, product, revenue, action, decision. *"Each trace exists because an ontology decided what mattered."*
+
+### Falsifiable 18-Month Bet (May 7 2026)
+
+> "Within eighteen months, the gap between companies that have built shared semantic state and companies that have bolted agents onto fragmented data will become measurable in a particular way. It will not show up in AI usage metrics because both groups will have high usage. **It will show up in the rate at which decisions translate into action.**"
+
+The metric to watch:
+- **Not** how often people use AI.
+- **Yes** how often the company successfully *does the thing it decided to do.*
+
+Closing line: *"It is a company that remembers itself."*
+
 ## Infrastructure, Not an App (Part 8 framing, May 2026)
 
 Following Anthropic's Managed Agents launch at Code w/ Claude 2026 ([[willison-code-w-claude-2026]]), [[ashwingop]] sharpened the positioning ([[ashwingop-managed-agents-company-brain-2026-05-08]]):
@@ -188,6 +233,7 @@ The bet underlying [[sentra]] is that the durable position is the integration po
 - [[ashwingop-company-brain-part-1]] — Why Most Companies Have Data But No Memory (April 29, 2026)
 - [[ashwingop-company-brain-part-2]] — Factual Memory deep dive (April 30, 2026)
 - [[ashwingop-company-brain-year-lessons-2026-05]] — year-of-design-partners summary essay (May 6, 2026); introduces world-model framing, ontology-as-perspective, and the surfacing/cockpit/pace product principles
+- [[ashwingop-semantics-ontology-2026-05-07]] — Part 7 (May 7, 2026); reads Anthropic Managed Agents memory as directionally right but architecturally incomplete; introduces semantics≠ontology distinction, substrate-vs-lens architectural separation, role-as-stable-ontology argument, and the falsifiable 18-month "decisions-into-action" metric
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Part 8 (May 8, 2026); reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; introduces the App Mistake, AWS Lesson, query-time-vs-maintained-state distinction, and the hard-part-is-state checklist
 - [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of the YC RFS
 - [Paul Graham — Founder Mode](https://www.paulgraham.com/foundermode.html) — Ashwin extends "founder mode" toward "contact with company truth"

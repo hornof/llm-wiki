@@ -3,18 +3,19 @@ name: Claude Desktop
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-05-01
+last_updated: 2026-05-08
 ---
 
 ## What It Is
 
-Anthropic's desktop application for macOS and Windows. Hosts Claude conversations with **persistent Projects** (folder-scoped contexts that re-read files at session start) and acts as an **MCP host** — meaning users can configure local MCP servers via `claude_desktop_config.json` and Claude Desktop will spawn them and route tool calls to them. Distinct from [[claude-code]] (terminal-native CLI for agentic coding) and from claude.ai (web). Same model family, different harness.
+Anthropic's desktop application for macOS and Windows. Hosts Claude conversations with **persistent Projects** (folder-scoped contexts that re-read files at session start), acts as an **MCP host** (users configure local MCP servers via `claude_desktop_config.json`), and — as of May 2026 — hosts the **[[claude-cowork]]** autonomous-execution tab where Claude takes a brief and runs the task end-to-end across files, apps, and the browser. Distinct from [[claude-code]] (terminal-native CLI for agentic coding) and from claude.ai (web). Same model family, different harness.
 
 Download: [claude.ai/download](https://claude.ai/download). Requires a Claude Pro or higher subscription for full access.
 
 ## Traction Signals
 
 - **Default MCP host for personal-agent tutorials.** April 2026 viral X tutorial by [[seelffff]] uses Claude Desktop (not Claude Code) as the MCP host for a personal life-management agent stack — Filesystem MCP + [[playwright-mcp]] + a custom 25-line Telegram MCP — and explicitly recommends Claude Desktop because "Projects in Claude Desktop have persistent memory and read your folder." — [[seelffff-personal-ai-agent]] / [[personal-ai-agent-claude-desktop-mcp]]
+- **Cowork tab graduated to a first-class surface** (May 2026): Claude Desktop now hosts [[claude-cowork]], Anthropic's autonomous-execution surface for non-coding workflows. Practitioner cheat sheet [[claude-cowork-cheatsheet-2026-05-07]] documents 38+ built-in MCP connectors, the **MCP → Chrome → Computer Use** priority ladder, Plugins, Skills (`SKILL.md`), Scheduled Tasks, Dispatch (mobile pairing). Claude Desktop is the *host*; Cowork is the autonomous mode within it.
 - **Native scheduled-tasks support cited** as a near-term capability for "scheduled morning briefing" at 7am — practitioner expects Claude Desktop to run agent commands on cron without Claude Code in the loop. [unsourced beyond the seelffff post; verify before relying]
 - **Claude Pro–only agent stacks possible**: Claude Desktop + MCP unlocks browser automation, filesystem read/write, and external push delivery on a $20/mo subscription with no API keys. Lowers the barrier from "developer with API budget" to "anyone with Claude Pro."
 

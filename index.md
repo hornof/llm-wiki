@@ -19,6 +19,7 @@
 - [[claude-financial-services]] — Anthropic's first vertical agent product line (May 2026); 10 templates spanning IB / equity research / accounting / audit / compliance
 - [[microgpt]] — Karpathy's 200-line, zero-dependency Python GPT (Feb 2026); educational artifact distilling the GPT algorithm to its essence
 - [[claude-agent-sdk]] — Anthropic's developer SDK powering both IDE (Claude Code) and Desktop hosts; consolidates the developer surface (announced May 2026)
+- [[claude-cowork]] — Anthropic's autonomous-execution surface for non-coding workflows; tab inside [[claude-desktop]]; MCP→Chrome→Computer Use priority ladder; 38+ built-in connectors; Plugins / Skills / Scheduled Tasks / Dispatch (May 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -183,6 +184,9 @@
 - [[mcmahon-1000x-energy-efficiency-2026-05]] — Unconventional AI's primary technical thesis: data movement, not arithmetic, is the binding constraint; Amdahl's-Law-in-energy forces full-stack co-design (May 7 2026)
 - [[nrao-linkedin-1000x-2026-05]] — Naveen Rao LinkedIn amplification; "building in the open"; substantive practitioner comment thread on coordination physics and heterogeneous-fleet orchestration (May 8 2026)
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Ashwin Gopalan reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; engages directly with [[karpathy-llm-wiki-gist]] and Garry Tan's GBrain framing as "directionally right" but bounded by the single-owner regime (May 8 2026)
+- [[ashwingop-semantics-ontology-2026-05-07]] — Sentra Part 7: semantics ≠ ontology; substrate-vs-lens architectural separation; roles give organizational memory more stable ontologies than individuals; falsifiable 18-month "decisions-into-action" bet (May 7 2026)
+- [[claude-cowork-cheatsheet-2026-05-07]] — practitioner cheat sheet for Claude Cowork; full feature surface including MCP→Chrome→Computer Use priority ladder, 38+ named connectors, Plugins, Skills, Scheduled Tasks, Dispatch, Projects, plan-availability matrix (May 7 2026)
+- [[realbigbrainai-dario-b2b-vs-consumer-2026-05-07]] — third-party amplification of Dario Amodei framing Anthropic's B2B-first positioning as a structural choice (avoid engagement-maximization incentives) rather than a moral one (May 7 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
