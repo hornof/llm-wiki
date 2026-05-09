@@ -128,6 +128,33 @@
 - [[bloomberg-feifei-li-2025]] — primary source for World Labs / spatial-intelligence updates ([[fei-fei-li]], [[world-labs]])
 - [[karpathy-lecun1989-33-years]] — Karpathy's 2022 essay; states the [[software-3-0]] thesis 4 years before naming it; "10,000,000X-sized neural net megabrain" projection
 
+### Foundational source batch (April 2026)
+Sources ingested during the initial wiki build. All reachable via wikilinks from entity pages; surfaced here so the catalog is complete.
+
+- [[anthropic-constitutional-ai-research]] — Anthropic's Constitutional AI research page (Dec 2022); foundational reference for [[constitutional-ai]]
+- [[anthropic-claudes-constitution]] — Claude's model spec / constitution (CC0); priority ordering and behavioral guidelines
+- [[reddit-llm-wiki-weekend-build]] — first-hand build experience of the LLM Wiki Pattern (74 upvotes, r/AI_Agents)
+- [[wikipedia-fei-fei-li]] — Wikipedia profile; biographical baseline for [[fei-fei-li]]
+- [[wikipedia-andrew-ng]] — Wikipedia profile; biographical baseline for [[andrew-ng]]
+- [[wikipedia-yann-lecun]] — Wikipedia profile; biographical baseline for [[yann-lecun]]
+- [[thread-milkroadai-hassabis-agi]] — Twitter thread amplifying Hassabis on AGI by 2030
+- [[thread-aakashgupta-1b-model]] — Twitter thread on the 1B-clean-vs-1.8T-noisy framing for [[training-data-quality]]
+- [[thread-minchoi-gpt-image-2]] — Twitter thread covering [[gpt-image-2]] release
+- [[thread-phosphenq-karpathy-video]] — Twitter thread reacting to a Karpathy video
+- [[thread-phosphenq-lecun-lecture]] — Twitter thread on a circulating LeCun lecture (April 2026)
+- [[thread-zan2434-flipbook]] — Twitter thread; primary surfacing of [[model-rendered-ui]] via the Flipbook prototype
+- [[github-hornof-profile]] — owner's GitHub profile snapshot; surfaced [[crewai]], [[ollama]], [[langchain]], [[llama-index]]
+- [[linkedin-luke-hornof-2026]] — owner's LinkedIn export; career table baseline for [[owner/profile]]
+- [[cognitive-revolution-luma-worldsim]] — Cognitive Revolution podcast episode with [[amit-jain]]; Luma worldsim framing
+- [[techcrunch-luma-uni1]] — TechCrunch coverage of [[luma-ai]]'s Uni-1 model launch (March 2026)
+- [[amplify-amit-jain-interview]] — Amplify interview; Amit Jain on joint training and Kardashev framing
+- [[feifei-substack-spatial-intelligence]] — Fei-Fei Li Substack post; primary source for [[spatial-intelligence]]
+- [[reddit-3-things-claude-output-quality]] — r/claude practitioner thread; harnesses, MCP context-mode tips
+- [[datachaz-google-design-md]] — X post surfacing Google's open-sourced DESIGN.md spec ([[stitch]])
+- [[post-aakashgupta-jensen-huang-management]] — X post on Jensen Huang's management style at Nvidia
+- [[zodchiii-anatomy-perfect-skill]] — X post; reverse-engineered "anatomy of a perfect skill" from 100 examples
+- [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
+
 ### Recent ingests
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy on Software 3.0, vibe coding, agentic engineering, jagged intelligence (April 2026)

@@ -23,7 +23,7 @@ Third-party amplification (May 7 2026) of a Dario Amodei quote on why [[anthropi
 ## Pages Updated
 
 - [[anthropic]] (updated — Dario's structural-business-model argument added under positioning context)
-- [[dario-amodei]] would be the natural target if a person page existed; for now this take is captured on the Anthropic page itself.
+- `dario-amodei` would be the natural target if a person page existed; for now this take is captured on the Anthropic page itself.
 
 ## Caveats
 

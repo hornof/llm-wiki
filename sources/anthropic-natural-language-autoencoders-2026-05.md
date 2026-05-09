@@ -8,7 +8,7 @@ ingested: 2026-05-07
 
 ## Summary
 
-[[anthropic]] research publication introducing **Natural Language Autoencoders (NLAs)** — an interpretability technique that converts neural-network activations into human-readable text. Three trained components: a frozen target model, an "activation verbalizer" (activations → text), and an "activation reconstructor" (text → activations). Quality is measured by round-trip reconstruction fidelity. Demonstrated on [[claude-opus-4-6]], [[claude-mythos]] preview, and Claude Haiku 3.5. Distinct from sparse autoencoders / attribution graphs in that the output is directly readable rather than requiring trained-researcher interpretation.
+[[anthropic]] research publication introducing **Natural Language Autoencoders (NLAs)** — an interpretability technique that converts neural-network activations into human-readable text. Three trained components: a frozen target model, an "activation verbalizer" (activations → text), and an "activation reconstructor" (text → activations). Quality is measured by round-trip reconstruction fidelity. Demonstrated on Claude Opus 4.6, [[claude-mythos]] preview, and Claude Haiku 3.5. Distinct from sparse autoencoders / attribution graphs in that the output is directly readable rather than requiring trained-researcher interpretation.
 
 ## Key Claims / Takeaways
 
