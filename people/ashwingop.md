@@ -3,7 +3,7 @@ name: Ashwin Gopalan
 type: person
 affiliation: Sentra (founder)
 signal_sources: [twitter, blog]
-last_updated: 2026-05-08
+last_updated: 2026-05-09
 ---
 
 ## Who They Are
@@ -44,6 +44,9 @@ Building Sentra. Positioning the "Company Brain" thesis as a sharper alternative
 - **Roles give organizational memory more stable ontologies than individuals** (May 7, 2026): personal ontology is fluid (parent / friend / colleague / patient / customer / manager / student / founder, often the same day), so personal memory is hard. Organizations have sales / finance / legal / support / engineering / procurement / operations / leadership — bounded, stable ontologies that make organizational memory a tractable engineering target where personal memory is not. — [[ashwingop-semantics-ontology-2026-05-07]]
 - **Falsifiable 18-month bet on "decisions-into-action" rate** (May 7, 2026): "The gap between companies that have built shared semantic state and companies that have bolted agents onto fragmented data will become measurable… not in AI usage metrics… but in the rate at which decisions translate into action." Sharp, dated, designed to be wrong. The metric is not how often people use AI, it's how often the company successfully *does the thing it decided to do.* — [[ashwingop-semantics-ontology-2026-05-07]]
 - **Reverse the burden of translation** (May 7, 2026): "The dominant enterprise AI playbook is still one assistant per company, with one company-wide model… Adoption stays uneven. Sales uses it one way, product another, support barely at all, legal almost never, and leadership turns it into a search box." One ontology cannot fit how seven functions see their work. AI should understand the way each function already sees the work — not the other way around. — [[ashwingop-semantics-ontology-2026-05-07]]
+- **"Model-as-brain is like RAM-as-permanent-storage"** (May 9, 2026): coinage that names the architectural mistake of treating the LLM as the durable substrate. *"It works until the lights go off, the context changes, or someone needs to inspect why the answer changed."* Reasoning and state must be separated — the LLM reasons; the Company Brain holds the structured, inspectable, versioned, permissioned state. — [[ashwingop-systems-of-record-2026-05-09]]
+- **"System of intelligence" as currently framed (Alteryx, Intuit) is too weak** (May 9, 2026): an insight layer that sits on top of systems of record preserves the old center of gravity. The strong version maintains a living, structured representation of company reality with multiple ontologies reading from one substrate — what Ashwin calls Company Brain. — [[ashwingop-systems-of-record-2026-05-09]]
+- **The uncomfortable question for incumbent SaaS** (May 9, 2026): "whether the same record structure is still the right center of gravity when AI can understand the work directly." The CRM field, the ticket, and the dashboard all become less central if a Company Brain already knows the customer state, the decision history, and the strategy/execution gap. Systems of record do not disappear — they become sources and places where actions land — but they stop being where intelligence lives. — [[ashwingop-systems-of-record-2026-05-09]]
 
 ## Where to Follow
 

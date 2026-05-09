@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-06
+last_updated: 2026-05-09
 ---
 
 ## What This Is
@@ -110,6 +110,20 @@ If the SaaS disruption thesis is "AI-native replacements eat incumbents," Stripe
 
 The thesis question "do humans still buy SaaS in 2027?" now has a concrete protocol answer: maybe agents do.
 
+## Empirical Support: Anthropic Run-Rate Exceeds Salesforce (May 2026)
+
+[[aakashgupta-anthropic-growth-acceleration-2026-05-09]] surfaces concrete numbers (May 9 2026) that line up with the core mechanism above:
+
+- Anthropic ARR: **$1B → $44B in 17 months** (Slack held the prior SaaS record at $1B in 5 years).
+- **Anthropic's run-rate now exceeds Salesforce's full FY2025 revenue ($37.9B).** Salesforce was founded in 1999; Anthropic in 2021.
+- **Annualized growth rate at $14B exceeds the annualized rate at $1B** — the curve is bending up rather than decaying as software companies typically do at scale.
+- Acceleration driver: [[claude-code]] ($2.5B run-rate, weekly active users doubled since Jan, enterprise customers spending >$1M/year doubled from 500 → 1,000 in two months — *check size compounding, user count secondary*).
+- Beat the most aggressive August-2025 analyst projection ($30B ARR by Aug 2026) by four months.
+
+This is direct empirical pressure on the thesis: an AI-native frontier-model company crossing Salesforce's revenue line in five years from founding rather than 25+. The infrastructure layer is monetizing faster than the application layer that sits on top of it.
+
+**Important caveat from the comment thread**: token prices have fallen ~90%+ over the past 18 months, so revenue acceleration ≠ value-per-token acceleration. AWS's $0 → $85B trajectory while underpricing compute is the most coherent comparable curve, contra Aakash's claim of "no comparable curve in software history." Still: the structural shape (frontier model API revenue overtaking incumbent SaaS revenue) holds.
+
 ## Tracking Signals
 
 Watch these as the thesis plays out:
@@ -119,3 +133,4 @@ Watch these as the thesis plays out:
 - Mobile usage analytics: are traditional app-open rates declining as agent interfaces grow?
 - Solo / micro-team startup exits: are sub-10-person companies reaching scale outcomes?
 - Apple margin data: does hardware-only margin profile begin to show?
+- Anthropic ARR trajectory through end of 2026: does the curve continue to accelerate or revert to the typical decay pattern at scale?

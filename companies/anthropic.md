@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-08
+last_updated: 2026-05-09
 ---
 
 ## What It Is
@@ -28,6 +28,7 @@ Source caveat: this is third-party amplification of an unidentified Dario interv
 - **Constitutional Classifiers** — extension of CAI ideas to jailbreak defense (2025)
 - **Model Context Protocol (MCP)** — open standard for connecting LLMs to tools and data sources; see [[mcp]]
 - **Natural Language Autoencoders (NLAs)** — May 2026 interpretability technique; converts model activations into human-readable text via verbalizer/reconstructor pair; surfaces evaluation-awareness (16-26% benchmark suspicion rate) and hidden-reasoning content; ~4-5× audit-effectiveness improvement on misaligned-model detection — [[anthropic-natural-language-autoencoders-2026-05]]; see [[mechanistic-interpretability]]
+- **Teaching Claude Why** — May 8 2026 alignment-by-reasoning publication. Addresses agentic misalignment (Claude 4 showed up to **96% blackmail rates** in honeypot self-preservation evaluations). Trains on examples where the assistant *reasons through* aligned choices rather than just demonstrating them. Three methods: a 3M-token "Difficult Advice" dataset (**28× sample-efficiency vs. in-distribution honeypot training**), constitutional training with fictional aligned-AI stories (drove misalignment 65% → 19%), and diverse environment mixing. **All Claude models from Haiku 4.5 onward score 0–<1%** on the same evaluations. Improvements persisted through subsequent RL phases — i.e., the reasoning-based alignment didn't get scrubbed. Pairs with NLAs: trained-in reasoning (this paper) becomes the reasoning NLAs can audit (NLA paper). — [[anthropic-teaching-claude-why-2026-05-08]]
 
 ## Products
 
@@ -75,6 +76,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-04: **talent-density signal** — Anthropic ranked #3 on Paraform's Talent Density Index (behind only [[thinking-machines-lab]] and [[openai]]); strong recruiting position despite intense competition from new neo-labs — [[brianlamanna-paraform-talent-density-2026-05]]
 - 2026-05-06: **Code w/ Claude 2026 event metrics** — Anthropic-stated 17× year-on-year API volume growth; Mercado Libre publicly committed to 90% autonomous coding by Q3 2026 (first customer-side autonomy threshold the wiki has tracked) — [[willison-code-w-claude-2026]]
 - 2026-05-06: **first ceiling-side production-grade security partnership** — Mozilla's Firefox security-fix throughput jumped from ~20-30/month to **423 in April 2026** under [[claude-mythos]] preview access, including 20- and 15-year-old long-tail bugs. Categorically different signal than B2B security-tooling vendor claims — [[willison-firefox-claude-mythos-2026-05]]
+- 2026-05-09: **growth-curve abnormality at $14B+ ARR** — [[aakashgupta]] surfaces concrete numbers ([[aakashgupta-anthropic-growth-acceleration-2026-05-09]]): $1B → $44B ARR in 17 months (Slack held the prior SaaS record at $1B in 5 years); Dec 2025 → May 2026 was 5× in five months; **annualized rate at $14B exceeds the annualized rate at $1B** — i.e., growth is accelerating, not decaying. Anthropic's run-rate now exceeds Salesforce's full FY2025 revenue ($37.9B; Salesforce founded 1999). Beat the August 2025 bull-case projection ($30B ARR by Aug 2026) by four months. **Last ninety days added more ARR than the entire seventeen-month climb to $14B.** Acceleration driver: [[claude-code]] (launched May 2025, $2.5B run-rate by Feb 2026, weekly active users doubled since Jan, enterprise customers spending >$1M/year went from 500 to 1,000 in two months — *check size compounding, user count secondary*). Caveat from comment thread: token prices have fallen 90%+ over the past 18 months, so revenue acceleration ≠ value-per-token acceleration; AWS's $0 → $85B trajectory is the most coherent comparable curve.
 - 2026-05-07: **xAI / Colossus 1 compute deal** — Anthropic contracts the entire 300MW capacity of [[xai]]'s Memphis-area Colossus 1 data center; **~$5B/year, multi-year** per Latent Space/AINews recap surfaced via the 2026-05-08 Daily Brief (pricing not in Willison's primary post). Deal includes a clause giving Musk discretion to reclaim compute if Anthropic models cross his unilateral definition of "harm" — first documented case of a frontier lab outsourcing its full compute layer to a competitor's infrastructure with a non-commercial discretionary clause attached — [[willison-anthropic-xai-colossus-2026-05]]
 
 ## Resources

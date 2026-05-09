@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-05-08
+last_updated: 2026-05-09
 ---
 
 ## Definition
@@ -135,6 +135,43 @@ The metric to watch:
 
 Closing line: *"It is a company that remembers itself."*
 
+## From Systems of Record to Systems of Intelligence (Part 9, May 9 2026)
+
+[[ashwingop-systems-of-record-2026-05-09]] reframes Company Brain in terms of enterprise software's foundational primitive — the **system of record** — and locates the "system of intelligence" framing being floated by Alteryx, Intuit, and other incumbents as **too weak** because it preserves the old center of gravity.
+
+### Records are necessarily lossy
+
+Enterprise software was built around the system-of-record promise — *"tell me what is true"* — but every record is a function-specific projection of reality:
+
+> "A CRM record is not the customer. A ticket is not the project. A support case is not the complaint. A dashboard is not the company. The record was never the reality. It was the version of reality a function could use."
+
+Sales needs accounts / stakeholders / stages / commitments. Support needs severity / impact / resolution. Product needs signals / regressions / blockers / tradeoffs. Finance needs approvals / periods / obligations. Each system of record gave one function a usable ontology — and that **fragmentation followed a real need**, not just vendor sprawl.
+
+### Weak vs. strong "system of intelligence"
+
+- **Weak (Alteryx, Intuit framing)**: an insight layer that sits on top of systems of record, summarizes them, generates updates, fills fields. *"The system of record remains the place where truth is supposed to live, and AI becomes the assistant that updates it."*
+- **Strong (Company Brain)**: maintains a *living, structured representation of company reality* — entities, relationships, commitments, decisions, provenance, contradictions, permissions, outcomes. Multiple ontologies read from that state without splitting the underlying truth.
+
+### Reasoning ≠ State
+
+> "Treating the model as the brain is like treating RAM as permanent storage."
+
+The LLM reasons over context. **The Company Brain holds durable, inspectable, correctable, versioned, permissioned state.** A model trained to generate useful continuations of context cannot simultaneously be the system that serves the right truth to the right person or agent for the role they are playing. *"Reasoning and state should be separated. The LLM does the reasoning. The Company Brain holds the structured state."*
+
+### The Uncomfortable Question for Incumbent SaaS
+
+CRMs, support tools, project management, HR, finance — every system of record is now attaching AI to itself. The honest framing:
+
+> "The uncomfortable question is whether the same record structure is still the right center of gravity when AI can understand the work directly."
+
+- Maybe the CRM field matters less if Company Brain already knows the customer state from calls / emails / support issues / product requests / contract terms / actions
+- Maybe the ticket matters less if Company Brain already knows decision history / owner / dependency / customer consequence
+- Maybe the dashboard matters less if Company Brain can surface the gap between strategy and execution *before the metric moves*
+
+Systems of record do not disappear overnight — they remain sources, transaction logs, compliance artifacts, and places where actions land. But they stop being where intelligence lives.
+
+> "Systems of record captured what people typed into software. Systems of intelligence will understand what the company is actually doing. Company Brain is the bridge, and the new foundation." — [[ashwingop-systems-of-record-2026-05-09]]
+
 ## Infrastructure, Not an App (Part 8 framing, May 2026)
 
 Following Anthropic's Managed Agents launch at Code w/ Claude 2026 ([[willison-code-w-claude-2026]]), [[ashwingop]] sharpened the positioning ([[ashwingop-managed-agents-company-brain-2026-05-08]]):
@@ -235,5 +272,6 @@ The bet underlying [[sentra]] is that the durable position is the integration po
 - [[ashwingop-company-brain-year-lessons-2026-05]] — year-of-design-partners summary essay (May 6, 2026); introduces world-model framing, ontology-as-perspective, and the surfacing/cockpit/pace product principles
 - [[ashwingop-semantics-ontology-2026-05-07]] — Part 7 (May 7, 2026); reads Anthropic Managed Agents memory as directionally right but architecturally incomplete; introduces semantics≠ontology distinction, substrate-vs-lens architectural separation, role-as-stable-ontology argument, and the falsifiable 18-month "decisions-into-action" metric
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Part 8 (May 8, 2026); reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; introduces the App Mistake, AWS Lesson, query-time-vs-maintained-state distinction, and the hard-part-is-state checklist
+- [[ashwingop-systems-of-record-2026-05-09]] — Part 9 (May 9, 2026); reframes Company Brain in terms of the system-of-record primitive; argues "system of intelligence" as currently defined by Alteryx/Intuit is too weak; introduces "model-as-brain is like RAM-as-permanent-storage" and the uncomfortable question for incumbent SaaS
 - [[vccorner-yc-rfs-summer-2026]] — secondary editorial decoding of the YC RFS
 - [Paul Graham — Founder Mode](https://www.paulgraham.com/foundermode.html) — Ashwin extends "founder mode" toward "contact with company truth"

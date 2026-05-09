@@ -70,7 +70,7 @@ Cowork picks a tool in a fixed order:
 
 > **MCP Connector → Chrome Extension → Computer Use**
 
-- **MCP Connector** — fastest, most reliable; **10× faster, 10× fewer tokens** than browser/computer use
+- **MCP Connector** — fastest, most reliable; **10× faster, 10× fewer tokens** than browser/computer use. Aligns with the [[code-mode]] pattern Anthropic shipped Nov 2025 — *"tool definitions belong in code, not in context."*
 - **Chrome Extension** ("Claude in Chrome") — any website or web app
 - **Computer Use** — fallback for native desktop apps; runs on the real desktop, requires active screen, blocked from banking apps / password managers / security software
 

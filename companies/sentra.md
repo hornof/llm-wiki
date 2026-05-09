@@ -2,7 +2,7 @@
 name: Sentra
 type: company
 status: early-stage
-last_updated: 2026-05-08
+last_updated: 2026-05-09
 ---
 
 ## What It Is
@@ -64,7 +64,7 @@ Crisp closing positioning: *"The companies that win will not be the ones with th
 
 ## Traction Signals
 
-- **8-piece longform series** on X (Apr 29 – May 8, 2026) — [[ashwingop-company-brain-part-1]], [[ashwingop-company-brain-part-2]], plus parts 3–5 (interaction memory, action memory, "memory is state, not a service"), the year-lessons summary [[ashwingop-company-brain-year-lessons-2026-05]], the May 7 semantics-and-ontology piece [[ashwingop-semantics-ontology-2026-05-07]], and the May 8 Managed-Agents reading [[ashwingop-managed-agents-company-brain-2026-05-08]]. Substantive, link-rich, with citations to McKinsey, Glean, Granola, Otter, ServiceNow, Walsh & Ungson on organizational memory, and (in Part 8) explicit engagement with [[karpathy-llm-wiki-gist|Karpathy's LLM Wiki gist]] and Garry Tan's GBrain framing.
+- **9-piece longform series** on X (Apr 29 – May 9, 2026) — [[ashwingop-company-brain-part-1]], [[ashwingop-company-brain-part-2]], plus parts 3–5 (interaction memory, action memory, "memory is state, not a service"), the year-lessons summary [[ashwingop-company-brain-year-lessons-2026-05]], the May 7 semantics-and-ontology piece [[ashwingop-semantics-ontology-2026-05-07]], and the May 8 Managed-Agents reading [[ashwingop-managed-agents-company-brain-2026-05-08]]. Substantive, link-rich, with citations to McKinsey, Glean, Granola, Otter, ServiceNow, Walsh & Ungson on organizational memory, and (in Part 8) explicit engagement with [[karpathy-llm-wiki-gist|Karpathy's LLM Wiki gist]] and Garry Tan's GBrain framing.
 - People are pinging Ashwin saying "isn't this what you're building?" after YC's April 2026 RFS named "company brain" — Ashwin claims the product but acknowledges the name is YC's framing. Now confirmed via primary source: **two separate YC partners independently described the same gap in [[yc-summer-2026-rfs]]** — [[tom-blomfield]] under "Company Brain" (§5) and [[diana-hu]] under "The AI Operating System for Companies" (§16). Two-partner overlap inside one RFS is a strong demand-side signal for Sentra's wedge.
 - Independent validation of the underlying problem: McKinsey ([building agentic AI foundations](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/building-the-foundations-for-agentic-ai-at-scale)) argues agentic AI needs stronger data foundations, lineage, access control, governance to scale — Ashwin uses this as supporting evidence.
 
@@ -83,4 +83,5 @@ Crisp closing positioning: *"The companies that win will not be the ones with th
 - [[ashwingop-company-brain-year-lessons-2026-05]] — May 2026 year-of-design-partners summary
 - [[ashwingop-semantics-ontology-2026-05-07]] — Part 7: semantics ≠ ontology; substrate vs. lens; falsifiable 18-month "decisions-into-action" bet
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Part 8: reading Anthropic Managed Agents as the structural signal pointing to Company Brain
+- [[ashwingop-systems-of-record-2026-05-09]] — Part 9: from systems of record to systems of intelligence; "model-as-brain is like RAM-as-permanent-storage"; uncomfortable question for incumbent SaaS
 - Site: https://www.sentra.app/

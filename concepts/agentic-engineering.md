@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-05-07
+last_updated: 2026-05-09
 
 ---
 
@@ -129,6 +129,32 @@ A counter-positioning voice in the May 2026 conversation: most practitioner cont
 The position: reliable agents need **deterministic control flow encoded in software**, not increasingly elaborate prompt chains. The LLM is a *component* of a larger software system, not the system itself. Diagnostic signal — when your prompt has imperatives in caps, you've hit prompting's limit.
 
 Conceptual stake-in-the-ground; no code patterns provided. But the position aligns with Zohar Einy's organizational harness in [[benln-x-karpathy-agentic-engineering-2026-05]] (orchestration / governance / measurement layers around agents) and with Karpathy's spec-first framing (the spec is what enables deterministic structure). See [[control-flow-agents]]. — [[bsuh-agents-need-control-flow-2026-05]]
+
+## Code Mode: The Runtime-Level Expression (Anthropic, Nov 2025 → practitioner reframe May 2026)
+
+[[code-mode]] is the runtime-level expression of "agent reliability through control flow rather than prompt elaboration." Anthropic's published pattern (Nov 4 2025): the agent **writes code** that calls tools through a runtime; tool definitions enter context only on import lines. Resolves the year-long [[mcp]]-vs-CLI debate by making both sides primitives the runtime composes. Concrete numbers ([[akshay-pachaar-mcp-vs-cli-2026-05-09]]):
+
+- Anthropic's published example: Google-Drive-transcript → Salesforce CRM update workflow drops from full schemas to **2K tokens (98.7% reduction)**
+- Cloudflare's 2,500-endpoint API compressed from **1.17M tokens of schemas to 1K tokens** via `search` + `execute` Code Mode primitives
+
+For agentic engineering specifically: this is the production-grade answer to Brian's counter-position above. Control flow lives in the code the agent writes, not in the prompt scaffolding around it.
+
+## Production-Safety Patterns (OpenAI Codex, May 2026)
+
+OpenAI's [[openai-running-codex-safely-2026-05-08]] documents four operational layers for production code-gen agents — generic enough to apply to any production agent stack, including Claude Code skill stacks:
+
+1. **Sandboxing** — isolation between agent execution and host
+2. **Network policies** — egress control, allow-listed targets
+3. **Approval flows** — human-in-the-loop gates for destructive actions
+4. **Agent-native telemetry** — observability shaped for agent execution patterns
+
+Companion to [[cat-wu]]'s "trusting Claude Code on your production databases" framing at Code w/ Claude 2026 — both labs are now publishing production-grade agentic coding posture as a competitive surface, not just a research demo.
+
+## Document-Corruption Failure Mode (May 2026)
+
+[[laban-llms-corrupt-documents-2026-05]] documents the empirical failure mode under long-running delegated workflows: frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) corrupt **~25% of document content** by workflow end on the DELEGATE-52 benchmark. Errors are *sparse but severe* — easy to miss, severe enough to invalidate downstream use. **Agentic tool use does not improve performance** — i.e., adding capability primitives doesn't fix delegation-corruption. Reasoning fidelity is a *separate axis* from capability.
+
+Implication for agentic engineering: tool plumbing (Code Mode), control flow (Brian's framing), and production safety (Codex four layers) are necessary but **not sufficient**. The 25% corruption rate is the failure shape that survives all three. Self-verification patterns (cf. [[claude-cowork]] cheat sheet's "ask Claude to verify its own work" framing) are practitioner-side mitigation; trained-in reasoning ([[anthropic-teaching-claude-why-2026-05-08]]) is the lab-side mitigation.
 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026

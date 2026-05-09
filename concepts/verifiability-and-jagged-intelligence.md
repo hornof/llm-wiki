@@ -2,7 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-05-07
+last_updated: 2026-05-09
 ---
 
 ## Definition
@@ -31,6 +31,8 @@ Models are "jagged entities" — capability peaks dramatically in RL-trained cir
 The "walk to the car wash" failure is not stupidity — it is a domain that was not part of the RL circuits. The model lacks the common-sense grounding that would tell a human "you need a wet car to reach a car wash on foot, that's not the purpose."
 
 The classic earlier example: counting letters in "strawberry." Models have since patched this specific case, but the jaggedness pattern persists in new forms.
+
+**May 2026 empirical datapoint** ([[laban-llms-corrupt-documents-2026-05]]): on the DELEGATE-52 benchmark, frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) corrupt approximately **25% of document content** during long-running delegated workflows. The errors are *sparse but severe* — infrequent enough to evade casual inspection, severe enough to invalidate downstream use. Agentic tool use does not reduce the rate. This is exactly the jagged-failure shape the framework predicts: the models look reliable on benchmarks, then fail in extended-context delegation in non-obvious ways.
 
 ## Implications for Builders
 
