@@ -19,6 +19,7 @@
 - [[claude-financial-services]] — Anthropic's first vertical agent product line (May 2026); 10 templates spanning IB / equity research / accounting / audit / compliance
 - [[microgpt]] — Karpathy's 200-line, zero-dependency Python GPT (Feb 2026); educational artifact distilling the GPT algorithm to its essence
 - [[claude-agent-sdk]] — Anthropic's developer SDK powering both IDE (Claude Code) and Desktop hosts; consolidates the developer surface (announced May 2026)
+- [[claude-cowork]] — Anthropic's autonomous-execution surface for non-coding workflows; tab inside [[claude-desktop]]; MCP→Chrome→Computer Use priority ladder; 38+ built-in connectors; Plugins / Skills / Scheduled Tasks / Dispatch (May 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -127,6 +128,33 @@
 - [[bloomberg-feifei-li-2025]] — primary source for World Labs / spatial-intelligence updates ([[fei-fei-li]], [[world-labs]])
 - [[karpathy-lecun1989-33-years]] — Karpathy's 2022 essay; states the [[software-3-0]] thesis 4 years before naming it; "10,000,000X-sized neural net megabrain" projection
 
+### Foundational source batch (April 2026)
+Sources ingested during the initial wiki build. All reachable via wikilinks from entity pages; surfaced here so the catalog is complete.
+
+- [[anthropic-constitutional-ai-research]] — Anthropic's Constitutional AI research page (Dec 2022); foundational reference for [[constitutional-ai]]
+- [[anthropic-claudes-constitution]] — Claude's model spec / constitution (CC0); priority ordering and behavioral guidelines
+- [[reddit-llm-wiki-weekend-build]] — first-hand build experience of the LLM Wiki Pattern (74 upvotes, r/AI_Agents)
+- [[wikipedia-fei-fei-li]] — Wikipedia profile; biographical baseline for [[fei-fei-li]]
+- [[wikipedia-andrew-ng]] — Wikipedia profile; biographical baseline for [[andrew-ng]]
+- [[wikipedia-yann-lecun]] — Wikipedia profile; biographical baseline for [[yann-lecun]]
+- [[thread-milkroadai-hassabis-agi]] — Twitter thread amplifying Hassabis on AGI by 2030
+- [[thread-aakashgupta-1b-model]] — Twitter thread on the 1B-clean-vs-1.8T-noisy framing for [[training-data-quality]]
+- [[thread-minchoi-gpt-image-2]] — Twitter thread covering [[gpt-image-2]] release
+- [[thread-phosphenq-karpathy-video]] — Twitter thread reacting to a Karpathy video
+- [[thread-phosphenq-lecun-lecture]] — Twitter thread on a circulating LeCun lecture (April 2026)
+- [[thread-zan2434-flipbook]] — Twitter thread; primary surfacing of [[model-rendered-ui]] via the Flipbook prototype
+- [[github-hornof-profile]] — owner's GitHub profile snapshot; surfaced [[crewai]], [[ollama]], [[langchain]], [[llama-index]]
+- [[linkedin-luke-hornof-2026]] — owner's LinkedIn export; career table baseline for [[owner/profile]]
+- [[cognitive-revolution-luma-worldsim]] — Cognitive Revolution podcast episode with [[amit-jain]]; Luma worldsim framing
+- [[techcrunch-luma-uni1]] — TechCrunch coverage of [[luma-ai]]'s Uni-1 model launch (March 2026)
+- [[amplify-amit-jain-interview]] — Amplify interview; Amit Jain on joint training and Kardashev framing
+- [[feifei-substack-spatial-intelligence]] — Fei-Fei Li Substack post; primary source for [[spatial-intelligence]]
+- [[reddit-3-things-claude-output-quality]] — r/claude practitioner thread; harnesses, MCP context-mode tips
+- [[datachaz-google-design-md]] — X post surfacing Google's open-sourced DESIGN.md spec ([[stitch]])
+- [[post-aakashgupta-jensen-huang-management]] — X post on Jensen Huang's management style at Nvidia
+- [[zodchiii-anatomy-perfect-skill]] — X post; reverse-engineered "anatomy of a perfect skill" from 100 examples
+- [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
+
 ### Recent ingests
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy on Software 3.0, vibe coding, agentic engineering, jagged intelligence (April 2026)
@@ -183,6 +211,9 @@
 - [[mcmahon-1000x-energy-efficiency-2026-05]] — Unconventional AI's primary technical thesis: data movement, not arithmetic, is the binding constraint; Amdahl's-Law-in-energy forces full-stack co-design (May 7 2026)
 - [[nrao-linkedin-1000x-2026-05]] — Naveen Rao LinkedIn amplification; "building in the open"; substantive practitioner comment thread on coordination physics and heterogeneous-fleet orchestration (May 8 2026)
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Ashwin Gopalan reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; engages directly with [[karpathy-llm-wiki-gist]] and Garry Tan's GBrain framing as "directionally right" but bounded by the single-owner regime (May 8 2026)
+- [[ashwingop-semantics-ontology-2026-05-07]] — Sentra Part 7: semantics ≠ ontology; substrate-vs-lens architectural separation; roles give organizational memory more stable ontologies than individuals; falsifiable 18-month "decisions-into-action" bet (May 7 2026)
+- [[claude-cowork-cheatsheet-2026-05-07]] — practitioner cheat sheet for Claude Cowork; full feature surface including MCP→Chrome→Computer Use priority ladder, 38+ named connectors, Plugins, Skills, Scheduled Tasks, Dispatch, Projects, plan-availability matrix (May 7 2026)
+- [[realbigbrainai-dario-b2b-vs-consumer-2026-05-07]] — third-party amplification of Dario Amodei framing Anthropic's B2B-first positioning as a structural choice (avoid engagement-maximization incentives) rather than a moral one (May 7 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
