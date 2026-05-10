@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 ---
 
 ## What It Is
@@ -29,12 +29,13 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - **2026-05-06 — Code w/ Claude 2026 product expansion**: six new feature surfaces announced inside Claude Code — **Code Review** (cross-team automated review), **Remote Agents** (control laptop sessions from a phone), **CI Auto-fix** (automatic PR fixes), **Security Reviews** (automated security review primitive in-CLI), **Claude Code Routines** (higher-order async automation prompts that can generate PRs), and a **Claude Code Desktop App** (full-screen IDE GUI with rich outputs — distinct from [[claude-desktop]] which is the chat/MCP host). Pro/Max/Enterprise rate limits doubled. Cat Wu (Head of Product, Claude Code): "Thank you for trusting Claude Code on your production databases" — explicit production-grade positioning. — [[willison-code-w-claude-2026]], [[cat-wu]]
 - **2026-05-06 — SDK consolidation**: the **Claude Agent SDK** ([[claude-agent-sdk]]) is now the formal SDK powering both IDE (Claude Code) and Desktop hosts — Claude Code is one consumer of the Agent SDK, not a standalone harness. Repositions Claude Code architecturally as a *product* on top of a sanctioned SDK rather than a one-off CLI
 - **2026-05-09 — explicit revenue-acceleration driver**: [[aakashgupta]] surfaces Anthropic's growth numbers ([[aakashgupta-anthropic-growth-acceleration-2026-05-09]]) and attributes the curve specifically to Claude Code: *"$2.5B in run-rate revenue by February 2026. Weekly active users doubled since January. Enterprise customers spending over $1M per year went from 500 to 1,000 in two months. That's where the curve comes from. The check size is compounding. The user count is secondary."* Claude Code is the named product driving Anthropic's run-rate past Salesforce.
+- **2026-05-10 — CLAUDE.md template ecosystem maturation**: [[forrest-chang]]'s 4-rule CLAUDE.md template (`andrej-karpathy-skills`) reaches **~120K stars** — described as the fastest-growing single-file GitHub repo of 2026 — and @Mnilax publishes a 12-rule expansion ([[mnilax-claude-md-12-rules-2026-05-09]]) tested across 30 codebases over 6 weeks, claiming a drop from 41% mistake rate (no CLAUDE.md) → 11% (4 rules) → 3% (12 rules). The CLAUDE.md *pattern* (see [[claude-md-pattern]]) is now community-canonical practice — Claude Code's project-configuration discipline has converged on a small, imperative, behavioral-contract format rather than exhaustive style guides.
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
 
 ## Key Concepts
-- **CLAUDE.md**: configuration file in a project directory that gives Claude persistent context and instructions — equivalent to a system prompt for a codebase
+- **CLAUDE.md**: configuration file in a project directory that gives Claude persistent context and instructions — equivalent to a system prompt for a codebase. Per Anthropic docs (cited in [[mnilax-claude-md-12-rules-2026-05-09]]): **advisory — followed ~80% of the time; compliance drops sharply past ~200 lines** as rules get buried. See [[claude-md-pattern]] for the practitioner-evolved discipline of treating it as a behavioral contract rather than a config dump.
 - **Tool use**: Claude Code can read/write files, run shell commands, search the web, and call MCP servers
 - **Hooks**: shell commands that run automatically on events (e.g., after each response)
 - **Harnesses**: the internal prompting/settings layer baked into IDE integrations (Claude Code, Cursor, Windsurf, Copilot); distinct from orchestration frameworks like LangChain or CrewAI
