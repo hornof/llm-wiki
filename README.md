@@ -43,13 +43,18 @@ CLAUDE.md      # Schema — entity page templates, workflows, conventions
 
 ## Current Contents
 
-**Tools** · claude-code · crewai · langchain · llama-index · mem0 · obsidian · obsidian-dataview · ollama · stitch
+As of May 2026: **19 tools** · **34 people** · **22 concepts** · **25 companies** · **3 models** · **4 topics** · **2 tutorials** · **97 sources**.
 
-**People** · Andrej Karpathy · Andrew Ng · Demis Hassabis · Fei-Fei Li · Yann LeCun · OrewaDeveloper
+See [`index.md`](index.md) for the full catalog.
 
-**Concepts** · LLM Wiki Pattern · RAG · AGI · MCP · Spatial Intelligence · World Models · Agentic AI
+A few load-bearing pages a new reader might start with:
 
-**Companies** · Google DeepMind · OpenAI · AMI Labs
+- [`tools/claude-code.md`](tools/claude-code.md), [`tools/claude-cowork.md`](tools/claude-cowork.md), [`tools/claude-agent-sdk.md`](tools/claude-agent-sdk.md) — Anthropic's three primary developer surfaces
+- [`concepts/llm-wiki-pattern.md`](concepts/llm-wiki-pattern.md) — the pattern this wiki runs on, with its organizational-scale boundary
+- [`concepts/code-mode.md`](concepts/code-mode.md) — Anthropic's runtime pattern that resolves the MCP-vs-CLI debate
+- [`concepts/company-brain.md`](concepts/company-brain.md) — multi-source synthesis of the organizational-memory thesis (Sentra Parts 1–9, YC RFS, Block, McKinsey)
+- [`topics/saas-disruption-thesis.md`](topics/saas-disruption-thesis.md) — Naval's "pure software is uninvestable" framing with empirical support tracking
+- [`concepts/agentic-engineering.md`](concepts/agentic-engineering.md) — Karpathy's quality-preserving counterpart to vibe coding
 
 ---
 
