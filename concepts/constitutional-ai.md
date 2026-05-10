@@ -2,7 +2,7 @@
 name: Constitutional AI
 type: concept
 maturity: foundational
-last_updated: 2026-04-24
+last_updated: 2026-05-09
 ---
 
 ## Definition
@@ -53,10 +53,23 @@ CAI (2022) → model spec / "Claude's Constitution" (public, 2024) → Constitut
 
 The model spec is now a living document Anthropic explicitly calls a "perpetual work in progress."
 
+## Evolution: Teaching Claude Why (May 2026)
+
+[[anthropic-teaching-claude-why-2026-05-08]] documents an evolution of the constitutional-training methodology: training on examples where the assistant *reasons through* the aligned choice, not just demonstrates the aligned action. Three sub-methods extending the 2022 CAI base:
+
+- **Difficult Advice dataset** — 3M tokens, highly out-of-distribution scenarios where the assistant provides principled guidance with reasoning shown. **28× more sample-efficient** than in-distribution honeypot training; generalizes better.
+- **Constitutional-document training plus fictional aligned-AI stories** — drove honeypot misalignment from **65% → 19%**.
+- **Diverse environment mixing** — varied system prompts and tool definitions inside safety training so the alignment signal isn't tied to one environment shape.
+
+Result: all Claude models from **Haiku 4.5 onward score 0–<1%** on honeypot self-preservation evaluations (vs. up to 96% for Claude 4). **Improvements persisted through subsequent RL phases** — i.e., reasoning-based alignment didn't get scrubbed by next-stage training, which is the typical failure mode for alignment interventions.
+
+Pairs with [[anthropic-natural-language-autoencoders-2026-05]]: Teaching Claude Why trains reasoning *in*; NLAs read it *out* for audit. Two halves of "make model reasoning explicit and inspectable."
+
 ## Key Papers / Posts
 
 - [[anthropic-constitutional-ai-research]] — original research page (Dec 2022); arXiv 2212.08073
 - [[anthropic-claudes-constitution]] — the actual constitution document (CC0, public)
+- [[anthropic-teaching-claude-why-2026-05-08]] — alignment-by-reasoning evolution of the CAI methodology (May 2026)
 
 ## Related Concepts
 
