@@ -2,8 +2,8 @@
 name: Playwright MCP
 type: tool
 category: api
-status: emerging
-last_updated: 2026-05-01
+status: gaining-traction
+last_updated: 2026-05-09
 ---
 
 ## What It Is
@@ -21,9 +21,10 @@ The official package is published by Microsoft at [`@playwright/mcp`](https://gi
 - **Cross-host validation**: Playwright MCP now sees independent practitioner use from both [[claude-code]] (career-ops, LinkedIn stack) and [[claude-desktop]] (seelffff). Cross-host adoption is a stronger signal than within a single host.
 - All three practitioners describe Playwright MCP as a default, not a debated choice. The **MCP-server-for-browser-automation niche has consolidated around this single implementation** rather than fragmenting across Selenium/Puppeteer wrappers.
 - Microsoft maintenance + Playwright's existing TypeScript-first developer story make it the path-of-least-resistance MCP for any agent that needs a real browser.
+- **May 2026 — concrete token-cost data point**: [[akshay-pachaar-mcp-vs-cli-2026-05-09]] reports Playwright MCP's full schema load is **13.7K tokens** — the primary practitioner data point for why "load every tool upfront" was always expensive, and why Anthropic's [[code-mode]] pattern hides it behind on-demand imports. First time the load cost has been published as a concrete number. — [[akshay-pachaar-mcp-vs-cli-2026-05-09]]
 
-> [!note] Status review
-> With three independent practitioner uses across two MCP hosts, this tool is on the boundary between `emerging` and `gaining-traction`. Holding at `emerging` for now pending first-hand wiki-owner use; promote on the next ingest if a fourth signal lands or owner builds a workflow.
+> [!note] Status upgrade (May 2026)
+> Promoted from `emerging` to `gaining-traction` after the fourth independent signal landed (akshay-pachaar token-cost data, joining career-ops, LinkedIn stack, and seelffff). Cross-host adoption (Claude Code + Claude Desktop) plus first-party Anthropic-published Code-Mode framing referencing the Playwright MCP cost crosses the threshold.
 
 ## How to Use It
 
@@ -46,8 +47,7 @@ For a starting point, Microsoft's repo at https://github.com/microsoft/playwrigh
 
 ## Caveats
 
-- **First-party MCP, but practitioner workflows are early.** Both April 2026 references are from individual practitioners, not enterprise deployments. Status: `emerging`, not yet `gaining-traction`.
-- **No first-hand experience documented in this wiki.** Promote to `gaining-traction` after the wiki owner builds a workflow using it, or after a third independent traction signal arrives.
+- **No first-hand experience documented in this wiki yet.** Status promoted to `gaining-traction` based on independent practitioner signals + Anthropic-published token-cost data, not first-hand owner use. Validate before relying in owner-built workflows.
 
 ## Resources
 

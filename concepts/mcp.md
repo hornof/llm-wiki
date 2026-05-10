@@ -2,7 +2,7 @@
 name: Model Context Protocol (MCP)
 type: concept
 maturity: active-research
-last_updated: 2026-05-06
+last_updated: 2026-05-09
 ---
 
 ## Definition
