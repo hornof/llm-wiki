@@ -49,6 +49,8 @@
 - [[control-flow-agents]] — counter-position: agents need deterministic control flow in code, not more elaborate prompts (May 2026)
 - [[ai-energy-efficiency]] — Joules-per-token framing; data-movement-dominates-arithmetic; Amdahl's-Law-in-energy; the 1000× target as a memory problem (May 2026)
 - [[code-mode]] — runtime pattern where the agent writes code that calls tools through a runtime; tool definitions enter context only on import lines; resolves the MCP-vs-CLI debate by making both sides primitives the runtime composes (Anthropic Nov 2025)
+- [[claude-md-pattern]] — CLAUDE.md as a behavioral contract, not a config dump; community-evolved discipline (Karpathy → Forrest Chang's 4 → Mnilax's 12 rules); 200-line ceiling for compliance (May 2026)
+- [[llmorphism]] — Capraro's coined bias: attributing LLM-like cognition to humans; the inverse of anthropomorphism; sociological/conceptual paper (May 2026)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -85,6 +87,7 @@
 - [[peter-mcmahon]] — Research Fellow at Unconventional AI; primary author of the 1000× memory-bottleneck essay (May 2026)
 - [[akshay-pachaar]] — independent AI/ML educator; primary practitioner reframer of the MCP-vs-CLI debate around Anthropic's Code Mode pattern (May 2026)
 - [[jeff-kaufman]] — independent programmer/blogger at jefftk.com; "AI is breaking two vulnerability cultures" essay surfaces the structural collision between AI-assisted commit-stream analysis and disclosure norms (May 2026)
+- [[forrest-chang]] — independent practitioner; author of the original 4-rule CLAUDE.md template (`andrej-karpathy-skills`, ~120K stars by May 2026); the floor of community CLAUDE.md practice
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -226,6 +229,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[openai-running-codex-safely-2026-05-08]] — OpenAI Codex production-safety post; four-layer operational pattern (sandboxing / network policies / approval flows / agent-native telemetry) (May 8 2026; primary not fetched)
 - [[jefftk-vulnerability-cultures-2026-05-08]] — Jeff Kaufman essay; AI is breaking both Coordinated Disclosure and "Bugs are Bugs" norms simultaneously; Copy Fail vulnerability had a second independent report nine hours after disclosure (May 8 2026)
 - [[laban-llms-corrupt-documents-2026-05]] — arXiv preprint by Laban / Schnabel / Neville; frontier LLMs corrupt ~25% of document content during long delegated workflows on the DELEGATE-52 benchmark; agentic tool use does not improve performance (May 2026)
+- [[anthropic-opus-4-7-launch-2026-04-16]] — Anthropic's official Opus 4.7 launch (GA April 16 2026); 3× Rakuten-SWE-Bench, 70% vs. 58% on CursorBench, 21% fewer document-reasoning errors; new `xhigh` effort level, public-beta task budgets, `/ultrareview` slash command
+- [[anthropic-claude-space-to-think-2026-05]] — Anthropic's formal commitment that Claude will not be ad-supported; structural-difference argument vs. search; same week as OpenAI's free-tier ad experiment (May 2026)
+- [[mnilax-claude-md-12-rules-2026-05-09]] — practitioner expansion of Forrest Chang's 4-rule CLAUDE.md template to 12 rules; mistake-rate drop 41% → 11% → 3% across 30 codebases / 6 weeks; CLAUDE.md as behavioral contract (May 9 2026)
+- [[capraro-llmorphism-2026-05]] — Valerio Capraro arXiv preprint coining LLMorphism; sociological framing of the inverse-anthropomorphism risk (May 6 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

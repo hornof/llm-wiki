@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 ---
 
 ## What It Is
@@ -21,6 +21,23 @@ Practical consequence: Anthropic's revenue grows when the product gets *better*,
 
 Source caveat: this is third-party amplification of an unidentified Dario interview/talk; quotes are consistent with Anthropic's public posture but verify against a primary recording before external citation.
 
+### "Claude is a space to think" — formal ad-free commitment (May 2026)
+
+Anthropic's May 2026 post [[anthropic-claude-space-to-think-2026-05]] is the *consumer-facing* counterpart to the B2B-over-consumer framing — a formal rejection of ad-supported monetization for Claude:
+
+> "Users shouldn't have to second-guess whether an AI is genuinely helping them or subtly steering the conversation towards something monetizable."
+
+The structural-difference argument: conversations with AI assistants are *categorically* different from search queries because users share open-ended, sensitive context, and an ad-incentivized assistant would steer that context toward monetizable outcomes. Search has a "sidebar" the user can discount; chat does not.
+
+Funding alternatives Anthropic names for free / lower-cost access (i.e., how it plans to expand consumer reach *without* ads):
+- Educational partnerships in **60+ countries**
+- National AI-education pilots with governments
+- Discounted access for nonprofits
+- Investment in **smaller models** for free offerings
+- Potential **lower-cost subscription tiers** and **regional pricing**
+
+This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]], in which OpenAI began testing ads on ChatGPT's free tier. The juxtaposition is the cleanest paired-public-divergence between the two labs on consumer monetization to date — see [[openai]] for the inverse framing.
+
 ## Key Research Contributions
 
 - **Constitutional AI (CAI)** — training methodology replacing human harmlessness labels with AI-generated feedback (RLAIF); December 2022; see [[constitutional-ai]]
@@ -33,7 +50,7 @@ Source caveat: this is third-party amplification of an unidentified Dario interv
 ## Products
 
 - **Claude** — frontier AI assistant (Opus, Sonnet, Haiku tiers, plus the **Mythos** preview line announced May 2026)
-- **Claude Opus 4.7** (announced 2026-05-06 at Code w/ Claude 2026) — current Opus generation; ships with [[claude-design]] visual capability built in — [[claude-opus-4-7]], [[willison-code-w-claude-2026]]
+- **Claude Opus 4.7** (GA 2026-04-16; foregrounded at Code w/ Claude 2026 on 2026-05-06) — current Opus generation; same pricing as Opus 4.6 ($5/$25 per M tokens) with 3× production tasks on Rakuten-SWE-Bench, 70% vs. 58% on CursorBench, 21% fewer document-reasoning errors. Ships with [[claude-design]] visual capability built in, plus three new developer-facing primitives: `xhigh` effort level, **task budgets** (public beta), and the **`/ultrareview`** slash command — [[claude-opus-4-7]], [[anthropic-opus-4-7-launch-2026-04-16]], [[willison-code-w-claude-2026]]
 - **Claude Mythos** (preview, surfaced 2026-05) — preview-access model used in Mozilla's Firefox security partnership and Anthropic's Natural Language Autoencoders research; not yet GA. Naming breaks the Opus/Sonnet/Haiku scheme; positioning vs. Opus tier not yet clarified — [[claude-mythos]], [[willison-firefox-claude-mythos-2026-05]]
 - **Claude Code** — agentic coding CLI; see [[claude-code]]
 - **Claude Agent SDK** (announced 2026-05-06) — developer-accessible SDK powering both IDE and Desktop hosts; consolidates the developer surface previously split across product-specific harnesses — [[claude-agent-sdk]]
