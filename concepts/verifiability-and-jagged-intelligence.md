@@ -2,7 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-05-09
+last_updated: 2026-05-11
 ---
 
 ## Definition
@@ -33,6 +33,8 @@ The "walk to the car wash" failure is not stupidity — it is a domain that was 
 The classic earlier example: counting letters in "strawberry." Models have since patched this specific case, but the jaggedness pattern persists in new forms.
 
 **May 2026 empirical datapoint** ([[laban-llms-corrupt-documents-2026-05]]): on the DELEGATE-52 benchmark, frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) corrupt approximately **25% of document content** during long-running delegated workflows. The errors are *sparse but severe* — infrequent enough to evade casual inspection, severe enough to invalidate downstream use. Agentic tool use does not reduce the rate. This is exactly the jagged-failure shape the framework predicts: the models look reliable on benchmarks, then fail in extended-context delegation in non-obvious ways.
+
+**May 10 2026 — journalism-domain manifestation** ([[willison-nyt-ai-misquote-2026-05]]): The *New York Times* published an AI-generated **summary** of Pierre Poilievre's views as if it were a **direct quotation**; the editor's note retracts the misattribution after publication. Same shape as DELEGATE-52: output looks correct enough to pass casual review, fails on adversarial fact-checking, and the harm vector is downstream trust in *the publisher*, not in the model. A workflow-gap incident, not a model defect — both the reporter and the editor missed it. Useful illustration that the verifiability/jaggedness phenomenon has now leaked into flagship-newsroom workflows.
 
 ## Implications for Builders
 
@@ -72,3 +74,6 @@ Practitioner pressure is also pushing on the *auditability* axis: the demand to 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: AI Ascent 2026; Karpathy elaborates verifiability thesis, jagged intelligence, ghosts vs. animals, chess data example
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic's Natural Language Autoencoders; candidate auditability primitive (May 2026)
+- [[laban-llms-corrupt-documents-2026-05]] — DELEGATE-52 benchmark; ~25% document-corruption rate in long-running delegated workflows (May 2026)
+- [[willison-nyt-ai-misquote-2026-05]] — NYT publishes AI summary as direct quotation; journalism-domain illustration of the jaggedness/verifiability gap (May 10 2026)
+- [[dailybrief-research-roundup-2026-05-11]] — PND (Breaking the Illusion) paper: training-free decoding correction for VLM hallucination; inference-time correction surface for the multimodal jaggedness pattern

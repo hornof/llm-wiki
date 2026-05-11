@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-10
+last_updated: 2026-05-11
 ---
 
 ## What It Is
@@ -45,6 +45,7 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
 - **Format locking**: Enforce an exact response schema in the system prompt (e.g., "1 sentence, max 3 bullets, 1 next action") — Claude follows format constraints more reliably than other models per community reports
 - **Context clearing**: Use `/clear` between distinct tasks; fresh context reduces hallucinations and token burn
 - **Model tiering**: Drop to Haiku for simple formatting/parsing; reserve Sonnet/Opus for complex reasoning
+- **HTML over Markdown for rendered outputs** ([[thariq-shihipar]], Anthropic Claude Code team, May 8 2026): when the consumer is a browser, IDE preview, or Claude.ai renderer, ask Claude Code to return **HTML, not Markdown**. Markdown's flat-text ceiling caps output quality; HTML hits the actual rendering substrate. Concrete examples: sortable tables, collapsible trees, live calculators. Prompt-level swap, no tooling change required. Amplified by [[simon-willison]] — [[willison-html-effectiveness-2026-05]]
 
 ## Skill Writing (slash commands)
 Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. Six patterns that separate working skills from ones that never fire — [[zodchiii-anatomy-perfect-skill]]:
@@ -85,3 +86,5 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[willison-code-w-claude-2026]] — Code w/ Claude 2026 live-blog; full feature inventory of the May 2026 Claude Code expansion
 - [[claude-agent-sdk]] — sanctioned SDK powering Claude Code; architectural sibling
 - [[claude-opus-4-7]] — current Opus generation; default model in Claude Code as of May 2026
+- [[willison-html-effectiveness-2026-05]] — Thariq Shihipar's "Unreasonable Effectiveness of HTML" via Willison; concrete examples and prompt pattern (May 2026)
+- [[thariq-shihipar]] — author; Claude Code team at Anthropic

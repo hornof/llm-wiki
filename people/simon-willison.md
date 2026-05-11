@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-05-07
+last_updated: 2026-05-11
 ---
 
 ## Who They Are
@@ -22,6 +22,9 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **Anthropic / xAI Colossus reaction (May 7 2026)**: deal is reputationally costly even if commercially necessary; flags the supply-chain risk of Musk's clause to "reclaim the compute" if Anthropic models cross his unilateral definition of "harm" — [[willison-anthropic-xai-colossus-2026-05]]
 - **AI bug reports cross the slop/signal threshold (May 7 2026)**: documents the inversion of his prior skepticism after Mozilla shipped 423 Firefox security fixes in April 2026 using [[claude-mythos]] preview — "Suddenly, the bugs are very good" (Mozilla's framing, captured by Willison) — [[willison-firefox-claude-mythos-2026-05]]
 - **Consent-ethics critique of autonomous-business experiments (May 5 2026)**: experiments imposing burdens on non-consenting third parties (police, suppliers, regulators) are unethical regardless of research value; calls for "human oversight on every outbound action with external impact" — [[willison-andon-cafe-stockholm-2026-05]]
+- **HTML beats Markdown for rendered Claude output (May 8 2026, amplification)**: surfaces [[thariq-shihipar]]'s "Unreasonable Effectiveness of HTML" thesis — ask [[claude-code]] for HTML, not Markdown, whenever the consumer is a browser, IDE preview, or Claude.ai renderer; near-zero-cost prompt-level upgrade — [[willison-html-effectiveness-2026-05]]
+- **NYT misquotes an AI summary as a direct Poilievre quote (May 10 2026)**: flags the editor's note as a failure mode where AI summarization output is treated as *source material* rather than a derived artifact requiring verification. Workflow-gap framing — reporter and editor both failed; not a model defect — [[willison-nyt-ai-misquote-2026-05]]
+- **River as agent-governance-by-transparency (May 11 2026)**: amplifies [[tobi-lutke]]'s description of [[shopify]]'s internal coding agent [[river]] — *refuses DMs, forces all work into public channels*. First widely-discussed example of agent-as-shared-channel-participant rather than agent-as-personal-tool — [[willison-shopify-river-2026-05]]
 
 ## Where to Follow
 - Blog: simonwillison.net
