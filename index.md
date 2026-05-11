@@ -20,6 +20,7 @@
 - [[microgpt]] — Karpathy's 200-line, zero-dependency Python GPT (Feb 2026); educational artifact distilling the GPT algorithm to its essence
 - [[claude-agent-sdk]] — Anthropic's developer SDK powering both IDE (Claude Code) and Desktop hosts; consolidates the developer surface (announced May 2026)
 - [[claude-cowork]] — Anthropic's autonomous-execution surface for non-coding workflows; tab inside [[claude-desktop]]; MCP→Chrome→Computer Use priority ladder; 38+ built-in connectors; Plugins / Skills / Scheduled Tasks / Dispatch (May 2026)
+- [[river]] — [[shopify]]'s internal AI coding agent; **refuses DMs, forces all work into public Slack channels**; first widely-discussed agent-as-shared-channel-participant deployment (May 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -88,6 +89,8 @@
 - [[akshay-pachaar]] — independent AI/ML educator; primary practitioner reframer of the MCP-vs-CLI debate around Anthropic's Code Mode pattern (May 2026)
 - [[jeff-kaufman]] — independent programmer/blogger at jefftk.com; "AI is breaking two vulnerability cultures" essay surfaces the structural collision between AI-assisted commit-stream analysis and disclosure norms (May 2026)
 - [[forrest-chang]] — independent practitioner; author of the original 4-rule CLAUDE.md template (`andrej-karpathy-skills`, ~120K stars by May 2026); the floor of community CLAUDE.md practice
+- [[tobi-lutke]] — Shopify CEO; AI-first operating-model evangelist; architect of the no-DMs design choice for [[river]] (May 2026)
+- [[thariq-shihipar]] — Anthropic Claude Code team; "Unreasonable Effectiveness of HTML" prompting pattern (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -115,6 +118,7 @@
 - [[mozilla]] — Firefox / Thunderbird; preview-access partner using Claude Mythos to drive 20× monthly Firefox security-fix throughput (May 2026)
 - [[andon-labs]] — autonomous-business research outfit; SF retail store + Stockholm cafe experiments running real commercial operations under AI control
 - [[unconventional-ai]] — early-stage AI hardware-software co-design company; pursuing 1000× energy efficiency for GenAI inference; founded by Naveen Rao (May 2026)
+- [[shopify]] — Canadian commerce platform; AI-first operating model under [[tobi-lutke]]; operator of [[river]] internal coding agent (May 2026)
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
@@ -233,6 +237,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[anthropic-claude-space-to-think-2026-05]] — Anthropic's formal commitment that Claude will not be ad-supported; structural-difference argument vs. search; same week as OpenAI's free-tier ad experiment (May 2026)
 - [[mnilax-claude-md-12-rules-2026-05-09]] — practitioner expansion of Forrest Chang's 4-rule CLAUDE.md template to 12 rules; mistake-rate drop 41% → 11% → 3% across 30 codebases / 6 weeks; CLAUDE.md as behavioral contract (May 9 2026)
 - [[capraro-llmorphism-2026-05]] — Valerio Capraro arXiv preprint coining LLMorphism; sociological framing of the inverse-anthropomorphism risk (May 6 2026)
+- [[willison-nyt-ai-misquote-2026-05]] — NYT publishes AI-generated summary of Poilievre as a direct quote; editor's note retracts after publication; journalism-domain illustration of [[verifiability-and-jagged-intelligence]] (May 10 2026)
+- [[willison-shopify-river-2026-05]] — Tobi Lütke describes Shopify's [[river]]: no DMs, all work in public Slack channels; first widely-discussed agent-as-shared-channel-participant deployment (May 11 2026)
+- [[willison-html-effectiveness-2026-05]] — Thariq Shihipar (Anthropic): "Unreasonable Effectiveness of HTML"; HTML beats Markdown for any rendered Claude output; prompt-level swap (May 8 2026)
+- [[dailybrief-research-roundup-2026-05-11]] — arXiv research aggregator: RateQuant + LKV (head-wise KV cache budgeting wave), PND (training-free VLM hallucination correction), Toeplitz MLP Mixer (subquadratic architecture), flow-matching strain/vorticity theory, discrete diffusion for antibodies, WGAN for climate-insurance scenarios (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
