@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-05-09
+last_updated: 2026-05-12
 ---
 
 ## Definition
@@ -253,6 +253,10 @@ From [[ashwingop-company-brain-part-1]]:
 | Agent platforms (Dust) | "find things" → "do work" |
 
 The bet underlying [[sentra]] is that the durable position is the integration point — Company Brain as the substrate the four wedges all need but none own.
+
+## In the Wild
+
+- **DoorDash (May 2026)**: A new engineer recovered the context behind a three-month-old PM decision via AI rather than pinging the PM directly. Independent practitioner signal from [[aakashgupta]]; confirms the "surfacing" and "latency collapse" principles operating at the team level — decision context that would previously require a human interrupt is now retrievable on demand. — [[aakashgupta-doordash-company-brain-2026-05-10]]
 
 ## Related Concepts
 
