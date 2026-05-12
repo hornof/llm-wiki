@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-12
 ---
 
 ## What It Is
@@ -98,6 +98,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-11: **agent view ships in Claude Code as Research Preview** — first product-level user-facing surface for managing many concurrent Claude Code sessions; TUI multi-session manager available on Pro / Max / Team / Enterprise / API. Strong signal that the high-leverage user runs *many* parallel agents and that Anthropic chose the terminal (not the GUI) as the orchestration surface — [[anthropic-agent-view-claude-code-2026-05-11]]
 - 2026-05-11: **Claude Evangelist role posted, up to $315K base** — Anthropic recruiting a public-facing technical evangelist for the startup ecosystem (hybrid technical + public-speaking skill profile required). Cultural signal that human-voice / in-person ecosystem-evangelism is being staffed up alongside the product surface. Practitioner reception is mixed (compensation framed by some as low for the role's strategic weight; trades-and-operator markets called out as a missing diffusion-path equivalent) — [[andruyeung-claude-evangelist-role-2026-05-11]]
 - 2026-05-11: **Claude Cookbook surfaced at scale** — 81 practical guides across 15 categories on platform.claude.com; named primitives include Programmatic Tool Calling, Tool Search with Embeddings, and Automatic Context Compaction. Confirms [[code-mode]] / search+execute patterns as official Anthropic guidance, not just blog-post or practitioner reframing — [[anthropic-claude-cookbook-2026-05]]
+- 2026-05-12: **Claude Platform on AWS announced** — distribution / infrastructure partnership packaging the Claude platform on AWS. Primary not yet fetched; specifics pending. Strategically significant alongside the May 7 xAI Colossus training-compute deal — Anthropic is treating training and inference/distribution as separately optimizable surfaces with different vendor sets — [[anthropic-claude-platform-aws-2026-05]]
 
 ## Resources
 
@@ -120,3 +121,4 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[anthropic-claude-cookbook-2026-05]] — official Anthropic cookbook (81 guides / 15 categories) surfaced via @bibryam May 11 2026
 - [[andruyeung-claude-evangelist-role-2026-05-11]] — Claude Evangelist role surfacing; up to $315K base; technical + public-speaking hybrid profile (May 11 2026)
 - [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy on HTML as the new default LLM output format (relevant to Claude Code output-format prompting)
+- [[anthropic-claude-platform-aws-2026-05]] — Claude Platform on AWS distribution / infrastructure partnership (May 2026; primary not yet fetched)

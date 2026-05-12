@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-11
+last_updated: 2026-05-12
 ---
 
 
@@ -67,6 +67,7 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 
 ## Community Sentiment
 - April 2026: r/claude practitioners confirm structured output format enforcement as a genuine quality improvement; CLI displacing browser for agentic workflows — [[reddit-3-things-claude-output-quality]]
+- **May 11 2026 — maintenance-cost ROI counter-take**: James Shore (via [[simon-willison]]'s quote-post) frames the productivity math as an identity — if AI-assisted coding ships code 3× faster, maintenance must drop to 1/3 of baseline or the team is mortgaging future tech debt. Concrete practitioner counterpoint to the velocity-narrative around [[claude-code]] adoption; functionally the ROI side of Karpathy's [[agentic-engineering]] / [[vibe-coding]] split. — [[willison-james-shore-maintenance-2026-05-11]]
 
 ## Resources
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern

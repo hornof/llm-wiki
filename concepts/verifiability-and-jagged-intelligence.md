@@ -2,7 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-05-11
+last_updated: 2026-05-12
 ---
 
 ## Definition
@@ -70,6 +70,7 @@ Practitioner pressure is also pushing on the *auditability* axis: the demand to 
 - [[vibe-coding]] — works best in the high-verifiability zones (code); struggles in unverifiable aesthetic domains
 - [[software-3-0]] — verifiability determines which parts of Software 3.0 are currently ready
 - [[mechanistic-interpretability]] — process-verification (auditability) primitives
+- [[ai-vulnerability-discovery]] — vulnerability discovery is a verifiable domain (did the exploit work?); the concept page tracks the offensive/defensive/norms triangulation in May 2026
 
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: AI Ascent 2026; Karpathy elaborates verifiability thesis, jagged intelligence, ghosts vs. animals, chess data example
