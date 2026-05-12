@@ -41,7 +41,7 @@ This piece is the *consumer-facing* counterpart to the same logic: where Dario f
 
 - [[anthropic]] (updated — Business Model Stance section now includes the formal ad-free commitment alongside the existing B2B-over-consumer framing; access-expansion pathways named)
 - [[openai]] (updated — explicit competitive contrast: same week as the OpenAI ads-in-ChatGPT experiment, Anthropic publishes the opposite stance; this is the clearest paired-public-divergence the wiki has tracked between the two labs on consumer monetization)
-- [[claude]] (or rather Claude product positioning in [[anthropic]]) — Claude framed as "a space to think" is the marketing-language commitment; worth tracking against future product changes for drift.
+- Claude product positioning tracked on [[anthropic]] — "a space to think" is the marketing-language commitment; worth tracking against future product changes for drift.
 
 ## Caveats
 

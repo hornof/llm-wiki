@@ -67,7 +67,7 @@ Aggregated ingest of arXiv research surfaced via the 2026-05-11 Daily Brief. Eig
 
 ## Why This Matters for the Wiki
 
-- No new dedicated concept page yet for **KV cache optimization** or **head-wise budgeting** — but if a third paper on this theme lands in the next 30 days, that's the threshold to spin a [[concept]] page.
+- No new dedicated concept page yet for **KV cache optimization** or **head-wise budgeting** — but if a third paper on this theme lands in the next 30 days, that's the threshold to spin a concept page.
 - The PND / hallucination paper is a small data point under [[verifiability-and-jagged-intelligence]] — illustrates the inference-time-correction surface for VLMs.
 - Toeplitz MLP Mixers is on-radar but not yet entity-worthy; if it gets practitioner attention or a follow-up, revisit.
 
