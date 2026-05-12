@@ -241,6 +241,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[willison-shopify-river-2026-05]] — Tobi Lütke describes Shopify's [[river]]: no DMs, all work in public Slack channels; first widely-discussed agent-as-shared-channel-participant deployment (May 11 2026)
 - [[willison-html-effectiveness-2026-05]] — Thariq Shihipar (Anthropic): "Unreasonable Effectiveness of HTML"; HTML beats Markdown for any rendered Claude output; prompt-level swap (May 8 2026)
 - [[dailybrief-research-roundup-2026-05-11]] — arXiv research aggregator: RateQuant + LKV (head-wise KV cache budgeting wave), PND (training-free VLM hallucination correction), Toeplitz MLP Mixer (subquadratic architecture), flow-matching strain/vorticity theory, discrete diffusion for antibodies, WGAN for climate-insurance scenarios (May 2026)
+- [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy's 4-step LLM output-format taxonomy (raw text → markdown → HTML → ... → interactive neural videos); bridges current HTML-prompting pattern to [[model-rendered-ui]] research direction; cites Flipbook as endpoint (May 2026)
+- [[anthropic-agent-view-claude-code-2026-05-11]] — Anthropic ships agent view (TUI multi-session manager) in Claude Code as Research Preview; `claude agents` / left-arrow surface; peek-without-attach interaction model (May 2026)
+- [[anthropic-claude-cookbook-2026-05]] — official Anthropic platform cookbook surfaced via @bibryam X post; 81 guides across 15 categories; named primitives: Programmatic Tool Calling, Tool Search with Embeddings, Automatic Context Compaction (May 2026)
+- [[andruyeung-claude-evangelist-role-2026-05-11]] — Anthropic recruiting a Claude Evangelist for the startup ecosystem at up to $315K base; technical + public-speaking hybrid profile; light cultural signal (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
