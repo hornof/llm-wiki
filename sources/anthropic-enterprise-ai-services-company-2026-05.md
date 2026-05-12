@@ -25,4 +25,4 @@ Anthropic announced the formation of a new, as-yet-unnamed AI services company c
 ## Pages Updated
 
 - [[anthropic]] — updated Products section: new enterprise AI services joint venture added; Traction Signals updated
-- [[sources/anthropic-claude-partner-network]] — no change needed; this source extends the partner-network narrative but doesn't contradict it
+- [[anthropic-claude-partner-network]] — no change needed; this source extends the partner-network narrative but doesn't contradict it
