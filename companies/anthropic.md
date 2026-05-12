@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-10
+last_updated: 2026-05-11
 ---
 
 ## What It Is
@@ -95,6 +95,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-06: **first ceiling-side production-grade security partnership** — Mozilla's Firefox security-fix throughput jumped from ~20-30/month to **423 in April 2026** under [[claude-mythos]] preview access, including 20- and 15-year-old long-tail bugs. Categorically different signal than B2B security-tooling vendor claims — [[willison-firefox-claude-mythos-2026-05]]
 - 2026-05-09: **growth-curve abnormality at $14B+ ARR** — [[aakashgupta]] surfaces concrete numbers ([[aakashgupta-anthropic-growth-acceleration-2026-05-09]]): $1B → $44B ARR in 17 months (Slack held the prior SaaS record at $1B in 5 years); Dec 2025 → May 2026 was 5× in five months; **annualized rate at $14B exceeds the annualized rate at $1B** — i.e., growth is accelerating, not decaying. Anthropic's run-rate now exceeds Salesforce's full FY2025 revenue ($37.9B; Salesforce founded 1999). Beat the August 2025 bull-case projection ($30B ARR by Aug 2026) by four months. **Last ninety days added more ARR than the entire seventeen-month climb to $14B.** Acceleration driver: [[claude-code]] (launched May 2025, $2.5B run-rate by Feb 2026, weekly active users doubled since Jan, enterprise customers spending >$1M/year went from 500 to 1,000 in two months — *check size compounding, user count secondary*). Caveat from comment thread: token prices have fallen 90%+ over the past 18 months, so revenue acceleration ≠ value-per-token acceleration; AWS's $0 → $85B trajectory is the most coherent comparable curve.
 - 2026-05-07: **xAI / Colossus 1 compute deal** — Anthropic contracts the entire 300MW capacity of [[xai]]'s Memphis-area Colossus 1 data center; **~$5B/year, multi-year** per Latent Space/AINews recap surfaced via the 2026-05-08 Daily Brief (pricing not in Willison's primary post). Deal includes a clause giving Musk discretion to reclaim compute if Anthropic models cross his unilateral definition of "harm" — first documented case of a frontier lab outsourcing its full compute layer to a competitor's infrastructure with a non-commercial discretionary clause attached — [[willison-anthropic-xai-colossus-2026-05]]
+- 2026-05-11: **agent view ships in Claude Code as Research Preview** — first product-level user-facing surface for managing many concurrent Claude Code sessions; TUI multi-session manager available on Pro / Max / Team / Enterprise / API. Strong signal that the high-leverage user runs *many* parallel agents and that Anthropic chose the terminal (not the GUI) as the orchestration surface — [[anthropic-agent-view-claude-code-2026-05-11]]
+- 2026-05-11: **Claude Evangelist role posted, up to $315K base** — Anthropic recruiting a public-facing technical evangelist for the startup ecosystem (hybrid technical + public-speaking skill profile required). Cultural signal that human-voice / in-person ecosystem-evangelism is being staffed up alongside the product surface. Practitioner reception is mixed (compensation framed by some as low for the role's strategic weight; trades-and-operator markets called out as a missing diffusion-path equivalent) — [[andruyeung-claude-evangelist-role-2026-05-11]]
+- 2026-05-11: **Claude Cookbook surfaced at scale** — 81 practical guides across 15 categories on platform.claude.com; named primitives include Programmatic Tool Calling, Tool Search with Embeddings, and Automatic Context Compaction. Confirms [[code-mode]] / search+execute patterns as official Anthropic guidance, not just blog-post or practitioner reframing — [[anthropic-claude-cookbook-2026-05]]
 
 ## Resources
 
@@ -113,3 +116,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[willison-firefox-claude-mythos-2026-05]] — Mozilla Firefox security partnership; 20× monthly fix-volume jump
 - [[willison-anthropic-xai-colossus-2026-05]] — xAI / Colossus 1 compute deal; first frontier-lab full-compute outsourcing
 - [[anthropic-natural-language-autoencoders-2026-05]] — Natural Language Autoencoders research; first-person model introspection text
+- [[anthropic-agent-view-claude-code-2026-05-11]] — agent view in Claude Code (TUI multi-session manager, Research Preview, May 11 2026)
+- [[anthropic-claude-cookbook-2026-05]] — official Anthropic cookbook (81 guides / 15 categories) surfaced via @bibryam May 11 2026
+- [[andruyeung-claude-evangelist-role-2026-05-11]] — Claude Evangelist role surfacing; up to $315K base; technical + public-speaking hybrid profile (May 11 2026)
+- [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy on HTML as the new default LLM output format (relevant to Claude Code output-format prompting)

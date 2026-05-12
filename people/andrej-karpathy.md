@@ -3,7 +3,7 @@ name: Andrej Karpathy
 type: person
 affiliation: Eureka Labs (founder)
 signal_sources: [twitter, blog, github, youtube]
-last_updated: 2026-05-10
+last_updated: 2026-05-11
 ---
 
 ## Who They Are
@@ -37,6 +37,7 @@ Building AI education tools at Eureka Labs. Actively vibe-coding and agentic eng
 - **Macro-level architectural constancy**: "Not much has changed in 33 years on the macro level. We're still setting up differentiable neural net architectures made of layers of neurons and optimizing them end-to-end with backpropagation." The revolution has been scale (data, model, compute), not paradigm shift. — [[karpathy-lecun1989-33-years]]
 - **Independent practitioner echo of two-mode framing (Simon Willison, May 2026)**: [[simon-willison]] reports the practitioner discipline that distinguishes [[vibe-coding]] from [[agentic-engineering]] is harder to maintain in practice as agents improve — even ceiling-side practitioners find themselves not reviewing every line. Willison frames the convergence as uncomfortable, not triumphant. Independent extension of Karpathy's framing from a long-tracked high-signal voice. — [[simonwillison-vibe-coding-agentic-engineering-2026-05]]
 - **January 2026 Claude code-writing complaint thread spawned an ecosystem**: a Karpathy X thread naming three Claude failure modes — silent wrong assumptions, over-complication, "orthogonal damage" to nearby code — was packaged by [[forrest-chang]] into a 4-rule CLAUDE.md template that became the fastest-growing single-file GitHub repo of 2026 (~120K stars by May). [[mnilax-claude-md-12-rules-2026-05-09]] later extended it to 12 rules with empirical mistake-rate measurements. The pattern (see [[claude-md-pattern]]) is now community-canonical practice for Claude Code project setup.
+- **HTML as the new default LLM output format (May 8 2026)**: quote-tweeting [[thariq-shihipar]]'s "Unreasonable Effectiveness of HTML," Karpathy articulates a 4-step taxonomy — raw text → markdown (current default) → HTML ("early but forming new good default") → ... → interactive neural videos/simulations (the speculative endpoint, cited via [[thread-zan2434-flipbook]]). Reasoning: "audio is the human-preferred input to AIs but vision is the preferred output from them"; ~1/3 of the brain is dedicated to vision. Flags an open architectural question: how procedural Software 1.0 artifacts (deterministic interactivity) get woven together with neural artifacts (diffusion grids). First Karpathy-level voice connecting the *current* HTML-output prompting practitioner pattern ([[claude-code]] / [[willison-html-effectiveness-2026-05]]) to the *long-arc* [[model-rendered-ui]] research direction as a single trajectory. — [[karpathy-html-output-taxonomy-2026-05-08]]
 
 ## Where to Follow
 - Twitter/X: @karpathy
