@@ -2,7 +2,7 @@
 name: Model-Rendered UI
 type: concept
 maturity: emerging
-last_updated: 2026-04-22
+last_updated: 2026-05-11
 ---
 
 ## Definition
@@ -25,9 +25,36 @@ Related: "Neural Computers" (arxiv.org/abs/2604.06425, April 2026) — video mod
 ## Expansion Thesis
 From the Flipbook thread: "As the models get more accurate and more stateful, the set of things worth doing this way will expand. Even ones you'd assume need structured UIs like coding." — [[thread-zan2434-flipbook]]
 
+## Karpathy's 4-Step Output-Format Taxonomy (May 2026)
+
+[[andrej-karpathy]] (May 8 2026, [[karpathy-html-output-taxonomy-2026-05-08]]) places model-rendered UI as the **endpoint** of a multi-stage progression in how LLMs deliver output to humans:
+
+1. **raw text** — hard/effortful to read
+2. **markdown** — current default; "bold, italic, headings, tables, a bit easier on the eyes"
+3. **HTML** — "still procedural with underlying code, but a lot more flexibility on the graphics, layout, even interactivity" — *"early but forming new good default"*
+4. …intermediate stages (slideshows, mixed media)
+5. **interactive neural videos / simulations** — generated directly by a diffusion neural net
+
+The endpoint (5/n) is explicitly the Flipbook-style direction — Karpathy cites [[thread-zan2434-flipbook]] by URL as the place "the direction" extrapolates toward. *Model-rendered UI is not a leap; it is the asymptote of the output-format ladder practitioners are climbing right now via HTML-output prompting.*
+
+### Reasoning behind the trajectory
+
+Karpathy's argument for *why* output should evolve this way: **vision is the human-preferred output modality** ("vision is the 10-lane superhighway of information into brain"; ~1/3 of the brain is dedicated to it). Audio works as the human-preferred *input*, but text/markdown rendering bottlenecks the vision-bandwidth side of the mind-meld between humans and AIs. Each step in the taxonomy moves output further along the vision-bandwidth axis.
+
+### Open architectural question
+
+Karpathy flags an unresolved question on the path from step 3 to step n: how exact/procedural "Software 1.0" artifacts (e.g. interactive simulations with deterministic behavior) get woven together with neural artifacts (diffusion grids). The model-rendered-UI program does not yet have a clean answer for *deterministic interactivity inside a generated pixel stream*.
+
+## Practitioner Bridge: HTML Output Prompting (May 2026)
+
+The practitioner-pattern "ask Claude for HTML, not Markdown" ([[thariq-shihipar]] / [[willison-html-effectiveness-2026-05]] / [[karpathy-html-output-taxonomy-2026-05-08]]) is the *currently-shipped* prong of the taxonomy above (step 3). It is concretely available today inside [[claude-code]] and on Claude.ai. The model-rendered-UI research direction is the *next* prong (step n). Karpathy's May 2026 framing is the first time the wiki has a primary-voice articulation of *the practitioner pattern and the research direction as a single ladder rather than two separate developments*.
+
 ## Related Concepts
 - [[world-models]] — related idea: models that predict and generate environment state rather than tokens
 - [[agentic-ai]] — agent interfaces may evolve toward model-rendered rather than structured UI
+- [[software-3-0]] — same trajectory framed from the programming-paradigm side (natural language as the programming layer; this concept is its output-rendering layer)
 
 ## Resources
 - [[thread-zan2434-flipbook]] — Flipbook announcement thread (April 2026)
+- [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy's 4-step output-format taxonomy connecting current HTML practitioner pattern to Flipbook-style endpoint (May 8 2026)
+- [[willison-html-effectiveness-2026-05]] — Simon Willison amplification of Thariq Shihipar's "Unreasonable Effectiveness of HTML"; step 3 of the taxonomy

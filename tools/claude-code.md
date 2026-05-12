@@ -6,6 +6,7 @@ status: gaining-traction
 last_updated: 2026-05-11
 ---
 
+
 ## What It Is
 Anthropic's official CLI and agentic coding tool. Runs Claude models in a terminal with direct access to your filesystem, shell, and tools. Designed for software engineering tasks — reading/writing code, running tests, executing commands — but also used for document-heavy workflows like the [[llm-wiki-pattern]].
 
@@ -30,6 +31,8 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - **2026-05-06 — SDK consolidation**: the **Claude Agent SDK** ([[claude-agent-sdk]]) is now the formal SDK powering both IDE (Claude Code) and Desktop hosts — Claude Code is one consumer of the Agent SDK, not a standalone harness. Repositions Claude Code architecturally as a *product* on top of a sanctioned SDK rather than a one-off CLI
 - **2026-05-09 — explicit revenue-acceleration driver**: [[aakashgupta]] surfaces Anthropic's growth numbers ([[aakashgupta-anthropic-growth-acceleration-2026-05-09]]) and attributes the curve specifically to Claude Code: *"$2.5B in run-rate revenue by February 2026. Weekly active users doubled since January. Enterprise customers spending over $1M per year went from 500 to 1,000 in two months. That's where the curve comes from. The check size is compounding. The user count is secondary."* Claude Code is the named product driving Anthropic's run-rate past Salesforce.
 - **2026-05-10 — CLAUDE.md template ecosystem maturation**: [[forrest-chang]]'s 4-rule CLAUDE.md template (`andrej-karpathy-skills`) reaches **~120K stars** — described as the fastest-growing single-file GitHub repo of 2026 — and @Mnilax publishes a 12-rule expansion ([[mnilax-claude-md-12-rules-2026-05-09]]) tested across 30 codebases over 6 weeks, claiming a drop from 41% mistake rate (no CLAUDE.md) → 11% (4 rules) → 3% (12 rules). The CLAUDE.md *pattern* (see [[claude-md-pattern]]) is now community-canonical practice — Claude Code's project-configuration discipline has converged on a small, imperative, behavioral-contract format rather than exhaustive style guides.
+- **2026-05-11 — agent view (Research Preview)**: new TUI multi-session manager surfaced via `claude agents` (or left-arrow from any session). Replaces the de-facto "tmux + multiple terminal tabs + mental ledger" pattern with a managed work queue: each row shows whether the session needs input, last-response contents, and when you last interacted. Peek-without-attach inline reply for fast steering. `/bg` and `claude --bg [task]` push sessions to background; background sessions show next-run time. Available on Pro / Max / Team / Enterprise / API plans. Strong signal that *the high-leverage Claude Code user runs many parallel agents simultaneously*, and that the TUI (not the GUI) is where Anthropic chose to ship multi-session orchestration. — [[anthropic-agent-view-claude-code-2026-05-11]]
+- **2026-05-11 — official cookbook publishes 81 guides across 15 categories**: Anthropic's [[anthropic-claude-cookbook-2026-05]] surfaces Programmatic Tool Calling, Tool Search with Embeddings, and Automatic Context Compaction as named cookbook primitives — confirms [[code-mode]] / search+execute patterns as official guidance, not just blog-post or practitioner reframing.
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
@@ -45,7 +48,7 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
 - **Format locking**: Enforce an exact response schema in the system prompt (e.g., "1 sentence, max 3 bullets, 1 next action") — Claude follows format constraints more reliably than other models per community reports
 - **Context clearing**: Use `/clear` between distinct tasks; fresh context reduces hallucinations and token burn
 - **Model tiering**: Drop to Haiku for simple formatting/parsing; reserve Sonnet/Opus for complex reasoning
-- **HTML over Markdown for rendered outputs** ([[thariq-shihipar]], Anthropic Claude Code team, May 8 2026): when the consumer is a browser, IDE preview, or Claude.ai renderer, ask Claude Code to return **HTML, not Markdown**. Markdown's flat-text ceiling caps output quality; HTML hits the actual rendering substrate. Concrete examples: sortable tables, collapsible trees, live calculators. Prompt-level swap, no tooling change required. Amplified by [[simon-willison]] — [[willison-html-effectiveness-2026-05]]
+- **HTML over Markdown for rendered outputs** ([[thariq-shihipar]], Anthropic Claude Code team, May 8 2026; independently amplified same-day by [[andrej-karpathy]] and [[simon-willison]]): when the consumer is a browser, IDE preview, or Claude.ai renderer, ask Claude Code to return **HTML, not Markdown**. Markdown's flat-text ceiling caps output quality; HTML hits the actual rendering substrate. Concrete examples: sortable tables, collapsible trees, live calculators. Prompt-level swap, no tooling change required. Karpathy places this as step 3 of a 4-step output-format trajectory ending in interactive neural videos — see [[karpathy-html-output-taxonomy-2026-05-08]] and [[model-rendered-ui]] for the long-arc framing. — [[willison-html-effectiveness-2026-05]]
 
 ## Skill Writing (slash commands)
 Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. Six patterns that separate working skills from ones that never fire — [[zodchiii-anatomy-perfect-skill]]:
@@ -87,4 +90,7 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[claude-agent-sdk]] — sanctioned SDK powering Claude Code; architectural sibling
 - [[claude-opus-4-7]] — current Opus generation; default model in Claude Code as of May 2026
 - [[willison-html-effectiveness-2026-05]] — Thariq Shihipar's "Unreasonable Effectiveness of HTML" via Willison; concrete examples and prompt pattern (May 2026)
+- [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy's 4-step output-format taxonomy; primary-voice citation for HTML-over-Markdown pattern (May 2026)
+- [[anthropic-agent-view-claude-code-2026-05-11]] — Anthropic blog: agent view (TUI multi-session manager) Research Preview (May 2026)
+- [[anthropic-claude-cookbook-2026-05]] — Anthropic platform cookbook; 81 guides across 15 categories; named primitives: PTC, tool search with embeddings, automatic context compaction (May 2026)
 - [[thariq-shihipar]] — author; Claude Code team at Anthropic
