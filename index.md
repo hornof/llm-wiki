@@ -245,6 +245,7 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[anthropic-agent-view-claude-code-2026-05-11]] — Anthropic ships agent view (TUI multi-session manager) in Claude Code as Research Preview; `claude agents` / left-arrow surface; peek-without-attach interaction model (May 2026)
 - [[anthropic-claude-cookbook-2026-05]] — official Anthropic platform cookbook surfaced via @bibryam X post; 81 guides across 15 categories; named primitives: Programmatic Tool Calling, Tool Search with Embeddings, Automatic Context Compaction (May 2026)
 - [[andruyeung-claude-evangelist-role-2026-05-11]] — Anthropic recruiting a Claude Evangelist for the startup ecosystem at up to $315K base; technical + public-speaking hybrid profile; light cultural signal (May 2026)
+- [[aakashgupta-doordash-company-brain-2026-05-10]] — DoorDash: new engineer recovers 3-month-old PM decision context via AI; independent company-brain practitioner signal from @aakashgupta (May 10 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
