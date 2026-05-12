@@ -52,6 +52,7 @@
 - [[code-mode]] — runtime pattern where the agent writes code that calls tools through a runtime; tool definitions enter context only on import lines; resolves the MCP-vs-CLI debate by making both sides primitives the runtime composes (Anthropic Nov 2025)
 - [[claude-md-pattern]] — CLAUDE.md as a behavioral contract, not a config dump; community-evolved discipline (Karpathy → Forrest Chang's 4 → Mnilax's 12 rules); 200-line ceiling for compliance (May 2026)
 - [[llmorphism]] — Capraro's coined bias: attributing LLM-like cognition to humans; the inverse of anthropomorphism; sociological/conceptual paper (May 2026)
+- [[ai-vulnerability-discovery]] — offensive/defensive/norms triangulation around AI-driven vuln discovery; Mozilla defender side + jefftk norms-collision + Google criminal-attacker confirmation, all within ~4 days in May 2026
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -246,6 +247,11 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[anthropic-claude-cookbook-2026-05]] — official Anthropic platform cookbook surfaced via @bibryam X post; 81 guides across 15 categories; named primitives: Programmatic Tool Calling, Tool Search with Embeddings, Automatic Context Compaction (May 2026)
 - [[andruyeung-claude-evangelist-role-2026-05-11]] — Anthropic recruiting a Claude Evangelist for the startup ecosystem at up to $315K base; technical + public-speaking hybrid profile; light cultural signal (May 2026)
 - [[aakashgupta-doordash-company-brain-2026-05-10]] — DoorDash: new engineer recovers 3-month-old PM decision context via AI; independent company-brain practitioner signal from @aakashgupta (May 10 2026)
+- [[google-criminal-hackers-ai-vuln-2026-05-11]] — Google first-party disclosure: criminal hackers used LLMs to find a major software vulnerability; offensive side of the AI-vuln-discovery triangulation (May 11 2026)
+- [[tanstack-npm-supply-chain-2026-05]] — TanStack postmortem on npm supply-chain compromise; token scoping + CI/CD gating + audit trails; supply-chain baseline for future AI-vector cross-references (May 2026)
+- [[willison-james-shore-maintenance-2026-05-11]] — Simon Willison surfaces James Shore on AI-coding ROI; 3× velocity → 1/3 maintenance cost or you're mortgaging tech debt (May 11 2026)
+- [[anthropic-claude-platform-aws-2026-05]] — Claude Platform on AWS distribution / infrastructure partnership; primary not yet fetched; significance pending (May 2026)
+- [[dailybrief-research-roundup-2026-05-12]] — arXiv research aggregator: BaLoRA (Bayesian LoRA, Welling); Prithvi-EO crop-yield generalization in sub-Saharan Africa; RL-Kirigami inverse design; TurboQuant-inspired KV cache quantization analysis (third KV-cache paper in two weeks — concept-page threshold); SAD safety denoiser for text diffusion (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

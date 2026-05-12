@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-05-11
+last_updated: 2026-05-12
 ---
 
 ## Who They Are
@@ -25,6 +25,7 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **HTML beats Markdown for rendered Claude output (May 8 2026, amplification)**: surfaces [[thariq-shihipar]]'s "Unreasonable Effectiveness of HTML" thesis — ask [[claude-code]] for HTML, not Markdown, whenever the consumer is a browser, IDE preview, or Claude.ai renderer; near-zero-cost prompt-level upgrade — [[willison-html-effectiveness-2026-05]]
 - **NYT misquotes an AI summary as a direct Poilievre quote (May 10 2026)**: flags the editor's note as a failure mode where AI summarization output is treated as *source material* rather than a derived artifact requiring verification. Workflow-gap framing — reporter and editor both failed; not a model defect — [[willison-nyt-ai-misquote-2026-05]]
 - **River as agent-governance-by-transparency (May 11 2026)**: amplifies [[tobi-lutke]]'s description of [[shopify]]'s internal coding agent [[river]] — *refuses DMs, forces all work into public channels*. First widely-discussed example of agent-as-shared-channel-participant rather than agent-as-personal-tool — [[willison-shopify-river-2026-05]]
+- **Maintenance-cost ROI for AI coding (May 11 2026)**: surfaces James Shore's framing — if AI lets you ship code 3× faster, maintenance costs must drop to 1/3 or you've mortgaged the future. Concrete identity-shaped argument for pairing any productivity claim with a maintenance-cost claim. Orthogonal counter to the velocity-narrative around [[claude-code]] adoption — [[willison-james-shore-maintenance-2026-05-11]]
 
 ## Where to Follow
 - Blog: simonwillison.net
