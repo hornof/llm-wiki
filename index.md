@@ -53,6 +53,8 @@
 - [[claude-md-pattern]] — CLAUDE.md as a behavioral contract, not a config dump; community-evolved discipline (Karpathy → Forrest Chang's 4 → Mnilax's 12 rules); 200-line ceiling for compliance (May 2026)
 - [[llmorphism]] — Capraro's coined bias: attributing LLM-like cognition to humans; the inverse of anthropomorphism; sociological/conceptual paper (May 2026)
 - [[ai-vulnerability-discovery]] — offensive/defensive/norms triangulation around AI-driven vuln discovery; Mozilla defender side + jefftk norms-collision + Google criminal-attacker confirmation, all within ~4 days in May 2026
+- [[interaction-models]] — Thinking Machines' May 2026 framing: interaction as a first-class primitive; continuous multimodal I/O on time-aligned micro-turns; TML-Interaction-Small claims SOTA voice without external VAD
+- [[end-of-finetuning]] — swyx's May 2026 thesis: OpenAI deprecating finetuning APIs is the trigger for a multi-year practitioner shift to long-context + constitutional-spec; top 1% still RLFT (Cognition, Cursor)
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -92,6 +94,7 @@
 - [[forrest-chang]] — independent practitioner; author of the original 4-rule CLAUDE.md template (`andrej-karpathy-skills`, ~120K stars by May 2026); the floor of community CLAUDE.md practice
 - [[tobi-lutke]] — Shopify CEO; AI-first operating-model evangelist; architect of the no-DMs design choice for [[river]] (May 2026)
 - [[thariq-shihipar]] — Anthropic Claude Code team; "Unreasonable Effectiveness of HTML" prompting pattern (May 2026)
+- [[jack-clark]] — Anthropic co-founder / Head of Policy; editor of *Import AI* weekly newsletter since 2017; "radical optionality" regulatory framing (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -252,6 +255,12 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[willison-james-shore-maintenance-2026-05-11]] — Simon Willison surfaces James Shore on AI-coding ROI; 3× velocity → 1/3 maintenance cost or you're mortgaging tech debt (May 11 2026)
 - [[anthropic-claude-platform-aws-2026-05]] — Claude Platform on AWS distribution / infrastructure partnership; primary not yet fetched; significance pending (May 2026)
 - [[dailybrief-research-roundup-2026-05-12]] — arXiv research aggregator: BaLoRA (Bayesian LoRA, Welling); Prithvi-EO crop-yield generalization in sub-Saharan Africa; RL-Kirigami inverse design; TurboQuant-inspired KV cache quantization analysis (third KV-cache paper in two weeks — concept-page threshold); SAD safety denoiser for text diffusion (May 2026)
+- [[anthropic-spacex-higher-limits-2026-05-06]] — Anthropic primary: higher Claude usage limits + SpaceX 300MW Colossus 1 compute deal (220,000+ GPUs) + orbital-compute roadmap line; reconciles with the May 7 Willison xAI/Colossus framing (May 6 2026)
+- [[techcrunch-anthropic-ramp-business-customers-2026-05-13]] — Ramp AI Index: Anthropic 34.4% vs. OpenAI 32.3% on paid-business-customer share — first-time lead; OpenRouter cross-confirms; Ara Kharazian quote on high-adoption-group pattern (May 13 2026)
+- [[thinking-machines-interaction-models-2026-05-11]] — Thinking Machines Lab primary: TML-Interaction-Small (276B MoE / 12B active) + the [[interaction-models]] framing; beats GPT-realtime-2.0 and Gemini-3.1-flash-live on interaction-quality benchmarks; SOTA voice without external VAD claim (May 11 2026)
+- [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] — Jack Clark / Import AI 456: Korinek RSI economic-growth model (13% economy-wide automation triggers explosive regime; software R&D as the dominant lever); "radical optionality" regulatory framing; Meta/KAIST neural-computer prototype (May 11 2026)
+- [[latentspace-end-of-finetuning-2026-05-13]] — swyx / Latent Space: OpenAI's finetuning-API deprecation as the catch-up to a multi-year shift; "JVLP" (Just Very Long Prompts) + constitutional spec as the replacement; Cognition + Cursor as the top-1% RLFT exception (May 13 2026)
+- [[dailybrief-research-roundup-2026-05-13]] — arXiv aggregator: rotation-preserving SFT (arXiv:2605.10973); LEAP dLLM parallelism via early-convergence detection (arXiv:2605.10980); protein-LM interpretability via differentiable graph partitioning (arXiv:2605.10985) (May 13 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

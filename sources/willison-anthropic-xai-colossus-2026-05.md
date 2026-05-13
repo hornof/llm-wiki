@@ -22,6 +22,10 @@ ingested: 2026-05-07
 
 First wiki appearance of [[xai]] as a tracked entity. First documented deal where a frontier lab outsources its full compute layer to a competitor's infrastructure. Connects to the [[saas-disruption-thesis]] and broader infrastructure-consolidation pattern: capex constraints are forcing inter-lab cooperation at the infrastructure layer even between competitive product lines.
 
+## Cross-Reference
+
+The May 6 Anthropic primary announcement of the same deal was captured later: [[anthropic-spacex-higher-limits-2026-05-06]]. Anthropic uses **SpaceX** (the corporate parent of [[xai]] post-2025 acquisition) as the counterparty name; Willison's post here uses **xAI / Colossus 1** (the operator name familiar to the AI community). Same physical facility, same commercial relationship, two different framings reflecting where each author drew the corporate boundary. The Anthropic primary also bundled higher Claude usage limits and a forward-looking line about "multiple gigawatts of orbital AI compute capacity."
+
 ## Pages Updated
 
 - [[anthropic]] — xAI/Colossus deal added under Traction Signals
