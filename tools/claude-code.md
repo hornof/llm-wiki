@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-12
+last_updated: 2026-05-14
 ---
 
 
@@ -33,6 +33,8 @@ Anthropic's official CLI and agentic coding tool. Runs Claude models in a termin
 - **2026-05-10 — CLAUDE.md template ecosystem maturation**: [[forrest-chang]]'s 4-rule CLAUDE.md template (`andrej-karpathy-skills`) reaches **~120K stars** — described as the fastest-growing single-file GitHub repo of 2026 — and @Mnilax publishes a 12-rule expansion ([[mnilax-claude-md-12-rules-2026-05-09]]) tested across 30 codebases over 6 weeks, claiming a drop from 41% mistake rate (no CLAUDE.md) → 11% (4 rules) → 3% (12 rules). The CLAUDE.md *pattern* (see [[claude-md-pattern]]) is now community-canonical practice — Claude Code's project-configuration discipline has converged on a small, imperative, behavioral-contract format rather than exhaustive style guides.
 - **2026-05-11 — agent view (Research Preview)**: new TUI multi-session manager surfaced via `claude agents` (or left-arrow from any session). Replaces the de-facto "tmux + multiple terminal tabs + mental ledger" pattern with a managed work queue: each row shows whether the session needs input, last-response contents, and when you last interacted. Peek-without-attach inline reply for fast steering. `/bg` and `claude --bg [task]` push sessions to background; background sessions show next-run time. Available on Pro / Max / Team / Enterprise / API plans. Strong signal that *the high-leverage Claude Code user runs many parallel agents simultaneously*, and that the TUI (not the GUI) is where Anthropic chose to ship multi-session orchestration. — [[anthropic-agent-view-claude-code-2026-05-11]]
 - **2026-05-11 — official cookbook publishes 81 guides across 15 categories**: Anthropic's [[anthropic-claude-cookbook-2026-05]] surfaces Programmatic Tool Calling, Tool Search with Embeddings, and Automatic Context Compaction as named cookbook primitives — confirms [[code-mode]] / search+execute patterns as official guidance, not just blog-post or practitioner reframing.
+- **2026-05-05 — Walleye Capital: 100% of employees use Claude Code**: launch-customer quote from the Anthropic Finance Agents announcement (Will England, Walleye). Cleanest single-firm full-staff adoption signal the wiki has captured; useful as a quote-able reference point in VPE-evaluation conversations about real enterprise penetration of agentic coding harnesses. — [[anthropic-finance-agents-2026-05-05]]
+- **2026-05-14 — subscription metering formalized**: every Claude subscription now includes a monthly API-token credit equal to the subscription dollar amount, usable across Claude Code, Claude.ai, *and* third-party harnesses (`claude-p`, OpenClaw, etc.). Programmatic usage above that allotment metered at API rates. Practitioner-side effect for Claude Code users: heavy programmatic workflows now require cost-modeling against the subscription credit ceiling, not just session-level rate limits. Pairs with the May 11 agent view (multi-session orchestration) — the bundle assumes the high-leverage user runs many concurrent sessions and that programmatic-token consumption tracking is now a first-class cost surface. — [[latentspace-codex-rises-claude-meters-2026-05-14]]
 
 ## How to Use It
 Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then run `claude` in a terminal. For wiki workflows: open the wiki directory, instruct Claude to ingest/query/lint per the CLAUDE.md schema.
@@ -95,3 +97,5 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[anthropic-agent-view-claude-code-2026-05-11]] — Anthropic blog: agent view (TUI multi-session manager) Research Preview (May 2026)
 - [[anthropic-claude-cookbook-2026-05]] — Anthropic platform cookbook; 81 guides across 15 categories; named primitives: PTC, tool search with embeddings, automatic context compaction (May 2026)
 - [[thariq-shihipar]] — author; Claude Code team at Anthropic
+- [[anthropic-finance-agents-2026-05-05]] — Walleye Capital 100%-of-employees adoption quote; finance-vertical plugin host context (May 5 2026)
+- [[latentspace-codex-rises-claude-meters-2026-05-14]] — subscription-metering policy change affecting third-party harness usage (May 14 2026)
