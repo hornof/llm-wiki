@@ -261,6 +261,11 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] — Jack Clark / Import AI 456: Korinek RSI economic-growth model (13% economy-wide automation triggers explosive regime; software R&D as the dominant lever); "radical optionality" regulatory framing; Meta/KAIST neural-computer prototype (May 11 2026)
 - [[latentspace-end-of-finetuning-2026-05-13]] — swyx / Latent Space: OpenAI's finetuning-API deprecation as the catch-up to a multi-year shift; "JVLP" (Just Very Long Prompts) + constitutional spec as the replacement; Cognition + Cursor as the top-1% RLFT exception (May 13 2026)
 - [[dailybrief-research-roundup-2026-05-13]] — arXiv aggregator: rotation-preserving SFT (arXiv:2605.10973); LEAP dLLM parallelism via early-convergence detection (arXiv:2605.10980); protein-LM interpretability via differentiable graph partitioning (arXiv:2605.10985) (May 13 2026)
+- [[anthropic-finance-agents-2026-05-05]] — Anthropic primary: ten financial-services agents on Opus 4.7 (pitch builder, earnings reviewer, KYC screener, etc.); Citadel / FIS / BNY / Walleye / Morningstar launch partners; Excel/Word/PPT add-ins GA (May 5 2026)
+- [[anthropic-gates-foundation-200m-2026-05-14]] — Anthropic primary: $200M / 4-year Gates Foundation partnership; global health + K-12 + economic mobility + agriculture; Beneficial Deployments team (May 14 2026)
+- [[latentspace-codex-rises-claude-meters-2026-05-14]] — AINews recap: Codex challenger-generosity vs. Anthropic incumbent-metering; subscription-includes-API-credit policy formalization (May 14 2026)
+- [[willison-boris-mann-11-agents-2026-05-13]] — Boris Mann via Willison: "'11 AI agents' is meaningless as a phrase"; agent-count terminology critique (May 13 2026)
+- [[dailybrief-research-roundup-2026-05-14]] — arXiv aggregator: OceanCBM (CBM mechanistic interpretability for ocean forecasting); Learning to Decide with AI Assistance under Human-Alignment; Multi-Rollout On-Policy Distillation via Peer Successes and Failures (May 14 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
