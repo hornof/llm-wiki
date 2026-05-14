@@ -55,6 +55,7 @@
 - [[ai-vulnerability-discovery]] — offensive/defensive/norms triangulation around AI-driven vuln discovery; Mozilla defender side + jefftk norms-collision + Google criminal-attacker confirmation, all within ~4 days in May 2026
 - [[interaction-models]] — Thinking Machines' May 2026 framing: interaction as a first-class primitive; continuous multimodal I/O on time-aligned micro-turns; TML-Interaction-Small claims SOTA voice without external VAD
 - [[end-of-finetuning]] — swyx's May 2026 thesis: OpenAI deprecating finetuning APIs is the trigger for a multi-year practitioner shift to long-context + constitutional-spec; top 1% still RLFT (Cognition, Cursor)
+- [[ai-labor-market-impacts]] — Anthropic's observed-exposure framework (March 2026); Computer Programmers 75% covered; young-worker hiring slowdown cross-confirmed by Brynjolfsson et al.; no aggregate unemployment effect yet
 
 ## People & Voices
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -95,6 +96,7 @@
 - [[tobi-lutke]] — Shopify CEO; AI-first operating-model evangelist; architect of the no-DMs design choice for [[river]] (May 2026)
 - [[thariq-shihipar]] — Anthropic Claude Code team; "Unreasonable Effectiveness of HTML" prompting pattern (May 2026)
 - [[jack-clark]] — Anthropic co-founder / Head of Policy; editor of *Import AI* weekly newsletter since 2017; "radical optionality" regulatory framing (May 2026)
+- [[vladimir-klimontovich]] — Jitsu CEO (YC S20); author of "Claude Code Did My Taxes" — clean non-coding document-prep workflow walkthrough (Jan 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -266,6 +268,9 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[latentspace-codex-rises-claude-meters-2026-05-14]] — AINews recap: Codex challenger-generosity vs. Anthropic incumbent-metering; subscription-includes-API-credit policy formalization (May 14 2026)
 - [[willison-boris-mann-11-agents-2026-05-13]] — Boris Mann via Willison: "'11 AI agents' is meaningless as a phrase"; agent-count terminology critique (May 13 2026)
 - [[dailybrief-research-roundup-2026-05-14]] — arXiv aggregator: OceanCBM (CBM mechanistic interpretability for ocean forecasting); Learning to Decide with AI Assistance under Human-Alignment; Multi-Rollout On-Policy Distillation via Peer Successes and Failures (May 14 2026)
+- [[anthropic-labor-market-impacts-2026-03-05]] — Anthropic Economic Index: `observed exposure` framework; Computer Programmers 75% covered; ~14% young-worker hiring-rate drop in exposed occupations; Brynjolfsson cross-confirmation (March 5 2026, surfaced 2026-05-14)
+- [[klmn-claude-code-taxes-2026-01-07]] — Vladimir Klimontovich's "Claude Code Did My Taxes": replicable non-coding workflow recipe (task.md / sub-agents / answers.md / two-step output); 2 hours vs $1,300-2,000 CPA equivalent (Jan 2026, surfaced 2026-05-14)
+- [[benln-dorsey-mini-agi-2026-05-13]] — benln amplifies Dorsey "every company can now be a mini-AGI"; Raiola "the company becomes the model" formulation; FundamentalAnalysis counter-take on flattening-before-reliable (May 13 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
