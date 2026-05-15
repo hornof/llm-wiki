@@ -2,7 +2,7 @@
 name: Model-Rendered UI
 type: concept
 maturity: emerging
-last_updated: 2026-05-11
+last_updated: 2026-05-15
 ---
 
 ## Definition
@@ -58,3 +58,5 @@ The practitioner-pattern "ask Claude for HTML, not Markdown" ([[thariq-shihipar]
 - [[thread-zan2434-flipbook]] — Flipbook announcement thread (April 2026)
 - [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy's 4-step output-format taxonomy connecting current HTML practitioner pattern to Flipbook-style endpoint (May 8 2026)
 - [[willison-html-effectiveness-2026-05]] — Simon Willison amplification of Thariq Shihipar's "Unreasonable Effectiveness of HTML"; step 3 of the taxonomy
+- [[svpino-bruin-dac-markdown-doomed-2026-05-15]] — Santiago Valdarrama (svpino) restates the HTML-over-Markdown thesis with the pragmatic *"nobody wants to type HTML"* pivot: HTML as output substrate, YAML/TSX as input. **First wiki-captured counter-take** also appears in the comment thread (Andrii Artemenko: *"Markdown wins on agent readability, human readability, and token efficiency"*) — the thesis is no longer one-sided (May 15 2026)
+- [[tools/dac]] — practitioner-instantiated version of the YAML/TSX-to-HTML compile layer; first wiki tool that ships SKILL.md for both Claude Code and Codex

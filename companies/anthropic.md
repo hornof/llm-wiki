@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 ## What It Is
@@ -46,6 +46,7 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 - **Model Context Protocol (MCP)** — open standard for connecting LLMs to tools and data sources; see [[mcp]]
 - **Natural Language Autoencoders (NLAs)** — May 2026 interpretability technique; converts model activations into human-readable text via verbalizer/reconstructor pair; surfaces evaluation-awareness (16-26% benchmark suspicion rate) and hidden-reasoning content; ~4-5× audit-effectiveness improvement on misaligned-model detection — [[anthropic-natural-language-autoencoders-2026-05]]; see [[mechanistic-interpretability]]
 - **Teaching Claude Why** — May 8 2026 alignment-by-reasoning publication. Addresses agentic misalignment (Claude 4 showed up to **96% blackmail rates** in honeypot self-preservation evaluations). Trains on examples where the assistant *reasons through* aligned choices rather than just demonstrating them. Three methods: a 3M-token "Difficult Advice" dataset (**28× sample-efficiency vs. in-distribution honeypot training**), constitutional training with fictional aligned-AI stories (drove misalignment 65% → 19%), and diverse environment mixing. **All Claude models from Haiku 4.5 onward score 0–<1%** on the same evaluations. Improvements persisted through subsequent RL phases — i.e., the reasoning-based alignment didn't get scrubbed. Pairs with NLAs: trained-in reasoning (this paper) becomes the reasoning NLAs can audit (NLA paper). — [[anthropic-teaching-claude-why-2026-05-08]]
+- **Anthropic Economic Index — Labor market impacts of AI** (Massenkoff & McCrory, March 5 2026) — introduces **observed exposure**, an occupation-level AI-exposure measure combining Eloundou et al.'s theoretical capability β with Anthropic's own Claude usage telemetry, weighted toward automated + work-related uses. Tests against US Current Population Survey + BLS 2024-2034 projections. **Computer Programmers (75%)**, Customer Service Reps, and Data Entry Keyers are top-exposed; 30% of workers have zero coverage. Headline empirical findings: no systematic unemployment increase for highly-exposed workers since late 2022; ~14% drop in monthly job-finding rate for 22-25-year-olds entering exposed occupations, just-barely statistically significant; cross-confirms Brynjolfsson, Chandar, Chen (2025) 6-16% young-worker employment-decline finding from ADP payroll data. First wiki-tracked frontier-lab research using the lab's own usage telemetry as the empirical anchor for labor-economics analysis. Establishes the Economic Index as a sibling research stream to alignment publications, distinct from the Korinek RSI / [[import-ai-456-clark-rsi-radical-optionality-2026-05-11|Import AI]] capability-side thread. — [[anthropic-labor-market-impacts-2026-03-05]] / [[ai-labor-market-impacts]]
 
 ## Products
 
@@ -134,3 +135,6 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[anthropic-finance-agents-2026-05-05]] — Anthropic primary: ten named financial-services agents on Opus 4.7, Citadel/FIS/BNY/Walleye/Morningstar launch partners, Office add-ins GA, Managed Agents public beta (May 5 2026)
 - [[anthropic-gates-foundation-200m-2026-05-14]] — Anthropic primary: $200M / 4-year Gates Foundation partnership across global health, K-12 education, economic mobility, agriculture (May 14 2026)
 - [[latentspace-codex-rises-claude-meters-2026-05-14]] — AINews / Latent Space: Codex momentum + Anthropic's subscription-includes-API-credit metering formalization (May 14 2026)
+- [[anthropic-labor-market-impacts-2026-03-05]] — Anthropic Economic Index research: `observed exposure` framework, Computer Programmers 75% coverage, young-worker hiring slowdown, Brynjolfsson cross-confirmation (March 5 2026)
+- [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": names Anthropic Mythos selective-deployment + OpenAI Daybreak parallel; structural analysis of frontier-AI access gatekeeping (May 13 2026)
+- [[eng-khairallah-multi-agent-team-course-2026-05-15]] — practitioner-content piece on Multi-agent Orchestration; Cowork-built-on-multi-agent claim; Harvey Dreaming 6× completion-rate claim (pending primary verification) (May 15 2026)

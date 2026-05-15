@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-05-13
+last_updated: 2026-05-14
 ---
 
 ## Who They Are
@@ -15,6 +15,7 @@ Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor o
 - **Recursive self-improvement (RSI) and economic modeling**: Import AI 456 (May 11 2026) surfaces Anton Korinek's RSI economic-growth model — full automation of software R&D plus 5% economy-wide automation produces a singularity-grade growth regime in ~6 years; 13% economy-wide automation is sufficient to trigger "explosive" growth. Korinek now works with Clark at Anthropic — establishes this as an in-house thread, not an external citation. — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]]
 - **"Radical optionality" for AI regulation**: Clark's policy frame for a *third path* between "pre-emptive heavy regulation" and "no regulation" — instruments that preserve democratic governments' future decision-making capacity (transparency mandates, whistleblower protections, inter-governmental information sharing, AISI/CAISI capacity building) without locking in current-state rules. Cost "modest, relative to the potential benefits." — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]]
 - **Substrate-collapse trends**: Clark tracks **neural computers** (Meta/KAIST work led by Jürgen Schmidhuber, prototyping OS-as-neural-net via generative-video models) as evidence software is moving "into the weights of a big neural net." — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]]
+- **Anthropic Economic Index research thread**: acknowledged on the **March 5 2026 labor-market-impacts paper** by Maxim Massenkoff and Peter McCrory ([[anthropic-labor-market-impacts-2026-03-05]]). Establishes the Economic Index as a sibling research stream to the alignment publications — same disciplinary rigor, different output (real labor economists, real CPS-matched data, BLS cross-check). Together with the [[import-ai-456-clark-rsi-radical-optionality-2026-05-11|Korinek RSI work]], this defines the Anthropic policy/economics research surface Clark oversees: capability-side (RSI dynamics, growth regimes) + measurement-side (current labor-market diffusion, exposure framework).
 
 ## Notable Takes
 

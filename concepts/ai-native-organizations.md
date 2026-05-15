@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-05
+last_updated: 2026-05-14
 ---
 
 ## Definition
@@ -77,6 +77,20 @@ Both models converge on the same underlying claim: AI is replacing the labor fun
 
 Calibration from the same comment thread (@pritambasu_): *"We are still very far from from having great Financial AI. Nowhere close to where coding is."* The first-tier-elimination claim outpaces actual financial-vertical agent quality as of May 2026 — read it as a structural prediction, not a deployed reality.
 
+## "The Company Becomes the Model" Framing (Dorsey via Benln, May 13 2026)
+
+A second Dorsey amplification surfaced in mid-May 2026 via [[benln]]'s X thread — *"every company can now be a mini-AGI"* ([[benln-dorsey-mini-agi-2026-05-13]]). The cleanest comment-thread restatement, from Pierangelo Raiola:
+
+> "The company is not adding AI as a feature. The company becomes the model. The architecture of the org becomes the architecture of the inference. The CEO's job moves from setting strategy to designing the substrate strategy runs on."
+
+This is the most operational formulation of the AI-native-org thesis captured to date — pairs cleanly with Dorsey's earlier "rebuild not copilot" framing ([[post-realBigBrainAI-dorsey-ai-rebuild]]) and with Sentra's [[ashwingop-company-brain-year-lessons-2026-05|Company Brain]] thesis.
+
+**Principal counter-take, same thread (@FundyAnalysis):** *"The org chart flattens before the AI is actually reliable enough to replace the layers you removed. Most companies are going to find out the hard way that judgment, taste, and creativity aren't durable human skills — they're the first things that atrophy when you gut the middle."* — names the failure mode: org-chart restructuring driven by AI-aspiration runs ahead of AI capability, and the capabilities you cut (taste, judgment, creativity in the middle layer) atrophy first.
+
+**CEO-competency-gap framing, same thread (@reowrites00):** *"The scariest line in here: the CEO's new job is to architect the company as intelligence. Most CEOs can't even explain how their current systems work."* — reframes the AI transition as primarily an executive-literacy problem, not a model-capability or org-design problem.
+
+The three frames — operational ("become the model"), failure-mode (capability lags org change), and constraint (CEO literacy) — together give the AI-native-org concept its most complete current shape.
+
 ## Key Sources
 
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
@@ -87,3 +101,4 @@ Calibration from the same comment thread (@pritambasu_): *"We are still very far
 - [[claudeai-financial-services-agents-2026-05]] — primary Anthropic launch of vertical agents replacing first-year IB analyst workflows
 - [[joshkale-anthropic-finance-agents-2026-05]] — analyst-pyramid framing; comment-thread debate on whether the bottom flattens vs. disappears
 - [[linas-anthropic-startup-playbook-2026-05]] — Anthropic's vertical-build map across 4 enterprise domains
+- [[benln-dorsey-mini-agi-2026-05-13]] — Dorsey "every company can now be a mini-AGI"; Raiola's "the company becomes the model" formulation; FundamentalAnalysis counter-take on flattening-before-reliable; CEO-competency-gap framing

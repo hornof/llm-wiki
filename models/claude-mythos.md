@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-05-07
+last_updated: 2026-05-15
 ---
 
 ## What It Is
@@ -32,8 +32,17 @@ Limited — only two public references as of May 7 2026. Both are Anthropic-adja
 
 The "Mythos" name breaks the established Opus/Sonnet/Haiku tier pattern — first time Anthropic has named a Claude model outside that scheme since the 4.x families launched. Worth tracking whether Mythos is a tier above Opus, a research-track sibling, or a different positioning entirely. Insufficient public detail to call this yet.
 
+## Selective-Deployment Pattern (Generalized, May 2026)
+
+[[antonleicht-frontier-ai-access-cut-off-2026-05-13|Anton Leicht's "Cut Off" essay]] generalizes the Mythos restriction-pattern: Mythos is described as a cybersecurity-tier model **"limited to select US firms,"** and Leicht names **OpenAI Daybreak** as the analogous selective-deployment cybersecurity initiative from the other major US lab. This is the first wiki-captured confirmation that selective-deployment cybersecurity models are a *category* rather than an Anthropic-specific pattern.
+
+**Distillation-driven sustained restriction (Leicht):** security concerns drive *initial* access restriction, but the **distillation-risk model** (DeepSeek named as canonical case) sustains it indefinitely *regardless* of cost trajectory. Timeline: 6-9 month distillation lag; frontier-capability costs grow "more expensive month-to-month for years now."
+
+**Adjacent policy mechanisms** named in the same essay: **GAIN Act** (US right-of-first-refusal for American chips), **NSA predeployment review**, **KYC restrictions** on frontier-model access. Together with Anthropic's prior [[forbes-ai-50-2026|Pentagon-blacklist context]] and the [[anthropic-spacex-higher-limits-2026-05-06|SpaceX compute partnership]], these establish a coherent US-government-adjacent gatekeeping machinery — Mythos sits inside that machinery, not as a standalone product gate.
+
 ## Resources
 
 - [[willison-firefox-claude-mythos-2026-05]] — Mozilla / Firefox security partnership; production-grade existence proof
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic interpretability research using Mythos
 - [[willison-code-w-claude-2026]] — Code w/ Claude 2026 event coverage; Mythos surfaced separately from Opus 4.7 announcement
+- [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": generalizes the selective-deployment pattern; names OpenAI Daybreak as parallel; distillation-driven sustained restriction (May 13 2026)

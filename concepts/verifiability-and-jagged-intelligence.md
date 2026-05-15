@@ -2,7 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-05-12
+last_updated: 2026-05-15
 ---
 
 ## Definition
@@ -78,3 +78,4 @@ Practitioner pressure is also pushing on the *auditability* axis: the demand to 
 - [[laban-llms-corrupt-documents-2026-05]] — DELEGATE-52 benchmark; ~25% document-corruption rate in long-running delegated workflows (May 2026)
 - [[willison-nyt-ai-misquote-2026-05]] — NYT publishes AI summary as direct quotation; journalism-domain illustration of the jaggedness/verifiability gap (May 10 2026)
 - [[dailybrief-research-roundup-2026-05-11]] — PND (Breaking the Illusion) paper: training-free decoding correction for VLM hallucination; inference-time correction surface for the multimodal jaggedness pattern
+- [[theregister-ontario-clinical-ai-audit-2026-05-14]] — Ontario Auditor General audit of 20 AI scribe vendors: **9/20 fabricated treatments, 12/20 inserted wrong drugs, 17/20 missed critical mental-health details**; first independent third-party clinical-AI accuracy audit; **vendor-selection methodology weighted accuracy at only 4%** — structural cause of the deployed-accuracy ceiling (May 14 2026)
