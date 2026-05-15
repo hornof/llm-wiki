@@ -21,6 +21,7 @@
 - [[claude-agent-sdk]] — Anthropic's developer SDK powering both IDE (Claude Code) and Desktop hosts; consolidates the developer surface (announced May 2026)
 - [[claude-cowork]] — Anthropic's autonomous-execution surface for non-coding workflows; tab inside [[claude-desktop]]; MCP→Chrome→Computer Use priority ladder; 38+ built-in connectors; Plugins / Skills / Scheduled Tasks / Dispatch (May 2026)
 - [[river]] — [[shopify]]'s internal AI coding agent; **refuses DMs, forces all work into public Slack channels**; first widely-discussed agent-as-shared-channel-participant deployment (May 2026)
+- [[dac]] — bruin-data/dac, open-source Dashboard-as-Code; YAML/TSX → HTML; built-in semantic layer; ships SKILL.md for *both* Claude Code and Codex (May 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -97,6 +98,8 @@
 - [[thariq-shihipar]] — Anthropic Claude Code team; "Unreasonable Effectiveness of HTML" prompting pattern (May 2026)
 - [[jack-clark]] — Anthropic co-founder / Head of Policy; editor of *Import AI* weekly newsletter since 2017; "radical optionality" regulatory framing (May 2026)
 - [[vladimir-klimontovich]] — Jitsu CEO (YC S20); author of "Claude Code Did My Taxes" — clean non-coding document-prep workflow walkthrough (Jan 2026)
+- [[anton-leicht]] — independent AI-policy analyst; *Threading the Needle* Substack; structural-analysis voice on frontier-AI access regimes (May 2026)
+- [[svpino]] — Santiago Valdarrama; AI/ML educator on X; HTML-over-Markdown practitioner voice; surfaced [[dac]] (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -125,6 +128,7 @@
 - [[andon-labs]] — autonomous-business research outfit; SF retail store + Stockholm cafe experiments running real commercial operations under AI control
 - [[unconventional-ai]] — early-stage AI hardware-software co-design company; pursuing 1000× energy efficiency for GenAI inference; founded by Naveen Rao (May 2026)
 - [[shopify]] — Canadian commerce platform; AI-first operating model under [[tobi-lutke]]; operator of [[river]] internal coding agent (May 2026)
+- [[abridge]] — vertical-AI healthcare company; 100M+ doctor visits, 250+ health systems, $5.3B valuation; "clinical intelligence layer" thesis-shift from ambient documentation to documentation+decision-support+prior-auth (May 2026)
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
@@ -271,6 +275,16 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[anthropic-labor-market-impacts-2026-03-05]] — Anthropic Economic Index: `observed exposure` framework; Computer Programmers 75% covered; ~14% young-worker hiring-rate drop in exposed occupations; Brynjolfsson cross-confirmation (March 5 2026, surfaced 2026-05-14)
 - [[klmn-claude-code-taxes-2026-01-07]] — Vladimir Klimontovich's "Claude Code Did My Taxes": replicable non-coding workflow recipe (task.md / sub-agents / answers.md / two-step output); 2 hours vs $1,300-2,000 CPA equivalent (Jan 2026, surfaced 2026-05-14)
 - [[benln-dorsey-mini-agi-2026-05-13]] — benln amplifies Dorsey "every company can now be a mini-AGI"; Raiola "the company becomes the model" formulation; FundamentalAnalysis counter-take on flattening-before-reliable (May 13 2026)
+- [[latentspace-abridge-healthcare-os-2026-05-15]] — Abridge 100M-visit clinical intelligence layer; $5.3B valuation; thesis-shift from ambient documentation to vertical-OS; "EHR as file system" architectural framing (May 15 2026)
+- [[theregister-ontario-clinical-ai-audit-2026-05-14]] — Ontario Auditor General audit of 20 AI scribe vendors; 9/20 fabricated treatments, 12/20 wrong drugs, 17/20 missed mental-health details; vendor-selection weighted accuracy at only 4% (May 14 2026)
+- [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": three compounding gates on frontier-AI access (security, compute economics, US strategic gatekeeping); names OpenAI Daybreak as Mythos parallel (May 13 2026)
+- [[willison-legacy-mobile-rewrite-2026-05-14]] — Willison amplifies Hashimoto's "programming languages used to be LOCK IN, and they're increasingly not so"; legacy iPhone+Android → React Native rewrite under agent leverage (May 14 2026)
+- [[openai-chatgpt-plaid-2026-05-15]] — OpenAI × Plaid bank-account integration; Pro-tier preview; read-only consumer-financial-data access; 30-day post-disconnection retention (May 15 2026)
+- [[fastcompany-amazon-workers-ai-task-faking-2026-05]] — Goodhart-Law-style gaming of Amazon's AI-usage mandate; workers inventing fake tasks to register quota (primary not fetched — paywall 403)
+- [[eng-khairallah-multi-agent-team-course-2026-05-15]] — Pipeline / Fan-Out / Specialist Team multi-agent patterns; 20-agent ceiling; Netflix / Harvey / Shopify production customers; two pending-verification claims (Harvey Dreaming 6×, Apple iOS 27 Claude integration) (May 15 2026)
+- [[svpino-bruin-dac-markdown-doomed-2026-05-15]] — Santiago Valdarrama (svpino) restates HTML-over-Markdown thesis with the pragmatic "nobody wants to type HTML" pivot; surfaces [[dac]]; first wiki-captured counter-take from Andrii Artemenko (May 15 2026)
+- [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14]] — 7-layer agentic-AI architecture cheat sheet (Orchestration → Agents → Tools → Memory → Monitoring → Reliability → Governance); Wigton's "Final Checkpoint at the action boundary" variant (May 14 2026)
+- [[dailybrief-research-roundup-2026-05-15]] — arXiv aggregator: EEG-foundation-model SAE mechanistic interpretability; trajectory-balance post-training for diffusion LMs; federated fine-tuning benchmark; Collider-Bench particle-physics agent benchmark (May 15 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

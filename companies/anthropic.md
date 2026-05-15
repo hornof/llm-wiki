@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 ## What It Is
@@ -136,3 +136,5 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[anthropic-gates-foundation-200m-2026-05-14]] — Anthropic primary: $200M / 4-year Gates Foundation partnership across global health, K-12 education, economic mobility, agriculture (May 14 2026)
 - [[latentspace-codex-rises-claude-meters-2026-05-14]] — AINews / Latent Space: Codex momentum + Anthropic's subscription-includes-API-credit metering formalization (May 14 2026)
 - [[anthropic-labor-market-impacts-2026-03-05]] — Anthropic Economic Index research: `observed exposure` framework, Computer Programmers 75% coverage, young-worker hiring slowdown, Brynjolfsson cross-confirmation (March 5 2026)
+- [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": names Anthropic Mythos selective-deployment + OpenAI Daybreak parallel; structural analysis of frontier-AI access gatekeeping (May 13 2026)
+- [[eng-khairallah-multi-agent-team-course-2026-05-15]] — practitioner-content piece on Multi-agent Orchestration; Cowork-built-on-multi-agent claim; Harvey Dreaming 6× completion-rate claim (pending primary verification) (May 15 2026)

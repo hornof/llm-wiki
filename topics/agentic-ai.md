@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-05-06
+last_updated: 2026-05-15
 ---
 
 ## What It Is
@@ -69,6 +69,31 @@ This is a step beyond "agent uses tools" — it is "agent buys SaaS." Distinct p
 
 Strategic read: this is the protocol-level answer to the [[saas-disruption-thesis]] question of *how agents purchase software*. If agents become buyers, infrastructure providers either co-define the agent-purchase primitives (as Cloudflare and Stripe just did) or get disintermediated by whoever does.
 
+## Multi-Agent Orchestration Patterns (May 2026)
+
+Practitioner-content piece [[eng-khairallah-multi-agent-team-course-2026-05-15]] surfaces three production-validated multi-agent patterns layered on top of [[willison-code-w-claude-2026|Anthropic's May 6 Multi-agent Orchestration]] release (up to **20 specialized agents in parallel per task**):
+
+| Pattern | Shape | Production example |
+|---|---|---|
+| **Pipeline** | Sequential pass-through: Agent A → Agent B → Agent C | Research → Analysis → Writing → Review |
+| **Fan-Out** | Commander dispatches subtasks to parallel workers, results synthesized | Netflix analyzing hundreds of build logs simultaneously |
+| **Specialist Team** | Multiple specialists collaborate on a single complex task | Harvey legal-work coordination |
+
+**Customer convergence**: [[shopify]] and Mercado Libre have both publicly named **90% autonomous coding by Q3 2026** as their target. Two enterprise customers naming the same threshold on the same timeline is the cleanest cross-confirmation captured to date.
+
+**Architectural / discipline contributions** from the same source:
+- *"Standardize your output formats across agents. This is the most important technical decision you will make."* — data-contract framing for inter-agent handoffs.
+- *Start-simple*: two-agent pipeline first; add agents incrementally; "complexity is the enemy of shipping" (moltoffer echo from [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14]]).
+- Named multi-agent **failure modes**: handoff failures, redundant work, quality degradation under pipeline length, token bloat.
+
+**Outstanding claims pending primary verification** (from [[eng-khairallah-multi-agent-team-course-2026-05-15]], not yet in any Anthropic primary):
+- *Harvey reports enabling Dreaming on legal agents increased completion rates approximately 6×.* If verified, this is the most concrete production-impact metric for a post-deployment-learning feature surfaced this year.
+- *Apple announced Claude integration into iOS 27 alongside other AI services through a new Extensions system.* If true, the first frontier-lab × major-mobile-OS deep integration; do not propagate to entity pages until verified.
+
+### Architecture cheat-sheet (Meenakshi taxonomy)
+
+A second taxonomy circulated [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14|the same week]] frames the agentic-AI stack as 7 layers: Orchestration → Agents → Tools → Memory → Monitoring → Reliability & Failure → Governance & Security. **Notable variant** from the comment thread: Taylor Wigton's *"Final Checkpoint at the action boundary"* as a missing 8th layer — the moment before an agent takes a high-consequence external action. Pairs with [[willison-andon-cafe-stockholm-2026-05|Willison's consent-ethics critique]] (human oversight on every outbound action with external impact).
+
 ## Resources
 - [[github-hornof-profile]] — wiki owner is actively tracking crewAI, learn-agentic-ai, OpenAI Agents SDK
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy at AI Ascent 2026; sensors/actuators framing, agent-native infrastructure, agentic engineering as discipline
@@ -77,3 +102,5 @@ Strategic read: this is the protocol-level answer to the [[saas-disruption-thesi
 - [[seelffff-personal-ai-agent]] — personal-scale agent stack on Claude Desktop + MCP
 - [[30-agents-every-ai-engineer-must-build]] — Packt book by [[imran-ahmad]] structuring agent engineering as a 30-pattern catalog (listing-only ingest)
 - [[cloudflare-stripe-projects-agents-2026-05]] — Cloudflare + Stripe co-launch agent-as-customer protocol primitives (May 2026)
+- [[eng-khairallah-multi-agent-team-course-2026-05-15]] — practitioner-content piece on Pipeline / Fan-Out / Specialist Team multi-agent patterns; Netflix / Harvey / Shopify production customers (May 15 2026)
+- [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14]] — 7-layer agentic-AI architecture cheat sheet; Wigton's "Final Checkpoint at the action boundary" variant in the comment thread (May 14 2026)

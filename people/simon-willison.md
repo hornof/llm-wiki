@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 ## Who They Are
@@ -27,6 +27,7 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **River as agent-governance-by-transparency (May 11 2026)**: amplifies [[tobi-lutke]]'s description of [[shopify]]'s internal coding agent [[river]] — *refuses DMs, forces all work into public channels*. First widely-discussed example of agent-as-shared-channel-participant rather than agent-as-personal-tool — [[willison-shopify-river-2026-05]]
 - **Maintenance-cost ROI for AI coding (May 11 2026)**: surfaces James Shore's framing — if AI lets you ship code 3× faster, maintenance costs must drop to 1/3 or you've mortgaged the future. Concrete identity-shaped argument for pairing any productivity claim with a maintenance-cost claim. Orthogonal counter to the velocity-narrative around [[claude-code]] adoption — [[willison-james-shore-maintenance-2026-05-11]]
 - **"11 AI agents" is a meaningless phrase (May 13 2026, amplification of Boris Mann)**: surfaces Boris Mann's Bluesky one-liner — *"'11 AI agents' is meaningless as a phrase. If I said 'I have 11 spreadsheets' or 'I have 11 browser tabs' to do my work, it means about the same thing."* — without editorial commentary; the amplification *is* the commentary. Terminology-hygiene marker: agent *count* is the wrong unit; describe function, integration, and topology instead. Consistent with Willison's broader 2026 stance on agent-marketing terminology — [[willison-boris-mann-11-agents-2026-05-13]]
+- **Programming languages used to be LOCK IN, and they're increasingly not so (May 14 2026, amplification of Mitchell Hashimoto)**: surfaces Hashimoto's framing in the context of Bun's Zig→Rust migration under coding-agent leverage. Pairs with a same-week anecdote of a mid-sized company rewriting legacy iPhone + Android apps to React Native with explicit *"could port back to native"* reversibility framing. The structural claim: agentic coding compresses migration cost, which converts platform-stack choices from one-way doors into reversible bets. Mirror image of the [[anthropic-spacex-higher-limits-2026-05-06|substrate-tier compute lock-in]]: concentration at the substrate, dispersion at the top. — [[willison-legacy-mobile-rewrite-2026-05-14]]
 
 ## Where to Follow
 - Blog: simonwillison.net
