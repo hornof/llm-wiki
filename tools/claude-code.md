@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-14
+last_updated: 2026-05-16
 ---
 
 
@@ -71,6 +71,8 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 ## Community Sentiment
 - April 2026: r/claude practitioners confirm structured output format enforcement as a genuine quality improvement; CLI displacing browser for agentic workflows — [[reddit-3-things-claude-output-quality]]
 - **May 11 2026 — maintenance-cost ROI counter-take**: James Shore (via [[simon-willison]]'s quote-post) frames the productivity math as an identity — if AI-assisted coding ships code 3× faster, maintenance must drop to 1/3 of baseline or the team is mortgaging future tech debt. Concrete practitioner counterpoint to the velocity-narrative around [[claude-code]] adoption; functionally the ROI side of Karpathy's [[agentic-engineering]] / [[vibe-coding]] split. — [[willison-james-shore-maintenance-2026-05-11]]
+- **May 15 2026 — cloud certs becoming "briefable" (Ivan Nardini, Google Cloud — verification-pending)**: surfaced via @Zephyr_hg on X — *"You don't need to know how to deploy on Google Cloud. Claude Code figures out the architecture for you."* Zephyr's gloss: *"The 2027 deployment skill isn't 'I know GCP.' It's 'I know how to brief Claude on the deployment.'"* No primary linked in the surfacing post (no talk video, blog post, or podcast); **flag for verification before external citation**. If accurate, extends [[willison-legacy-mobile-rewrite-2026-05-14|Willison's "languages used to be LOCK IN"]] thesis from programming languages to cloud-platform expertise. Counter-takes in thread (Kekko D'Amato, Bao Tran): capability-floor-raising is not capability-ceiling-equalizing; engineers who understand fundamentals still catch errors the agent misses. — [[zephyr-7-claude-setups-2026-05-15]]
+- **May 15 2026 — practitioner-side validation of CLAUDE.md as setup #1**: Zephyr's 7-setup taxonomy of Claude fluency (CLAUDE.md, Projects, Skills, Connectors, Scheduled Tasks, Model Routing, /goal) names CLAUDE.md as the highest-return 30 minutes; reinforces the [[claude-md-pattern]] community-canonical direction. Same week: svpino's per-subagent model-selection rule and Zephyr's Haiku/Sonnet/Opus model-routing-default land on the same pattern (task-appropriate model selection as load-bearing). — [[zephyr-7-claude-setups-2026-05-15]] / [[svpino-subagent-pilled-2026-05-15]]
 
 ## Resources
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern

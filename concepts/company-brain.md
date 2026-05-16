@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-05-12
+last_updated: 2026-05-16
 ---
 
 ## Definition
@@ -257,6 +257,7 @@ The bet underlying [[sentra]] is that the durable position is the integration po
 ## In the Wild
 
 - **DoorDash (May 2026)**: A new engineer recovered the context behind a three-month-old PM decision via AI rather than pinging the PM directly. Independent practitioner signal from [[aakashgupta]]; confirms the "surfacing" and "latency collapse" principles operating at the team level — decision context that would previously require a human interrupt is now retrievable on demand. — [[aakashgupta-doordash-company-brain-2026-05-10]]
+- **Personal-Finance Instantiation (Miles Deutscher, May 2026)**: The Company Brain three-layer architecture compressed to a single-person scope. Folder architecture: `instructions.md` (canonical behavioral contract — "read 'investor-one-pager.md' and 'memory.md' before every response") + `memory.md` (running change log; append-only, never overwrite; dated entries) + `investor-one-pager.md` (mindset document, not numerical targets; produced through 7-phase structured interview) + `/financials/` (reference subfolder for P&L, bank statements, cash position). Maps cleanly to the three layers — *factual memory* (financials + memory.md log), *context graph* (investor one-pager as the perspective lens; memory.md as the trace record), *action coordination* (Claude Cowork dashboard surface; Telegram BotFather mobile access). First wiki capture of the personal-OS variant of the substrate; demonstrates the markdown-brain-with-instructions-prompt pattern at individual scale. **Memory-curation problem named and unsolved** in the comment thread (Sathish Harry): auto-append produces bloat/degradation; manual curation is discipline-bound. Same boundary that markdown brains hit at organizational scale per the Part 8 framing. — [[milesdeutscher-claude-personal-cfo-2026-05-14]]
 
 ## Related Concepts
 

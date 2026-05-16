@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 ## Definition
@@ -76,6 +76,21 @@ The triangle is useful as a calibration anchor for new timeline claims: any aggr
 
 **Empirical anchor needed**: [[zephyr-karpathy-10-year-agent-window-2026-05-14]] surfaces Gerard Sans's citation of **Ríos-García et al. (arXiv:2604.18805)** — 25,000+ verifier experiments showing 68% of agent traces ignored gathered evidence, 71% had zero belief updates, 26% revised. If verified, this is a foundational failure rate (agents don't update from evidence) that has to close for any of the above timelines to be plausible. Worth elevating to a dedicated source if a primary surfaces.
 
+## Cultural-Sentiment Companion (Deedy Das, May 2026)
+
+The structural framework above measures the labor-market signal in employment, exposure, and timeline data. [[deedydas-sf-ai-wealth-divide-2026-05-15]] adds **the lived-experience cultural texture** that the data-side papers don't try to measure: a first-person SF essay naming four converging effects of the AI-capital concentration:
+
+1. **"The corporate ladder looks like the wrong building to climb."** — Career re-alignment toward founder / frontier-lab / equity-bet; broad job-switching demand for higher salaries.
+2. **"There's a deep malaise about work (and its future)."** — *"Why even work at all for peanuts? Will my job even exist in a few years?"* "Permanent underclass" conversation rising especially among young people.
+3. **Middle-manager paralysis** — *"They don't particularly have any AI skills. They see the writing on the wall: middle management is being hollowed out."* This is **the same population** that [[benln-dorsey-mini-agi-2026-05-13|FundamentalAnalysis named as 'first to atrophy']] in the org-chart-flattening framing; Deedy's first-person texture and the structural argument converge from opposite starting points.
+4. **Post-economic-founder lack-of-purpose** — *"And do what? Right now, everyone wants to talk to me. If I sell, I will only have money."*
+
+**Vibecoding-as-escape-hatch framing**: *"A frequent side effect of this torment is to spin up the very products making everyone rich in hopes that you too can vibecode your path to economic enlightenment."* — Names the cultural logic by which AI-anxiety becomes AI-adoption. Same shape as the [[fastcompany-amazon-workers-ai-task-faking-2026-05|Goodhart-Law gaming]] under corporate AI mandates, different driver (cultural vs corporate).
+
+**Counter-take worth tracking** (Hot Aisle): *"None of this is new."* Historical cycles (dot-com, mobile, crypto) produced similar discontinuous-outcome distributions. Whether AI is structurally different or just the same shape at larger scale is an open question this essay does not settle.
+
+Treat as cultural-sentiment data point, not measurement: specific numbers ($20M retirement wealth threshold, ~10k people) are Deedy's estimates; framing is SF-centric.
+
 ## Open Questions
 
 - **Will the young-worker signal hold up?** Currently "just barely statistically significant" in one measure, 6-16% in another. Re-runs over the next 6-12 months are the verification.
@@ -91,6 +106,7 @@ The triangle is useful as a calibration anchor for new timeline claims: any aggr
 - **Handa, Tamkin, McCain et al. (2025)** — "Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations." Anthropic Economic Index foundational paper.
 - **[[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]]** — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; 2031 prediction (50% of IT-admin tasks); "bullet train on 30 mph tracks" enterprise-readiness framing; ITSM-as-entry-point thesis.
 - **[[zephyr-karpathy-10-year-agent-window-2026-05-14]]** — Karpathy 10-year-timeline quote surfaced via Zephyr; Gerard Sans citation of Ríos-García et al. (arXiv:2604.18805) on verifier-belief-update failure rates.
+- **[[deedydas-sf-ai-wealth-divide-2026-05-15]]** — first-person SF cultural-sentiment companion; four-effect taxonomy; vibecoding-as-escape-hatch framing (May 15 2026).
 
 ## Related Concepts
 

@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 ## What It Is
@@ -94,6 +94,24 @@ Practitioner-content piece [[eng-khairallah-multi-agent-team-course-2026-05-15]]
 
 A second taxonomy circulated [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14|the same week]] frames the agentic-AI stack as 7 layers: Orchestration → Agents → Tools → Memory → Monitoring → Reliability & Failure → Governance & Security. **Notable variant** from the comment thread: Taylor Wigton's *"Final Checkpoint at the action boundary"* as a missing 8th layer — the moment before an agent takes a high-consequence external action. Pairs with [[willison-andon-cafe-stockholm-2026-05|Willison's consent-ethics critique]] (human oversight on every outbound action with external impact).
 
+### Solo-Founder 13-Agent Playbook (sairahul1, May 2026)
+
+Same-week convergent practitioner-content piece [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] operationalizes the multi-agent thesis at solo-founder scale: **3 business agents** (Research / Content / Operations — replace first three hires for $4–12K/mo savings each) + **10 Claude-Code-native development agents** (PR Reviewer, Test Generator, Bug Hunter, Doc Writer, Refactor Tracker, Daily Standup, Customer Feedback Synthesizer, Cold Outreach Personalizer, Content Repurposer, Inbox Triage). Cost claim: **~$1,300/month total** for the full 13-agent stack (Claude API $700–900, managed hosting $89–179, MCP tooling $100–200). Three operating rules: *"job description not vibe"* (anti-pattern named at agent level — pairs with [[claude-md-pattern]] at file level), *"see what they are doing in real time"* (observability non-optional), *"hosting on your laptop is not a strategy"* (90% of solo-founder agent setups die on cron/macOS-update failures). 90-day phased build plan. **Comment-thread payload (Lawand Soran)**: *"Agents break fast when the workflows they plug into were already broken."* — named operational-discipline prerequisite.
+
+### Subagent-Pilled Posture and Its Natural Ceiling (svpino + thread, May 2026)
+
+[[svpino-subagent-pilled-2026-05-15]] surfaces the maximal-decomposition end of the multi-agent design space: *"Everything that can be a subagent should be a subagent."* Three svpino-named advantages — separate context windows, per-subagent model selection (Haiku/Sonnet/Opus by task), per-subagent tool configuration. **The comment-thread payload names the natural ceiling**:
+
+- **Coordination-tax threshold (Jason Haugh)**: *"Past three or four agents the cost shifts to coordination. Who hands off to whom, where state lives, what wakes what."* Four-agent threshold beyond which decomposition stops paying off without an explicit chief-of-staff orchestration layer.
+- **Shared-mutable-state boundary (Prompt Assay)**: *"Subagent decomposition works cleanly until the tasks need shared mutable state. Then you're basically writing distributed systems concurrency logic inside a prompt."*
+- **Audit-trail collapse (Agentic Glacius)**: *"Subagent when its output stands alone as evidence. Inline when the reasoning IS the evidence. Subagent-everything works until your audit trail is just 'subagent #4 said so.'"* — design rule, not just a critique.
+- **Evaluation gap (Gergely Kovács)**: *"Nobody evaluates the sub-agents. And nobody will evaluate the work of the sub-sub-agents ever."*
+- **Microservices analogy** lands independently across three commenters: same operational-cost arc as the 2015–2020 microservices renaissance and correction. svpino himself walks back the headline framing in the thread (*"I'm overindexing on using them now, but I'm sure I'll find the proper balance"*) — current practitioner posture, not settled position.
+
+### Internal Org-Design Signal: Cursor (May 2026, verification-pending)
+
+[[av1dlive-cursor-1m-agent-orchestrator-2026-05-15]] surfaces a Cursor-CEO-video claim that **Cursor pays engineers $1.1M/year to run teams of AI agents that ship code while they sleep**. Three structural bullets: (1) engineers manage dozens of parallel agent colleagues each on its own remote machine, (2) *validation contract before code, not after — humans only at scoping and review*, (3) full planning → coding → testing → shipping loop with agents specialized by role (Specialist-Team pattern). **Primary not captured** — no Cursor exec quoted directly; flag as practitioner-content-secondary pending verification. The *job-title shift* (engineer-who-codes → engineer-who-runs-agents) is the second wiki-captured framing of this pattern this week alongside Khairallah and sairahul1.
+
 ## Resources
 - [[github-hornof-profile]] — wiki owner is actively tracking crewAI, learn-agentic-ai, OpenAI Agents SDK
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy at AI Ascent 2026; sensors/actuators framing, agent-native infrastructure, agentic engineering as discipline
@@ -104,3 +122,6 @@ A second taxonomy circulated [[meenakshiyacs-agentic-ai-architecture-cheat-sheet
 - [[cloudflare-stripe-projects-agents-2026-05]] — Cloudflare + Stripe co-launch agent-as-customer protocol primitives (May 2026)
 - [[eng-khairallah-multi-agent-team-course-2026-05-15]] — practitioner-content piece on Pipeline / Fan-Out / Specialist Team multi-agent patterns; Netflix / Harvey / Shopify production customers (May 15 2026)
 - [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14]] — 7-layer agentic-AI architecture cheat sheet; Wigton's "Final Checkpoint at the action boundary" variant in the comment thread (May 14 2026)
+- [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] — 13-agent solo-founder template + "job description not vibe" rule; $1,300/mo cost claim (May 15 2026)
+- [[svpino-subagent-pilled-2026-05-15]] — maximal-decomposition posture + comment-thread surfacing of the natural ceiling (May 15 2026)
+- [[av1dlive-cursor-1m-agent-orchestrator-2026-05-15]] — Cursor internal-org-design signal; $1.1M agent-orchestrator comp claim (May 15 2026)

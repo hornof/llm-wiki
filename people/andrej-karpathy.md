@@ -3,7 +3,7 @@ name: Andrej Karpathy
 type: person
 affiliation: Eureka Labs (founder)
 signal_sources: [twitter, blog, github, youtube]
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 ## Who They Are
@@ -39,6 +39,7 @@ Building AI education tools at Eureka Labs. Actively vibe-coding and agentic eng
 - **January 2026 Claude code-writing complaint thread spawned an ecosystem**: a Karpathy X thread naming three Claude failure modes — silent wrong assumptions, over-complication, "orthogonal damage" to nearby code — was packaged by [[forrest-chang]] into a 4-rule CLAUDE.md template that became the fastest-growing single-file GitHub repo of 2026 (~120K stars by May). [[mnilax-claude-md-12-rules-2026-05-09]] later extended it to 12 rules with empirical mistake-rate measurements. The pattern (see [[claude-md-pattern]]) is now community-canonical practice for Claude Code project setup.
 - **HTML as the new default LLM output format (May 8 2026)**: quote-tweeting [[thariq-shihipar]]'s "Unreasonable Effectiveness of HTML," Karpathy articulates a 4-step taxonomy — raw text → markdown (current default) → HTML ("early but forming new good default") → ... → interactive neural videos/simulations (the speculative endpoint, cited via [[thread-zan2434-flipbook]]). Reasoning: "audio is the human-preferred input to AIs but vision is the preferred output from them"; ~1/3 of the brain is dedicated to vision. Flags an open architectural question: how procedural Software 1.0 artifacts (deterministic interactivity) get woven together with neural artifacts (diffusion grids). First Karpathy-level voice connecting the *current* HTML-output prompting practitioner pattern ([[claude-code]] / [[willison-html-effectiveness-2026-05]]) to the *long-arc* [[model-rendered-ui]] research direction as a single trajectory. — [[karpathy-html-output-taxonomy-2026-05-08]]
 - **10-year timeline for agents to fully replace workers (May 2026, surfaced via Zephyr amplification)**: *"it will take about a decade to work through all of these issues before AI agents fully replace workers."* Cited by [[zephyr-karpathy-10-year-agent-window-2026-05-14]] without a direct primary link — **verify against primary recording before external citation**. Quote is consistent with Karpathy's prior public posture (AI Ascent 2026, podcast circuit). Slots into the wiki's timeline-calibration triangle alongside [[kris-lovejoy|Lovejoy's 2031 IT-admin-50%]] prediction and [[import-ai-456-clark-rsi-radical-optionality-2026-05-11|Korinek's ~6-year explosive regime]] scenario.
+- **2026 hiring interview = adversarial multi-agent capability test (May 2026, paraphrased; verification-pending)**: paraphrased by @sairahul1 — *"Build a large project with Claude Code — like a Twitter clone. Make it secure. Have real agents using the platform doing stuff. The interviewer uses parallel agents trying to break in to verify security."* No primary linked in the surfacing post; **flag for verification**. If verified, reframes [[agentic-engineering]] hiring from line-by-line code review to agent-vs-agent capability assessment. Structurally consistent with Karpathy's prior Claude-Code-as-default-interface posture. — [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]]
 
 ## Where to Follow
 - Twitter/X: @karpathy
