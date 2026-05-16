@@ -18,7 +18,7 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 ├── CLAUDE.md          # This file — schema, workflows, conventions
 ├── index.md           # Content catalog organized by category (LLM-maintained)
 ├── log.md             # Append-only ingest/query/lint log
-├── _raw/              # Immutable source drops (transcripts, links, pastes) — see "Two-Vault Architecture" below
+├── _raw/              # Immutable source drops (transcripts, links, pastes) — gitignored; drop zone for Obsidian Web Clipper and cross-device captures
 ├── tools/             # One page per AI tool or framework
 ├── models/            # One page per model family or provider
 ├── concepts/          # Foundational and emerging AI/ML concepts
@@ -30,34 +30,26 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 └── sources/           # One page per ingested source (podcast ep, thread, etc.)
 ```
 
-## Two-Vault Architecture (Git Checkout + iCloud Obsidian Vault)
+## Canonical Vault Location (iCloud Obsidian)
 
-As of May 2026, the wiki lives in **two parallel locations** that share the same git remote (`hornof/llm-wiki` on GitHub) but serve different purposes:
+The wiki lives at the **iCloud Obsidian vault**:
 
-| Location | Role | Used by |
-|---|---|---|
-| **Git checkout** — `/Users/lukehornof/src/claude/llm-wiki/` | Where Claude Code runs and commits | Claude Code / `gh` / git operations |
-| **iCloud Obsidian vault** — `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/llm-wiki/` | Cross-device Obsidian-readable surface | Obsidian on Mac / iPad / iPhone; Obsidian Web Clipper |
-
-**Critical implication for `_raw/` and `Daily Briefs/`** (both `.gitignore`'d): new content is typically dropped into the **iCloud vault**, not the git checkout. Web Clipper and Obsidian on any of the user's devices write to iCloud; those drops do NOT auto-propagate to the git checkout.
-
-### Ingest workflow update — check both `_raw/` locations
-
-**At the start of every ingest, check BOTH `_raw/` directories for net-new content:**
-
-```bash
-# Local git checkout
-ls -lt _raw/ | head -20
-
-# iCloud vault (canonical drop zone)
-ls -lt ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/llm-wiki/_raw/ | head -20
+```
+~/Library/Mobile Documents/iCloud~md~obsidian/Documents/llm-wiki/
 ```
 
-Same check applies to `Daily Briefs/` — the iCloud vault is the canonical drop zone for both.
+For ergonomics there is a symlink at `~/llm-wiki/` pointing to this path. Use either form; prefer `~/llm-wiki/` in commands and prose.
 
-**Reading raw files**: read directly from the iCloud path during ingest. No need to copy them into the local checkout (`_raw/` is `.gitignore`'d everywhere; the content survives in `sources/<slug>.md`).
+**This is the only location.** Earlier versions of the wiki ran from a separate git checkout at `/Users/lukehornof/src/claude/llm-wiki/`. That checkout was retired on 2026-05-15; if it still exists locally it is **stale** and should be ignored or deleted — do not commit, edit, or read from it.
 
-**If you discover net-new files in the iCloud `_raw/` that the local one doesn't have, flag to the user before proceeding** — they may want to know which device dropped them and may have additional context.
+**Why iCloud:** Obsidian on Mac / iPad / iPhone all read this location; Obsidian Web Clipper writes to `_raw/` here. Cross-device knowledge capture and ingest run from a single source of truth.
+
+**Implications for git operations:**
+- `.git/` lives on iCloud. This is acceptable because **only the Mac runs git** — Obsidian on iPad / iPhone only edits markdown, never touches `.git`. There is no risk of concurrent-commit corruption.
+- iCloud "optimize storage" can occasionally evict file contents. If a git operation reports a missing file, force a re-download with `brctl download "<path>"` and retry.
+- Spaces in the canonical path require quoting in shell commands. Prefer the `~/llm-wiki/` symlink.
+
+**Ingest workflow**: at the start of every ingest, check `_raw/` and `Daily Briefs/` for net-new content (single location now, no second vault to consult).
 
 ---
 
