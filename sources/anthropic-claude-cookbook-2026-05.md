@@ -8,7 +8,7 @@ ingested: 2026-05-11
 
 ## Summary
 
-Official Anthropic catalog of **81 practical guides across 15 categories** for building with Claude — surfaced into the wiki via [[bibryam]]'s May 11 2026 X post amplifying the resource. Covers agents, tool use, RAG, evals, multimodal apps, [[claude-code]] skills, integrations, and production workflows. Functions as Anthropic's first-party developer-onboarding catalog adjacent to (but distinct from) [[anthropic-academy-courses-catalog-2026-05]].
+Official Anthropic catalog of **81 practical guides across 15 categories** for building with Claude — surfaced into the wiki via bibryam's May 11 2026 X post amplifying the resource. Covers agents, tool use, RAG, evals, multimodal apps, [[claude-code]] skills, integrations, and production workflows. Functions as Anthropic's first-party developer-onboarding catalog adjacent to (but distinct from) [[anthropic-academy-courses-catalog-2026-05]].
 
 ## Key Claims / Takeaways
 

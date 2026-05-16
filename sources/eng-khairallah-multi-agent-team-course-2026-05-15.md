@@ -78,4 +78,4 @@ If accurate, this is the dogfooding confirmation that the multi-agent pattern is
 
 ## Pages Updated
 
-- [[concepts/agentic-ai]] (updated — Pipeline / Fan-Out / Specialist Team multi-agent pattern taxonomy added; 20-agent ceiling cited; Netflix / Harvey / Shopify production examples; two unverified claims flagged for follow-up)
+- [[agentic-ai]] (updated — Pipeline / Fan-Out / Specialist Team multi-agent pattern taxonomy added; 20-agent ceiling cited; Netflix / Harvey / Shopify production examples; two unverified claims flagged for follow-up)

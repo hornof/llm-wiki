@@ -79,7 +79,7 @@ Calibration from the same comment thread (@pritambasu_): *"We are still very far
 
 ## "The Company Becomes the Model" Framing (Dorsey via Benln, May 13 2026)
 
-A second Dorsey amplification surfaced in mid-May 2026 via [[benln]]'s X thread — *"every company can now be a mini-AGI"* ([[benln-dorsey-mini-agi-2026-05-13]]). The cleanest comment-thread restatement, from Pierangelo Raiola:
+A second Dorsey amplification surfaced in mid-May 2026 via benln's X thread — *"every company can now be a mini-AGI"* ([[benln-dorsey-mini-agi-2026-05-13]]). The cleanest comment-thread restatement, from Pierangelo Raiola:
 
 > "The company is not adding AI as a feature. The company becomes the model. The architecture of the org becomes the architecture of the inference. The CEO's job moves from setting strategy to designing the substrate strategy runs on."
 

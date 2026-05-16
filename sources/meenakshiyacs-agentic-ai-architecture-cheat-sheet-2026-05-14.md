@@ -36,15 +36,15 @@ Cheat-sheet thesis line: *"Agents alone don't make systems powerful. Architectur
 ## Why It Matters
 
 - **First wiki capture of "Final Checkpoint at the action boundary"** as a named architectural primitive. The Wigton claim is the load-bearing contribution from the thread — separates the agent's *decision* from the agent's *external commitment*. Worth tracking; if a primary surfaces (the Holoengine whitepaper), promote to a dedicated source.
-- **The 7-layer cheat sheet is a useful teaching artifact** but doesn't add structural novelty over what's already in [[concepts/agentic-ai]]. Capture as a citation for the orienting layer-map, not as the source of any new primitive.
+- **The 7-layer cheat sheet is a useful teaching artifact** but doesn't add structural novelty over what's already in [[agentic-ai]]. Capture as a citation for the orienting layer-map, not as the source of any new primitive.
 - **The "complexity is the enemy of shipping" + "start with a simple loop" framing** is the second wiki-capture of the *start-simple* discipline this week, alongside [[eng-khairallah-multi-agent-team-course-2026-05-15|Khairallah's step-6 "test with simple tasks first"]]. Practitioner convergence on incremental multi-agent build pattern.
 
 ## Cross-references
 
-- [[concepts/agentic-ai]] — anchor concept; 7-layer cheat sheet is the orienting map.
+- [[agentic-ai]] — anchor concept; 7-layer cheat sheet is the orienting map.
 - [[eng-khairallah-multi-agent-team-course-2026-05-15]] — same-week multi-agent practitioner-content piece; same start-simple discipline.
 - [[willison-andon-cafe-stockholm-2026-05]] — consent-ethics framing for action-boundary oversight; Wigton's Final Checkpoint argument pairs with this.
 
 ## Pages Updated
 
-- [[concepts/agentic-ai]] (already updated via Khairallah source; Wigton "Final Checkpoint at the action boundary" framing added as a Notable Variant on the canonical layer-map)
+- [[agentic-ai]] (already updated via Khairallah source; Wigton "Final Checkpoint at the action boundary" framing added as a Notable Variant on the canonical layer-map)
