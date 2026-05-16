@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-05-10
+last_updated: 2026-05-16
 ---
 
 ## Definition
@@ -52,6 +52,9 @@ A community-quoted claim ([[mnilax-claude-md-12-rules-2026-05-09]], citing Anthr
 - **Skill writing** ([[claude-code]] §Skill Writing) — same imperative-over-conversational logic; descriptions = WHEN-not-just-WHAT, directive verbs, explicit output format.
 - **`profile.md` + `hooks.md`** voice scaffolding ([[alfiejcarter-linkedin-claude-stack]]) — same per-project behavioral-contract pattern, applied to writing voice instead of coding behavior.
 - **Tom Crawshaw's Blueprint** ([[tomcrawshaw-claude-code-blueprint]]) — frames CLAUDE.md as "the trick that makes Claude predictable, not chaotic." Independent practitioner echo.
+- **Zephyr 7-setups taxonomy ([[zephyr-7-claude-setups-2026-05-15]], May 2026)** — names CLAUDE.md as setup #1 of seven Claude-fluency primitives; *"the single file that tells Claude how to behave for everything inside that project. Voice. Audience. Constraints. Output rules. What to never do. The highest-return 30 minutes you'll spend in Claude this year."* Practitioner-side validation in onboarding-pedagogy register.
+- **Deutscher Investor Strategy Architect ([[milesdeutscher-claude-personal-cfo-2026-05-14]], May 2026)** — domain-specific extension beyond code-task contexts. `instructions.md` paired with `memory.md` (running change log) + `investor-one-pager.md` (canonical mindset doc) + `/financials/` reference folder. The structured 7-phase discovery interview prompt operationalizes the *behavioral-contract* discipline for behavioral-discovery agents: explicit phase-gating ("never produce the final document until all seven phases are genuinely complete"), explicit refuse-conditions ("refuse generic answers, name contradictions directly"), explicit output specification. First wiki capture of the pattern applied to personal-finance / personal-OS rather than code generation.
+- **sairahul1's "job description not vibe" ([[sairahul1-solo-founder-13-agent-playbook-2026-05-15]], May 2026)** — the same anti-pattern at the agent-design level: *"Every agent has a job description, not a vibe. 'Pulls 10 trending posts from X every morning at 8am, drafts 3 replies in my voice, posts the highest-scoring one if I approve.' That is a job description. 'Help with content' is a vibe. Vibes don't survive the weekend."* Cross-level confirmation: CLAUDE.md addresses under-specification at the file level; sairahul1's framing addresses it at the agent level.
 
 ## Key Papers / Posts
 

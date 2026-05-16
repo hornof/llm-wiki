@@ -2,7 +2,7 @@
 name: Cursor
 type: company
 status: gaining-traction
-last_updated: 2026-04-29
+last_updated: 2026-05-16
 ---
 
 ## What It Is
@@ -20,8 +20,13 @@ Cursor sits in a market now also contested by Anthropic's Claude Code and OpenAI
 - Named alongside Claude Code (Anthropic) and Codex (OpenAI) as the primary players in the coding agent market
 - Substantial valuation despite competitive pressure from Anthropic and OpenAI directly
 
+## Internal Org-Design Signal (May 2026, verification-pending)
+
+@Av1dlive on X surfaces a 9-minute Cursor-CEO video claiming Cursor pays engineers **$1.1M/year** to "run teams of AI agents that ship code while they sleep." Bullets paraphrased from the video: (1) engineers manage dozens of parallel agent colleagues, each on its own remote machine; (2) validation contract before code, not after — humans only at scoping and review; (3) the agent team handles the full planning → coding → testing → shipping loop with agents specialized by role. **Primary not captured** (no Cursor exec quoted directly; YouTube video not fetched); treat the $1.1M comp claim and the agent-orchestrator job-title framing as practitioner-content-secondary pending direct verification. Same-week practitioner cluster around multi-agent orchestration includes [[eng-khairallah-multi-agent-team-course-2026-05-15]] and [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]]. — [[av1dlive-cursor-1m-agent-orchestrator-2026-05-15]]
+
 ## Resources
 
 - [[forbes-ai-50-2026]] — AI 50 coverage; competitive framing with Claude Code and Codex
+- [[av1dlive-cursor-1m-agent-orchestrator-2026-05-15]] — Cursor-CEO-video amplification; internal org-design and agent-orchestrator comp claim
 - [[claude-code]] — direct competitor
 - [[ai-50-2026-snapshot]] — coding agents sector analysis

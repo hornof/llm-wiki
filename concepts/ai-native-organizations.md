@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-15
+last_updated: 2026-05-16
 ---
 
 ## Definition
@@ -113,6 +113,14 @@ Pairs structurally with [[benln-dorsey-mini-agi-2026-05-13|FundamentalAnalysis's
 
 All three converge on the underlying claim: **AI replaces the labor function that aggregates information for higher-status decision-makers** — middle managers in Block, first-year analysts in IB, IT administrators in Kyndryl's framing.
 
+## Solo-Founder Instantiation: 13-Agent Stack (sairahul1, May 2026)
+
+[[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] gives the AI-native-org thesis a concrete *solo-founder* template: replace the first three hires (market analyst + content/social manager + EA/chief-of-staff at $4–12K/mo each) with three Claude-orchestrated business agents, then add 10 Claude-Code-native dev agents for engineering workflow. Cost claim: **~$1,300/month total** for the full stack; 90-day phased build plan; claim that 13 well-built agents cover 70–80% of a team-of-six's output for the first 12–18 months of a business.
+
+This is the **smallest-scale instantiation** of the company-becomes-the-model framing — where Block reorganizes a $90B fintech around AI world models and Wall Street eliminates the analyst pyramid, sairahul1 names the same shape at solo-founder scale. The architectural common factor across all four scales (solo founder / Block / Wall Street IB / Kyndryl back-office) is: **a small number of judgment-bearing humans coordinate a larger number of role-specialized agents through explicit job descriptions, validation contracts, and shared state**.
+
+Counter-take in the comment thread (Lawand Soran): *"The founders who get there first are not the ones with the best AI tools. They are the ones who fixed the operational layer underneath before adding AI on top. Agents break fast when the workflows they plug into were already broken."* — same shape as Lovejoy's "configuration-as-security" framing applied to operational-discipline as the binding prerequisite.
+
 ## Key Sources
 
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
@@ -126,3 +134,4 @@ All three converge on the underlying claim: **AI replaces the labor function tha
 - [[benln-dorsey-mini-agi-2026-05-13]] — Dorsey "every company can now be a mini-AGI"; Raiola's "the company becomes the model" formulation; FundamentalAnalysis counter-take on flattening-before-reliable; CEO-competency-gap framing
 - [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]] — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; "bullet train on 30 mph tracks" enterprise-readiness counter-take; ITSM-as-entry-point; configuration-as-security framing
 - [[kris-lovejoy]] / [[kyndryl]] / [[craig-smith]] — entity pages for the Lovejoy interview ecosystem
+- [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] — 13-agent solo-founder template; $1,300/mo cost claim; "job description not vibe" rule (May 15 2026)

@@ -3,7 +3,7 @@ name: Demis Hassabis
 type: person
 affiliation: Google DeepMind (CEO)
 signal_sources: [twitter, academic, conference, video]
-last_updated: 2026-04-29
+last_updated: 2026-05-16
 ---
 
 ## Who They Are
@@ -31,6 +31,7 @@ Building toward AGI at Google DeepMind, with an explicit 2030 target. Simultaneo
 - **Philosophical influences**: Kant ("the mind creates reality"), Spinoza (deterministic/spiritual dimension of scientific inquiry) — [[hassabis-deepmind-alphafold-agi]]
 - **Consciousness**: Self-awareness, self-and-other distinction, temporal continuity — necessary but not sufficient. Substrate equivalence is why we assume each other is conscious; AI will never have substrate equivalence — [[hassabis-deepmind-alphafold-agi]]
 - **Agent era**: "We're in the midst of the agent era now." Recommends building a precise tool first, crossing to agency/consciousness questions as a second step — [[hassabis-deepmind-alphafold-agi]]
+- **No.1 application of AI**: "I've always believed the No.1 application of AI should be to improve human health. That work started with AlphaFold, and now at @IsomorphicLabs with the mission to reimagine drug discovery and one day solve all disease! We are turbocharging that goal with $2.1B in new funding." — X, 2026-05-15, on the Isomorphic Labs Series B — [[isomorphic-labs-series-b-2026-05-16]]
 
 ## Where to Follow
 - Twitter/X: @demishassabis
