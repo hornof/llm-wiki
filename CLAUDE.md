@@ -18,7 +18,7 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 ├── CLAUDE.md          # This file — schema, workflows, conventions
 ├── index.md           # Content catalog organized by category (LLM-maintained)
 ├── log.md             # Append-only ingest/query/lint log
-├── _raw/              # Immutable source drops (transcripts, links, pastes)
+├── _raw/              # Immutable source drops (transcripts, links, pastes) — see "Two-Vault Architecture" below
 ├── tools/             # One page per AI tool or framework
 ├── models/            # One page per model family or provider
 ├── concepts/          # Foundational and emerging AI/ML concepts
@@ -29,6 +29,35 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 ├── owner/             # Wiki owner's professional identity: profile, publications, social presence
 └── sources/           # One page per ingested source (podcast ep, thread, etc.)
 ```
+
+## Two-Vault Architecture (Git Checkout + iCloud Obsidian Vault)
+
+As of May 2026, the wiki lives in **two parallel locations** that share the same git remote (`hornof/llm-wiki` on GitHub) but serve different purposes:
+
+| Location | Role | Used by |
+|---|---|---|
+| **Git checkout** — `/Users/lukehornof/src/claude/llm-wiki/` | Where Claude Code runs and commits | Claude Code / `gh` / git operations |
+| **iCloud Obsidian vault** — `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/llm-wiki/` | Cross-device Obsidian-readable surface | Obsidian on Mac / iPad / iPhone; Obsidian Web Clipper |
+
+**Critical implication for `_raw/` and `Daily Briefs/`** (both `.gitignore`'d): new content is typically dropped into the **iCloud vault**, not the git checkout. Web Clipper and Obsidian on any of the user's devices write to iCloud; those drops do NOT auto-propagate to the git checkout.
+
+### Ingest workflow update — check both `_raw/` locations
+
+**At the start of every ingest, check BOTH `_raw/` directories for net-new content:**
+
+```bash
+# Local git checkout
+ls -lt _raw/ | head -20
+
+# iCloud vault (canonical drop zone)
+ls -lt ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/llm-wiki/_raw/ | head -20
+```
+
+Same check applies to `Daily Briefs/` — the iCloud vault is the canonical drop zone for both.
+
+**Reading raw files**: read directly from the iCloud path during ingest. No need to copy them into the local checkout (`_raw/` is `.gitignore`'d everywhere; the content survives in `sources/<slug>.md`).
+
+**If you discover net-new files in the iCloud `_raw/` that the local one doesn't have, flag to the user before proceeding** — they may want to know which device dropped them and may have additional context.
 
 ---
 

@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 ## Definition
@@ -60,6 +60,22 @@ For an AI engineering / VPE career:
 
 The Anthropic measure is the first to use first-party-lab usage telemetry as the empirical anchor. Other labs (OpenAI, Google) have not yet published comparable usage-anchored exposure measures — would be a structural move if/when they do.
 
+## Timeline-Calibration Triangle (May 2026)
+
+Three dated agentic-replacement timeline claims captured in the wiki, all roughly within the same decade:
+
+| Source | Prediction | Date stamp |
+|---|---|---|
+| [[kris-lovejoy]] / Kyndryl (via [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15|Eye on A.I.]]) | **Half of traditional IT-admin tasks handled by AI agents by 2031** | May 15 2026 |
+| [[andrej-karpathy]] (via [[zephyr-karpathy-10-year-agent-window-2026-05-14|Zephyr amplification]]) | **~10 years for agents to fully replace workers** | May 14 2026 |
+| Anton Korinek (Anthropic) — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] | **~6 years to explosive growth regime** under full software R&D automation + 5% economy-wide automation shock | May 11 2026 |
+
+The triangle is useful as a calibration anchor for new timeline claims: any aggressive *"AI will replace 50% of jobs in 2 years"* claim that doesn't engage with these three needs to either supersede them or be filed as hype. Any cautious *"agentic AI is overhyped, decades away"* claim needs to engage with Korinek's lower bound.
+
+**Counter-prediction from Lovejoy (worth holding alongside)**: the *replacement profile* may not map to current programmer roles. *"Not coders, but people trained to ask the right questions"* will thrive. If correct, the [[anthropic-labor-market-impacts-2026-03-05|Computer Programmers 75% covered]] finding measures *displacement of current programmers* rather than displacement of *the work programming does* — those are different things, and the existing framework conflates them.
+
+**Empirical anchor needed**: [[zephyr-karpathy-10-year-agent-window-2026-05-14]] surfaces Gerard Sans's citation of **Ríos-García et al. (arXiv:2604.18805)** — 25,000+ verifier experiments showing 68% of agent traces ignored gathered evidence, 71% had zero belief updates, 26% revised. If verified, this is a foundational failure rate (agents don't update from evidence) that has to close for any of the above timelines to be plausible. Worth elevating to a dedicated source if a primary surfaces.
+
 ## Open Questions
 
 - **Will the young-worker signal hold up?** Currently "just barely statistically significant" in one measure, 6-16% in another. Re-runs over the next 6-12 months are the verification.
@@ -73,6 +89,8 @@ The Anthropic measure is the first to use first-party-lab usage telemetry as the
 - **Brynjolfsson, Chandar, Chen (2025)** — "Canaries in the Coal Mine: six facts about the recent employment effects of artificial intelligence." Independent ADP-payroll data; 6-16% young-worker employment decline in exposed occupations. *Not yet ingested as a separate source; cited in [[anthropic-labor-market-impacts-2026-03-05]].*
 - **Eloundou, Manning, Mishkin, Rock (2023)** — "GPTs are GPTs." arXiv:2303.10130. The β-metric origin paper. *Not yet ingested as a separate source.*
 - **Handa, Tamkin, McCain et al. (2025)** — "Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations." Anthropic Economic Index foundational paper.
+- **[[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]]** — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; 2031 prediction (50% of IT-admin tasks); "bullet train on 30 mph tracks" enterprise-readiness framing; ITSM-as-entry-point thesis.
+- **[[zephyr-karpathy-10-year-agent-window-2026-05-14]]** — Karpathy 10-year-timeline quote surfaced via Zephyr; Gerard Sans citation of Ríos-García et al. (arXiv:2604.18805) on verifier-belief-update failure rates.
 
 ## Related Concepts
 
