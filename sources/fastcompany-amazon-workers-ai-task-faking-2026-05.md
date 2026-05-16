@@ -33,3 +33,7 @@ Fast Company article, 2026-05 (surfaced via 2026-05-15 brief). Primary not fetch
 - [[ai-labor-market-impacts]] / [[anthropic-labor-market-impacts-2026-03-05]] — `observed exposure` measure calibration anchor; mandate-driven usage may inflate measured deployment density.
 - [[ai-native-organizations]] — failure-mode counterweight; AI-aspiration-driven org change outruns AI capability.
 - [[benln-dorsey-mini-agi-2026-05-13]] — FundamentalAnalysis "flatten before reliable" counter-take; structurally the same argument applied to org charts.
+
+## Pages Updated
+
+None — primary inaccessible (HTTP 403 paywall). Captured as synopsis-only; no entity pages updated pending primary verification.

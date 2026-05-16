@@ -8,7 +8,7 @@ ingested: 2026-05-14
 
 ## Summary
 
-[[benln]] X post 2026-05-13 surfacing a Jack Dorsey image-card with the framing *"every company can now be a mini-AGI"* (image content not captured verbatim — `pbs.twimg.com/media/HIM3IKkXcAAHt8f` is the image-only payload). Value is concentrated in the comment thread, where six practitioner reactions sketch the agent-as-org-architecture conversation more clearly than the image itself does. The cleanest formulation is from Pierangelo Raiola: **"the company becomes the model. The architecture of the org becomes the architecture of the inference. The CEO's job moves from setting strategy to designing the substrate strategy runs on."** Continues benln's pattern of being a strong-curation aggregator without authoring original takes — see [[benln-yc-summer-2026-rfs]] and [[benln-x-karpathy-agentic-engineering-2026-05]].
+benln X post 2026-05-13 surfacing a Jack Dorsey image-card with the framing *"every company can now be a mini-AGI"* (image content not captured verbatim — `pbs.twimg.com/media/HIM3IKkXcAAHt8f` is the image-only payload). Value is concentrated in the comment thread, where six practitioner reactions sketch the agent-as-org-architecture conversation more clearly than the image itself does. The cleanest formulation is from Pierangelo Raiola: **"the company becomes the model. The architecture of the org becomes the architecture of the inference. The CEO's job moves from setting strategy to designing the substrate strategy runs on."** Continues benln's pattern of being a strong-curation aggregator without authoring original takes — see [[benln-yc-summer-2026-rfs]] and [[benln-x-karpathy-agentic-engineering-2026-05]].
 
 ## Key Claims / Takeaways
 
@@ -37,7 +37,7 @@ ingested: 2026-05-14
 
 ## Cross-references
 
-- [[benln]] / [[benln-x-karpathy-agentic-engineering-2026-05]] / [[benln-yc-summer-2026-rfs]] — benln's prior X amplifications; consistent aggregator pattern.
+- [[benln-x-karpathy-agentic-engineering-2026-05]] / [[benln-yc-summer-2026-rfs]] — benln's prior X amplifications; consistent aggregator pattern.
 - [[ai-native-organizations]] — entity page; updated with the "company becomes the model" framing and the FundamentalAnalysis counter-take.
 - [[ashwingop-company-brain-year-lessons-2026-05]] — Sentra's company-brain framing is the operational version of "company becomes the model."
 - [[scobleizer-ai-native-companies]] — Scoble's original AI-native-company definition.

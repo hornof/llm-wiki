@@ -50,6 +50,7 @@
 - [[mechanistic-interpretability]] — research program for understanding how LLMs compute internally; Anthropic NLAs and Cheng & Zhang ICL-localization gap (May 2026)
 - [[control-flow-agents]] — counter-position: agents need deterministic control flow in code, not more elaborate prompts (May 2026)
 - [[ai-energy-efficiency]] — Joules-per-token framing; data-movement-dominates-arithmetic; Amdahl's-Law-in-energy; the 1000× target as a memory problem (May 2026)
+- [[kv-cache-optimization]] — inference-side memory bottleneck; head-wise budgeting + quantization + eviction; sustained research wave with three head-wise-budget papers in two weeks (May 2026)
 - [[code-mode]] — runtime pattern where the agent writes code that calls tools through a runtime; tool definitions enter context only on import lines; resolves the MCP-vs-CLI debate by making both sides primitives the runtime composes (Anthropic Nov 2025)
 - [[claude-md-pattern]] — CLAUDE.md as a behavioral contract, not a config dump; community-evolved discipline (Karpathy → Forrest Chang's 4 → Mnilax's 12 rules); 200-line ceiling for compliance (May 2026)
 - [[llmorphism]] — Capraro's coined bias: attributing LLM-like cognition to humans; the inverse of anthropomorphism; sociological/conceptual paper (May 2026)

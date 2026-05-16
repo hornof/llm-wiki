@@ -13,7 +13,7 @@ Latent Space / AINews recap, 2026-05-14: pairs two contemporaneous market signal
 ## Key Claims / Takeaways
 
 - **The Ramp claim (re-surfaced):** Anthropic at 34.4% of paid-business-customer share vs OpenAI at 32.3% in April; cited as the "first apparent lead change in business adoption." Cross-confirmed by The Rundown amplification.
-- **Why Codex is rising per the piece:** three named factors — (i) GPT-5.5 being "a really good" model, (ii) launch of [[tools/codex|Codex]] for new use cases, (iii) "more generous limits" on Codex tier.
+- **Why Codex is rising per the piece:** three named factors — (i) GPT-5.5 being "a really good" model, (ii) launch of Codex for new use cases, (iii) "more generous limits" on Codex tier.
 - **The Anthropic metering change:** every Claude subscription now gets a monthly credit of API tokens equal to the subscription dollar amount. Example given: a $200 Claude subscription includes both interactive Claude.ai / Claude Code usage *and* $200 of API credits usable across third-party harnesses ("claude-p, OpenClaw and others"). Above that, programmatic usage is metered at API rates.
 - **Practitioner reception:** mixed. One observer in the article called it a "rug pull of sorts" against third-party-harness users who had been operating under the subscription-flat-rate assumption. Critical responses cited from Theo, Jeremy Howard, Matt Pocock, and Omar Sanseviero. Authors characterize the change as "establishing an official policy" rather than targeting alternative platforms — a normalization rather than a punitive move.
 - **OpenAI counter-move:** two months of free Codex usage for enterprise customers switching in the next 30 days.
