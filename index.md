@@ -100,6 +100,8 @@
 - [[vladimir-klimontovich]] — Jitsu CEO (YC S20); author of "Claude Code Did My Taxes" — clean non-coding document-prep workflow walkthrough (Jan 2026)
 - [[anton-leicht]] — independent AI-policy analyst; *Threading the Needle* Substack; structural-analysis voice on frontier-AI access regimes (May 2026)
 - [[svpino]] — Santiago Valdarrama; AI/ML educator on X; HTML-over-Markdown practitioner voice; surfaced [[dac]] (May 2026)
+- [[kris-lovejoy]] — Kyndryl Global Strategy Leader; "bullet train on 30 mph tracks" enterprise-readiness counter-take; 2031 IT-admin-50% prediction (May 2026)
+- [[craig-smith]] — *Eye on A.I.* podcast host; former NYT journalist; longform AI-practitioner interviews (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -129,6 +131,7 @@
 - [[unconventional-ai]] — early-stage AI hardware-software co-design company; pursuing 1000× energy efficiency for GenAI inference; founded by Naveen Rao (May 2026)
 - [[shopify]] — Canadian commerce platform; AI-first operating model under [[tobi-lutke]]; operator of [[river]] internal coding agent (May 2026)
 - [[abridge]] — vertical-AI healthcare company; 100M+ doctor visits, 250+ health systems, $5.3B valuation; "clinical intelligence layer" thesis-shift from ambient documentation to documentation+decision-support+prior-auth (May 2026)
+- [[kyndryl]] — IT-infrastructure services; spun out from IBM 2021; first wiki-tracked systems-integrator-as-AI-deployer entity; agentic-ITSM thesis (May 2026)
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
@@ -285,6 +288,8 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[svpino-bruin-dac-markdown-doomed-2026-05-15]] — Santiago Valdarrama (svpino) restates HTML-over-Markdown thesis with the pragmatic "nobody wants to type HTML" pivot; surfaces [[dac]]; first wiki-captured counter-take from Andrii Artemenko (May 15 2026)
 - [[meenakshiyacs-agentic-ai-architecture-cheat-sheet-2026-05-14]] — 7-layer agentic-AI architecture cheat sheet (Orchestration → Agents → Tools → Memory → Monitoring → Reliability → Governance); Wigton's "Final Checkpoint at the action boundary" variant (May 14 2026)
 - [[dailybrief-research-roundup-2026-05-15]] — arXiv aggregator: EEG-foundation-model SAE mechanistic interpretability; trajectory-balance post-training for diffusion LMs; federated fine-tuning benchmark; Collider-Bench particle-physics agent benchmark (May 15 2026)
+- [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]] — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; "bullet train on 30 mph tracks" enterprise-readiness counter-take; ITSM-as-entry-point; 2031 prediction; "ask the right questions" labor take (May 15 2026)
+- [[zephyr-karpathy-10-year-agent-window-2026-05-14]] — Zephyr amplifies Karpathy's 10-year-timeline-for-full-agentic-replacement quote (verify against primary); Gerard Sans citation of Ríos-García et al. (arXiv:2604.18805) verifier-belief-update failure rates (May 14 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

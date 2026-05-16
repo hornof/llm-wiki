@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 ## Definition
@@ -91,6 +91,28 @@ This is the most operational formulation of the AI-native-org thesis captured to
 
 The three frames — operational ("become the model"), failure-mode (capability lags org change), and constraint (CEO literacy) — together give the AI-native-org concept its most complete current shape.
 
+## Enterprise-Readiness Counter-Take: "Bullet Train on 30 mph Tracks" (Lovejoy, May 15 2026)
+
+The cleanest enterprise-readiness counter-take captured to date comes from [[kris-lovejoy|Kris Lovejoy]] (Kyndryl Global Strategy Leader) on [[craig-smith|Craig Smith]]'s *Eye on A.I.* podcast ([[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]]):
+
+> "Agentic AI is a bullet train sitting on tracks built for 30 miles per hour. The technology is ready. Most organizations aren't, and the gap between a successful pilot and a production system running at scale is far wider than the hype suggests."
+
+Pairs structurally with [[benln-dorsey-mini-agi-2026-05-13|FundamentalAnalysis's "flatten before reliable"]] counter-take from the same week — both name the same shape (org-restructuring outpaces AI capability), Lovejoy from the *infrastructure-side*, FundamentalAnalysis from the *org-design side*.
+
+**ITSM-as-entry-point**: Lovejoy's strategic argument is that **IT Service Management is the smartest first-line agentic deployment** for enterprises because (a) workflows are well-defined, (b) failure modes are bounded and observable, (c) **up to 90% cost savings** in ITSM produce the budget that funds broader modernization. Distinct from the Block holistic-rebuild path and the Wall-Street junior-tier-elimination path — this is the *boring-back-office* deployment path. Cross-confirmed same day by Michele Lane in the Karpathy-quote comment thread ([[zephyr-karpathy-10-year-agent-window-2026-05-14]]): *"ship the boring ops work first... Most teams keep demoing agents, then panic when the EBITDA hits."*
+
+**Configuration-as-security**: Lovejoy reframes practical agentic security risk as **misconfiguration / bad context / human error**, not sophisticated external attack. Pairs with the [[theregister-ontario-clinical-ai-audit-2026-05-14|Ontario clinical-AI audit]] pattern (vendor-selection weighted at 4% accuracy is the *structural* cause of deployed-accuracy failures).
+
+**The three deployment paths now in the wiki:**
+
+| Path | Shape | Anchor |
+|---|---|---|
+| **Holistic org rebuild** | Capabilities + world model + DRIs | Block |
+| **Junior-tier elimination** | Entry layer dissolves; senior judgment persists | Wall Street IB analysts via [[anthropic-finance-agents-2026-05-05]] |
+| **Back-office IT-services** | ITSM-first; 90% cost savings → modernization budget | Kyndryl via [[kris-lovejoy]] |
+
+All three converge on the underlying claim: **AI replaces the labor function that aggregates information for higher-status decision-makers** — middle managers in Block, first-year analysts in IB, IT administrators in Kyndryl's framing.
+
 ## Key Sources
 
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
@@ -102,3 +124,5 @@ The three frames — operational ("become the model"), failure-mode (capability 
 - [[joshkale-anthropic-finance-agents-2026-05]] — analyst-pyramid framing; comment-thread debate on whether the bottom flattens vs. disappears
 - [[linas-anthropic-startup-playbook-2026-05]] — Anthropic's vertical-build map across 4 enterprise domains
 - [[benln-dorsey-mini-agi-2026-05-13]] — Dorsey "every company can now be a mini-AGI"; Raiola's "the company becomes the model" formulation; FundamentalAnalysis counter-take on flattening-before-reliable; CEO-competency-gap framing
+- [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]] — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; "bullet train on 30 mph tracks" enterprise-readiness counter-take; ITSM-as-entry-point; configuration-as-security framing
+- [[kris-lovejoy]] / [[kyndryl]] / [[craig-smith]] — entity pages for the Lovejoy interview ecosystem
