@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-09
+last_updated: 2026-05-18
 ---
 
 ## What This Is
@@ -123,6 +123,34 @@ The thesis question "do humans still buy SaaS in 2027?" now has a concrete proto
 This is direct empirical pressure on the thesis: an AI-native frontier-model company crossing Salesforce's revenue line in five years from founding rather than 25+. The infrastructure layer is monetizing faster than the application layer that sits on top of it.
 
 **Important caveat from the comment thread**: token prices have fallen ~90%+ over the past 18 months, so revenue acceleration ≠ value-per-token acceleration. AWS's $0 → $85B trajectory while underpricing compute is the most coherent comparable curve, contra Aakash's claim of "no comparable curve in software history." Still: the structural shape (frontier model API revenue overtaking incumbent SaaS revenue) holds.
+
+## Chamath's Two-Tier Diagnosis (May 17 2026)
+
+[[chamath-openai-consulting-fox-in-henhouse-2026-05-17|Chamath Palihapitiya's X post]] (with @MilkRoadAI synthesis) gives the sharpest single articulation of the SaaS-disruption thesis as it stands in mid-May 2026, with concrete quantitative anchors:
+
+### Market-data anchors (May 2026)
+
+- **90% of public SaaS stocks are down 30–80% from their 52-week highs.** Median software stock is now negative over the last 3–6 months.
+- **Software forward P/E multiples fell from 35× to 20×** — the lowest absolute level since 2014 and the smallest premium to the S&P 500 since 2010 (Goldman Sachs cited).
+- **Combined frontier-lab consulting-venture spend: $5.5B in a single month** — OpenAI Deployment Company at $4B (guaranteed 17.5% IRR; $700M/yr payouts on a company projected to lose $14B in 2026) + Anthropic's $1.5B venture with Blackstone / Goldman / Hellman & Friedman.
+
+### Two-tier framing
+
+| Tier | Outcome | Why |
+|---|---|---|
+| **Low end** | Dead first and fastest | *"$49/month per-seat single-function SaaS"* replaced by AI agents-as-workflows. The seat-based business model doesn't survive *"describe what you need and it builds it."* |
+| **High end** | Survives and consolidates | Proprietary data moats: Salesforce CRM flywheel, Palantir FDE model, Oracle vertical-specific data. |
+| **Mid-market** | On the conveyor belt | Single-function tools, lightweight enterprise apps without defensible data assets. |
+
+### The fox-in-the-henhouse argument
+
+Consulting firms (PwC, Accenture) deploying Anthropic / OpenAI APIs directly are being undermined twice: (1) the lab is funding competing AI-native startups; (2) the lab uses SI deployment usage to drive its own model improvements. Chamath's pitch: a **control plane** that arbitrates token routing across model providers — 8090's *"Software Factory"* is the named productized version, with EY as the existence-proof global partnership.
+
+### Caveats
+
+- Chamath has commercial interest (8090) in the framing.
+- 17.5% guaranteed IRR claim and Anthropic $1.5B venture details captured with verification-pending caveat — primary documents not surfaced.
+- Counter-take that consulting firms thrive (Anakin via thread): the consulting layer captures value precisely because integrating AI into enterprise workflow is the binding constraint — *"models are interchangeable inputs; advantage comes from distribution, data, and execution at scale."* Worth holding both framings.
 
 ## Tracking Signals
 

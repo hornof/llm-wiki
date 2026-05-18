@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-15
+last_updated: 2026-05-18
 ---
 
 ## What It Is
@@ -138,3 +138,6 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[anthropic-labor-market-impacts-2026-03-05]] — Anthropic Economic Index research: `observed exposure` framework, Computer Programmers 75% coverage, young-worker hiring slowdown, Brynjolfsson cross-confirmation (March 5 2026)
 - [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": names Anthropic Mythos selective-deployment + OpenAI Daybreak parallel; structural analysis of frontier-AI access gatekeeping (May 13 2026)
 - [[eng-khairallah-multi-agent-team-course-2026-05-15]] — practitioner-content piece on Multi-agent Orchestration; Cowork-built-on-multi-agent claim; Harvey Dreaming 6× completion-rate claim (pending primary verification) (May 15 2026)
+- [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — first wiki capture of Anthropic's **$1.5B consulting venture** backed by Blackstone, Goldman Sachs, and Hellman & Friedman; matches OpenAI Deployment Company structurally; $5.5B combined OpenAI+Anthropic spend on human-powered enterprise deployment in May 2026 (verification-pending on the Anthropic vehicle's specific terms) (May 17 2026)
+- [[dailybrief-mixed-2026-05-16-to-18]] — PwC × Claude enterprise partnership (May 17 2026); note: same day as Chamath's "PwC + Accenture fox-in-henhouse" framing — the PwC × Anthropic announcement is the surface Chamath is critiquing
+- [[lecun-after-llms-unsupervised-learning-2026-05-15]] — LeCun's "Anthropic brainwashing governments" critique under counter-takes; sharpest dated external critique of Anthropic's safety positioning to date (May 15 2026)

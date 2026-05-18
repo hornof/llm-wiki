@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-05-16
+last_updated: 2026-05-18
 ---
 
 ## Definition
@@ -107,6 +107,35 @@ Treat as cultural-sentiment data point, not measurement: specific numbers ($20M 
 - **[[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]]** — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; 2031 prediction (50% of IT-admin tasks); "bullet train on 30 mph tracks" enterprise-readiness framing; ITSM-as-entry-point thesis.
 - **[[zephyr-karpathy-10-year-agent-window-2026-05-14]]** — Karpathy 10-year-timeline quote surfaced via Zephyr; Gerard Sans citation of Ríos-García et al. (arXiv:2604.18805) on verifier-belief-update failure rates.
 - **[[deedydas-sf-ai-wealth-divide-2026-05-15]]** — first-person SF cultural-sentiment companion; four-effect taxonomy; vibecoding-as-escape-hatch framing (May 15 2026).
+
+## C-Suite-Emergence Path: Chief AI Officer (May 2026)
+
+The structural framework above measures the labor-market signal in employment, exposure, and timeline data. [[nateherk-caio-opportunity-2026-05-17]] surfaces an IBM survey of 2,000 CEOs (median $5.8B revenue) that adds **C-suite-role-creation data** to the framework:
+
+- **76% of CEOs surveyed have or are hiring a Chief AI Officer (CAIO) in 2026** — up from 26% in 2024.
+- **86% of employees have the skills; only 25% actually use AI at work — 61-point adoption gap.** The bottleneck isn't capability; it's connecting capable employees to the workflows that need it.
+- **57% of CAIOs were promoted from inside** (per a separate IBM 600-CAIO study). The role goes to existing AI-fluent employees, not external hires.
+- **85% of CEOs say every functional leader (CMO, CFO, COO, head of sales) has to become AI-fluent**; **77% say talent leadership and tech leadership are converging into one job**.
+- **40% of CAIOs report to CEO, 24% to CIO**, rest scattered across CTO/COO — *"nobody can agree on what this role 100% is"* — first-definers win.
+
+### The CISO analogy (compressed timeline)
+
+- CISO role didn't exist in 1980; took ~15 years to become universal at major companies after the internet matured. CAIO emergence took **24 months** to go from 26% → 76% — same shape, 7× compression.
+- *"Internet-marketer-as-disappearing-qualifier"* analogy: once AI saturates every function, "AI consultant" → "consultant"; the qualifier disappears. IBM-cited framing: *"Today, AI augments people. By 2030, people will augment AI."*
+
+### Two career paths into the seat
+
+- **Path A (External)**: AI consultant / agency → pulled in-house by client → CAIO.
+- **Path B (Internal)**: already employed → become the most AI-fluent person in the building → promoted into the seat. **57% of current CAIOs took Path B.**
+
+### CEO predictions get marked-to-market badly
+
+- In 2024, half of these CEOs predicted AI would be primarily driving growth by 2026; today only 10% say it actually is. **CEOs were off by ~40 percentage points in one year on their own AI growth-driver prediction.** Worth holding alongside the 76%-CAIO-adoption datum — both come from the same survey, only one is a forward prediction the other is a present-tense headcount commitment.
+
+### Caveats
+
+- Survey is large publicly traded companies, $5.8B median revenue — not globally representative. nateherk himself: *"Globally I'd be shocked if it's over 30%."*
+- Path-allocation between A and B (57% inside vs 43% outside) is the strongest single argument against the dominant content-creator narrative that consulting/agency is the only AI-native career path.
 
 ## Related Concepts
 

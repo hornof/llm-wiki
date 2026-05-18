@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-16
+last_updated: 2026-05-18
 ---
 
 ## Definition
@@ -110,6 +110,7 @@ Pairs structurally with [[benln-dorsey-mini-agi-2026-05-13|FundamentalAnalysis's
 | **Holistic org rebuild** | Capabilities + world model + DRIs | Block |
 | **Junior-tier elimination** | Entry layer dissolves; senior judgment persists | Wall Street IB analysts via [[anthropic-finance-agents-2026-05-05]] |
 | **Back-office IT-services** | ITSM-first; 90% cost savings → modernization budget | Kyndryl via [[kris-lovejoy]] |
+| **C-suite-emergence** | New CAIO role + every functional leader becomes AI-fluent | 76% of IBM-surveyed CEOs hiring CAIO in 2026 (up from 26% in 2024); 57% promoted from inside — [[nateherk-caio-opportunity-2026-05-17]] |
 
 All three converge on the underlying claim: **AI replaces the labor function that aggregates information for higher-status decision-makers** — middle managers in Block, first-year analysts in IB, IT administrators in Kyndryl's framing.
 
@@ -135,3 +136,6 @@ Counter-take in the comment thread (Lawand Soran): *"The founders who get there 
 - [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15]] — Kris Lovejoy (Kyndryl) on *Eye on A.I.*; "bullet train on 30 mph tracks" enterprise-readiness counter-take; ITSM-as-entry-point; configuration-as-security framing
 - [[kris-lovejoy]] / [[kyndryl]] / [[craig-smith]] — entity pages for the Lovejoy interview ecosystem
 - [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] — 13-agent solo-founder template; $1,300/mo cost claim; "job description not vibe" rule (May 15 2026)
+- [[nateherk-caio-opportunity-2026-05-17]] — IBM CAIO data (76% → up from 26% in 2024); 61-point adoption gap; 57%-promoted-from-inside; two-paths career framing (May 17 2026)
+- [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — consulting-firms-as-AI-native-operators (per Anakin counter-take); SaaS-disruption two-tier framing; OpenAI/Anthropic $5.5B combined consulting venture (May 17 2026)
+- [[stahlberg-team-os-aakash-2026-05]] — Team OS pattern as the team-scale AI-native-org instantiation; 4-practitioner convergence (Stulberg/DoorDash, Killeen/Pendo, Meyer/Google, Vellotti solo) (May 2026)
