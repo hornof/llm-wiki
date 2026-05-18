@@ -2,7 +2,7 @@
 name: World Models
 type: concept
 maturity: active-research
-last_updated: 2026-04-29
+last_updated: 2026-05-18
 ---
 
 ## Definition
@@ -21,9 +21,9 @@ The specific architecture LeCun proposes. Key insight: predict in abstract repre
 3. Latent variable z represents unpredictable information
 4. Uncertainty handled by either discarding hard-to-predict details or generating multiple plausible predictions
 
-**Training**: VICReg (Variance, Invariance, Covariance Regularization) — avoids expensive contrastive learning
+**Training**: VICReg (Variance, Invariance, Covariance Regularization) — avoids expensive contrastive learning. **Latest (May 2026)**: **SIGREG** (Sketched Isotropic Gaussian Regularization), work by Randall Balestriero (now at Brown) and a MILA student — forces the distribution of encoder outputs to be jointly Gaussian; cleanest information-content regularizer to date. Recommended primary read: **LEWorldModel paper** (LeCun via [[lecun-after-llms-unsupervised-learning-2026-05-15]]).
 
-**Hierarchical JEPA**: stack multiple JEPAs — lower levels handle short-term, concrete predictions; higher levels handle long-term, abstract planning. Mirrors how humans reason at multiple timescales.
+**Hierarchical JEPA**: stack multiple JEPAs — lower levels handle short-term, concrete predictions; higher levels handle long-term, abstract planning. Mirrors how humans reason at multiple timescales. **AMI Labs target (May 2026)**: a general methodology to train hierarchical models on a wide variety of modalities within ~1 year, with action-conditioned demonstrations on robotics / industrial process control / healthcare within 12–18 months.
 
 ## Why Not Generative Models?
 The world is not fully predictable. Generating in pixel/token space forces the model to predict everything — including irreducible noise. JEPA abstracts away the unpredictable and focuses on what can be learned. More efficient, more robust.
@@ -102,3 +102,4 @@ Multiple labs at active-research stage with diverging architectures:
 - [[luma-ai]] — Uni-1 architecture and deployment
 - [[cognitive-revolution-luma-worldsim]] — deepest technical discussion of Luma's approach
 - [[ai-for-science]] — Hassabis's domain-specific learned simulators (WeatherNext, virtual cell)
+- [[lecun-after-llms-unsupervised-learning-2026-05-15]] — LeCun on the "predict in abstract representation space, not token space" framing; "by early 2027 obvious" timeline; SIGREG + LEWorldModel pointers

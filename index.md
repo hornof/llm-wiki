@@ -103,6 +103,7 @@
 - [[svpino]] — Santiago Valdarrama; AI/ML educator on X; HTML-over-Markdown practitioner voice; surfaced [[dac]] (May 2026)
 - [[kris-lovejoy]] — Kyndryl Global Strategy Leader; "bullet train on 30 mph tracks" enterprise-readiness counter-take; 2031 IT-admin-50% prediction (May 2026)
 - [[craig-smith]] — *Eye on A.I.* podcast host; former NYT journalist; longform AI-practitioner interviews (May 2026)
+- [[hannah-stulberg]] — PM at DoorDash; ~1,500 documented hours in Claude Code; viral *Claude Code for Everything* Substack series; Team OS architecture (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -298,6 +299,15 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[milesdeutscher-claude-personal-cfo-2026-05-14]] — Personal-finance Company-Brain instantiation: instructions.md + memory.md + investor-one-pager.md + /financials/ folder architecture; 7-phase Investor Strategy Architect interview prompt; memory-curation problem named and unsolved (May 14 2026)
 - [[zephyr-7-claude-setups-2026-05-15]] — 7-setup Claude fluency taxonomy (CLAUDE.md, Projects, Skills, Connectors, Scheduled Tasks, Model Routing, /goal); Ivan Nardini "you don't need to know GCP" quote (verification-pending) (May 15 2026)
 - [[deedydas-sf-ai-wealth-divide-2026-05-15]] — First-person SF cultural-sentiment essay on AI-capital concentration; four-effect taxonomy (corporate-ladder-wrong-building / malaise / middle-manager paralysis / post-economic-founder lack-of-purpose); vibecoding-as-escape-hatch framing (May 15 2026)
+- [[lecun-after-llms-unsupervised-learning-2026-05-15]] — Yann LeCun on AMI Labs / JEPA / Tapestry / why-left-Meta / Hinton-Bengio divergence / "LLMs intrinsically unsafe" / SIGREG-LEWorldModel; "by early 2027 obvious" timeline (May 15 2026)
+- [[stahlberg-team-os-aakash-2026-05]] — Hannah Stulberg's Team OS pattern (1500h Claude Code at DoorDash) + Aakash Gupta followup essay synthesizing 4-practitioner convergence (Stulberg/DoorDash, Killeen/Pendo, Meyer/Google, Vellotti solo) (May 2026)
+- [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — Chamath two-tier SaaS-disruption diagnosis + MilkRoadAI synthesis; first wiki capture of OpenAI Deployment Company $4B at 17.5% guaranteed IRR + Anthropic $1.5B consulting venture (May 17 2026)
+- [[nateherk-caio-opportunity-2026-05-17]] — IBM CAIO data (76% adoption, up from 26% in 2024); 61-point employee-skills-vs-usage adoption gap; 57%-promoted-from-inside; CISO-analogy compressed-timeline framing; two-paths (external consultant vs internal AI-fluent functional leader) career frame (May 17 2026)
+- [[cerebras-60b-ipo-2026-05-16]] — Cerebras IPO at $60B; first wiki capture of the AI-hardware capital-event anchor; "slowly, then all at once" inference-cost-as-bottleneck thesis crystallization (May 16 2026)
+- [[dwarkesh-intelligence-vs-power-2026-05-16]] — Dwarkesh Patel essay attacking the definitional layer of AGI-risk framing; the Stalin example as definitional check (May 16 2026)
+- [[dwarkesh-pretraining-parallelisms-2026-05]] — Dwarkesh Patel infrastructure deep-dive on pretraining-parallelism failure modes; communication-overhead-as-binding-constraint framing (May 17 2026)
+- [[dailybrief-research-roundup-2026-05-18]] — arXiv aggregate: quantization-undoes-alignment, GQLA latent-attention extension, TeamTR multi-agent trust-region, safety-tax self-distillation, mesh surrogates, perturbation-conditioned molecular diffusion (May 18 2026)
+- [[dailybrief-mixed-2026-05-16-to-18]] — brief-tier roundup: OpenAI Brockman reshuffle, Import AI 457 (AI Stuxnet), Linux SML AI-bug-flood, Latent Space × Azhnyuk Fourth Law, PwC × Claude, CTF-format-broken claim (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
