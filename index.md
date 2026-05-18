@@ -308,6 +308,7 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[dwarkesh-pretraining-parallelisms-2026-05]] — Dwarkesh Patel infrastructure deep-dive on pretraining-parallelism failure modes; communication-overhead-as-binding-constraint framing (May 17 2026)
 - [[dailybrief-research-roundup-2026-05-18]] — arXiv aggregate: quantization-undoes-alignment, GQLA latent-attention extension, TeamTR multi-agent trust-region, safety-tax self-distillation, mesh surrogates, perturbation-conditioned molecular diffusion (May 18 2026)
 - [[dailybrief-mixed-2026-05-16-to-18]] — brief-tier roundup: OpenAI Brockman reshuffle, Import AI 457 (AI Stuxnet), Linux SML AI-bug-flood, Latent Space × Azhnyuk Fourth Law, PwC × Claude, CTF-format-broken claim (May 2026)
+- [[claude-code-goal-command-2026-05]] — Anthropic-official @ClaudeDevs post on `/goal` + companion long-running primitives (`/loop`, `/schedule`, stop hooks, auto mode); "Ralph loop built into Claude Code"; CLAUDE.md-as-prerequisite framing from Luca Capone in Deutscher comment thread (May 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
