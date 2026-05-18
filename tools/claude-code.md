@@ -45,6 +45,14 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
 - **Hooks**: shell commands that run automatically on events (e.g., after each response)
 - **Harnesses**: the internal prompting/settings layer baked into IDE integrations (Claude Code, Cursor, Windsurf, Copilot); distinct from orchestration frameworks like LangChain or CrewAI
 - **context-mode (MCP)**: MCP server setting that constrains file ingestion scope — without it, MCP can pull entire `node_modules` into context and exhaust token limits
+- **Long-running primitives (May 2026 — per [[claude-code-goal-command-2026-05]] @ClaudeDevs official)**: five named surfaces for unattended-execution loops:
+  - **`/goal <completion-condition>`** — runs a self-checking loop; *"Every time Claude tries to stop, it checks your condition against the transcript. Not done? It keeps going. Done? You get a 'Goal achieved' summary."* Anthropic explicitly identifies this as *"the Ralph loop, built into Claude Code."* Example: `/goal all tests in test/auth pass and the lint step is clean`. Docs: code.claude.com → *Keep Claude working toward a goal*.
+  - **`/loop`** — run Claude on repeat for iterative refactors, cleanups, backlog burndown.
+  - **`/schedule`** — run Claude on a cadence (nightly tests, morning triage, weekly cleanup).
+  - **Stop hooks** — programmatic control over when Claude is allowed to finish (run test suite, hit CI endpoint, gate on whatever).
+  - **Auto mode** — required for long-running unattended operation; enable with `shift+tab` in CLI or the mode selector on desktop. Anthropic framing: *"Long-running only works if Claude doesn't have to wait on you. That's why we have auto mode."*
+
+  Practitioner prerequisite (Luca Capone): *"/goal only works well when your CLAUDE.md is solid. Without project context, it wanders. With it, feels like a junior dev who actually read the docs."* — CLAUDE.md is a prerequisite for, not a complement to, unattended-execution capability. See [[claude-md-pattern]].
 
 ## Practitioner Patterns (community-sourced)
 - **Format locking**: Enforce an exact response schema in the system prompt (e.g., "1 sentence, max 3 bullets, 1 next action") — Claude follows format constraints more reliably than other models per community reports
