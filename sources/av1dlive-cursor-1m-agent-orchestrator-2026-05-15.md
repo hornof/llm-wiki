@@ -8,12 +8,13 @@ ingested: 2026-05-16
 
 ## Summary
 
-@Av1dlive X post May 15 2026 amplifying an unspecified 9-minute Cursor-CEO video: **"Cursor pays engineers $1,100,000 a year to run teams of AI agents that ship code while they sleep."** The X post supplies a three-bullet summary of the Cursor agent-orchestration model and links to a YouTube video (`https://youtu.be/8h9j2rskP14`). The video is not captured here — claim is captured as practitioner-content-secondary pending primary verification.
+@Av1dlive X post May 15 2026 amplifying an unspecified 9-minute Cursor-CEO video. Two headline claims from the post: **"Cursor pays engineers $1,100,000 a year to run teams of AI agents that ship code while they sleep"** and **"The CEO of Cursor explained in 9 minutes how they ship at 100x speed using team of agents."** The X post supplies a three-bullet summary of the Cursor agent-orchestration model and links to a YouTube video (`https://youtu.be/8h9j2rskP14`). The video is not captured here — both claims are captured as practitioner-content-secondary pending primary verification.
 
 ## Key Claims / Takeaways
 
-### The headline comp claim (verification caveat)
+### Two headline claims (verification caveat)
 
+- **"Ship at 100x speed using team of agents"** — Av1dlive's framing of what the Cursor CEO explains in the 9-minute video. The number is unanchored — no methodology, no baseline (vs single-engineer? vs pre-agent Cursor itself? vs the industry?), no Cursor exec quoted directly on the figure. The structural argument (parallel agent orchestration delivers superlinear throughput relative to single-engineer-with-assistant work) is consistent with the same-week [[sairahul1-solo-founder-13-agent-playbook-2026-05-15|13-agent playbook]] and [[eng-khairallah-multi-agent-team-course-2026-05-15|Khairallah course]] framings; the *specific multiple* is rhetorical until primary surfaces.
 - **$1.1M/year for "engineers who run teams of AI agents"** at Cursor. Av1dlive presents this as a concrete number without a quoted Cursor exec. The number is plausible at the high end for top SF engineering comp packages (cash + equity at AI labs and tools companies), but the *causal framing* — that this comp band is tied to agent-orchestration capability rather than general senior engineering — is the load-bearing claim and is unverified.
 
 ### The three structural bullets
