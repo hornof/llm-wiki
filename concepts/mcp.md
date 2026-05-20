@@ -2,7 +2,7 @@
 name: Model Context Protocol (MCP)
 type: concept
 maturity: active-research
-last_updated: 2026-05-09
+last_updated: 2026-05-20
 ---
 
 ## Definition
@@ -25,6 +25,7 @@ MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool
 - **Token cost of MCP servers — concrete practitioner numbers** (May 2026, [[akshay-pachaar-mcp-vs-cli-2026-05-09]]): [[playwright-mcp]] = 13.7K tokens, Chrome DevTools MCP = 18K, a **5-server MCP setup burns 55K tokens before any work**. Single workflows with schemas + tool outputs piped through the model on every step can hit **150K tokens**. These numbers explain why "load every tool upfront" was always a bad idea — and why Anthropic's [[code-mode]] reframe shipped.
 - **MCP-vs-CLI debate resolved by [[code-mode]]** (Nov 2025 publication, May 2026 practitioner reframing): both sides survived; they stopped being the runtime and became the primitives the runtime composes. Code Mode keeps MCP's typed contracts and CLI's lazy loading inside one runtime. Tool definitions enter context only on the import lines the agent writes. Anthropic's published example dropped a Google-Drive→Salesforce workflow from full schemas to **2K tokens (98.7% reduction)**; Cloudflare collapsed a 2,500-endpoint API from 1.17M tokens of schemas to **1K tokens** via `search` + `execute`. — [[akshay-pachaar-mcp-vs-cli-2026-05-09]]
 - **MCP traction — 300M SDK downloads, up from 100M at start of 2026** (Anthropic-stated, May 2026): 3× growth in 5 months. *"What died was loading every tool upfront. The protocol is not dying. It is the fastest growing piece of agent infrastructure right now."* — [[akshay-pachaar-mcp-vs-cli-2026-05-09]]
+- **MCP tunnels (public beta, 2026-05-19)** — named network-primitive for connecting Claude to MCP servers behind customer firewalls. Shipped alongside [[anthropic|Anthropic's self-hosted sandboxes]] (Claude running inside customer infrastructure) as part of the May 2026 enterprise-deployment expansion. First wiki capture of MCP tunnels as a distinct named primitive; prior MCP framing was protocol-only without specific network-tunneling tooling. — [[dailybrief-roundup-2026-05-19]]
 
 ## Key Papers / Posts
 - [[github-hornof-profile]] — `learn-agentic-ai` repo (forked by owner) covers MCP alongside OpenAI Agents SDK, A2A, Knowledge Graphs, Dapr
