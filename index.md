@@ -309,6 +309,9 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[dailybrief-research-roundup-2026-05-18]] — arXiv aggregate: quantization-undoes-alignment, GQLA latent-attention extension, TeamTR multi-agent trust-region, safety-tax self-distillation, mesh surrogates, perturbation-conditioned molecular diffusion (May 18 2026)
 - [[dailybrief-mixed-2026-05-16-to-18]] — brief-tier roundup: OpenAI Brockman reshuffle, Import AI 457 (AI Stuxnet), Linux SML AI-bug-flood, Latent Space × Azhnyuk Fourth Law, PwC × Claude, CTF-format-broken claim (May 2026)
 - [[claude-code-goal-command-2026-05]] — Anthropic-official @ClaudeDevs post on `/goal` + companion long-running primitives (`/loop`, `/schedule`, stop hooks, auto mode); "Ralph loop built into Claude Code"; CLAUDE.md-as-prerequisite framing from Luca Capone in Deutscher comment thread (May 2026)
+- [[karpathy-joins-anthropic-2026-05-19]] — Andrej Karpathy joins Anthropic to lead a research group; ends the "independent Karpathy" phase that produced most of the wiki's currently-tracked Karpathy framings; Eureka Labs status flagged for verification (May 19 2026)
+- [[dailybrief-roundup-2026-05-19]] — Anthropic acquires Stainless + KPMG 276K-workforce integration + self-hosted sandboxes / MCP tunnels public beta + Google Search pivot to conversational AI + Edison Scientific × Incyte + Anthropic 7× monthly-token growth chart + DeepMind Project Genie × Street View + METR frontier-risk report (May 19 2026)
+- [[jeff-clarke-dell-ai-native-imperatives-2026-05-19]] — Dell COO/Vice-Chair Jeff Clarke's "AI-Native: It's not a birthright. It's a decision." five-imperatives framework for AI-native enterprise pivot; "every action needs a receipt" audit-trail framing (May 19 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 ---
 
 ## Definition
@@ -139,3 +139,4 @@ Counter-take in the comment thread (Lawand Soran): *"The founders who get there 
 - [[nateherk-caio-opportunity-2026-05-17]] — IBM CAIO data (76% → up from 26% in 2024); 61-point adoption gap; 57%-promoted-from-inside; two-paths career framing (May 17 2026)
 - [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — consulting-firms-as-AI-native-operators (per Anakin counter-take); SaaS-disruption two-tier framing; OpenAI/Anthropic $5.5B combined consulting venture (May 17 2026)
 - [[stahlberg-team-os-aakash-2026-05]] — Team OS pattern as the team-scale AI-native-org instantiation; 4-practitioner convergence (Stulberg/DoorDash, Killeen/Pendo, Meyer/Google, Vellotti solo) (May 2026)
+- [[jeff-clarke-dell-ai-native-imperatives-2026-05-19]] — Dell COO/Vice-Chair five-imperatives framework for AI-native enterprise; infrastructure-supplier-side framing; *"every action needs a receipt"* audit-trail requirement; data-locality as triple-converged (sovereignty + federated-training + Dell-imperatives) binding constraint (May 19 2026)

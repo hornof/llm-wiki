@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 ---
 
 ## What It Is
@@ -37,6 +37,11 @@ Funding alternatives Anthropic names for free / lower-cost access (i.e., how it 
 - Potential **lower-cost subscription tiers** and **regional pricing**
 
 This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]], in which OpenAI began testing ads on ChatGPT's free tier. The juxtaposition is the cleanest paired-public-divergence between the two labs on consumer monetization to date — see [[openai]] for the inverse framing.
+
+## Key Hires & Acquisitions (May 2026)
+
+- **2026-05-19 — [[andrej-karpathy]] joins to lead a research group.** Announced via Karpathy's X post ("I've joined Anthropic"); specific group focus, reporting line, and start date not yet captured in primary form — see [[karpathy-joins-anthropic-2026-05-19]]. Most material researcher-move into Anthropic captured in the wiki to date; ends Karpathy's independent post-OpenAI phase. Status of [[eureka-labs]] post-move flagged for verification.
+- **2026-05-19 — Anthropic acquires [[stainless]]** (developer-tools / SDK-codegen). Adds typed-client-SDK generation infrastructure in-house; vertical-integration of the developer-experience moat. *"The real moat isn't the model"* (Daily Brief framing). — [[dailybrief-roundup-2026-05-19]]
 
 ## Key Research Contributions
 
@@ -106,6 +111,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-05: **Agents for Financial Services — Anthropic primary** — ten named pre-built agents (pitch builder, meeting preparer, earnings reviewer, model builder, market researcher, valuation reviewer, GL reconciler, month-end closer, statement auditor, KYC screener) shipped on [[claude-opus-4-7|Claude Opus 4.7]] (Anthropic claim: 64.37% on Vals AI Finance Agent benchmark, state-of-the-art). Distribution: plugins on every paid plan + Managed Agents via Claude Platform public beta + Excel/PowerPoint/Word add-ins GA. Launch partners: Citadel, FIS, BNY, Carlyle, Mizuho, Travelers, Walleye Capital, Hg, Dun & Bradstreet, Morningstar. Integrations include 16 data providers; Moody's via MCP is the first public Anthropic-Moody's integration. Walleye Capital quote: **100% of employees use Claude Code**. FIS: AML investigations compressed from days to minutes — [[anthropic-finance-agents-2026-05-05]]
 - 2026-05-14: **Gates Foundation $200M partnership — Anthropic primary** — four-year commitment combining grant funding, Claude usage credits, and technical support, run through Anthropic's **Beneficial Deployments** team. Scoped to global health (vaccines, therapies, polio, HPV, eclampsia/preeclampsia, IDM disease-forecasting integration), K-12 education (US + sub-Saharan Africa + India tutoring; foundational literacy/numeracy via GAILA), economic mobility (smallholder farmers; portable certification; training-to-employment measurement), and agriculture. First wiki-tracked AI-lab × major-foundation partnership at this scale; institutional-capital path distinct from VC funding. No quoted execs — institutional positioning, not personality-led narrative. Combined with same-week Ramp #1 ([[techcrunch-anthropic-ramp-business-customers-2026-05-13]]) and SpaceX/Colossus 1 compute ([[anthropic-spacex-higher-limits-2026-05-06]]), forms a coordinated three-surface repositioning across commercial / compute / institutional — [[anthropic-gates-foundation-200m-2026-05-14]]
 - 2026-05-14: **Subscription metering policy formalized** — every Claude subscription now includes a monthly API token credit equal to the subscription dollar amount (e.g., a $200/mo plan = $200 of API credits usable across Claude Code, claude.ai, *and* third-party harnesses). Programmatic usage above that allotment metered at API rates (~70-90% discount vs. legacy raw API pricing per the AINews recap). Practitioner reception mixed — some characterized it as a "rug pull" against third-party-harness users; AINews frames it as Anthropic establishing official policy after a period of subsidized access. Posture: incumbent-metering vs. challenger-generosity ([[companies/openai|OpenAI/Codex]] going the other way with two months free for enterprise switchers and "more generous limits") — [[latentspace-codex-rises-claude-meters-2026-05-14]]
+- 2026-05-19: **KPMG integrates Claude across 276K-person workforce.** Largest workforce-wide Claude deployment captured in the wiki. Two of the Big Four (PwC + KPMG) publicly deploying Claude in a single week. Adds KPMG to Anthropic's enterprise-customer roster at structural-comparable scale to OpenAI Deployment Company's stated competitive set ([[chamath-openai-consulting-fox-in-henhouse-2026-05-17]]). — [[dailybrief-roundup-2026-05-19]]
+- 2026-05-19: **Self-hosted sandboxes + MCP tunnels in public beta.** Claude running inside customer infrastructure (data-residency / sovereignty / compliance response); MCP tunnels as named network-primitive for behind-firewall MCP servers — first wiki capture of the MCP-tunnel primitive. — [[dailybrief-roundup-2026-05-19]]
+- 2026-05-19: **7× monthly-token-processing growth chart published.** Quantitative anchor for the [[aakashgupta-anthropic-growth-acceleration-2026-05-09|$44B-in-17-months]] revenue traction; the token-volume curve is bending up alongside the revenue curve. — [[dailybrief-roundup-2026-05-19]]
 
 ## Resources
 
@@ -141,3 +149,5 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — first wiki capture of Anthropic's **$1.5B consulting venture** backed by Blackstone, Goldman Sachs, and Hellman & Friedman; matches OpenAI Deployment Company structurally; $5.5B combined OpenAI+Anthropic spend on human-powered enterprise deployment in May 2026 (verification-pending on the Anthropic vehicle's specific terms) (May 17 2026)
 - [[dailybrief-mixed-2026-05-16-to-18]] — PwC × Claude enterprise partnership (May 17 2026); note: same day as Chamath's "PwC + Accenture fox-in-henhouse" framing — the PwC × Anthropic announcement is the surface Chamath is critiquing
 - [[lecun-after-llms-unsupervised-learning-2026-05-15]] — LeCun's "Anthropic brainwashing governments" critique under counter-takes; sharpest dated external critique of Anthropic's safety positioning to date (May 15 2026)
+- [[karpathy-joins-anthropic-2026-05-19]] — Karpathy joins to lead a research group; ends his independent post-OpenAI phase (May 19 2026)
+- [[dailybrief-roundup-2026-05-19]] — Stainless acquisition + KPMG 276K-workforce integration + self-hosted sandboxes + MCP tunnels public beta + 7× monthly-token-growth chart (May 19 2026)
