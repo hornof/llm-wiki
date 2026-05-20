@@ -312,6 +312,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[karpathy-joins-anthropic-2026-05-19]] — Andrej Karpathy joins Anthropic to lead a research group; ends the "independent Karpathy" phase that produced most of the wiki's currently-tracked Karpathy framings; Eureka Labs status flagged for verification (May 19 2026)
 - [[dailybrief-roundup-2026-05-19]] — Anthropic acquires Stainless + KPMG 276K-workforce integration + self-hosted sandboxes / MCP tunnels public beta + Google Search pivot to conversational AI + Edison Scientific × Incyte + Anthropic 7× monthly-token growth chart + DeepMind Project Genie × Street View + METR frontier-risk report (May 19 2026)
 - [[jeff-clarke-dell-ai-native-imperatives-2026-05-19]] — Dell COO/Vice-Chair Jeff Clarke's "AI-Native: It's not a birthright. It's a decision." five-imperatives framework for AI-native enterprise pivot; "every action needs a receipt" audit-trail framing (May 19 2026)
+- [[openai-ipo-filing-2026-05-20]] — WSJ reports OpenAI preparing to file IPO paperwork "very soon"; first frontier-lab IPO filing signal; sets public-market template for the cohort (May 20 2026)
+- [[google-io-2026-flash-omni-spark-antigravity]] — Google I/O 2026 four-product surface: Gemini 3.5 Flash GA + Gemini Omni (video, "Nano Banana for video") + Gemini Spark (background agents) + Antigravity 2.0 (agent SDK); YouTube Shorts distribution moat (May 20 2026)
+- [[deepmind-co-scientist-aging-reversal-2026-05-19]] — DeepMind Co-Scientist identifies novel rejuvenation factors in human cells; first wiki capture of Co-Scientist and cellular-aging-reversal applied-AI-for-science domain; promising-but-not-validated (May 2026)
+- [[dailybrief-roundup-2026-05-20]] — Exa $250M Series C at $2.2B (20× token growth) + Intuit 17%-workforce-cut-for-AI + DeepSeek Code Harness team + Cohere Command A+ open-source + UCCI cascade-routing + HRM-Text + GRAM + InferenceBench (May 20 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

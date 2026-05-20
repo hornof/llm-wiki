@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-05-06
+last_updated: 2026-05-20
 ---
 
 ## Definition
@@ -50,3 +50,5 @@ AI-for-science simulations (weather, virtual cell, economics) are closely relate
 - [[world-models]] — related architectural concept
 - [[vibe-physics]] — second-pattern derivation-mode AI-for-science from OpenAI Science (May 2026)
 - [[latent-space-lupsasca-vibe-physics-2026-05]] — Lupsasca primary source documenting vibe physics
+- [[deepmind-co-scientist-aging-reversal-2026-05-19]] — DeepMind Co-Scientist identifies genetic leads to reverse cellular aging in human cells; promising-but-not-validated; functional-biology counterpart to [[alphafold]] structural-biology (May 2026)
+- [[isomorphic-labs-series-b-2026-05-16]] — Isomorphic Labs $2.1B Series B; IsoDDE drug-design engine; pairs with Co-Scientist as DeepMind applied-AI-for-science commercial-and-research portfolio (May 2026)

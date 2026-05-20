@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-05-06
+last_updated: 2026-05-20
 ---
 
 ## What It Is
@@ -29,6 +29,18 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 - **WeatherNext**: AI-powered weather simulation; most accurate + fastest available
 - **Virtual cell**: ongoing project to simulate a biological cell as a complex emergent system
 - **Decoupled DiLoCo** (May 2026): distributed-training architecture splitting compute into asynchronous "islands" with chaos-engineering-driven self-healing. Built on Pathways. 198 Gbps → 0.84 Gbps inter-DC bandwidth across 8 datacenters; 88% goodput vs 27% baseline at high failure rates. Production-validated on a 12B Gemma 4 trained across four U.S. regions at 2-5 Gbps, >20× faster than conventional sync (64.1% accuracy vs 64.4% baseline). Lead: Arthur Douillard. — [[deepmind-decoupled-diloco-2026-05]]
+- **Co-Scientist — cellular-aging-reversal genetic leads** (May 2026): DeepMind's Co-Scientist tool identified novel rejuvenation factors in human cells. First wiki capture of Co-Scientist as a named DeepMind applied-AI-for-science tool; pairs with [[alphafold]] (structural biology) as the **functional-biology** counterpart. **Promising-but-not-validated**: published as DeepMind blog post; no peer-reviewed companion paper, no independent reproduction, specific genetic targets and wet-lab-vs-in-silico validation boundary not captured in surfacing brief. Worth tracking as candidate seed for a third DeepMind commercial spinout (after [[isomorphic-labs]]) if the AlphaFold-pattern repeats. — [[deepmind-co-scientist-aging-reversal-2026-05-19]]
+
+## Google I/O 2026 Product Surface (May 2026)
+
+Four coordinated product surfaces announced at I/O 2026:
+
+- **Gemini 3.5 Flash (GA)** — Google's single-fast-model deployment strategy; *"plans to use it for everything"* (Willison framing). Pricing $1.5/M input, $9/M output. Logan Kilpatrick frames as *"start of a new era for the model family";* Lucas Beyer (researcher) **publicly questions the 3.5 naming** for what Kilpatrick calls a fundamental shift. Internal positioning is contested.
+- **Gemini Omni** — video-input-to-video-output multimodal model. Four named capabilities (world understanding, reference-anything, **conversational editing — "like Nano Banana, but for video"**, multimodal blending). **Distribution via YouTube Shorts + YouTube Create app + Google AI Plus/Pro/Ultra subscriptions** — load-bearing consumer-distribution signal leveraging Google's ~2B-MAU video moat.
+- **Gemini Spark** — background-agent surface; Google's equivalent of [[claude-cowork]] / [[claude-code]] / OpenAI Codex. First wiki-tracked Google background-agent product at the Gemini consumer-product level.
+- **Antigravity 2.0** — Google's agent SDK / platform; consolidates underneath Spark and Omni as the agent-platform layer. Third-party tooling (e.g., `run-llama/antigravity-demo`) forming within 24 hours of I/O.
+
+**Strategic posture**: single-fast-model + massive distribution surface (YouTube Shorts) — structurally inverse to Anthropic's task-tiered model-routing-default discipline ([[svpino-subagent-pilled-2026-05-15|svpino subagent-pilled]] / [[zephyr-7-claude-setups-2026-05-15|Zephyr setup #6]]). — [[google-io-2026-flash-omni-spark-antigravity]]
 
 ## Spin-outs
 - **[[isomorphic-labs]]**: drug discovery company using AlphaFold protein structures to design binding compounds; Hassabis runs this alongside Google DeepMind
@@ -40,3 +52,5 @@ Formally started the day after the AlphaGo Seoul match (~2016); has existed for 
 - [[thread-milkroadai-hassabis-agi]] — Hassabis on AGI definition, jagged intelligence, Einstein Test
 - [[hassabis-deepmind-alphafold-agi]] — founding story, AI for science, WeatherNext, virtual cell, Isomorphic Labs
 - [[deepmind-decoupled-diloco-2026-05]] — Decoupled DiLoCo announcement; resilient distributed training (May 2026)
+- [[deepmind-co-scientist-aging-reversal-2026-05-19]] — Co-Scientist genetic-leads-to-reverse-cellular-aging blog result (May 2026); promising-but-not-validated; candidate third spinout seed
+- [[google-io-2026-flash-omni-spark-antigravity]] — Google I/O 2026 four-product surface (Gemini 3.5 Flash GA + Omni + Spark + Antigravity 2.0); YouTube Shorts integration as consumer-distribution moat (May 2026)
