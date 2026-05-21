@@ -316,6 +316,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[google-io-2026-flash-omni-spark-antigravity]] — Google I/O 2026 four-product surface: Gemini 3.5 Flash GA + Gemini Omni (video, "Nano Banana for video") + Gemini Spark (background agents) + Antigravity 2.0 (agent SDK); YouTube Shorts distribution moat (May 20 2026)
 - [[deepmind-co-scientist-aging-reversal-2026-05-19]] — DeepMind Co-Scientist identifies novel rejuvenation factors in human cells; first wiki capture of Co-Scientist and cellular-aging-reversal applied-AI-for-science domain; promising-but-not-validated (May 2026)
 - [[dailybrief-roundup-2026-05-20]] — Exa $250M Series C at $2.2B (20× token growth) + Intuit 17%-workforce-cut-for-AI + DeepSeek Code Harness team + Cohere Command A+ open-source + UCCI cascade-routing + HRM-Text + GRAM + InferenceBench (May 20 2026)
+- [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] — OpenAI model disproves a central conjecture in discrete geometry; first wiki-captured frontier-model autonomous mathematical disproof; conjecture identity / model identity / autonomy-boundary pending primary fetch (May 21 2026)
+- [[spacex-s1-anthropic-colossus-2-2026-05-20]] — SpaceX S-1 publicly confirms Anthropic compute deal; @nottombrown signals Colossus 2 GB200 expansion unconfirmed (May 20 2026)
+- [[turbopuffer-100m-arr-2026-05-21]] — Turbopuffer hits $100M ARR in 19 months on <$1M funding, profitable; named customers Anthropic / Cursor / Notion; most capital-efficient AI-infrastructure growth story captured to date (May 21 2026)
+- [[dailybrief-roundup-2026-05-21]] — Railway 3M users / $200K weekly coding-agent spend + Cursor doubles Teams limits + Hark $700M Series A + Qwen3.7-Max + GoodfireAI SAE curved-manifold research + The Batch 353 (May 21 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

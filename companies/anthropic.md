@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-20
+last_updated: 2026-05-21
 ---
 
 ## What It Is
@@ -114,6 +114,10 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-19: **KPMG integrates Claude across 276K-person workforce.** Largest workforce-wide Claude deployment captured in the wiki. Two of the Big Four (PwC + KPMG) publicly deploying Claude in a single week. Adds KPMG to Anthropic's enterprise-customer roster at structural-comparable scale to OpenAI Deployment Company's stated competitive set ([[chamath-openai-consulting-fox-in-henhouse-2026-05-17]]). — [[dailybrief-roundup-2026-05-19]]
 - 2026-05-19: **Self-hosted sandboxes + MCP tunnels in public beta.** Claude running inside customer infrastructure (data-residency / sovereignty / compliance response); MCP tunnels as named network-primitive for behind-firewall MCP servers — first wiki capture of the MCP-tunnel primitive. — [[dailybrief-roundup-2026-05-19]]
 - 2026-05-19: **7× monthly-token-processing growth chart published.** Quantitative anchor for the [[aakashgupta-anthropic-growth-acceleration-2026-05-09|$44B-in-17-months]] revenue traction; the token-volume curve is bending up alongside the revenue curve. — [[dailybrief-roundup-2026-05-19]]
+- 2026-05-20: **SpaceX S-1 publicly confirms Anthropic compute deal.** First public-filing-grade confirmation of the Colossus 1 relationship (prior coverage was Anthropic-marketing-only). Disclosure makes the Musk-discretionary "harm"-reclaim clause materially harder to walk back. — [[spacex-s1-anthropic-colossus-2-2026-05-20]]
+- 2026-05-20: **Anthropic Colossus 2 GB200 expansion (unconfirmed).** @nottombrown X post flags expansion to Colossus 2 with GB200 chips; primary not corroborated. If confirmed, would deepen Anthropic's training-stack lock-in to SpaceX-controlled infrastructure under the Musk-discretionary clause. — [[spacex-s1-anthropic-colossus-2-2026-05-20]]
+- 2026-05-21: **173% YTD valuation rise (Gary Marcus reference, secondary).** Per Digg framing of Marcus Feb-23 Substack: Anthropic valuation rose 173% since the beginning of the year vs OpenAI's 67%; quantitative anchor for the [[techcrunch-anthropic-ramp-business-customers-2026-05-13|Ramp enterprise-share inversion]] and [[aakashgupta-anthropic-growth-acceleration-2026-05-09|revenue-acceleration]] signals. Secondary-source caveat: framing comes via Marcus reference, not direct disclosure. — [[dailybrief-roundup-2026-05-21]]
+- **Anthropic Q2 profitability claim (unverified, 2026-05-21)**: Digg item makes loose reference to *"Anthropic reported second-quarter profits alongside OpenAI's Erdős problem solution."* If accurate, first wiki-tracked Anthropic quarterly profitability. **DO NOT propagate as wiki claim** until direct Anthropic-side source surfaces; framing in Digg is incidental to the OpenAI item it appears in. — [[dailybrief-roundup-2026-05-21]]
 
 ## Resources
 
@@ -151,3 +155,5 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[lecun-after-llms-unsupervised-learning-2026-05-15]] — LeCun's "Anthropic brainwashing governments" critique under counter-takes; sharpest dated external critique of Anthropic's safety positioning to date (May 15 2026)
 - [[karpathy-joins-anthropic-2026-05-19]] — Karpathy joins to lead a research group; ends his independent post-OpenAI phase (May 19 2026)
 - [[dailybrief-roundup-2026-05-19]] — Stainless acquisition + KPMG 276K-workforce integration + self-hosted sandboxes + MCP tunnels public beta + 7× monthly-token-growth chart (May 19 2026)
+- [[spacex-s1-anthropic-colossus-2-2026-05-20]] — SpaceX S-1 public-filing confirmation of Anthropic compute deal + Colossus 2 GB200 unconfirmed expansion (May 20 2026)
+- [[dailybrief-roundup-2026-05-21]] — 173% YTD valuation rise via Marcus reference + Q2-profitability unverified cross-reference (May 21 2026)

@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-05-20
+last_updated: 2026-05-21
 ---
 
 ## What It Is
@@ -43,6 +43,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - 2026-05-16: **Greg Brockman → product strategy + ChatGPT/Codex consolidation** — TechCrunch reports co-founder Greg Brockman taking charge of product strategy at OpenAI, with a product merge underway between ChatGPT and Codex. Pairs with the same-week OpenAI Deployment Company raise as a coordinated enterprise-deployment reorganization in response to the Anthropic 50% → 25% market-share inversion captured 2026-05-13. — [[dailybrief-mixed-2026-05-16-to-18]]
 - 2026-05-17: **OpenAI Deployment Company (consulting venture, $4B at guaranteed 17.5% IRR)** — first wiki capture of the OpenAI consulting-services entity. $4B raised from 19 investors including TPG, Brookfield, Bain, McKinsey, with a **guaranteed 17.5% annual return** on committed capital (≈$700M/yr guaranteed payouts, owed by an entity projected to lose $14B in 2026). Goal: compete directly with Deloitte, PwC, Ernst & Young, Andersen, Cognizant. Pairs with the same-week Anthropic $1.5B consulting venture for a combined $5.5B in human-powered enterprise deployment spend in a single month. Anchors the [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|Chamath fox-in-henhouse]] framing. Verification-pending on the 17.5% IRR claim. — [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]]
 - 2026-05-20: **OpenAI preparing to file IPO paperwork "very soon" (WSJ)** — first wiki-tracked frontier-lab IPO filing signal. No specific valuation target, timeline, underwriter lineup, or employee-liquidity terms captured in the brief synopsis. Pairs with the May 17 OpenAI Deployment Company $4B raise as two consecutive structural-financial moves in the same week. Sets public-market template for the rest of the frontier-lab cohort (Anthropic next, given growth-curve per [[aakashgupta-anthropic-growth-acceleration-2026-05-09]]). Mission-vs-shareholder-duty tension and post-IPO research-velocity-vs-quarterly-earnings tradeoff worth tracking. — [[openai-ipo-filing-2026-05-20]]
+- 2026-05-21: **OpenAI model disproves a central conjecture in discrete geometry** — first wiki-captured frontier-model autonomous disproof of a previously-open mathematical conjecture. Brief synopsis flags it as "80-year-old" (Draft 1 says 60-year); same-day Digg cross-reference frames as the "Erdős problem solution" — suggesting the conjecture may be Erdős-class but identity not yet verified. Primary OpenAI announcement URL captured but not deeply fetched; conjecture identity, model identity, mechanism (counterexample vs structural disproof), autonomy boundary, and independent verification status all pending. Pairs with [[deepmind-co-scientist-aging-reversal-2026-05-19|DeepMind Co-Scientist genetic-leads]] and [[latent-space-lupsasca-vibe-physics-2026-05|vibe-physics]] as three independent surfaces of frontier-model-autonomous-scientific-discovery in May 2026 — all in verifiable domains. — [[openai-disproves-discrete-geometry-conjecture-2026-05-21]]
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — GPT-Image-2 launch
@@ -57,3 +58,4 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — OpenAI Deployment Company $4B raise + 17.5% guaranteed IRR + SaaS-disruption framing (May 17 2026)
 - [[dailybrief-mixed-2026-05-16-to-18]] — Brockman product-strategy reshuffle + ChatGPT/Codex consolidation (May 16 2026)
 - [[openai-ipo-filing-2026-05-20]] — WSJ reports OpenAI preparing to file IPO "very soon" (May 20 2026)
+- [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] — frontier model disproves a central discrete-geometry conjecture; first wiki-captured autonomous mathematical disproof (May 21 2026)

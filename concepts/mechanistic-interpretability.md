@@ -2,7 +2,7 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-05-09
+last_updated: 2026-05-21
 ---
 
 ## Definition
@@ -56,11 +56,22 @@ The two results pull in opposite directions:
 
 For the wiki, this means: NLAs are one promising primitive but not a one-stop solution to interpretability. The field is mid-program, and both results landing in the same week is a usefully clarifying moment.
 
+## Three-Surface SAE-Based Interpretability Wave (May 2026)
+
+Three independent surfaces of sparse-autoencoder-based interpretability research in three weeks:
+
+- **Anthropic NLAs** ([[anthropic-natural-language-autoencoders-2026-05]]) — verbalizer-reconstructor architecture producing first-person model-introspection text; ~4-5× audit-effectiveness improvement on misaligned-model detection.
+- **EEG-foundation-model SAE interpretability** ([[dailybrief-research-roundup-2026-05-15]]) — mechanistic interpretability of EEG foundation models via SAEs grounded in clinical taxonomy (abnormality, age, meds).
+- **GoodfireAI sparse-autoencoder finding** ([[dailybrief-roundup-2026-05-21]], 2026-05-21) — research showing **SAEs tile and shatter curved neural manifolds in large models rather than linear directions**, recasting unsupervised discovery as an **inverse Ising problem**. Physics-grounded approach distinct from Anthropic's verbalizer-reconstructor framing. Visualizations map features across a manifold spanning 1800 to 1998.
+
+**Underlying convergence**: three independent labs / research groups, three different application domains, all converging on SAEs as the load-bearing interpretability primitive. The Anthropic and GoodfireAI results specifically disagree on the *geometry* of what SAEs are discovering — Anthropic verbalizes discovered features as text; GoodfireAI characterizes them as curved-manifold-tiles. Worth tracking whether these resolve to the same underlying object or whether they describe genuinely different mechanisms.
+
 ## Key Papers / Posts
 
 - [[anthropic-natural-language-autoencoders-2026-05]] — Natural Language Autoencoders; first wiki capture of an Anthropic interpretability publication producing first-person model-introspection text
 - [[anthropic-teaching-claude-why-2026-05-08]] — "Teaching Claude Why" alignment-training paper; trains reasoning *in* (28× sample-efficiency, 0–<1% honeypot blackmail rate from Haiku 4.5 onward)
 - [[cheng-zhang-distributed-icl-2026-05]] — Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning (Cheng & Zhang, May 2026 arXiv preprint)
+- [[dailybrief-roundup-2026-05-21]] — GoodfireAI SAE-on-curved-manifolds finding; inverse-Ising-problem framing; physics-grounded approach (May 21 2026)
 
 ## Related Concepts
 
