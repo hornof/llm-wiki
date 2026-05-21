@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-20
+last_updated: 2026-05-21
 ---
 
 ## What This Is
@@ -162,6 +162,16 @@ First wiki-captured **public-SaaS-incumbent with proprietary-data flywheel doing
 - Intuit sits in the **high-end-survives-and-consolidates tier** of [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|Chamath's two-tier framing]] (proprietary tax/accounting data flywheel = defensible). The 17% cut is **operating-model evidence** that this survival path *requires actual cost-structure restructuring*, not just rhetorical positioning.
 - Comment-thread / public framing references *"Meta cuts and SaaS predictions of 40-50 percent reductions"* — Intuit at 17% may be the conservative end of a larger pattern about to play out.
 - **Why the 17% number matters as a tracking signal**: it's the first wiki-captured **concrete operating-model evidence** that the SaaS-disruption thesis isn't theoretical; the incumbents the framework predicts will survive are actively cutting headcount at material scale.
+
+## Capital-Efficient AI Infrastructure Cluster (May 2026)
+
+Three same-week signals on AI-infrastructure companies growing at structurally different unit economics than the 2020-2023 venture-backed wave:
+
+- **[[turbopuffer-100m-arr-2026-05-21|Turbopuffer]] (2026-05-21)**: **$100M ARR in 19 months on <$1M of external funding**, profitable. Object-storage-backed vector search. Named customers: Anthropic, Cursor, Notion. Most capital-efficient AI-infrastructure growth story captured to date. Pinecone / Weaviate / Qdrant / Milvus / Zilliz all raised $50M–$140M+ to reach equivalent revenue scale; Turbopuffer is doing it at a small fraction of that capital.
+- **[[dailybrief-roundup-2026-05-21|Railway]] (2026-05-21)**: 3M users, 100K weekly signups, **$200K weekly coding-agent spend** on the platform. Agent-native cloud deployment surface.
+- **[[dailybrief-roundup-2026-05-20|Exa]] (2026-05-20)**: $250M Series C at $2.2B valuation; **20× token-volume growth**, 400K developers, 5K company adopters.
+
+**Underlying pattern**: AI-traffic volume scaling faster than cost-per-token decline + object-storage / margin-efficient compute substrates enabling profitable growth without venture-scale capital. Pairs structurally with the [[saas-disruption-thesis|solo-operator / micro-team renaissance]] thesis but at the infrastructure layer.
 
 ## OpenAI IPO as Public-Market Validation (May 20 2026)
 
