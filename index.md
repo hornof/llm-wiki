@@ -320,6 +320,9 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[spacex-s1-anthropic-colossus-2-2026-05-20]] — SpaceX S-1 publicly confirms Anthropic compute deal; @nottombrown signals Colossus 2 GB200 expansion unconfirmed (May 20 2026)
 - [[turbopuffer-100m-arr-2026-05-21]] — Turbopuffer hits $100M ARR in 19 months on <$1M funding, profitable; named customers Anthropic / Cursor / Notion; most capital-efficient AI-infrastructure growth story captured to date (May 21 2026)
 - [[dailybrief-roundup-2026-05-21]] — Railway 3M users / $200K weekly coding-agent spend + Cursor doubles Teams limits + Hark $700M Series A + Qwen3.7-Max + GoodfireAI SAE curved-manifold research + The Batch 353 (May 21 2026)
+- [[daytona-agent-sandbox-2026-05-22]] — Daytona bare-metal agent-execution sandbox at 74% MoM and 850K daily runs; RL evals over static benchmarks; agent-cloud positioning (May 22 2026)
+- [[anthropic-mythos-project-glasswing-2026-05-22]] — Anthropic operated Mythos/Mythos-class models internally for 3 months as "Project Glasswing" with US/allied government deployment plan; secondary-source via Digg (May 22 2026)
+- [[dailybrief-roundup-2026-05-22]] — O-1 visa loophole closure + Anthropic governance statement + Hyperagent ($10M founder credits) + Reiner Pope MAC-unit lecture + FTC active-listening settlement + Willison Datasette Agent + HealthCraft RL safety env + DeepSeek-V4-Pro discount permanent + METR Barnes warning + Thomas Dimson departs OpenAI + MIT VPO + Project Glasswing (May 22 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-05-15
+last_updated: 2026-05-22
 ---
 
 ## What It Is
@@ -40,9 +40,19 @@ The "Mythos" name breaks the established Opus/Sonnet/Haiku tier pattern — firs
 
 **Adjacent policy mechanisms** named in the same essay: **GAIN Act** (US right-of-first-refusal for American chips), **NSA predeployment review**, **KYC restrictions** on frontier-model access. Together with Anthropic's prior [[forbes-ai-50-2026|Pentagon-blacklist context]] and the [[anthropic-spacex-higher-limits-2026-05-06|SpaceX compute partnership]], these establish a coherent US-government-adjacent gatekeeping machinery — Mythos sits inside that machinery, not as a standalone product gate.
 
+## Project Glasswing — Anthropic Internal Program (May 22 2026)
+
+Per [[anthropic-mythos-project-glasswing-2026-05-22]] (Digg-surfaced, secondary-source): **Anthropic has operated Mythos Preview and Mythos-class models internally for three months as part of "Project Glasswing"** amid *"insufficient safeguards for public release."* Plans named: *"work with US and allied governments after safeguards improve."*
+
+- **3-month internal-use duration** predates the wiki's first public Mythos capture ([[willison-firefox-claude-mythos-2026-05]], May 6 2026 Mozilla Firefox security-fix surge) — Project Glasswing was operational longer than the public timeline suggested.
+- **US + allied government deployment plan** is the load-bearing forward signal; operationally validates the [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht selective-deployment thesis]] from Anthropic's own side.
+- **"Glasswing" naming** — glasswing butterflies have transparent wings; the name signals transparency-as-positioning despite the models themselves being non-public.
+- **Secondary-source caveat**: Digg framing not directly corroborated by Anthropic in the brief; treat as practitioner-content-secondary pending Anthropic-direct disclosure.
+
 ## Resources
 
 - [[willison-firefox-claude-mythos-2026-05]] — Mozilla / Firefox security partnership; production-grade existence proof
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic interpretability research using Mythos
 - [[willison-code-w-claude-2026]] — Code w/ Claude 2026 event coverage; Mythos surfaced separately from Opus 4.7 announcement
 - [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": generalizes the selective-deployment pattern; names OpenAI Daybreak as parallel; distillation-driven sustained restriction (May 13 2026)
+- [[anthropic-mythos-project-glasswing-2026-05-22]] — Project Glasswing 3-month internal-use disclosure + US/allied government deployment plan; first wiki-captured Anthropic-internal-program naming (May 22 2026)
