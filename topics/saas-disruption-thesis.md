@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-21
+last_updated: 2026-05-22
 ---
 
 ## What This Is
@@ -170,8 +170,11 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 - **[[turbopuffer-100m-arr-2026-05-21|Turbopuffer]] (2026-05-21)**: **$100M ARR in 19 months on <$1M of external funding**, profitable. Object-storage-backed vector search. Named customers: Anthropic, Cursor, Notion. Most capital-efficient AI-infrastructure growth story captured to date. Pinecone / Weaviate / Qdrant / Milvus / Zilliz all raised $50M–$140M+ to reach equivalent revenue scale; Turbopuffer is doing it at a small fraction of that capital.
 - **[[dailybrief-roundup-2026-05-21|Railway]] (2026-05-21)**: 3M users, 100K weekly signups, **$200K weekly coding-agent spend** on the platform. Agent-native cloud deployment surface.
 - **[[dailybrief-roundup-2026-05-20|Exa]] (2026-05-20)**: $250M Series C at $2.2B valuation; **20× token-volume growth**, 400K developers, 5K company adopters.
+- **[[daytona-agent-sandbox-2026-05-22|Daytona]] (2026-05-22)**: **74% MoM growth**, **850K daily runs**, bare-metal sandboxes for agent execution. Agent-execution-sandbox layer of the stack (distinct from data layer / deployment layer).
 
 **Underlying pattern**: AI-traffic volume scaling faster than cost-per-token decline + object-storage / margin-efficient compute substrates enabling profitable growth without venture-scale capital. Pairs structurally with the [[saas-disruption-thesis|solo-operator / micro-team renaissance]] thesis but at the infrastructure layer.
+
+**Three layers of the agent stack now wiki-tracked**: Turbopuffer (data) + Railway (deployment) + Daytona (execution sandbox). All four signals from a single month of capture (Exa + Turbopuffer + Railway + Daytona).
 
 ## OpenAI IPO as Public-Market Validation (May 20 2026)
 

@@ -8,16 +8,23 @@ ingested: 2026-05-21
 
 ## Summary
 
-OpenAI announces (surfaced via 2026-05-21 Daily Brief) that one of its frontier models **disproved a central conjecture in discrete geometry** — described in the brief as **80-year-old**, in cross-referencing same-day commentary as **60-year-old**, and adjacently referenced as the **"Erdős problem solution"** (Digg framing on a separate item). Primary OpenAI announcement URL captured; not deeply fetched in this ingest pass. **First wiki-captured frontier-model autonomous mathematical disproof of a previously-open conjecture** — categorically distinct from prior wiki captures of [[latent-space-lupsasca-vibe-physics-2026-05|vibe-physics frontier-theoretical-result generation]] in that the discrete-geometry result is a **disproof of a named conjecture**, not a novel-result derivation.
+OpenAI announces (surfaced via 2026-05-21 Daily Brief; specifics confirmed via 2026-05-22 Latent Space / AINews cross-reference) that **GPT-next disproved Erdős's planar unit distance problem** for **under $1,000 of compute**. The conjecture is ~80 years old (Erdős posed it in 1946). Primary OpenAI announcement URL captured; not deeply fetched in this ingest pass. **First wiki-captured frontier-model autonomous mathematical disproof of a previously-open conjecture** — categorically distinct from prior wiki captures of [[latent-space-lupsasca-vibe-physics-2026-05|vibe-physics frontier-theoretical-result generation]] in that the discrete-geometry result is a **disproof of a named conjecture**, not a novel-result derivation.
+
+**Specifics confirmed on 2026-05-22 follow-up** (per [[dailybrief-roundup-2026-05-22|2026-05-22 brief AINews cross-reference]]):
+
+- **Conjecture identity**: Erdős's **planar unit distance problem** (Erdős 1946).
+- **Model identity**: **GPT-next** (unreleased frontier-class OpenAI model; specific version not surfaced).
+- **Cost**: **under $1,000** in compute.
+- The original 2026-05-21 brief said "80-year-old"; Draft 1 said 60-year; the 2026-05-22 AINews confirms ~80-year — consistent with Erdős 1946.
 
 ## Key Claims / Takeaways
 
-### What's confirmed (brief-driven)
+### What's confirmed (across two-brief capture)
 
-- **OpenAI model disproved a central conjecture in discrete geometry.** Primary URL: `openai.com/index/model-disproves-discrete-geometry-conjecture/`.
-- **Conjecture age**: brief synopsis says "80-year-old"; Draft 1 says "60-year math conjecture." Discrepancy worth flagging — the discrete-geometry literature has open conjectures across that whole window (Borsuk's conjecture 1933, Hadwiger 1957, Knaster 1947, Kahn-Kalai 1992, etc.). **Identity of the conjecture not specified in the brief synopsis**.
-- **Same-day Digg framing** references *"Anthropic reported second-quarter profits alongside OpenAI's Erdős problem solution"* — implies the conjecture may be in the Erdős-conjecture family (Erdős posed several discrete-geometry conjectures across his career). **Worth verifying which specific Erdős conjecture** in the primary on follow-up fetch.
-- **Mechanism not captured in brief**: the brief doesn't say whether the model produced a counterexample, a constructive disproof, an existence-proof of a counterexample, or something else. The distinction matters for capability evaluation.
+- **GPT-next disproved Erdős's planar unit distance problem.** Primary URL: `openai.com/index/model-disproves-discrete-geometry-conjecture/`. Conjecture identity confirmed via 2026-05-22 AINews ([[dailybrief-roundup-2026-05-22]]).
+- **Cost**: **under $1,000** in compute (confirmed 2026-05-22).
+- **Conjecture age**: ~80 years (Erdős posed it in 1946); resolves the May 21 brief's age discrepancy.
+- **Mechanism still not captured**: the brief doesn't say whether the model produced a counterexample, a constructive disproof, or an existence-proof of a counterexample. The distinction matters for capability evaluation.
 
 ### What's structurally significant
 

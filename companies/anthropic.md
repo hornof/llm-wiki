@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-21
+last_updated: 2026-05-22
 ---
 
 ## What It Is
@@ -118,6 +118,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-20: **Anthropic Colossus 2 GB200 expansion (unconfirmed).** @nottombrown X post flags expansion to Colossus 2 with GB200 chips; primary not corroborated. If confirmed, would deepen Anthropic's training-stack lock-in to SpaceX-controlled infrastructure under the Musk-discretionary clause. — [[spacex-s1-anthropic-colossus-2-2026-05-20]]
 - 2026-05-21: **173% YTD valuation rise (Gary Marcus reference, secondary).** Per Digg framing of Marcus Feb-23 Substack: Anthropic valuation rose 173% since the beginning of the year vs OpenAI's 67%; quantitative anchor for the [[techcrunch-anthropic-ramp-business-customers-2026-05-13|Ramp enterprise-share inversion]] and [[aakashgupta-anthropic-growth-acceleration-2026-05-09|revenue-acceleration]] signals. Secondary-source caveat: framing comes via Marcus reference, not direct disclosure. — [[dailybrief-roundup-2026-05-21]]
 - **Anthropic Q2 profitability claim (unverified, 2026-05-21)**: Digg item makes loose reference to *"Anthropic reported second-quarter profits alongside OpenAI's Erdős problem solution."* If accurate, first wiki-tracked Anthropic quarterly profitability. **DO NOT propagate as wiki claim** until direct Anthropic-side source surfaces; framing in Digg is incidental to the OpenAI item it appears in. — [[dailybrief-roundup-2026-05-21]]
+- 2026-05-22: **Project Glasswing — 3-month internal Mythos / Mythos-class operation disclosed.** Per Digg-surfaced reporting: Anthropic operated Mythos Preview and Mythos-class models internally for three months as part of "Project Glasswing" *"amid insufficient safeguards for public release."* Plans named: *"work with US and allied governments after safeguards improve."* First wiki-captured Anthropic-internal-program disclosure with concrete duration + forward-deployment plan. Operationally validates the [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht selective-deployment thesis]]. Secondary-source caveat: Digg framing not directly corroborated by Anthropic disclosure in the brief. — [[anthropic-mythos-project-glasswing-2026-05-22]]
+- 2026-05-22: **Frontier-AI governance statement published** — *"Widening the conversation on frontier AI"* on anthropic.com/news. Pairs same-day with Project Glasswing disclosure as two Anthropic institutional-positioning moves. Primary not deeply fetched; specific policy positions pending. — [[dailybrief-roundup-2026-05-22]]
 
 ## Resources
 
@@ -157,3 +159,5 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[dailybrief-roundup-2026-05-19]] — Stainless acquisition + KPMG 276K-workforce integration + self-hosted sandboxes + MCP tunnels public beta + 7× monthly-token-growth chart (May 19 2026)
 - [[spacex-s1-anthropic-colossus-2-2026-05-20]] — SpaceX S-1 public-filing confirmation of Anthropic compute deal + Colossus 2 GB200 unconfirmed expansion (May 20 2026)
 - [[dailybrief-roundup-2026-05-21]] — 173% YTD valuation rise via Marcus reference + Q2-profitability unverified cross-reference (May 21 2026)
+- [[anthropic-mythos-project-glasswing-2026-05-22]] — Project Glasswing 3-month internal Mythos operation + US/allied government deployment plan (May 22 2026)
+- [[dailybrief-roundup-2026-05-22]] — frontier-AI governance statement + adjacent same-day items (May 22 2026)
