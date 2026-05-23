@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 ---
 
 ## What This Is
@@ -175,6 +175,12 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 **Underlying pattern**: AI-traffic volume scaling faster than cost-per-token decline + object-storage / margin-efficient compute substrates enabling profitable growth without venture-scale capital. Pairs structurally with the [[saas-disruption-thesis|solo-operator / micro-team renaissance]] thesis but at the infrastructure layer.
 
 **Three layers of the agent stack now wiki-tracked**: Turbopuffer (data) + Railway (deployment) + Daytona (execution sandbox). All four signals from a single month of capture (Exa + Turbopuffer + Railway + Daytona).
+
+**Empirical workload-data anchor (2026-05-23 SemiAnalysis)**: [[semianalysis-agentic-coding-economics-2026-05-23]] surfaces telemetry from **174K agentic-coding sessions** showing a **42% CPU / 58% GPU** compute split, **5.13-second median turn time**, and structural GPU-underutilization due to short scattered turns. **Per-token cloud pricing doesn't map to agent workloads.** This is the empirical-data anchor explaining why the capital-efficient infrastructure cluster's architectures (bare-metal sandboxes, object-storage vector search, agent-native deployment, agent-search) are *structurally fit* for the workload pattern — not just lucky on capital efficiency. *"Whoever figures out pricing for sub-10s agent loops wins the infra layer."*
+
+## ARR-Inflation Skepticism (TechCrunch, 2026-05-22)
+
+[[dailybrief-roundup-2026-05-23]] surfaces TechCrunch investigative piece on how AI-startup ARR figures are systematically manufactured — conflating signed contracts with collected revenue, multi-year commitments annualized to current quarter, beta/credit-funded usage counted as ARR. **First wiki-captured framework for systematic skepticism on AI-startup ARR claims.** Worth keeping as a citable reference when future ARR claims surface — especially relevant for capital-efficient-infrastructure-cluster stories like [[turbopuffer-100m-arr-2026-05-21|Turbopuffer's $100M-ARR-with-<$1M-funding-and-profitable]] claim, which warrants ARR-construction-methodology verification before treating as wiki-voice ground truth.
 
 ## OpenAI IPO as Public-Market Validation (May 20 2026)
 

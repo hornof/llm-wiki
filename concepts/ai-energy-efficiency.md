@@ -2,7 +2,7 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-05-08
+last_updated: 2026-05-23
 ---
 
 ## Definition
@@ -64,3 +64,4 @@ A candidate physical-neural-network circuit must be:
 - [Horowitz, "Computing's Energy Problem"](https://doi.org/10.1109/ISSCC.2014.6757323) (2014) — foundational paper on memory-vs-compute energy gap
 - [Google, "Ten lessons from three generations of TPU…"](https://doi.org/10.1109/ISCA52012.2021.00010) (2021) — updated 7nm CMOS numbers showing the gap persists
 - [ML.ENERGY Leaderboard](https://ml.energy/leaderboard/) — public benchmark of Joules-per-token across models
+- [[semianalysis-agentic-coding-economics-2026-05-23]] — 174K agentic-coding sessions; **42% CPU / 58% GPU** compute split + **5.13s median turn time** + structural GPU-underutilization on scattered turns. First wiki-captured empirical anchor on utilization-per-token (not just Joules-per-token) for agentic workloads. "Cloud pricing is built for batch and long-running inference; agent loops don't fit the pattern."
