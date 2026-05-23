@@ -323,6 +323,8 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[daytona-agent-sandbox-2026-05-22]] — Daytona bare-metal agent-execution sandbox at 74% MoM and 850K daily runs; RL evals over static benchmarks; agent-cloud positioning (May 22 2026)
 - [[anthropic-mythos-project-glasswing-2026-05-22]] — Anthropic operated Mythos/Mythos-class models internally for 3 months as "Project Glasswing" with US/allied government deployment plan; secondary-source via Digg (May 22 2026)
 - [[dailybrief-roundup-2026-05-22]] — O-1 visa loophole closure + Anthropic governance statement + Hyperagent ($10M founder credits) + Reiner Pope MAC-unit lecture + FTC active-listening settlement + Willison Datasette Agent + HealthCraft RL safety env + DeepSeek-V4-Pro discount permanent + METR Barnes warning + Thomas Dimson departs OpenAI + MIT VPO + Project Glasswing (May 22 2026)
+- [[semianalysis-agentic-coding-economics-2026-05-23]] — SemiAnalysis 174K agentic-coding-session telemetry: 42% CPU / 58% GPU compute split + 5.13s median turn time + structural GPU-underutilization on scattered turns; per-token cloud pricing doesn't map to agent workloads (May 23 2026)
+- [[dailybrief-roundup-2026-05-23]] — TechCrunch ARR-inflation framework + Musk-assists-Anthropic unverified + Reiner Pope #2 chip design + Pieter Levels (skills overrated + no code in 6 months) + Matthew Barnett on Yudkowsky calibration + Jack Clark Import AI 458 fictional-story signal + earendil-works/pi 53.3K stars (May 23 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
