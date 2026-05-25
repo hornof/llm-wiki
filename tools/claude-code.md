@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-18
+last_updated: 2026-05-24
 ---
 
 
@@ -53,6 +53,15 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
   - **Auto mode** — required for long-running unattended operation; enable with `shift+tab` in CLI or the mode selector on desktop. Anthropic framing: *"Long-running only works if Claude doesn't have to wait on you. That's why we have auto mode."*
 
   Practitioner prerequisite (Luca Capone): *"/goal only works well when your CLAUDE.md is solid. Without project context, it wanders. With it, feels like a junior dev who actually read the docs."* — CLAUDE.md is a prerequisite for, not a complement to, unattended-execution capability. See [[claude-md-pattern]].
+
+- **Six-functional-grouping command taxonomy** (May 2026 — per [[shilpamitra-claude-code-30-commands-2026-05-22|ShilpaMitra Reddit r/WebAfterAI post]]):
+  - **Session management**: `/clear` (alias `/reset`), `/compact` (compresses context ~80% — *"the command most people don't know about"*), `/branch` (fork conversation to try two approaches), `/context` (show context-window utilization), `/export` (save to file), `/exit`.
+  - **Model and effort controls**: `/goal [task]`, `/plan` (Opus-level planning pass), **`/effort [level]`** (`low`/`med`/`high`/`x` — first wiki capture of effort-level primitive; reset-to-medium-daily bug reported by Pieter Levels per [[dailybrief-roundup-2026-05-24]]), `/fast [on|off]`, `/goal clear` (stops and resets the agent).
+  - **Files and debugging**: `/init` (creates CLAUDE.md — *"probably the highest-leverage thing you can do with Claude Code"*), `/diff`, `/doctor` (*"catches 90% of setup issues automatically"*), `/cost` (token/cost stats — first wiki-captured Claude-Code-native cost-visibility primitive), `'u/file.md'` / `'u/src/folder/'` (file/directory inclusion syntax).
+  - **MCP and skills**: `/mcp`, `claude mcp add`, **`/batch`** (multi-file command — first wiki capture), `/debug` (structured *"reproduce, isolate, hypothesize, instrument, fix, verify"* loop), `Shift+Tab` (permission-mode cycling: ask-every / ask-dangerous / full-auto).
+  - **Install/launch**: `claude`, `claude -c` (continue last conversation), `claude -p "task"` (one-off scripting).
+
+  **Four newly-captured-as-named primitives** in this taxonomy: `/plan` (Opus-level planning), `/effort` (reasoning-effort control), `/batch` (multi-file command), `/cost` (token/cost visibility). `/effort` pairs with [[svpino-subagent-pilled-2026-05-15|per-subagent model selection]] discipline at the conversation level; `/compact` is the user-facing surface of [[anthropic-claude-cookbook-2026-05|Anthropic Cookbook's Automatic Context Compaction primitive]].
 
 ## Practitioner Patterns (community-sourced)
 - **Format locking**: Enforce an exact response schema in the system prompt (e.g., "1 sentence, max 3 bullets, 1 next action") — Claude follows format constraints more reliably than other models per community reports

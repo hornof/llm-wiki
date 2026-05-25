@@ -2,7 +2,7 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-05-23
+last_updated: 2026-05-24
 ---
 
 ## Definition
@@ -65,3 +65,4 @@ A candidate physical-neural-network circuit must be:
 - [Google, "Ten lessons from three generations of TPU…"](https://doi.org/10.1109/ISCA52012.2021.00010) (2021) — updated 7nm CMOS numbers showing the gap persists
 - [ML.ENERGY Leaderboard](https://ml.energy/leaderboard/) — public benchmark of Joules-per-token across models
 - [[semianalysis-agentic-coding-economics-2026-05-23]] — 174K agentic-coding sessions; **42% CPU / 58% GPU** compute split + **5.13s median turn time** + structural GPU-underutilization on scattered turns. First wiki-captured empirical anchor on utilization-per-token (not just Joules-per-token) for agentic workloads. "Cloud pricing is built for batch and long-running inference; agent loops don't fit the pattern."
+- [[dailybrief-roundup-2026-05-24]] — **Memory ~67% of AI chip component costs** (Epoch AI data); memory shortage repricing consumer electronics due to fixed wafer capacity and HBM-cannibalization of DRAM/NAND fabs. **Triple-convergence on memory-as-binding-constraint** now captured: McMahon (energy-side), KV-cache research wave (research-side), Epoch AI 67% BOM cost (cost-side). The wiki can now write the unified *"memory is the binding constraint at every layer"* thesis.
