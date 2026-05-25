@@ -16,6 +16,7 @@ ingested: 2026-05-20
 
 - **Karpathy has joined Anthropic** to lead a research group. Source: Karpathy's own X post (URL captured; full text not fetched in this pass).
 - **First wiki-captured frontier-lab return** for Karpathy since he left OpenAI the second time and went independent (founding [[eureka-labs]] and being publicly identified as such at AI Ascent 2026 and across the wiki's prior captures).
+- **Title confirmed as Member of Technical Staff (MoTS)** per [[dailybrief-roundup-2026-05-24|2026-05-24 brief]] cross-reference — *"Andrej Karpathy joining Anthropic sparks industry debate over the prestige of Member of Technical Staff titles."* The MoTS title is notably **non-managerial** despite the May 19 framing of *"lead a research group"* — the title-vs-role tension is itself a wiki-relevant signal. Anthropic's MoTS title has historically been the flat-research-org-equivalent of senior-staff-engineer titles at other labs (per industry-debate framing). **Industry-debate-over-MoTS-prestige** is the layer the May 24 brief picks up; the underlying move (Karpathy → Anthropic) is unchanged.
 
 ### What's notably absent from the brief
 

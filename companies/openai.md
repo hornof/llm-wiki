@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-05-22
+last_updated: 2026-05-24
 ---
 
 ## What It Is
@@ -45,6 +45,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - 2026-05-20: **OpenAI preparing to file IPO paperwork "very soon" (WSJ)** — first wiki-tracked frontier-lab IPO filing signal. No specific valuation target, timeline, underwriter lineup, or employee-liquidity terms captured in the brief synopsis. Pairs with the May 17 OpenAI Deployment Company $4B raise as two consecutive structural-financial moves in the same week. Sets public-market template for the rest of the frontier-lab cohort (Anthropic next, given growth-curve per [[aakashgupta-anthropic-growth-acceleration-2026-05-09]]). Mission-vs-shareholder-duty tension and post-IPO research-velocity-vs-quarterly-earnings tradeoff worth tracking. — [[openai-ipo-filing-2026-05-20]]
 - 2026-05-21: **GPT-next disproves Erdős's planar unit distance problem for <$1K compute** — first wiki-captured frontier-model autonomous disproof of a previously-open mathematical conjecture. Conjecture identity (Erdős 1946 planar unit distance), model identity (GPT-next, unreleased), and cost ($<1K) confirmed via 2026-05-22 AINews cross-reference. Mechanism (counterexample vs structural disproof) and autonomy-boundary still pending. Pairs with [[deepmind-co-scientist-aging-reversal-2026-05-19|DeepMind Co-Scientist genetic-leads]] and [[latent-space-lupsasca-vibe-physics-2026-05|vibe-physics]] as three independent surfaces of frontier-model-autonomous-scientific-discovery in May 2026 — all in verifiable domains. — [[openai-disproves-discrete-geometry-conjecture-2026-05-21]]
 - 2026-05-22: **Thomas Dimson departs OpenAI Sora team after 1000 days.** Previously authored Instagram's core recommendation algorithms; founded Global Illumination. Worth tracking Sora's post-Dimson trajectory given his consumer-recommendation-algorithm background. — [[dailybrief-roundup-2026-05-22]]
+- 2026-05-24: **Aidan Clark (VP Research) on "elite-tier compute held by only four groups."** OpenAI-internal framing of pretraining-as-structural-moat: AGI pretraining now requires compute concentrated in four organizations (widely understood as OpenAI / Anthropic / Google DeepMind / Meta-or-xAI). Supply-side mirror of [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht's selective-deployment thesis]] and demand-side companion to [[cerebras-60b-ipo-2026-05-16|Cerebras IPO hardware-supplier]] capital event. Brief framing: *"Four companies own pretraining now. That's not a market structure — that's a gating function."* — [[dailybrief-roundup-2026-05-24]]
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — GPT-Image-2 launch
@@ -61,3 +62,4 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[openai-ipo-filing-2026-05-20]] — WSJ reports OpenAI preparing to file IPO "very soon" (May 20 2026)
 - [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] — GPT-next disproves Erdős planar unit distance problem for <$1K compute (specifics confirmed via May 22 AINews cross-reference)
 - [[dailybrief-roundup-2026-05-22]] — Thomas Dimson Sora-team departure after 1000 days (May 22 2026)
+- [[dailybrief-roundup-2026-05-24]] — Aidan Clark (VP Research) on AGI pretraining requiring elite-tier compute held by four groups (May 24 2026)
