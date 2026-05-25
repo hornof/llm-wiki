@@ -104,6 +104,7 @@
 - [[kris-lovejoy]] — Kyndryl Global Strategy Leader; "bullet train on 30 mph tracks" enterprise-readiness counter-take; 2031 IT-admin-50% prediction (May 2026)
 - [[craig-smith]] — *Eye on A.I.* podcast host; former NYT journalist; longform AI-practitioner interviews (May 2026)
 - [[hannah-stulberg]] — PM at DoorDash; ~1,500 documented hours in Claude Code; viral *Claude Code for Everything* Substack series; Team OS architecture (May 2026)
+- [[ruben-hassid]] — 484K-subscriber `how-to-ai.guide` newsletter; Cowork setup pedagogy + intelligence-cost-collapse popular discourse; "80% of your file should be what you're NOT" anti-style framing (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -331,6 +332,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[dailybrief-research-roundup-2026-05-25]] — Latent Cache Flow + Tensor Cache (KV-cache wave now 5 papers in 4 weeks) + When-Do-LLMs-Reason entropy-phase-transitions + MedExpMem clinical experience-memory (third clinical-AI signal in two weeks) (May 25 2026)
 - [[dailybrief-roundup-2026-05-25]] — Sakana AI Japan data-sovereignty hybrid model + Pope XIV × Anthropic partnership + Paul Graham AI-detected founder emails + xAI removes researcher/engineer title distinction + Andy Masley ChatGPT water-usage 50-250× lower than viral claim + Leonardo training-speedup-metric warning + Tanishq Abraham SophontAI + datasette-agent 0.1a4 (May 25 2026)
 - [[lennysan-shipper-10-takeaways-2026-05-24]] — Lenny Rachitsky × Dan Shipper (Every) 10 takeaways: future-of-work-inside-Codex-or-Claude-Code + "SaaS is NOT dead" counter-thesis (tokens-paid-by-user + agents-need-seats → demand floor rises) + super-agent-in-Slack centralized-maintenance pattern (Shopify River + Viktor) + PMs win the AI era + first wiki capture of M365 Copilot 20M paid / $7.2B ARR claim (verification-pending) (May 24 2026)
+- [[hassid-cowork-setup-2026-04-07]] — Ruben Hassid Cowork 2.0 setup walkthrough (Substack April 7) + 100-tip LinkedIn infographic; folder architecture (ABOUT ME / OUTPUTS / TEMPLATES / PROJECT) + AskUserQuestion-based about-me.md interview prompt + **"80% of your file should be what you're NOT"** anti-style framing; fifth+ independent practitioner-validation of CLAUDE.md pattern
+- [[hassid-cant-beat-ai-cost-collapse-2026-05-18]] — Ruben Hassid "You can't beat AI": *"AI gets 5× cheaper every single year"* + three-hidden-costs framework + junior-jobs-crashing direct framing; practitioner-content-register articulation of intelligence-cost-collapse thesis
+- [[google-ai-studio-android-app-builder-2026-05-25]] — Logan Kilpatrick announces Google AI Studio native Android app builder (free, no-code); 250K Android apps created in 1 week against 3B Android user surface; "generate music" undisclosed-feature signal spotted by Lucas Beyer; continues Google distribution-volume-over-margin strategy (May 25 2026)
+- [[herk-kearns-100m-ai-agency-playbook-2026-05-25]] — Nate Herk × Devin Kearns (Custom AI Studio) YouTube interview: *"Most AI work being sold today won't survive 2027"* + *"value of actually doing development is trending towards zero"* + lifestyle-business-vs-enterprise-value $100M-exit framing; third Nate Herk wiki surface (May 25 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

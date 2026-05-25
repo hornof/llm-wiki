@@ -3,7 +3,7 @@ name: Claude Cowork
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-05-09
+last_updated: 2026-05-25
 ---
 
 ## What It Is
@@ -145,3 +145,4 @@ Custom remote MCP servers available on Team/Enterprise plans.
 - [[claudeai-financial-services-agents-2026-05]] — first vertical product line that ships into Cowork as plugins (May 5 2026)
 - [[anthropic-academy-courses-catalog-2026-05]] — first-party "Introduction to Claude Cowork" course
 - [[rubenhassid-anthropic-30-term-map-2026-05]] — secondary glossary placing Cowork in the Anthropic product surface
+- [[hassid-cowork-setup-2026-04-07]] — **first wiki-canonical Cowork-specific setup walkthrough** (Ruben Hassid Substack April 7 + 100-tip LinkedIn summary). Folder architecture (ABOUT ME / OUTPUTS / TEMPLATES / PROJECT) + AskUserQuestion-based about-me.md interview prompt + anti-style-instruction framing ("80% of your file should be what you're NOT") + 200-line ceiling extended beyond CLAUDE.md to about-me.md / anti-ai-style.md. Practitioner-content register; 484K-subscriber newsletter author.
