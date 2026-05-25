@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-23
+last_updated: 2026-05-25
 ---
 
 ## What This Is
@@ -189,6 +189,32 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 - **Sets the public-market reference price** for AI-infrastructure-layer-displacing-application-SaaS valuation.
 - **Capital-allocation regime change**: post-IPO, OpenAI is accountable quarterly. The current pattern of $14B-projected-2026-losses-funded-by-strategic-investors becomes structurally harder to sustain under public-market scrutiny — and **either OpenAI shows a faster path to profitability than current SaaS incumbents, or the valuation discounts**.
 - Anthropic's eventual IPO at its [[aakashgupta-anthropic-growth-acceleration-2026-05-09|current trajectory ($44B ARR in 17 months)]] would set the second reference point.
+
+## Counter-Thesis: "SaaS is NOT dead" (Dan Shipper, 2026-05-24)
+
+[[lennysan-shipper-10-takeaways-2026-05-24|Dan Shipper (Every) via Lenny Rachitsky]] argues the **bullish-on-SaaS counter-position** from the same starting facts that drive the SaaS-disruption thesis. **First wiki-captured high-signal voice opposing the wiki-canonical framing.**
+
+### The mechanism Shipper names
+
+- *"When users bring their own AI (via Codex or Claude Code) to use SaaS products, the user — not the SaaS company — pays for tokens. **This saves SaaS company's margins.**"* — the tokens-paid-by-user framing is the inverse of the assumed margin-compression-from-AI story.
+- *"Agents need their own seats."* SaaS demand goes UP, not down — *"tons of agents using these products at high volume."* Comment-thread practitioner Manav Garkel: *"the usage floor goes up, not down."*
+
+### Why this contradicts [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|the Chamath two-tier diagnosis]]
+
+- Chamath: low-end-SaaS-dead-first, mid-market-on-conveyor-belt, high-end-survives-via-data-moat.
+- Shipper: **mid-market SaaS demand goes up** because (a) agent usage of SaaS UIs scales the seat-count, (b) tokens-paid-by-user protects margins. **The conveyor belt is wrong direction.**
+- Both framings start from the same facts (AI agents use SaaS products; the cost surface is changing). Different conclusions about which side of the margin equation expands.
+
+### Falsifiability
+
+- Lenny commits: *"We'll score these in exactly a year."* — **the prediction is checkable May 2027**. Worth a `meta/lennysan-shipper-predictions-2027-checkpoint.md` page when the time comes.
+- Specific 12-month falsifiable predictions: SaaS stocks not down meaningfully, SaaS-multiple-floor at current levels or higher, agent-driven seat-count expansion measurable.
+
+### Caveats
+
+- Shipper runs Every and has commercial incentives to be bullish on the "AI is the new operating system" framing.
+- The counter-thesis doesn't address the high-end of Chamath's three-tier framing (proprietary-data flywheel) — Shipper's framing is mostly about the mid-market that Chamath says dies.
+- Comment-thread counter-counter: **Crepe Supreme** flags that **Microsoft 365 Copilot at 20M paid enterprise seats / $7.2B ARR + ChatGPT Enterprise+Business 5M+ paid users** means most knowledge workers run AI inside Office/Workspace, not Codex/Claude Code — undercuts Shipper's "future of work happens inside Codex or Claude Code" framing if numbers verify. Verification-pending.
 
 ## Tracking Signals
 
