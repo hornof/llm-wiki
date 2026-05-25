@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-05-20
+last_updated: 2026-05-25
 ---
 
 ## What It Is
@@ -30,6 +30,7 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 - **Virtual cell**: ongoing project to simulate a biological cell as a complex emergent system
 - **Decoupled DiLoCo** (May 2026): distributed-training architecture splitting compute into asynchronous "islands" with chaos-engineering-driven self-healing. Built on Pathways. 198 Gbps → 0.84 Gbps inter-DC bandwidth across 8 datacenters; 88% goodput vs 27% baseline at high failure rates. Production-validated on a 12B Gemma 4 trained across four U.S. regions at 2-5 Gbps, >20× faster than conventional sync (64.1% accuracy vs 64.4% baseline). Lead: Arthur Douillard. — [[deepmind-decoupled-diloco-2026-05]]
 - **Co-Scientist — cellular-aging-reversal genetic leads** (May 2026): DeepMind's Co-Scientist tool identified novel rejuvenation factors in human cells. First wiki capture of Co-Scientist as a named DeepMind applied-AI-for-science tool; pairs with [[alphafold]] (structural biology) as the **functional-biology** counterpart. **Promising-but-not-validated**: published as DeepMind blog post; no peer-reviewed companion paper, no independent reproduction, specific genetic targets and wet-lab-vs-in-silico validation boundary not captured in surfacing brief. Worth tracking as candidate seed for a third DeepMind commercial spinout (after [[isomorphic-labs]]) if the AlphaFold-pattern repeats. — [[deepmind-co-scientist-aging-reversal-2026-05-19]]
+- **LLM-Lean agent loop — 9 Erdős problems + 44 OEIS conjectures** (May 2026): formal-math proof-generation tool. LLM generates proof sketches → Lean validator type-checks every step → errors feed back → formal proof emerges. Resolved **9 open Erdős problems** and proved **44 OEIS conjectures** at *"a few hundred dollars per proof"* (low-five-figures total for the full batch). **Third named DeepMind applied-AI-for-science tool** alongside [[alphafold]] (structural biology) and Co-Scientist (functional biology). Pairs with [[openai-disproves-discrete-geometry-conjecture-2026-05-21|OpenAI GPT-next disproving Erdős planar unit distance]] (5 days prior) as two frontier-lab competing math results — DeepMind on proof generation (Lean-validated), OpenAI on counterexample finding (single disproof). Same problem family (Erdős conjectures), different methodologies. — [[deepmind-llm-lean-erdos-oeis-2026-05-25]]
 
 ## Google I/O 2026 Product Surface (May 2026)
 
@@ -54,3 +55,4 @@ Formally started the day after the AlphaGo Seoul match (~2016); has existed for 
 - [[deepmind-decoupled-diloco-2026-05]] — Decoupled DiLoCo announcement; resilient distributed training (May 2026)
 - [[deepmind-co-scientist-aging-reversal-2026-05-19]] — Co-Scientist genetic-leads-to-reverse-cellular-aging blog result (May 2026); promising-but-not-validated; candidate third spinout seed
 - [[google-io-2026-flash-omni-spark-antigravity]] — Google I/O 2026 four-product surface (Gemini 3.5 Flash GA + Omni + Spark + Antigravity 2.0); YouTube Shorts integration as consumer-distribution moat (May 2026)
+- [[deepmind-llm-lean-erdos-oeis-2026-05-25]] — LLM-Lean agent loop resolves 9 open Erdős problems + 44 OEIS conjectures at "a few hundred dollars per proof"; pairs with OpenAI Erdős disproof as two competing frontier-lab math results (May 25 2026)

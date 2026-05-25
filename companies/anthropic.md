@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-22
+last_updated: 2026-05-25
 ---
 
 ## What It Is
@@ -120,6 +120,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Anthropic Q2 profitability claim (unverified, 2026-05-21)**: Digg item makes loose reference to *"Anthropic reported second-quarter profits alongside OpenAI's Erdős problem solution."* If accurate, first wiki-tracked Anthropic quarterly profitability. **DO NOT propagate as wiki claim** until direct Anthropic-side source surfaces; framing in Digg is incidental to the OpenAI item it appears in. — [[dailybrief-roundup-2026-05-21]]
 - 2026-05-22: **Project Glasswing — 3-month internal Mythos / Mythos-class operation disclosed.** Per Digg-surfaced reporting: Anthropic operated Mythos Preview and Mythos-class models internally for three months as part of "Project Glasswing" *"amid insufficient safeguards for public release."* Plans named: *"work with US and allied governments after safeguards improve."* First wiki-captured Anthropic-internal-program disclosure with concrete duration + forward-deployment plan. Operationally validates the [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht selective-deployment thesis]]. Secondary-source caveat: Digg framing not directly corroborated by Anthropic disclosure in the brief. — [[anthropic-mythos-project-glasswing-2026-05-22]]
 - 2026-05-22: **Frontier-AI governance statement published** — *"Widening the conversation on frontier AI"* on anthropic.com/news. Pairs same-day with Project Glasswing disclosure as two Anthropic institutional-positioning moves. Primary not deeply fetched; specific policy positions pending. — [[dailybrief-roundup-2026-05-22]]
+- 2026-05-25: **Pope XIV × Anthropic partnership announced.** Vatican partnership to address ethical and moral implications of advanced AI; *"the Pope formally accepted Anthropic's invitation to collaborate."* **Third institutional-positioning partnership in 12 days** alongside Gates Foundation (May 14) + Project Glasswing US/allied government plan (May 22). Anthropic is consolidating a coordinated **safety-positioning portfolio across institutional-credibility surfaces**: foundation philanthropy + government deployment + Catholic-Church ethics. Brief synopsis only; primary not fetched. — [[dailybrief-roundup-2026-05-25]]
 
 ## Resources
 
@@ -161,3 +162,4 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[dailybrief-roundup-2026-05-21]] — 173% YTD valuation rise via Marcus reference + Q2-profitability unverified cross-reference (May 21 2026)
 - [[anthropic-mythos-project-glasswing-2026-05-22]] — Project Glasswing 3-month internal Mythos operation + US/allied government deployment plan (May 22 2026)
 - [[dailybrief-roundup-2026-05-22]] — frontier-AI governance statement + adjacent same-day items (May 22 2026)
+- [[dailybrief-roundup-2026-05-25]] — Pope XIV partnership + xAI title-unification comparison framing (May 25 2026)

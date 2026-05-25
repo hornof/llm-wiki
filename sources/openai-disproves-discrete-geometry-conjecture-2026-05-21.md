@@ -17,6 +17,15 @@ OpenAI announces (surfaced via 2026-05-21 Daily Brief; specifics confirmed via 2
 - **Cost**: **under $1,000** in compute.
 - The original 2026-05-21 brief said "80-year-old"; Draft 1 said 60-year; the 2026-05-22 AINews confirms ~80-year — consistent with Erdős 1946.
 
+**Methodological companion captured 2026-05-25**: [[deepmind-llm-lean-erdos-oeis-2026-05-25|DeepMind LLM-Lean agent loop resolves 9 open Erdős problems + 44 OEIS conjectures]] at *"a few hundred dollars per proof"*. **Two frontier-lab competing math results in five days**, same problem family (Erdős conjectures), different methodologies:
+
+| Lab | Result | Methodology | Cost |
+|---|---|---|---|
+| OpenAI | 1 disproof (unit distance) | **counterexample finding** via frontier-model search | <$1K |
+| DeepMind | 9 Erdős + 44 OEIS proofs | **proof generation** via LLM-Lean-validator loop | few hundred per proof, low-five-figures total |
+
+Same domain (verifiable pure-math), inverse methodological directions (find counterexample vs construct proof). The pair establishes math as the **verifiable-domain anchor** for the [[verifiability-and-jagged-intelligence|verifiability thesis]] — capability lands here first across both labs because the feedback loop is tightest.
+
 ## Key Claims / Takeaways
 
 ### What's confirmed (across two-brief capture)

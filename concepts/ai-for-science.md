@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-05-20
+last_updated: 2026-05-25
 ---
 
 ## Definition
@@ -52,3 +52,5 @@ AI-for-science simulations (weather, virtual cell, economics) are closely relate
 - [[latent-space-lupsasca-vibe-physics-2026-05]] — Lupsasca primary source documenting vibe physics
 - [[deepmind-co-scientist-aging-reversal-2026-05-19]] — DeepMind Co-Scientist identifies genetic leads to reverse cellular aging in human cells; promising-but-not-validated; functional-biology counterpart to [[alphafold]] structural-biology (May 2026)
 - [[isomorphic-labs-series-b-2026-05-16]] — Isomorphic Labs $2.1B Series B; IsoDDE drug-design engine; pairs with Co-Scientist as DeepMind applied-AI-for-science commercial-and-research portfolio (May 2026)
+- [[deepmind-llm-lean-erdos-oeis-2026-05-25]] — DeepMind LLM-Lean agent loop resolves 9 open Erdős problems + 44 OEIS conjectures via Lean-validator-in-the-loop; formal-math proof generation as third applied AI-for-science domain alongside structural biology (AlphaFold) and functional biology (Co-Scientist); few-hundred-dollars-per-proof economics (May 25 2026)
+- [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] — OpenAI GPT-next disproves Erdős planar unit distance problem for <$1K compute; counterexample-finding methodology complement to DeepMind's proof-generation methodology (May 2026)
