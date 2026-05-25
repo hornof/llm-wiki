@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-24
+last_updated: 2026-05-25
 ---
 
 
@@ -91,6 +91,7 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - **May 15 2026 — cloud certs becoming "briefable" (Ivan Nardini, Google Cloud — verification-pending)**: surfaced via @Zephyr_hg on X — *"You don't need to know how to deploy on Google Cloud. Claude Code figures out the architecture for you."* Zephyr's gloss: *"The 2027 deployment skill isn't 'I know GCP.' It's 'I know how to brief Claude on the deployment.'"* No primary linked in the surfacing post (no talk video, blog post, or podcast); **flag for verification before external citation**. If accurate, extends [[willison-legacy-mobile-rewrite-2026-05-14|Willison's "languages used to be LOCK IN"]] thesis from programming languages to cloud-platform expertise. Counter-takes in thread (Kekko D'Amato, Bao Tran): capability-floor-raising is not capability-ceiling-equalizing; engineers who understand fundamentals still catch errors the agent misses. — [[zephyr-7-claude-setups-2026-05-15]]
 - **May 15 2026 — practitioner-side validation of CLAUDE.md as setup #1**: Zephyr's 7-setup taxonomy of Claude fluency (CLAUDE.md, Projects, Skills, Connectors, Scheduled Tasks, Model Routing, /goal) names CLAUDE.md as the highest-return 30 minutes; reinforces the [[claude-md-pattern]] community-canonical direction. Same week: svpino's per-subagent model-selection rule and Zephyr's Haiku/Sonnet/Opus model-routing-default land on the same pattern (task-appropriate model selection as load-bearing). — [[zephyr-7-claude-setups-2026-05-15]] / [[svpino-subagent-pilled-2026-05-15]]
 - **May 2026 — "Claude Code is the most misleading name in AI" (Hannah Stulberg)**: 1,500-hour practitioner at DoorDash. *"It's not just for code."* Stulberg's Team OS pattern (function-organized repo + minimal CLAUDE.md + progressive sub-loading + Slack-MCP-integrated handles) is the cleanest team-scope use case captured to date; explicitly framework-agnostic (works with Codex / Cursor / Copilot) but Claude-Code-native in default surface. Four-practitioner convergence without coordination (Stulberg/DoorDash, Killeen/Pendo, Meyer/Google, Vellotti solo) — strongest evidence-of-pattern for shared-memory infrastructure captured this month. — [[stahlberg-team-os-aakash-2026-05]]
+- **May 24 2026 — "Future of work happens inside Codex or Claude Code" (Dan Shipper via Lenny Rachitsky)**: Shipper spends all his time in Codex using Google Docs / PostHog / etc inside the agent's in-app browser. **Reverses the conventional AI-into-SaaS direction**: instead of putting AI into your SaaS tool, you use SaaS tools *inside* your AI agent. **Lenny on Cowork omission**: *"I think he treats CC and Cowork as the same, imho they'll likely merge over time"* — first wiki capture of CC + Cowork likely-convergence framing. Comment-thread counter-take (Crepe Supreme): Microsoft 365 Copilot at 20M paid enterprise seats / $7.2B ARR + ChatGPT Enterprise+Business 5M+ paid users — undercuts the Codex-or-Claude-Code-as-operating-system framing if numbers verify (verification-pending). — [[lennysan-shipper-10-takeaways-2026-05-24]]
 
 ## Resources
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern

@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-20
+last_updated: 2026-05-25
 ---
 
 ## Definition
@@ -140,3 +140,4 @@ Counter-take in the comment thread (Lawand Soran): *"The founders who get there 
 - [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — consulting-firms-as-AI-native-operators (per Anakin counter-take); SaaS-disruption two-tier framing; OpenAI/Anthropic $5.5B combined consulting venture (May 17 2026)
 - [[stahlberg-team-os-aakash-2026-05]] — Team OS pattern as the team-scale AI-native-org instantiation; 4-practitioner convergence (Stulberg/DoorDash, Killeen/Pendo, Meyer/Google, Vellotti solo) (May 2026)
 - [[jeff-clarke-dell-ai-native-imperatives-2026-05-19]] — Dell COO/Vice-Chair five-imperatives framework for AI-native enterprise; infrastructure-supplier-side framing; *"every action needs a receipt"* audit-trail requirement; data-locality as triple-converged (sovereignty + federated-training + Dell-imperatives) binding constraint (May 19 2026)
+- [[lennysan-shipper-10-takeaways-2026-05-24]] — Dan Shipper (Every) "super-agent in Slack" centralized-maintenance pattern: one forward-deployed engineer maintains a company-wide agent (Shopify River + Viktor as production examples). **Flipped from the every-employee-personal-agent view** because *"agents need humans who care about them; when someone gets tired of maintaining their personal agent, it becomes useless."* Contrasts with [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] / [[svpino-subagent-pilled-2026-05-15]] decomposition framings — Shipper centralizes; sairahul1/svpino decompose. Worth holding as **practitioner-disagreement on the agent-organization architecture** (May 24 2026).
