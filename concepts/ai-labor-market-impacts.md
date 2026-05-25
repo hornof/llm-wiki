@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-05-18
+last_updated: 2026-05-25
 ---
 
 ## Definition
@@ -136,6 +136,16 @@ The structural framework above measures the labor-market signal in employment, e
 
 - Survey is large publicly traded companies, $5.8B median revenue — not globally representative. nateherk himself: *"Globally I'd be shocked if it's over 30%."*
 - Path-allocation between A and B (57% inside vs 43% outside) is the strongest single argument against the dominant content-creator narrative that consulting/agency is the only AI-native career path.
+
+## Practitioner-Content Register: Hassid + Kearns Cost-Collapse Cluster (May 2026)
+
+Three same-week practitioner-content-register surfaces converging on the **development-as-defensible-skill collapse** thesis from different angles:
+
+- **[[hassid-cant-beat-ai-cost-collapse-2026-05-18|Ruben Hassid (2026-05-18)]]**: *"AI gets 5× cheaper every single year. Do you?"* + *"In 4 years AI is 6,000× cheaper."* Three-hidden-costs framework: AI attacks know-enough + think-enough + produce-enough. *"Cheap tools don't need to be perfect. They need to be good enough for people to use them 100 times more."* **Junior-jobs-crashing directly named** — *"the market decided. It's better to use AI than juniors. And you can't say it out loud."*
+- **[[herk-kearns-100m-ai-agency-playbook-2026-05-25|Devin Kearns / Custom AI Studio (2026-05-25)]]**: *"The value of actually doing development is trending towards zero. It's like very very stark and very very clear that it's happening."* + *"Most AI work being sold today won't survive 2027."* Agency-side framing of the same call: most operators are unconsciously building lifestyle businesses on the doing-development layer that's collapsing.
+- **[[lennysan-shipper-10-takeaways-2026-05-24|Dan Shipper takeaway 7 (2026-05-24)]]**: *"AI job apocalypse not happening, but you need to evolve. Models make yesterday's human competence cheap. The key: 'ride the models.'"* Pairs the cost-collapse thesis with a non-doom guidance: substitute up-the-stack toward judgment + integration rather than execution.
+
+**Three independent surfaces, same week, converging on the same structural call.** Different prescriptions (Hassid: subscribe to my newsletter; Kearns: build enterprise-value AI agency; Shipper: ride the models). Same diagnosis.
 
 ## Related Concepts
 

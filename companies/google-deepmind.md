@@ -43,6 +43,8 @@ Four coordinated product surfaces announced at I/O 2026:
 
 **Strategic posture**: single-fast-model + massive distribution surface (YouTube Shorts) — structurally inverse to Anthropic's task-tiered model-routing-default discipline ([[svpino-subagent-pilled-2026-05-15|svpino subagent-pilled]] / [[zephyr-7-claude-setups-2026-05-15|Zephyr setup #6]]). — [[google-io-2026-flash-omni-spark-antigravity]]
 
+**May 25 follow-up — Google AI Studio native Android app builder**: Logan Kilpatrick announces free no-code Android-app generation in AI Studio; **250K Android apps "created" in ~1 week** since launch (Logan: *">99% of these folks never built an Android app before"*). Android's 3B-user surface as the deployment funnel. **Min Choi load-bearing skeptical question**: how many of the 250K have actually been submitted/approved to Google Play? — submit/approval funnel could narrow this by 1-2 orders of magnitude. **Lucas Beyer (Google researcher) spotted "generate music" in the AI Studio UI** — first wiki signal of an undisclosed Google music-generation surface. Continues Google's distribution-volume-over-margin strategy alongside Gemini 3.5 Flash + Omni YouTube Shorts integration — three consumer-distribution surfaces in five days. — [[google-ai-studio-android-app-builder-2026-05-25]]
+
 ## Spin-outs
 - **[[isomorphic-labs]]**: drug discovery company using AlphaFold protein structures to design binding compounds; Hassabis runs this alongside Google DeepMind
 
