@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-05-26
+last_updated: 2026-05-27
 ---
 
 ## Definition
@@ -56,3 +56,4 @@ AI-for-science simulations (weather, virtual cell, economics) are closely relate
 - [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] — OpenAI GPT-next disproves Erdős planar unit distance problem for <$1K compute; counterexample-finding methodology complement to DeepMind's proof-generation methodology (May 2026)
 - [[fda-accelerated-ai-pathway-pilot-2026-05-26]] — FDA 2026 Accelerated AI Pathway Pilot for AI-generated evidence in drug submissions; first regulatory framework legitimizing AI-evidence-as-data not just AI-as-tool; regulatory-infrastructure unlock for the IsoDDE / Co-Scientist / LLM-Lean pharma applied stack (May 26 2026)
 - [[dailybrief-roundup-2026-05-26]] — LLM-AutoSciLab closed-loop active-experimentation + Bérczi-Fehér AlphaEvolve-+-GPT-5.5-Pro geometry-conjecture-generation; three same-month frontier-lab loop-closing AI-for-science tools (May 26 2026)
+- [[dailybrief-roundup-2026-05-27]] — **AirCast-SR** kilometer-scale atmospheric super-resolution foundation model (latent consistency diffusion; climate/agriculture/disaster-management applied-AI signal) + **ESMFold2** (Alex Rives) claims to beat [[alphafold|AlphaFold3]] on protein-protein interaction benchmarks with lab-validated binders targeting five therapeutic proteins (first competitor signal vs AlphaFold3; verification-pending on benchmark specifics) (May 27 2026)

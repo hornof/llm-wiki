@@ -2,7 +2,7 @@
 name: End of Finetuning
 type: concept
 maturity: emerging
-last_updated: 2026-05-13
+last_updated: 2026-05-27
 ---
 
 ## Definition
@@ -29,6 +29,12 @@ If the default abstraction layer for "make the model behave the way I want" move
   - **Top 1%**: RLFT on open models, custom-ASIC strategies.
   - **Bottom 99%**: long-context + retrieval + behavioral spec.
 - **Counterweight**: research is still active — see [[dailybrief-research-roundup-2026-05-13]] (rotation-preserving SFT, arXiv:2605.10973). The research frontier hasn't stopped; the *default practitioner stack* has.
+
+## Opposing-Direction Signal: Continual Learning at the Agent Layer (May 2026)
+
+[[dailybrief-roundup-2026-05-27|Trajectory]] launches with $15M (co-founded by Ronak Malde) to build a **continual learning platform for agentic AI models**. Post-deployment model improvement via user feedback — keeping agents aligned after launch. This is the **inverse-direction bet** to the End-of-Finetuning thesis: where swyx names long-context + behavioral-spec as the default replacement for finetuning, Trajectory bets that **agents specifically need continuous weight updates** to stay aligned to operational drift in production.
+
+**Why both can be true**: End-of-Finetuning is a *default-stack* claim (the bottom 99% don't finetune anymore). Continual-learning-at-the-agent-layer is a *top-1%* + *agent-specific* claim — once you're running an autonomous agent in production with user feedback at volume, the economics of small continuous weight adjustments may dominate the long-context-only approach. Worth tracking whether Trajectory's product shape lands closer to the swyx "top 1% RLFT" lane or genuinely opens a new agent-runtime-adjacent finetuning niche.
 
 ## Open Questions / Caveats
 

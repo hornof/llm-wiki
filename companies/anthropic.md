@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-05-26
+last_updated: 2026-05-27
 ---
 
 ## What It Is
@@ -122,6 +122,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-22: **Frontier-AI governance statement published** — *"Widening the conversation on frontier AI"* on anthropic.com/news. Pairs same-day with Project Glasswing disclosure as two Anthropic institutional-positioning moves. Primary not deeply fetched; specific policy positions pending. — [[dailybrief-roundup-2026-05-22]]
 - 2026-05-25: **Pope Leo XIV × Anthropic partnership announced.** Vatican partnership to address ethical and moral implications of advanced AI; *"the Pope formally accepted Anthropic's invitation to collaborate."* **Third institutional-positioning partnership in 12 days** alongside Gates Foundation (May 14) + Project Glasswing US/allied government plan (May 22). Anthropic is consolidating a coordinated **safety-positioning portfolio across institutional-credibility surfaces**: foundation philanthropy + government deployment + Catholic-Church ethics. — [[dailybrief-roundup-2026-05-25]]
 - 2026-05-26: **Pope Leo XIV publishes *Magnifica Humanitas* encyclical on AI.** Underlying doctrinal document for the May 22 Vatican partnership signal. Encyclical is the most authoritative form of papal teaching short of ex-cathedra dogmatic definitions; this one defines Catholic-doctrinal position on AI integration into society. **Pope Leo XIV** regnal-name confirmed (vs prior brief's "Pope XIV"). Simon Willison endorsed on his blog with *"signals clarity"* framing per the brief. Specific doctrinal positions / named-frontier-labs / Anthropic-named status all pending deep-fetch. Pairs structurally with Pope Leo XIII's 1891 *Rerum Novarum* (founded modern Catholic social teaching on labor and capital during the Industrial Revolution) — same regnal name; same structural-parallel for AI economy. — [[pope-leo-xiv-magnifica-humanitas-encyclical-2026-05-25]]
+- 2026-05-27: **Yasmin Razavi (Spark Capital) — $75M Anthropic investment returned $3B (40× return).** Spark backed Anthropic "when the startup had no revenue." Razavi added to Forbes Midas List on the back of the return. First wiki-captured concrete early-investor return-multiple for Anthropic; pairs with the [[aakashgupta-anthropic-growth-acceleration-2026-05-09|$44B-in-17-months]] revenue acceleration and 173% YTD valuation rise. Verification-pending on the specific $75M / $3B numbers. — [[dailybrief-roundup-2026-05-27]]
+- 2026-05-27: **[[simon-willison|Willison]] "Anthropic and OpenAI have found PMF" structural thesis.** Long-form post arguing both frontier labs have hit PMF with *different* offerings (specifics not surfaced in brief; primary unfetched). Willison's distinction: **API PMF (solved) vs end-user-product PMF (open, "next 18 months").** Cuts orthogonally to [[lennysan-shipper-10-takeaways-2026-05-24|Shipper SaaS-NOT-dead]] counter-thesis. — [[willison-anthropic-openai-pmf-2026-05-27]]
 
 ## Resources
 
@@ -164,4 +166,6 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - [[anthropic-mythos-project-glasswing-2026-05-22]] — Project Glasswing 3-month internal Mythos operation + US/allied government deployment plan (May 22 2026)
 - [[dailybrief-roundup-2026-05-22]] — frontier-AI governance statement + adjacent same-day items (May 22 2026)
 - [[dailybrief-roundup-2026-05-25]] — Pope XIV partnership + xAI title-unification comparison framing (May 25 2026)
+- [[willison-anthropic-openai-pmf-2026-05-27]] — Willison PMF structural thesis (May 27 2026)
+- [[dailybrief-roundup-2026-05-27]] — Razavi/Spark 40× return ($75M → $3B); Forbes Midas List (May 27 2026)
 - [[pope-leo-xiv-magnifica-humanitas-encyclical-2026-05-25]] — Magnifica Humanitas encyclical published; underlying doctrinal document for the Vatican partnership; Pope Leo XIV regnal-name confirmed (May 26 2026)

@@ -3,7 +3,7 @@ name: AlphaFold
 type: tool
 category: platform
 status: mainstream
-last_updated: 2026-04-29
+last_updated: 2026-05-27
 ---
 
 ## What It Is
@@ -29,6 +29,7 @@ AlphaFold predictions are accessible via the EMBL-EBI AlphaFold database (alphaf
 - **Traditional methods (X-ray crystallography, cryo-EM)**: Accurate but slow (months to years per structure), expensive, not scalable.
 - **Rosetta**: Prior computational approach; far less accurate than AlphaFold.
 - **[[isomorphic-labs]]**: Not a competitor — builds on top of AlphaFold outputs to design binding compounds.
+- **ESMFold2 (Alex Rives, May 2026)**: ESM-project competitor. *Claims* to beat AlphaFold3 on protein-protein interaction benchmarks, with lab tests validating binders targeting five therapeutic proteins. First wiki-captured AlphaFold3-rivaling competitor signal. Verification-pending: specific benchmark deltas, whether validated binders are clinically meaningful or proof-of-concept-only. — [[dailybrief-roundup-2026-05-27]]
 
 ## Resources
 - [[hassabis-deepmind-alphafold-agi]] — Hassabis on AlphaFold as 50-year grand challenge, Nobel Prize, drug discovery timeline

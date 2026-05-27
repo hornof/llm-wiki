@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-25
+last_updated: 2026-05-27
 ---
 
 
@@ -123,3 +123,5 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[latentspace-codex-rises-claude-meters-2026-05-14]] — subscription-metering policy change affecting third-party harness usage (May 14 2026)
 - [[klmn-claude-code-taxes-2026-01-07]] — Klimontovich's tax-prep recipe; clean non-coding document-prep walkthrough; ad-hoc version of cookbook primitives (Jan 7 2026)
 - [[vladimir-klimontovich]] — Jitsu CEO; author of the taxes essay
+- [[dailybrief-roundup-2026-05-27]] — arps18 "Claude Code as a daily driver" practitioner integration guide (CLAUDE.md / skills / subagents / plugins / MCPs); **PolyArch/humanize** Claude Code plugin (Shell) running an **RLCR loop** — Claude implements while Codex independently reviews until acceptance criteria are met (872★; first wiki-captured cross-vendor agent-review pattern with Anthropic implementing + OpenAI reviewing) (May 27 2026)
+- [[cognition-26b-valuation-492m-arr-2026-05-27]] — Cognition $26B valuation / $492M ARR + 10x usage growth this year (Devin operational-scale signal; competitive context for Claude Code positioning) (May 27 2026)
