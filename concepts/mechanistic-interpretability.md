@@ -2,7 +2,7 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-05-21
+last_updated: 2026-05-26
 ---
 
 ## Definition
@@ -72,6 +72,7 @@ Three independent surfaces of sparse-autoencoder-based interpretability research
 - [[anthropic-teaching-claude-why-2026-05-08]] — "Teaching Claude Why" alignment-training paper; trains reasoning *in* (28× sample-efficiency, 0–<1% honeypot blackmail rate from Haiku 4.5 onward)
 - [[cheng-zhang-distributed-icl-2026-05]] — Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning (Cheng & Zhang, May 2026 arXiv preprint)
 - [[dailybrief-roundup-2026-05-21]] — GoodfireAI SAE-on-curved-manifolds finding; inverse-Ising-problem framing; physics-grounded approach (May 21 2026)
+- [[dailybrief-roundup-2026-05-26]] — **Neel Somani Verifiable Transformers** (arXiv 2605.24033) — first wiki-captured paper bridging mechanistic-interpretability to **formal verification**; solver-checkable circuit explanations close the gap between *finding circuits* and *proving what they do*. Fourth surface in the interpretability convergence wave alongside Anthropic NLAs + EEG-foundation-model SAE + GoodfireAI; **first formal-verification angle** in the cluster.
 
 ## Related Concepts
 
