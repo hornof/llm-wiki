@@ -60,17 +60,20 @@ For an AI engineering / VPE career:
 
 The Anthropic measure is the first to use first-party-lab usage telemetry as the empirical anchor. Other labs (OpenAI, Google) have not yet published comparable usage-anchored exposure measures — would be a structural move if/when they do.
 
-## Timeline-Calibration Triangle (May 2026)
+## Timeline-Calibration Quadrangle (May 2026)
 
-Three dated agentic-replacement timeline claims captured in the wiki, all roughly within the same decade:
+Four dated agentic-replacement timeline claims captured in the wiki, all roughly within the same decade:
 
 | Source | Prediction | Date stamp |
 |---|---|---|
 | [[kris-lovejoy]] / Kyndryl (via [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15|Eye on A.I.]]) | **Half of traditional IT-admin tasks handled by AI agents by 2031** | May 15 2026 |
 | [[andrej-karpathy]] (via [[zephyr-karpathy-10-year-agent-window-2026-05-14|Zephyr amplification]]) | **~10 years for agents to fully replace workers** | May 14 2026 |
 | Anton Korinek (Anthropic) — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] | **~6 years to explosive growth regime** under full software R&D automation + 5% economy-wide automation shock | May 11 2026 |
+| MIT FutureTech (via [[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch / Bort]]) | **80–95% success on most text-tasks at "minimally sufficient quality" by 2029** (current LLM-improvement rate) | May 27 2026 |
 
-The triangle is useful as a calibration anchor for new timeline claims: any aggressive *"AI will replace 50% of jobs in 2 years"* claim that doesn't engage with these three needs to either supersede them or be filed as hype. Any cautious *"agentic AI is overhyped, decades away"* claim needs to engage with Korinek's lower bound.
+The quadrangle is useful as a calibration anchor for new timeline claims: any aggressive *"AI will replace 50% of jobs in 2 years"* claim that doesn't engage with these four needs to either supersede them or be filed as hype. Any cautious *"agentic AI is overhyped, decades away"* claim needs to engage with Korinek's lower bound.
+
+**MIT framing's key qualifier**: *"minimally sufficient quality level"* — the floor of acceptability, not human-parity. *"Agents reach the floor of acceptability"* is a much weaker claim than *"agents replace workers"*; the qualifier is what keeps MIT's 2029 datum compatible with the longer-horizon claims above.
 
 **Counter-prediction from Lovejoy (worth holding alongside)**: the *replacement profile* may not map to current programmer roles. *"Not coders, but people trained to ask the right questions"* will thrive. If correct, the [[anthropic-labor-market-impacts-2026-03-05|Computer Programmers 75% covered]] finding measures *displacement of current programmers* rather than displacement of *the work programming does* — those are different things, and the existing framework conflates them.
 
@@ -147,6 +150,55 @@ Three same-week practitioner-content-register surfaces converging on the **devel
 
 **Three independent surfaces, same week, converging on the same structural call.** Different prescriptions (Hassid: subscribe to my newsletter; Kearns: build enterprise-value AI agency; Shipper: ride the models). Same diagnosis.
 
+## AI-ROI-Gap Counter-Anchor (May 2026)
+
+The [[ai-roi-gap]] thesis crystallized 2026-05-23 → 2026-05-27 across three independent practitioner surfaces and one mainstream-press synthesis. The relevant labor-market-impact additions:
+
+### Layoffs.fyi 2026-vs-2025 numbers ([[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch / Bort, 2026-05-27]])
+
+- **115,430 tech employees fired across 152 companies in first 5 months of 2026** — nearly matching all of 2025 (124,636 across 275 companies).
+- 2026 on pace for ~2× the 2025 layoff total at the current rate.
+- **Concentration shift**: 152 vs 275 companies = fewer-but-larger cuts in 2026 (avg cut/company ~760 in 2026 vs ~453 in 2025).
+- **Macro counterweight to the Anthropic Economic Index *no-detectable-unemployment-differential-yet* finding**. The disagreement isn't about the data: Anthropic measures *occupation-level CPS-matched unemployment differentials*; layoffs.fyi measures *firm-attributed-AI-or-AI-adjacent reductions*. Both can be simultaneously true (no statistically significant CPS differential *and* a doubling of AI-attributed firm-level cuts) because the layoff-attribution channel and the unemployment-rate channel measure different things.
+
+### AI-washing skepticism layer
+
+- TechCrunch's framing: when public companies attribute layoffs to AI, it could be (a) actual displacement, (b) rhetorical cover for macro cost-cutting, or (c) AI-premium stock-positioning. These are not mutually exclusive.
+- See [[ai-roi-gap#The "AI Washing" Question (Layoff-Attribution Skepticism)|the AI-ROI-Gap "AI Washing" Question]] for the tracking-signal framework.
+- **Implication for the labor-market exposure framework**: the Anthropic Economic Index's *observed exposure* measure (β × actual usage) is robust to AI-washing because it doesn't depend on firm-attribution narratives. This is a methodological strength of the framework relative to layoff-tracker data.
+
+### Berkeley meta-analysis: "no robust relationship" (October 2025)
+
+- **UC Berkeley California Management Review**: meta-analysis of AI-and-productivity research finds *"no robust relationship between AI adoption and aggregate productivity gain."* ([cmr.berkeley.edu](https://cmr.berkeley.edu/2025/10/seven-myths-about-ai-and-productivity-what-the-evidence-really-says/), per TechCrunch citation).
+- **Why it matters for labor-market impacts**: if aggregate productivity gains are not robustly measurable, the *mechanism* by which AI exposure produces labor-market displacement (productivity gain → headcount reduction at constant output) is weakened. The exposure framework still works for tracking *which occupations are theoretically vulnerable*; the open question becomes *under what conditions vulnerability translates to displacement*.
+- **Not yet ingested as a separate source.** Worth primary-fetch.
+
+### NBER w34984: the productivity paradox (March 2026)
+
+- **NBER (March 2026)**: AI adoption *does* improve productivity — but *"a productivity paradox, in which perceived productivity gains are larger than measured productivity gains."*
+- **Pairs with the [[anthropic-labor-market-impacts-2026-03-05|Anthropic Economic Index]] perception-vs-measurement gap**: the Anthropic measure anchors on usage telemetry (β × actual usage), which is closer to *measured* than *perceived* productivity. The NBER paradox is the macro-econometric mirror of why the Anthropic measure outperforms naive β-only frameworks.
+- **Not yet ingested as a separate source.** Worth primary-fetch as a foundational citation alongside Eloundou and Brynjolfsson.
+
+### MIT FutureTech 80-95%-by-2029 anchor
+
+- See the [[ai-labor-market-impacts#Timeline-Calibration Quadrangle (May 2026)|Timeline-Calibration Quadrangle]] above — MIT FutureTech becomes the 4th corner.
+- **Key reframe**: MIT's framing is *"agents reach the floor of acceptability,"* not *"agents replace workers."* This is the empirical foundation for the [[ai-roi-gap]] thesis that capability-of-the-model and value-shipped-in-production are different curves — the model crossing the *"minimally sufficient quality"* line doesn't mean the deployment-to-shipped-value funnel closes.
+
+### HBR: bottleneck shifts to executive authorization (May 2026)
+
+- **Harvard Business Review (May 2026)**: when everyone uses AI to produce more output, *"the bottleneck simply shifts to executives. Their work awaits the people that must authorize all the stuff everyone is producing."*
+- **Structurally important for labor-market impacts**: the AI-productivity story isn't *just* about throughput — it's about which roles become bottlenecks. The *executive-authorization bottleneck* could shift labor-market value *toward* roles that have authority-and-judgment (middle-manager-to-executive transition surface) and *away* from roles that have output-production capacity. **Pairs structurally** with the [[ai-labor-market-impacts#C-Suite-Emergence Path: Chief AI Officer (May 2026)|CAIO emergence path]] and the *"by 2030, people will augment AI"* IBM framing.
+
+### CEO-distance-from-last-mile mechanism ([[levie-ceo-ai-psychosis-2026-05-23|Levie, 2026-05-23]])
+
+- *"CEOs are uniquely prone to AI psychosis because they're sufficiently distant from the last mile of work that still has to happen to generate most value with AI."*
+- **Cultural-sentiment companion** to the structural Anthropic-Economic-Index data. The mechanism Levie names is *why* the executive-prediction-vs-reality gap shows up in CEO survey data ([[ai-labor-market-impacts#CEO predictions get marked-to-market badly|CEOs off by ~40 percentage points in one year on their own AI growth-driver prediction]]). Same gap, named from two different angles.
+
+### 4-stage hype-cycle psychological-investment ratchet ([[cyb3rops-four-stages-ai-coding-hype-2026-05-26|cyb3rops, 2026-05-26]])
+
+- **The mechanism by which the [[ai-roi-gap]] persists despite measurement**: stages 1-2 (Amazement → Expansion) create social/professional commitments that make stage-4 (Realization) admission costly even when data supports it.
+- **Implication for labor-market displacement tracking**: layoff-attribution narratives are downstream of the same ratchet. Once a company has invested narratively in *"AI productivity will replace X% of work,"* the layoff announcement that follows is doubly committed (cost + narrative) and harder to walk back even if displacement targets don't materialize.
+
 ## Frontier-Lab Labor-Policy Posture (May 2026)
 
 First wiki-captured concrete labor-policy commitment from a frontier-model provider:
@@ -161,5 +213,6 @@ First wiki-captured concrete labor-policy commitment from a frontier-model provi
 
 - [[agentic-engineering]] — the professional discipline of working with agents at the high-leverage end of the exposure curve.
 - [[saas-disruption-thesis]] — the labor-market mirror image is the SaaS-vendor-disruption thesis (the same workflows that displace workers also displace incumbent SaaS).
+- [[ai-roi-gap]] — the demand-side / ROI mirror image; labor-market displacement data is one of three empirical anchor surfaces for the gap (token-spend funnel + layoff numbers + productivity research).
 - [[ai-native-organizations]] — org-design adaptation to high-exposure environments.
 - [[end-of-finetuning]] — capability-side complement; if base models keep absorbing fine-tuning use cases, the coverage curve climbs faster.
