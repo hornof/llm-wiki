@@ -2,7 +2,7 @@
 name: Isomorphic Labs
 type: company
 status: active
-last_updated: 2026-05-16
+last_updated: 2026-05-26
 ---
 
 ## What It Is
@@ -34,5 +34,6 @@ First publicly disclosed name for Isomorphic's AI drug-design engine: **IsoDDE**
 ## Resources
 - [[hassabis-deepmind-alphafold-agi]] — founding rationale, vision, and timeline
 - [[isomorphic-labs-series-b-2026-05-16]] — $2.1B Series B announcement and IsoDDE product name
+- [[fda-accelerated-ai-pathway-pilot-2026-05-26]] — FDA 2026 Accelerated AI Pathway Pilot for AI-generated evidence in drug submissions; first regulatory framework legitimizing AI-evidence-as-data; **regulatory unlock for the IsoDDE in-silico drug-design pipeline at the FDA submission boundary** (Pilot stage; no approved drugs through it yet)
 - [[alphafold]] — upstream structural biology platform
 - [[google-deepmind]] — parent organization

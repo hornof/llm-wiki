@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 ## What This Is
@@ -162,6 +162,10 @@ First wiki-captured **public-SaaS-incumbent with proprietary-data flywheel doing
 - Intuit sits in the **high-end-survives-and-consolidates tier** of [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|Chamath's two-tier framing]] (proprietary tax/accounting data flywheel = defensible). The 17% cut is **operating-model evidence** that this survival path *requires actual cost-structure restructuring*, not just rhetorical positioning.
 - Comment-thread / public framing references *"Meta cuts and SaaS predictions of 40-50 percent reductions"* — Intuit at 17% may be the conservative end of a larger pattern about to play out.
 - **Why the 17% number matters as a tracking signal**: it's the first wiki-captured **concrete operating-model evidence** that the SaaS-disruption thesis isn't theoretical; the incumbents the framework predicts will survive are actively cutting headcount at material scale.
+
+### ClickUp mass layoff (2026-05-26)
+
+[[dailybrief-roundup-2026-05-26|TechCrunch]] reports ClickUp replaces *"hundreds of employees with AI agents at scale"* — a major SaaS-vendor productivity/workflow incumbent. **Second public-SaaS-incumbent material-AI-restructuring cut in six days** alongside Intuit. **Two-in-six-days pattern** is the strongest concrete operational evidence captured to date for the SaaS-disruption thesis at the high-end-survives-via-restructuring path. ClickUp specifically is closer to the mid-market SaaS layer Chamath says is on the conveyor belt — worth tracking whether ClickUp's restructuring works (it survives the cuts as a smaller AI-native company) or whether it's a leading indicator of mid-market-SaaS terminal-decline.
 
 ## Capital-Efficient AI Infrastructure Cluster (May 2026)
 
