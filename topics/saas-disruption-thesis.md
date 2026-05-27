@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-26
+last_updated: 2026-05-27
 ---
 
 ## What This Is
@@ -193,6 +193,17 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 - **Sets the public-market reference price** for AI-infrastructure-layer-displacing-application-SaaS valuation.
 - **Capital-allocation regime change**: post-IPO, OpenAI is accountable quarterly. The current pattern of $14B-projected-2026-losses-funded-by-strategic-investors becomes structurally harder to sustain under public-market scrutiny — and **either OpenAI shows a faster path to profitability than current SaaS incumbents, or the valuation discounts**.
 - Anthropic's eventual IPO at its [[aakashgupta-anthropic-growth-acceleration-2026-05-09|current trajectory ($44B ARR in 17 months)]] would set the second reference point.
+
+## API PMF vs End-User-Product PMF (Willison, 2026-05-27)
+
+[[willison-anthropic-openai-pmf-2026-05-27|Simon Willison]] publishes long-form thesis arguing **Anthropic and OpenAI have both found product-market fit** — but with different offerings. The framing relevant to this topic is the **API PMF vs end-user-product PMF distinction**:
+
+- **API PMF (solved)**: builders integrate frontier models at scale; cost-curve and quality-curve crossed the threshold where waiting-for-better is dominated by build-with-current.
+- **End-user product PMF (open)**: whether anyone needs *the thing the model is in* — the surface, the workflow, the product. *"That's the next 18 months."*
+
+**Why this matters for the disruption thesis**: the question "do end-user products around frontier models have PMF" is structurally the same as "is the SaaS layer above frontier models durable or disrupted." Willison's framing **doesn't take a side** — it names the question as the next 18 months' empirical test. Cuts orthogonally to [[lennysan-shipper-10-takeaways-2026-05-24|Shipper's "SaaS is NOT dead"]] counter-thesis below — both can be true simultaneously (SaaS persists *and* end-user-product PMF is unresolved at the category level), they just cut the question differently.
+
+**Cross-cutting with [[cognition-26b-valuation-492m-arr-2026-05-27|Cognition $492M ARR]]**: Cognition is one data point in favor of "end-user product PMF exists" (Devin sits on top of frontier models, has real revenue at scale). Willison's framing suggests it's not yet settled at the category level — Cognition is one company-level proof point, not category-level resolution. The next 18 months is whether more Cognition-shaped revenue stories emerge or whether Cognition is the exception.
 
 ## Counter-Thesis: "SaaS is NOT dead" (Dan Shipper, 2026-05-24)
 

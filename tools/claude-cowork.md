@@ -3,12 +3,15 @@ name: Claude Cowork
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-05-25
+last_updated: 2026-05-27
 ---
 
 ## What It Is
 
 **Claude Cowork** is [[anthropic]]'s autonomous-execution surface for non-coding workflows — a tab inside [[claude-desktop]] that takes a brief in plain English and runs the task end-to-end across files, apps, and the browser. Anthropic's positioning ([[claude-cowork-cheatsheet-2026-05-07]]):
+
+> **Naming-collision note (2026-05-27)**: a [[simon-willison|Simon Willison]] post titled *"Copilot Cowork exfiltrates files via agentic attack"* surfaced via [[dailybrief-roundup-2026-05-26|the 2026-05-26 Daily Brief]] — brief attributes the product to **Microsoft**. Three possibilities: (a) Microsoft has launched a same-name "Copilot Cowork" product (deliberate name collision); (b) the brief is informally labeling an M365 Copilot autonomous-agent surface as "Cowork"; (c) brief mis-attribution — Willison's post may actually be about Anthropic Cowork. **Primary unfetched; product attribution pending verification.** If the incident does involve Anthropic Cowork, it would be the first wiki-captured concrete exfiltration incident on this product. See [[willison-copilot-cowork-exfiltration-2026-05-26]] for the framing analysis.
+
 
 > "Cowork isn't a chatbot you guide step-by-step. It's an autonomous agent you delegate to."
 

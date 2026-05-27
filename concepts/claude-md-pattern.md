@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-05-25
+last_updated: 2026-05-27
 ---
 
 ## Definition
@@ -58,6 +58,7 @@ A community-quoted claim ([[mnilax-claude-md-12-rules-2026-05-09]], citing Anthr
 - **CLAUDE.md as prerequisite for unattended-execution ([[claude-code-goal-command-2026-05]], Luca Capone, May 2026)** — *"/goal only works well when your CLAUDE.md is solid. Without project context, it wanders. With it, feels like a junior dev who actually read the docs."* This is the **inverse-direction reinforcement** of the pattern: until now, CLAUDE.md has been framed as a per-session quality improvement; Luca's comment makes it a **prerequisite for unattended-execution capability**. As Claude Code's long-running primitives ([[claude-code-goal-command-2026-05|`/goal` / `/loop` / `/schedule` / stop hooks / auto mode]]) move from optional to default, the dependency relationship flips: CLAUDE.md is not what improves Claude's behavior in a single session, it's **what makes longer-horizon operation tractable at all**.
 - **Stulberg Team OS ([[stahlberg-team-os-aakash-2026-05]], May 2026)** — independent **1,500-hour practitioner validation** of the minimal-CLAUDE.md + progressive-sub-loading framing.
 - **Hassid anti-style-instruction framing ([[hassid-cowork-setup-2026-04-07]], 2026-04-07 surfaced May 25)** — *"80% of your file should be what you're NOT."* First wiki-captured formalization of **anti-style-instruction as the load-bearing CLAUDE.md / about-me content discipline**. Extends Mnilax's "fail loud" rule from output-behavior to file-content design: name what Claude must avoid, not just what it must do. Karolis Balsiukevicius comment cross-confirms: *"Telling Claude who I am matters less than telling it who I'm not. My about-me file is mostly rules about what to avoid. Works way better."* Pairs with Hassid's *"Say 'Does NOT sound like' to kill the AI voice"* in-prompt anti-style move. Fifth+ independent practitioner-validation surface for the file-based behavioral-contract discipline (Stulberg + Zephyr + Capone + ShilpaMitra + Hassid). **The CLAUDE.md behavioral-contract pattern is now community-canonical across at least 5 independent practitioner surfaces.** Stulberg's deliberately lean CLAUDE.md contains a doc-index, team-roster + Slack handles, and key Slack-channel purposes — nothing else. Sub-CLAUDE.mds in function-specific folders load progressively as natural-language queries reference them. *"You don't want very much in your CLAUDE.md file. Claude MD should be very, very, very lean, especially in a team repository."* Confirms the [[mnilax-claude-md-12-rules-2026-05-09|200-line ceiling]] discipline from a team-repo angle independent of the Karpathy → Forrest Chang → Mnilax single-developer lineage.
+- **arps18 "Claude Code as a daily driver" (2026-05-27)** — practitioner integration guide covering CLAUDE.md, skills, subagents, plugins, MCPs in a real dev workflow. **Sixth+ independent practitioner-validation surface** for the CLAUDE.md pattern (Stulberg + Zephyr + Capone + ShilpaMitra + Hassid + arps18). The pattern continues compounding — each new practitioner-source treats CLAUDE.md as the *foundation* on which skills / subagents / plugins / MCPs are layered, not as a coequal primitive. — [[dailybrief-roundup-2026-05-27]]
 
 ## Key Papers / Posts
 

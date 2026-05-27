@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-05-24
+last_updated: 2026-05-27
 ---
 
 ## What It Is
@@ -46,6 +46,9 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - 2026-05-21: **GPT-next disproves Erdős's planar unit distance problem for <$1K compute** — first wiki-captured frontier-model autonomous disproof of a previously-open mathematical conjecture. Conjecture identity (Erdős 1946 planar unit distance), model identity (GPT-next, unreleased), and cost ($<1K) confirmed via 2026-05-22 AINews cross-reference. Mechanism (counterexample vs structural disproof) and autonomy-boundary still pending. Pairs with [[deepmind-co-scientist-aging-reversal-2026-05-19|DeepMind Co-Scientist genetic-leads]] and [[latent-space-lupsasca-vibe-physics-2026-05|vibe-physics]] as three independent surfaces of frontier-model-autonomous-scientific-discovery in May 2026 — all in verifiable domains. — [[openai-disproves-discrete-geometry-conjecture-2026-05-21]]
 - 2026-05-22: **Thomas Dimson departs OpenAI Sora team after 1000 days.** Previously authored Instagram's core recommendation algorithms; founded Global Illumination. Worth tracking Sora's post-Dimson trajectory given his consumer-recommendation-algorithm background. — [[dailybrief-roundup-2026-05-22]]
 - 2026-05-24: **Aidan Clark (VP Research) on "elite-tier compute held by only four groups."** OpenAI-internal framing of pretraining-as-structural-moat: AGI pretraining now requires compute concentrated in four organizations (widely understood as OpenAI / Anthropic / Google DeepMind / Meta-or-xAI). Supply-side mirror of [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht's selective-deployment thesis]] and demand-side companion to [[cerebras-60b-ipo-2026-05-16|Cerebras IPO hardware-supplier]] capital event. Brief framing: *"Four companies own pretraining now. That's not a market structure — that's a gating function."* — [[dailybrief-roundup-2026-05-24]]
+- 2026-05-27: **OpenAI Foundation $250M workforce-transitions initiative.** First wiki-captured concrete OpenAI labor-policy commitment. Impact measurement + labor-policy research focused on AI's workforce consequences. Pairs with [[ai-labor-market-impacts]] and the SaaS-restructuring cluster ([[saas-disruption-thesis|ClickUp + Intuit two-in-six-days]]) — OpenAI positioning itself on the policy side of the same labor-market trend it's accelerating. — [[dailybrief-roundup-2026-05-27]]
+- 2026-05-27: **GPT-5.2 and GPT-5.3-Codex sunset from Codex on June 2.** Per Thibault Sottiaux (OpenAI Codex engineering lead). Both models remain accessible via the API after the Codex-product deprecation. Concrete model-deprecation date worth tracking; partner / pricing implications for teams running GPT-5.x in Codex production. — [[dailybrief-roundup-2026-05-27]]
+- 2026-05-27: **[[simon-willison|Willison]] "Anthropic and OpenAI have found PMF" framing.** Long-form structural thesis arguing both frontier labs have hit product-market fit, but with **different offerings** (specifics not surfaced in brief; primary unfetched). Willison's insightful framing: *"PMF for APIs ≠ PMF for end-user products. Anthropic and OpenAI solved the model-delivery problem; they haven't solved whether anyone needs the thing the model is *in*. That's the next 18 months."* — [[willison-anthropic-openai-pmf-2026-05-27]]
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — GPT-Image-2 launch
@@ -63,3 +66,5 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] — GPT-next disproves Erdős planar unit distance problem for <$1K compute (specifics confirmed via May 22 AINews cross-reference)
 - [[dailybrief-roundup-2026-05-22]] — Thomas Dimson Sora-team departure after 1000 days (May 22 2026)
 - [[dailybrief-roundup-2026-05-24]] — Aidan Clark (VP Research) on AGI pretraining requiring elite-tier compute held by four groups (May 24 2026)
+- [[willison-anthropic-openai-pmf-2026-05-27]] — Willison "Anthropic and OpenAI have found PMF" structural thesis; API-PMF vs end-user-PMF distinction (May 27 2026)
+- [[dailybrief-roundup-2026-05-27]] — OpenAI Foundation $250M workforce-transitions initiative + GPT-5.2/5.3-Codex June 2 sunset (May 27 2026)
