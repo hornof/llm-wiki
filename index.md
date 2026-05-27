@@ -105,6 +105,7 @@
 - [[craig-smith]] — *Eye on A.I.* podcast host; former NYT journalist; longform AI-practitioner interviews (May 2026)
 - [[hannah-stulberg]] — PM at DoorDash; ~1,500 documented hours in Claude Code; viral *Claude Code for Everything* Substack series; Team OS architecture (May 2026)
 - [[ruben-hassid]] — 484K-subscriber `how-to-ai.guide` newsletter; Cowork setup pedagogy + intelligence-cost-collapse popular discourse; "80% of your file should be what you're NOT" anti-style framing (May 2026)
+- [[aaron-levie]] — Box co-founder/CEO; 2.7M followers; *within-AI-bull-camp* critique surface; "CEOs are uniquely prone to AI psychosis" / "Headless software is the future" framings (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -343,6 +344,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[cognition-26b-valuation-492m-arr-2026-05-27]] — Cognition (Devin) raises $1B+ at $26B valuation / $492M ARR run-rate + 10x usage growth this year; 53x ARR multiple; first wiki-captured operational-scale data point for an autonomous-coding-agent vendor; "embedded in workflows" inflection-point framing (May 27 2026)
 - [[willison-anthropic-openai-pmf-2026-05-27]] — Simon Willison long-form structural thesis that Anthropic + OpenAI have both found PMF with different offerings; **API PMF vs end-user-product PMF** distinction; "next 18 months" empirical test for end-user-product layer (May 27 2026)
 - [[dailybrief-roundup-2026-05-27]] — AI infra funding surge (Fireworks + Baseten decacorns, Exa + Modal + TurboPuffer unicorns) + Reiner Pope chip-design Dwarkesh + Sakana DiffusionBlocks 8x training-memory reduction + Trajectory $15M continual-learning-for-agents (opposing-direction to End-of-Finetuning) + OpenAI Foundation $250M workforce-transitions + arps18 Claude Code daily-driver (6th+ CLAUDE.md surface) + AirCast-SR + GEM + Constraint Tax + ESMFold2 vs AlphaFold3 + Razavi/Spark $75M→$3B Midas List + Catanzaro file-systems-over-databases for agents + GPT-5.2/5.3-Codex June 2 sunset + Mușat weight-norm ≡ Kolmogorov + PolyArch/humanize RLCR Claude+Codex plugin (May 27 2026)
+- [[levie-ceo-ai-psychosis-2026-05-23]] — Aaron Levie X post naming the *CEO-distance-from-the-last-mile* mechanism: CEOs see happy-path prototypes, miss the next 10–20 things; within-AI-bull-camp critique that TechCrunch later builds an article around (May 23 2026)
+- [[sankar-token-spend-roi-gap-2026-05-25]] — Aiswarya Sankar quote-tweeting Ed Zitron on Uber: $100K token spend → $18K shipped + 44% rework + Uber COO Macdonald "harder to justify" AI costs (first wiki-captured public-incumbent COO-level AI-ROI admission) (May 25 2026)
+- [[cyb3rops-four-stages-ai-coding-hype-2026-05-26]] — Florian Roth (cyb3rops) names the 4-stage AI-coding-hype lifecycle (Amazement → Expansion → Grind → Realization) + psychological-investment-ratchet mechanism for why the ROI gap persists; Crickett "fiddling with knobs, not engineering" counter-prescription (May 26 2026)
+- [[techcrunch-bort-ceo-ai-psychosis-2026-05-27]] — Julie Bort (TechCrunch) synthesis around Levie's post: layoffs.fyi 115,430-in-5-months vs 124,636-in-2025 + ClickUp 22%/3,000-agents/100x-org + Berkeley meta-analysis ("no robust relationship") + NBER productivity-paradox + MIT 80-95%-by-2029 + HBR authorization-bottleneck (May 27 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
@@ -353,3 +358,4 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[ai-50-2026-snapshot]] — landscape view from Forbes 2026 AI 50 + Brink List; two-tier market, neo-labs trend, sector clusters
 - [[doing-great-work]] — Hamming's principles for first-class research; compounding effort, important problems, open doors, field rotation
 - [[saas-disruption-thesis]] — Naval's "18-month" SaaS disruption thesis; agents replacing pure-software moats; falsifiable timeline to Oct 2027
+- [[ai-roi-gap]] — demand-side mirror of saas-disruption: spend-vs-shipped-value gap; Levie/Sankar/cyb3rops/Bort four-surface convergence (May 2026); Berkeley meta-analysis + NBER productivity-paradox + Uber-COO first public admission

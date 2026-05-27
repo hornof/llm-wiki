@@ -163,9 +163,11 @@ First wiki-captured **public-SaaS-incumbent with proprietary-data flywheel doing
 - Comment-thread / public framing references *"Meta cuts and SaaS predictions of 40-50 percent reductions"* — Intuit at 17% may be the conservative end of a larger pattern about to play out.
 - **Why the 17% number matters as a tracking signal**: it's the first wiki-captured **concrete operating-model evidence** that the SaaS-disruption thesis isn't theoretical; the incumbents the framework predicts will survive are actively cutting headcount at material scale.
 
-### ClickUp mass layoff (2026-05-26)
+### ClickUp mass layoff (2026-05-26) + agent-count attribution (2026-05-27 update)
 
 [[dailybrief-roundup-2026-05-26|TechCrunch]] reports ClickUp replaces *"hundreds of employees with AI agents at scale"* — a major SaaS-vendor productivity/workflow incumbent. **Second public-SaaS-incumbent material-AI-restructuring cut in six days** alongside Intuit. **Two-in-six-days pattern** is the strongest concrete operational evidence captured to date for the SaaS-disruption thesis at the high-end-survives-via-restructuring path. ClickUp specifically is closer to the mid-market SaaS layer Chamath says is on the conveyor belt — worth tracking whether ClickUp's restructuring works (it survives the cuts as a smaller AI-native company) or whether it's a leading indicator of mid-market-SaaS terminal-decline.
+
+**2026-05-27 update** ([[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch / Bort]]): the cut is **22% of workforce** + **3,000 AI agents** deployed for internal work. CEO Zeb Evans framing: *not* cost-cutting; rebuilding the workforce around *"people who run AI agents and spend their days quickly reviewing the agents' work."* Calls the target a *"100x org."* **First wiki-captured agent-headcount attribution to a public-incumbent workforce-reduction event.** Whether 3,000 agents = 22% of human work-output is unverified — Evans's claim, not measured. See [[ai-roi-gap#ClickUp: 22% cut + 3,000 agents (Evans / Bort, 2026-05-27)|the ai-roi-gap ClickUp entry]] for the *AI-washing-vs-actual-displacement* tracking framework.
 
 ## Capital-Efficient AI Infrastructure Cluster (May 2026)
 
@@ -230,6 +232,18 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 - Shipper runs Every and has commercial incentives to be bullish on the "AI is the new operating system" framing.
 - The counter-thesis doesn't address the high-end of Chamath's three-tier framing (proprietary-data flywheel) — Shipper's framing is mostly about the mid-market that Chamath says dies.
 - Comment-thread counter-counter: **Crepe Supreme** flags that **Microsoft 365 Copilot at 20M paid enterprise seats / $7.2B ARR + ChatGPT Enterprise+Business 5M+ paid users** means most knowledge workers run AI inside Office/Workspace, not Codex/Claude Code — undercuts Shipper's "future of work happens inside Codex or Claude Code" framing if numbers verify. Verification-pending.
+
+## Cross-Cut: CEO Distance from the Last Mile ([[levie-ceo-ai-psychosis-2026-05-23|Levie]], 2026-05-27 TechCrunch synthesis)
+
+[[aaron-levie|Aaron Levie]] (Box CEO, 2.7M followers, *within-AI-bull-camp*) names the **CEO-AI-psychosis mechanism**: *"CEOs are uniquely prone to AI psychosis because they're sufficiently distant from the last mile of work that still has to happen to generate most value with AI."* Carried into mainstream press by [[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch (Bort, 2026-05-27)]] with layoffs.fyi + MIT + Berkeley research counterweights.
+
+**Why this cuts orthogonally to the SaaS-disruption thesis** (Chamath, Shipper, Naval framings above):
+
+- All three framings *(Chamath tier-collapse, Shipper SaaS-not-dead, Naval pure-software-uninvestable)* take the **executive demand-side** as exogenous — they reason about which SaaS supply-side products survive given assumed demand patterns.
+- **Levie's framing inverts the question**: if executive AI-spend is *itself* mis-calibrated (because executives don't see the last-mile work), then SaaS-disruption supply-side outcomes are partially determined by *how long the mis-calibrated spend persists.* AI-native challengers may underestimate their own runway (incumbents over-spend → incumbents weakened → challengers benefit from incumbent disruption *not because challengers are 10x better, but because incumbents are mis-calibrating AI-CapEx*).
+- **Tracking signal**: the Uber-COO-style *"harder to justify"* admission ([[ai-roi-gap]]) is the first wiki-captured public-incumbent CFO/COO-level signal of executive-AI-spend recalibration. A pattern of recurring admissions would mark a recalibration regime change — which is *bullish for incumbents* (less wasted spend) and *neutral-to-bearish for AI-native challengers* (less easy-money displacement).
+
+**Cross-references**: [[ai-roi-gap]] (the dedicated topic), [[ai-labor-market-impacts#AI-ROI-Gap Counter-Anchor (May 2026)|labor-market impacts]] (layoff-attribution skepticism layer).
 
 ## Tracking Signals
 
