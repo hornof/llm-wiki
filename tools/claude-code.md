@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 
@@ -113,7 +113,11 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[rubenhassid-anthropic-30-term-map-2026-05]] — practitioner glossary; useful as quick onboarding map for the full Anthropic surface around Claude Code
 - [[willison-code-w-claude-2026]] — Code w/ Claude 2026 live-blog; full feature inventory of the May 2026 Claude Code expansion
 - [[claude-agent-sdk]] — sanctioned SDK powering Claude Code; architectural sibling
-- [[claude-opus-4-7]] — current Opus generation; default model in Claude Code as of May 2026
+- [[claude-opus-4-7]] — predecessor Opus generation; was default in Claude Code through May 27 2026
+- [[claude-opus-4-8]] — **current recommended Claude Code model** (May 28 2026); Anthropic claims 69.2% on SWE-bench Pro; same pricing as 4.7
+- [[claude-opus-4-8-dynamic-workflows-2026-05-28]] — Opus 4.8 launch + **Dynamic Workflows** preview for parallel subagents; multi-agent code migration at scale + self-verifying workflow patterns (May 28 2026)
+- [[heeki-spec-driven-development-2026-02-28]] — Heeki Park (AWS solutions architect) practitioner walkthrough: spec-first / spec-anchored / spec-as-source (Böckeler taxonomy); Bedrock-vs-Pro context-window tradeoffs (1M via beta header); selectable-input clarifying-question pattern (co-validated with Hassid); CLAUDE.md as continuously-evolved-during-project artifact (Feb 28 2026)
+- [[anthropic-founders-playbook-2026-05]] — Anthropic-canonical product matrix for *when to use Chat vs Cowork vs Code* across Idea / MVP / Launch / Scale stages
 - [[willison-html-effectiveness-2026-05]] — Thariq Shihipar's "Unreasonable Effectiveness of HTML" via Willison; concrete examples and prompt pattern (May 2026)
 - [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy's 4-step output-format taxonomy; primary-voice citation for HTML-over-Markdown pattern (May 2026)
 - [[anthropic-agent-view-claude-code-2026-05-11]] — Anthropic blog: agent view (TUI multi-session manager) Research Preview (May 2026)

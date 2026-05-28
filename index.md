@@ -25,7 +25,8 @@
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
-- [[claude-opus-4-7]] — Anthropic's current Opus generation; ships with Claude Design built in (May 2026)
+- [[claude-opus-4-7]] — predecessor Opus generation (April 2026); ships with Claude Design built in
+- [[claude-opus-4-8]] — **current recommended Claude Code model** (May 28 2026); Anthropic claims 69.2% on SWE-bench Pro, beats GPT-5.5 + Gemini 3.1 Pro; same price as 4.7; ships alongside Dynamic Workflows preview
 - [[claude-mythos]] — Anthropic preview model surfaced via Mozilla / Firefox security partnership and Natural Language Autoencoders research (May 2026); not yet GA
 
 ## Concepts & Techniques
@@ -348,6 +349,13 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[sankar-token-spend-roi-gap-2026-05-25]] — Aiswarya Sankar quote-tweeting Ed Zitron on Uber: $100K token spend → $18K shipped + 44% rework + Uber COO Macdonald "harder to justify" AI costs (first wiki-captured public-incumbent COO-level AI-ROI admission) (May 25 2026)
 - [[cyb3rops-four-stages-ai-coding-hype-2026-05-26]] — Florian Roth (cyb3rops) names the 4-stage AI-coding-hype lifecycle (Amazement → Expansion → Grind → Realization) + psychological-investment-ratchet mechanism for why the ROI gap persists; Crickett "fiddling with knobs, not engineering" counter-prescription (May 26 2026)
 - [[techcrunch-bort-ceo-ai-psychosis-2026-05-27]] — Julie Bort (TechCrunch) synthesis around Levie's post: layoffs.fyi 115,430-in-5-months vs 124,636-in-2025 + ClickUp 22%/3,000-agents/100x-org + Berkeley meta-analysis ("no robust relationship") + NBER productivity-paradox + MIT 80-95%-by-2029 + HBR authorization-bottleneck (May 27 2026)
+- [[anthropic-series-h-65b-965b-2026-05-28]] — **Anthropic Series H: $65B raise at $965B post-money valuation** (within ~3% of $1T); largest single-event capital event in wiki-tracked AI history; *"sovereign wealth fund bet that AI labs are now infrastructure, not startups"* hot take; *"capital consolidating around proven inference + RLHF moats"* insightful framing (May 28 2026)
+- [[claude-opus-4-8-dynamic-workflows-2026-05-28]] — **Claude Opus 4.8 launch**: 69.2% SWE-bench Pro (Anthropic claim), beats GPT-5.5 + Gemini 3.1 Pro; recommended Claude Code model; same price as 4.7; **Dynamic Workflows** preview for parallel subagents + self-verifying workflow patterns; Dan Shipper named Codex→Opus migration (May 28 2026)
+- [[sqlite-agents-md-2026-05-27]] — SQLite adopts **AGENTS.md** as agent-contribution guardrail document (Willison surfacing); first wiki-captured AGENTS.md adoption by tier-1 OSS project; vendor-neutral sibling to [[claude-md-pattern|CLAUDE.md]] (May 27 2026)
+- [[anthropic-claude-space-to-think-2026-05-28]] — Anthropic *"Claude is a space to think"* — **ad-free positioning** post; same-day as Series H; capital structure makes commitment financially load-bearing; triple-stacks trust as moat (Constitutional AI + Teaching Claude Why + ad-free surface) (May 28 2026)
+- [[anthropic-founders-playbook-2026-05]] — Anthropic *Founder's Playbook* 36-page guide mapping Idea / MVP / Launch / Scale to AI-native stages; first Anthropic-canonical Chat-vs-Cowork-vs-Code product matrix; founder stories (Ambral, Anything, Carta Healthcare, HumanLayer, Vulcan Technologies); FelixAix X-amplifier surge May 27 (May 2026)
+- [[heeki-spec-driven-development-2026-02-28]] — Heeki Park practitioner walkthrough: spec-first / spec-anchored / spec-as-source (Böckeler taxonomy); **CLAUDE.md as continuously-evolved-during-project artifact** (7th+ practitioner-validation surface); SKILL.md as project-emergent artifact; Bedrock-vs-Pro 1M-context-window tradeoffs (Feb 28 2026)
+- [[dailybrief-roundup-2026-05-28]] — curl 4-5× AI-fuzz security-reports YoY (first concrete OSS-maintainer-burden quantification) + sum-product conjecture disproof via AI insights (Gowers prediction instantiated) + Robin Hanson AI-consciousness essay + Musk SpaceX C-framework 10× JAX claim on 220K GB300 GPUs (contested) + LLM disagreement on fact-checks + ESMFold2 Latent Space primary (May 28 2026)
 
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)

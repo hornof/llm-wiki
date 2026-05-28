@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 ## What This Is
@@ -140,6 +140,31 @@ The topic is empirically tractable. The following tests would each move the thes
 - [[ai-labor-market-impacts]] — labor-side question. Layoff numbers anchor both topics; the ROI-gap topic adds the *attribution-skepticism layer* to layoff data.
 - [[end-of-finetuning]] — capability-side complement; if frontier models keep absorbing fine-tuning use cases, the capability ceiling rises faster than the application-layer ROI gap closes.
 - [[claude-md-pattern]] — Crickett's *"ensure the context is clear"* counter-prescription aligns with the CLAUDE.md-pattern practitioner-validation thread. The practitioner discipline answer to the hype-cycle grind phase.
+
+## Capital-Allocator Counter-Anchor: Anthropic Series H (May 28 2026)
+
+The day after the four-surface convergence crystallized, [[anthropic-series-h-65b-965b-2026-05-28|Anthropic announced Series H: $65B at $965B post-money]] — within ~3% of $1T.
+
+**Why this matters for the ROI-gap thesis**:
+
+The Series H raise is the **explicit capital-allocator vote on the *frontier-lab-layer* side of the ROI question**. The brief's hot-take framing — *"capital is consolidating around proven inference + RLHF moats, not around novel architectures or training breakthroughs"* — is the most explicit capital-allocator articulation of the disruption-vs-ROI-gap dual-question.
+
+**Two compatible reads**:
+
+| Read | Implication |
+|---|---|
+| **(A) Capital is correctly recognizing infrastructure value** | Frontier-lab inference/RLHF moats are durable; the ROI gap is at the *application layer*, not the *infrastructure layer*; capital flows up the stack to where value is captured. Practitioners flagging the spend-vs-shipped gap are right about *which* layer is over-spent (application), not whether AI delivers value (infrastructure does). |
+| **(B) Capital is making the same calibration error at the lab tier that practitioners are flagging at the application tier** | The lab-tier capability claims (Opus 4.8 SWE-bench Pro 69.2%; *"agents replace workers"*) face the same gap between *capability metrics* and *shipped-value-per-token-spend* that the application layer faces. $65B at $965B prices in capability assumptions that may not survive the same operational testing that ClickUp's 3,000 agents face. |
+
+**Both reads cite the same evidence**; neither is yet falsified. The next 12 months are the test:
+
+- If Opus 4.8 + Dynamic Workflows actually closes the [[cyb3rops-four-stages-ai-coding-hype-2026-05-26|stage-3-grind-phase rework]], read (A) is supported.
+- If practitioner-content surfaces over the next 30 days resemble [[sankar-token-spend-roi-gap-2026-05-25|Sankar's funnel framing]] but pointed at Opus 4.8 specifically, read (B) is supported.
+- If the [[techcrunch-bort-ceo-ai-psychosis-2026-05-27|HBR executive-authorization-bottleneck]] gets *worse* with parallel-subagent orchestration (more agent output → more authorization queue), the bottleneck-thesis applies *to* the new capability, not *despite* it.
+
+**Strategic implication**: the [[anthropic-claude-space-to-think-2026-05-28|ad-free positioning]] post landing same-day is consistent with read (A) — Anthropic is betting trust + capability + capital all compound together at the lab tier, with ad-free as the trust-side commitment that the $965B valuation can underwrite. If read (B) is more correct, the trust-side commitment becomes a constraint on monetization optionality as capability gaps narrow.
+
+**Tracking signal**: pattern-watch for [[sankar-token-spend-roi-gap-2026-05-25|Sankar-style funnel data]] *specifically on Opus 4.8 / Dynamic Workflows surfaces* over the next 60-90 days. The first wiki-captured *Opus-4.8-specific* token-spend-to-shipped-value funnel is the first concrete read on which thesis the new generation supports.
 
 ## Counter-Position: "None of this is new"
 
