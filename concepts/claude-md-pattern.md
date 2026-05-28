@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 ## Definition
@@ -59,6 +59,19 @@ A community-quoted claim ([[mnilax-claude-md-12-rules-2026-05-09]], citing Anthr
 - **Stulberg Team OS ([[stahlberg-team-os-aakash-2026-05]], May 2026)** — independent **1,500-hour practitioner validation** of the minimal-CLAUDE.md + progressive-sub-loading framing.
 - **Hassid anti-style-instruction framing ([[hassid-cowork-setup-2026-04-07]], 2026-04-07 surfaced May 25)** — *"80% of your file should be what you're NOT."* First wiki-captured formalization of **anti-style-instruction as the load-bearing CLAUDE.md / about-me content discipline**. Extends Mnilax's "fail loud" rule from output-behavior to file-content design: name what Claude must avoid, not just what it must do. Karolis Balsiukevicius comment cross-confirms: *"Telling Claude who I am matters less than telling it who I'm not. My about-me file is mostly rules about what to avoid. Works way better."* Pairs with Hassid's *"Say 'Does NOT sound like' to kill the AI voice"* in-prompt anti-style move. Fifth+ independent practitioner-validation surface for the file-based behavioral-contract discipline (Stulberg + Zephyr + Capone + ShilpaMitra + Hassid). **The CLAUDE.md behavioral-contract pattern is now community-canonical across at least 5 independent practitioner surfaces.** Stulberg's deliberately lean CLAUDE.md contains a doc-index, team-roster + Slack handles, and key Slack-channel purposes — nothing else. Sub-CLAUDE.mds in function-specific folders load progressively as natural-language queries reference them. *"You don't want very much in your CLAUDE.md file. Claude MD should be very, very, very lean, especially in a team repository."* Confirms the [[mnilax-claude-md-12-rules-2026-05-09|200-line ceiling]] discipline from a team-repo angle independent of the Karpathy → Forrest Chang → Mnilax single-developer lineage.
 - **arps18 "Claude Code as a daily driver" (2026-05-27)** — practitioner integration guide covering CLAUDE.md, skills, subagents, plugins, MCPs in a real dev workflow. **Sixth+ independent practitioner-validation surface** for the CLAUDE.md pattern (Stulberg + Zephyr + Capone + ShilpaMitra + Hassid + arps18). The pattern continues compounding — each new practitioner-source treats CLAUDE.md as the *foundation* on which skills / subagents / plugins / MCPs are layered, not as a coequal primitive. — [[dailybrief-roundup-2026-05-27]]
+- **Heeki Park spec-driven development (2026-02-28, captured 2026-05-28)** — AWS solutions architect's substantive walkthrough of a real Bedrock AgentCore build (MCP server + Gateway + interceptor). **Seventh+ independent practitioner-validation surface** (Stulberg + Zephyr + Capone + ShilpaMitra + Hassid + arps18 + Park). New framing: **CLAUDE.md as a continuously-evolved-during-project artifact, not authored once at startup** — *"I frequently took learnings from the project and integrated them into my `CLAUDE.md` steering document and even ended up creating a `SKILL.md` at the end of the project."* Pairs structurally with Park's own *spec-first vs spec-once* anti-pattern observation: **the equivalent CLAUDE.md anti-pattern is "CLAUDE.md-once"** (write it at project start and forget it). Adds **SKILL.md as project-emergent artifact** to the pattern surface. — [[heeki-spec-driven-development-2026-02-28]]
+
+### AGENTS.md: vendor-neutral sibling pattern (SQLite adoption, 2026-05-27)
+
+A namespace-divergent sibling pattern has emerged: **AGENTS.md** is the vendor-neutral version of CLAUDE.md — same shape (a steering document the agent reads on startup), no Claude-specific framing.
+
+- **[[sqlite-agents-md-2026-05-27|SQLite adopts AGENTS.md]] (2026-05-27, Willison surfacing)** — **first wiki-captured AGENTS.md adoption by a tier-1 OSS project.** SQLite is one of the most widely-deployed pieces of software on Earth and its maintainer rigor is famously high; an adoption here is a stronger signal of *practitioner-normalization* than adoption by any single fast-moving startup.
+- **The namespace-divergence open question**: does the community standardize on AGENTS.md (vendor-neutral) or stratify (CLAUDE.md for Claude-specific behavioral contracts, AGENTS.md for cross-vendor guardrails)?
+  - **Evidence for vendor-neutral path**: SQLite AGENTS.md adoption; the [[dailybrief-roundup-2026-05-27|PolyArch/humanize RLCR plugin]] (Claude implements + Codex reviews) operates cross-vendor.
+  - **Evidence for stratification path**: [[dac|bruin-data/dac]]'s SKILL.md ships for **both** Claude Code and Codex (one project supports multiple steering files); Heeki Park uses both CLAUDE.md *and* a project-emergent SKILL.md in the same project.
+- **Practitioner-content implication**: AGENTS.md is the *write-side* mechanism (prevent bad AI contributions before they happen); the [[dailybrief-roundup-2026-05-28|curl 4-5× YoY security-report flood]] is the *read-side* mechanism (cope with bad AI submissions). Both are AI-flood-coping patterns at the OSS-maintenance layer.
+
+The CLAUDE.md pattern is now part of a two-pattern family (CLAUDE.md + AGENTS.md). Pattern-watch: do the next ~10 tier-1 OSS projects (curl, ffmpeg, Python stdlib, OpenSSL) adopt AGENTS.md? Do mixed-vendor projects ship both files? Does Anthropic adopt or comment on AGENTS.md as a sibling pattern?
 
 ## Key Papers / Posts
 
