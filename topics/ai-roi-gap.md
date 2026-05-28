@@ -166,6 +166,8 @@ The Series H raise is the **explicit capital-allocator vote on the *frontier-lab
 
 **Tracking signal**: pattern-watch for [[sankar-token-spend-roi-gap-2026-05-25|Sankar-style funnel data]] *specifically on Opus 4.8 / Dynamic Workflows surfaces* over the next 60-90 days. The first wiki-captured *Opus-4.8-specific* token-spend-to-shipped-value funnel is the first concrete read on which thesis the new generation supports.
 
+**Anthropic's own launch warning is the most direct exposure point**: the [[anthropic-dynamic-workflows-primary-2026-05-28|Dynamic Workflows primary]] ships with an explicit *"can consume substantially more tokens than a typical Claude Code session"* warning + first-run confirmation gate. Per-subagent-token billing at *"tens to hundreds of parallel subagents"* means a single workflow run can cost ~100× a typical session. **The new capability surface is the new ROI-gap surface** — pre-emptive operator-side cost forecasting is now a load-bearing skill, not optional. **First wiki-captured frontier-lab-launch operator-cost-warning built into the launch surface** rather than discovered post-deployment by practitioners. This is itself a partial answer to the gap thesis at the lab-vendor level — Anthropic is publishing the warning the practitioners are flagging.
+
 ## Counter-Position: "None of this is new"
 
 Praveen Koka in the Levie thread: *"Cloud and big data CEOs also saw the happy path results but missed all the hard work. 'Uniquely' AI?"*
