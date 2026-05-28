@@ -36,13 +36,18 @@ Sits alongside [[claude-mythos]] (Anthropic's preview line); positioning between
 
 ## Dynamic Workflows (preview)
 
-New orchestration primitive at launch:
+New orchestration primitive shipped same-day as Opus 4.8 — see [[anthropic-dynamic-workflows-primary-2026-05-28|the Anthropic primary]] for full operational detail. Headline characteristics:
 
-- **Parallel subagents** — multiple agents executing in parallel
-- **Self-verifying workflow patterns** — reduces review friction for the operator
-- **Named use case: multi-agent code migration at scale**
+- **Tens to hundreds of parallel subagents in a single session** (per [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic primary]])
+- **New `ultracode` Claude Code setting** in the effort menu — sets effort to `xhigh` and lets Claude decide automatically when to fan out to a workflow
+- **Adversarial-agent verification** at the convergence-termination layer — *"agents address the problem from independent angles, other agents try to refute what they found, and the run keeps iterating until the answers converge"*
+- **Persistence across interruption**: progress saved during the run; interrupted jobs resume rather than restart
+- **Distribution at launch**: Claude Code CLI + Desktop + VS Code extension + Claude API + Amazon Bedrock + Google Vertex AI + Microsoft Foundry — broader-than-Claude-Code distribution on day one
+- **Default-on for Max / Team / API; default-off for Enterprise** (admin-enable via managed settings)
+- **Named use cases**: codebase-wide bug hunts / security audits, large migrations / language ports, critical work needing adversarial review
+- **Launch case study**: Jarred Sumner's Bun Zig→Rust port — 99.8% test suite passing, ~750K LOC Rust, 11 days from first commit to merge (port not yet in production)
+- **Operator-side cost warning**: *"substantially more tokens than a typical Claude Code session"* — first-run confirmation gate enforced
 - **Pairs with [[code-mode]]**: code-mode names the runtime primitive (agent writes code that calls tools through a runtime); Dynamic Workflows is the orchestration layer above
-- **Verification-pending**: parallelism model (process / agent / step); whether self-verification uses model-as-judge or independent verifier; pricing of parallel sub-agent invocations
 
 ## Community Sentiment
 

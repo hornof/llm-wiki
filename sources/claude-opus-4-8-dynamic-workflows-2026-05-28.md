@@ -25,7 +25,11 @@ ingested: 2026-05-28
 - **Multi-agent code migration at scale** is the named use case.
 - **Self-verifying workflow patterns** — reduces review friction for the operator. **Brief framing**: *"orchestration primitives for multi-agent code migration at scale. Self-verifying workflows reduce review friction. Direct relevance to AI Pulse architecture (MCP coordination patterns) and what 'agent orchestration done right' looks like."*
 - **Pairs with [[code-mode]]**: code-mode names the runtime pattern where the agent writes code that calls tools through a runtime; Dynamic Workflows is the orchestration layer above that primitive.
-- **Verification-pending**: parallelism model (process-level / agent-level / step-level); whether self-verification uses model-as-judge or independent verifier; pricing of parallel sub-agent invocations.
+
+> [!info] Primary-source detail captured separately
+> The verification-pending items below were largely resolved when the Anthropic primary surfaced later the same day. See [[anthropic-dynamic-workflows-primary-2026-05-28]] for the full operational detail: **tens to hundreds of parallel subagents**, new **`ultracode` setting**, **Bun Zig→Rust port case study** (Sumner: 99.8% test suite passing / 750K Rust LOC / 11 days), distribution across Bedrock + Vertex + Foundry + API at launch, adversarial-agent convergence-termination, persistence across interruption, **enterprise default-off** vs Max/Team default-on, and the explicit *"substantially more tokens"* operator-side cost warning.
+
+- **Verification-pending (largely resolved by the primary)**: parallelism model (process-level / agent-level / step-level); whether self-verification uses model-as-judge or independent verifier; pricing of parallel sub-agent invocations.
 
 ### Dan Shipper Codex-to-Opus migration
 
