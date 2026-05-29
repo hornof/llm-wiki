@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 
@@ -119,6 +119,8 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - [[anthropic-dynamic-workflows-primary-2026-05-28]] — **Anthropic primary on Dynamic Workflows**: tens to hundreds of parallel subagents in a single session; new **`ultracode`** Claude Code setting (effort menu → xhigh + Claude decides when to fan out to a workflow); adversarial-agent verification with convergence-termination; persistence across interruption; **Bun Zig→Rust port (Jarred Sumner) as launch case study — 99.8% test suite passing, ~750K LOC Rust, 11 days, hundreds of agents in parallel with 2 reviewers per file**; launches on Claude Code CLI + Desktop + VS Code + Claude API + Bedrock + Vertex + Foundry; default-on for Max/Team/API; default-off for Enterprise (May 28 2026)
 - [[heeki-spec-driven-development-2026-02-28]] — Heeki Park (AWS solutions architect) practitioner walkthrough: spec-first / spec-anchored / spec-as-source (Böckeler taxonomy); Bedrock-vs-Pro context-window tradeoffs (1M via beta header); selectable-input clarifying-question pattern (co-validated with Hassid); CLAUDE.md as continuously-evolved-during-project artifact (Feb 28 2026)
 - [[anthropic-founders-playbook-2026-05]] — Anthropic-canonical product matrix for *when to use Chat vs Cowork vs Code* across Idea / MVP / Launch / Scale stages
+- [[zodchii-opus-4-8-setup-guide-2026-05-29]] — Opus 4.8 setup guide: **5-level effort menu** (`/effort low|medium|high|max|ultracode`); `--max-budget-usd <amount>` CLI flag for operator-side cost cap; env vars (`CLAUDE_CODE_DEFAULT_EFFORT`, `CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING`, `CLAUDE_CODE_SUBAGENT_MODEL`); settings.json template with permissions+hooks; routing matrix (Haiku Low / Sonnet Medium / Opus High / Opus Fast / Dynamic Ultracode) for ~50% monthly savings; fast mode pricing details (May 29 2026)
+- [[nateherk-opus-4-8-aios-2026-05-29]] — Opus 4.8 as personal-and-business AI Operating System: **Four C's architecture** (Context / Connections / Capabilities / Cadence); **`/insights` HTML report command** for 30-day session-pattern analysis; **`/session-handoff` slash-command pattern** (context-clear-and-resume primitive); 150,000-inbox concrete-incident lesson on instructions-vs-capabilities; tool-agnostic root structure (claude/codex/agents folders side-by-side); bike-method progressive-autonomy framing (May 29 2026)
 - [[willison-html-effectiveness-2026-05]] — Thariq Shihipar's "Unreasonable Effectiveness of HTML" via Willison; concrete examples and prompt pattern (May 2026)
 - [[karpathy-html-output-taxonomy-2026-05-08]] — Karpathy's 4-step output-format taxonomy; primary-voice citation for HTML-over-Markdown pattern (May 2026)
 - [[anthropic-agent-view-claude-code-2026-05-11]] — Anthropic blog: agent view (TUI multi-session manager) Research Preview (May 2026)
