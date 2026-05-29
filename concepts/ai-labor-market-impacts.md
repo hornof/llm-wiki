@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-05-27
+last_updated: 2026-05-29
 ---
 
 ## Definition
@@ -208,6 +208,18 @@ First wiki-captured concrete labor-policy commitment from a frontier-model provi
 **Why it matters**: OpenAI is positioning itself on the *policy side* of the same labor-market trend it's accelerating. Pairs with [[saas-disruption-thesis|the ClickUp + Intuit two-in-six-days restructuring signals]] — the trend is real enough that the frontier lab is funding the labor-policy research framework around it. The $250M number is substantial relative to academic labor-economics research budgets; if Foundation grants actually flow to research, it could reshape who produces the canonical labor-impact measurements (currently Anthropic Economic Index + Brynjolfsson Stanford Digital Economy Lab). Worth tracking grant recipients and research outputs.
 
 **Verification-pending**: $250M specifics — committed vs deployed, time horizon, research-priority list, whether Foundation operates independently of OpenAI commercial decisions.
+
+## Economist-Side Modeling Layer (METR / Cunningham vs Greenblatt, May 29 2026)
+
+[[metr-cunningham-agent-diminishing-returns-2026-05-29|Tom Cunningham (METR)]] argues **AI agents face faster diminishing returns to scaling than human labor**; **Ryan Greenblatt** counters that *scalability favors agent spending despite the diminishing returns curve.*
+
+**First wiki-captured economist-side theoretical model for the agent-vs-human-labor cost-curve debate.** Sits above the [[anthropic-labor-market-impacts-2026-03-05|Anthropic Economic Index empirical exposure framework]] as a *theoretical-curve-shape layer* the framework's empirical data will validate or refute over 2026-2027.
+
+**Why it matters for this concept**:
+- The [[ai-labor-market-impacts#Headline empirical findings (May 2026)|young-worker hiring slowdown]] (14% drop in monthly job-finding rate for 22-25-year-olds in exposed occupations) can be re-read through Cunningham's curve-shape lens: if agents have steeper diminishing returns than juniors, the substitution-of-juniors-by-agents is bounded by the operational scale at which the curves cross. Greenblatt's parallelism rebuttal implies the crossing happens later (favoring agents longer); Cunningham's framing implies it happens earlier (limiting agent-substitution-by-curve-shape).
+- **METR institutional placement matters**: Cunningham working at METR (Model Evaluation and Threat Research — most-cited for the *METR Doubling Law* on agent task-horizon length) places economist-modeling *inside the AI-evaluation-org institutional frame*. Track for whether METR builds out an economics arm — that would be a structural addition to the labor-market-impacts measurement framework.
+
+Pairs with [[ai-roi-gap#Economist-Side Modeling Layer (METR / Cunningham vs Greenblatt, May 29 2026)|the ROI-gap economist-side section]] which captures the parallel debate at the demand-side altitude.
 
 ## Related Concepts
 

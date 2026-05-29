@@ -22,8 +22,18 @@ Pricing pattern: per-seat enterprise contracts; *"capability franchise"* multipl
 - **$492M ARR run-rate** (May 2026) — operational scale that crosses the *"autonomous-coding-agent vendors are commercially real"* threshold
 - **10× usage growth this year** (Anthropic-framed; verification-pending)
 - **$1B raise at $26B valuation** — 53× ARR multiple
+- **80% commit rate** (Walden Yan via [[latentspace-walden-yan-async-agents-2026-05-29|Latent Space Async Agents pod, 2026-05-29]]) — first wiki-captured Cognition-side success-rate metric. **Methodology open**: 80% of *what* (all attempts vs completed attempts vs human-invoked attempts)? Reconciliation question vs [[sankar-token-spend-roi-gap-2026-05-25|Sankar's $100K → $18K practitioner-side funnel]] remains the central empirical puzzle.
 - **Top-1% RLFT practitioner** per [[latentspace-end-of-finetuning-2026-05-13|swyx's End-of-Finetuning thesis]] — Cognition is one of two named labs (with Cursor) that continue to run fine-tuning at production scale despite the broader practitioner shift to long-context + constitutional-spec
 - **Pairs with [[willison-anthropic-openai-pmf-2026-05-27|Willison's PMF thesis]]**: Cognition is one *concrete data point* in favor of end-user-product PMF existing for AI-coding products sitting on top of frontier models — though Willison frames it as *one company-level proof point, not category-level resolution*
+
+## Operational Shape (Walden Yan, Latent Space May 2026)
+
+[[latentspace-walden-yan-async-agents-2026-05-29|Latent Space "The Age of Async Agents"]] pod (with co-guest Cole Murray of OpenInspect) maps Cognition's operational shape:
+
+- **Spec-to-PR pipeline** — human writes spec → agent produces PR → human reviews & commits. *Vendor-provided* analogue to [[heeki-spec-driven-development-2026-02-28|Heeki Park's practitioner-assembled spec-driven Claude Code workflow]].
+- **Memory** — long-running agent context across sessions/tasks. Pairs with [[company-brain]] and [[mem0]].
+- **Async execution** — agents working autonomously over hours/days without continuous supervision. Pairs with [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic Dynamic Workflows persistence-across-interruption]].
+- **Strategic positioning: "dev productivity SaaS" rather than "coding tool"** — unit of value is *engineering output velocity per dollar* rather than *LOC per minute*. Cognition occupies the *AI-native challenger* tier in [[saas-disruption-thesis|the three-tier survival framework]] directly under the [[anthropic|frontier-lab utility tier]]; the canonical exemplar of [[gustaf-alstromer|YC's AI-Native Service Companies RFS]] framing at material scale.
 
 ## Why It's Worth Tracking
 
