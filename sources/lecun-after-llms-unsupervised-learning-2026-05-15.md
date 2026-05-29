@@ -106,7 +106,7 @@ When asked what he's changed his mind on: *"What surprised me is that self-super
 - [[world-models]] — concept page; updated with SIGREG anti-collapse method and LEWorldModel paper as recommended read.
 - [[meta]] — should create or update with Llama 4 disappointment, robotics-group dissolution, Scale-acquisition-as-succession framing.
 - [[anthropic]] — capture LeCun's "brainwashing governments" critique under counter-takes.
-- [[mistral]] — Llama-author origin story (two Llama authors + a Google engineer founded Mistral during Llama-2 → Llama-3 handover).
+- [[mistral-ai]] — Llama-author origin story (two Llama authors + a Google engineer founded Mistral during Llama-2 → Llama-3 handover).
 - [[andrej-karpathy]] / [[kris-lovejoy]] / [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] — timeline-calibration triangle: LeCun "by early 2027 obvious" / Karpathy 10-year / Lovejoy 2031 / Korinek 6-year explosive regime.
 - [[willison-legacy-mobile-rewrite-2026-05-14]] — adjacent thesis on languages as no-longer-LOCK-IN; LeCun extends to company stack via the Sun/HPUX/Linux analogy.
 

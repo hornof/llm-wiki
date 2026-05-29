@@ -8,7 +8,7 @@ ingested: 2026-05-27
 
 ## Summary
 
-**Cognition** (maker of [[devin|Devin]]) raises over $1B at **$26B valuation**, reaching **$492M annual revenue run-rate** with **10x usage growth this year**. Surfaced via 2026-05-27 Daily Brief; primary article (Digg) not deeply fetched. **Brief framing**: *"Devin's 10x usage growth this year signals that AI coding agents have crossed from hype into operational deployments."* First wiki-captured concrete ARR + valuation milestone for Cognition. No existing wiki entity page for Cognition or Devin — single-source today, deferred entity creation per conservative threshold.
+[[cognition|Cognition]] (maker of Devin) raises over $1B at **$26B valuation**, reaching **$492M annual revenue run-rate** with **10x usage growth this year**. Surfaced via 2026-05-27 Daily Brief; primary article (Digg) not deeply fetched. **Brief framing**: *"Devin's 10x usage growth this year signals that AI coding agents have crossed from hype into operational deployments."* First wiki-captured concrete ARR + valuation milestone for Cognition.
 
 ## Key Claims / Takeaways
 

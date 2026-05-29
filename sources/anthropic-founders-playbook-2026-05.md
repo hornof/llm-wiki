@@ -8,7 +8,7 @@ ingested: 2026-05-28
 
 ## Summary
 
-[[anthropic|Anthropic]] publishes **The Founder's Playbook: Building an AI-native startup** (May 6 2026 PDF, blog post May 14) — a **36-page guide** mapping the four startup-lifecycle stages (Idea / MVP / Launch / Scale) to AI-native versions with **goals, exit criteria, common failure modes, and AI-powered exercises** at each stage. Amplified into broad practitioner reach via [[felixaix-anthropic-founders-playbook-2026-05-27|@FelixAix's X post]] (2026-05-27) — *"ANTHROPIC LITERALLY JUST HANDING US THE BLUEPRINT"* — that drove the late-May practitioner-reach surge. Surfaced via _raw/ drops 2026-05-27. **First wiki-captured frontier-lab-published founder-curriculum** — comparable to YC partner essays in scope but coming from the capability-provider side rather than the capital-allocator side.
+[[anthropic|Anthropic]] publishes **The Founder's Playbook: Building an AI-native startup** (May 6 2026 PDF, blog post May 14) — a **36-page guide** mapping the four startup-lifecycle stages (Idea / MVP / Launch / Scale) to AI-native versions with **goals, exit criteria, common failure modes, and AI-powered exercises** at each stage. Amplified into broad practitioner reach via @FelixAix's X post (2026-05-27) — *"ANTHROPIC LITERALLY JUST HANDING US THE BLUEPRINT"* — that drove the late-May practitioner-reach surge. Surfaced via _raw/ drops 2026-05-27. **First wiki-captured frontier-lab-published founder-curriculum** — comparable to YC partner essays in scope but coming from the capability-provider side rather than the capital-allocator side.
 
 ## Key Claims / Takeaways
 
@@ -23,7 +23,7 @@ ingested: 2026-05-28
 
 ### Why it matters strategically
 
-- **Frontier-lab-as-curriculum-provider**: Anthropic moves from selling capability to *teaching how to organize a company around the capability*. Pairs with the [[anthropic-claude-partner-network-2026-03|Claude Partner Network]] (capability + partner certification) and [[claude-certified-architect|Claude Certified Architect]] (capability + role certification) as the **three-stack of Anthropic-canonical builder enablement**: how to build a company (Founder's Playbook), how to deliver Claude solutions (Partner Network), how to be a Claude architect (CCA certification).
+- **Frontier-lab-as-curriculum-provider**: Anthropic moves from selling capability to *teaching how to organize a company around the capability*. Pairs with the [[anthropic-claude-partner-network|Claude Partner Network]] (capability + partner certification) and [[claude-certified-architect|Claude Certified Architect]] (capability + role certification) as the **three-stack of Anthropic-canonical builder enablement**: how to build a company (Founder's Playbook), how to deliver Claude solutions (Partner Network), how to be a Claude architect (CCA certification).
 - **Distribution-via-amplification**: the @FelixAix post (May 27) drove practitioner discovery faster than the May 14 official blog. **First wiki-captured Anthropic-content amplification surge via X amplifier 13 days after primary publication.** Pattern-watch: are post-publication amplifier surges a recurring Anthropic distribution pattern?
 - **Cross-cut with [[ai-roi-gap]]**: the playbook's *"measurement framework for distinguishing genuine PMF from early hype"* directly addresses the [[ai-roi-gap]] thesis at the founder level — Anthropic is publishing the *anti-pattern detector* for the same hype-cycle [[cyb3rops-four-stages-ai-coding-hype-2026-05-26|cyb3rops named]] at the practitioner level.
 
@@ -62,7 +62,7 @@ Verification-pending: PDF content not deep-fetched (PMF measurement framework + 
 
 ## Adjacent sources
 
-- [[felixaix-anthropic-founders-playbook-2026-05-27]] *(this same source page subsumes the FelixAix amplification — no separate page created since the FelixAix post is essentially a retweet-style amplifier)*
+- @FelixAix's amplifier post (2026-05-27) is subsumed into this page rather than being filed separately — it's a retweet-style amplification of the Anthropic primary, not a distinct take.
 - [[heeki-spec-driven-development-2026-02-28]] — practitioner-content companion at the Build / MVP stage
 - [[willison-anthropic-openai-pmf-2026-05-27]] — API-PMF-vs-end-user-product-PMF framing that the playbook's PMF-measurement section directly addresses
 - [[lennysan-shipper-10-takeaways-2026-05-24]] — "ride the models" / PM-era takeaways at the operator-level

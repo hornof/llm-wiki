@@ -57,7 +57,7 @@ Wait — the brief's hot take above was for ESMFold2, not Opus 4.8. The Opus 4.8
 - [[claude-opus-4-7]] — succession noted; status → preceded by 4.8 as recommended Claude Code default
 - [[claude-code]] — Opus 4.8 as recommended model; Dynamic Workflows preview added to capability set
 - [[anthropic]] — Opus 4.8 launch added under Recent Activity; pairs with [[anthropic-series-h-65b-965b-2026-05-28|Series H]] as a same-day capability-and-capital double-event
-- [[lennysan-shipper-10-takeaways-2026-05-24]] / [[dan-shipper]] *(referenced; entity page not created — single-source for now)*
+- [[lennysan-shipper-10-takeaways-2026-05-24]] — Dan Shipper context (entity page not created; single-source for now)
 
 Verification-pending: SWE-bench Pro 69.2% primary; pricing parity claim; Dynamic Workflows parallelism model + pricing; context window; Bedrock/Vertex availability; Shipper-specific Codex-to-Opus migration pattern.
 
