@@ -168,6 +168,38 @@ The Series H raise is the **explicit capital-allocator vote on the *frontier-lab
 
 **Anthropic's own launch warning is the most direct exposure point**: the [[anthropic-dynamic-workflows-primary-2026-05-28|Dynamic Workflows primary]] ships with an explicit *"can consume substantially more tokens than a typical Claude Code session"* warning + first-run confirmation gate. Per-subagent-token billing at *"tens to hundreds of parallel subagents"* means a single workflow run can cost ~100× a typical session. **The new capability surface is the new ROI-gap surface** — pre-emptive operator-side cost forecasting is now a load-bearing skill, not optional. **First wiki-captured frontier-lab-launch operator-cost-warning built into the launch surface** rather than discovered post-deployment by practitioners. This is itself a partial answer to the gap thesis at the lab-vendor level — Anthropic is publishing the warning the practitioners are flagging.
 
+### Operator-side routing-discipline answer (zodchii, May 29 2026)
+
+[[zodchii-opus-4-8-setup-guide-2026-05-29|@zodchii's Opus 4.8 setup guide]] (2026-05-29) provides **the first wiki-captured practitioner-content routing-discipline answer to the ROI gap**:
+
+| State | Monthly spend (heavy usage) |
+|---|---|
+| Before — everything on Opus High, standard mode | **$400-600/mo** |
+| After — correctly routed by task type | **~$205/mo** |
+| **Savings** | **~50%** |
+
+Routing breakdown (zodchii's projection):
+
+| Tier | Task type | Monthly spend |
+|---|---|---|
+| Haiku Low | Quick questions | $5/mo |
+| Sonnet Medium | Daily tasks / tests / formatting | $40/mo |
+| Opus High | Daily coding / code review / complex work | $80/mo |
+| Opus Fast | Large refactors (speed > depth) | $30/mo |
+| Dynamic Ultracode | Big audits / migrations (occasional) | $50/mo |
+
+zodchii's load-bearing framing: *"Effort control is the highest-value feature in this release. Not dynamic workflows, not fast mode. Effort control. Running Low effort on 60% of your prompts and Max on the 10% that actually need deep reasoning is the discipline that cuts your monthly bill in half without touching output quality on what matters. Most people will leave everything on High and never touch the slider."*
+
+**The structural implication for the gap thesis**: capability is necessary-but-not-sufficient; **routing discipline is the load-bearing operator-side answer to the gap.** Pairs structurally with:
+
+- [[claude-md-pattern|CLAUDE.md pattern]] = file-based behavioral-contract discipline
+- [[nateherk-opus-4-8-aios-2026-05-29|Four C's]] = context-architecture discipline
+- zodchii routing matrix = per-task model-allocation discipline
+
+**The discipline is the hidden capability.** Three independent operator-side disciplines emerging same-week (May 27-29 2026), all sitting *above* the model capability layer. **Tracking signal**: are these disciplines compounding (operators who adopt all three see >50% savings + >2× output quality) or substituting (operators pick one)?
+
+**Also new in zodchii's guide**: `--max-budget-usd <amount>` Claude Code CLI flag for per-invocation hard cost cap. **First wiki-captured operator-side hard-cap-on-spend primitive.** Direct answer to the Dynamic Workflows *"substantially more tokens"* warning at the operator layer.
+
 ## Economist-Side Modeling Layer (METR / Cunningham vs Greenblatt, May 29 2026)
 
 [[metr-cunningham-agent-diminishing-returns-2026-05-29|Tom Cunningham (METR)]] vs **Ryan Greenblatt** structural debate published 2026-05-29 adds the **economist-side theoretical layer** for the gap thesis.
