@@ -20,7 +20,7 @@ ingested: 2026-05-28
 
 ### AGENTS.md vs CLAUDE.md (the namespace divergence)
 
-- [[claude-md-pattern|CLAUDE.md]] is the **vendor-specific** pattern surfaced by [[forrest-chang]] (the original 4-rule template), validated across [[hannah-stulberg|Stulberg]] / [[zephyr]] / [[capone]] / ShilpaMitra / [[hassid-cowork-setup-2026-04-07|Hassid]] / arps18 — **6+ independent practitioner-validation surfaces** as of [[dailybrief-roundup-2026-05-27]].
+- [[claude-md-pattern|CLAUDE.md]] is the **vendor-specific** pattern surfaced by [[forrest-chang]] (the original 4-rule template), validated across [[hannah-stulberg|Stulberg]] / Zephyr / Luca Capone / ShilpaMitra / [[hassid-cowork-setup-2026-04-07|Hassid]] / arps18 — **6+ independent practitioner-validation surfaces** as of [[dailybrief-roundup-2026-05-27]].
 - **AGENTS.md is the vendor-neutral cousin**: same shape (a steering document the agent reads on startup), no Claude-specific framing.
 - **The namespace divergence question**: does the community standardize on AGENTS.md (vendor-neutral) or stratify (CLAUDE.md for Claude-specific behavioral contracts, AGENTS.md for cross-vendor guardrails)? SQLite's adoption is evidence for the vendor-neutral path, but [[dac]]'s SKILL.md (ships for both Claude Code *and* Codex) is evidence for the stratification path. **Open question worth tracking.**
 - **The PolyArch/humanize RLCR plugin** (Claude implements + Codex reviews, per [[dailybrief-roundup-2026-05-27]]) is also vendor-neutral in pattern but uses Claude-specific tooling — adds nuance to the same question.

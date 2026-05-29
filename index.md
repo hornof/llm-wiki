@@ -22,6 +22,7 @@
 - [[claude-cowork]] — Anthropic's autonomous-execution surface for non-coding workflows; tab inside [[claude-desktop]]; MCP→Chrome→Computer Use priority ladder; 38+ built-in connectors; Plugins / Skills / Scheduled Tasks / Dispatch (May 2026)
 - [[river]] — [[shopify]]'s internal AI coding agent; **refuses DMs, forces all work into public Slack channels**; first widely-discussed agent-as-shared-channel-participant deployment (May 2026)
 - [[dac]] — bruin-data/dac, open-source Dashboard-as-Code; YAML/TSX → HTML; built-in semantic layer; ships SKILL.md for *both* Claude Code and Codex (May 2026)
+- [[bun]] — all-in-one JavaScript runtime (Jarred Sumner); subject of the Anthropic Dynamic Workflows Zig→Rust port case study (May 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -107,6 +108,7 @@
 - [[hannah-stulberg]] — PM at DoorDash; ~1,500 documented hours in Claude Code; viral *Claude Code for Everything* Substack series; Team OS architecture (May 2026)
 - [[ruben-hassid]] — 484K-subscriber `how-to-ai.guide` newsletter; Cowork setup pedagogy + intelligence-cost-collapse popular discourse; "80% of your file should be what you're NOT" anti-style framing (May 2026)
 - [[aaron-levie]] — Box co-founder/CEO; 2.7M followers; *within-AI-bull-camp* critique surface; "CEOs are uniquely prone to AI psychosis" / "Headless software is the future" framings (May 2026)
+- [[dario-amodei]] — Anthropic co-founder / CEO; ex-OpenAI VP Research (GPT-2 / GPT-3); *"Machines of Loving Grace"* (Oct 2024); led Anthropic through the $65B Series H at $965B (May 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -137,6 +139,9 @@
 - [[shopify]] — Canadian commerce platform; AI-first operating model under [[tobi-lutke]]; operator of [[river]] internal coding agent (May 2026)
 - [[abridge]] — vertical-AI healthcare company; 100M+ doctor visits, 250+ health systems, $5.3B valuation; "clinical intelligence layer" thesis-shift from ambient documentation to documentation+decision-support+prior-auth (May 2026)
 - [[kyndryl]] — IT-infrastructure services; spun out from IBM 2021; first wiki-tracked systems-integrator-as-AI-deployer entity; agentic-ITSM thesis (May 2026)
+- [[box]] — public enterprise content-management SaaS; AI-native incumbent positioning via Levie's *"headless software"* framing (May 2026)
+- [[doordash]] — public US food-delivery / last-mile platform; wiki interest via Stulberg + aakashgupta DoorDash company-brain practitioner signals (May 2026)
+- [[cognition]] — autonomous-coding-agent vendor (Devin); $1B raised at $26B / $492M ARR run-rate / 10× usage growth this year (May 2026)
 
 ## Canvases
 - [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver

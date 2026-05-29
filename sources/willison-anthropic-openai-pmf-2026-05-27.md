@@ -29,7 +29,7 @@ The brief's "insightful" framing draws a sharp line:
 
 ### Why it matters
 
-- **First wiki-captured Willison structural-PMF thesis** for the frontier-lab layer. Pairs with prior Willison takes ([[willison-andon-cafe-stockholm-2026-05-07]], [[willison-anthropic-xai-colossus-2026-05-07]], [[simonwillison-vibe-coding-agentic-engineering-2026-05]]).
+- **First wiki-captured Willison structural-PMF thesis** for the frontier-lab layer. Pairs with prior Willison takes ([[willison-andon-cafe-stockholm-2026-05]], [[willison-anthropic-xai-colossus-2026-05]], [[simonwillison-vibe-coding-agentic-engineering-2026-05]]).
 - **Tension with [[lennysan-shipper-10-takeaways-2026-05-24|Shipper "SaaS is NOT dead" counter-thesis]]**: Shipper argues the SaaS demand-floor rises because agents-need-seats; Willison's insightful framing argues the open question is whether end-user products around models have PMF at all. **Both framings can be true**: SaaS doesn't die *and* end-user-product PMF is unresolved — but they're cutting the question differently.
 - **Cross-cutting with [[cognition-26b-valuation-492m-arr-2026-05-27|Cognition $492M ARR]]**: Cognition is one data point in favor of "end-user product PMF exists" (Devin sits on top of frontier models, has real revenue). Willison's framing suggests it's not yet settled at the category level.
 
