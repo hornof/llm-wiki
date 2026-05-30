@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-05-27
+last_updated: 2026-05-30
 ---
 
 ## Who They Are
@@ -30,6 +30,8 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **Programming languages used to be LOCK IN, and they're increasingly not so (May 14 2026, amplification of Mitchell Hashimoto)**: surfaces Hashimoto's framing in the context of Bun's Zig→Rust migration under coding-agent leverage. Pairs with a same-week anecdote of a mid-sized company rewriting legacy iPhone + Android apps to React Native with explicit *"could port back to native"* reversibility framing. The structural claim: agentic coding compresses migration cost, which converts platform-stack choices from one-way doors into reversible bets. Mirror image of the [[anthropic-spacex-higher-limits-2026-05-06|substrate-tier compute lock-in]]: concentration at the substrate, dispersion at the top. — [[willison-legacy-mobile-rewrite-2026-05-14]]
 - **Copilot Cowork exfiltration incident (May 26 2026)**: documents an agentic exfiltration attack on a deployed file-system-accessing agent named "Copilot Cowork" (product attribution ambiguous — Microsoft vs Anthropic-Cowork-mislabeled; primary not deeply fetched). First high-signal post naming a concrete agent-exfiltration incident on a productivity-agent product. Brief framings emphasize the *"agent APIs grow faster than threat modeling"* pattern and **runtime observability > pre-deployment guardrails** — *"you need to see deviation, not just prevent it."* — [[willison-copilot-cowork-exfiltration-2026-05-26]]
 - **Anthropic and OpenAI have found PMF (May 27 2026)**: structural thesis that both frontier labs have found product-market fit, but with **different offerings** (primary unfetched; brief doesn't surface which two PMFs). Brief insightful framing: *"PMF for APIs ≠ PMF for end-user products. Anthropic and OpenAI solved the model-delivery problem; they haven't solved whether anyone needs the thing the model is in. That's the next 18 months."* Cuts orthogonally to [[lennysan-shipper-10-takeaways-2026-05-24|Shipper's "SaaS is NOT dead"]] counter-thesis — both can be true (SaaS persists *and* end-user-product PMF is unresolved). — [[willison-anthropic-openai-pmf-2026-05-27]]
+- **Anthropic run-rate revenue hits $47B (May 29 2026)**: surfaces the $47B run-rate datum that anchors the May 28 Series H valuation thesis structurally. Pairs with prior Willison Anthropic-tracking signals — by late May 2026 Willison's blog is functioning as a *practitioner-side Anthropic-financials surface*. — [[anthropic-47b-runrate-willison-2026-05-29]]
+- **3 tooling shipments tracking Opus 4.8 launch (May 28-29 2026)**: ships `llm-anthropic 0.25.1` with Opus 4.8 support + Fast Mode CLI option ([2026-05-28](https://simonwillison.net/2026/May/28/llm-anthropic/)); `Datasette 1.0a31` with write queries + saved queries in alpha ([2026-05-29](https://simonwillison.net/2026/May/29/datasette/)); `markdown-svg-renderer` quick utility ([2026-05-28](https://simonwillison.net/2026/May/28/markdown-svg-renderer/)). **Tooling cadence is structurally tracking Anthropic launches with <48-hour latency.** First wiki-captured frontier-lab-release → Willison-tooling-shipment timing measurement. — [[dailybrief-roundup-2026-05-30]]
 
 ## Where to Follow
 - Blog: simonwillison.net
