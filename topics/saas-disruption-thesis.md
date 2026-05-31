@@ -315,6 +315,19 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 
 **Pgraham's secondary point on startup-opportunity** — *"It would be interesting, and a good opportunity for startups, if this requires new tools to be made. But no one will be able to figure out faster what these tools should look like than the startups that need them."* — **pairs with [[anthropic-founders-playbook-2026-05|Anthropic Founder's Playbook]]** (the *frontier-lab-published* founder-curriculum) and [[lennysan-dream-companies-survey-2026-05-27|the "so many people want to start their own company" survey finding]] as **three-surface convergence** on the AI-native-from-Day-One-startup demand.
 
+## Physical-Substrate Capacity Expansion (May 30-31 2026)
+
+The frontier-lab utility tier's *physical substrate* expanded materially in late May 2026:
+
+- **[[softbank-eu-datacenters-75b-2026-05-30|SoftBank €75B commitment to French data centers]]** — **5GW target capacity**; first wiki-captured major-Asian-capital EU compute-infrastructure commitment at hyperscale. **~16× larger than [[anthropic-spacex-higher-limits-2026-05-06|Colossus 1]]** by capacity. Creates a *credible EU-jurisdictional option* for frontier training that complies with EU data-protection frameworks at scale.
+- **Goldman HBM undersupply through 2028** ([[dailybrief-supplemental-2026-05-31]]) — High-Bandwidth Memory undersupply through 2028 as AI squeezes wafer capacity. **Pairs with the [[dailybrief-roundup-2026-05-24|Aidan Clark "elite-tier compute held by only four groups" framing]]** as the *supply-side memory bottleneck* expression of the 4-groups concentration. **If HBM undersupply persists through 2028, memory-efficient inference architectures (1B cognitive cores + RAG; quantization; on-device inference; sparse MoE) become structural necessity rather than optimization** — first wiki-captured concrete supply-side signal supporting the [[ai-energy-efficiency|memory-efficiency thread]] as load-bearing for the next 3 years.
+- **US BIS AI chip export loophole closure** ([[dailybrief-supplemental-2026-05-31]]) — regulatory tightening on advanced-AI-chip exports to Chinese subsidiaries; foundry workarounds remain. Pairs with [[antonleicht-frontier-ai-access-cut-off-2026-05-13|the Anton Leicht selective-deployment thesis]] at the chip-side of the same selective-access regime.
+
+**Structural implication for the survival framework**: the frontier-lab utility tier capacity ceiling is rising (SoftBank 5GW), but supply-side memory constraint (HBM undersupply) and chip-export controls are creating *jurisdiction- and architecture-specific bottlenecks*. The 4-groups concentration is *expressed differently* in EU vs US vs China:
+- **EU** (SoftBank France): physical substrate available; jurisdictional sovereignty option
+- **US** (HBM undersupply + Aidan Clark 4 groups): concentration at the lab tier intensifying
+- **China** (chip export controls + foundry workarounds): forced toward distillation / smaller-model / open-weight workarounds
+
 ## Tracking Signals
 
 Watch these as the thesis plays out:
