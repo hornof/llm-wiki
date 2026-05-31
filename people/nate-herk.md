@@ -3,7 +3,7 @@ name: Nate Herk
 type: person
 affiliation: Custom AI Studio (founder); Skool community operator
 signal_sources: [twitter, youtube, skool, blog]
-last_updated: 2026-05-29
+last_updated: 2026-05-31
 ---
 
 ## Who They Are
@@ -27,6 +27,7 @@ First wiki appearance: [[herk-kearns-100m-ai-agency-playbook-2026-05-25|Nate Her
 - **2026-05-29 — Tool-agnostic by default**: *"My root has a claude folder, a codex folder, and an agents folder living side by side."* Operator-side stratification-side data point for the [[claude-md-pattern#AGENTS.md: vendor-neutral sibling pattern (SQLite adoption, 2026-05-27)|CLAUDE.md vs AGENTS.md namespace-divergence question]].
 - **2026-05-25 — *"Most AI work being sold today won't survive 2027"*** ([[herk-kearns-100m-ai-agency-playbook-2026-05-25|via the AI-agency playbook]]): cost-collapse practitioner-side warning paired with [[hassid-cant-beat-ai-cost-collapse-2026-05-18|Hassid's 5×-cheaper-every-year framing]].
 - **Reverse-engineering skill-creation pattern** — pairs with [[heeki-spec-driven-development-2026-02-28|Heeki Park's SKILL.md-at-end-of-project pattern]] (2026-02-28); same-shape from two independent practitioner surfaces.
+- **2026-05-30 — The Ladder framework + Depth-vs-Width framing** ([[nateherk-dynamic-workflows-2026-05-30]]): 5th wiki Nate Herk surface. **The Ladder** (6-tier progressive escalation: ask Claude → Skill → Subagent → Agent Team → /goal → Dynamic Workflow) + **Depth-vs-Width** distinction (`/goal` = depth, looping; Workflow = width, parallel). **The 41-Haiku case study**: one Dynamic Workflows run audited Nate's 41 Claude Code skills via 41 Haiku agents in parallel + 1 Opus synthesis agent; **5M input tokens, ~50% of $200/mo Pro plan in 30 minutes**. First wiki-captured concrete-cost Dynamic Workflows practitioner data point. **Surfaces `/deep-research` and `/workflows`** as new Claude Code primitives. **Resolves JS as Dynamic Workflows orchestration-script runtime**. **Honest take**: *"Most knowledge work doesn't need a workflow, and that's completely fine. Knowing what a feature does and when it fits is the win."* The *"feature-fit-not-feature-usage"* principle is the mirror of [[eng-khairallah|eng_khairallah's]] aggressive-feature-adoption framing.
 
 ## Where to Follow
 

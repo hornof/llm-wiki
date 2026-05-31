@@ -52,19 +52,25 @@ Sits alongside [[claude-mythos]] (Anthropic's preview line); positioning between
 
 ## Effort Control (new shipped feature)
 
-Opus 4.8 ships with a 5-level effort menu (default: High):
+Opus 4.8 ships with an effort menu (default: High). **Practitioner-content surfaces disagree on the level count** — 5 levels per zodchii vs 6 levels per Nate Herk:
 
-| Level | Description | Slash command |
-|---|---|---|
-| **Low** | Fast, simple tasks, lowest token usage | `/effort low` |
-| **Medium** | Everyday coding, balanced | `/effort medium` |
-| **High** (default) | Solid reasoning — equivalent to Opus 4.7 always-on level | `/effort high` |
-| **Max** | Deepest reasoning, highest token usage | `/effort max` |
-| **Ultracode** | Max reasoning + automatic Dynamic Workflows orchestration | `/effort ultracode` |
+| Level | Description | Slash command | Per |
+|---|---|---|---|
+| **Low** | Fast, simple tasks, lowest token usage | `/effort low` | both |
+| **Medium** | Everyday coding, balanced | `/effort medium` | both |
+| **High** (default) | Solid reasoning — equivalent to Opus 4.7 always-on level | `/effort high` | both |
+| **xhigh** | Extended-effort level above High | `/effort xhigh` | **Nate Herk only**; missing from zodchii |
+| **Max** | Deepest reasoning, highest token usage | `/effort max` | both |
+| **Ultracode** | Max reasoning + automatic Dynamic Workflows orchestration; *"bypasses a lot of permissions"* | `/effort ultracode` | both |
+
+> [!contradiction] Effort menu level count
+> [[zodchii-opus-4-8-setup-guide-2026-05-29]] lists 5 levels (no `xhigh`); [[nateherk-dynamic-workflows-2026-05-30]] lists 6 levels (with `xhigh` between high and max). The [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic primary]] used the term `xhigh`, supporting Nate Herk's listing. Most likely resolution: zodchii missed `xhigh` in the setup guide. **Verification-pending** — confirm against an Anthropic source or direct Claude Code UI inspection.
 
 claude.ai shipped a UI slider for the same range.
 
 **Operator-cost discipline (zodchii framing)**: *"Running Low effort on 60% of your prompts and Max on the 10% that actually need deep reasoning is the discipline that cuts your monthly bill in half without touching output quality on what matters."* See [[zodchii-opus-4-8-setup-guide-2026-05-29]] for full routing-matrix discipline.
+
+**`ultracode` permission warning (Nate Herk, 2026-05-30)**: *"ultracode is the smartest and the most expensive. It runs xhigh reasoning and turns basically every prompt into a workflow. It bypasses a lot of permissions and just starts orchestrating, so the spend climbs quick."* — first wiki-captured operator-side warning that `ultracode` lowers the permission threshold. Pairs with [[nateherk-opus-4-8-aios-2026-05-29|Nate Herk's instructions-vs-capabilities lesson]] — `ultracode` is the *"hand the keys over"* mode.
 
 ## Dynamic Workflows (preview)
 
@@ -95,6 +101,9 @@ New orchestration primitive shipped same-day as Opus 4.8 — see [[anthropic-dyn
 - [[anthropic-47b-runrate-willison-2026-05-29]] — same-week underlying-fundamentals component ($47B run-rate)
 - [[zodchii-opus-4-8-setup-guide-2026-05-29]] — practitioner-side setup guide; concrete benchmark numbers + effort menu + fast-mode pricing + env vars + settings.json + routing matrix + `--max-budget-usd` flag
 - [[nateherk-opus-4-8-aios-2026-05-29]] — practitioner-side AI-OS architecture; Four C's framework + practitioner qualitative 4.6 vs 4.7 vs 4.8 comparison
+- [[nateherk-dynamic-workflows-2026-05-30]] — Dynamic Workflows practitioner walkthrough; The Ladder framework; 41-Haiku case study; `/deep-research` + `/workflows` primitives; JS script-runtime resolution; **effort-menu 6-level listing** (with `xhigh`)
+- [[zodchii-4-agent-pipeline-2026-05-30]] — 4-agent pipeline pattern; canonical `.claude/agents/*.md` schema; orchestrator slash command; per-agent model-routing within pipeline
+- [[zodchii]] — practitioner entity page; routing-discipline + pipeline-architecture authority surface
 - [[claude-opus-4-7]] — predecessor; succession noted
 - [[claude-code]] — recommended model for this surface
 - [[code-mode]] — runtime primitive the Dynamic Workflows orchestration sits above

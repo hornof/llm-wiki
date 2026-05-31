@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-28
+last_updated: 2026-05-31
 ---
 
 ## What This Is
@@ -265,6 +265,55 @@ Three same-week signals on AI-infrastructure companies growing at structurally d
 - **Tracking signal**: the Uber-COO-style *"harder to justify"* admission ([[ai-roi-gap]]) is the first wiki-captured public-incumbent CFO/COO-level signal of executive-AI-spend recalibration. A pattern of recurring admissions would mark a recalibration regime change — which is *bullish for incumbents* (less wasted spend) and *neutral-to-bearish for AI-native challengers* (less easy-money displacement).
 
 **Cross-references**: [[ai-roi-gap]] (the dedicated topic), [[ai-labor-market-impacts#AI-ROI-Gap Counter-Anchor (May 2026)|labor-market impacts]] (layoff-attribution skepticism layer).
+
+## Harvey / Legora: First Concrete AI-Native-Challenger Two-Sided-Trap (willchen500, 2026-05-31)
+
+[[dailybrief-roundup-2026-05-31|willchen500]] articulates the **first wiki-captured concrete two-sided-trap case study at the AI-native-challenger tier**, focused on the legal-tech verticals Harvey and Legora:
+
+> *"It's the only way that they can provide a narrative for how they will survive, now that:*  
+> *(1) Biglaw firms are building their own AI application layer/fine tuning models; and*  
+> *(2) OpenAI and Anthropic are going after their customers and they don't have a differentiated product.*  
+> *But the moment they do so [pivot to law firms / acquire AI-native law firm subsidiary], they will enrage all of their customers who all have opt out clauses embedded in their contracts, thereby triggering an immediate ARR collapse."*
+
+**The two-sided trap (vertical-AI-challenger version)**:
+
+| Pressure | From | Mechanism |
+|---|---|---|
+| **From above** | [[anthropic-finance-agents-2026-05-05\|frontier-lab utility tier]] | Anthropic / OpenAI ship vertical agents direct to enterprise customers; same customer base, deeper capital + native data integration |
+| **From below** | high-end Chamath-tier incumbents (biglaw firms) | Biglaw builds own AI application layer / fine-tunes on proprietary case data; data-moat-tier captures the customer relationship |
+| **Pivot trap** | own contract terms | Customer opt-out clauses trigger ARR collapse if challenger pivots to compete with customers |
+
+**The structural implication**: the AI-native challenger tier (Harvey, Legora, and structurally-similar mid-tier vertical-AI SaaS) is *not just under pressure from frontier labs above* — it's also under pressure from *its own customers building competing products with the same models*. The Chamath two-tier framing (low-end dies, high-end survives) + the three-tier May 2026 update (frontier-lab utility tier above) is now a **four-pressure-vector framework** when applied to specific verticals:
+
+1. **Frontier-lab utility tier** — ships vertical agents directly (Anthropic Financial Services)
+2. **High-end-survives-with-data-moat tier** — biglaw / proprietary-case-data tier; builds its own with API access
+3. **AI-native-challenger tier** — Harvey / Legora; caught in the trap
+4. **Mid-market conveyor belt** — generic mid-market SaaS dying first
+
+**Notable comment-thread amplification**:
+- **Soren Larson**: *"is it bad that I think this is what you get for making a boomer meme company"*
+- **WillC reply**: *"Founders already cashed out in secondaries. You can tell they don't care anymore from how little effort they put into the product. These are essentially VC king-made / astroturfed companies."* — **first wiki-captured "founder-already-exited-via-secondaries" framing as cynicism vector** for an AI-native challenger.
+- **Vik Mehra**: *"Harvey started publicly talking about it and backtracked. Both are between a rock and a hard place."* — verification-pending on the *"started publicly talking and backtracked"* reference.
+- **Thomas Rossi**: Google-Flights-debacle analogy — *"online travel operators (were?) one of the bigger spenders of online ads, the last thing they wanted was to compete with google on the same product."*
+
+**Tracking signal**: pattern-watch is for the second AI-native-challenger-tier vertical-SaaS to surface the same two-sided-trap framing publicly. Legal tech is the leading-indicator vertical; expect the same dynamic in vertical AI for finance / sales / customer-support / engineering-management over the next 6-12 months. Pairs with [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|the fox-in-the-henhouse argument]] as the *concrete-vertical instantiation* of the structural critique.
+
+## Paul Graham 4th-Tier-Candidate: AI-Native-from-Day-One (2026-05-30)
+
+[[dailybrief-roundup-2026-05-31|Paul Graham's response]] to @t_blom's AI-native-org thread adds a **4th-tier-candidate** to the three-tier May 2026 survival framework:
+
+> *"This problem will naturally tend to go away as companies are grown from the start using AI. Then you don't need to extract any domain knowledge from people's heads; it will never have been in people's heads."*
+
+| Tier | Examples | Mechanism (updated 2026-05-31) |
+|---|---|---|
+| **Frontier-lab utility tier** | Anthropic, OpenAI | Capital-floor capability; lab-as-utility; vertical agents from the lab itself |
+| ***NEW* — AI-native-from-Day-One orgs (pgraham)** | startups built AI-native from origin; YC AI-Native Service Companies RFS cohort | Org chart never embedded human-knowledge-routing structure; "never been in people's heads" — escapes the knowledge-extraction problem retrofit incumbents face |
+| **High-end Chamath tier 1 (survives)** | Salesforce, Palantir, Oracle, Intuit | Proprietary data moats |
+| **AI-native-challenger tier (two-sided-trap)** | Harvey, Legora | Caught between frontier-lab above + customer-building-own below |
+| **Mid-market (Chamath conveyor belt)** | Single-function lightweight enterprise apps | On the conveyor belt; ClickUp leading test case |
+| **Low-end (Chamath tier 3)** | $49/month single-function SaaS | Dead first; replaced by agents-as-workflows |
+
+**Pgraham's secondary point on startup-opportunity** — *"It would be interesting, and a good opportunity for startups, if this requires new tools to be made. But no one will be able to figure out faster what these tools should look like than the startups that need them."* — **pairs with [[anthropic-founders-playbook-2026-05|Anthropic Founder's Playbook]]** (the *frontier-lab-published* founder-curriculum) and [[lennysan-dream-companies-survey-2026-05-27|the "so many people want to start their own company" survey finding]] as **three-surface convergence** on the AI-native-from-Day-One-startup demand.
 
 ## Tracking Signals
 

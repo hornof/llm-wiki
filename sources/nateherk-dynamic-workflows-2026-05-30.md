@@ -1,0 +1,142 @@
+---
+title: "Nate Herk: How to Actually Use Claude Code Dynamic Workflows (41-Haiku case study + The Ladder framework)"
+type: source
+medium: twitter-thread
+url: https://x.com/nateherk/status/2060779931114652016
+ingested: 2026-05-31
+---
+
+## Summary
+
+[[nate-herk|Nate Herk]] follow-up post (2026-05-30) to his [[nateherk-opus-4-8-aios-2026-05-29|prior-day Opus 4.8 AIOS]] — substantive Dynamic Workflows walkthrough with **concrete cost case study** (5M input tokens, ~50% of $200/mo Pro plan eaten in 30 minutes from one run) and **The Ladder framework** for progressive escalation from *"ask Claude"* through *"dynamic workflow."* **5th wiki Nate Herk surface.** The most-actionable Dynamic Workflows practitioner-content piece captured to date — extends the prior [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic primary]] and [[zodchii-opus-4-8-setup-guide-2026-05-29|zodchii setup guide]] with operational discipline, depth-vs-width distinction, and the *"most knowledge work doesn't need a workflow, and that's completely fine"* honest take.
+
+## Key Claims / Takeaways
+
+### The headline cost story (most-direct ROI-gap data point)
+
+> *"I ran one prompt and it ate half of my $200 a month plan in about 30 minutes."*
+
+**The 41-Haiku audit case study**:
+- Prompt: *"Run a workflow that audits all of my Claude Code skills in two places, my user level global skills and this project's skills. Grade on clarity, frontmatter pass/fail, and trigger quality, and give me the single highest value fix. One final agent ranks every skill worst to best."*
+- **41 Haiku agents** spun up in parallel (one per skill)
+- Scored in parallel → fed into a **single Opus synthesis agent**
+- **~5 million input tokens** consumed
+- Output: HTML ranking-and-feedback report
+- Cost: **~50% of $200/mo Pro plan in 30 minutes**
+
+**Direct cross-cut with [[ai-roi-gap]]**: this is the **first wiki-captured concrete-cost case study for a single Dynamic Workflows run by a known practitioner with all-worker-Haiku optimization.** Pairs with [[sankar-token-spend-roi-gap-2026-05-25|Sankar's $100K → $18K funnel]] at the workflow-scale altitude — even with cost-optimization (Haiku workers), a single workflow run consumes meaningful operator-budget.
+
+**Second cost-explosion**: a separate run that searched Nate's entire desktop *"crawled every local file and every repo looking for an analysis. That's the run that ate half my plan."* — scope-blindness is the load-bearing failure mode.
+
+### The Ladder framework — 6-tier progressive escalation
+
+| Rung | When | Mechanism |
+|---|---|---|
+| 1️⃣ | Quick one-off | Just talk to Claude Code; ask, reason, maybe a web fetch / API call |
+| 2️⃣ | A process you repeat | Turn it into a **Skill** |
+| 3️⃣ | Work that should run parallel to main session | Hand it to a **Subagent** (own context window; reports back; can't talk to other subagents) |
+| 4️⃣ | Subagents that need to talk to each other | **Agent Team** — shared task list, individual roles, individual tools (war rooms / councils where agents debate toward one goal) |
+| 5️⃣ | Long-horizon goal-completion | **`/goal`** — depth (loop until done = true; can run 24 hours) |
+| 6️⃣ | Giant parallel job | **Dynamic Workflow** — width (50+ agents side-by-side); Claude writes a JS script that orchestrates them |
+
+**The Ladder is wiki-canonical-worthy** — first wiki-captured 6-tier framework for progressive agentic escalation with explicit *when-to-climb* criteria. Pairs structurally with [[nateherk-opus-4-8-aios-2026-05-29|the Four C's architecture]] (Context / Connections / Capabilities / Cadence) — the Four C's is *what to give the system*; the Ladder is *which primitive to reach for*.
+
+### Depth vs Width framing (the load-bearing distinction)
+
+> *"/goal is depth. It's a loop. One agent (it can spin up subagents too) takes multiple passes, checking whether done = true, until the criteria is met. You could let it run 24 hours if you wanted."*
+> 
+> *"A workflow is width. A bunch of subagents doing different things at the same time, synthesized at the end. You could have 50+ agents running horizontally."*
+
+**Reconciles two previously-conflated primitives**. `/goal` and Dynamic Workflows look similar at the launch surface but are *orthogonal* — depth (sequential, looping, single-goal-driven) vs width (parallel, branching, multi-task-merging). **The combo to know about**: *"a workflow nested inside a /goal."* Nate explicit warning: *"Very powerful, and a very fast way to burn money, so be careful with that level of autonomy."*
+
+### Dynamic Workflow architectural clarification
+
+> *"Normally the plan lives with Claude in your main session. With a workflow, Claude writes a JavaScript file, and that file is what gets executed."*
+
+**Resolves the [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic primary's]] verification-pending question**: *"orchestration-script runtime (language? Claude Code internal? Python? JSON spec?)."* **The answer**: JavaScript. The script is generated by Claude and executed by Claude Code. **First wiki-captured operational disclosure of the Dynamic Workflows script-runtime language.**
+
+**Storage**: the JS file *"doesn't always land in your project. By default it saved somewhere more global in my Claude Code working directory. I had to tell it to drop the file into this project's `.claude/workflows` folder so it lived inside my own operating system, not off in a global directory."*
+
+**Reuse**: *"Point at the workflow and say run it again."* Saved workflows are first-class reusable primitives.
+
+**Live observability**: `/workflows` shows live state — *"All 41 agents, what skill each was on, that they were all on Haiku, tokens used, tools, and how long each had been running. You can stop them from there too."* **First wiki-captured `/workflows` live-observability slash command.**
+
+### `ultracode` effort-menu reconciliation — 6 levels (Nate Herk) vs 5 levels (zodchii)
+
+Nate Herk: *"Run /effort to set your Opus reasoning level. The options are low, medium, high, **xhigh**, max, and then ultracode."* — **6 levels**.
+
+[[zodchii-opus-4-8-setup-guide-2026-05-29|zodchii setup guide]]: low / medium / high / max / ultracode — **5 levels** (no `xhigh`).
+
+> [!contradiction] Effort menu level count
+> Nate Herk lists 6 effort levels (with `xhigh` between high and max); zodchii lists 5 (no `xhigh`). Either (a) Nate Herk's listing is correct and zodchii missed `xhigh`, or (b) `xhigh` was deprecated between the two posts (one day apart), or (c) one practitioner observed a different UI surface (Pro vs Max vs Team plan). **Verification-pending.** The [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic primary]] used the term `xhigh` so option (a) — zodchii missed `xhigh` — is the most likely explanation.
+
+**`ultracode` definitionally extends**:
+> *"ultracode is the smartest and the most expensive. It runs xhigh reasoning and turns basically every prompt into a workflow. It bypasses a lot of permissions and just starts orchestrating, so the spend climbs quick."*
+
+The *"bypasses a lot of permissions"* framing is **first wiki-captured operator-side warning that `ultracode` lowers the permission threshold**. Pairs with [[nateherk-opus-4-8-aios-2026-05-29|Nate Herk's 150,000-inbox lesson]] on instructions-vs-capabilities — `ultracode` is the *"hand the keys over"* mode.
+
+### `/deep-research` — first wiki-captured new Claude Code primitive
+
+> *"Then there's /deep-research. It automatically kicks off a workflow, spins up agents to research in parallel, has them vote on each claim, and hands back a cited research report."*
+
+**First wiki-captured `/deep-research` slash command surfacing.** Architectural shape:
+- Automatically triggers a Dynamic Workflow
+- Spins up agents to research in parallel
+- **Agents vote on each claim** (the adversarial-agent verification pattern from the Anthropic primary, productized as a research surface)
+- Returns a cited research report
+
+**Pairs structurally with**:
+- [[anthropic-dynamic-workflows-primary-2026-05-28|Anthropic Dynamic Workflows primary]]'s adversarial-agent convergence-termination mechanism — `/deep-research` is the *productized research-workflow surface* of the same primitive
+- [[llm-wiki-pattern|LLM wiki pattern]] — `/deep-research` is the *vendor-side equivalent* of Karpathy's compilation-time knowledge-base pattern
+- [[autoresearch]] *(if exists)* / Karpathy's autoresearch pattern — same shape, vendor-surface productization
+
+### Workflow trigger detection (UI cue)
+
+> *"Type 'workflow' in a turn and it lights up in rainbow, since the word shows up naturally in normal speech. That highlight alone doesn't run anything. The most reliable trigger is being explicit: 'set me up a dynamic workflow to do this.'"*
+
+**First wiki-captured Claude Code UI workflow-trigger-detection mechanism.** Pairs directly with [[dailybrief-roundup-2026-05-31|Matt Pocock's same-day frustration post]]: *"every time I say the word 'workflow' in Claude Code… it tries to enter 'workflow' mode, spinning up dozens of subagents."* **The two practitioners observed the same UI behavior from opposite stances** — Nate Herk frames it as a useful visual cue + explicit-trigger requirement; Pocock experiences it as friction. **Both are correct depending on user-intent context.**
+
+### Operator-discipline rules (the practitioner-content register canonical list)
+
+Nate Herk's pre-workflow checklist:
+
+> *"So before you fire one off:*  
+> *→ Bound the scope.*  
+> *→ Name the deliverable.*  
+> *→ Put all the worker agents on Haiku."*
+
+**Same discipline applies to `/goal`**: *"Give it a vague request and it'll loop forever because it never knows when done = true."*
+
+**The filter** for when to reach for a workflow:
+> *"If the job breaks into many pieces that can run on their own at the same time, a workflow fits. Reviewing every file in a codebase. A 400 file migration. High-risk work where you want max compute on each piece. For single edits, quick questions, or general knowledge work, skip it."*
+
+**The honest take**:
+> *"Most knowledge work doesn't need a workflow, and that's completely fine… Knowing what a feature does and when it fits is the win. That's different from needing to use it every day to feel like you're keeping up."*
+
+**Cross-cut with [[ai-roi-gap]] discipline cluster**: pairs with [[zodchii-opus-4-8-setup-guide-2026-05-29|zodchii routing matrix]] — both practitioners crystallize on *"the discipline is the hidden capability"* framing. Nate Herk extends with the *"feature-fit-not-feature-usage"* principle: knowing when a capability *doesn't apply* is as load-bearing as knowing when it does.
+
+### What's notably absent
+
+- **Specific Teamly / paid product cross-promotion** absent in this post (vs the [[zodchii-4-agent-pipeline-2026-05-31|zodchii 4-agent pipeline]] which heavily promotes Teamly)
+- **Whether the JS scripts can be edited / version-controlled** as first-class project artifacts — implied yes but not explicit
+- **Whether subagents within a workflow can themselves be Agent Teams** (composable across rungs of the Ladder?)
+- **Cross-vendor analogue**: how Codex / Cursor / OpenInspect handle the same depth-vs-width distinction
+
+## Pages Updated
+
+- [[nate-herk]] — 5th wiki surface; The Ladder framework + Depth-vs-Width + 41-Haiku case study added to Notable Takes
+- [[claude-opus-4-8]] — effort menu reconciliation: **contradiction flag** between Nate Herk's 6-level listing (with `xhigh`) and zodchii's 5-level listing; resolution likely zodchii missed `xhigh`
+- [[claude-code]] — The Ladder framework added under practitioner-content; `/workflows` live-observability + `/deep-research` slash command primitives surfaced; JavaScript script-runtime resolution added
+- [[anthropic-dynamic-workflows-primary-2026-05-28]] — verification-pending items resolved (JS script runtime; `.claude/workflows` storage)
+- [[ai-roi-gap]] — Nate Herk's 41-Haiku $100/30-min cost case study added as **first concrete-cost Dynamic Workflows practitioner data point**
+- [[claude-md-pattern]] — Nate Herk's *"feature-fit-not-feature-usage"* principle noted as 9th+ practitioner-validation surface extension
+
+Verification-pending: effort menu level count (5 vs 6); whether `xhigh` was deprecated between zodchii and Nate Herk posts (1 day apart); JS-script version-control / editability; subagent-within-workflow composability; cross-vendor depth-vs-width analogues.
+
+## Adjacent sources
+
+- [[nateherk-opus-4-8-aios-2026-05-29]] — prior-day Nate Herk AIOS post (Four C's + 150,000-inbox lesson)
+- [[anthropic-dynamic-workflows-primary-2026-05-28]] — Anthropic primary; this practitioner walkthrough operationalizes it
+- [[zodchii-opus-4-8-setup-guide-2026-05-29]] — adjacent practitioner-content register; effort menu reconciliation source
+- [[zodchii-4-agent-pipeline-2026-05-31]] — same-day same-author follow-up (pipeline pattern)
+- [[dailybrief-roundup-2026-05-31]] — covers Matt Pocock's same-day workflow-trigger frustration post
