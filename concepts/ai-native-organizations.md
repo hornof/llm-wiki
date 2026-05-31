@@ -2,8 +2,11 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-25
+last_updated: 2026-05-31
 ---
+
+> [!key-insight] Paul Graham foundational framing (2026-05-30)
+> *"This problem will naturally tend to go away as companies are grown from the start using AI. Then you don't need to extract any domain knowledge from people's heads; it will never have been in people's heads."* — Paul Graham, responding to @t_blom's *"replacing 90% of employees with geniuses who don't know how your company operates"* thread. First wiki-captured pgraham endorsement of the AI-native-from-Day-One thesis at foundational level. **The strongest formulation captured to date** — the *"never been in people's heads"* framing is the structural distinction between AI-native-incumbents-built-from-Day-One and AI-retrofit incumbents. See [[dailybrief-roundup-2026-05-31]]. Pgraham follow-up: *"It would be interesting, and a good opportunity for startups, if this requires new tools to be made. But no one will be able to figure out faster what these tools should look like than the startups that need them."*
 
 ## Definition
 
