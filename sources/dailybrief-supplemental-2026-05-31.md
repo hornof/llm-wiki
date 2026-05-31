@@ -74,15 +74,16 @@ Brief framing: *"Concrete pattern for on-device compute. Datasette Lite evolved;
 
 ### Elad Gil: past six months "historic" driven by recursive self-improvement tools (2026-05-31)
 
-**Source**: [Digg](https://digg.com/ai/0xgzhjwh).
+**Source**: [Digg secondary](https://digg.com/ai/0xgzhjwh) + **primary captured separately as [[eladgil-rsi-december-breakpoint-2026-05-31]]** (2026-05-31 pt3 ingest).
 
-Elad Gil (high-signal AI investor / commentator) claims **the past six months of AI development are historic, driven by recursive self-improvement tools.** Warns *"outsiders are missing an exponential growth phase."*
+Elad Gil claims **the past six months of AI development are historic, driven by recursive self-improvement tools.** Warns *"outsiders are missing an exponential growth phase."*
 
-- **Pairs with [[import-ai-456-clark-rsi-radical-optionality-2026-05-11|Jack Clark's RSI radical-optionality framing]]** — first wiki-captured prominent-investor endorsement of the recursive-self-improvement-as-current-mechanism thesis. Pairs structurally with:
-  - [[anthropic-teaching-claude-why-2026-05-08|Teaching Claude Why]] — RSI applied to alignment-by-reasoning
-  - [[anthropic-dynamic-workflows-primary-2026-05-28|Dynamic Workflows]] — RSI at the orchestration layer
-  - [[nateherk-dynamic-workflows-2026-05-30|Nate Herk Workflow→Workflow combo]] — RSI at the operator layer
-- **No separate source page** — capture as adjacent signal to existing RSI cluster; promote if Gil publishes longer-form.
+**Key primary-source detail not in the Digg secondary** (captured at [[eladgil-rsi-december-breakpoint-2026-05-31]]):
+- **Gil identifies "December model drop" as the breakpoint** when @e_libertas challenged him for breakthroughs comparable to *"printing press, steam engine, electricity, antibiotics, nuclear weapons, or the internet."*
+- **Gil refines his own position** in real-time when @careerlevelup distinguishes *"AI accelerating human-directed development"* from RSI itself — Gil replies: *"Yes - that is the next 6-24 months of building."* The refined claim: **RSI execution is 6-24 months out, not running right now.** First wiki-captured Gil-specific timeline anchor.
+- **The 6-24-month window** adds Gil as **5th corner of the [[ai-labor-market-impacts#Timeline-Calibration Quadrangle (May 2026)|Timeline-Calibration Quadrangle/Quintangle]]** (Lovejoy 2031 + Karpathy 10yr + Korinek 6yr + MIT 80-95%-by-2029 + **Gil 6-24mo**).
+
+**Pairs with [[import-ai-456-clark-rsi-radical-optionality-2026-05-11|Jack Clark's RSI radical-optionality framing]]** — first wiki-captured prominent-investor endorsement of the recursive-self-improvement-as-current-mechanism thesis. Pairs structurally with [[anthropic-teaching-claude-why-2026-05-08|Teaching Claude Why]] (RSI applied to alignment-by-reasoning), [[anthropic-dynamic-workflows-primary-2026-05-28|Dynamic Workflows]] (RSI at the orchestration layer), [[nateherk-dynamic-workflows-2026-05-30|Nate Herk Workflow→Workflow combo]] (RSI at the operator layer).
 
 ### Dylan Field math puzzle stumps Opus + GPT-5.5 (2026-05-31)
 
@@ -96,13 +97,22 @@ Figma founder Dylan Field solves a kindergarten math puzzle that *"stumped mock 
 
 ### Xi Yin joins OpenAI; "AI boosted my research 100x" / Yi Ma dispute (2026-05-31)
 
-**Source**: [Digg](https://digg.com/ai/3b89v3mg).
+**Source**: [Digg secondary](https://digg.com/ai/3b89v3mg) + **primary captured separately as [[dinq-xi-yin-openai-quotes-2026-05-31]]** (2026-05-31 pt3 ingest).
 
-Former Harvard physicist Xi Yin joins OpenAI; claims **AI boosted his research 100×** and *"can replicate all human intellect."* HKU professor Yi Ma disputed Yin's expertise on AI limits.
+**Verbatim quotes from primary** (correcting the Digg paraphrase):
+- *"AI gives me 100× speedup. Weeks of output would take me 10 years."* (productivity-multiplier claim with concrete time-comparison)
+- *"I don't believe there's any human intellectual ability AI cannot replicate."* (absolute capability-ceiling claim)
 
-- **Pairs with [[alex-lupsasca|Lupsasca on OpenAI Science team]] / [[vibe-physics]]**: another high-credential physicist joining OpenAI. Vibe-physics surface is structurally expanding.
-- **The 100× claim** is the strongest individual-researcher productivity multiplier wiki-captured to date. **Pairs with [[ai-roi-gap]]**: this is a *Read A* (capital correctly recognizing infrastructure value) data point — at the *frontier-research* tier the multiplier may genuinely be 100× even if the application-tier funnel shows ~18%.
-- **Yi Ma counter**: dispute on *"AI expertise on AI limits"* — first wiki-captured peer-physicist explicit-dispute of a frontier-lab-hire's framing. Worth tracking how the dispute develops.
+**Credential anchor from primary**: *"String theorist. Youngest full professor in Harvard history."* — sharper than the Digg secondary's *"former Harvard physicist"* framing.
+
+**Comment-thread peer-physicist-skepticism cluster** (first wiki-captured frontier-lab-hire concrete-comment-thread critique):
+- Nicholas Beale 3-point: (a) *"paid a lot more to say this"* + (b) *"String Theory is a dead end from the PoV of Physics"* + (c) *"Mathematicians & theoretical physicists often lack human skills or philosophical insights"*
+- Amir Arsalan Soltani: string-theory-disconnect-from-empirical-grounding framing
+- Centers on **compensation-induced talking-point + motivated-reasoning** as alternative explanations for Yin's absolute-capability claim
+
+**Pairs with [[alex-lupsasca|Lupsasca on OpenAI Science]] + [[vibe-physics]]**: 3-physicist cluster at frontier AI (Lupsasca + Yin + Pope). The 100× claim is the strongest individual-researcher productivity multiplier wiki-captured to date.
+
+**Yi Ma counter** (Digg secondary): dispute on *"AI expertise on AI limits"* — first wiki-captured peer-physicist explicit-dispute of a frontier-lab-hire's framing.
 
 ### Nous Research Hermes: Kanban goal-mode cards for persistent AI workers (2026-05-31)
 
