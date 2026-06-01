@@ -83,7 +83,7 @@ See `COMMONSENSE_CLASSIFICATION_RULES.md` ...
 - **The `task.md` pattern is the [[claude-md-pattern]] in disguise.** Same imperative-prompt-as-behavioral-contract discipline ([[mnilax-claude-md-12-rules-2026-05-09]]). The wiki's CLAUDE.md / SKILL.md ecosystem is the codified version of what Klimontovich wrote ad-hoc.
 - **Sub-agent + persistent-state pattern is foundational.** Sub-agents for parsing large PDFs + `answers.md` / `result.json` for cross-run state is the same architecture as [[anthropic-claude-cookbook-2026-05|Anthropic's named cookbook primitives]] (Programmatic Tool Calling, Tool Search with Embeddings, Automatic Context Compaction). This is a practitioner discovering the recipe before the cookbook formalized it.
 - **The $1,300-2,000 → few-dozen-dollars cost-collapse on a "personal CPA" workflow** is a data point for the [[naval-ravikant-saas-is-next|SaaS-disruption thesis]] *transferred to professional services*. Tax-prep CPA fees are exactly the kind of high-margin professional-services revenue that gets squeezed when individuals can run their own agentic workflow.
-- **Last-mile-is-hardest framing** is honest and useful: the PDF-form-fill step is where the workflow still breaks. Real bottleneck is regulatory/integration, not model capability. Same pattern as [[claude-code-did-my-taxes|"last mile"]] in any AI-applied vertical.
+- **Last-mile-is-hardest framing** is honest and useful: the PDF-form-fill step is where the workflow still breaks. Real bottleneck is regulatory/integration, not model capability. Same *"last mile"* pattern in any AI-applied vertical.
 
 ## Cross-references
 

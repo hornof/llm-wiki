@@ -28,7 +28,7 @@ Consolidated capture of Google's I/O 2026 product surface (May 2026), drawn from
   2. **Reference anything** — *"extends Gemini's native multimodality, allowing you to blend combinations of text, audio, image, and video inputs into a high-quality, consistent video."*
   3. **Conversational editing** — *"edit your videos using natural language (like Nano Banana, but for video)."* The Nano Banana comparison is significant — Nano Banana was Google's conversational-editing image model that landed earlier in 2026; Omni applies the same paradigm to video.
   4. **Distribution**: Google AI Plus, Pro, and Ultra subscribers via @geminiapp, @GoogleFlow, @GoogleFlowMusic, and **free on @YouTube Shorts and the YouTube Create app**.
-- **YouTube Shorts integration is the load-bearing distribution signal** — Google is using its existing consumer-video distribution surface (YouTube Shorts, ~2B MAU) as the AI-video-generation funnel. Pairs with [[google-search|Google Search → conversational AI]] pivot captured in [[dailybrief-roundup-2026-05-19]] as a coordinated **consumer-surface AI-integration play**.
+- **YouTube Shorts integration is the load-bearing distribution signal** — Google is using its existing consumer-video distribution surface (YouTube Shorts, ~2B MAU) as the AI-video-generation funnel. Pairs with Google Search → conversational AI pivot captured in [[dailybrief-roundup-2026-05-19]] as a coordinated **consumer-surface AI-integration play**.
 
 ### Gemini Spark (background agents)
 
@@ -49,7 +49,7 @@ Willison explicitly notes his coverage preference is **GA-only** — so non-GA a
 
 - **First wiki capture of Google's four-named-product I/O 2026 surface**. Prior wiki captures had Gemini 3.5 Flash leak ([[dailybrief-roundup-2026-05-19]]) and `google-antigravity/antigravity-sdk-python` repo signal but no I/O-coordinated framing.
 - **Single-fast-model strategy (Gemini 3.5 Flash) signals deployment-volume bet over cost-per-token leadership.** This is structurally different from Anthropic's tiered Haiku/Sonnet/Opus model-routing-default framing ([[svpino-subagent-pilled-2026-05-15]] / [[zephyr-7-claude-setups-2026-05-15]]) where task-appropriate model selection is load-bearing. Google's bet: **one good-enough model + massive distribution surface** vs Anthropic's **multiple models + practitioner-discipline-on-routing**.
-- **Gemini Omni's YouTube-Shorts integration** is the most material consumer-AI-distribution move captured this week. Pairs with [[google-search]] conversational-AI pivot as a **two-surface coordinated consumer integration** — both leverage Google's existing distribution moats (search + video).
+- **Gemini Omni's YouTube-Shorts integration** is the most material consumer-AI-distribution move captured this week. Pairs with Google Search conversational-AI pivot as a **two-surface coordinated consumer integration** — both leverage Google's existing distribution moats (search + video).
 - **Antigravity 2.0 + Gemini Spark = Google's agent-platform stack landing**. Google's prior agent positioning has been fragmented (Genie, Bard, AI Studio, Vertex); the I/O 2026 surface consolidates around Antigravity-as-SDK + Spark-as-product. Worth tracking whether this consolidation lands or fragments further over the next 60 days.
 - **The "Nano Banana, but for video" framing** for Omni's conversational editing is the cleanest single-sentence positioning of conversational-multimodal-editing as a Google-native product category. Conversational image editing (Nano Banana) is now consumer-product-validated; conversational video editing (Omni) is the next surface.
 
@@ -66,7 +66,7 @@ Willison explicitly notes his coverage preference is **GA-only** — so non-GA a
 - [[google-deepmind]] — entity page; updated with Gemini 3.5 Flash GA + Omni + Spark + Antigravity surface.
 - [[simon-willison]] — Willison's I/O coverage; same-day post.
 - [[dailybrief-roundup-2026-05-19]] — Gemini 3.5 Flash leak + Project Genie + Street View + Antigravity-SDK repo signals from the day before.
-- [[google-search]] — conversational-AI pivot; same-week coordinated consumer-surface play.
+- Google Search — conversational-AI pivot; same-week coordinated consumer-surface play.
 - [[claude-cowork]] / [[claude-code]] — Anthropic counterparts to Gemini Spark (background agents) and Antigravity (agent SDK).
 - [[openai|OpenAI Codex]] — third major background-agent / coding-agent surface.
 - [[karpathy-html-output-taxonomy-2026-05-08]] / [[model-rendered-ui]] — Omni's conversational-video-editing is one step further along the trajectory toward interactive neural artifacts that Karpathy gestures at.
