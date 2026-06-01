@@ -15,7 +15,7 @@ Simon Willison quote-collection, 2026-05-13, surfacing a Boris Mann Bluesky post
 - **Mann's verbatim claim:** "'11 AI agents' is meaningless as a phrase. If I said 'I have 11 spreadsheets' or 'I have 11 browser tabs' to do my work, it means about the same thing."
 - **The analogy structure:** "agents" sits in the same category as spreadsheets and browser tabs — a count of containers that say nothing about what's inside them or what work they do. The number is decorative.
 - **Why Willison surfaces it:** consistent with his broader 2026 stance on agent terminology (see [[people/simon-willison]] notable takes; his March 2026 "agents are a marketing term" thread, his ongoing distinction between "agentic workflow" and "agent count"). This is the cleanest one-line restatement of the position from a third party.
-- **Boris Mann context:** Vancouver-based long-time open-web/Bluesky/Fission practitioner; not previously surfaced on this wiki. Bluesky handle `bmann.ca`. Worth a [[people/]] capture if the agent-terminology critique extends or if he surfaces on adjacent topics — for now, lighter touch via this source.
+- **Boris Mann context:** Vancouver-based long-time open-web/Bluesky/Fission practitioner; not previously surfaced on this wiki. Bluesky handle `bmann.ca`. Worth a `people/` entity-page capture if the agent-terminology critique extends or if he surfaces on adjacent topics — for now, lighter touch via this source.
 - **Pattern for the wiki:** when an entity-page traction-signals section says "X named agents" or "Y agent count," that's the marker Mann's critique flags as low-information. Future entries should describe agent *function* or *topology* (e.g., [[tools/river|River's shared-channel topology]]), not count.
 
 ## Why It Matters

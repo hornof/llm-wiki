@@ -63,7 +63,7 @@ Telegram BotFather → Claude bot OR Claude Cowork → Dispatch. Surface for "24
 - [[company-brain]] — per-person company-brain architecture; first wiki capture of the personal-finance instantiation.
 - [[claude-cowork]] — Cowork is the surface Deutscher recommends for the dashboard layer.
 - [[ashwingop-company-brain-year-lessons-2026-05]] — three-layer memory substrate at organizational scale; Deutscher's setup is the same pattern at individual scale.
-- [[agent-memory]] / [[claude-managed-agent-memory]] — memory.md as the persistent-state surface; the curation-problem-named-by-Sathish is the unsolved boundary.
+- [[mem0]] / [[company-brain]] — memory.md as the persistent-state surface; the curation-problem-named-by-Sathish is the unsolved boundary.
 
 ## Pages Updated
 

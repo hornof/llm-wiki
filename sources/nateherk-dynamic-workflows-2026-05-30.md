@@ -117,7 +117,7 @@ Nate Herk's pre-workflow checklist:
 
 ### What's notably absent
 
-- **Specific Teamly / paid product cross-promotion** absent in this post (vs the [[zodchii-4-agent-pipeline-2026-05-31|zodchii 4-agent pipeline]] which heavily promotes Teamly)
+- **Specific Teamly / paid product cross-promotion** absent in this post (vs the [[zodchii-4-agent-pipeline-2026-05-30|zodchii 4-agent pipeline]] which heavily promotes Teamly)
 - **Whether the JS scripts can be edited / version-controlled** as first-class project artifacts — implied yes but not explicit
 - **Whether subagents within a workflow can themselves be Agent Teams** (composable across rungs of the Ladder?)
 - **Cross-vendor analogue**: how Codex / Cursor / OpenInspect handle the same depth-vs-width distinction
@@ -138,5 +138,5 @@ Verification-pending: effort menu level count (5 vs 6); whether `xhigh` was depr
 - [[nateherk-opus-4-8-aios-2026-05-29]] — prior-day Nate Herk AIOS post (Four C's + 150,000-inbox lesson)
 - [[anthropic-dynamic-workflows-primary-2026-05-28]] — Anthropic primary; this practitioner walkthrough operationalizes it
 - [[zodchii-opus-4-8-setup-guide-2026-05-29]] — adjacent practitioner-content register; effort menu reconciliation source
-- [[zodchii-4-agent-pipeline-2026-05-31]] — same-day same-author follow-up (pipeline pattern)
+- [[zodchii-4-agent-pipeline-2026-05-30]] — same-day same-author follow-up (pipeline pattern)
 - [[dailybrief-roundup-2026-05-31]] — covers Matt Pocock's same-day workflow-trigger frustration post

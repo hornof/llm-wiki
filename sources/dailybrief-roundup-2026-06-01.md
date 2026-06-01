@@ -24,7 +24,7 @@ Brief framing: *"WeirdML benchmark finds Claude Opus 4.8 xhigh trails GPT-5.5 xh
 - **Concrete numbers**: 82.9% accuracy with xhigh + thinking; 70.5% with thinking disabled. **First wiki-captured concrete-impact-of-thinking-disabled measurement for Opus 4.8** — 12.4-point accuracy drop quantifies the *thinking-feature load-bearing-ness*.
 - **129 lines of code** is the *solution-length* metric (not benchmark-metric directly) — implies WeirdML measures *code-task accuracy at fixed-or-variable solution-length*; primary fetch worth doing.
 - **Cross-cuts with the [[claude-opus-4-8|Opus 4.8 effort-menu contradiction]]**: WeirdML uses `xhigh` (the level zodchii missed and Nate Herk surfaced) — **confirms `xhigh` is a real, used effort-level**. Resolves the zodchii-vs-Nate-Herk contradiction in favor of Nate Herk's 6-level listing.
-- **Pairs with [[david-manheim-opus-4-8-subagent-token-critique-via-dailybrief-supplemental-2026-05-31|David Manheim's Opus 4.8 subagent-token-management critique]]** (yesterday): two practitioner / research-side critique data points on Opus 4.8 limitations in the same week. **Pattern**: Anthropic's launch claims are being independently tested + occasionally fail.
+- **Pairs with [[dailybrief-supplemental-2026-05-31|David Manheim's Opus 4.8 subagent-token-management critique]]** (yesterday): two practitioner / research-side critique data points on Opus 4.8 limitations in the same week. **Pattern**: Anthropic's launch claims are being independently tested + occasionally fail.
 
 **Worth tracking**: does Anthropic respond to WeirdML's finding? Is the benchmark Anthropic-evaluated or third-party-only?
 
