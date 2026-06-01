@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-05-14
+last_updated: 2026-06-01
 ---
 
 ## Who They Are
@@ -32,3 +32,10 @@ Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor o
 ## Why The Wiki Tracks Clark
 
 First wiki capture of a sustained-policy-synthesis voice from inside a frontier lab. Pairs cleanly with [[simon-willison]] (practitioner-side daily synthesis) and [[andrej-karpathy]] (research-and-pedagogy synthesis) as the policy-side third leg of the wiki's "weekly synthesis voice" coverage. Anthropic is the only frontier lab with a public-facing policy-research head running an indexed weekly archive — captures lab-side worldview without the press-release filter.
+
+## Notable Takes (selected, May-June 2026)
+
+- **2026-05-11 — Import AI 456: RSI / radical optionality** ([[import-ai-456-clark-rsi-radical-optionality-2026-05-11]]): surfaces Anton Korinek's RSI economic-growth model (~6 years to explosive growth regime under full software R&D automation + 5% economy-wide automation shock); names *"radical optionality"* as the regulatory framing.
+- **2026-06-01 — Import AI 459: oversight, protein-folding scaling laws, extinction-risk pricing** ([[import-ai-459-clark-oversight-protein-extinction-2026-06-01]]): three structural topics. **Extinction-risk-pricing is the structurally novel one** — first wiki-captured concrete-economic-framing of *AI-extinction-risk as a priced variable*. Together with Korinek's RSI growth-regime modeling from Import AI 456, the two articles **bracket the AI economic-trajectory at both ends** (upside RSI growth + downside extinction-risk-tail). First wiki-captured bracketed-trajectory Anthropic-policy economic-modeling framework.
+
+Clark's editorial surface functions as **the 5th layer of [[anthropic|Anthropic's]] trust-as-moat stack** (alongside Training-Layer CAI + Alignment-Layer NLAs/Teaching-Claude-Why + Surface-Layer ad-free + Runtime-Layer containment). The Policy-Layer is articulated structurally rather than prescriptively.
