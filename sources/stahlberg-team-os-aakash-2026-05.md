@@ -73,7 +73,7 @@ Aakash's lookup-cost calculation:
 - **Four-practitioner convergence** without coordination is the strongest evidence-of-pattern captured this month — same shape as the [[eng-khairallah-multi-agent-team-course-2026-05-15|multi-agent practitioner cluster]] last week, but for shared-memory infrastructure rather than multi-agent orchestration.
 - **Direct practitioner validation of [[claude-md-pattern]]'s minimalist discipline** — Stahlberg arrived at the same "very, very, very lean CLAUDE.md + progressive sub-loading" framing through 1,500 documented hours, independently of the Karpathy → Forrest Chang → Mnilax lineage.
 - **The "illegible-to-agent = illegible-to-new-hire" equation** (via OpenAI's harness-engineering post) is the cleanest single-sentence framing of why Team OS solves two problems with one artifact.
-- **Stahlberg as a tracked voice**: 1,500 hours in Claude Code is the highest documented single-practitioner usage captured in the wiki. Outlet ([[in-the-weeds]]/Substack) + viral "Claude Code for Everything" series + DoorDash production context (already cross-confirmed via [[aakashgupta-doordash-company-brain-2026-05-10]]) warrant a `people/` page.
+- **Stahlberg as a tracked voice**: 1,500 hours in Claude Code is the highest documented single-practitioner usage captured in the wiki. Outlet (*In the Weeds* Substack) + viral "Claude Code for Everything" series + DoorDash production context (already cross-confirmed via [[aakashgupta-doordash-company-brain-2026-05-10]]) warrant a `people/` page.
 
 ## Caveats
 

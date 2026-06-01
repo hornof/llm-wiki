@@ -146,7 +146,7 @@
 - [[cognition]] — autonomous-coding-agent vendor (Devin); $1B raised at $26B / $492M ARR run-rate / 10× usage growth this year (May 2026)
 
 ## Canvases
-- [[agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
+- [[agi-debate.canvas|agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
 
 ## Tutorials & Hands-On
 - [[writing-claude-code-skills]] — 6-pattern framework for effective Claude Code slash commands; skill structure, output formats, progressive disclosure

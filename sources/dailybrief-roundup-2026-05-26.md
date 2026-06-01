@@ -51,7 +51,7 @@ Aggregate capture of 2026-05-26 Daily Brief items that didn't warrant their own 
 
 - **Source**: [The Verge](https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify).
 - **What**: Uber president signals AI ROI skepticism — spending getting harder to justify.
-- **Why it matters**: First wiki capture of a Fortune 500 executive **publicly questioning AI ROI**. Pairs with [[dailybrief-roundup-2026-05-22|Box CEO Levie on CEO AI-readiness overestimation]] + [[nateherk-caio-opportunity-2026-05-17|IBM CAIO 40-percentage-point-CEO-prediction-miss]] as **three same-month exec-level signals on AI-ROI mismatch**. Pairs structurally with [[clickup-mass-layoff-via-roundup|ClickUp mass-layoff signal]] — Uber publicly questioning ROI while ClickUp acts on it; both are the same underlying tension landing at different operational responses.
+- **Why it matters**: First wiki capture of a Fortune 500 executive **publicly questioning AI ROI**. Pairs with [[dailybrief-roundup-2026-05-22|Box CEO Levie on CEO AI-readiness overestimation]] + [[nateherk-caio-opportunity-2026-05-17|IBM CAIO 40-percentage-point-CEO-prediction-miss]] as **three same-month exec-level signals on AI-ROI mismatch**. Pairs structurally with the ClickUp mass-layoff signal (below) — Uber publicly questioning ROI while ClickUp acts on it; both are the same underlying tension landing at different operational responses.
 
 ### Naval Ravikant: "humans with AI vs humans without"
 

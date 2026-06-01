@@ -41,7 +41,7 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 ## Key Hires & Acquisitions (May 2026)
 
 - **2026-05-19 — [[andrej-karpathy]] joins to lead a research group.** Announced via Karpathy's X post ("I've joined Anthropic"); specific group focus, reporting line, and start date not yet captured in primary form — see [[karpathy-joins-anthropic-2026-05-19]]. Most material researcher-move into Anthropic captured in the wiki to date; ends Karpathy's independent post-OpenAI phase. Status of [[eureka-labs]] post-move flagged for verification.
-- **2026-05-19 — Anthropic acquires [[stainless]]** (developer-tools / SDK-codegen). Adds typed-client-SDK generation infrastructure in-house; vertical-integration of the developer-experience moat. *"The real moat isn't the model"* (Daily Brief framing). — [[dailybrief-roundup-2026-05-19]]
+- **2026-05-19 — Anthropic acquires Stainless** (developer-tools / SDK-codegen). Adds typed-client-SDK generation infrastructure in-house; vertical-integration of the developer-experience moat. *"The real moat isn't the model"* (Daily Brief framing). — [[dailybrief-roundup-2026-05-19]]
 
 ## Key Research Contributions
 

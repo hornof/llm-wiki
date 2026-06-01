@@ -99,7 +99,7 @@ Brief framing: *"Self-hosted Python+JavaScript workspace providing a unified UI 
 - **First wiki-captured PewDiePie-published AI infrastructure project.** Notable for being a high-visibility public-figure-published AI workspace at 15.3K stars (Digg AI Score 9/10).
 - **Architecture**: self-hosted Python + JavaScript + opencode (tool-using agents) + vLLM / llama.cpp serving + VRAM-aware model cookbook + multi-step deep research + blind mode
 - **Pairs structurally with [[mattpocock-skills-repo-2026-05-30|Pocock's mattpocock/skills 112.1K-star repo]]** — both are *celebrity-developer-published* AI tooling projects. PewDiePie's scale of public attention dwarfs Pocock's, but Pocock's repo has more practitioner-community traction (112K vs 15K stars).
-- **Mentions [[opencode|opencode]]** — a tool-using-agent surface I haven't yet captured in detail. Worth tracking.
+- **Mentions opencode** — a tool-using-agent surface not yet captured in detail. Worth tracking.
 - **Tracking signal**: does PewDiePie's odysseus drive substantial local-LLM adoption among non-technical audiences? PewDiePie's reach is several orders of magnitude beyond typical tech-influencer scale.
 
 **No separate source page** — single-source today; defer pending second wiki-tracked PewDiePie AI signal or substantive odysseus practitioner-adoption signal.
