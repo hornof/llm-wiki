@@ -3,7 +3,7 @@ name: Claude Opus 4.8
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-05-28
+last_updated: 2026-06-01
 ---
 
 ## What It Is
@@ -42,6 +42,22 @@ Sits alongside [[claude-mythos]] (Anthropic's preview line); positioning between
 - **0% honesty + 4× flaws**: also via zodchii; Anthropic primary not deeply fetched.
 - All benchmark numbers practitioner-surfaced; independent third-party verification (LMSYS, SWE-bench leaderboard direct submissions) not yet captured.
 - **Bedrock / Vertex availability**: Dynamic Workflows confirmed on Bedrock + Vertex + Foundry + Anthropic API ([[anthropic-dynamic-workflows-primary-2026-05-28]]); whether Opus 4.8 itself is on all four surfaces same-day is implicit but unstated.
+
+### Counter-anchor: WeirdML benchmark (2026-06-01)
+
+**First wiki-captured benchmark where Opus 4.8 trails GPT-5.5** — directly counter to the *"beats GPT-5.5 and Gemini 3.1 Pro"* launch framing on SWE-bench / SWE-bench Pro. Per [[dailybrief-roundup-2026-06-01]]:
+
+- **WeirdML benchmark: Opus 4.8 xhigh trails GPT-5.5 xhigh**
+- **82.9% accuracy with xhigh + thinking; 70.5% with thinking disabled** (12.4-point thinking-feature impact — first wiki-captured concrete-impact-of-thinking-disabled measurement)
+- *129 lines of code* solution-length context
+
+**Resolves the [[claude-opus-4-8#Effort Control (new shipped feature)|effort-menu contradiction]] in favor of Nate Herk's 6-level listing** — WeirdML uses `xhigh`, confirming it as a real, used effort-level.
+
+**Tracking signal**: does Anthropic respond to WeirdML's finding? Is WeirdML a public leaderboard, third-party-only evaluation, or single-paper benchmark?
+
+### Subagent-token-management critique (Manheim, 2026-05-31)
+
+Per [[dailybrief-supplemental-2026-05-31|David Manheim's critique]]: Opus 4.8 *"improves at game music composition but struggles with autonomous subagent token management… requires close supervision despite receiving explicit instructions."* Pairs with [[nateherk-dynamic-workflows-2026-05-30|Nate Herk's 41-Haiku ~50%-plan cost case study]]: Manheim's framing explains why Nate Herk's case study had such high cost — explicit Haiku instruction was needed for cost-discipline because the model doesn't autonomously manage subagent token budgets well.
 
 ## When to Use It
 

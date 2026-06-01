@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-05-30
+last_updated: 2026-06-01
 ---
 
 ## Who They Are
@@ -33,6 +33,7 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **Anthropic run-rate revenue hits $47B (May 29 2026)**: surfaces the $47B run-rate datum that anchors the May 28 Series H valuation thesis structurally. Pairs with prior Willison Anthropic-tracking signals — by late May 2026 Willison's blog is functioning as a *practitioner-side Anthropic-financials surface*. — [[anthropic-47b-runrate-willison-2026-05-29]]
 - **3 tooling shipments tracking Opus 4.8 launch (May 28-29 2026)**: ships `llm-anthropic 0.25.1` with Opus 4.8 support + Fast Mode CLI option ([2026-05-28](https://simonwillison.net/2026/May/28/llm-anthropic/)); `Datasette 1.0a31` with write queries + saved queries in alpha ([2026-05-29](https://simonwillison.net/2026/May/29/datasette/)); `markdown-svg-renderer` quick utility ([2026-05-28](https://simonwillison.net/2026/May/28/markdown-svg-renderer/)). **Tooling cadence is structurally tracking Anthropic launches with <48-hour latency.** First wiki-captured frontier-lab-release → Willison-tooling-shipment timing measurement. — [[dailybrief-roundup-2026-05-30]]
 - **Pyodide ASGI in browser (2026-05-30)**: 4th tooling shipment in 72 hours — *running Python ASGI apps in the browser via Pyodide + service worker* ([simonwillison.net/2026/May/30/pyodide-asgi-browser/](https://simonwillison.net/2026/May/30/pyodide-asgi-browser/)). Datasette Lite evolution; on-device-compute pattern for local-first workflows. **Pattern continues: Willison ships 4 tools in 72 hours during the Anthropic Opus 4.8 launch wave.** — [[dailybrief-supplemental-2026-05-31]]
+- **May 2026 newsletter + surfacing David Wilson "cancelling AI subscription" (2026-06-01)**: Willison publishes [May 2026 newsletter](https://simonwillison.net/2026/Jun/1/may-newsletter/) curating the month's trends — *"AI got expensive; Anthropic had a good month"* — practitioner-validation of the same-month structural narrative the wiki has been tracking. Surfaces David Wilson's *"the solution might be cancelling my AI subscription"* essay — meta-pattern on scope-creep at individual-user-tool-usage layer (*"users intend 'quick script,' end up with full products"*). Pairs with [[ai-roi-gap]] *"discipline is the hidden capability"* framing at the individual-tool-user layer. — [[dailybrief-roundup-2026-06-01]]
 
 ## Where to Follow
 - Blog: simonwillison.net
