@@ -100,7 +100,7 @@ Aggregate capture of 2026-05-26 Daily Brief items that didn't warrant their own 
 ## Why This Matters for the Wiki
 
 - **Two same-week public-SaaS-incumbent material-AI-restructuring cuts** (Intuit May 20 17%; ClickUp May 25 mass layoff). Operational evidence for [[saas-disruption-thesis|the SaaS-disruption thesis]].
-- **Three same-month exec-level AI-ROI-skepticism signals** (Box/Levie + IBM CAIO CEO-prediction-miss + Uber president). Pairs structurally with [[shipper takeaway 2 "automation is a lie"]] from the practitioner side and Susan Zhang's evidence-request from the research-lab side.
+- **Three same-month exec-level AI-ROI-skepticism signals** (Box/Levie + IBM CAIO CEO-prediction-miss + Uber president). Pairs structurally with [[lennysan-shipper-10-takeaways-2026-05-24|Shipper takeaway #2 ("automation is a lie")]] from the practitioner side and Susan Zhang's evidence-request from the research-lab side.
 - **Three same-month frontier-lab AI-for-science loop-closing tools** (DeepMind Co-Scientist for hypotheses + DeepMind LLM-Lean for proofs + LLM-AutoSciLab for active experimentation + AlphaEvolve for conjecture-generation). Math-and-science is becoming AI's verifiable-domain anchor at multiple layers simultaneously.
 - **Two same-month talent-flow-restriction moves from opposite directions** (US O-1 inbound + China outbound) — the AI-talent international mobility regime is tightening on both sides.
 - **First wiki-captured federal AI-evidence-admission regulatory framework (FDA Pilot)** + first major institutional doctrinal stance (Magnifica Humanitas) — captured separately as headline source pages.
