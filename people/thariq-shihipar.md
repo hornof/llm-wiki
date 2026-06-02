@@ -3,7 +3,7 @@ name: Thariq Shihipar
 type: person
 affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter]
-last_updated: 2026-05-11
+last_updated: 2026-06-02
 twitter: "@trq212"
 ---
 
@@ -30,7 +30,13 @@ Thariq's article triggered two independent amplifications inside ~72 hours:
 
 Two high-signal voices independently surfaced the same article on the same day — strong validation signal for the underlying technique, and the trigger for the wiki to add HTML-output prompting as a tracked [[claude-code]] practitioner pattern.
 
+## 2nd Surface: Suzanne's Learn Quiz Pattern (2026-06-01)
+
+[[trq-suzanne-learn-quiz-2026-06-01]] — Thariq shares a colleague's *Learn Quiz* prompt (used after Claude completes work in a session to *quiz the operator on what was just done*). **First wiki-captured concrete Anthropic-internal Claude-usage practice** surfacing from a non-employee-position-paper, non-cookbook surface. Pairs with [[nateherk-opus-4-8-aios-2026-05-29|Nate Herk's `/session-handoff`]] as the *comprehension-side* complement to the *resume-side* session-management primitive.
+
+Establishes Thariq as a **practitioner-content surfacing role** for Anthropic-internal practices — pairs with his original *Unreasonable Effectiveness of HTML* surfacing role (May 2026).
+
 ## Where to Follow
 
 - Personal blog (surfaced via Willison amplification)
-- Twitter / X (handle not yet captured in wiki)
+- Twitter / X: [@trq212](https://x.com/trq212)

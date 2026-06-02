@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-05-29
+last_updated: 2026-06-02
 ---
 
 ## Definition
@@ -60,19 +60,22 @@ For an AI engineering / VPE career:
 
 The Anthropic measure is the first to use first-party-lab usage telemetry as the empirical anchor. Other labs (OpenAI, Google) have not yet published comparable usage-anchored exposure measures — would be a structural move if/when they do.
 
-## Timeline-Calibration Quintangle (May 2026)
+## Timeline-Calibration Hexangle (June 2026)
 
-Five dated agentic-replacement timeline claims captured in the wiki:
+Six dated agentic-replacement / AI-capability-trajectory timeline claims captured in the wiki:
 
 | Source | Prediction | Date stamp |
 |---|---|---|
-| **Elad Gil** (via [[eladgil-rsi-december-breakpoint-2026-05-31]]) | **RSI execution running in 6-24 months from May 2026** (Nov 2026 – May 2028) — Gil's refined position when challenged on the RSI-tools-exist vs RSI-running distinction | **May 31 2026** |
+| **Elad Gil** (via [[eladgil-rsi-december-breakpoint-2026-05-31]]) | **RSI execution running in 6-24 months from May 2026** (Nov 2026 – May 2028) — Gil's refined position when challenged on the RSI-tools-exist vs RSI-running distinction | May 31 2026 |
 | Anton Korinek (Anthropic) — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] | **~6 years to explosive growth regime** under full software R&D automation + 5% economy-wide automation shock | May 11 2026 |
 | MIT FutureTech (via [[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch / Bort]]) | **80–95% success on most text-tasks at "minimally sufficient quality" by 2029** (current LLM-improvement rate) | May 27 2026 |
 | [[kris-lovejoy]] / Kyndryl (via [[eye-on-ai-lovejoy-agentic-enterprise-2026-05-15|Eye on A.I.]]) | **Half of traditional IT-admin tasks handled by AI agents by 2031** | May 15 2026 |
 | [[andrej-karpathy]] (via [[zephyr-karpathy-10-year-agent-window-2026-05-14|Zephyr amplification]]) | **~10 years for agents to fully replace workers** | May 14 2026 |
+| **Sam Altman** (via [[altman-three-observations-2025-02]], re-surfaced June 1 2026) | ***Anyone in 2035 should be able to marshall the intellectual capacity equivalent to everyone in 2025*** — **2035** as the *everyone-2025-intellectual-capacity-equivalent* horizon | Feb 2025 (re-surfaced 2026-06-01) |
 
-The quintangle spans **Gil's 1-2 years to Karpathy's 10 years**. Useful as a calibration anchor for new timeline claims: any aggressive claim that doesn't engage with these five needs to either supersede them or be filed as hype. Any cautious claim needs to engage with Gil's lower bound (now superseded Korinek's prior lower bound).
+The hexangle spans **Gil's 1-2 years to Karpathy's / Altman's ~10 years**. Useful as a calibration anchor for new timeline claims: any aggressive claim that doesn't engage with these six needs to either supersede them or be filed as hype. Any cautious claim needs to engage with Gil's lower bound (now superseded Korinek's prior lower bound).
+
+**Altman 2035 is the most ambitious quantitative claim**: not "agents replace workers" (Karpathy) but the stronger "any *one* person commands the intellectual capacity of *all* of 2025." Pairs with Altman's [[altman-three-observations-2025-02|Three Observations]] super-exponential socioeconomic-value claim as the structural argument for the claim's plausibility.
 
 **Gil's distinction is methodologically important**: Gil concedes (under challenge from @careerlevelup) that *"AI accelerating human-directed development"* — the past 6 months — is **not** the same as RSI itself. The 6-24-month window is for *RSI execution running*, not *RSI-tools-existing*. **First wiki-captured frontier-investor live position-refinement on RSI definition.**
 
