@@ -36,7 +36,7 @@ ingested: 2026-06-02
 
 ### Comment-thread amplifications worth surfacing
 
-- **Gaurang Karia** (@GaurangKaria): *"On similar lines, I built this as hooks which can be saved to Obsidian too."* — links `gkaria/vibe-learn` GitHub repo. **First wiki-captured Claude-Code-hooks → Obsidian save-pattern artifact.** Adjacent to the wiki's own [[claude-obsidian:save|save skill]] pattern.
+- **Gaurang Karia** (@GaurangKaria): *"On similar lines, I built this as hooks which can be saved to Obsidian too."* — links `gkaria/vibe-learn` GitHub repo. **First wiki-captured Claude-Code-hooks → Obsidian save-pattern artifact.** Adjacent to the wiki's own `claude-obsidian:save` skill pattern.
 - **Serge Doubinski**: *"I have an Agent look through everything you and team post every day and try to synthesize 😅 Also stored as wiki and applied contextually during projects to bring in the new practices."* — **first wiki-captured Anthropic-team-content auto-synthesis-to-personal-wiki practitioner workflow.** Pairs with [[autoresearch|the autoresearch pattern]] applied to a specific source (Anthropic-team output).
 
 ### What's notably absent from the post
