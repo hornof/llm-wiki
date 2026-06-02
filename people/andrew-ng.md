@@ -3,8 +3,12 @@ name: Andrew Ng
 type: person
 affiliation: Stanford University; DeepLearning.AI; Landing AI; AI Fund
 signal_sources: [twitter, youtube, newsletter, coursera]
-last_updated: 2026-04-21
+last_updated: 2026-06-02
 ---
+
+## Notable Takes (selected, May–June 2026)
+
+- **2026-06-01 — AI Forward Deployed Engineer (FDE) vs AI Engineer fragmentation thesis** ([[andrewng-ai-fde-vs-ai-engineer-2026-06-01]]): Both OpenAI and Anthropic are scaling FDE teams (Palantir-originated role). Ng predicts **AI Engineer >> AI FDE in eventual headcount** due to (a) vendor-neutrality concerns + (b) client optionality preservation. AI Engineer role will fragment into specialized roles over the decade: **AI FDE, LLMOps Engineer, Evals Engineer, AI Data Engineer, Harness Engineer**. *"Jobpolcalypse narrative of upcoming job-market collapse is false — there will be many AI and non-AI jobs."* First wiki-captured Ng-side counter-position to the [[ai-labor-market-impacts|AI-displacement thesis]]; pairs with [[deedydas-sf-ai-wealth-divide-2026-05-15|Deedy's SF wealth-divide essay]] as bracketed-debate.
 
 ## Who They Are
 British-American computer scientist, Stanford professor, and one of the most influential AI educators in the world. Co-founded Google Brain, was Chief Scientist at Baidu, co-founded Coursera. Now runs DeepLearning.AI (8M+ students), Landing AI (enterprise AI), and the AI Fund (VC). Amazon board member since April 2024. Among the first to advocate GPUs for deep learning (2008) — now standard practice.
