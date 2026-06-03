@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 ## What It Is
@@ -60,6 +60,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - 2026-06-02 (foundational, re-surfaced): **Sam Altman *"Three Observations"*** (originally Feb 2025; re-surfaced via _raw 2026-06-01). 3 foundational economic-scaling observations: **(1) intelligence ≈ log(resources)**; **(2) AI cost falls ~10×/year** (concrete: GPT-4 → GPT-4o = 150× per token in 16 months); **(3) socioeconomic value of linearly-increasing intelligence is super-exponential**. **Anyone-in-2035-marshalls-2025-intellectual-capacity** 10-year claim adds Altman as **6th corner of the [[ai-labor-market-impacts|Timeline-Calibration Hexangle]]** (was Quintangle). *"Compute budget for everyone on Earth"* distributive-mechanism framing pairs with [[dailybrief-supplemental-2026-05-31|Sanders sovereign-wealth-fund]]. **First wiki-captured Altman-foundational economic-framework anchor** for the cost-collapse cluster + [[ai-roi-gap|ROI gap Read-A]] capital-allocator framing. — [[altman-three-observations-2025-02]]
 - 2026-06-01: **OpenAI scaling FDE teams** ([[andrewng-ai-fde-vs-ai-engineer-2026-06-01|Andrew Ng surfacing]]). Operational-layer confirmation of the [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|OpenAI Deployment Company $4B strategic-vehicle]]. Ng counter-position: AI Engineer >> AI FDE eventually (vendor-neutrality + optionality concerns). — [[andrewng-ai-fde-vs-ai-engineer-2026-06-01]]
 - 2026-06-02: **Pauline Narvas (Vercel's head of community platforms) joins OpenAI** to work on developer experience for ChatGPT + Codex. **First wiki-captured Vercel → OpenAI talent-flow event.** Notable: Vercel is one of the [[lennysan-dream-companies-survey-2026-05-27|"overperforming" mid-tier startups]] from Lenny's May 27 survey; talent-flow from Vercel-tier-startup → frontier-lab is the structural pattern [[andrewng-ai-fde-vs-ai-engineer-2026-06-01|Ng's role-fragmentation prediction]] implies. — [[dailybrief-roundup-2026-06-02-brief]]
+- 2026-06-03: **OpenAI proposes federal AI safety framework, preempts state laws** — *frontier safety blueprint* published at openai.com/index/frontier-safety-blueprint. **First wiki-captured lab-side federal-preemption-of-state-law regulatory proposal.** Drops 1 day after [[trump-narrower-ai-eo-2026-06-02|Trump's narrower AI EO]] made federal oversight voluntary — *deregulation-creates-vacuum → lab-side-federal-preemption-fills-it* pattern. **4-component OpenAI policy-positioning stack** now articulated: API PMF + 3rd-party-evals playbook + Foundation $250M + federal-preemption blueprint. Paired same-day with [[anthropic-mitre-attack-cyber-threats-2026-06-03|Anthropic's MITRE ATT&CK cyber-threats mapping]] — *top-down legal-framework preemption (OpenAI) vs bottom-up threat-intelligence common-language convergence (Anthropic)* — two distinct mechanisms for filling the post-EO regulatory vacuum. **3 wiki-captured OpenAI alignment / safety failures in 7 days** continue running concurrently with the policy-positioning. — [[openai-federal-ai-safety-framework-2026-06-03]]
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — GPT-Image-2 launch

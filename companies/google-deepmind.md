@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-05-25
+last_updated: 2026-06-03
 ---
 
 ## What It Is
@@ -44,6 +44,10 @@ Four coordinated product surfaces announced at I/O 2026:
 **Strategic posture**: single-fast-model + massive distribution surface (YouTube Shorts) — structurally inverse to Anthropic's task-tiered model-routing-default discipline ([[svpino-subagent-pilled-2026-05-15|svpino subagent-pilled]] / [[zephyr-7-claude-setups-2026-05-15|Zephyr setup #6]]). — [[google-io-2026-flash-omni-spark-antigravity]]
 
 **May 25 follow-up — Google AI Studio native Android app builder**: Logan Kilpatrick announces free no-code Android-app generation in AI Studio; **250K Android apps "created" in ~1 week** since launch (Logan: *">99% of these folks never built an Android app before"*). Android's 3B-user surface as the deployment funnel. **Min Choi load-bearing skeptical question**: how many of the 250K have actually been submitted/approved to Google Play? — submit/approval funnel could narrow this by 1-2 orders of magnitude. **Lucas Beyer (Google researcher) spotted "generate music" in the AI Studio UI** — first wiki signal of an undisclosed Google music-generation surface. Continues Google's distribution-volume-over-margin strategy alongside Gemini 3.5 Flash + Omni YouTube Shorts integration — three consumer-distribution surfaces in five days. — [[google-ai-studio-android-app-builder-2026-05-25]]
+
+**June 3 follow-up — Gemma 4 12B and 26B open-weights release**: Google releases **Gemma 4 12B (and 26B)** open-weights models; **Gemma 4 12B reportedly beats the larger Gemma 3 27B on GPQA + coding benchmarks**. Brief framing: *"efficiency gains in open weights (local execution on 16GB VRAM). Signals where the model frontier is moving for dev-tool vendors and cost-conscious B2B builders."* **First wiki-captured Gemma 4 release**. Pairs structurally with [[hassid-cant-beat-ai-cost-collapse-2026-05-18|the cost-collapse thesis]] at the open-weights layer — capability-per-parameter scaling continues on the open-weights side, not just frontier-vendor-side. **Verification-pending**: license terms (Gemma vs Apache-2.0); specific benchmark deltas; multimodal capabilities. — [[dailybrief-roundup-2026-06-03]]
+
+**June 3 regulatory — UK requires Google to offer AI Search opt-out for publishers globally**: UK regulators require Google to offer **AI Search opt-out for publishers, rolling globally**. **First wiki-captured globally-rolling AI-Search opt-out regulation**. Pairs structurally with [[trump-narrower-ai-eo-2026-06-02|Trump narrower AI EO]] + [[openai-federal-ai-safety-framework-2026-06-03|OpenAI federal-preemption blueprint]] same-week framing: *UK regulator imposing opt-out globally* + *US federal EO going voluntary* + *OpenAI proposing federal-preemption of state laws* = **first wiki-captured 3-jurisdiction regulatory-divergence event**. Pattern-watch is whether the UK's global-rolling regulatory mechanism becomes the de-facto AI policy floor while the US federal/state debate plays out. — [[dailybrief-roundup-2026-06-03]]
 
 ## Spin-outs
 - **[[isomorphic-labs]]**: drug discovery company using AlphaFold protein structures to design binding compounds; Hassabis runs this alongside Google DeepMind
