@@ -3,7 +3,7 @@ name: Fei-Fei Li
 type: person
 affiliation: Stanford University; World Labs (founder)
 signal_sources: [twitter, blog, youtube, academic]
-last_updated: 2026-04-29
+last_updated: 2026-06-03
 ---
 
 ## Who They Are
@@ -22,6 +22,7 @@ World Labs (on partial leave from Stanford since Jan 2024): developing spatial i
 - **Human agency**: "In the age of AI, the agency should be within humans. The agency is not the machines', it's ours." — [[bloomberg-feifei-li-2025]]
 - **ImageNet**: "The lack of large, annotated datasets was the key bottleneck in computer vision" — built 14M labeled images to solve it — [[wikipedia-fei-fei-li]]
 - **AI governance**: "AI governance should be based on science rather than science fiction" — [[wikipedia-fei-fei-li]]
+- **Functional taxonomy of world models — *simulation is the linchpin* (2026-06-03)**: with the World Labs team, publishes *A Functional Taxonomy of World Models* decomposing the overloaded term into **three functional projections** of the Sutton & Barto POMDP loop: **renderer** (outputs pixels), **simulator** (outputs state + geometry + physics), **planner** (outputs actions). Thesis: *"The simulator gets the least public attention, and is the most consequential of the three."* The renderer is commercially mature but cannot be trusted to design a building or train a robot; the planner is the most nascent (lab-demos haven't been validated at real-world deployment complexity); the simulator is the bridge — *"a model that masters simulation can project its understanding into pixels for human consumption, and into action predictions for embodied agents."* Logical endpoint: **unified world model** — one foundation model that renders + simulates + plans. Marble is World Labs' first move into the simulator category. — [[feifei-li-world-models-functional-taxonomy-2026-06-03]]
 
 ## Key Contributions
 - **ImageNet** (2006–): 14M+ labeled images, 22K categories; enabled ILSVRC competition that launched modern deep learning era. Intellectual origin: Li drew on WordNet (a linguistic semantic taxonomy) to organize visual concepts at scale — the insight that language's vast object taxonomy could map to visual concepts was an epiphany leading to ImageNet's scope
