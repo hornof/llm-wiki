@@ -2,7 +2,7 @@
 name: World Models
 type: concept
 maturity: active-research
-last_updated: 2026-05-18
+last_updated: 2026-06-03
 ---
 
 ## Definition
@@ -37,6 +37,24 @@ LeCun proposes six differentiable modules working together:
 - **Actor**: generates actions
 - **Short-term memory**: holds current state and recent context
 
+## Fei-Fei Li 3-Category Functional Taxonomy (2026-06-03)
+
+[[fei-fei-li|Fei-Fei Li]] + the [[world-labs|World Labs]] team publish [[feifei-li-world-models-functional-taxonomy-2026-06-03|*A Functional Taxonomy of World Models*]] (2026-06-03) — **first wiki-captured load-bearing taxonomy** decomposing the heavily-overloaded "world model" term into **three functional projections** of the canonical Sutton & Barto POMDP agent ↔ world loop. Each category outputs a different piece of the loop:
+
+| Category | Output | Contract | Example products |
+|---|---|---|---|
+| **Renderer** | observations (pixels) | visual fidelity | text-to-video models; Google **Genie 3**; World Labs **RTFM**; Google **Nano Banana** |
+| **Simulator** | state (geometry + physics + dynamics) | structural accuracy | NVIDIA **Omniverse**; World Labs **[[marble|Marble]]**; physics engines |
+| **Planner** | actions | task-completion under partial observation | **Vision-Language-Action models**; model-based RL; **World Action Models** |
+
+**Thesis: simulation is the linchpin.** *"The structural backbone from which both visual appearance (for renderers) and action consequences (for planners) can be derived. A model that masters simulation can project its understanding into pixels for human consumption, and into action predictions for embodied agents."* Renderer is commercially mature; planner is the most nascent; simulator is the bridge.
+
+**NVIDIA Omniverse TAM framing**: ">$1T addressable market in factories, warehouses, supply chains, and digital twins" — first wiki-captured concrete-TAM framing for the simulator category as distinct from the renderer category.
+
+**Categories are converging**: *"the most important pattern in the field right now is that the three categories are starting to blend into one another."* Marble already outputs Gaussian splats + collision meshes from a single model, dissolving the renderer-simulator boundary. **Logical endpoint**: a unified world model — *"one foundation model that can render photorealistic views, produce physically accurate structure, and plan action sequences, switching between output modalities depending on what the downstream consumer needs."*
+
+**Pairs with the [[latentspace-video-agents-xai-grok-imagine-2026-06-02|xAI Grok Imagine video-agent]] move (2026-06-02)**: xAI is making the renderer action-conditioned (renderer-becomes-interactive direction); World Labs is dissolving the renderer-simulator boundary. **First wiki-captured same-week 2-vendor convergence on the renderer-becomes-interactive / unified-world-model direction.**
+
 ## Contrasting Approaches to World Models
 
 Three major labs are building world models, but with fundamentally different architectures and philosophies:
@@ -54,6 +72,7 @@ Three major labs are building world models, but with fundamentally different arc
 - **Temporal emphasis**: action-perception loop — agent acts in space, perception updates model
 - **Modalities**: vision-first; current LLMs are "wordsmiths in the dark" without spatial grounding
 - **Key claim**: "intelligence lives in the physical world; language alone cannot capture it"
+- **Functional-taxonomy framing (2026-06-03)**: simulator is the linchpin; Marble dissolves renderer-simulator boundary; endpoint is unified world model — see Fei-Fei Li 3-Category Functional Taxonomy section above
 
 ### Luma AI / Unified Intelligence (Uni-1)
 - **Representation**: single unified latent space across all modalities
@@ -103,3 +122,5 @@ Multiple labs at active-research stage with diverging architectures:
 - [[cognitive-revolution-luma-worldsim]] — deepest technical discussion of Luma's approach
 - [[ai-for-science]] — Hassabis's domain-specific learned simulators (WeatherNext, virtual cell)
 - [[lecun-after-llms-unsupervised-learning-2026-05-15]] — LeCun on the "predict in abstract representation space, not token space" framing; "by early 2027 obvious" timeline; SIGREG + LEWorldModel pointers
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03]] — Fei-Fei Li + World Labs team's 3-category functional taxonomy (renderer / simulator / planner); first wiki-captured load-bearing decomposition of the overloaded term; Marble = World Labs' first move into simulator territory; logical endpoint = unified world model
+- [[marble]] — World Labs' first product; dissolves renderer-simulator boundary

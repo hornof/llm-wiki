@@ -2,7 +2,7 @@
 name: World Labs
 type: company
 status: active
-last_updated: 2026-04-29
+last_updated: 2026-06-03
 ---
 
 ## What It Is
@@ -37,6 +37,19 @@ In Li's words: "I am co-founder and CEO of World Labs. We are building the next 
 - **AR/VR education**: immersive learning environments — Li's example: "walk into a cell" to understand nucleus, enzymes, membranes
 
 Li on Marble's broader vision: "The ability to create a 3D world is fundamental to humans. I hope one day it's fundamental to AI." — [[bloomberg-feifei-li-2025]]
+
+### Marble Input/Output Schema (June 2026 update)
+
+Per [[feifei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li's June 3 2026 essay]] *A Functional Taxonomy of World Models*:
+
+- **Inputs (multimodal)**: text + image + video + **spatial-sketch**
+- **Outputs (dual)**: **Gaussian splats** (for visual exploration; renderer-side) + **collision meshes** (for physics engines; simulator-side)
+
+**Pattern**: Marble *"dissolves the boundary between the renderer and the simulator"* — first wiki-captured concrete instance of category-blending in the 3-category world-models taxonomy. Marble is positioned as *"World Labs' first move into [simulator] territory"* with the explicit endpoint being a **unified world model**. See [[marble]] for the standalone tools-page tracking. See [[world-models]] for the full 3-category taxonomy framing.
+
+## Recent Activity
+
+- **2026-06-03**: [[feifei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li + World Labs team publish *A Functional Taxonomy of World Models*]] on X + Substack. **First wiki-captured load-bearing 3-category framing of world-models** (renderer / simulator / planner) with **simulation positioned as the linchpin**. NVIDIA Omniverse ">$1T addressable market" framing for the simulator category — first wiki-captured concrete-TAM-for-simulator framing. Marble's input/output schema disclosed. Cross-cuts the [[ai-for-science]] cluster (3D-physics-aware simulation for drug discovery, robotics training) and the [[saas-disruption-thesis|saas-disruption thesis]] (simulator as the foundation-model-layer below the application-layer SaaS tools that depend on 3D content).
 
 ## Technical Thesis
 
@@ -77,6 +90,8 @@ World Labs sits at the intersection of two research traditions Li drew on for Im
 ## Resources
 
 - [[bloomberg-feifei-li-2025]] — PRIMARY SOURCE: full Bloomberg Weekend Interview (Nov 2025); founding story, Marble, spatial intelligence thesis, AGI stance
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03]] — Fei-Fei + World Labs team's June 2026 3-category functional taxonomy essay; Marble input/output schema disclosed; simulation-is-the-linchpin thesis
+- [[marble]] — standalone tools page tracking Marble
 - [[forbes-ai-50-2026]] — AI 50 list inclusion; $1B total funding
 - [[fei-fei-li]] — founder profile with full context
 - [[spatial-intelligence]] — deep dive on the spatial intelligence concept
