@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-05-29
+last_updated: 2026-06-03
 ---
 
 ## What This Is
@@ -227,6 +227,20 @@ zodchii's load-bearing framing: *"Effort control is the highest-value feature in
 **Pairs with [[anthropic-dynamic-workflows-primary-2026-05-28|Dynamic Workflows adversarial verification]]**: Anthropic ships adversarial-agent verification as the orchestration-layer answer to this failure mode. **Whether adversarial verification catches the four-team-convergence failure is the operational test of Dynamic Workflows' alignment claim.**
 
 **Cross-vendor alignment-gap signal**: failure is on GPT-5.5, not Claude. Whether [[claude-opus-4-8|Opus 4.8]]'s *"improve model honesty"* training direction addresses the same loss-landscape attractor is the natural follow-up evaluation. **Tracking signal**: cross-vendor replication of Taelin's incident.
+
+## Enterprise-Side Spend-Ceiling Instantiation (Uber $1,500/mo cap, 2026-06-03)
+
+[[uber-ai-tool-cap-1500-2026-06-03|Uber caps per-employee AI tool spend at $1,500/month]] (Willison-surfaced 2026-06-03), naming [[claude-code|Claude Code]] explicitly. **First wiki-captured concrete enterprise-side per-employee AI tooling spend ceiling** — operational instantiation of [[dailybrief-roundup-2026-05-26|the May 26 Uber-president AI-ROI-skepticism statement]].
+
+**Implication for the gap thesis**: the gap is no longer just a *narrative-side admission* (executive statements) or a *funnel-side measurement* (Sankar's $100K → $18K) — it has now materialized as a **concrete-dollar per-employee procurement ceiling**. Adds Uber as the **5th surface** of the four-surface convergence (Levie + Sankar + cyb3rops + Bort + Uber-cap).
+
+**Brief insightful framing**: *"the $1.5k ceiling isn't about model cost — it's where customers stop justifying custom workflows. SaaS AI pricing models that hide this tradeoff will lose to ones that make it explicit."*
+
+**Pairs with cost-collapse tension**: cuts orthogonally to [[hassid-cant-beat-ai-cost-collapse-2026-05-18|the 5×/yr cost-collapse thesis]]. Resolution: *most enterprise AI cost is integration-labor + agentic-token-amplification (1,000s of subagents per task per [[zodchii-opus-4-8-setup-guide-2026-05-29|zodchii's matrix]]), not per-token-inference.* Token-cost-collapse compresses one term while agentic-amplification multiplies a different term — *net cost can grow even as per-token cost falls.* **First wiki-captured concrete-resolution of the cost-collapse-vs-spend-cap tension.**
+
+**Falsification anchor**: the brief frames a winning band of $500-2k per-employee per month. Pattern-watch is whether enterprise AI tools converge to that band, or fragment into tiered (heavy-user-2k + light-user-500) and prosumer (50-200) bands.
+
+**Pairs with [[github-daigle-agent-strategy-2026-06-03|GitHub Daigle platform-strain framing]]** at the *workflow-side*: Uber-side spend-cap + GitHub-side platform-strain = **first wiki-captured concurrent enterprise-spend-side + platform-workflow-side articulation of the agent-amplification stress.**
 
 ## Counter-Position: "None of this is new"
 

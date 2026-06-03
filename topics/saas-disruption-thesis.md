@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-05-31
+last_updated: 2026-06-03
 ---
 
 ## What This Is
@@ -327,6 +327,17 @@ The frontier-lab utility tier's *physical substrate* expanded materially in late
 - **EU** (SoftBank France): physical substrate available; jurisdictional sovereignty option
 - **US** (HBM undersupply + Aidan Clark 4 groups): concentration at the lab tier intensifying
 - **China** (chip export controls + foundry workarounds): forced toward distillation / smaller-model / open-weight workarounds
+
+## Enterprise-Side Spend-Ceiling + Platform-Strain Concurrence (2026-06-03)
+
+Two same-day signals on the *agent-amplification-stress* meta-pattern:
+
+- **[[uber-ai-tool-cap-1500-2026-06-03|Uber caps per-employee AI tool spend at $1,500/month]]** (Willison-surfaced 2026-06-03), naming Claude Code explicitly. **First wiki-captured concrete enterprise-side per-employee AI tool spend ceiling.** Brief framings suggest a *winning band at $500-2k per-employee per month* for enterprise AI tools — pattern-watch is whether tools converge to this band or fragment.
+- **[[github-daigle-agent-strategy-2026-06-03|GitHub's plan for Agents]]** (Kyle Daigle on Latent Space) — agents writing code faster than humans can review it. **First wiki-captured platform-side articulation of agentic-coding velocity-vs-review-throughput mismatch** as a structural problem. Brief framing: *"the real constraint isn't GitHub's architecture; it's organizational. Teams need new code-review rituals for agentic velocity."*
+
+**First wiki-captured concurrent enterprise-spend-side + platform-workflow-side articulation of the agent-amplification stress.** Cuts orthogonally to the Tier-4 (utility software) at-risk framing: instead of *agents-replace-SaaS-tools*, the data point is **agents-create-spend-stress + platform-strain that incumbent SaaS tools must adapt to**. Both can be true (some SaaS tools get replaced; others adapt to host agent-output-volume + agent-procurement-budgets).
+
+**Pairs with [[lennysan-shipper-10-takeaways-2026-05-24|Shipper takeaway 9]]** *"build software for humans and agents together (approval flows + inboxes + rollback)"* — GitHub Daigle is the platform-layer instantiation; Town's $55M Series A admin-AI ([[dailybrief-roundup-2026-06-03]]) is the product-layer instantiation; Uber's cap is the procurement-layer instantiation.
 
 ## Tracking Signals
 
