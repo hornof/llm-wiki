@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 ## What This Is
@@ -338,6 +338,18 @@ Two same-day signals on the *agent-amplification-stress* meta-pattern:
 **First wiki-captured concurrent enterprise-spend-side + platform-workflow-side articulation of the agent-amplification stress.** Cuts orthogonally to the Tier-4 (utility software) at-risk framing: instead of *agents-replace-SaaS-tools*, the data point is **agents-create-spend-stress + platform-strain that incumbent SaaS tools must adapt to**. Both can be true (some SaaS tools get replaced; others adapt to host agent-output-volume + agent-procurement-budgets).
 
 **Pairs with [[lennysan-shipper-10-takeaways-2026-05-24|Shipper takeaway 9]]** *"build software for humans and agents together (approval flows + inboxes + rollback)"* — GitHub Daigle is the platform-layer instantiation; Town's $55M Series A admin-AI ([[dailybrief-roundup-2026-06-03]]) is the product-layer instantiation; Uber's cap is the procurement-layer instantiation.
+
+## Anthropic Institute First-Party Org-Scale-Collapse Confirmation (2026-06-04)
+
+The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's *When AI builds itself*]] explicitly frames the **org-scale-collapse mechanism** as a structural prediction:
+
+> *"100-person companies could do the work of 10,000- or 100,000-person organizations."*
+
+**First wiki-captured first-party frontier-lab confirmation of the org-scale-collapse mechanism** that this thesis structurally requires. Anthropic itself is the operational instantiation — *"in 2026 the typical Anthropic engineer was merging 8× as much code per day as they were in 2024."* The org-scale-collapse is no longer extrapolated from operator-side signals (ClickUp + Intuit restructurings, Uber spend-cap); it is now **inside-the-lab measured productivity** from a frontier vendor.
+
+**Pairs with [[andrewng-ai-fde-vs-ai-engineer-2026-06-01|Ng's 5 future-specialist-role predictions]]**: Anthropic confirms that *"once Claude can run experiments, the question shifts towards 'Which of these experiments is worth running?'"* and *"human code review has become a new bottleneck."* Ng's predicted specialist roles (LLMOps, Evals, AI Data, Harness, FDE) are operationally validated by the Amdahl's-law-bottleneck-shift Anthropic is publicly acknowledging.
+
+**Implication for tier-4 utility-software at-risk band**: the 100→100,000 framing isn't disruption-via-replacement; it's disruption-via-leverage. The customer who used to need 10K seats now needs 100 seats — but each seat may cost $1,500/month per [[uber-ai-tool-cap-1500-2026-06-03|the Uber cap data]]. **Net revenue may grow even as seat-count collapses**, if vendors capture the per-employee leverage premium. Pattern-watch: do SaaS vendor revenues correlate with seat-count or with per-seat-leverage-premium pricing?
 
 ## Tracking Signals
 
