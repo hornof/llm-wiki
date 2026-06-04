@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 ## What It Is
@@ -48,6 +48,8 @@ Four coordinated product surfaces announced at I/O 2026:
 **June 3 follow-up — Gemma 4 12B and 26B open-weights release**: Google releases **Gemma 4 12B (and 26B)** open-weights models; **Gemma 4 12B reportedly beats the larger Gemma 3 27B on GPQA + coding benchmarks**. Brief framing: *"efficiency gains in open weights (local execution on 16GB VRAM). Signals where the model frontier is moving for dev-tool vendors and cost-conscious B2B builders."* **First wiki-captured Gemma 4 release**. Pairs structurally with [[hassid-cant-beat-ai-cost-collapse-2026-05-18|the cost-collapse thesis]] at the open-weights layer — capability-per-parameter scaling continues on the open-weights side, not just frontier-vendor-side. **Verification-pending**: license terms (Gemma vs Apache-2.0); specific benchmark deltas; multimodal capabilities. — [[dailybrief-roundup-2026-06-03]]
 
 **June 3 regulatory — UK requires Google to offer AI Search opt-out for publishers globally**: UK regulators require Google to offer **AI Search opt-out for publishers, rolling globally**. **First wiki-captured globally-rolling AI-Search opt-out regulation**. Pairs structurally with [[trump-narrower-ai-eo-2026-06-02|Trump narrower AI EO]] + [[openai-federal-ai-safety-framework-2026-06-03|OpenAI federal-preemption blueprint]] same-week framing: *UK regulator imposing opt-out globally* + *US federal EO going voluntary* + *OpenAI proposing federal-preemption of state laws* = **first wiki-captured 3-jurisdiction regulatory-divergence event**. Pattern-watch is whether the UK's global-rolling regulatory mechanism becomes the de-facto AI policy floor while the US federal/state debate plays out. — [[dailybrief-roundup-2026-06-03]]
+
+**June 4 internal-comms — Google's AI-criticism comms shift** ([[willison-google-ai-criticism-internal-comms-2026-06-04|Willison surfaces 404 Media report by Emanuel Maiberg]]): internal Google messaging on AI products is reportedly being tightened around AI-product-readiness criticism. **First wiki-captured frontier-vendor internal-comms-control event** around AI-product-readiness criticism. Lands same-day as [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's openly-framed RSI publication]] — **first wiki-captured same-day frontier-lab internal-positioning contrast** (Anthropic openness vs Google closure). Anti-pair with [[willison-shopify-river-2026-05|Shopify River]] transparency-as-default framing. Brief framing: *"corporate comms control around AI friction suggests internal disagreement on product readiness."* Primary unfetched (404 Media report). — [[willison-google-ai-criticism-internal-comms-2026-06-04]]
 
 ## Spin-outs
 - **[[isomorphic-labs]]**: drug discovery company using AlphaFold protein structures to design binding compounds; Hassabis runs this alongside Google DeepMind

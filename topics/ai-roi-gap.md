@@ -260,6 +260,24 @@ The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute p
 
 **Pairs with [[uber-ai-tool-cap-1500-2026-06-03|Uber's $1,500/month cap]]**: Anthropic-Institute first-party shows the *capability ceiling has not been reached*; Uber-cap shows the *operator-side procurement ceiling has been reached*. **First wiki-captured paired-day vendor-capability-anchor + operator-spend-cap data points** — the gap is between vendor-side technical-trajectory (still accelerating per Anthropic Institute) and operator-side integration-cost-ceiling ($1,500/employee per Uber).
 
+## Spend-Cap-Enforcement Tooling Layer (Ramp $750M / $44B, 2026-06-04)
+
+Within 24 hours of the [[uber-ai-tool-cap-1500-2026-06-03|Uber $1,500/mo cap]] surfacing, **Ramp raises $750M at $44B valuation + launches enterprise AI-token-consumption monitoring tools** ([[dailybrief-roundup-2026-06-04|Daily Brief 2026-06-04]]). **First wiki-captured concrete operationalization of AI-token-monitoring as a fintech-vertical product** + **first wiki-captured paired-day operator-spend-cap-enforcement-tool launch** — Uber needs *the tooling to enforce + measure the cap*; Ramp is shipping *the tooling for exactly that use case*.
+
+**Pattern**: the gap-thesis predicted spend ceilings would form (5th surface: Uber); the next layer is the **enterprise-spend-monitoring-tooling category** Ramp is now first wiki-captured to operationalize at scale. **Pairs with [[saas-disruption-thesis|SaaS-disruption thesis]] at the SaaS-incumbent-captures-AI-spend-monitoring layer**: Ramp is a SaaS company adding AI-spend-monitoring as a *new revenue surface* rather than being disrupted by it. Pattern-watch: do other fintech-SaaS incumbents (Mercury, Brex, Stripe) follow Ramp into AI-token-monitoring tooling?
+
+## Operator-Side Capability-Distribution Anchor (kasra LLM-pentester experiment, 2026-06-04)
+
+[[kasra-llm-pentester-1500-experiment-2026-06-04|kasra runs a $1,500 LLM-as-pentester experiment]] against a deliberately-vulnerable app — **first wiki-captured operator-side experimental data point quantifying the distribution-gap on the security-vertical**. Finding: LLMs fail to reliably hack the app; failure mode is **context-maintenance across attack chains**, not capability.
+
+**Pairs with [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's Glasswing 10K+ critical-vulns metric]]**: vendor-side dramatically ahead of operator-side. **Concrete-quantitative confirmation of the capability-distribution-and-integration gap** on a specific vertical (security). The $1,500 budget number is comparable to the $1,500/month Uber cap — **first wiki-captured numerical convergence between operator-side capability-test-budget and operator-side per-employee-spend-cap** (both at $1,500 scale), suggesting that *the per-month-per-employee budget approximates the ceiling for a single operator-side capability-test campaign*.
+
+## Post-AGI Scarcity-Shift Framing (Imas + Trammell on Dwarkesh, 2026-06-04)
+
+[[imas-trammell-post-agi-scarcity-dwarkesh-2026-06-04|Alex Imas + Phil Trammell]] on Dwarkesh — **first wiki-captured load-bearing post-AGI economics framework** organized around *"what stays scarce when intelligence is no longer scarce?"* Reframes the gap thesis at the *who-captures-the-value* layer: gap-thesis says vendors capture but operators don't; Imas + Trammell extend to post-AGI where *neither* vendor nor operator captures the value if the binding constraint shifts to presence-bound humans (ballerinas, surgeons, coaches). **First wiki-captured "post-AGI capture-extraction" framing** — value created may flow to a 3rd category (presence-holders) rather than vendor or operator.
+
+**Bracket-extends the gap thesis temporally**: gap thesis is *2025-2027*; Imas + Trammell extend to *post-AGI* with the scarcity-conservation principle. **Both can be true**: gap is real and structural in the 2025-2027 window; post-AGI the gap-shape inverts to a different scarcity (presence + coordination + capital).
+
 ## Counter-Position: "None of this is new"
 
 Praveen Koka in the Levie thread: *"Cloud and big data CEOs also saw the happy path results but missed all the hard work. 'Uniquely' AI?"*
