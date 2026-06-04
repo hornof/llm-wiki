@@ -114,6 +114,9 @@
 - [[nate-herk]] — Custom AI Studio founder; Skool community operator; Three M's / Four C's frameworks; *"the model isn't the moat; your context is the moat"*; 150,000-inbox concrete-incident lesson on instructions-vs-capabilities; The Ladder framework (6-tier escalation) + Depth-vs-Width framing (May 2026)
 - [[zodchii]] — independent practitioner-content creator (X + Telegram); copy-paste-ready Claude Code config artifacts; routing matrix → ~50% monthly savings; 4-agent pipeline (Planner/Coder/Tester/Reviewer) with canonical `.claude/agents/*.md` schema (May 2026)
 - [[marina-favaro]] — Anthropic Institute; co-author with [[jack-clark]] of *When AI builds itself* (June 2026); first-party Anthropic data on RSI trajectory + verifiable-slowdown-infrastructure commitment
+- [[nathan-lambert]] — *Interconnects* Substack; post-AI2 independent voice on post-training methodology + open-weight ecosystem; "multi-teacher distillation is the post-training industry standard" framing (June 2026)
+- [[anton-korinek]] — economist at Anthropic; RSI growth-regime model (~6 years to explosive-growth regime under software-R&D-automation + 5% economy-wide-automation shock); feedback contributor on Anthropic Institute RSI publication (May–June 2026)
+- [[dwarkesh-patel]] — host of *The Dwarkesh Podcast*; long-form interview surface for frontier-AI research + macroeconomics + cross-disciplinary AI conversations
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -127,6 +130,7 @@
 - [[ineffable-intelligence]] — David Silver's RL-from-self-play lab; $1.1B seed (largest in EU history); London
 - [[isomorphic-labs]] — DeepMind drug-discovery spin-out; AlphaFold 3 lineage applied to therapeutics
 - [[luma-ai]] — multimodal AGI lab; Dream Machine, Uni-1, Luma Agents; $900M Series C; generative unified latent space
+- [[meta]] — Facebook / Instagram / WhatsApp / Meta AI / Meta Business Agent; 3rd vendor in the cross-vendor agentic-exfiltration pattern (Jun 2026); Business Agent globally rolled out post-2-year pilot (Jun 2026)
 - [[mistral-ai]] — open-weight European AI lab; $3.1B raised; selling to EU governments and corporations; Paris
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
 - [[physical-intelligence]] — foundation models for robots from human teleoperator data; $1B raised; founded 2024

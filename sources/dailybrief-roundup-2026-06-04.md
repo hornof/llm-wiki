@@ -48,7 +48,7 @@ Non-headline aggregate from [[Daily Briefs/2026-06-04.md|the 2026-06-04 Daily Br
 
 [OpenAI launches upgraded ChatGPT memory system](https://digg.com/ai/gwaljhgy) using a **"dreaming" process to carry context across conversations**. **Factual recall success rates rose from 41.5% to 82.8%** — a **~2× improvement** in memory-recall reliability.
 
-**First wiki-captured operational ChatGPT memory upgrade metric** + **first wiki-captured "dreaming" memory-consolidation framing at frontier-vendor scale**. Pairs structurally with [[memory|memory primitives]] and [[trq-suzanne-learn-quiz-2026-06-01|Suzanne's Learn Quiz]] context-management pattern — *vendor-side memory consolidation vs operator-side session-management primitive* at two different layers.
+**First wiki-captured operational ChatGPT memory upgrade metric** + **first wiki-captured "dreaming" memory-consolidation framing at frontier-vendor scale**. Pairs structurally with [[mem0|mem0 memory primitives]] and [[trq-suzanne-learn-quiz-2026-06-01|Suzanne's Learn Quiz]] context-management pattern — *vendor-side memory consolidation vs operator-side session-management primitive* at two different layers.
 
 **The "dreaming" framing** is the first wiki-captured frontier-vendor explicit-biological-metaphor for memory consolidation between conversations. Pattern-watch: does Anthropic / Google / xAI ship comparable memory upgrades, or does ChatGPT pull ahead in the consumer-memory tier?
 
