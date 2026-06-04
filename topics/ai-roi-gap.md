@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 ## What This Is
@@ -241,6 +241,24 @@ zodchii's load-bearing framing: *"Effort control is the highest-value feature in
 **Falsification anchor**: the brief frames a winning band of $500-2k per-employee per month. Pattern-watch is whether enterprise AI tools converge to that band, or fragment into tiered (heavy-user-2k + light-user-500) and prosumer (50-200) bands.
 
 **Pairs with [[github-daigle-agent-strategy-2026-06-03|GitHub Daigle platform-strain framing]]** at the *workflow-side*: Uber-side spend-cap + GitHub-side platform-strain = **first wiki-captured concurrent enterprise-spend-side + platform-workflow-side articulation of the agent-amplification stress.**
+
+## Anthropic Institute First-Party Counter-Anchor (2026-06-04)
+
+The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute publication on recursive self-improvement]] (Marina Favaro + Jack Clark, 2026-06-04) is the **strongest Read-A counter-anchor to the ROI-gap thesis to date**. First-party Anthropic-internal data:
+
+| Metric | Value | Context |
+|---|---|---|
+| Code per Anthropic engineer per quarter | **8×** Q2 2024 level | Q2 2026 |
+| Anthropic-merged code authored by Claude | **>80%** | May 2026 (was *"low single digits"* pre-Feb 2025) |
+| Open-ended task success rate | **76%** (up **50 percentage points in 6 months**) | May 2026 |
+| March 2026 engineer subjective productivity poll (n=130) | **median ~4× uplift** with Mythos Preview vs no-AI | self-reported |
+| April 2026 800-fix campaign | API errors reduced **1000×**; engineer estimate **4 years of human work** | single Anthropic engineer overseeing Claude |
+
+**Implication for the gap thesis**: Anthropic's own caveat — *"true degree of uplift in March was somewhat lower"* + lines-of-code is *"imperfect measure"* — preserves the gap-skepticism even from Anthropic's side. **But the directional claim is unambiguous**: capability-side productivity is real and accelerating from inside the lab that builds the models. **Adds Anthropic Institute as the 6th surface** of the convergence (Levie + Sankar + cyb3rops + Bort + Uber-cap + Anthropic-Institute-first-party).
+
+**Resolution-of-tension with Sankar's $100K → $18K funnel and cyb3rops grind-phase**: Anthropic-Institute data is *inside-the-lab* (frontier-vendor); Sankar/cyb3rops/Levie are *outside-the-lab* (operator-side). **The gap is real and structural** — it's the *capability-distribution-and-integration* gap, not a capability-existence gap. Vendors are operationally validated; operators face the gap. Pairs structurally with the **WeirdML benchmark contamination skepticism** (NumLeak — [[dailybrief-roundup-2026-06-01]]): vendor-side benchmark performance overstates operator-side reproducible utility.
+
+**Pairs with [[uber-ai-tool-cap-1500-2026-06-03|Uber's $1,500/month cap]]**: Anthropic-Institute first-party shows the *capability ceiling has not been reached*; Uber-cap shows the *operator-side procurement ceiling has been reached*. **First wiki-captured paired-day vendor-capability-anchor + operator-spend-cap data points** — the gap is between vendor-side technical-trajectory (still accelerating per Anthropic Institute) and operator-side integration-cost-ceiling ($1,500/employee per Uber).
 
 ## Counter-Position: "None of this is new"
 

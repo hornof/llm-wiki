@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-06-02
+last_updated: 2026-06-04
 ---
 
 ## Definition
@@ -84,6 +84,30 @@ The hexangle spans **Gil's 1-2 years to Karpathy's / Altman's ~10 years**. Usefu
 **Counter-prediction from Lovejoy (worth holding alongside)**: the *replacement profile* may not map to current programmer roles. *"Not coders, but people trained to ask the right questions"* will thrive. If correct, the [[anthropic-labor-market-impacts-2026-03-05|Computer Programmers 75% covered]] finding measures *displacement of current programmers* rather than displacement of *the work programming does* — those are different things, and the existing framework conflates them.
 
 **Empirical anchor needed**: [[zephyr-karpathy-10-year-agent-window-2026-05-14]] surfaces Gerard Sans's citation of **Ríos-García et al. (arXiv:2604.18805)** — 25,000+ verifier experiments showing 68% of agent traces ignored gathered evidence, 71% had zero belief updates, 26% revised. If verified, this is a foundational failure rate (agents don't update from evidence) that has to close for any of the above timelines to be plausible. Worth elevating to a dedicated source if a primary surfaces.
+
+## Anthropic Institute First-Party Time-Horizon Anchor (2026-06-04)
+
+The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's *When AI builds itself*]] (2026-06-04) supplies a **first-party-frontier-lab METR time-horizon trajectory**:
+
+| Date | Model | Reliable task-length |
+|---|---|---|
+| March 2024 | Claude Opus 3 | **~4 minutes** |
+| ~1 year later (Mar 2025) | Claude Sonnet 3.7 | **~1.5 hours** |
+| ~1 year after that (Mar 2026) | Claude Opus 4.6 | **~12 hours** |
+| 2026 | Mythos Preview | **"at least 16 hours"** (METR ceiling) |
+| 2026 (projection) | next-gen | **skilled-person-*days* tasks** |
+| 2027 (projection) | next-gen | **skilled-person-*weeks* tasks** |
+
+**Doubling cadence**: previously ~7 months; now **~4 months** (Anthropic's own data + METR's time-horizons measurements).
+
+**Hexangle update — Mythos Preview as 7th corner**: the Anthropic Institute data adds Anthropic itself as a 7th timeline-calibration anchor — *"skilled-person-weeks tasks by 2027"* if the 4-month-doubling holds. Most ambitious *near-term* anchor (compresses the Karpathy-10-years and Altman-2035 horizons by claiming weeks-scale-tasks within 6 months). **First wiki-captured frontier-lab first-party near-term time-horizon trajectory** for calibration alongside the 6 prior anchors.
+
+**3-scenario framework for labor-market implications** (from the Anthropic Institute publication):
+1. **Trend stalls** — even at today's capability, "100-person companies can do the work of 1,000-person companies."
+2. **Compounding efficiency gains** (Anthropic's most-likely scenario) — "100-person companies could do the work of 10,000- or 100,000-person organizations."
+3. **Full RSI** — "humans play a substantially diminished role in their development, likely moving most of our effort towards oversight, validation, and verification."
+
+**Amdahl's-law-bottleneck-shift framing**: per Anthropic Institute, *"the rate at which organizations can spot and fix bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization."* **First wiki-captured first-party-frontier-lab articulation of organizational-bottleneck-shift as the most important emerging organizational skill.**
 
 ## Cultural-Sentiment Companion (Deedy Das, May 2026)
 

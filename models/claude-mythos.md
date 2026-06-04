@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-05-22
+last_updated: 2026-06-04
 ---
 
 ## What It Is
@@ -49,10 +49,26 @@ Per [[anthropic-mythos-project-glasswing-2026-05-22]] (Digg-surfaced, secondary-
 - **"Glasswing" naming** — glasswing butterflies have transparent wings; the name signals transparency-as-positioning despite the models themselves being non-public.
 - **Secondary-source caveat**: Digg framing not directly corroborated by Anthropic in the brief; treat as practitioner-content-secondary pending Anthropic-direct disclosure.
 
+## Operational Data (Anthropic Institute, 2026-06-04)
+
+Per [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's *When AI builds itself* publication]], first wiki-captured first-party operational data on Mythos Preview:
+
+| Metric | Value | Context |
+|---|---|---|
+| Autonomous-work duration | **"at least 16 hours"** | METR-measured; *"at the upper end of what METR can measure without new tasks"* |
+| Code-optimization speedup vs starting code | **~52×** (was Claude Opus 4 ~3× in May 2025; skilled human ~4× in 4-8hrs) | Standard model-released test |
+| Claude beats human researcher next-step | **64%** (was Opus 4.5 51% Nov 2025; was 22% in 2024) | n=129 sessions; Anthropic-internal data |
+| Project Glasswing critical-severity vulnerabilities found | **>10,000 high/critical-severity vulns across world's most important systems in first weeks** | Bottleneck has *"shifted from finding to patching"* |
+
+Pairs structurally with [[anthropic-mythos-critical-infrastructure-15-countries-2026-06-02|the Jun 02 Mythos critical-infrastructure deployment]] — provides the **operational metric anchor** (10K+ critical-vulns) that the critical-infra deployment story implied but had not previously quantified.
+
+The 16-hour autonomous-work duration confirms Mythos Preview as the **first wiki-captured frontier model operating beyond the METR measurement-ceiling** — pattern-watch is what new METR task-sets get built to measure beyond the ceiling.
+
 ## Resources
 
 - [[willison-firefox-claude-mythos-2026-05]] — Mozilla / Firefox security partnership; production-grade existence proof
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic interpretability research using Mythos
 - [[willison-code-w-claude-2026]] — Code w/ Claude 2026 event coverage; Mythos surfaced separately from Opus 4.7 announcement
 - [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Anton Leicht "Cut Off": generalizes the selective-deployment pattern; names OpenAI Daybreak as parallel; distillation-driven sustained restriction (May 13 2026)
+- [[anthropic-institute-when-ai-builds-itself-2026-06-04]] — Anthropic Institute RSI publication with first wiki-captured Mythos Preview operational data (16hr autonomous-work duration / 52× code-optimization speedup / 64% beat-human researcher next-step / 10K+ Glasswing critical-vulns in first weeks)
 - [[anthropic-mythos-project-glasswing-2026-05-22]] — Project Glasswing 3-month internal-use disclosure + US/allied government deployment plan; first wiki-captured Anthropic-internal-program naming (May 22 2026)
