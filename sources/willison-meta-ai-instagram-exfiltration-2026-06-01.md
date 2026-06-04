@@ -56,7 +56,7 @@ This source is the **second wiki-captured incident** (after [[willison-copilot-c
 - [[anthropic-how-we-contain-claude-2026-05-31]] — containment-publication timing-validation gets stronger (3 documented competitor failure modes vs Anthropic's 0)
 - [[simon-willison]] — agent-vulnerability-beat surfacing role consolidated (2 Willison-surfaced incidents in the 3-incident pattern)
 - [[openai]] — 2 wiki-captured safety/alignment failures in 8 days (Taelin + ChatGPT-Sheets) noted; **Meta now joins as 3rd-vendor agent-incident lab**
-- Meta — no entity page yet ([[meta-platforms]] referenced as dead-link in [[lecun-after-llms-unsupervised-learning-2026-05-15]] already; this incident is a possible 2nd reference; defer until 3rd surface or create stub)
+- [[meta]] — Meta entity page created 2026-06-04 in lint pass; this incident is the foundational Recent Activity entry on the Meta page
 
 Verification-pending: specific Meta AI surface; exchange transcript; Meta response timeline; affected-account count; original disclosure source; CVE assignment.
 
