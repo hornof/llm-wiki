@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-04-26
+last_updated: 2026-06-04
 ---
 
 ## What It Is
@@ -24,6 +24,8 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 - H100/H200 demand consistently outpaces supply; waitlists measured in quarters [unsourced]
 - Blackwell architecture (2025) adopted by all major hyperscalers [unsourced]
 - Investor in Reflection ($8B valuation, open-source model startup competing with DeepSeek) alongside Sequoia and Lightspeed — [[forbes-ai-50-2026]]
+- **2026-06-04: Nemotron 3 Ultra release** — **550B-parameter open-weight hybrid Mamba2-Transformer MoE for agentic workloads**. **First wiki-captured NVIDIA-side frontier-scale open-weight foundation-model release**. [[nathan-lambert|Nathan Lambert]] (post-AI2) frames the **multi-teacher on-policy distillation pipeline** (10+ specialized teacher models) as *"the post-training industry standard"*. **First wiki-captured shift in frontier-vendor competitive surface from training-side to post-training-side**. Pairs with same-week [[dailybrief-roundup-2026-06-03|Google Gemma 4 12B/26B release]] — 2 frontier-vendor open-weight events in 1 day window establishing open-weight tier as competitive with closed-vendor frontier capabilities at the agentic-workload layer. **First wiki-captured concrete-instantiation of NVIDIA's substrate-tier-to-application-tier vertical-integration move** at the frontier-model layer. — [[nvidia-nemotron-3-ultra-550b-2026-06-04]]
+- **2026-06-04 (Goldman Sachs forecast)**: Goldman Sachs forecasts **SpaceX AI revenue $322B by 2030** driven by compute-as-a-service offerings. **First wiki-captured concrete dollar-forecast for SpaceX AI revenue trajectory**; SpaceX includes [[xai|xAI]] Colossus capacity. Skepticism noted on Goldman's IPO underwriting role potentially biasing the forecast upward. Pairs with [[anthropic-spacex-higher-limits-2026-05-06|substrate-tier compute lock-in framing]]. — [[dailybrief-roundup-2026-06-04]]
 
 ## Management Notes
 
@@ -33,3 +35,5 @@ Jensen Huang runs an unconventional structure: 55 direct reports, identical exec
 
 - [[jensen-huang]] — CEO and co-founder
 - [[post-aakashgupta-jensen-huang-management]] — April 2026 analysis of Nvidia's management architecture
+- [[nvidia-nemotron-3-ultra-550b-2026-06-04]] — 550B-parameter open-weight hybrid Mamba2-Transformer MoE; 10+ teacher distillation pipeline; first wiki-captured NVIDIA frontier-scale open-weight release
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03]] — NVIDIA Omniverse ">$1T addressable market" framing for the simulator category of the 3-category world-models taxonomy
