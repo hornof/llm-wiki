@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-05-29
+last_updated: 2026-06-05
 ---
 
 
@@ -93,7 +93,34 @@ See [[writing-claude-code-skills]] for a full walkthrough.
 - **May 2026 — "Claude Code is the most misleading name in AI" (Hannah Stulberg)**: 1,500-hour practitioner at DoorDash. *"It's not just for code."* Stulberg's Team OS pattern (function-organized repo + minimal CLAUDE.md + progressive sub-loading + Slack-MCP-integrated handles) is the cleanest team-scope use case captured to date; explicitly framework-agnostic (works with Codex / Cursor / Copilot) but Claude-Code-native in default surface. Four-practitioner convergence without coordination (Stulberg/DoorDash, Killeen/Pendo, Meyer/Google, Vellotti solo) — strongest evidence-of-pattern for shared-memory infrastructure captured this month. — [[stahlberg-team-os-aakash-2026-05]]
 - **May 24 2026 — "Future of work happens inside Codex or Claude Code" (Dan Shipper via Lenny Rachitsky)**: Shipper spends all his time in Codex using Google Docs / PostHog / etc inside the agent's in-app browser. **Reverses the conventional AI-into-SaaS direction**: instead of putting AI into your SaaS tool, you use SaaS tools *inside* your AI agent. **Lenny on Cowork omission**: *"I think he treats CC and Cowork as the same, imho they'll likely merge over time"* — first wiki capture of CC + Cowork likely-convergence framing. Comment-thread counter-take (Crepe Supreme): Microsoft 365 Copilot at 20M paid enterprise seats / $7.2B ARR + ChatGPT Enterprise+Business 5M+ paid users — undercuts the Codex-or-Claude-Code-as-operating-system framing if numbers verify (verification-pending). — [[lennysan-shipper-10-takeaways-2026-05-24]]
 
+## Dynamic Workflows (Canonical Docs, 2026-06)
+
+The [[anthropic-dynamic-workflows-official-docs-2026-06|Anthropic-canonical Dynamic Workflows docs]] (code.claude.com/docs/en/workflows) consolidate the May 28 preview into the **first wiki-captured authoritative 4-primitive Claude Code agent-architecture decomposition** (subagents / skills / agent teams / workflows). Key primitives now wiki-canonical:
+
+- **Workflows = scripts the runtime executes** (vs subagents/skills/agent-teams where Claude or a lead agent holds the plan turn-by-turn)
+- **Runtime constraints**: **16 concurrent agents** + **1,000 agents total per run** (confirms [[zodchii-opus-4-8-setup-guide-2026-05-29|zodchii's "up to 1,000" framing]] as Anthropic-canonical)
+- **`ultracode` keyword** + **`/effort ultracode` mode** — combines `xhigh` reasoning effort with automatic workflow orchestration. Available only on models supporting `xhigh` effort.
+- **Bundled `/deep-research`** built-in workflow — fan-out web searches + cross-check sources + vote on claims + return cited report with filtered claims
+- **`/workflows` TUI** with `s`-to-save semantics — `s` saves the run's script as a command
+- **Save locations**: `.claude/workflows/<name>.js` (project; git-shared) + `~/.claude/workflows/<name>.js` (personal). **Pairs with `.claude/agents/<role>.md` schema** as parallel dual-primitive Claude Code project-shared agent-architecture convention.
+- **`args` parameter** for parameterized workflows — structured-data invocation (e.g., `Run /triage-issues on issues 1024, 1025, and 1030`)
+- **Auto + ultracode = zero prompts** — most-permissive operator-tier configuration; subagents always run in `acceptEdits` mode regardless of session mode
+- **Multi-cloud availability**: Anthropic API, AWS Bedrock, GCP Vertex AI, Microsoft Foundry — first wiki-captured concrete 3-cloud-provider availability for Anthropic frontier-product
+- **Minimum version**: Claude Code v2.1.154+
+
+### Thariq's 3-failure-mode framework + 6-pattern library (2026-06-02)
+
+[[trq-dynamic-workflows-harness-2026-06-02|Thariq Shihipar's *"A harness for every task"* post]] is the practitioner-narrative companion. **First wiki-captured 3-failure-mode framework** that workflows exist to solve:
+
+- **Agentic laziness** — Claude declares partial progress complete (e.g., 20 of 50 security-review items)
+- **Self-preferential bias** — Claude prefers its own results when verifying/judging
+- **Goal drift** — gradual loss of fidelity across many turns, especially after compaction
+
+**First wiki-captured Anthropic-canonical 6-pattern composable workflow-library**: classify-and-act / fan-out-and-synthesize / adversarial verification / generate-and-filter / tournament / loop-until-done. Pair these patterns with `/loop` (repeatable) + `/goal` (hard completion) + token budgets (e.g., *"use 10k tokens"*). **Quarantine pattern** for triaging-at-scale workflows that read untrusted content — operationalization of the cross-vendor agent-exfiltration pattern at the workflow-orchestration layer.
+
 ## Resources
+- [[anthropic-dynamic-workflows-official-docs-2026-06]] — Anthropic-canonical Claude Code Dynamic Workflows docs; runtime constraints + ultracode + TUI bindings + save semantics + multi-cloud availability
+- [[trq-dynamic-workflows-harness-2026-06-02]] — Thariq Shihipar's practitioner-narrative companion; 3-failure-mode framework + 6-pattern catalog + 8+ use cases + quarantine pattern
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern
 - [[reddit-3-things-claude-output-quality]] — April 2026 practitioner thread; community-validated tips and workflow patterns
 - [[how-to-learn-claude-infographic]] — April 2026 community-built map of Claude's 9 interaction modes (Chat / Reasoning / API / Artifacts / Cowork / Chrome / Claude Code / Integrations / Skills) with audience segmentation
