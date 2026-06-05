@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 ## Who They Are
@@ -39,6 +39,7 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **Uber caps AI tool usage at $1,500/month per employee (2026-06-03 surfacing)**: Willison surfaces a report that **Uber capped per-employee AI tool spend at $1,500/month** to manage costs — naming Claude Code as a flagged category. **First wiki-captured concrete enterprise-side per-employee AI tooling spend ceiling.** Brief insightful framing: *"Uber's cap reveals the real unit economics problem: cheap inference + expensive integration labor. The $1.5k ceiling isn't about model cost — it's where customers stop justifying custom workflows."* Pairs with [[dailybrief-roundup-2026-05-26|Uber's president's prior AI-ROI-skepticism statement]] as the **operational instantiation of the skepticism framing**. Adds Uber as 5th surface of the [[ai-roi-gap]] thesis. — [[uber-ai-tool-cap-1500-2026-06-03]]
 - **datasette-agent-micropython 0.1a0 — sandbox-safe code execution (2026-06-03)**: **6th tooling shipment in 8 days**. Sandbox-safe agentic code execution via micropython ([simonwillison.net/2026/Jun/2/datasette-agent-micropython/](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/)). **Pattern: practitioner-tooling shipment-cadence as frontier-vendor-release indicator is now structurally load-bearing**. Sandbox-safe-execution is the *practitioner-side answer* to [[anthropic-how-we-contain-claude-2026-05-31|Anthropic's containment publication]] — runtime-isolation as operator-side equivalent of vendor-side runtime-containment. — [[dailybrief-roundup-2026-06-03]]
 - **Google internal-comms shift on AI-product-readiness criticism (2026-06-04 surfacing)**: Willison surfaces a 404 Media report by Emanuel Maiberg on Google's internal-comms tightening around AI-product-readiness criticism. Post title *"A slightly different version"*. **First wiki-captured frontier-vendor internal-comms-control event around AI-product-readiness criticism**. Lands same-day as [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's openly-framed RSI publication]] — first wiki-captured same-day frontier-lab internal-positioning contrast (Anthropic openness vs Google closure). Anti-pair with [[willison-shopify-river-2026-05|River]] transparency-as-default framing. — [[willison-google-ai-criticism-internal-comms-2026-06-04]]
+- **Charity Majors enthusiasts-vs-skeptics framing surfacing (2026-06-04)**: surfaces [[charity-majors|Charity Majors]]'s framing — *"AI enthusiasts are in a race against time, AI skeptics are in a race against entropy."* **First wiki-captured load-bearing structural framing for AI-engineering-org team dynamics**. Pattern: enthusiasts and skeptics have different binding constraints, both correct (enthusiasts → time / windows close; skeptics → entropy / systems degrade without maintenance). **First wiki-captured engineering-management-voice framing of AI-team-dynamics** with operational rigor. — [[willison-charity-majors-enthusiasts-skeptics-2026-06-04]]
 
 ## Where to Follow
 - Blog: simonwillison.net

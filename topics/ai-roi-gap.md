@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 ## What This Is
@@ -271,6 +271,32 @@ Within 24 hours of the [[uber-ai-tool-cap-1500-2026-06-03|Uber $1,500/mo cap]] s
 [[kasra-llm-pentester-1500-experiment-2026-06-04|kasra runs a $1,500 LLM-as-pentester experiment]] against a deliberately-vulnerable app — **first wiki-captured operator-side experimental data point quantifying the distribution-gap on the security-vertical**. Finding: LLMs fail to reliably hack the app; failure mode is **context-maintenance across attack chains**, not capability.
 
 **Pairs with [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's Glasswing 10K+ critical-vulns metric]]**: vendor-side dramatically ahead of operator-side. **Concrete-quantitative confirmation of the capability-distribution-and-integration gap** on a specific vertical (security). The $1,500 budget number is comparable to the $1,500/month Uber cap — **first wiki-captured numerical convergence between operator-side capability-test-budget and operator-side per-employee-spend-cap** (both at $1,500 scale), suggesting that *the per-month-per-employee budget approximates the ceiling for a single operator-side capability-test campaign*.
+
+## Mainstream-Press Industry-Aggregate Framing (TechCrunch "token bill comes due", 2026-06-05)
+
+[[techcrunch-token-bill-comes-due-2026-06-05|TechCrunch "The token bill comes due"]] — **first wiki-captured mainstream-press aggregate-level confirmation** of the operator-side spend-cap pattern. Documents the industry-wide *"scramble to manage AI's runaway costs"* — newsroom-level acknowledgment of the structural transition from *capability-discovery phase* (2024–early 2026) to *cost-management phase* (mid-2026 forward).
+
+**7-surface ROI-gap convergence now articulated**:
+
+| Surface | Date | Type |
+|---|---|---|
+| [[levie-ceo-ai-psychosis-2026-05-23\|Levie]] | 2026-05-23 | within-AI-bull-camp critique |
+| [[sankar-token-spend-roi-gap-2026-05-25\|Sankar]] | 2026-05-25 | field-data $100K → $18K funnel |
+| [[cyb3rops-four-stages-ai-coding-hype-2026-05-26\|cyb3rops]] | 2026-05-26 | 4-stage hype-cycle |
+| [[techcrunch-bort-ceo-ai-psychosis-2026-05-27\|TechCrunch / Bort]] | 2026-05-27 | mainstream synthesis of CEO-psychosis |
+| [[uber-ai-tool-cap-1500-2026-06-03\|Uber $1,500/mo cap]] | 2026-06-03 | concrete operator spend ceiling |
+| [[anthropic-institute-when-ai-builds-itself-2026-06-04\|Anthropic Institute]] | 2026-06-04 | first-party vendor-side capability + Amdahl's-law-bottleneck framing |
+| **TechCrunch "token bill comes due"** | **2026-06-05** | **mainstream-press industry-aggregate framing** |
+
+**72-hour ROI-gap convergence event** (Jun 03 Uber-cap → Jun 04 Anthropic Institute + Ramp + Imas/Trammell → Jun 05 TechCrunch industry-frame). **First wiki-captured 72-hour cluster** of the gap-thesis crystallizing into mainstream-narrative.
+
+## Vendor-Side Counter-Positioning (Daniela Amodei, 2026-06-04)
+
+[[anthropic-47b-amodei-techcrunch-pre-ipo-2026-06-04|Daniela Amodei's pre-IPO TechCrunch interview]] is the **vendor-side public counter-voice** to the cost-reckoning narrative. Anthropic's $47B annualized run-rate ($9B → $47B in 7 months ≈ 2×/2-month doubling) is paired with Amodei *"shrugs off doubts about AI's returns."* **First wiki-captured Anthropic-leadership operations-side public counter-positioning** to the ROI-gap framing. Read-A-counter-anchor strengthened with revenue-trajectory evidence (alongside the [[anthropic-institute-when-ai-builds-itself-2026-06-04|Institute productivity-trajectory evidence]]).
+
+## Engineering-Org Team-Dynamics Framing (Charity Majors via Willison, 2026-06-04)
+
+[[willison-charity-majors-enthusiasts-skeptics-2026-06-04|Charity Majors via Willison]] — *"AI enthusiasts are in a race against time, AI skeptics are in a race against entropy."* **First wiki-captured load-bearing structural framing for AI-engineering-org team dynamics**. Reframes the gap thesis at the *org-side-decision-failure* layer: inside the operator-side, the team is split between enthusiasts (chasing the capability window; *temporally correct*) and skeptics (chasing system maintainability; *structurally correct*), and most orgs fail to run both in parallel. **First wiki-captured concrete operationalization of the *org-side-decision-failure* within the ROI gap**.
 
 ## Post-AGI Scarcity-Shift Framing (Imas + Trammell on Dwarkesh, 2026-06-04)
 

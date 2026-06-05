@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 ## What This Is
@@ -350,6 +350,12 @@ The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's
 **Pairs with [[andrewng-ai-fde-vs-ai-engineer-2026-06-01|Ng's 5 future-specialist-role predictions]]**: Anthropic confirms that *"once Claude can run experiments, the question shifts towards 'Which of these experiments is worth running?'"* and *"human code review has become a new bottleneck."* Ng's predicted specialist roles (LLMOps, Evals, AI Data, Harness, FDE) are operationally validated by the Amdahl's-law-bottleneck-shift Anthropic is publicly acknowledging.
 
 **Implication for tier-4 utility-software at-risk band**: the 100→100,000 framing isn't disruption-via-replacement; it's disruption-via-leverage. The customer who used to need 10K seats now needs 100 seats — but each seat may cost $1,500/month per [[uber-ai-tool-cap-1500-2026-06-03|the Uber cap data]]. **Net revenue may grow even as seat-count collapses**, if vendors capture the per-employee leverage premium. Pattern-watch: do SaaS vendor revenues correlate with seat-count or with per-seat-leverage-premium pricing?
+
+## Mainstream-Press Industry-Aggregate Framing (TechCrunch "token bill comes due", 2026-06-05)
+
+[[techcrunch-token-bill-comes-due-2026-06-05|TechCrunch's "The token bill comes due"]] is the **first wiki-captured mainstream-press aggregate-level confirmation** of the cost-reckoning hitting enterprise AI deployment. Brief framing: *"Shift from 'go fast' to cost guardrails is reshaping dev-tools economics and hiring demand."*
+
+**Implication for the thesis**: the dev-tools-economics-reshaping signal is **first wiki-captured concrete confirmation** of the tier-4-utility-software-band reshaping under AI-amplification stress. Pairs with [[uber-ai-tool-cap-1500-2026-06-03|Uber-cap]] + [[github-daigle-agent-strategy-2026-06-03|GitHub Daigle platform-strain]] + [[dailybrief-roundup-2026-06-04|Ramp $750M AI-token-monitoring]] as the **72-hour cluster** crystallizing the dev-tools-economics transition.
 
 ## Tracking Signals
 
