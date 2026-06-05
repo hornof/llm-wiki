@@ -3,7 +3,7 @@ name: Bun
 type: tool
 category: framework
 status: gaining-traction
-last_updated: 2026-05-29
+last_updated: 2026-06-05
 ---
 
 ## What It Is
@@ -35,5 +35,7 @@ Pre-rewrite Bun is a drop-in alternative to Node.js with faster startup + integr
 
 - [[anthropic-dynamic-workflows-primary-2026-05-28]] — Anthropic primary; Bun rewrite as launch case study
 - [[claude-opus-4-8-dynamic-workflows-2026-05-28]] — same-day capability bundle (Opus 4.8 + Dynamic Workflows)
+- [[trq-dynamic-workflows-harness-2026-06-02]] — Thariq Shihipar's harness post confirms Bun Zig→Rust as the named *"migrations and refactors"* canonical use case for Dynamic Workflows; links to [Jarred Sumner's X thread](https://x.com/jarredsumner/status/2060050578026189172)
+- [[anthropic-dynamic-workflows-official-docs-2026-06]] — canonical Dynamic Workflows docs
 - [bun.com](https://bun.com/) — official site
-- Jarred Sumner direct write-up — *pending* per Anthropic announcement
+- [Jarred Sumner X thread on the Bun Zig→Rust migration](https://x.com/jarredsumner/status/2060050578026189172) — practitioner-side primary; cited in Thariq's harness post
