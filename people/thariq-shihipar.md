@@ -3,7 +3,7 @@ name: Thariq Shihipar
 type: person
 affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter]
-last_updated: 2026-06-02
+last_updated: 2026-06-05
 twitter: "@trq212"
 ---
 
@@ -36,7 +36,20 @@ Two high-signal voices independently surfaced the same article on the same day �
 
 Establishes Thariq as a **practitioner-content surfacing role** for Anthropic-internal practices — pairs with his original *Unreasonable Effectiveness of HTML* surfacing role (May 2026).
 
+## 3rd Surface: Dynamic Workflows Harness Articulation (2026-06-02)
+
+[[trq-dynamic-workflows-harness-2026-06-02]] — Thariq publishes *"A harness for every task: dynamic workflows in Claude Code"* (X + Claude Blog). **Practitioner-narrative companion to the [[anthropic-dynamic-workflows-official-docs-2026-06|canonical Dynamic Workflows docs]]**.
+
+**First wiki-captured 3-failure-mode framework** for context-window-bounded agent attention: **agentic laziness** (partial-progress + premature-completion) + **self-preferential bias** (Claude prefers its own results when judging) + **goal drift** (gradual loss of fidelity across many turns, especially after compaction).
+
+**First wiki-captured Anthropic-canonical 6-pattern composable workflow-library**: classify-and-act / fan-out-and-synthesize / adversarial verification / generate-and-filter / tournament / loop-until-done.
+
+**8+ use-case categories**: migrations/refactors (Bun Zig→Rust concrete instantiation) + deep research + deep verification + sorting + memory/rule adherence (CLAUDE.md-mining) + root-cause investigation + triaging-at-scale (with **quarantine pattern** for untrusted-input) + exploration/taste + evals + model/intelligence routing.
+
+**Establishes Thariq as Anthropic-internal practitioner-content voice for the Claude Code agent-architecture surface**: 1st (HTML output format) was an output-format-side surface; 2nd (Suzanne's Learn Quiz) was a session-management-side surface; 3rd (Dynamic Workflows harness) is an orchestration-side surface. **Pattern**: Thariq's surfacing role is *bringing Anthropic-internal Claude Code practice into the public discourse* — wiki treats his X/blog posts as Anthropic-canonical practitioner-content reference even when not formally an Anthropic publication.
+
 ## Where to Follow
 
 - Personal blog (surfaced via Willison amplification)
 - Twitter / X: [@trq212](https://x.com/trq212)
+- Claude Blog (Anthropic-syndicated): https://claude.com/blog/
