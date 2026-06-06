@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-05-31
+last_updated: 2026-06-06
 ---
 
 ## Definition
@@ -76,6 +76,26 @@ A namespace-divergent sibling pattern has emerged: **AGENTS.md** is the vendor-n
 The CLAUDE.md pattern is now part of a two-pattern family (CLAUDE.md + AGENTS.md). Pattern-watch: do the next ~10 tier-1 OSS projects (curl, ffmpeg, Python stdlib, OpenSSL) adopt AGENTS.md? Do mixed-vendor projects ship both files? Does Anthropic adopt or comment on AGENTS.md as a sibling pattern?
 
 **2026-05-29 operator-side data point ([[nate-herk|Nate Herk]], [[nateherk-opus-4-8-aios-2026-05-29]])**: practitioners are *stratifying* — Nate Herk's root has *"a claude folder, a codex folder, and an agents folder living side by side. Tool agnostic by default."* One operator's vote for **stratification over standardization**. Pattern-watch is whether stratification is the emergent norm or just one practitioner's preference.
+
+## 3-Tier Canonical Content-Template Stack (2026-06-03)
+
+[[anthropic-self-service-data-analytics-2026-06-03|The Anthropic data-analytics publication (2026-06-03)]] publishes a **canonical skill-file skeleton** in its appendix. Combined with prior wiki-tracked content templates, **the wiki now tracks a 3-tier canonical content-template stack**:
+
+| Tier | Scope | Template | Owner |
+|---|---|---|---|
+| **Project** | per-codebase behavioral contract | **CLAUDE.md** ([[mnilax-claude-md-12-rules-2026-05-09|Mnilax 12 rules]] + [[forrest-chang|Forrest Chang's 4]]) | community-evolved |
+| **Domain** | per-business-domain skill | **Skill-file** ([[anthropic-self-service-data-analytics-2026-06-03|Anthropic appendix skeleton]]: frontmatter + Description + Quick Start + Business Context + Technical Execution Guide + Knowledge Base Navigation + Troubleshooting) | Anthropic-canonical |
+| **Role** | per-subagent specialization | **`.claude/agents/<role>.md`** ([[zodchii-4-agent-pipeline-2026-05-30|zodchii's 4-agent pipeline schema]] + [[rody-5-subagent-templates-2026-05-31|@0x_rody's 5 standalone templates]]) | practitioner-content + Anthropic-canonical |
+
+**Pattern**: each tier addresses a different scope of agent behavior (project-wide vs domain-specific vs role-specific), and the templates compose — a Claude Code session has *all three layers active* (CLAUDE.md → skill-files → subagent definitions). **First wiki-captured 3-tier composable canonical content-template stack** at frontier-vendor scale.
+
+The Anthropic data-analytics skill skeleton specifically introduces:
+- **Strong IF/THEN/DO-NOT framing** in the description
+- **Semantic Layer (REQUIRED first step)** convention with rebutted-bail-early excuses
+- **MANDATORY adversarial review** for high-stakes outputs
+- **Provenance footer** primitive
+
+These are now wiki-canonical primitives at the domain-skill tier.
 
 ## Key Papers / Posts
 
