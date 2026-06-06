@@ -118,6 +118,7 @@
 - [[nathan-lambert]] — *Interconnects* Substack; post-AI2 independent voice on post-training methodology + open-weight ecosystem; "multi-teacher distillation is the post-training industry standard" framing (June 2026)
 - [[anton-korinek]] — economist at Anthropic; RSI growth-regime model (~6 years to explosive-growth regime under software-R&D-automation + 5% economy-wide-automation shock); feedback contributor on Anthropic Institute RSI publication (May–June 2026)
 - [[dwarkesh-patel]] — host of *The Dwarkesh Podcast*; long-form interview surface for frontier-AI research + macroeconomics + cross-disciplinary AI conversations
+- [[sriram-krishnan]] — ex-White House AI advisor (departed 2026-06-06 to found new institution to shape Trump policy); structurally load-bearing WH-side counterpart to Anthropic-policy surface (June 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -145,6 +146,7 @@
 - [[y-combinator]] — early-stage accelerator; RFS treated as high-signal demand-side leading indicator
 - [[cloudflare]] — internet infrastructure provider; co-launched Stripe Projects (May 2026) — protocol for agent-driven account creation, domain purchase, and deployment
 - [[xai]] — Elon Musk's AI subsidiary of SpaceX; operator of the Memphis Colossus 1 data center (300MW); contracted entirely to Anthropic for training (May 2026)
+- [[spacex]] — substrate-tier compute monopoly-candidate; parent of [[xai]] post-2025 acquisition; 3-customer Colossus-tier consolidation (xAI internal + Anthropic $5B/yr + Google $11B/yr); Goldman forecasts $322B AI revenue by 2030 (June 2026)
 - [[mozilla]] — Firefox / Thunderbird; preview-access partner using Claude Mythos to drive 20× monthly Firefox security-fix throughput (May 2026)
 - [[andon-labs]] — autonomous-business research outfit; SF retail store + Stockholm cafe experiments running real commercial operations under AI control
 - [[unconventional-ai]] — early-stage AI hardware-software co-design company; pursuing 1000× energy efficiency for GenAI inference; founded by Naveen Rao (May 2026)

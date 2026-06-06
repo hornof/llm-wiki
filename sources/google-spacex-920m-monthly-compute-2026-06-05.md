@@ -66,7 +66,7 @@ Anthropic Data Analytics: *"Adversarial review: +6% accuracy at +32% tokens + +7
 - **Specific use-case mix** (Gemini training? Gemini inference? Both? Antigravity / Spark workloads?)
 - **Specific Google internal cost-side impact** (does this displace planned-CapEx or supplement it?)
 - **Specific competitive-implication** for hyperscalers (Microsoft Azure? AWS Bedrock?)
-- **Whether [[anthropic-xai-colossus-deal-2026|Anthropic Colossus deal]] is affected** (capacity contention?)
+- **Whether [[willison-anthropic-xai-colossus-2026-05|Anthropic Colossus deal]] is affected** (capacity contention?)
 - **Specific SpaceX-side profit-margin estimates** (commercial-pricing vs internal-cost?)
 
 ## Pages Updated
