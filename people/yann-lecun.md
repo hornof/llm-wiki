@@ -3,7 +3,7 @@ name: Yann LeCun
 type: person
 affiliation: AMI Labs (Executive Chair); NYU (Professor)
 signal_sources: [twitter, substack, academic, youtube]
-last_updated: 2026-05-18
+last_updated: 2026-06-06
 ---
 
 ## Who They Are
@@ -28,6 +28,7 @@ AMI Labs (Advanced Machine Intelligence Labs) — building world-model architect
 - **17-year-old-driver as data-efficiency anchor (May 2026)**: *"How is it that a 17-year-old can learn to drive in 20 hours? We have millions of hours of training data of people driving cars. We still don't have level-five learning cars. So imitation learning obviously doesn't work even for just autonomous driving."* Single cleanest framing of why world-model approaches should beat imitation-learning at scale. — [[lecun-after-llms-unsupervised-learning-2026-05-15]]
 - **Llama 4 disappointment + Mistral genesis + Scale-Wang succession framing (May 2026)**: *"Llama 4 was a bit of a disappointment, and because Mark Zuckerberg was disappointed by it he kind of rebooted the entire organization."* Mistral was founded by two Llama authors + a Google engineer during Llama-2 → Llama-3 handover. On Alex Wang post-Scale acquisition: *"It's possible that Mark sees in Alex kind of a potential successor to himself, like a younger version of himself."* LeCun's own contribution to Llama: *"zero technical contribution; my one contribution was to argue for open-sourcing Llama 2."* — [[lecun-after-llms-unsupervised-learning-2026-05-15]]
 - **Headquartered AMI in Paris on purpose (May 2026)**: explicit choice to escape Silicon Valley *"herd behavior where everybody is digging the same trench."* American office in New York, not Silicon Valley. — [[lecun-after-llms-unsupervised-learning-2026-05-15]]
+- **"Exponential-pilled bros finally realized..." — RSI Time-Multiplicity bottleneck endorsement (2026-06-06)**: amplifies + endorses [[dan-jeffries-rsi-time-multiplicity-critique-2026-06-04|Dan Jeffries's critique]] of [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute *When AI builds itself* publication]]. *"Did some exponential-pilled bros finally realize that real-world processes have irreducible time constants and that you can't run the real world faster than real time?"* First wiki-captured LeCun-side amplification + endorsement of an external Anthropic-skeptic critique. **Epistemics-of-exponentials clarification** (same thread): *"You can't say 'A is exponentially &lt;x&gt;er than B'... you need more than two points on the curve to identify it as exponential."* — [[dan-jeffries-rsi-time-multiplicity-critique-2026-06-04]]
 
 ## Key Contributions
 - **LeNet / CNNs** (Bell Labs, 1980s–90s): convolutional neural networks for image recognition; deployed commercially for bank check recognition

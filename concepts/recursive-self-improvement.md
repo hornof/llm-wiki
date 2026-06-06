@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-06-04
+last_updated: 2026-06-06
 ---
 
 ## Definition
@@ -61,6 +61,25 @@ Anthropic's commitment: *"If such systems existed, we expect that we would slow 
 **Precedent cited**: Intermediate-Range Nuclear Forces Treaty — but with caveat that AI verification is *"much more challenging"* than missile-silo detection (training runs are easier to conceal; inputs are general-purpose; defection incentive is enormous).
 
 **Required preconditions**: multiple well-resourced frontier labs in multiple countries agreeing to stop under the same conditions, with each able to verify the others have stopped. **Unilateral pause by one lab is achievable immediately but accomplishes much less** — it changes who the front-runner is without creating the deliberative process.
+
+## Skepticism Counter-Anchor: Time + Multiplicity bottlenecks (Jeffries + LeCun, 2026-06-04 / 2026-06-06)
+
+[[dan-jeffries-rsi-time-multiplicity-critique-2026-06-04|Dan Jeffries publishes (2026-06-04)]] a load-bearing critique of [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute publication]]: **compute is not the only — or even most important — RSI bottleneck**. Adds 2 structural constraints:
+
+| Bottleneck | Definition | Examples |
+|---|---|---|
+| **Time** | *"How long it takes to get an answer."* | *"Will this drug cause bad side effects twenty years from now?"* — only answerable in 20 years. *"Did I make money in business?"* — long-time-horizon. *"Will my wife like this surprise present?"* — feedback-loop is years. |
+| **Multiplicity** | *"When there is no right or wrong answers but only shades of gray with right(ish) answers and wrong(ish)."* | *"Is this a good article?"* — no clean gradient. *"Is this beautiful?"* — no optimization target. |
+
+**Jeffries's typology**: AI's strongest domains have *tight feedback loops + clear ground truth* (code, games, driving). Domains with *slow feedback + ambiguous ground truth* are RSI-resistant regardless of compute scaling.
+
+> *"The recursive self-improvement loop doesn't hit a wall because of compute. It hits a wall because of reality. Reality is slow, messy, ambiguous, and full of questions that only time and lived experience can answer."* — Jeffries
+
+[[yann-lecun|Yann LeCun]] amplifies + endorses (2026-06-06): *"Did some exponential-pilled bros finally realize that real-world processes have irreducible time constants and that you can't run the real world faster than real time?"* + provides epistemics-of-exponentials clarification (*"you need more than two points on the curve to identify it as exponential"*).
+
+**4-leg bracketed-trajectory framework now articulated**: Korinek RSI upside (Import AI 456) + Clark extinction-risk-pricing downside (Import AI 459) + Anthropic Institute first-party-evidence (2026-06-04) + **Jeffries/LeCun Time-Multiplicity skepticism (this)**. **First wiki-captured 4-leg framework** with all 3 Anthropic-canonical legs + 1 external-skeptic leg.
+
+**Partial internal-contradiction note**: [@full_kelly_](https://x.com/full_kelly_/status/2063302079460823501) counter-amplifies by pointing out that the Anthropic Institute publication *itself* acknowledges Time bottlenecks: *"More intelligence can't learn what a drug does over decades of use, can't hold elections sooner than a constitution dictates."* The disagreement is more *which framing is load-bearing* (the *"determined entirely by compute"* sentence vs the *"bottlenecks shape the felt pace"* paragraph) than wholesale rejection.
 
 ## The Korinek RSI Growth-Regime Framework Pair
 

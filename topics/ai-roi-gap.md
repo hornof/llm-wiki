@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 ## What This Is
@@ -289,6 +289,23 @@ Within 24 hours of the [[uber-ai-tool-cap-1500-2026-06-03|Uber $1,500/mo cap]] s
 | **TechCrunch "token bill comes due"** | **2026-06-05** | **mainstream-press industry-aggregate framing** |
 
 **72-hour ROI-gap convergence event** (Jun 03 Uber-cap → Jun 04 Anthropic Institute + Ramp + Imas/Trammell → Jun 05 TechCrunch industry-frame). **First wiki-captured 72-hour cluster** of the gap-thesis crystallizing into mainstream-narrative.
+
+## 2nd First-Party-Anthropic Function-Productivity Data Point (Data Analytics 95%/95%, 2026-06-03)
+
+[[anthropic-self-service-data-analytics-2026-06-03|Anthropic publishes canonical practitioner-content on its internal Data Science / Data Engineering practice]] — *"How Anthropic enables self-service data analytics with Claude"* (Chen Chang + Clement Peng + Justin Leder + Johanne Jiao + Josh Cherry). **Headline**: **95% of Anthropic's business analytics queries automated via Claude with ~95% accuracy in aggregate**.
+
+**Adds the 2nd first-party-Anthropic function-by-function productivity data point in 3 days**:
+
+| Date | Function | Metric |
+|---|---|---|
+| 2026-06-04 | Engineering | 8× per-engineer code productivity; >80% Claude-authored; 76% open-ended success | [[anthropic-institute-when-ai-builds-itself-2026-06-04]] |
+| 2026-06-03 | Data Science / Analytics | **95% queries automated** with **~95% accuracy in aggregate** | [[anthropic-self-service-data-analytics-2026-06-03]] |
+
+**First wiki-captured Anthropic-canonical "function-by-function automation evidence" stack** — Anthropic is now publishing measured-productivity data at the **function-level** rather than only at the aggregate-org level. Pattern-watch: next-function publication likely candidates are operations / sales / customer-success / compliance.
+
+**Critical ablation finding**: *"We gave the agent direct grep access to our entire dashboard, transformation, and analyst-notebook SQL (thousands of files)... Accuracy moved by less than a point... The information was there, the agent saw it, and it still didn't use it... That single experiment told us our bottleneck wasn't access to prior work, it was structure (i.e., mapping a question to the right entity)."* **First wiki-captured Anthropic-canonical "access is not the bottleneck; structure is" finding** — directly addresses the [[cyb3rops-four-stages-ai-coding-hype-2026-05-26|cyb3rops stage-3-grind framing]]: the grind isn't reduced by giving agents more context; it's reduced by *structuring the context*.
+
+**Skill-discipline as load-bearing**: without skills 21% accuracy; with skills consistently >95% (74-point delta). Adversarial review: +6% accuracy at +32% tokens + +72% latency. **First wiki-captured concrete vendor-side cost-of-quality data points at frontier-scale** — the cost-of-quality has measurable price tags.
 
 ## Vendor-Side Counter-Positioning (Daniela Amodei, 2026-06-04)
 
