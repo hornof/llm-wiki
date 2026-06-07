@@ -2,7 +2,7 @@
 name: End of Finetuning
 type: concept
 maturity: emerging
-last_updated: 2026-05-27
+last_updated: 2026-06-07
 ---
 
 ## Definition
@@ -35,6 +35,12 @@ If the default abstraction layer for "make the model behave the way I want" move
 [[dailybrief-roundup-2026-05-27|Trajectory]] launches with $15M (co-founded by Ronak Malde) to build a **continual learning platform for agentic AI models**. Post-deployment model improvement via user feedback — keeping agents aligned after launch. This is the **inverse-direction bet** to the End-of-Finetuning thesis: where swyx names long-context + behavioral-spec as the default replacement for finetuning, Trajectory bets that **agents specifically need continuous weight updates** to stay aligned to operational drift in production.
 
 **Why both can be true**: End-of-Finetuning is a *default-stack* claim (the bottom 99% don't finetune anymore). Continual-learning-at-the-agent-layer is a *top-1%* + *agent-specific* claim — once you're running an autonomous agent in production with user feedback at volume, the economics of small continuous weight adjustments may dominate the long-context-only approach. Worth tracking whether Trajectory's product shape lands closer to the swyx "top 1% RLFT" lane or genuinely opens a new agent-runtime-adjacent finetuning niche.
+
+## Senior-Vendor Extension: Nando de Freitas Unified-Causal-Agent Proposal (2026-06-06)
+
+[[nando-de-freitas-unified-causal-agent-training-2026-06-06|Microsoft VP of AI Nando de Freitas]] proposes **replacing the SFT + RLHF pipeline with unified continual interactive causal agent training**. **First wiki-captured senior-vendor proposal that operationally extends the end-of-finetuning thesis** — if SFT+RLHF collapses into single causal-agent learning loop, the *"top 1% still RLFT"* exception narrows further.
+
+Pairs with [[anthropic-self-service-data-analytics-2026-06-03|Anthropic data-analytics skill-discipline]] + [[nvidia-nemotron-3-ultra-550b-2026-06-04|NVIDIA multi-teacher distillation]] as the **3-vendor 4-day post-training-methodology debate cluster**. Pattern: post-training methodology is now load-bearing competitive surface — each vendor stakes out a distinct framing of how to move past pipeline-fragmented SFT+RLHF.
 
 ## Open Questions / Caveats
 

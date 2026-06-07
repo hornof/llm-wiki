@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 ## Definition
@@ -80,6 +80,20 @@ Anthropic's commitment: *"If such systems existed, we expect that we would slow 
 **4-leg bracketed-trajectory framework now articulated**: Korinek RSI upside (Import AI 456) + Clark extinction-risk-pricing downside (Import AI 459) + Anthropic Institute first-party-evidence (2026-06-04) + **Jeffries/LeCun Time-Multiplicity skepticism (this)**. **First wiki-captured 4-leg framework** with all 3 Anthropic-canonical legs + 1 external-skeptic leg.
 
 **Partial internal-contradiction note**: [@full_kelly_](https://x.com/full_kelly_/status/2063302079460823501) counter-amplifies by pointing out that the Anthropic Institute publication *itself* acknowledges Time bottlenecks: *"More intelligence can't learn what a drug does over decades of use, can't hold elections sooner than a constitution dictates."* The disagreement is more *which framing is load-bearing* (the *"determined entirely by compute"* sentence vs the *"bottlenecks shape the felt pace"* paragraph) than wholesale rejection.
+
+## World-Models-Grounded RSI Response Cluster (Lin + Biohub, 2026-06-06)
+
+[[junyang-lin-new-lab-world-models-rsi-2026-06-06|Junyang Lin (ex-Alibaba Qwen lead) founds new lab on world models + RSI]] (2026-06-06) with thesis that **world models make RSI supervisable** — *if self-improving systems learn to model the world first, supervision becomes tractable — you're checking predictions, not watching a loss curve descend into a singularity.* **First wiki-captured constructive response (proposing world-models-as-bridge) to the [[dan-jeffries-rsi-time-multiplicity-critique-2026-06-04|Jeffries-LeCun Time-Multiplicity bottleneck critique]]**.
+
+Same-day [[biohub-protein-biology-world-model-2026-06-06|Biohub releases world model of protein biology]] — concrete instantiation of the world-models-grounded supervision framing in the biology domain. Pairs with [[feifei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li 3-category world-models taxonomy]]: Lin operates at the *general-purpose-RSI* layer; Biohub at the *domain-specific simulator* layer.
+
+**Pattern**: world-models-RSI coupling is now actively articulated as the load-bearing path forward — first wiki-captured 2-event same-day world-models-RSI-cluster activity.
+
+## Senior-Vendor Post-Training-Methodology Response (Nando de Freitas, 2026-06-06)
+
+[[nando-de-freitas-unified-causal-agent-training-2026-06-06|Microsoft VP of AI Nando de Freitas]] (2026-06-06) proposes **replacing SFT + RLHF pipelines with unified continual interactive causal agents**. Structurally adjacent to RSI: if the agent learns continually from interaction, the boundary between *"pre-training + post-training + deployment"* (3 phases) and *"deployment-as-continual-training"* (1 phase) dissolves. **First wiki-captured concrete senior-vendor methodology-proposal at the RSI-adjacent methodology layer**.
+
+Pairs with [[anthropic-self-service-data-analytics-2026-06-03|Anthropic skill-discipline]] + [[nvidia-nemotron-3-ultra-550b-2026-06-04|NVIDIA multi-teacher distillation]] as **3-vendor 4-day post-training-methodology debate cluster**.
 
 ## The Korinek RSI Growth-Regime Framework Pair
 

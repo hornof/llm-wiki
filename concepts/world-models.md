@@ -2,7 +2,7 @@
 name: World Models
 type: concept
 maturity: active-research
-last_updated: 2026-06-03
+last_updated: 2026-06-07
 ---
 
 ## Definition
@@ -124,3 +124,5 @@ Multiple labs at active-research stage with diverging architectures:
 - [[lecun-after-llms-unsupervised-learning-2026-05-15]] — LeCun on the "predict in abstract representation space, not token space" framing; "by early 2027 obvious" timeline; SIGREG + LEWorldModel pointers
 - [[feifei-li-world-models-functional-taxonomy-2026-06-03]] — Fei-Fei Li + World Labs team's 3-category functional taxonomy (renderer / simulator / planner); first wiki-captured load-bearing decomposition of the overloaded term; Marble = World Labs' first move into simulator territory; logical endpoint = unified world model
 - [[marble]] — World Labs' first product; dissolves renderer-simulator boundary
+- [[junyang-lin-new-lab-world-models-rsi-2026-06-06]] — ex-Alibaba Qwen lead Junyang Lin founds new lab on world-models + RSI intersection; **5th wiki-captured world-model lab**; first wiki-captured lab explicitly framed at world-models + RSI intersection
+- [[biohub-protein-biology-world-model-2026-06-06]] — Biohub releases world model of protein biology; **first wiki-captured concrete simulator-category world-model deployment in biology domain** post-Fei-Fei taxonomy
