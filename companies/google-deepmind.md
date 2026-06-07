@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 ## What It Is
@@ -52,6 +52,8 @@ Four coordinated product surfaces announced at I/O 2026:
 **June 4 internal-comms — Google's AI-criticism comms shift** ([[willison-google-ai-criticism-internal-comms-2026-06-04|Willison surfaces 404 Media report by Emanuel Maiberg]]): internal Google messaging on AI products is reportedly being tightened around AI-product-readiness criticism. **First wiki-captured frontier-vendor internal-comms-control event** around AI-product-readiness criticism. Lands same-day as [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's openly-framed RSI publication]] — **first wiki-captured same-day frontier-lab internal-positioning contrast** (Anthropic openness vs Google closure). Anti-pair with [[willison-shopify-river-2026-05|Shopify River]] transparency-as-default framing. Brief framing: *"corporate comms control around AI friction suggests internal disagreement on product readiness."* Primary unfetched (404 Media report). — [[willison-google-ai-criticism-internal-comms-2026-06-04]]
 
 **June 5 open-weights — Gemma 4 QAT 1GB E2B + Unsloth/Daniel Han llama.cpp accuracy-warning** ([[dailybrief-roundup-2026-06-05|Daily Brief]]): Google releases **Gemma 4 QAT** with quantization-aware training — **Gemma 4 E2B shrinks to 1GB footprint**. **First wiki-captured Gemma 4 QAT release** + **first wiki-captured Unsloth/Daniel Han warning on llama.cpp naive-conversion accuracy loss**. 4-day cadence of Gemma 4 line releases (Jun 03 Gemma 4 12B/26B → Jun 05 Gemma 4 QAT 1GB E2B). **Pattern**: cost-collapse continues at open-weights layer; 1GB-footprint is structurally significant for edge-deployment + on-device inference. — [[dailybrief-roundup-2026-06-05]]
+
+**June 7 — Gemma 4 E4B 6-bit operationally adopted by Florian Brand (Prime Intellect) as primary local Mac LLM** ([[dailybrief-roundup-2026-06-07|Daily Brief]]): replaces 9-month Qwen daily deployment. **First wiki-captured concrete 48-hour vendor-release → practitioner-adoption operational signal** at the open-weights layer ([[dailybrief-roundup-2026-06-05|Gemma 4 QAT 1GB E2B released Jun 05]] → Brand Mac-primary Jun 07). **First wiki-captured concrete Qwen → Gemma 4 operator-side transition event**. — [[dailybrief-roundup-2026-06-07]]
 
 **June 5/6 substrate — Google commits $920M/month to SpaceX for compute (~$11B/yr)** ([[google-spacex-920m-monthly-compute-2026-06-05]]): **First wiki-captured concrete-dollar Google→SpaceX compute-as-a-service deal**. Brief insightful framing: *"Google's own datacenters hit a wall."* **First wiki-captured frontier-hyperscaler admission that owned-infrastructure cannot keep up with AI demand**. **Operational confirmation of [[dailybrief-roundup-2026-06-04|Goldman Sachs SpaceX $322B AI revenue forecast]]** trajectory + [[anthropic-spacex-higher-limits-2026-05-06|substrate-tier compute lock-in framing]] + [[forbes-ai-50-2026|SpaceX-xAI acquisition vertical-integration thesis]]. **3-customer Colossus-tier consolidation event** (xAI internal + Anthropic $5B/yr + Google $11B/yr). Same-day with [[trump-admin-openai-equity-stake-2026-06-06|Trump-administration OpenAI equity-stake consideration]] = **first wiki-captured 2-track frontier-AI ownership-consolidation event** (federal-government-side + private-capital-side). — [[google-spacex-920m-monthly-compute-2026-06-05]]
 
