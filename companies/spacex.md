@@ -2,7 +2,7 @@
 name: SpaceX
 type: company
 status: active
-last_updated: 2026-06-06
+last_updated: 2026-06-08
 ---
 
 ## What It Is
@@ -16,6 +16,7 @@ Space-launch + satellite-internet company founded by [[elon-musk|Elon Musk]] in 
 - **2026-06-04: Goldman Sachs forecasts SpaceX AI revenue $322B by 2030** driven by compute-as-a-service offerings. **First wiki-captured concrete dollar-forecast for SpaceX AI revenue trajectory.** Skepticism noted on Goldman's IPO underwriting role potentially biasing the forecast upward. — [[dailybrief-roundup-2026-06-04]]
 - **2026-06-05: Google commits $920M/month (~$11B/yr) to SpaceX for compute** ([[google-spacex-920m-monthly-compute-2026-06-05]]). **First wiki-captured concrete-dollar Google→SpaceX compute deal**. *"Google's own datacenters hit a wall"* — first wiki-captured frontier-hyperscaler admission that owned-infrastructure cannot keep up with AI demand. **Operational confirmation of the substrate-tier compute lock-in thesis** ([[anthropic-spacex-higher-limits-2026-05-06]]).
 - **2026-06-06: Musk posts satirical 3-step AI-profitability plan** centered on buying massive GPUs — *"industry observers noted the joke mirrors xAI's real-world scaling"* ([[dailybrief-roundup-2026-06-06]]). First wiki-captured Musk self-satire on xAI scaling.
+- **2026-06-07 (VERIFICATION-CRITICAL)**: **SpaceX → Cursor acquisition rumor** via [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07|Linas Beliūnas casual X comment-thread aside]] *"I guess that's why SpaceX decided to acquire them..."* (responding to Blake Norton's reaction to Cursor's *"$60B valuation + revenue-per-employee exceeds Goldman + Google + Apple combined"* framing). **First wiki-captured SpaceX → Cursor acquisition-rumor signal** — **treat as speculative/unverified** until mainstream-press corroboration. If confirmed, would extend the SpaceX vertical-integration thesis from substrate-tier (Colossus 1) + AI-lab-tier (xAI Grok / Imagine) to **AI-coding-tools-tier (Cursor)** — completing 3-tier SpaceX AI-stack vertical integration. Pattern-watch.
 
 ## Why The Wiki Tracks SpaceX
 

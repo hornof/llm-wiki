@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-06-05
+last_updated: 2026-06-08
 ---
 
 
@@ -121,6 +121,8 @@ The [[anthropic-dynamic-workflows-official-docs-2026-06|Anthropic-canonical Dyna
 ## Resources
 - [[anthropic-dynamic-workflows-official-docs-2026-06]] — Anthropic-canonical Claude Code Dynamic Workflows docs; runtime constraints + ultracode + TUI bindings + save semantics + multi-cloud availability
 - [[trq-dynamic-workflows-harness-2026-06-02]] — Thariq Shihipar's practitioner-narrative companion; 3-failure-mode framework + 6-pattern catalog + 8+ use cases + quarantine pattern
+- [[linas-beliunas-claude-goal-guide-2026-05-14]] — Linas Beliūnas canonical guide to `/goal` primitive; 3-element formula for goal conditions; reliability architecture for multi-hour agent runs; *"context rot"* framing; 3 production-grade fintech prompt templates
+- [[linas-beliunas-dynamic-workflows-guide-2026-06-04]] — Linas Beliūnas comprehensive synthesis-layer guide on Dynamic Workflows above Anthropic docs + Thariq harness post + community war stories; expands use-case scope beyond code to investor due diligence + business plan stress-testing
 - [[karpathy-llm-wiki-overview]] — cites Claude Code as the recommended LLM agent for the wiki pattern
 - [[reddit-3-things-claude-output-quality]] — April 2026 practitioner thread; community-validated tips and workflow patterns
 - [[how-to-learn-claude-infographic]] — April 2026 community-built map of Claude's 9 interaction modes (Chat / Reasoning / API / Artifacts / Cowork / Chrome / Claude Code / Integrations / Skills) with audience segmentation

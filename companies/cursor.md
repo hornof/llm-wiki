@@ -2,7 +2,7 @@
 name: Cursor
 type: company
 status: gaining-traction
-last_updated: 2026-05-21
+last_updated: 2026-06-08
 ---
 
 ## What It Is
@@ -31,6 +31,7 @@ Cursor sits in a market now also contested by Anthropic's Claude Code and OpenAI
 ## Competitive Positioning (May 2026)
 
 - **2026-05-20**: Cursor doubles usage limits for new Teams-plan users for one month — Michael Truell announced on X. Pairs with [[latentspace-codex-rises-claude-meters-2026-05-14|OpenAI Codex's two-months-free-for-enterprise-switchers]] and Anthropic's same-week subscription-metering formalization as **three same-month coding-agent retention/acquisition moves** across the three primary surfaces. Cursor competing on usage-cap generosity — cheapest way to keep Teams users from churning to Codex / Claude Code. — [[dailybrief-roundup-2026-05-21]]
+- **2026-06-07 (VERIFICATION-CRITICAL)**: [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07|Linas Beliūnas X amplification of Michael Truell 9-minute talk]] makes **verification-critical claims**: (a) **Cursor valuation $60B** (vs $29.3B wiki-tracked April 2026 — ~2× growth in 2 months); (b) **revenue-per-employee exceeds Goldman Sachs + Google + Apple combined**; (c) **SpaceX-Cursor acquisition rumor** via Linas comment-thread aside *"I guess that's why SpaceX decided to acquire them..."* — **treat all 3 as speculative/unverified until mainstream-press corroboration** (no TechCrunch / Bloomberg / WSJ / Reuters confirmation captured). Pattern-watch for primary confirmation. If acquisition is real, would extend the [[spacex|SpaceX vertical-integration thesis]] to AI-coding-tools-tier.
 
 ## Resources
 
