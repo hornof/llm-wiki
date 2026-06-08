@@ -3,7 +3,7 @@ name: Claude Cowork
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-05-27
+last_updated: 2026-06-08
 ---
 
 ## What It Is
@@ -149,3 +149,4 @@ Custom remote MCP servers available on Team/Enterprise plans.
 - [[anthropic-academy-courses-catalog-2026-05]] — first-party "Introduction to Claude Cowork" course
 - [[rubenhassid-anthropic-30-term-map-2026-05]] — secondary glossary placing Cowork in the Anthropic product surface
 - [[hassid-cowork-setup-2026-04-07]] — **first wiki-canonical Cowork-specific setup walkthrough** (Ruben Hassid Substack April 7 + 100-tip LinkedIn summary). Folder architecture (ABOUT ME / OUTPUTS / TEMPLATES / PROJECT) + AskUserQuestion-based about-me.md interview prompt + anti-style-instruction framing ("80% of your file should be what you're NOT") + 200-line ceiling extended beyond CLAUDE.md to about-me.md / anti-ai-style.md. Practitioner-content register; 484K-subscriber newsletter author.
+- [[0xchromium-claude-cowork-workflows-guide-2026-06-04]] — **0xchromium's "How to Build Claude Workflows That Run Without You"**. First wiki-captured **4-component canonical workflow primitive** (ROLE + TOOLS + TRIGGER + OUTPUT). First wiki-captured Cowork-specific **connector-walkthrough** (Gmail / Google Calendar / web search) + **Scheduled Tasks slash-command primitive surface** + **12-workflow practitioner-content taxonomy** (4 role-clusters × 3 workflows) + **5-step canonical workflow-build sequence** + **30-minute morning-briefing on-ramp**. *"You stop being the person who does the task, you become the person who approves it."* Companion Karpathy-2h-video framing-post = year-old-video recycled with new framing (1.2M views; verification caveat). Vexo200 counter-take: *"Most AI workflows fail because they automate tasks, not outcomes"* — workflow quality = attention-allocation quality (June 4 2026)
