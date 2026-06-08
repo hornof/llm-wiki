@@ -372,7 +372,8 @@ The structural-skeptic case: every new technology wave produces an executive-vs-
 | [[uber-ai-tool-cap-1500-2026-06-03\|Uber $1,500/mo cap]] | 2026-06-03 | concrete operator spend ceiling |
 | [[anthropic-institute-when-ai-builds-itself-2026-06-04\|Anthropic Institute]] | 2026-06-04 | first-party vendor-side capability + Amdahl's-law-bottleneck framing |
 | [[techcrunch-token-bill-comes-due-2026-06-05\|TechCrunch "token bill"]] | 2026-06-05 | mainstream-press industry-aggregate framing |
-| **[[mit-ai-coding-elasticity-substitution-rohanpaul-2026-06-07\|MIT 100K-dev study + FT]]** | **2026-06-07** | **academic-research empirical anchor + verification-tax canonical naming** |
+| [[mit-ai-coding-elasticity-substitution-rohanpaul-2026-06-07\|MIT 100K-dev study + FT]] | 2026-06-07 | academic-research empirical anchor + verification-tax canonical naming |
+| **[[wharton-ai-2-7x-productivity-multiplier-2029-2026-06-08\|Wharton 2.7× productivity multiplier]]** | **2026-06-08** | **AI-sector-wide solvency-threshold quantitative anchor + AI-vs-Industrial-Revolution benchmark comparison** |
 
 **The topic ascends from practitioner-content layer to academic-research empirical layer**: prior 7 surfaces were practitioner-content (Levie, Sankar, cyb3rops, kasra), public-incumbent (Uber-Macdonald, Uber-cap), mainstream-press (TechCrunch × 2, FT), and first-party-vendor (Anthropic Institute, Daniela Amodei). MIT study + Chen Avnery framing add the **academic-research empirical + verification-tax canonical-naming** layers.
 
