@@ -58,7 +58,7 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
   - **Session management**: `/clear` (alias `/reset`), `/compact` (compresses context ~80% — *"the command most people don't know about"*), `/branch` (fork conversation to try two approaches), `/context` (show context-window utilization), `/export` (save to file), `/exit`.
   - **Model and effort controls**: `/goal [task]`, `/plan` (Opus-level planning pass), **`/effort [level]`** (`low`/`med`/`high`/`x` — first wiki capture of effort-level primitive; reset-to-medium-daily bug reported by Pieter Levels per [[dailybrief-roundup-2026-05-24]]), `/fast [on|off]`, `/goal clear` (stops and resets the agent).
   - **Files and debugging**: `/init` (creates CLAUDE.md — *"probably the highest-leverage thing you can do with Claude Code"*), `/diff`, `/doctor` (*"catches 90% of setup issues automatically"*), `/cost` (token/cost stats — first wiki-captured Claude-Code-native cost-visibility primitive), `'u/file.md'` / `'u/src/folder/'` (file/directory inclusion syntax).
-  - **MCP and skills**: `/mcp`, `claude mcp add`, **`/batch`** (multi-file command — first wiki capture), `/debug` (structured *"reproduce, isolate, hypothesize, instrument, fix, verify"* loop), `Shift+Tab` (permission-mode cycling: ask-every / ask-dangerous / full-auto).
+  - **MCP and skills**: `/mcp`, `claude mcp add`, **`/batch`** (multi-file command — first wiki capture), `/debug` (structured *"reproduce, isolate, hypothesize, instrument, fix, verify"* loop), `Shift+Tab` (permission-mode cycling: ask-every / ask-dangerous / full-auto), **`/usage`** ([[bcherny-5-tips-opus-autonomous-2026-06-05|Cherny X reply 2026-06-08]] — per-skill / per-MCP / per-plugin token breakdown; complements `/cost` aggregate; first wiki capture).
   - **Install/launch**: `claude`, `claude -c` (continue last conversation), `claude -p "task"` (one-off scripting).
 
   **Four newly-captured-as-named primitives** in this taxonomy: `/plan` (Opus-level planning), `/effort` (reasoning-effort control), `/batch` (multi-file command), `/cost` (token/cost visibility). `/effort` pairs with [[svpino-subagent-pilled-2026-05-15|per-subagent model selection]] discipline at the conversation level; `/compact` is the user-facing surface of [[anthropic-claude-cookbook-2026-05|Anthropic Cookbook's Automatic Context Compaction primitive]].
@@ -118,7 +118,35 @@ The [[anthropic-dynamic-workflows-official-docs-2026-06|Anthropic-canonical Dyna
 
 **First wiki-captured Anthropic-canonical 6-pattern composable workflow-library**: classify-and-act / fan-out-and-synthesize / adversarial verification / generate-and-filter / tournament / loop-until-done. Pair these patterns with `/loop` (repeatable) + `/goal` (hard completion) + token budgets (e.g., *"use 10k tokens"*). **Quarantine pattern** for triaging-at-scale workflows that read untrusted content — operationalization of the cross-vendor agent-exfiltration pattern at the workflow-orchestration layer.
 
+## Loop Engineering (June 2026 — Cherny-voice + practitioner-content register)
+
+By June 2026 the practitioner-content register elevates above harness-engineering to **[[loop-engineering|Loop Engineering]]** — *"designing loops that prompt your agents"* ([[steipete-loops-engineering-vision-md-2026-06-07|Steinberger 2026-06-07]]). [[boris-cherny|Boris Cherny]] articulates the same shift at the **Anthropic-creator voice layer** at WorkOS Acquired Unplugged (2026-06-02): *"I don't prompt Claude anymore. I have loops that are running... My job is to write loops."* — see [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn synthesis]].
+
+**Cherny 5-tip canonical recipe for autonomous-Opus hours/days** ([[bcherny-5-tips-opus-autonomous-2026-06-05|Cherny X 2026-06-05]]):
+1. **Auto mode** for permissions
+2. **Dynamic workflows** (orchestrate hundreds/thousands of agents)
+3. **`/goal` or `/loop`** to nudge until done
+4. **Claude Code in the cloud** (close-laptop pattern)
+5. **Self-verify end-to-end** (Chrome extension for web / iOS-Android sim MCP for mobile / full-server-startup for backend)
+
+**Cherny canonical `/loop` starter**: */loop babysit all my PRs. Auto-fix build issues, and when comments come in, use a worktree agent to fix them.*
+
+**Cron-under-the-hood disclosure** (Cherny via Van Horn): *"The /loop command in Claude Code uses cron under the hood."* Pattern: loops = cron + decision-maker in the body (model decides next action each tick, not a hardcoded branch).
+
+**Cherny 5-archetype long-horizon-workload taxonomy**: feature-building / language-migration / framework-migration / iterative-profiling-and-optimization / flaky-test-resolution.
+
+**3 production hard-stops for loops** (Van Horn synthesis): max iteration count + no-progress detection + token/dollar budget ceiling. *"The loop is not the magic. The feedback inside it is."*
+
+**Multi-agent orchestration receipts**: [[steve-yegge|Steve Yegge]] Gas Town (Jan 2026; 20-30 Claude Code instances + Mayor agent + Patrol agents + git-durable state); [[zodchii-4-agent-pipeline-2026-05-30|zodchii 4-agent pipeline]] (discrete handoff-files); [[dailybrief-roundup-2026-05-27|PolyArch/humanize RLCR loop]] (cross-vendor implement+review). Continuous-review-feedback primitive: roborev (Dan Kornas) reviews every commit, feeds findings back into agent while context is still fresh.
+
+**Cherny context-rot counter-claim** ([[bcherny-5-tips-opus-autonomous-2026-06-05|2026-06-08 X reply]]): *"Context rot isn't a thing with 4.8 imo"* — direct contradiction of [[linas-beliunas-claude-goal-guide-2026-05-14|Linas's "context rot silently degrades long runs"]] at the Anthropic-creator voice layer; resolution-pending.
+
+**19-hour `/goal` receipt** (Ray Amjad via [[bcherny-5-tips-opus-autonomous-2026-06-05]]): *"I just had a goal running for 19 hours which verified almost 300 user flows with Chrome."* Cherny endorses (*"Nice!"*).
+
 ## Resources
+- [[mvanhorn-wtf-is-a-loop-2026-06-07]] — Mike Van Horn's *WTF Is a Loop?* synthesis essay; 5-stage Loop Engineering lineage (ReAct → AutoGPT → ralph → /goal → orchestration loops); Cherny WorkOS Acquired Unplugged "I write loops now" framing; IDE-deleted-in-November + 259-PRs receipts; Steve Yegge Gas Town surface; roborev; Uber $1500/person/tool/month cap; Gartner ~17% deployment; 3 production hard stops (June 2026)
+- [[bcherny-5-tips-opus-autonomous-2026-06-05]] — Boris Cherny's 5-tip canonical recipe for running Opus autonomously hours/days; context-rot counter-claim; `/usage` slash-command surfacing; 19-hour `/goal` receipt (Ray Amjad); 5-archetype workload taxonomy
+- [[steipete-loops-engineering-vision-md-2026-06-07]] — Peter Steinberger Loops Engineering coinage + VISION.md primitive disclosure (June 2026)
 - [[anthropic-dynamic-workflows-official-docs-2026-06]] — Anthropic-canonical Claude Code Dynamic Workflows docs; runtime constraints + ultracode + TUI bindings + save semantics + multi-cloud availability
 - [[trq-dynamic-workflows-harness-2026-06-02]] — Thariq Shihipar's practitioner-narrative companion; 3-failure-mode framework + 6-pattern catalog + 8+ use cases + quarantine pattern
 - [[linas-beliunas-claude-goal-guide-2026-05-14]] — Linas Beliūnas canonical guide to `/goal` primitive; 3-element formula for goal conditions; reliability architecture for multi-hour agent runs; *"context rot"* framing; 3 production-grade fintech prompt templates

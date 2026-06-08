@@ -98,7 +98,7 @@ Reply to Basoner (*"Wondering when my agents will cut me off because I am dead w
 
 ## Pages Updated
 
-- [[peter-steinberger]] — **entity-page candidate flagged**; this is now likely 2nd substantive wiki surface (verification-pending whether prior surface exists). VISION.md primitive disclosure + Loop Engineering framing
+- [[peter-steinberger]] — entity page **created** (pt3 ingest 2026-06-08) as 2nd substantive surface (this + same-day Van Horn synthesis quoting Steinberger 2.2M-view tweet). VISION.md primitive disclosure + Loop Engineering framing + skills-as-more-durable-half secondary thesis
 - [[claude-md-pattern]] — VISION.md primitive added as 4th-tier extension of canonical content-template stack
 - [[trq-dynamic-workflows-harness-2026-06-02]] — back-link as 1st surface in 4-surface practitioner-content register cluster
 - [[linas-beliunas-claude-goal-guide-2026-05-14]] — back-link as same-cluster operator-synthesis
@@ -106,11 +106,14 @@ Reply to Basoner (*"Wondering when my agents will cut me off because I am dead w
 
 ## Adjacent sources
 
+- [[mvanhorn-wtf-is-a-loop-2026-06-07]] — Van Horn's same-day comprehensive Loop Engineering synthesis essay; 5-stage lineage (ReAct → AutoGPT → ralph → /goal → orchestration loops); Cherny WorkOS Acquired Unplugged "I write loops now" framing; Steve Yegge Gas Town; roborev
+- [[bcherny-5-tips-opus-autonomous-2026-06-05]] — Cherny's same-week 5-tip canonical recipe; Anthropic-internal-creator voice paired with Steinberger's practitioner-content voice
 - [[trq-dynamic-workflows-harness-2026-06-02]] — Thariq's "A harness for every task" canonical Anthropic-internal framing
 - [[linas-beliunas-claude-goal-guide-2026-05-14]] — Linas's `/goal` operator-synthesis
 - [[linas-beliunas-dynamic-workflows-guide-2026-06-04]] — Linas's Dynamic Workflows operator-synthesis
 - [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07]] — same-day Linas Cursor playbook (engineer-role-shift convergence)
 - [[anthropic-institute-when-ai-builds-itself-2026-06-04]] — Anthropic Institute "5-stage human-role-narrowing progression"
+- [[loop-engineering]] — concept page consolidating the Loop Engineering discourse
 
 ## Verification-pending
 
