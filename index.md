@@ -123,6 +123,9 @@
 - [[peter-steinberger]] — independent practitioner (PSPDFKit founder, pre-AI); high-signal Claude Code practitioner-content voice; coined Loop Engineering elevation; VISION.md primitive disclosure (June 2026)
 - [[geoffrey-huntley]] — independent practitioner; published the ralph loop pattern (July 2025); $297 entire-programming-language receipt; 3rd stage in 5-stage Loop Engineering lineage
 - [[steve-yegge]] — veteran software engineer (Amazon/Google/Grab/Sourcegraph); author of Gas Town (Jan 2026) multi-agent Claude Code orchestration (Mayor + Patrol + git-durable state)
+- [[junyang-lin]] — ex-Alibaba Qwen team lead; founded new lab on world-models + RSI intersection (June 2026); 5th wiki-captured world-model lab; world-models-as-bridge constructive response to Jeffries-LeCun Time-Multiplicity critique
+- [[nando-de-freitas]] — Microsoft VP of AI (ex-DeepMind RL lead); unified continual interactive causal-agent training proposal to replace SFT+RLHF pipelines (June 2026); 3rd-vendor entrant in 3-vendor 4-day post-training-methodology debate
+- [[dan-jeffries]] — independent AI-skepticism voice on X; Time + Multiplicity bottleneck framing for RSI; *"the recursive self-improvement loop hits a wall because of reality"* critique of Anthropic Institute publication; LeCun-amplified (June 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
