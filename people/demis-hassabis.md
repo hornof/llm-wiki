@@ -3,7 +3,7 @@ name: Demis Hassabis
 type: person
 affiliation: Google DeepMind (CEO)
 signal_sources: [twitter, academic, conference, video]
-last_updated: 2026-05-16
+last_updated: 2026-06-08
 ---
 
 ## Who They Are
@@ -32,6 +32,7 @@ Building toward AGI at Google DeepMind, with an explicit 2030 target. Simultaneo
 - **Consciousness**: Self-awareness, self-and-other distinction, temporal continuity — necessary but not sufficient. Substrate equivalence is why we assume each other is conscious; AI will never have substrate equivalence — [[hassabis-deepmind-alphafold-agi]]
 - **Agent era**: "We're in the midst of the agent era now." Recommends building a precise tool first, crossing to agency/consciousness questions as a second step — [[hassabis-deepmind-alphafold-agi]]
 - **No.1 application of AI**: "I've always believed the No.1 application of AI should be to improve human health. That work started with AlphaFold, and now at @IsomorphicLabs with the mission to reimagine drug discovery and one day solve all disease! We are turbocharging that goal with $2.1B in new funding." — X, 2026-05-15, on the Isomorphic Labs Series B — [[isomorphic-labs-series-b-2026-05-16]]
+- **AGI 2030 ± 1 year + "new human era" (2026-06-04 Stanford GSB fireside)**: *"Maybe 2030, plus or minus a year, which is astounding to think, really. I think that will be such an enormous transformative technology; it's gonna effectively be a new human era."* **First wiki-captured Hassabis-side quantitative AGI-timeline anchor with ±1 year confidence interval**. Equates AGI arrival to *"the singularity"* + invokes *"post-scarcity world"* framing. Companion: Google I/O *"we will realize that we were standing in the foothills of the singularity."* Calls on humanities + STEM students to *"lean in"* to the technology. *"Society needs to hear that because we don't have long to prepare for what that means."* — [[businessinsider-hassabis-agi-2030-stanford-2026-06-04]]
 
 ## Where to Follow
 - Twitter/X: @demishassabis

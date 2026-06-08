@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-06-06
+last_updated: 2026-06-08
 ---
 
 ## Definition
@@ -96,6 +96,22 @@ The Anthropic data-analytics skill skeleton specifically introduces:
 - **Provenance footer** primitive
 
 These are now wiki-canonical primitives at the domain-skill tier.
+
+## 5-Tier Canonical Content-Template Stack (2026-06-07/08)
+
+Extends the 3-tier stack with 2 new tiers from Jun 07/08 ingests:
+
+| Tier | Scope | Template | Voice |
+|---|---|---|---|
+| Claude Code project rules | per-codebase behavioral contract | **CLAUDE.md** | Community + [[mnilax-claude-md-12-rules-2026-05-09\|Mnilax 12 rules]] + [[forrest-chang\|Forrest Chang's 4]] |
+| Claude Code project vision | per-codebase direction / push-back | **VISION.md** | [[steipete-loops-engineering-vision-md-2026-06-07\|Steinberger]] (*"something in the loop that can say no"*) |
+| **Claude Projects (web surface)** | **per-project AI-employee config** | **6-part blueprint** (Identity + Rules + Process + Output Format + Knowledge Files + Onboarding Message) | [[khairallah-claude-projects-6-part-blueprint-2026-06-06\|Khairallah]] |
+| Claude domain skill | per-business-domain skill | Skill-file skeleton (IF/THEN/DO-NOT framing + REQUIRED-first-step convention) | [[anthropic-self-service-data-analytics-2026-06-03\|Anthropic data-analytics team]] |
+| Claude role | per-subagent specialization | `.claude/agents/<role>.md` | [[zodchii-4-agent-pipeline-2026-05-30\|zodchii]] + [[rody-5-subagent-templates-2026-05-31\|@0x_rody]] + Anthropic-canonical |
+
+**Pattern**: 5-tier stack spans Claude.ai web surface (Claude Projects) + Claude Code CLI (CLAUDE.md + VISION.md + skill-files + agent-files). Each tier addresses a distinct scope of agent behavior; templates compose — a Claude Code session has *project rules + project vision + skill files + agent definitions* all active simultaneously, and a Claude Projects session has its own 6-part blueprint operating at a separate surface.
+
+**First wiki-captured 5-tier canonical content-template stack** at frontier-vendor scale. Khairallah's Project 5 (Code) explicitly references CLAUDE.md content as a knowledge file, establishing **bidirectional reference between Claude Projects surface + Claude Code project-tier**.
 
 ## Key Papers / Posts
 
