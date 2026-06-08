@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-06-06
+last_updated: 2026-06-08
 ---
 
 ## What This Is
@@ -329,10 +329,72 @@ Echo of [[deedydas-sf-ai-wealth-divide-2026-05-15|Hot Aisle's counter-take]] on 
 
 The structural-skeptic case: every new technology wave produces an executive-vs-operator perception gap; the AI version is the same shape at larger scale, not a categorically new failure mode. If correct, the ROI-gap closes at roughly the same cadence as past cycles (cloud took ~5 years from executive-hype-peak to operationally-calibrated-CapEx; mobile similar). Worth holding alongside the *"this time is different"* default framings.
 
+## Academic-Research Empirical Anchor (MIT 100K-dev study via Rohan Paul + FT, 2026-06-07)
+
+[[mit-ai-coding-elasticity-substitution-rohanpaul-2026-06-07|MIT study tracking 100,000+ GitHub developers across 3 generations of AI coding tools]] (surfaced via @rohanpaul_ai 2026-06-07) — **first wiki-captured academic-research empirical anchor for the ROI-gap thesis**. Companion: FT piece *"AI is raising software supply faster than demand."*
+
+**Headline finding**: code volume +300%, output +30%. Autonomous AI coding agents raised commits +180% but releases only +30%. **Elasticity of substitution = 0.25** — for every big improvement in AI's usefulness, only ~¼ of human work can be replaced.
+
+**3-generation gain ladder** (first wiki-captured AI-tool-generation effect-decomposition):
+
+| Generation | Commit gain |
+|---|---|
+| Autocomplete | +40% |
+| Interactive coding agents | +140% |
+| Autonomous coding agents | +180% |
+
+**3-stage funnel collapse** (first wiki-captured commit → projects → releases funnel):
+
+| Funnel stage | Gain |
+|---|---|
+| Commits | +180% |
+| Projects | +50% |
+| Releases | +30% |
+
+**~83% of the AI-generated commit-volume is absorbed by the verification / integration / packaging / shipping bottleneck.** Each downstream stage retains ~⅓ of the prior gain.
+
+**Marketplace evidence**: more new apps appeared but total usage didn't rise. App-supply / consumer-demand decoupling.
+
+**Chen Avnery (@MindTheGapMTG, 2026-06-08) — "verification tax" canonical naming**:
+
+> *"That 0.25 elasticity is the verification tax in one number. Writing code got cheap; proving it's correct, connected, and safe to ship didn't. The bottleneck was never generation — it's the review step humans still own. Faster commits pile up against the same gate."*
+
+**First wiki-captured "verification tax" canonical naming** for the AI-output-shipping-gap. Operationalizes [[concepts/verifiability-and-jagged-intelligence|Karpathy verifiability framing]] at the AI-coding-output economic-cost layer.
+
+**8-surface ROI-gap convergence now articulated** (extends 7-surface convergence by adding MIT/FT/Avnery):
+
+| Surface | Date | Type |
+|---|---|---|
+| [[levie-ceo-ai-psychosis-2026-05-23\|Levie]] | 2026-05-23 | within-AI-bull-camp critique |
+| [[sankar-token-spend-roi-gap-2026-05-25\|Sankar]] | 2026-05-25 | field-data $100K → $18K funnel |
+| [[cyb3rops-four-stages-ai-coding-hype-2026-05-26\|cyb3rops]] | 2026-05-26 | 4-stage hype-cycle |
+| [[techcrunch-bort-ceo-ai-psychosis-2026-05-27\|TechCrunch / Bort]] | 2026-05-27 | mainstream synthesis of CEO-psychosis |
+| [[uber-ai-tool-cap-1500-2026-06-03\|Uber $1,500/mo cap]] | 2026-06-03 | concrete operator spend ceiling |
+| [[anthropic-institute-when-ai-builds-itself-2026-06-04\|Anthropic Institute]] | 2026-06-04 | first-party vendor-side capability + Amdahl's-law-bottleneck framing |
+| [[techcrunch-token-bill-comes-due-2026-06-05\|TechCrunch "token bill"]] | 2026-06-05 | mainstream-press industry-aggregate framing |
+| **[[mit-ai-coding-elasticity-substitution-rohanpaul-2026-06-07\|MIT 100K-dev study + FT]]** | **2026-06-07** | **academic-research empirical anchor + verification-tax canonical naming** |
+
+**The topic ascends from practitioner-content layer to academic-research empirical layer**: prior 7 surfaces were practitioner-content (Levie, Sankar, cyb3rops, kasra), public-incumbent (Uber-Macdonald, Uber-cap), mainstream-press (TechCrunch × 2, FT), and first-party-vendor (Anthropic Institute, Daniela Amodei). MIT study + Chen Avnery framing add the **academic-research empirical + verification-tax canonical-naming** layers.
+
+**Pairs with [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn synthesis]] cost-locus framing**: Van Horn's *"the loop, not the model, is now the expensive part"* (cost-locus shift to loop) + Chen Avnery's *"verification tax"* (cost-locus shift to verification step) = **first wiki-captured 2-vector cost-locus-shift framing for AI-coding-economics** in 1 week.
+
+**Verification-pending**: MIT paper primary (papers.ssrn.com/sol3/papers.cfm?abstract_id=6859839); FT piece primary (paywalled; ft.com/content/8e9ae7a4-7209-4e2c-aa36-f3af77d6ce1f); specific elasticity-of-substitution model specification + sample-period dates + per-generation tool identification.
+
+## Operator-Side Counter-Framing: "Automate Outcomes, Not Tasks" (Vexo200 via 0xchromium, 2026-06-08)
+
+In comments to [[0xchromium-claude-cowork-workflows-guide-2026-06-04|0xchromium's *How to Build Claude Workflows That Run Without You*]], Vexo200 (2026-06-08) supplies the **first wiki-captured operator-side counter-framing to task-automation-as-default**:
+
+> *"Most AI workflows fail because they automate tasks, not outcomes. The real value comes when the system can filter, prioritize, and deliver only what actually needs human attention."*
+
+**Pattern**: the gap-thesis applies to workflow design as well as code-generation — workflows that automate task-completion-volume without filtering for attention-allocation-quality reproduce the AI-ROI-gap at the operator side. Pairs with the *verification tax* framing (MIT/Avnery) at the workflow-design-quality layer: both Avnery and Vexo independently arrive at *the load-bearing primitive is attention-allocation / verification gate, not throughput*.
+
 ## Tracking
 
 - **First wiki-captured public-incumbent-COO AI-ROI admission**: Uber's Andrew Macdonald (2026-05-26, via Zitron / Business Insider). Pattern-watch is for the *second*.
 - **First wiki-captured CEO-self-positioning "100x org" agent-substitution claim**: ClickUp's Zeb Evans (3,000 agents / 22% cut, 2026-05-27). Watch 12-month revenue retention.
 - **First wiki-captured 4-stage AI-coding-hype lifecycle articulation**: cyb3rops (2026-05-26). Track whether the framing gets adopted as a load-bearing rhetorical anchor.
+- **First wiki-captured 0.25-elasticity-of-substitution empirical anchor**: MIT 100K-dev study (2026-06-07). Pattern-watch is for cross-study replication.
+- **First wiki-captured "verification tax" canonical naming**: Chen Avnery (2026-06-08). Pattern-watch is whether the naming gets adopted as a load-bearing rhetorical anchor at the practitioner-content + academic layers.
 - **Berkeley meta-analysis** as foundational citation — primary-fetch worth doing.
 - **NBER w34984 productivity-paradox** as macro-level perception-vs-measurement gap — primary-fetch worth doing.
+- **MIT paper primary** (papers.ssrn.com/sol3/papers.cfm?abstract_id=6859839) — primary-fetch worth doing for methodology + elasticity-model specification.
