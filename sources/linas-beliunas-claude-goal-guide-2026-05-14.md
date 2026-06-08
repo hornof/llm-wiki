@@ -42,6 +42,9 @@ The guide articulates a **3-element formula** for writing `/goal` conditions tha
 
 **First wiki-captured "context rot" framing in the wiki** as a distinct failure mode separate from context-window-overflow. Pairs structurally with [[trq-dynamic-workflows-harness-2026-06-02|Thariq's 3-failure-mode framework]] — *goal drift* is the closest framework-match; *context rot* operates at the same layer but distinct.
 
+> [!contradiction] Contradicts [[bcherny-5-tips-opus-autonomous-2026-06-05]]
+> [[boris-cherny|Boris Cherny]] (2026-06-08 X reply) counters: *"Context rot isn't a thing with 4.8 imo, but curious if that's been your experience also."* Cherny disputes context rot as a load-bearing failure mode for [[claude-opus-4-8|Opus 4.8]] from the Claude Code creator's seat. Resolution-pending — Linas's framing as practitioner-synthesis (May 14) vs Cherny's *imo*-hedged Anthropic-internal counter (June 8). Pattern-watch for additional Anthropic-internal voices weighing in. Note Linas's guide pre-dates Opus 4.8 release (May 28); the framing may apply primarily to pre-4.8 generations.
+
 ### Pairs with Anthropic Dynamic Workflows canonical docs
 
 The [[anthropic-dynamic-workflows-official-docs-2026-06|Anthropic canonical Dynamic Workflows docs]] explicitly recommend *"pair with `/goal` for hard completion requirements"* + *"pair with `/loop` for repeatable workflows."* Linas's guide is the **first wiki-captured operator-side comprehensive canonical guide on `/goal`** — establishes the bidirectional canonical-docs ↔ practitioner-content relationship at the `/goal` primitive layer.
