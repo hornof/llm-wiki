@@ -86,6 +86,31 @@ Open problem: *"Reconciling these tensions inside a single architecture is the d
 - **No reference to [[xai]] Grok Imagine** (2026-06-02 ship, 1 day prior) — possible timing overlap or deliberate omission; pattern-watch is whether World Labs responds to the xAI move in subsequent communications.
 - **No specific deployment metrics for Marble** — number of users, customers, revenue all undisclosed.
 
+## Bloomberg Tech 2nd surface (a16z X amplification, 2026-06-08-clipped)
+
+Fei-Fei Li re-articulates the 3-category framework at **Bloomberg Tech live with @emilychangtv** (same date 2026-06-03; clipped + amplified by @a16z 2026-06-08 — `x.com/a16z/status/2064075116867469550`):
+
+> *"Right now there are three ways of calling world models when it comes to spatial intelligence."*
+>
+> *"One is what I call a renderer, when the model puts beautiful pixels on the screen."*
+>
+> *"Another kind of world model is what we call a planner. That is more for machines, more for robots."*
+>
+> *"The third kind, which I think is the linchpin of the three, is a simulator."*
+>
+> *"A simulator could become a renderer. The simulator could become a planner. But this layer is a huge critical path to unlock spatial intelligence. And that's what World Labs is working on."*
+
+**First wiki-captured Fei-Fei-direct-voice articulation of "simulator could become a renderer / simulator could become a planner" projection-mechanic framing** — the Substack version stated *"a model that masters simulation can project its understanding into pixels for human consumption, and into action predictions for embodied agents"*; the Bloomberg Tech version is the **shorter, more-memetable practitioner-quote version**. **First wiki-captured "linchpin of the three" canonical Fei-Fei-voice phrasing**. 2nd substantive Fei-Fei surface of the taxonomy within the same week (Substack + Bloomberg Tech) confirms the framework as Fei-Fei-canonical-talking-point.
+
+### Practitioner comment-thread reactions (a16z X amplification, 2026-06-08)
+
+- **Sanket Datta (@sanketdattta)**: *"Useful distinction. My only hesitation is that these labels get blurry fast once a system starts doing more than one thing, so the taxonomy helps until people mistake it for fixed boundaries. Curious which overlap creates the most confusion in practice."* **First wiki-captured practitioner-side caveat: taxonomy-helps-until-mistaken-for-fixed-boundaries.**
+- **Roshan (@meta_x_ai)**: *"There is only one world and there should be only one definition of a world model. A model that can simulate both the physical and intelligent world that an average human can't tell the difference...using any of their senses."* **First wiki-captured practitioner-side reductionist counter-framing**: collapse 3-category framing to single Turing-test-style world-model definition. **Counter-position to Fei-Fei's functional-projection framing.**
+- **Ilman Shazhaev (@shzhv13)**: *"The simulator is the interesting part because it turns world models from generate something plausible into reason about what happens next. That's the difference between a visual toy and a real intelligence layer."* **First wiki-captured "visual-toy-vs-real-intelligence-layer" framing** at the renderer-vs-simulator distinction layer. Pairs with Fei-Fei's *"cannot be trusted to design a building or train a robot"* renderer-ceiling framing.
+- **Isabelle E-Z (@IsabelleRLabs)**: *"The renderer-planner-simulator framework is elegant. But building simulators requires R&D investment Canada isn't making. We'll keep losing our talent to places that actually fund this work."* **First wiki-captured Canada-AI-R&D-investment-gap framing** at the simulator-category geographic-talent-flow layer. Pairs with [[junyang-lin|Junyang Lin departure from Alibaba Qwen]] at the **geographic-AI-talent-flow** layer (different direction: Lin China→TBD; Isabelle Canada→TBD).
+
+**Pattern**: the a16z X amplification surfaces **4-distinct practitioner-comment-thread reactions** (caveat / reductionist-counter / visual-toy-vs-intelligence-layer / Canada-talent-flow-gap) — adds practitioner-content register validation + counter-positioning to the Fei-Fei framework.
+
 ## Pages Updated
 
 - [[fei-fei-li]] — latest essay added as Notable Take; the 3-category functional taxonomy framing
