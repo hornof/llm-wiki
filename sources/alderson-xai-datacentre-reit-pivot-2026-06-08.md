@@ -31,7 +31,7 @@ ingested: 2026-06-08
 ### Why this matters
 
 - **Pairs with [[spacex|SpaceX Colossus vertical-integration thesis]]**: xAI's REIT pivot is the **explicit acknowledgment** of the vertical-integration trajectory the wiki has been tracking via the SpaceX-Colossus + xAI-internal frontier-lab vertical-stack. xAI internally is the *anchor tenant*; the external rental business monetizes excess capacity. **First wiki-captured xAI-side public articulation** of the SpaceX-vertical-integration thesis from the consumer side.
-- **Pairs with [[anthropic-xai-colossus-2026-05|Anthropic xAI Colossus capacity contract]]**: the Anthropic + xAI Colossus deal (May 2026; first frontier-lab full-compute outsourcing with non-commercial discretionary clause) is now structurally re-readable as **the early Anthropic-tenant lease at the xAI-REIT**. xAI was building the REIT before publicly framing it.
+- **Pairs with [[willison-anthropic-xai-colossus-2026-05|Anthropic xAI Colossus capacity contract]]**: the Anthropic + xAI Colossus deal (May 2026; first frontier-lab full-compute outsourcing with non-commercial discretionary clause) is now structurally re-readable as **the early Anthropic-tenant lease at the xAI-REIT**. xAI was building the REIT before publicly framing it.
 - **Pairs with [[google-intel-3m-tpus-2028-2026-06-08|Google → Intel 3M TPUs]] (same brief)**: the **substrate-tier is being repriced this week as a competitive surface**. Google bets on Intel-foundry diversification; xAI bets on landlord economics. **First wiki-captured 2-event same-day compute-substrate-layer competitive-positioning cluster.**
 - **Pairs with [[ai-roi-gap]] topic**: if model-superiority is not the moat, then **vendor-side ROI defense at the model-layer is structurally weaker** than the AI-ROI-gap thesis implies. The substrate-layer rental becomes the actual revenue floor — model-side capability is a means-to-occupancy-rate, not an end-in-itself.
 - **Pairs with [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn "the loop is the expensive part"]] cost-locus framing**: Van Horn argues loop-engineering (operator-side) is the new expensive part; Alderson argues datacentre-rental (substrate-side) is the new revenue floor. **Both are first wiki-captured 2026-06 cost-locus / revenue-locus shift framings** — same direction (away from model-layer), distinct points-of-application (operator vs vendor).
@@ -58,7 +58,7 @@ ingested: 2026-06-08
 
 - [[google-intel-3m-tpus-2028-2026-06-08]] — same-day substrate-tier competitive-positioning event
 - [[dwarkesh-sample-efficiency-black-hole-2026-06-08]] — same-day brief; pairs at the *what-matters-next-decade* layer
-- [[anthropic-xai-colossus-2026-05]] — retroactively re-readable as anchor-tenant lease at the xAI-REIT
+- [[willison-anthropic-xai-colossus-2026-05]] — retroactively re-readable as anchor-tenant lease at the xAI-REIT
 - [[google-spacex-920m-monthly-compute-2026-06-05]] — Google-side substrate-tier procurement
 - [[mvanhorn-wtf-is-a-loop-2026-06-07]] — Van Horn loop-cost framing; operator-side cost-locus-shift companion
 - [[spacex]] — substrate-tier monopoly-candidate entity

@@ -8,7 +8,7 @@ ingested: 2026-06-08
 
 ## Summary
 
-(2026-06-08 via [[dailybrief-roundup-2026-06-08|Daily Brief 2026-06-08]] as headline #2) — **Google commits to 3M+ TPUs manufactured by Intel through 2028**; concurrently **Nvidia tests Intel's 18A foundry node**. **First wiki-captured concrete substrate-tier compute supply-chain shift away from pure Nvidia + TSMC dominance**. Pairs structurally with [[spacex|SpaceX Colossus-tier substrate-monopoly thesis]] and [[anthropic-xai-colossus-2026-05|Anthropic xAI Colossus capacity contract]] at the **frontier-AI compute-supply-chain shift** layer. Implies **Intel 18A yield + timeline risk de-risked** at the customer-commitment level. Primary not deeply fetched; Daily Brief framing + Luke-side hot-take + insightful framings are the load-bearing surfaces.
+(2026-06-08 via [[dailybrief-roundup-2026-06-08|Daily Brief 2026-06-08]] as headline #2) — **Google commits to 3M+ TPUs manufactured by Intel through 2028**; concurrently **Nvidia tests Intel's 18A foundry node**. **First wiki-captured concrete substrate-tier compute supply-chain shift away from pure Nvidia + TSMC dominance**. Pairs structurally with [[spacex|SpaceX Colossus-tier substrate-monopoly thesis]] and [[willison-anthropic-xai-colossus-2026-05|Anthropic xAI Colossus capacity contract]] at the **frontier-AI compute-supply-chain shift** layer. Implies **Intel 18A yield + timeline risk de-risked** at the customer-commitment level. Primary not deeply fetched; Daily Brief framing + Luke-side hot-take + insightful framings are the load-bearing surfaces.
 
 ## Key Claims / Takeaways
 
@@ -33,7 +33,7 @@ ingested: 2026-06-08
 - **Substrate-tier compute supply-chain monopoly thesis disrupted**: [[spacex|SpaceX Colossus]] + Nvidia + TSMC has been the wiki-tracked substrate-tier monopoly trajectory. Google → Intel 3M TPU commit + Nvidia testing Intel 18A node = **first wiki-captured concrete diversification event** at the foundry layer.
 - **Process-node geography shift**: Intel 18A is **US-based foundry** capability; TSMC is Taiwan-based. The Google + Nvidia 18A-customer signal aligns with US-policy-side semiconductor-onshoring narratives. Pairs with [[trump-narrower-ai-eo-2026-06-02|Trump narrower AI EO]] + [[house-draft-federal-ai-preemption-bill-2026-06-04|House federal-AI-preemption bill]] at the geographic-substrate-policy layer.
 - **Pairs with [[alderson-xai-datacentre-reit-pivot-2026-06-08|xAI REIT pivot]]** (same brief): the **compute-substrate layer is being repriced this week** as a competitive surface. Google bets on Intel-foundry diversification; xAI bets on datacentre-rental landlord economics. **First wiki-captured 2-event same-day compute-substrate-layer competitive-positioning cluster.**
-- **Pairs with [[anthropic-xai-colossus-2026-05|Anthropic xAI Colossus capacity contract]] + [[google-spacex-920m-monthly-compute-2026-06-05|Google → SpaceX $920M/mo compute deal]]**: Google is **diversifying both upstream (Intel-foundry) and downstream (SpaceX-compute)** simultaneously. The pattern: vendor-tier players (Google specifically) are *de-risking the Nvidia + TSMC monopoly position* across multiple time-horizons (2026 SpaceX + 2028 Intel).
+- **Pairs with [[willison-anthropic-xai-colossus-2026-05|Anthropic xAI Colossus capacity contract]] + [[google-spacex-920m-monthly-compute-2026-06-05|Google → SpaceX $920M/mo compute deal]]**: Google is **diversifying both upstream (Intel-foundry) and downstream (SpaceX-compute)** simultaneously. The pattern: vendor-tier players (Google specifically) are *de-risking the Nvidia + TSMC monopoly position* across multiple time-horizons (2026 SpaceX + 2028 Intel).
 - **3M+ TPU scale**: comparable in magnitude to Anthropic's xAI Colossus capacity contract. **First wiki-captured concrete 3M-unit-scale TPU multi-year procurement number** at the customer-commit level.
 
 ### Cross-cutting framings
@@ -51,14 +51,14 @@ ingested: 2026-06-08
 - [[companies/google]] — entity-page candidate (currently dead-link in wiki); first substantive Google-as-substrate-procurement-actor wiki surface
 - [[companies/intel]] — entity-page candidate; first substantive Intel-as-foundry-customer-target wiki surface; 18A node-readiness signal
 - [[spacex]] — substrate-tier monopoly thesis: Google diversification adds counter-pressure
-- [[anthropic-xai-colossus-2026-05]] — back-link for compute-supply-chain context
+- [[willison-anthropic-xai-colossus-2026-05]] — back-link for compute-supply-chain context
 
 ## Adjacent sources
 
 - [[alderson-xai-datacentre-reit-pivot-2026-06-08]] — same-day substrate-tier competitive-positioning event
 - [[dwarkesh-sample-efficiency-black-hole-2026-06-08]] — same-day brief; 2-vector frontier-AI-scaling-bottleneck cluster
 - [[google-spacex-920m-monthly-compute-2026-06-05]] — Google downstream substrate-diversification (compute-tier)
-- [[anthropic-xai-colossus-2026-05]] — Anthropic substrate-tier capacity contract
+- [[willison-anthropic-xai-colossus-2026-05]] — Anthropic substrate-tier capacity contract
 - [[spacex]] — substrate-tier monopoly-candidate entity
 - [[trump-narrower-ai-eo-2026-06-02]] — US-policy-side substrate-onshoring framing
 - [[dailybrief-roundup-2026-06-08]] — brief surfacing this as headline #2
