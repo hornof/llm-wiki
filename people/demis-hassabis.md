@@ -3,7 +3,7 @@ name: Demis Hassabis
 type: person
 affiliation: Google DeepMind (CEO)
 signal_sources: [twitter, academic, conference, video]
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 ## Who They Are
@@ -33,6 +33,7 @@ Building toward AGI at Google DeepMind, with an explicit 2030 target. Simultaneo
 - **Agent era**: "We're in the midst of the agent era now." Recommends building a precise tool first, crossing to agency/consciousness questions as a second step — [[hassabis-deepmind-alphafold-agi]]
 - **No.1 application of AI**: "I've always believed the No.1 application of AI should be to improve human health. That work started with AlphaFold, and now at @IsomorphicLabs with the mission to reimagine drug discovery and one day solve all disease! We are turbocharging that goal with $2.1B in new funding." — X, 2026-05-15, on the Isomorphic Labs Series B — [[isomorphic-labs-series-b-2026-05-16]]
 - **AGI 2030 ± 1 year + "new human era" (2026-06-04 Stanford GSB fireside)**: *"Maybe 2030, plus or minus a year, which is astounding to think, really. I think that will be such an enormous transformative technology; it's gonna effectively be a new human era."* **First wiki-captured Hassabis-side quantitative AGI-timeline anchor with ±1 year confidence interval**. Equates AGI arrival to *"the singularity"* + invokes *"post-scarcity world"* framing. Companion: Google I/O *"we will realize that we were standing in the foothills of the singularity."* Calls on humanities + STEM students to *"lean in"* to the technology. *"Society needs to hear that because we don't have long to prepare for what that means."* — [[businessinsider-hassabis-agi-2030-stanford-2026-06-04]]
+- **"One person who understands AI will outperform an entire startup team"** (surfaced via [[spectnfa-hassabis-ai-infrastructure-vs-calculator-2026-06-06|@spectnfa amplification 2026-06-06]]; **primary venue verification-pending** — quote attributed but full source not yet confirmed). **First wiki-captured Hassabis "one-person-outperforms-startup-team" framing** at the AI-leverage-at-individual-scale layer. Anchors @spectnfa's 90/10 AI-infrastructure-vs-calculator framing + the *"replaced by people who turned AI into infrastructure"* canonical coinage. Pairs structurally with [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08|Greg Isenberg "everyone is a manager now"]] + [[andrewng-ai-fde-vs-ai-engineer-2026-06-01|Ng's 5 specialist-role predictions]] at the **7-surface engineering-role-shift convergence** layer. — [[spectnfa-hassabis-ai-infrastructure-vs-calculator-2026-06-06]]
 
 ## Where to Follow
 - Twitter/X: @demishassabis
