@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-06-04
+last_updated: 2026-06-09
 ---
 
 ## What It Is
@@ -64,8 +64,27 @@ Pairs structurally with [[anthropic-mythos-critical-infrastructure-15-countries-
 
 The 16-hour autonomous-work duration confirms Mythos Preview as the **first wiki-captured frontier model operating beyond the METR measurement-ceiling** — pattern-watch is what new METR task-sets get built to measure beyond the ceiling.
 
+## Mythos 5 Public-Counterpart Ship (2026-06-09): Claude Fable 5
+
+Per [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] (2026-06-09): Anthropic ships **[[claude-fable-5|Claude Fable 5]]** as the **first publicly-accessible Mythos-class frontier model**. Companion **System Card: Claude Fable 5 and Claude Mythos 5** ([PDF](https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf)) shipped same day as primary transparency artifact.
+
+**First wiki-captured Anthropic 2-tier-naming-convention articulation at the frontier-tier**:
+
+| Tier | Name | Access |
+|---|---|---|
+| **Internal / safety-restricted** | **Mythos 5** | Anthropic-internal + select-access (continues Project Glasswing + Mozilla-preview lineage) |
+| **Public-accessible Mythos-class** | [[claude-fable-5\|Fable 5]] | Public via Anthropic API + Claude.ai + dev surfaces |
+
+**Pattern**: Mythos = frontier-tier internal designation; Fable = public-accessible variant of the same class. Resolves the prior "Mythos naming convention" open question — Mythos is now confirmed as the **safety-restricted-internal-tier** designation, with Fable as its **public-counterpart**.
+
+**Concurrent silent-restriction on Fable 5**: per Digg framing, Anthropic *"silently restricts Claude Fable 5 performance when detecting frontier LLM development tasks"* (0.03% of overall traffic). **First wiki-captured frontier-lab concrete "silently-restrict-on-detected-frontier-LLM-development-tasks" event** — generalizes the selective-deployment pattern from access-tier (Mythos to-vetted-customers-only) to **task-tier** (Fable to-public-but-degraded-on-specific-tasks).
+
+**Anthropic narrative-tension**: launch comes 5 days after [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute RSI risk publication]] (Jun 4) — **first wiki-captured frontier-lab "warning-AI-too-dangerous + ship-most-powerful-model-publicly" 5-day-gap event**. Vendor-side simultaneous safety-narrative-articulation + capability-deployment.
+
 ## Resources
 
+- [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] — Mythos 5 + Fable 5 public-launch source; System Card; silent-restriction; Taelin benchmark-skepticism
+- [[claude-fable-5]] — public-counterpart model page
 - [[willison-firefox-claude-mythos-2026-05]] — Mozilla / Firefox security partnership; production-grade existence proof
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic interpretability research using Mythos
 - [[willison-code-w-claude-2026]] — Code w/ Claude 2026 event coverage; Mythos surfaced separately from Opus 4.7 announcement
