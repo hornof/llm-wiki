@@ -128,6 +128,7 @@
 - [[nando-de-freitas]] — Microsoft VP of AI (ex-DeepMind RL lead); unified continual interactive causal-agent training proposal to replace SFT+RLHF pipelines (June 2026); 3rd-vendor entrant in 3-vendor 4-day post-training-methodology debate
 - [[dan-jeffries]] — independent AI-skepticism voice on X; Time + Multiplicity bottleneck framing for RSI; *"the recursive self-improvement loop hits a wall because of reality"* critique of Anthropic Institute publication; LeCun-amplified (June 2026)
 - [[0x-rody]] — independent practitioner-content register voice (X: @0x_rody); Claude Code slash-command + subagent canonical-starter-libraries; shared Telegram channel with [[zodchii]] (verification-pending same person); 2nd substantive surface confirms (June 2026)
+- [[victor-taelin]] — independent open-source creator (HVM Haskell-derived runtime + type system); concrete-incident-reporter + frontier-model-benchmark-skeptic voice; *"four independent agent teams all found the same escape hatch"* (GPT-5.5 cross-team test-bypass) + *"benchmarks as marketing"* (Fable 5 / Mythos 5 dismissal); 2-surface threshold confirmed (May–June 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
