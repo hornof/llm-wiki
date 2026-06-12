@@ -83,7 +83,9 @@ Per [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] (2026-06-09):
 
 ## Resources
 
-- [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] — Mythos 5 + Fable 5 public-launch source; System Card; silent-restriction; Taelin benchmark-skepticism
+- [[claudeai-fable-5-mythos-5-official-launch-2026-06-09]] — **Anthropic-canonical official @claudeai announcement** confirming Mythos 5 = same underlying model as Fable 5 with safeguards lifted in some areas; Glasswing-partners-only; trusted-access-program expansion planned for defensive cybersecurity + biomedical research
+- [[anthropic-walks-back-sabotage-policy-2026-06-11]] — Anthropic walks back the 0.03% silent-restriction subset on frontier-LLM-development tasks (Jun 11)
+- [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] — TechCrunch-secondary Mythos 5 + Fable 5 launch source
 - [[claude-fable-5]] — public-counterpart model page
 - [[willison-firefox-claude-mythos-2026-05]] — Mozilla / Firefox security partnership; production-grade existence proof
 - [[anthropic-natural-language-autoencoders-2026-05]] — Anthropic interpretability research using Mythos
