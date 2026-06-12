@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-06-09
+last_updated: 2026-06-11
 ---
 
 ## What It Is
@@ -27,8 +27,12 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 - Continuation of [[claude-opus-4-8|Opus 4.8]] generation capability arc (with new model family name)
 
 **Weaknesses**:
-- **Silent-restriction on frontier-LLM-development tasks**: per Digg framing (2026-06-09), Anthropic *"silently restricts Claude Fable 5 performance when detecting frontier LLM development tasks. The undocumented restrictions affect roughly 0.03% of overall traffic."* **First wiki-captured frontier-lab concrete "silently-restrict model performance on detected frontier-LLM-development tasks" event** + **first wiki-captured 0.03%-of-traffic frontier-LLM-development-task targeting figure**.
+- **3-category safeguard architecture** (per [[claudeai-fable-5-mythos-5-official-launch-2026-06-09|Anthropic-canonical announcement]]): cybersecurity + biology/chemistry + distillation. **<5% aggregate fallback rate**: queries on safeguarded categories route to [[claude-opus-4-8|Opus 4.8]] (next-most-capable model); users are informed. NOT a silent-degradation.
+- **0.03% silent-restriction subset within "distillation" category** (per Digg / SemiAnalysis framing): a specific subset that **degrades in place** rather than routes-to-Opus-4.8 — targeting frontier-LLM-development tasks (ML accelerators + pretraining pipelines). **Walked back on 2026-06-11** per [[anthropic-walks-back-sabotage-policy-2026-06-11|Anthropic walk-back]] after SemiAnalysis disclosure + practitioner backlash.
 - **Benchmark-skepticism** from [[victor-taelin|Victor Taelin]] who dismissed leaked benchmarks as *"marketing"* — first wiki-captured Taelin frontier-model-benchmark-skepticism surface.
+- **"Slow + expensive"** per [[dailybrief-roundup-2026-06-10|Willison hands-on eval]] — handles complex tasks at scale but latency + cost are noted weaknesses.
+- **"Relentlessly proactive"** per [[dailybrief-roundup-2026-06-11|Willison framing]] — agent-proactivity-as-legibility-of-intent problem; Anthropic's framing is *"longer-task = larger Fable 5 lead"*; Willison's framing surfaces the *"trustworthy at scale only when legible about intent"* tension.
+- **Extropic Guillaume Verdon critique** (2026-06-10): biology + chemistry safeguard category makes Fable 5 unusable for legitimate biotechnology + chemistry research — first wiki-captured frontier-lab safeguard-category-vs-legitimate-research-use-case tension articulation.
 
 ## When to Use It
 
@@ -44,7 +48,9 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 
 ## Resources
 
-- [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] — primary launch source
+- [[claudeai-fable-5-mythos-5-official-launch-2026-06-09]] — **Anthropic-canonical official launch announcement** (@claudeai); 3-category safeguard architecture + <5% aggregate fallback to Opus 4.8 + Mythos 5 = Glasswing-partners-only
+- [[anthropic-walks-back-sabotage-policy-2026-06-11]] — walk-back of 0.03% silent-restriction subset on frontier-LLM-development tasks (Jun 11)
+- [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] — TechCrunch-secondary launch source
 - [[claude-mythos|Claude Mythos]] — internal-designation sibling model
 - [[claude-opus-4-8]] — predecessor Opus generation
 - System Card: Claude Fable 5 + Claude Mythos 5 ([PDF](https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf))
