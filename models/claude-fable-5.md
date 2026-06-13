@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-06-11
+last_updated: 2026-06-13
 ---
 
 ## What It Is
@@ -46,9 +46,27 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 - **Taelin (2026-06-09)**: dismissed leaked benchmarks as marketing.
 - **Pattern-watch**: Anthropic + Anthropic-Institute cross-cutting safety + capability narrative — [[anthropic-institute-when-ai-builds-itself-2026-06-04|RSI publication]] (Jun 4) → Fable 5 ship (Jun 9) = **first wiki-captured frontier-lab "warning-AI-too-dangerous + ship-most-powerful-model-publicly" 5-day-gap event**.
 
+## STATUS: Trump-Admin Export Control (2026-06-13)
+
+Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sacks (WH AI Czar) 2026-06-13 announcement]]: **Trump Administration issued export control on Claude Fable 5** following a "highly credible trusted partner" jailbreak disclosure + Dario Amodei refusing USG-safety-request to fix-or-de-deploy. Anthropic blog-post defended jailbreak-not-serious; Sacks: *"It's difficult to fathom how they could claim a jailbreak allowing operability of a cyber weapon could be defined as not 'serious.'"* **Path forward**: Admin's hope: Anthropic remediates → export control lifts → Fable returns to general release.
+
+**Operator-side reaction**: [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|Greg Isenberg "Fable 5 BANNED by the government" + 8-step local-models pivot guide]] (same day). Pattern: vendor-side-export-control event → operator-side-local-models-pivot reaction-cluster (same-day 2-surface canonical).
+
+**Practitioner-experience cluster** (pre-export-control):
+- [[willison-fable-5-relentlessly-proactive-2026-06-11|Willison "relentlessly proactive"]] — Datasette Agent 7-layer-deep autonomous browser-automation composition
+- [[thepremiseofit-fable-5-3-day-review-restrictions-overblown-2026-06-11|ThePremiseOfIt 3-day review]] — *"frighteningly good"* + *"restrictions completely overblown"* on AI-architecture + interpretability research
+- [[minchoi-fable-5-10-wild-examples-2026-06-12|min choi 10 wild community examples]] — WoW clone + Bangalore traffic + Three.js starship Ultracode + Fable-orchestrator-Opus-heavy-reasoning recipe
+
 ## Resources
 
+- [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]] — **Trump-Admin export-control on Fable 5 + Anthropic-USG jailbreak conflict** (June 13 2026)
+- [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]] — operator-side local-models pivot (same-day reaction)
 - [[claudeai-fable-5-mythos-5-official-launch-2026-06-09]] — **Anthropic-canonical official launch announcement** (@claudeai); 3-category safeguard architecture + <5% aggregate fallback to Opus 4.8 + Mythos 5 = Glasswing-partners-only
+- [[anthropic-fable-5-prompting-playbook-2026-06-11]] — Anthropic-canonical prompting playbook + 6-differences + 5-principles + 4-component prompt + /loop syntax + 6-caveats
+- [[0xcodez-fable-5-14-step-self-improving-agent-2026-06-11]] — 14-step practitioner guide + 4-layer compound stack + Anthropic-canonical model-routing matrix + Parameter Golf + Continual Learning Bench 1.0 + 319-page system card + $10/$50/M pricing
+- [[willison-fable-5-relentlessly-proactive-2026-06-11]] — Willison Datasette Agent 7-layer-deep autonomous browser-automation case-study
+- [[thepremiseofit-fable-5-3-day-review-restrictions-overblown-2026-06-11]] — practitioner positive 3-day review + restrictions-overblown counter-take + Fable-consolidates-GPT-5.5 math-research displacement
+- [[minchoi-fable-5-10-wild-examples-2026-06-12]] — community-showcase 10 wild examples
 - [[anthropic-walks-back-sabotage-policy-2026-06-11]] — walk-back of 0.03% silent-restriction subset on frontier-LLM-development tasks (Jun 11)
 - [[anthropic-claude-fable-5-mythos-5-public-launch-2026-06-09]] — TechCrunch-secondary launch source
 - [[claude-mythos|Claude Mythos]] — internal-designation sibling model

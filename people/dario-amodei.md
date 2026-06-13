@@ -3,7 +3,7 @@ name: Dario Amodei
 type: person
 affiliation: Anthropic (co-founder, CEO)
 signal_sources: [blog, podcast, paper]
-last_updated: 2026-05-29
+last_updated: 2026-06-13
 ---
 
 ## Who They Are
@@ -23,6 +23,7 @@ Widely regarded as one of the most consequential AI-safety-and-capability voices
 - ***"Machines of Loving Grace"* (October 2024)** — Anthropic CEO essay laying out the canonical bull case for AI as accelerator of biology, neuroscience, economic development, and governance. Functions as the company's *"why we're building this"* doc. *Not yet ingested as a separate wiki source — primary fetch worth doing.*
 - **Constitutional AI advocacy** — Amodei is the loudest CEO voice for *alignment-by-published-principles*; the approach is the training-layer analog of the [[anthropic-claude-space-to-think-2026-05-28|ad-free surface]] and [[anthropic-claudes-constitution|published Claude Constitution]] trust-as-moat stack.
 - **AI-development pace + safety urgency** — public framing positions Anthropic as racing-but-cautious: capability gaps narrowing fast enough that delay isn't an option, but with explicit safety-research investment to prevent the failure modes Amodei has named publicly.
+- **2026-06-13 — REFUSED USG-safety-request to fix-or-de-deploy Claude Fable 5 jailbreak** ([[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]]): per [[david-sacks|WH AI Czar David Sacks]] thread, a "highly credible trusted partner" of both Anthropic + USG disclosed a Fable 5 guardrail jailbreak; the Trump Administration asked Dario to fix or de-deploy the model; **Dario refused**. Anthropic's blog-post defended the jailbreak as not-serious. Trump Administration responded by **issuing export control on Fable 5**. **First wiki-captured Dario-Amodei-refused-USG-safety-request canonical attribution** — structurally inverts Anthropic's prior wiki-captured safety-first branding (*"Machines of Loving Grace"* + [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute RSI publication]] + [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Anthropic-championed-Mythos-regulation]]). Sacks's framing: *"Anthropic prioritized the continued offering of the consumer model over safety."* **First wiki-captured 5-narrative-event 9-day Anthropic-USG-conflict crisis cluster** anchored by this event. Verification-pending: Dario-direct response to Sacks thread.
 
 ## Where to Follow
 
