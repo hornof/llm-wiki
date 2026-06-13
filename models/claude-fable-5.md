@@ -46,9 +46,17 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 - **Taelin (2026-06-09)**: dismissed leaked benchmarks as marketing.
 - **Pattern-watch**: Anthropic + Anthropic-Institute cross-cutting safety + capability narrative — [[anthropic-institute-when-ai-builds-itself-2026-06-04|RSI publication]] (Jun 4) → Fable 5 ship (Jun 9) = **first wiki-captured frontier-lab "warning-AI-too-dangerous + ship-most-powerful-model-publicly" 5-day-gap event**.
 
-## STATUS: Trump-Admin Export Control (2026-06-13)
+## STATUS: Trump-Admin Export Control (2026-06-13 — globally suspended)
 
-Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sacks (WH AI Czar) 2026-06-13 announcement]]: **Trump Administration issued export control on Claude Fable 5** following a "highly credible trusted partner" jailbreak disclosure + Dario Amodei refusing USG-safety-request to fix-or-de-deploy. Anthropic blog-post defended jailbreak-not-serious; Sacks: *"It's difficult to fathom how they could claim a jailbreak allowing operability of a cyber weapon could be defined as not 'serious.'"* **Path forward**: Admin's hope: Anthropic remediates → export control lifts → Fable returns to general release.
+Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sacks (WH AI Czar) 2026-06-13 announcement]]: **Trump Administration issued export control on Claude Fable 5** following a "highly credible trusted partner" jailbreak disclosure + Dario Amodei refusing USG-safety-request to fix-or-de-deploy.
+
+**Same-day Anthropic-official acknowledgment** ([[anthropic-statement-fable-mythos-access-suspension-2026-06-13]]): global suspension of access to both **Fable 5 + Mythos 5** (extends to Glasswing-partners-tier).
+
+**Trusted-partner identity resolved** ([[wsj-amazon-jassy-anthropic-crackdown-2026-06-13]]): **Amazon CEO Andy Jassy**. First wiki-captured 3-channel Amazon-Anthropic structural-conflict-of-interest (investor + cloud-partner + USG-channel).
+
+**Anthropic's counter-framing** ([[anthropic-disputes-jailbreak-findings-techcrunch-2026-06-12]]): findings are *"previously known minor bugs"* from collaborative Project Glasswing vulnerability testing — Amazon did NOT formally report jailbreaks. Sacks: *"It's difficult to fathom how they could claim a jailbreak allowing operability of a cyber weapon could be defined as not 'serious.'"*
+
+**Path forward**: Admin's hope: Anthropic remediates → export control lifts → Fable returns to general release.
 
 **Operator-side reaction**: [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|Greg Isenberg "Fable 5 BANNED by the government" + 8-step local-models pivot guide]] (same day). Pattern: vendor-side-export-control event → operator-side-local-models-pivot reaction-cluster (same-day 2-surface canonical).
 
