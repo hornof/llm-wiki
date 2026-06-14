@@ -58,7 +58,7 @@ Aggregate of non-headline items from `Daily Briefs/2026-06-11.md`. **Headlines c
 - [[google-deepmind]] — $10M multi-agent safety research funding commitment
 - [[sarah-guo]] — entity-page candidate (single-source defer)
 - [[ona]] — entity-page candidate (single-source defer; OpenAI acquisition target)
-- [[theker]] — entity-page candidate (reconfigurable-factory-robot)
+- `` `[[theker]]` `` — entity-page candidate (reconfigurable-factory-robot; single-source defer pending 2nd surface)
 - [[simon-willison]] — 11th tooling shipment + Fable 5 proactivity framing surface
 - [[loop-engineering]] — agent-proactivity + mid-execution-user-questioning primitives added
 

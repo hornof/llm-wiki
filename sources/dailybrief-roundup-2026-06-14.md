@@ -74,7 +74,7 @@ OpenAI faces **multi-state-attorneys-general investigation** on **ads + health-d
 
 **Synara** pairs structurally with [[zaharia-omnigent-multi-agent-meta-harness-2026-06-13|Zaharia Omnigent]] + [[seelffff|Claude Desktop personal-agent stack]] at the **operator-side multi-provider-parallel-session canonical-architecture** layer. **First wiki-captured operator-side "parallel sessions across multiple AI coding providers" canonical capability articulation**. Pairs with [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|operator-side local-models pivot]] at the **operator-side own-the-substrate canonical-pattern** layer.
 
-**Ponytail** at AI-Score 10/10 articulates **first wiki-captured "one-line stdlib + native solutions" canonical AI-coder discipline-rule**. Pairs with [[concepts/agentic-coding|agentic-coding concept]] at the **agent-plugin-ruleset canonical-pattern** layer.
+**Ponytail** at AI-Score 10/10 articulates **first wiki-captured "one-line stdlib + native solutions" canonical AI-coder discipline-rule**. Pairs with [[agentic-engineering]] at the **agent-plugin-ruleset canonical-pattern** layer.
 
 #### Today on Digg (not in brief, surfaced as context)
 

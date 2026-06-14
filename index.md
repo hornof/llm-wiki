@@ -133,6 +133,10 @@
 - [[david-sacks]] — Trump Administration WH AI & Crypto Czar; load-bearing-administration-side voice; Anthropic-USG conflict + Fable 5 export-control disclosure thread (June 2026)
 - [[elon-musk]] — SpaceX (CEO + Chief Engineer); xAI (founder); Tesla / Neuralink / The Boring Company / X; multi-vertical AI-substrate ownership; structurally load-bearing voice at AI-infrastructure substrate-tier (June 2026)
 - [[satya-nadella]] — Microsoft CEO + Chairman; "frontier ecosystem, not just frontier model" + "human capital + token capital" + "learning loop as new IP of the firm" + "hill climbing machine" canonical framings; 3rd substantive surface (June 2026)
+- [[andy-jassy]] — Amazon CEO; direct-actor in 2026-06-13 Anthropic-USG-export-control event (Sacks "trusted partner" identity resolved); 4 substantive surfaces (June 2026)
+- [[shane-legg]] — Google DeepMind co-founder + Chief AGI Scientist; 4-pathway AGI/superintelligence framework; 5 substantive surfaces (June 2026)
+- [[matei-zaharia]] — Databricks co-founder/CTO; Apache Spark creator; Omnigent meta-harness open-source author (Jun 2026); 6th Loop Engineering canonical voice
+- [[sarah-guo]] — Conviction Capital founder; No Priors podcast co-host; "model labs vs agent labs" + "what's untrainable" canonical framings; 8th Loop Engineering canonical voice candidate (June 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
