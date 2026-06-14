@@ -219,6 +219,9 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
 
 ### Recent ingests
+- [[dailybrief-roundup-2026-06-14]] — 2026-06-14 Daily Brief roundup; 9 re-promoted + 7 net-new items (India sovereignty + Meta-Manus + KPMG + Sarah Guo + Petersson + OpenAI state-AG + synara/ponytail)
+- [[india-meta-manus-geopolitical-ai-fallout-2026-06-13]] — 2-event 24-hour geopolitical-AI fallout cluster; India sovereign-LLM debate + Meta-Manus $2B unwind; extends Anthropic-USG-conflict cluster to 9th narrative-event
+- [[kpmg-pulls-ai-report-hallucinations-2026-06-13]] — first wiki-captured Big-4-consultancy public AI-output-retraction event; "AI works; the process doesn't" canonical framing
 - [[how-to-learn-claude-infographic]] — practitioner infographic mapping Claude's 9 interaction modes with audience segmentation (April 2026)
 - [[karpathy-vibe-coding-agentic-engineering]] — Karpathy on Software 3.0, vibe coding, agentic engineering, jagged intelligence (April 2026)
 - [[hassabis-deepmind-alphafold-agi]] — Hassabis on DeepMind founding, AlphaFold, AGI by 2030, AI for science (April 2026)
