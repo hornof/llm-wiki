@@ -58,7 +58,7 @@ The brief's hot-take framing articulates *"Not a technical problem. A judgment p
 ## Pages Updated
 
 - [[topics/ai-roi-gap]] — first wiki-captured Big-4 public-retraction AI-failure-event evidence-anchor
-- [[concepts/hallucination]] — entity-page candidate (canonical AI failure mode; KPMG = first Big-4 retraction event)
+- `` `[[concepts/hallucination]]` `` — entity-page candidate (canonical AI failure mode; KPMG = first Big-4 retraction event; defer until 2nd substantive concept-focus surface)
 - [[kpmg]] — entity-page candidate (single-surface defer; Big-4 firm; first wiki-captured KPMG AI-output-retraction event)
 - [[anthropic-enterprise-ai-services-company-2026-05]] — paired context (enterprise-AI-services positioning vs Big-4 AI-failure events)
 - [[dailybrief-roundup-2026-06-14]] — back-link
