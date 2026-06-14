@@ -101,10 +101,19 @@ Per Sacks point #8: *"Those trying to misdirect and tie this action to the prior
 - [[anthropic-fable-5-prompting-playbook-2026-06-11]] — Anthropic-canonical playbook (now affected by export control)
 - [[anthropic-47b-amodei-techcrunch-pre-ipo-2026-06-04]] — Daniela Amodei pre-IPO (DoW pre-IPO-valuation reference context)
 
+## Same-day reconciliation cluster (resolved post-publication)
+
+Per same-day [[wsj-amazon-jassy-anthropic-crackdown-2026-06-13|WSJ disclosure]] + [[anthropic-disputes-jailbreak-findings-techcrunch-2026-06-12|TechCrunch + commentator clarification cluster]]:
+
+- **"Trusted partner" identity resolved**: **Amazon CEO Andy Jassy** (per WSJ). Amazon = Anthropic's largest single investor + AWS Bedrock cloud-distribution partner = simultaneously adversarial-USG-channel-against-Anthropic. **First wiki-captured 3-channel Amazon-Anthropic structural-conflict-of-interest** (investor + cloud-partner + USG-channel).
+- **Jailbreak-disclosure mechanism modified**: commentators clarify Amazon did NOT formally report jailbreaks; finding came from **collaborative Project Glasswing vulnerability tests**. **First wiki-captured Project-Glasswing-as-collaborative-vulnerability-testing-partnership confirmation event**.
+- **Anthropic-side characterization**: *"previously known minor bugs"* (per [[anthropic-disputes-jailbreak-findings-techcrunch-2026-06-12|TechCrunch + commentator clarification]]). Directly contradicts Sacks's *"cyber weapon"* framing.
+- **Anthropic-direct response confirmed**: [[anthropic-statement-fable-mythos-access-suspension-2026-06-13|same-day Anthropic official statement]] confirms global suspension of both Fable 5 + Mythos 5 (extends Sacks's Fable-5-only framing to **also include Mythos 5 Glasswing-tier**).
+- **8-narrative-event 10-day Anthropic-USG-conflict crisis cluster** now articulated (extends prior 5-event cluster with 3 same-day Jun 13 reconciliation events).
+
 ## Verification-pending
 
 - Anthropic-side blog-post primary defending jailbreak-not-serious framing
-- Specific "trusted partner" identity (could be DoW + Anthropic shared partner; verification-pending)
 - Specific jailbreak technical details + scope
 - Specific export-control implementation details: scope, geography, customer-classes, effective date
 - Specific Dario-Amodei direct response to Sacks thread
