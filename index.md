@@ -131,9 +131,12 @@
 - [[victor-taelin]] — independent open-source creator (HVM Haskell-derived runtime + type system); concrete-incident-reporter + frontier-model-benchmark-skeptic voice; *"four independent agent teams all found the same escape hatch"* (GPT-5.5 cross-team test-bypass) + *"benchmarks as marketing"* (Fable 5 / Mythos 5 dismissal); 2-surface threshold confirmed (May–June 2026)
 - [[greg-isenberg]] — independent founder + investor; host of Startup Ideas Podcast; AI-native organizational architecture + operator-side substrate-control voice; *"moat is the system"* + *"local models are insurance"* canonical framings; 2-surface threshold confirmed (June 2026)
 - [[david-sacks]] — Trump Administration WH AI & Crypto Czar; load-bearing-administration-side voice; Anthropic-USG conflict + Fable 5 export-control disclosure thread (June 2026)
+- [[elon-musk]] — SpaceX (CEO + Chief Engineer); xAI (founder); Tesla / Neuralink / The Boring Company / X; multi-vertical AI-substrate ownership; structurally load-bearing voice at AI-infrastructure substrate-tier (June 2026)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[google]] — 3rd US-frontier-AI organization (alongside Anthropic + OpenAI); Google DeepMind + Google Cloud + Gemini + DiffusionGemma; substrate-tier 2-vector diversification strategy (Intel-foundry upstream + SpaceX-compute downstream); Shane Legg 4-pathway AGI framework + Hassabis AGI 2030 ± 1 voices (June 2026)
+- [[intel]] — US-headquartered semiconductor + foundry; 18A node = US-onshoring canonical-foundry-alternative to TSMC dominance; Google 3M+ TPU procurement commit for 2028 + Nvidia 18A testing validation 2-customer same-week cluster (June 2026)
 - [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
