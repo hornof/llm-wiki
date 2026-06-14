@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-06-04
+last_updated: 2026-06-14
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ Meta (formerly Facebook) is a US technology company operating Facebook, Instagra
 ## Recent Activity
 
 - **2026-06-01: Meta AI Instagram-account exfiltration incident** — [[simon-willison|Willison]] documents *hackers simply asked Meta AI to give them access to high-profile Instagram accounts — and it worked*. **3rd cross-vendor agentic-exfiltration incident in 8 days** (Microsoft Copilot Cowork May 26 → ChatGPT-Sheets May 30 → Meta AI Jun 01). **First wiki-captured Meta-side production-AI access-control failure**. Brief framing: *"production AI customer-support systems have trivial access-control vulnerabilities — real security incident, not theoretical."* — [[willison-meta-ai-instagram-exfiltration-2026-06-01]]
+- **2026-06-13: Meta moves to unwind $2B Manus deal after Beijing's demand** — TechCrunch reports (via [[dailybrief-roundup-2026-06-14|Daily Brief 2026-06-14]] *Worth a Skim*) Meta moving to unwind ~$2B Manus arrangement following explicit Beijing-side demand. **First wiki-captured Meta-China state-action AI-deal-unwinding event**. **First wiki-captured 2-vector same-day US-side-export-control + China-side-divestiture-pressure paired geopolitical-AI-event** (same-day Anthropic Fable-Mythos suspension + Meta-Manus unwind). Brief framing: *"Geopolitical de-risking of AI compute/hardware — precedent for forced divestitures. Long-term signal: any founder thesis touching China-adjacent supply chains faces regulatory unpredictability."* — [[india-meta-manus-geopolitical-ai-fallout-2026-06-13]]
 - **2026-06-02: Meta Business Agent global rollout on WhatsApp + Instagram** — Meta launches Meta Business Agent **globally** on WhatsApp and Instagram to automate customer service, scheduling, and sales. Rollout follows a two-year pilot in select countries. **First wiki-captured Meta-side production-AI agent global-deployment event**. **Pairs structurally with the Jun 01 Instagram exfiltration incident** — *same-week paired Meta-AI scaling-up + safety-incident exposure*. Pattern-watch: does the global rollout proceed despite the same-week access-control-failure surfacing, or does deployment scope contract in response? — [[dailybrief-roundup-2026-06-02-brief]]
 
 ## Cross-cutting framings
