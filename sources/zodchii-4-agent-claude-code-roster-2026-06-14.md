@@ -29,7 +29,7 @@ ingested: 2026-06-15
   - [[zaharia-omnigent-multi-agent-meta-harness-2026-06-13|Zaharia Omnigent]] = governance-tier meta-harness; Zodchii = role-specialization-tier team-architecture (operator-side direct-articulation)
   - [[bcherny-5-tips-opus-autonomous-2026-06-05|Cherny canonical recipe]] — Cherny: vendor-side canonical primitive; Zodchii: operator-side canonical recipe
 - **First wiki-captured "spec-first-tester-not-implementation-first-tester" canonical agentic-testing discipline-rule**: *"You let the tester read the implementation first. Tests then mirror the code instead of the spec, and they pass even when the logic is wrong. Spec first, always."* — addresses the **mirror-the-code-not-the-spec test-failure-mode** that plagues naive AI-coding workflows. **First wiki-captured operator-side canonical-discipline-rule on AI-coding-test-architecture**.
-- **First wiki-captured "coach orchestrator as slash-command not subagent" canonical architecture pattern**: the orchestrator is a `.claude/commands/ship.md` slash-command (not a subagent) — distinguishes **user-facing-task-trigger** (slash-command) from **agent-as-tool** (subagent). Pairs with [[concepts/skill-md|SKILL.md pattern]] + [[claude-agent-sdk|Claude Agent SDK]] at the **user-trigger-vs-agent-as-tool canonical-distinction** layer.
+- **First wiki-captured "coach orchestrator as slash-command not subagent" canonical architecture pattern**: the orchestrator is a `.claude/commands/ship.md` slash-command (not a subagent) — distinguishes **user-facing-task-trigger** (slash-command) from **agent-as-tool** (subagent). Pairs with [[writing-claude-code-skills|SKILL.md pattern]] + [[claude-agent-sdk|Claude Agent SDK]] at the **user-trigger-vs-agent-as-tool canonical-distinction** layer.
 - **First wiki-captured "stay-in-your-lane single-role agent" canonical sports-team-analogy framing for role-specialization**: Knicks-analogy frames role-specialization as **load-bearing canonical-discipline rule** rather than mere optimization. *"The tighter the tools, the sharper the role."*
 
 ### The 4 common-mistakes canonical articulation
@@ -52,7 +52,7 @@ Zodchii articulates **specific setup timing**:
 - **3 minutes**: run `/ship` on real task
 - **Total**: 10 minutes
 
-**First wiki-captured "10-minute Claude Code 4-agent roster setup" canonical timing-anchor**. Pairs structurally with [[you-dont-need-100-hours-claude-7-setups|prior 100-hours-claude practitioner-content]] at the **practitioner-content register canonical-timing-anchor** layer.
+**First wiki-captured "10-minute Claude Code 4-agent roster setup" canonical timing-anchor**. Pairs structurally with `` `[[you-dont-need-100-hours-claude-7-setups]]` `` prior 100-hours-claude practitioner-content (not yet ingested) at the **practitioner-content register canonical-timing-anchor** layer.
 
 ### Cross-cutting framings
 
@@ -77,7 +77,7 @@ Zodchii articulates **specific setup timing**:
 - [[zodchiii-anatomy-perfect-skill]] — cross-reference Zodchii canonical practitioner-content voice
 - [[zodchii-opus-4-8-setup-guide-2026-05-29]] — cross-reference Zodchii canonical practitioner-content voice
 - [[concepts/agentic-engineering]] — 4-anti-pattern canonical-discipline articulation added
-- [[concepts/skill-md]] — coach-as-slash-command canonical-architecture-pattern noted
+- [[writing-claude-code-skills]] — coach-as-slash-command canonical-architecture-pattern noted (SKILL.md pattern tutorial)
 - [[bcherny-5-tips-opus-autonomous-2026-06-05]] — paired vendor-side canonical-primitive context
 
 ## Adjacent sources

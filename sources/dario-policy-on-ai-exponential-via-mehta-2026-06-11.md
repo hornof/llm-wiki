@@ -92,7 +92,7 @@ Mehta congratulates Dario on *"confidential S-1 filing last week, targeting a pu
 
 - [[dario-amodei]] — 2026-06-11 "Policy on the AI Exponential" essay added; Treebeard-problem framing; 3-part canonical policy-call; "self-regulation is over" direct-voice articulation
 - [[anthropic]] — Jun 11 Dario policy essay + legislative-proposal + job-displacement-policy-framework + substantial-financial-backing announcements; Jun 11 same-day pair with walks-back sabotage policy
-- [[models/claude-mythos-5]] — Dario's direct-voice self-articulation: *"proof that frontier models now pose real risks to critical infrastructure and national security"*
+- [[claude-mythos]] — Dario's direct-voice self-articulation: *"proof that frontier models now pose real risks to critical infrastructure and national security"*
 - [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]] — timeline-reframing: Sacks framing was Dario's framing 2 days earlier
 - [[wsj-amazon-jassy-anthropic-crackdown-2026-06-13]] — timeline-reframing: Jassy didn't fabricate framing; Dario articulated it 2 days earlier
 - [[anthropic-walks-back-sabotage-policy-2026-06-11]] — Jun 11 same-day pair with Dario policy-essay external
