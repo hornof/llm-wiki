@@ -3,7 +3,7 @@ name: zodchii
 type: person
 affiliation: independent; Telegram channel `t.me/zodchixquant`
 signal_sources: [twitter, telegram]
-last_updated: 2026-05-31
+last_updated: 2026-06-15
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ last_updated: 2026-05-31
 
 ## Their Current Focus
 
+- **2026-06-14: 4-agent Claude Code roster (writer + reviewer + tester + coach) via Knicks-team analogy** ([[zodchii-4-agent-claude-code-roster-2026-06-14]]) — **4th substantive surface**. Extends prior 4-agent pipeline from sequential-pipeline to parallel-fanout role-specialization team-architecture. **First wiki-captured "coach orchestrator as slash-command not subagent" canonical architecture pattern**. **First wiki-captured "spec-first-tester-not-implementation-first-tester" canonical agentic-testing discipline-rule**. **First wiki-captured "blind-reviewer" canonical discipline articulation**. **First wiki-captured "tool-restriction-as-role-sharpening" canonical discipline-rule**. **First wiki-captured "shared-brief-as-agent-drift-prevention" canonical articulation**. 10-minute setup canonical-timing-anchor. *"Stay in your lane"* + Knicks-team analogy as sports-team-discipline framing.
 - **Opus 4.8 cost-optimization discipline** — per-task model+effort routing matrix for ~50% monthly savings ([[zodchii-opus-4-8-setup-guide-2026-05-29]])
 - **4-agent pipeline architecture** for autonomous feature-shipping — Planner / Coder / Tester / Reviewer with handoff-files + orchestrator slash command ([[zodchii-4-agent-pipeline-2026-05-30]])
 - **Teamly product surface** — managed cloud hosting for AI agents at $29/mo for 5 agents (paid promotion / partnership context in the pipeline post)
@@ -34,7 +35,9 @@ last_updated: 2026-05-31
 
 ## Resources
 
+- [[zodchii-4-agent-claude-code-roster-2026-06-14]] — 4-agent Claude Code roster (writer + reviewer + tester + coach) via Knicks-team analogy; 4 canonical-discipline-rules + 10-minute setup
 - [[zodchii-opus-4-8-setup-guide-2026-05-29]] — Opus 4.8 setup guide; 5-level effort menu; --max-budget-usd; env vars; settings.json template; routing matrix → ~50% monthly savings
 - [[zodchii-4-agent-pipeline-2026-05-30]] — 4-agent pipeline (Planner/Coder/Tester/Reviewer) + canonical `.claude/agents/*.md` layout + Teamly product placement
+- [[zodchiii-anatomy-perfect-skill]] — reverse-engineered anatomy-of-perfect-skill from 100 examples; canonical SKILL.md pattern
 - [[claude-md-pattern]] — pipeline + agent definitions added as 9th+ practitioner-validation surface
 - [[ai-roi-gap]] — first wiki-captured practitioner-content routing-discipline answer to the gap

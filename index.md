@@ -223,6 +223,10 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
 
 ### Recent ingests
+- [[anthropic-usg-conflict-10th-narrative-event-cluster-2026-06-15]] — 4 Jun 15 events extending Anthropic-USG-conflict cluster to 13th narrative-event (cybersecurity vets protest + Axios "They screwed us" personality-clashes + Stratechery safety-superpower + Pleias Europe-ecosystem-deficiencies)
+- [[salesforce-fin-ai-3-6b-acquisition-2026-06-15]] — first wiki-captured tier-1 enterprise-SaaS-incumbent agentic-customer-service acquisition event; $3.6B B2B-AI-consolidation price-point anchor
+- [[zodchii-4-agent-claude-code-roster-2026-06-14]] — 4-agent Claude Code roster (writer + reviewer + tester + coach) via Knicks-team analogy; 4 canonical-discipline-rules + 10-minute setup; 4th Zodchii substantive surface
+- [[dailybrief-roundup-2026-06-15]] — 2026-06-15 Daily Brief roundup; 4 net-new + 9 worth-a-skim + 5 today-on-Digg items
 - [[dario-policy-on-ai-exponential-via-mehta-2026-06-11]] — Dario "Policy on the AI Exponential" essay (Jun 11); mandatory third-party frontier-model testing + legislative proposal + job-displacement policy framework; STRUCTURAL TIMELINE REFRAMING — Dario articulated USG-export-control framing 2 days BEFORE the Jun 13 Sacks action
 - [[levie-nadella-cognitive-loop-thread-2026-06-14]] — Aaron Levie validates Nadella frontier-ecosystem thesis (2nd Levie surface); Alien "learning-loop-physical-location-test" reformulation; Burchard "learning loops are entirely broken" dissent; Kasselman labor-rights framing
 - [[sudip-rokaya-simi-explainer-2026-06-15]] — Sudip Rokaya (YC P26) tests Nadella "cognitive loop" thesis via Simi explainer-video generator; Ralph Miller MSFT-defensive-positioning skeptic comment
