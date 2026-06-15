@@ -223,6 +223,9 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
 
 ### Recent ingests
+- [[dario-policy-on-ai-exponential-via-mehta-2026-06-11]] — Dario "Policy on the AI Exponential" essay (Jun 11); mandatory third-party frontier-model testing + legislative proposal + job-displacement policy framework; STRUCTURAL TIMELINE REFRAMING — Dario articulated USG-export-control framing 2 days BEFORE the Jun 13 Sacks action
+- [[levie-nadella-cognitive-loop-thread-2026-06-14]] — Aaron Levie validates Nadella frontier-ecosystem thesis (2nd Levie surface); Alien "learning-loop-physical-location-test" reformulation; Burchard "learning loops are entirely broken" dissent; Kasselman labor-rights framing
+- [[sudip-rokaya-simi-explainer-2026-06-15]] — Sudip Rokaya (YC P26) tests Nadella "cognitive loop" thesis via Simi explainer-video generator; Ralph Miller MSFT-defensive-positioning skeptic comment
 - [[dailybrief-roundup-2026-06-14]] — 2026-06-14 Daily Brief roundup; 9 re-promoted + 7 net-new items (India sovereignty + Meta-Manus + KPMG + Sarah Guo + Petersson + OpenAI state-AG + synara/ponytail)
 - [[india-meta-manus-geopolitical-ai-fallout-2026-06-13]] — 2-event 24-hour geopolitical-AI fallout cluster; India sovereign-LLM debate + Meta-Manus $2B unwind; extends Anthropic-USG-conflict cluster to 9th narrative-event
 - [[kpmg-pulls-ai-report-hallucinations-2026-06-13]] — first wiki-captured Big-4-consultancy public AI-output-retraction event; "AI works; the process doesn't" canonical framing

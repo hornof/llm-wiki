@@ -3,7 +3,7 @@ name: Aaron Levie
 type: person
 affiliation: Box (co-founder & CEO); angel investor
 signal_sources: [twitter, blog]
-last_updated: 2026-05-27
+last_updated: 2026-06-15
 ---
 
 ## Who They Are
@@ -12,12 +12,14 @@ Co-founder and CEO of [[box|Box]] (founded 2005, public 2015). One of the most-f
 
 ## Their Current Focus
 
+- **Frontier-ecosystem thesis validation (2026-06-14)**: quote-engages [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella frontier-ecosystem thread]] with substantive validation + extension. *"The companies that are able to get their unique IP, institutional knowledge, and data into a format and architecture that lets them capture all of the gains and progress in AI are going to be in the best position in the future."* **First wiki-captured 2-CEO-direct-voice exchange on frontier-ecosystem framing** (Nadella + Levie). Articulates *"applied AI layer"* canonical-framing as value-accrual tier. 2nd substantive Levie surface — confirms recurring within-AI-bull-camp structural-framing voice. — [[levie-nadella-cognitive-loop-thread-2026-06-14]]
 - **CEO AI-psychosis thesis (2026-05-23)**: surfaced the [[ai-roi-gap|CEO-distance-from-last-mile]] framing that TechCrunch carried into a 2026-05-27 piece. *Within-camp critique* — Levie is not an AI skeptic, which is what gives the framing its load-bearing weight.
 - **Headless software framing (2026-04)**: argues software architected for AI-agent consumption (not human UI) is the strategic frontier. Direct positioning for Box's product roadmap.
 - **Angel investing**: continues to back AI startups; specific portfolio not yet wiki-captured.
 
 ## Notable Takes
 
+- **2026-06-14 — Frontier-ecosystem validation + "applied AI layer" framing** ([[levie-nadella-cognitive-loop-thread-2026-06-14]]): *"We're all collectively figuring out the right architecture for the future of AI. But it's clear that so much of the power and value will accrue to wherever can best leverage any AI system against their information. This is also why the applied AI layer will also gain so much value over the coming years."* First wiki-captured public SaaS-incumbent-CEO direct-voice validation of Nadella frontier-ecosystem thesis. Doubles as Box-positioning signal (Box = applied-AI-layer-vendor).
 - **2026-05-23 — "CEOs are uniquely prone to AI psychosis"** ([[levie-ceo-ai-psychosis-2026-05-23]]): CEOs are *"sufficiently distant from the last mile of work that still has to happen to generate most value with AI."* They see happy-path prototypes and miss *"the next 10 or 20 things that have to happen to get sustainable results from agents."* Prescription: use AI *"a *ton*"* personally to develop calibrated intuition. Carried by [[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch (Bort)]] into a full article with layoffs.fyi + MIT + Berkeley research counterweights.
 - **2026-05-23 — "The true Turing test"**: replying to Anshu Sharma's challenge that any CEO claiming AI can replace SWEs should fire their EA first. Concise operational falsifier for executive AI claims.
 - **2026-04 — "Headless software is the future"**: AI-agent-native software architecture is the strategic frontier. Direct competitive framing against UI-bound SaaS incumbents; aligns with [[saas-disruption-thesis|SaaS-disruption thesis]] mechanism while positioning Box as architecturally adapted.
