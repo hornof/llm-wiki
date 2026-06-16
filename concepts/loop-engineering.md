@@ -146,6 +146,28 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 
 *"Management in the age of agents is not about hiring capable workers. The workers are capable and cheap. It is about designing the constraints they run inside, the same as it always was with people."*
 
+### Zodchii operationalization at practitioner-tier (2026-06-16)
+
+[[zodchii-builder-checker-looping-team-2026-06-16]] — [[zodchii|Zodchii]] publishes Jun 16 (1 day after McDonald) **builder + checker 2-agent looping-team architecture** that **operationalizes McDonald's verifier-discipline-first principle** at the Claude Code practitioner-tier:
+
+| McDonald canonical principle (Jun 15) | Zodchii operationalization (Jun 16) |
+|---|---|
+| *"A loop is a generator wired to a verifier"* | builder = generator; checker = verifier |
+| *"Design the verifier, not the prompt"* | dedicated checker agent with read-only tools |
+| *"agent grading its own homework grades generously"* | builder ≠ checker discipline |
+| *"A loop that goes green is not a loop that is correct"* | cycle-cheat-prevention stop-rule |
+| *"autonomy is not the reason; the evaluation gate is"* | 4 canonical stop-rules in CLAUDE.md |
+
+**Zodchii canonical stop-rules**:
+- **ALL GREEN**: every check passes — stop and report success with proof
+- **5 cycles used**: stop and report what still fails (canonical-timing-anchor)
+- **Same failure twice in a row**: stop — "the builder is guessing, not fixing"
+- **A fix makes a previously passing check fail**: stop — "something is being broken to fix something else"
+
+**Closing canonical articulation** (Zodchii): *"It didn't get smarter, it just stopped quitting before the job was done."*
+
+**2-voice canonical-Loop-Engineering-corrective same-week paired-articulation**: McDonald at corrective-tier (Jun 15) + Zodchii at practitioner-tier (Jun 16) = first wiki-captured cross-tier canonical-corrective same-week pairing.
+
 ## Key Papers / Posts
 
 - **ReAct paper** (2022): [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) — academic origin of the reason-act-observe-repeat loop

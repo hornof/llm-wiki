@@ -3,7 +3,7 @@ name: zodchii
 type: person
 affiliation: independent; Telegram channel `t.me/zodchixquant`
 signal_sources: [twitter, telegram]
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ last_updated: 2026-06-15
 
 ## Their Current Focus
 
+- **2026-06-16: 2-agent looping-team architecture (builder + checker + loop + stop-rules)** ([[zodchii-builder-checker-looping-team-2026-06-16]]) — **5th substantive surface in 19 days**. STRUCTURALLY MAJOR: extends Jun 14 one-shot 4-agent roster to **looping-team architecture**. **First wiki-captured concrete operationalization of [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|Samuel McDonald "Design the verifier, not the prompt" canonical-corrective]]** in Claude Code roster architecture. **First wiki-captured "5-cycle cap" + "same-failure-twice" + "cycle-cheat-prevention" + "previously-passing-check-fails" canonical-stop-rules**. **First wiki-captured 3-language-stack canonical-checker-tools cross-language articulation** (JS/TS + Python + Rust). *"It didn't get smarter, it just stopped quitting before the job was done."*
 - **2026-06-14: 4-agent Claude Code roster (writer + reviewer + tester + coach) via Knicks-team analogy** ([[zodchii-4-agent-claude-code-roster-2026-06-14]]) — **4th substantive surface**. Extends prior 4-agent pipeline from sequential-pipeline to parallel-fanout role-specialization team-architecture. **First wiki-captured "coach orchestrator as slash-command not subagent" canonical architecture pattern**. **First wiki-captured "spec-first-tester-not-implementation-first-tester" canonical agentic-testing discipline-rule**. **First wiki-captured "blind-reviewer" canonical discipline articulation**. **First wiki-captured "tool-restriction-as-role-sharpening" canonical discipline-rule**. **First wiki-captured "shared-brief-as-agent-drift-prevention" canonical articulation**. 10-minute setup canonical-timing-anchor. *"Stay in your lane"* + Knicks-team analogy as sports-team-discipline framing.
 - **Opus 4.8 cost-optimization discipline** — per-task model+effort routing matrix for ~50% monthly savings ([[zodchii-opus-4-8-setup-guide-2026-05-29]])
 - **4-agent pipeline architecture** for autonomous feature-shipping — Planner / Coder / Tester / Reviewer with handoff-files + orchestrator slash command ([[zodchii-4-agent-pipeline-2026-05-30]])
@@ -35,6 +36,7 @@ last_updated: 2026-06-15
 
 ## Resources
 
+- [[zodchii-builder-checker-looping-team-2026-06-16]] — 2-agent looping-team architecture (builder + checker + loop + stop-rules); operationalizes McDonald verifier-discipline-first; 5-cycle cap + same-failure-twice + cycle-cheat-prevention canonical-stop-rules
 - [[zodchii-4-agent-claude-code-roster-2026-06-14]] — 4-agent Claude Code roster (writer + reviewer + tester + coach) via Knicks-team analogy; 4 canonical-discipline-rules + 10-minute setup
 - [[zodchii-opus-4-8-setup-guide-2026-05-29]] — Opus 4.8 setup guide; 5-level effort menu; --max-budget-usd; env vars; settings.json template; routing matrix → ~50% monthly savings
 - [[zodchii-4-agent-pipeline-2026-05-30]] — 4-agent pipeline (Planner/Coder/Tester/Reviewer) + canonical `.claude/agents/*.md` layout + Teamly product placement

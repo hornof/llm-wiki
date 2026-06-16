@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-06-13
+last_updated: 2026-06-16
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 
 ## Their Current Focus
 
+- **2026-06-16: "Pick a side" 7-question practitioner-poll** ([[gregisenberg-pick-a-side-7-question-poll-2026-06-16]]) — **3rd substantive surface**. Audience-poll-format-discipline canonical-voice-tier. Surfaces practitioner-sentiment signals: **Codex-dominance** (4/4 distinct-answer comments pick Codex over Claude Code); **bootstrap-consensus** (5/5 pick bootstrap over VC); **Anthropic-frontend-design-validation** (Peter Yang: *"Anthropic still wins on frontend design and this includes slides + videos"*); **"poor man's fable" Anthropic-Ultracode-Max framing** (nick vasilescu; Greg amplifies); **Town.com $55M A16Z Series A** surface (Jack Smith mention).
 - **AI-native organizational architecture** — 3-layer architecture (people / agents / shared-context) + 9-point canonical framework ([[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08]])
 - **Operator-side substrate-control via local models** — 8-step local-models on-ramp + "local models are insurance" canonical framing in response to USG-Fable-5-export-control event ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]])
 - **Startup Ideas Podcast** (`@startupideaspod`) — substantive interview surface (60-min Theo Tabah AI-native masterclass)
