@@ -223,6 +223,7 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
 
 ### Recent ingests
+- [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15]] — Samuel McDonald "My Thoughts on Loop Engineering" — STRUCTURALLY MAJOR verifier-discipline-first canonical-corrective; "Design the verifier, not the prompt"; Open/Closed + Inner/Outer canonical distinctions; extends Loop Engineering cluster from 8 to 10-voice
 - [[eric-siu-single-brain-5-layer-company-brain-2026-05-29]] — Eric Siu Single Brain canonical 5-layer Company Brain architecture (Capture + Retrieval + Source Truth + Permissions + Feedback); 2nd substantive vendor surface in Company Brain space; concrete Single Grain implementation metrics (500K+ tokens + 90+ crons + 2,862 Gong transcripts)
 - [[anthropic-usg-conflict-10th-narrative-event-cluster-2026-06-15]] — 4 Jun 15 events extending Anthropic-USG-conflict cluster to 13th narrative-event (cybersecurity vets protest + Axios "They screwed us" personality-clashes + Stratechery safety-superpower + Pleias Europe-ecosystem-deficiencies)
 - [[salesforce-fin-ai-3-6b-acquisition-2026-06-15]] — first wiki-captured tier-1 enterprise-SaaS-incumbent agentic-customer-service acquisition event; $3.6B B2B-AI-consolidation price-point anchor
