@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-06-08
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -78,6 +78,73 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 - **[[steve-yegge|Steve Yegge]] Gas Town** ([github.com/gastownhall/gastown](https://github.com/gastownhall/gastown), Jan 2026): 20-30 Claude Code instances coordinated by a **Mayor agent**, **Patrol agents** running continuous loops, state stored in git for crash recovery. First wiki-captured concrete instantiation of the *"loop supervising other loops"* pattern shipped + open source. See [[mvanhorn-wtf-is-a-loop-2026-06-07]].
 - **[[zodchii-4-agent-pipeline-2026-05-30|zodchii 4-agent pipeline]]**: Planner/Coder/Tester/Reviewer with discrete handoff-files in `.pipeline/{spec,changes,test-results,review}.md`. Sibling architectural pattern: **discrete handoff** vs Yegge's **continuous-supervised**.
 - **[[dailybrief-roundup-2026-05-27|PolyArch/humanize RLCR loop]]**: Claude implements + Codex reviews independently until acceptance criteria met. **Cross-vendor agent-review loop**.
+
+## Verifier-discipline-first corrective (Samuel McDonald, 2026-06-15)
+
+A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering discourse: [[samueljmcd|Samuel McDonald]] publishes [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|"My Thoughts on Loop Engineering"]] arguing that **the verifier — not the generator — is the bottleneck**. Adds **10th canonical voice** to the cluster at the **verifier-discipline-first-tier**.
+
+**Central reformulation**: *"A loop is a generator wired to a verifier. The generator was never the bottleneck. The verifier is."*
+
+**Closing canonical**: *"Design the verifier, not the prompt."*
+
+### Open vs Closed loops
+
+| Type | Characteristics | Outcome |
+|---|---|---|
+| **Open loop** | Wide exploratory space; goal + conditions but freedom in between | Novel output **+ slop-machine on loose criteria + budget-burner** |
+| **Closed loop** | Goal + defined steps + evaluation at each step + stopping condition | **Production-tier results today**; bounded paths; normal budget |
+
+*"Closed loops are what produce results today. People credit the autonomy for that. The autonomy is not the reason. The evaluation gate is."*
+
+### Inner Loop vs Outer Loop
+
+| Layer | Scope | What it verifies | Maturity |
+|---|---|---|---|
+| **Inner loop** | Single task | The task itself (write + test + run + fix + confirm) | **Mature** — most agents do it now |
+| **Outer loop** | Across sessions | That you do not repeat last week's mistake (persistent lesson carry-forward) | **Still half-built** — value sitting on the table |
+
+*"The agent forgets when the context window resets. The repository does not."* Outer-loop persistent-memory homes: **`SKILL.md` + `AGENTS.md`**.
+
+### Research roots
+
+- **ReAct** (Yao et al.; Princeton + Google) — alternates reasoning and action; *"think, act, observe, repeat until done"*
+- **Reflexion** (Shinn et al.) — ReAct with memory; **canonical seed of persistent memory**
+
+### Bun port reframed — "verification is the architecture"
+
+[[bun|Bun Zig→Rust port]] via Dynamic Workflows reads as the **flagship verification-architecture demonstration**:
+- Pass 1: map correct Rust lifetime for every struct field
+- Pass 2: each file as behaviour-identical port; hundreds of agents in parallel + **2 reviewer agents on every file**
+- Separate layer of agents **existed only to refute what the others produced**
+- Fix loop drove build + test suite until both ran clean
+
+*"The verification is not a step at the end. It's actually the architecture."*
+
+### Anthropic's own caveat — "not yet in production"
+
+McDonald flags Anthropic's own published caveat on the Bun port: **the port is not yet in production**. McDonald's reframe: *"A 99.8% pass on an existing suite is a benchmark result… Production is the behaviour nobody wrote a test for yet. The gap between those two is the gap this whole industry keeps tripping over."*
+
+**Canonical ceiling-framing**: *"A loop that goes green is not a loop that is correct. It is a loop that satisfied the verifier you gave it. The quality of the output is capped by the quality of that verifier, and not one point higher."*
+
+### 6 mechanical parts of a working loop
+
+1. Scheduled trigger to discover work + start the agent
+2. Isolated git worktrees so parallel agents do not stand on each other's changes
+3. Skills files so you are not re-explaining conventions every run
+4. Connectors to tools the work already lives in
+5. Separated generator-and-verifier roles (*"an agent grading its own homework grades generously"*)
+6. Memory — the file that outlives the conversation and carries the lesson forward
+
+### Native-tooling capacity-anchors
+
+- `/goal` — v2.1.139+
+- Dynamic workflows — v2.1.154+ (research preview); **capped at 16 concurrent + 1000 agents per run**
+
+*"Not every job is a workflow job, and dressing a small task up as one is its own kind of waste."*
+
+### Management closing
+
+*"Management in the age of agents is not about hiring capable workers. The workers are capable and cheap. It is about designing the constraints they run inside, the same as it always was with people."*
 
 ## Key Papers / Posts
 
