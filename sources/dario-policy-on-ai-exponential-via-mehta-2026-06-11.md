@@ -18,7 +18,7 @@ ingested: 2026-06-15
 - **Author**: [[dario-amodei|Dario Amodei]] (Anthropic CEO)
 - **Primary URL**: https://x.com/darioamodei/status/2064781775247950326 (Jun 11; not deeply fetched)
 - **Central thesis** (per Mehta secondary): *"AI is no longer a toy or a tool. It is a technology of national and economic consequence and our policy and governance infrastructure is dangerously behind."*
-- **Reference frame**: [[claude-mythos-5|Claude Mythos Preview]] = **"proof that frontier models now pose real risks to critical infrastructure and national security"** (Dario's own self-attributed framing of Mythos-tier capabilities)
+- **Reference frame**: [[claude-mythos|Claude Mythos Preview]] = **"proof that frontier models now pose real risks to critical infrastructure and national security"** (Dario's own self-attributed framing of Mythos-tier capabilities)
 - **Anthropic-side announcements**:
   - **Legislative proposal on frontier model testing**
   - **Policy framework for job displacement**
@@ -27,7 +27,7 @@ ingested: 2026-06-15
 
 ### Why this is structurally MAJOR — timeline reframes Anthropic-USG-conflict cluster
 
-**Critical reframing**: the [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|Sacks 2026-06-13 export-control event]] used the framing *"frontier models pose risks to critical infrastructure and national security"* as USG-justification for the export-control action. **Dario himself articulated this exact framing 2 days earlier** in this essay — using [[claude-mythos-5|Mythos Preview]] as **his own self-attributed evidence-anchor**.
+**Critical reframing**: the [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|Sacks 2026-06-13 export-control event]] used the framing *"frontier models pose risks to critical infrastructure and national security"* as USG-justification for the export-control action. **Dario himself articulated this exact framing 2 days earlier** in this essay — using [[claude-mythos|Mythos Preview]] as **his own self-attributed evidence-anchor**.
 
 **Implications**:
 - **First wiki-captured Anthropic-side self-articulation of frontier-model-risk** as **public-policy-justification framework**
@@ -43,7 +43,7 @@ ingested: 2026-06-15
 - Aligned with [[anthropic-mitre-attack-cyber-threats-2026-06-03|Anthropic MITRE ATT&CK mapping]] + [[anthropic-how-we-contain-claude-2026-05-31|Anthropic containment publication]] at the **operator-side substrate-of-AI-governance-infrastructure canonical-pattern** layer
 
 **2. Cybersecurity risk is concrete-not-theoretical**:
-- [[claude-mythos-5|Mythos Preview]] demonstrated *"real, immediate risks to critical infrastructure, financial systems, and national security"* — **Dario direct-voice self-articulation**
+- [[claude-mythos|Mythos Preview]] demonstrated *"real, immediate risks to critical infrastructure, financial systems, and national security"* — **Dario direct-voice self-articulation**
 - Enterprise implication: HR stack + credit decisions + underwriting models carry exposure existing risk-frameworks weren't built to catch
 
 **3. Job displacement may exceed any prior technology**:

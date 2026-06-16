@@ -24,6 +24,7 @@
 - [[dac]] — bruin-data/dac, open-source Dashboard-as-Code; YAML/TSX → HTML; built-in semantic layer; ships SKILL.md for *both* Claude Code and Codex (May 2026)
 - [[bun]] — all-in-one JavaScript runtime (Jarred Sumner); subject of the Anthropic Dynamic Workflows Zig→Rust port case study (May 2026)
 - [[marble]] — [[world-labs]]' first product; multimodal-input 3D world generation; outputs Gaussian splats (renderer-side) + collision meshes (simulator-side); dissolves renderer-simulator boundary (June 2026)
+- [[ona]] — persistent-cloud-agents platform; OpenAI acquisition target (Jun 2026); long-running stateful agent environments extending OpenAI Codex from prompt-and-return to persistent-stateful-deployment
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -146,6 +147,7 @@
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[cursor]] — AI coding software; $3.3B raised, $29.3B valuation; competing with Claude Code and Codex
+- [[anysphere]] — Cursor parent company; SpaceX $60B all-stock acquisition target (Q3 2026 close projected); part of SpaceX 3-layer AI-vertical-integration (compute substrate + xAI frontier-model + Anysphere/Cursor AI-coding-product) — Jun 2026
 - [[eureka-labs]] — Karpathy's AI-native education company; founded 2024
 - [[github]] — Microsoft subsidiary; Copilot operator + dev-platform-side response to agentic-coding-driven velocity-vs-review mismatch (Daigle)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold

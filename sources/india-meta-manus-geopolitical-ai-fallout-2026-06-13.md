@@ -15,7 +15,7 @@ Two TechCrunch reports (2026-06-13; surfaced via [[dailybrief-roundup-2026-06-14
 ### Event 1: India debates AI sovereignty after Anthropic suspension
 
 - **Source**: TechCrunch (2026-06-13) — *"As Anthropic suspends access to new models, India debates its AI future"*
-- **Trigger**: US-government-directed suspension of [[claude-fable-5|Fable 5]] + [[claude-mythos-5|Mythos 5]] access (announced 2026-06-13 by [[david-sacks|Sacks]])
+- **Trigger**: US-government-directed suspension of [[claude-fable-5|Fable 5]] + [[claude-mythos|Mythos 5]] access (announced 2026-06-13 by [[david-sacks|Sacks]])
 - **India-side response**: policy debate on **AI sovereignty** — building sovereign LLM capabilities to reduce dependence on US-frontier-AI-vendors
 - **Brief framing**: *"Policy response to access restrictions. If India moves toward sovereign LLMs, creates export route for non-US-aligned model inference — affects founder-track thinking on global model availability and GTM."*
 

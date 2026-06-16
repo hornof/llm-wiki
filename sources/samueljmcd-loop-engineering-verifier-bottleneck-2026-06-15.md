@@ -169,7 +169,7 @@ McDonald's closing framing — *"Management in the age of agents is not about hi
 - [[concepts/company-brain]] — pairs with outer-loop persistent-memory architectural framing
 - [[react-pattern]] / [[reflexion]] — canonical-research-roots attribution (entity-page candidates; single-source defers)
 - [[addy-osmani]] — 5-components-plus-memory framing attribution (entity-page candidate; single-source defer)
-- [[anthropic-bun-zig-rust-port-2026-05]] — Anthropic's "not yet in production" caveat surfaced + reframed
+- [[anthropic-dynamic-workflows-primary-2026-05-28]] — Anthropic's "not yet in production" caveat surfaced + reframed
 
 ## Adjacent sources
 
@@ -184,7 +184,7 @@ McDonald's closing framing — *"Management in the age of agents is not about hi
 - [[dailybrief-roundup-2026-06-14]] — Sarah Guo "what's untrainable" investor-side framing
 - [[zodchii-4-agent-claude-code-roster-2026-06-14]] — Zodchii 4-agent roster canonical-discipline-rules
 - [[eric-siu-single-brain-5-layer-company-brain-2026-05-29]] — Single Brain 5-layer Company-Brain architecture
-- [[anthropic-bun-zig-rust-port-2026-05]] — Bun Zig→Rust port primary
+- [[anthropic-dynamic-workflows-primary-2026-05-28]] — Bun Zig→Rust port primary
 - [[claude-opus-4-8-dynamic-workflows-2026-05-28]] — Dynamic Workflows announcement
 
 ## Verification-pending
