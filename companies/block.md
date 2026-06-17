@@ -2,12 +2,29 @@
 name: Block
 type: company
 status: active
-last_updated: 2026-04-26
+last_updated: 2026-06-17
 ---
 
 ## What It Is
 
 Block, Inc. (formerly Square) is a financial technology company founded by [[jack-dorsey]] and Jim McKelvey in 2009. Products include Square (merchant payments/POS), Cash App (consumer payments/banking), Afterpay (BNPL), TIDAL (music), and Bitcoin/crypto infrastructure. As of 2026, Block is actively restructuring its internal organization around AI "world models" — positioning itself as one of the first large companies to attempt replacing traditional hierarchy with AI-native coordination.
+
+## Builderbot — production-scale AI-native engineering operationalization (2026-06-17)
+
+**STRUCTURALLY MASSIVE**: Block launches **Builderbot** at production-scale ([[block-builderbot-launch-2026-06-17]]) — first wiki-captured concrete production-scale operationalization of the AI-native-organization thesis:
+
+- **200,000 operations per day**
+- **1,500 PRs merged per week**
+- **15% of all production code changes across Block**
+- **100% of Block engineers regularly use AI in their work**
+- Built on Block's open-source [[goose|Goose]] agent framework (contributed to **AAIF Linux Foundation**)
+- Slack-native: anyone can tag `@builderbot` in any thread
+- Cross-service work across hundreds of millions of lines of code
+- Picks up tickets from Linear + Jira; creates branch + writes code + opens PR + watches CI + iterates
+
+**Brad Axen** (Head of AI Capabilities at Block) canonical-framing: *"the missing layer between AI coding tools and how engineering actually works at scale"* + *"backlog to live in front of millions of customers in days instead of months"*
+
+Pairs structurally with [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella firm-tier learning-loop canonical-architecture]] at firm-tier operationalization layer. First wiki-captured "shift from AI-assisted coding to AI-native engineering" canonical framing.
 
 ## AI-Native Organization Experiment
 

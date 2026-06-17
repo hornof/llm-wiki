@@ -181,6 +181,37 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 - Jun 16 Zodchii **practitioner-tier operationalization**: builder + checker looping-team + canonical-stop-rules
 - Jun 17 Cherny **vendor-creator-tier validation**: *"strongly agree" + "right guardrails"*
 
+### Sydney Runkle (LangChain) — 4-layer canonical Loop Engineering stack (2026-06-16/17)
+
+[[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17]] — [[sydney-runkle|Sydney Runkle]] publishes **"The Art of Loop Engineering"** with **LangChain-side 4-layer canonical Loop Engineering stack**. Extends Loop Engineering cluster from 10-voice to **11-voice** (Sydney Runkle at LangChain-tier).
+
+| Layer | What it does | Impact | LangChain primitive |
+|---|---|---|---|
+| **1: Agent loop** (model + tools) | Model calls tools repeatedly until task complete | Automate work | `create_agent` |
+| **2: Verification loop** (agent + grader) | Output scored against rubric + retried with feedback if failed | Ensure quality | `RubricMiddleware` |
+| **3: Event-driven loop** (verification + system) | Events trigger agent runs that update a real system | Work at scale | LangSmith Deployment + Fleet channels |
+| **4: Hill-climbing loop** (system + engine) | Production traces feed analysis agent that improves harness config | Continuous improvement | LangSmith Engine trace analysis agent |
+
+**Sydney Runkle's canonical pivot**: *"We've been thinking about loops 1 and 2 for a while. But focus should pivot to loops 3 and 4 where value compounds by embedding agents into your ecosystem that continuously improve in response to your criteria."* — **first wiki-captured 2-voice 2-day same-week canonical-pivot-to-outer-loop articulation** (McDonald Jun 15 *"inner mature; outer half-built"* + Sydney Runkle Jun 16-17 *"loops 1-2 mature; pivot to loops 3-4"*).
+
+**Sydney Runkle's 4-canonical-voice cross-reference cluster**: explicit references to Nadella (frontier-ecosystem) + Steinberger (Loop Engineering coinage) + Cherny (vendor-creator) + Karpathy (loopcraft). *"AI leaders like Steipete, Boris, and Andrej have all arrived at the same conclusion: the potential in agents is in the loops you build around them."*
+
+### Block Builderbot — STRUCTURALLY MASSIVE production-scale operationalization (2026-06-17)
+
+[[block-builderbot-launch-2026-06-17]] — [[block|Block]] launches **Builderbot** at production-scale:
+- **200,000 operations per day**
+- **1,500 PRs merged per week**
+- **15% of all production code changes across Block**
+- 100% of Block engineers using AI
+- Built on Block's open-source [[goose|Goose]] (contributed to AAIF Linux Foundation)
+- Brad Axen (Head of AI Capabilities): *"the missing layer between AI coding tools and how engineering actually works at scale"*
+
+**First wiki-captured concrete production-scale operationalization of [[ai-native-organizations|AI-native organizations]] thesis** at firm-tier. **First wiki-captured "shift from AI-assisted coding to AI-native engineering" canonical framing**. **First wiki-captured Block-side concrete operationalization of [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella firm-tier learning-loop canonical-architecture]]** (3 days post-Nadella).
+
+### Hanako practitioner-tier — "the bottleneck was never the model" (2026-06-13)
+
+[[hanakoxbt-claude-loops-while-you-sleep-2026-06-13]] — [[hanako|Hanako (@hanakoxbt)]] publishes practitioner-tier 5-canonical-discipline-articulations: *"a loop is just Claude on a schedule"* + *"start with one loop, not ten"* + *"boring + bounded + easy-to-verify"* canonical good-first-loop-properties + *"babysit the rules not the work"* + *"the bottleneck was never the model"*. Opens with canonical Cherny-behavioral-reference (*"few thousand agents working overnight while he sleeps"* + *"runs most of it from his phone"* + *"hasn't written a line of code this year"*).
+
 ## Key Papers / Posts
 
 - **ReAct paper** (2022): [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) — academic origin of the reason-act-observe-repeat loop

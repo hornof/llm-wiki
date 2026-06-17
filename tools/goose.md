@@ -2,8 +2,8 @@
 name: Goose
 type: tool
 category: cli
-status: emerging
-last_updated: 2026-04-27
+status: gaining-traction
+last_updated: 2026-06-17
 ---
 
 ## What It Is
@@ -12,6 +12,8 @@ Goose is an agent coding harness built by [[block]] (Jack Dorsey's company). Dev
 
 ## Traction Signals
 
+- **2026-06-17: Block launches Builderbot built on Goose** — production-scale operationalization ([[block-builderbot-launch-2026-06-17]]): 200K ops/day + 1.5K PRs/week + 15% of all Block production code changes. **STRUCTURALLY MASSIVE production-scale proof-point for Goose as canonical-substrate.** First wiki-captured replication-signal from external developer (Matt Creigh: *"I've also built something like this, oddly enough using goose"*).
+- **2026-06-17: Goose contributed to Agentic AI Foundation (AAIF) Linux Foundation** — open-source canonical-governance positioning
 - Built and used internally at Block since early 2024 — [[post-realBigBrainAI-dorsey-ai-rebuild]]
 - Mentioned by community members experimenting with it for agentic lead sourcing workflows
 - Represents Block's philosophy: using AI-native tooling to rebuild the company's own operations, not just individual productivity
