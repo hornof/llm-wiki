@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 ## Definition
@@ -167,6 +167,19 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 **Closing canonical articulation** (Zodchii): *"It didn't get smarter, it just stopped quitting before the job was done."*
 
 **2-voice canonical-Loop-Engineering-corrective same-week paired-articulation**: McDonald at corrective-tier (Jun 15) + Zodchii at practitioner-tier (Jun 16) = first wiki-captured cross-tier canonical-corrective same-week pairing.
+
+### Cherny "strongly agree" + Rahul GS english→code-interpreters reframing (2026-06-17)
+
+[[rahulgs-english-code-interpreters-10-point-thesis-2026-06-17]] — [[rahulgs|Rahul GS]] publishes Jun 17 a **10-point canonical thesis** reframing Fable+ class models as **"english → code interpreters"** + 10 canonical-discipline-shifts (small/large-diff-management-for-review + time-to-ship-≠-time-to-PR + bottleneck-solving + agency + risk-management-over-line-by-line + cost-of-complexity-changing + duck-typing-canonical-reframing + logical-verification-at-enormous-cost + code-permissions-as-canonical-opt-in).
+
+**STRUCTURALLY CRITICAL**: [[boris-cherny|Boris Cherny]] (Claude Code creator) responds *"Strongly agree with all of the above. **We are entering the next era of code**, where the model is able to generate correct code for an increasingly large percent of tasks. **Our job is to make sure the model and our systems have the right guardrails**, then to run Claude Code + an[..."* — **first wiki-captured Cherny direct-voice "strongly agree" validation of a non-Anthropic-authored canonical-framework**.
+
+**Comment-thread Evolution Plus AI canonical-corollary**: *"If it is an english to code interpreter, it compiles your spec faithfully, not your intent. The error doesn't vanish, it moves upstream from the code into the english. So the scarce skill becomes removing ambiguity from your own description"* — first wiki-captured **operator-side corollary to McDonald's verifier-discipline-first principle**: McDonald says *"design the verifier"*; Evolution says *"the scarce skill = removing ambiguity from your own description (the input to the verifier)"*.
+
+**First wiki-captured 3-voice canonical-corrective + operationalization + validation same-week cluster**:
+- Jun 15 McDonald **corrective-tier**: *"Design the verifier, not the prompt"*
+- Jun 16 Zodchii **practitioner-tier operationalization**: builder + checker looping-team + canonical-stop-rules
+- Jun 17 Cherny **vendor-creator-tier validation**: *"strongly agree" + "right guardrails"*
 
 ## Key Papers / Posts
 

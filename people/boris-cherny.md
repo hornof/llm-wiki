@@ -3,7 +3,7 @@ name: Boris Cherny
 type: person
 affiliation: Anthropic (Claude Code creator)
 signal_sources: [conference, twitter, podcast]
-last_updated: 2026-06-08
+last_updated: 2026-06-17
 ---
 
 ## Who They Are
@@ -28,6 +28,7 @@ Boris Cherny is the creator of [[claude-code]] at [[anthropic]] — started as a
 - Confirmed speaker at Sequoia AI Ascent 2026 — [[ai-ascent-2026]]
 - **Code w/ Claude 2026** (founder-of-product reflection): *"Everything we are seeing today still feels magical to me."* — captures the from-the-creator stance on the May 2026 product expansion — [[willison-code-w-claude-2026]]
 - **WorkOS Acquired Unplugged talk** (2026-06-02, [[mvanhorn-wtf-is-a-loop-2026-06-07]]): *"My job is to write loops."* First wiki-captured Cherny-direct-voice articulation of loop-engineering as primary job-description at the Claude Code creator layer.
+- **2026-06-17 — "Strongly agree" validation of [[rahulgs-english-code-interpreters-10-point-thesis-2026-06-17|Rahul GS 10-point thesis]]**: *"Strongly agree with all of the above. We are entering the next era of code, where the model is able to generate correct code for an increasingly large percent of tasks. Our job is to make sure the model and our systems have the right guardrails, then to run Claude Code + an[...]"* **STRUCTURALLY CRITICAL**: first wiki-captured Cherny direct-voice validation of a non-Anthropic-authored canonical-framework. **First wiki-captured Cherny "next era of code" canonical-framing** + **first wiki-captured Cherny "right guardrails" canonical-discipline articulation at vendor-creator tier**. Pairs structurally with [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|Samuel McDonald verifier-discipline-first canonical-corrective]] + [[zodchii-builder-checker-looping-team-2026-06-16|Zodchii looping-team operationalization]] = first wiki-captured 3-voice canonical-corrective + operationalization + validation same-week cluster.
 - **259 PRs in 30 days self-citation** (2025-12-27 via Simon Willison, surfaced in [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn synthesis]]): *"In the last 30 days, 100% of my contributions to Claude Code were written by Claude Code. I landed 259 PRs."*
 - **5-tip recipe for running Opus autonomously for hours/days** (2026-06-05 X, [[bcherny-5-tips-opus-autonomous-2026-06-05]]):
   1. Auto mode for permissions
