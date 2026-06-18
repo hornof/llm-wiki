@@ -3,6 +3,8 @@
 ## Tools & Frameworks
 - [[goose]] — Block's agent coding harness; AI-native tooling dogfooded internally since early 2024
 - [[claude-code]] — Anthropic's CLI/agentic coding tool; recommended layer for LLM Wiki workflows
+- [[codex]] — OpenAI's flagship AI-coding-product; practitioner-tier preference dominance (Greg Isenberg Jun 16: 4/4 picks); Jun 17 open-source-model-routing + self-hosted-local-endpoints (first wiki-captured operator-substrate-control-friendly canonical-positioning)
+- [[openclaw]] — Peter Steinberger open-source agent-infrastructure; heartbeats canonical-pattern (Sydney Runkle LangChain Jun 17 validation); 10-hour multi-hour-runs scale (Crabbox + GPT-5.5)
 - [[crewai]] — Python framework for multi-agent role-playing workflows
 - [[langchain]] — agent engineering platform; broad LLM application framework
 - [[llama-index]] — document ingestion and RAG framework; "leading document agent platform"
@@ -143,6 +145,7 @@
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
 - [[google]] — 3rd US-frontier-AI organization (alongside Anthropic + OpenAI); Google DeepMind + Google Cloud + Gemini + DiffusionGemma; substrate-tier 2-vector diversification strategy (Intel-foundry upstream + SpaceX-compute downstream); Shane Legg 4-pathway AGI framework + Hassabis AGI 2030 ± 1 voices (June 2026)
 - [[intel]] — US-headquartered semiconductor + foundry; 18A node = US-onshoring canonical-foundry-alternative to TSMC dominance; Google 3M+ TPU procurement commit for 2028 + Nvidia 18A testing validation 2-customer same-week cluster (June 2026)
+- [[pleias]] — European AI lab; Pierre-Carl Langlais CTO; first wiki-captured EU-AI-substrate canonical-voice-tier; counter-frames compute-centric EU-AI-policy ("training-skill + ecosystem deficiencies, not compute") (June 2026)
 - [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
