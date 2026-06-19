@@ -101,7 +101,7 @@ This is the **first wiki-captured substantive published artifact by the wiki own
 - [[claude-cowork]] — knowledge-work-plugins canonical-plugin-marketplace-extension context
 - [[claude-code]] — claude-code-compatible canonical plugin-substrate
 - [[mcp]] — 11-plugin canonical-connector-stack canonical-validation
-- [[concepts/skill-md]] — plugin-level Skills + Commands canonical-pattern extension (verification-pending: concept page may not exist; backtick-quoted reference if missing)
+- `` `[[concepts/skill-md]]` `` — plugin-level Skills + Commands canonical-pattern extension (no concept page exists; defer until 2nd substantive concept-focus surface)
 - [[writing-claude-code-skills]] — Skills canonical-pattern extension at plugin-level
 - [[concepts/agentic-engineering]] — file-based markdown + JSON canonical-discipline articulation
 - [[concepts/company-brain]] — plugin-tier vs Company-Brain-tier canonical abstraction

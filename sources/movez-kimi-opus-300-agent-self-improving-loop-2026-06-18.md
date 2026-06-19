@@ -110,7 +110,7 @@ Opus 4.8 canonical-verify-gate justification: *"Anthropic reports it's roughly 4
 - [[deepseek]] — DeepSeek-moment + Kimi-K2.6-self-learning-swarm same-fingerprint canonical-framing context
 - [[claude-opus-4-8]] — Opus 4.8 verify-gate canonical-positioning; 0% uncritically-reporting-flawed-results canonical-anchor confirmed
 - [[concepts/agentic-engineering]] — canonical-spec template + CONSTRAINTS.md + 10-step playbook
-- [[concepts/skill-md]] — Document-to-Skill vs Skill-captures-process canonical-distinction
+- `` `[[concepts/skill-md]]` `` — Document-to-Skill vs Skill-captures-process canonical-distinction (no concept page exists; defer until 2nd substantive concept-focus surface)
 - [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15]] — McDonald verifier-discipline-first canonical-corrective + 0xMovez 2-model-split operationalization
 - [[zodchii-builder-checker-looping-team-2026-06-16]] — Zodchii builder + checker looping-team + 0xMovez cross-model + cross-vendor extension
 - [[block-builderbot-launch-2026-06-17]] — paired Jun 17 firm-tier production-scale operationalization vs operator-tier 2-model-split
