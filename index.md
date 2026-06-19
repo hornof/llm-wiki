@@ -96,6 +96,7 @@
 - [[imran-ahmad]] — technical author (Packt); *50 Algorithms Every Programmer Should Know* + *30 Agents Every AI Engineer Must Build* (2026)
 - [[linas-beliunas]] — independent FinTech & AI commentator (~379k subscribers); product/strategy synthesis voice; called the Anthropic vertical-build map 48hrs before the financial-services launch (May 2026)
 - [[simon-willison]] — independent engineer; creator of Datasette, co-creator of Django; daily-cadence LLM-tooling blog at simonwillison.net; high-signal practitioner voice
+- [[charity-majors]] — co-founder + CTO Honeycomb; canonical-observability + engineering-discipline + AI-skeptic-tier voice; "code from scarce/precious to disposable/regenerable" canonical-economics-shift framing (8 substantive surfaces; June 2026)
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined [[vibe-physics]] using GPT-5.x to derive novel gluon/graviton results (May 2026)
 - [[ami-vora]] — Anthropic Chief Product Officer; opening keynote at Code w/ Claude 2026 (May 2026)
 - [[cat-wu]] — Anthropic Head of Product, Claude Code; "trusting Claude Code on your production databases" framing (May 2026)
@@ -146,6 +147,7 @@
 - [[google]] — 3rd US-frontier-AI organization (alongside Anthropic + OpenAI); Google DeepMind + Google Cloud + Gemini + DiffusionGemma; substrate-tier 2-vector diversification strategy (Intel-foundry upstream + SpaceX-compute downstream); Shane Legg 4-pathway AGI framework + Hassabis AGI 2030 ± 1 voices (June 2026)
 - [[intel]] — US-headquartered semiconductor + foundry; 18A node = US-onshoring canonical-foundry-alternative to TSMC dominance; Google 3M+ TPU procurement commit for 2028 + Nvidia 18A testing validation 2-customer same-week cluster (June 2026)
 - [[pleias]] — European AI lab; Pierre-Carl Langlais CTO; first wiki-captured EU-AI-substrate canonical-voice-tier; counter-frames compute-centric EU-AI-policy ("training-skill + ecosystem deficiencies, not compute") (June 2026)
+- [[z-ai]] — Chinese open-weights AI vendor; GLM-5.2 (753B MoE MIT-license open-weights canonical-anchor); Q1 2027 Chinese-Fable-class prediction-challenge accepted (June 2026)
 - [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
