@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 ## Definition
@@ -207,6 +207,34 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 - Brad Axen (Head of AI Capabilities): *"the missing layer between AI coding tools and how engineering actually works at scale"*
 
 **First wiki-captured concrete production-scale operationalization of [[ai-native-organizations|AI-native organizations]] thesis** at firm-tier. **First wiki-captured "shift from AI-assisted coding to AI-native engineering" canonical framing**. **First wiki-captured Block-side concrete operationalization of [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella firm-tier learning-loop canonical-architecture]]** (3 days post-Nadella).
+
+### 0xMovez — 10-step canonical playbook + 2-model split-architecture (2026-06-18)
+
+[[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — [[0xMovez]] publishes (Apr 22 orig; cross-device-clipped Jun 18) **STRUCTURALLY MASSIVE 10-step canonical-playbook for self-improving operator-tier Loop Engineering** using **Kimi K2.6 + Opus 4.8 2-model split-architecture**:
+- **Kimi K2.6**: 300 parallel agents × 4,000 coordinated steps (up from K2.5's 100/1,500); $0.95/M in + $4.00/M out + $0.16 cache hits
+- **Opus 4.8 verify-gate**: *"4x less likely than 4.7 to let a flaw pass; first Claude to score 0% on uncritically reporting flawed results"*
+
+Canonical articulation: **"The engine learns. The closer keeps it honest."**
+
+10-step playbook: (1) Write a spec, not a prompt + (2) Read decomposition plan + (3) Let it be wasteful + (4) Demand real files + (5) Point Opus at the output + (6) Save the workflow as a Skill + (7) Feed your own documents in + (8) Turn verify-feedback into a permanent rule (`CONSTRAINTS.md` canonical-pattern) + (9) Replay skill on new inputs + (10) Promote loop to background agent.
+
+**Canonical cost-collapse anchor**: 20 minutes run #1 → 30 seconds run #50.
+
+**Canonical operator-tier-RSI framing**: *"The system around it is getting smarter. Your skill library grows with every project."* — first wiki-captured **operator-tier-RSI canonical proof-point** (system-tier RSI vs model-weight-tier RSI).
+
+Extends cluster to **12-voice canonical-cluster** with 0xMovez at operator-tier-2-model-split-RSI-discipline tier.
+
+### Anthropic Claude Code Artifacts — vendor-side feature launch (2026-06-18)
+
+[[claude-code-artifacts-launch-2026-06-18]] — [[anthropic]] launches **Claude Code Artifacts** as live, shareable visual pages built from full session context. 9-role canonical use-case taxonomy (Legal + Privacy + Security + FinOps + SWE + Designers + Staff + SRE + Engineering-managers). Private-to-org by default. **First wiki-captured 2-vendor 1-day vendor-side + firm-tier canonical-convergence on conversation-as-development-environment** (Anthropic Claude Code Artifacts + [[block-builderbot-launch-2026-06-17|Block Builderbot Brad Axen Jun 17]]).
+
+### Hornof knowledge-work-plugins — owner-tier 11-role canonical-plugin taxonomy (2026-06-17)
+
+[[hornof-knowledge-work-plugins-claude-cowork-2026-06-17]] — wiki owner [[owner/profile|@hornof]] open-sources `knowledge-work-plugins` repository: **11 plugins for knowledge workers** in [[claude-cowork|Claude Cowork]] (productivity + sales + customer-support + product-management + marketing + legal + finance + data + enterprise-search + bio-research + cowork-plugin-management). **First wiki-captured owner-side substantive published artifact**. Canonical plugin-structure: `.claude-plugin/plugin.json` + `.mcp.json` + `commands/` + `skills/` — file-based markdown + JSON, no code, no infrastructure, no build steps.
+
+### 5-day 11-event STRUCTURALLY MASSIVE Loop-Engineering canonical-cluster (Jun 13-18)
+
+[[loop-engineering-multi-author-jun-18-cluster-2026-06-18]] documents the **fastest canonical-discourse-convergence + production-operationalization + practitioner-content-cluster captured to date**: 11 substantive Loop-Engineering events spanning Jun 13 (Hanako) + Jun 15 (McDonald) + Jun 16 (Zodchii + Greg Isenberg) + Jun 17 (Rahul GS+Cherny + Sydney Runkle + Block Builderbot + Hornof knowledge-work-plugins) + Jun 18 (Anthropic Claude Code Artifacts + 0xMovez Kimi-Opus 10-step + 5-author roundup-tier cluster including "Loop Engineering = THE AI skill every builder needs in 2026" canonical-positioning + Memory-vs-Selection canonical-reframing).
 
 ### Hanako practitioner-tier — "the bottleneck was never the model" (2026-06-13)
 

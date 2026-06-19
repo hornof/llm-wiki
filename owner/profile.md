@@ -1,7 +1,7 @@
 ---
 name: Luke Hornof
 type: owner-profile
-last_updated: 2026-04-24
+last_updated: 2026-06-18
 ---
 
 ## Bio
@@ -23,6 +23,10 @@ That people-leadership instinct is grounded in 15 years of hands-on engineering 
 ## Current Focus
 
 Building an AI Engineering knowledge base (this wiki) and ramping back up on hands-on AI/ML work. Primary interest areas: agentic AI systems, LLM tooling, and the engineering leadership implications of AI-assisted development.
+
+## Published Artifacts
+
+- **[hornof/knowledge-work-plugins](https://github.com/hornof/knowledge-work-plugins)** (2026-06-17) — open-source repository of **11 plugins for knowledge workers** in [[claude-cowork|Claude Cowork]] (also Claude Code compatible). Roles covered: productivity + sales + customer-support + product-management + marketing + legal + finance + data + enterprise-search + bio-research + cowork-plugin-management. **First wiki-captured owner-side substantive published artifact.** See [[hornof-knowledge-work-plugins-claude-cowork-2026-06-17]] for the full canonical-plugin-structure articulation + 4-canonical-customization-pattern + 11-canonical-knowledge-worker-role MCP-connector-stack canonical taxonomy.
 
 ## Career Summary
 
