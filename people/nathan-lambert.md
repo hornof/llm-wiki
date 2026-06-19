@@ -3,7 +3,7 @@ name: Nathan Lambert
 type: person
 affiliation: independent (post-AI2 as of 2026-06)
 signal_sources: [substack, twitter, podcast]
-last_updated: 2026-06-04
+last_updated: 2026-06-19
 ---
 
 ## Who They Are
@@ -20,6 +20,7 @@ Nathan Lambert is a post-training + RLHF researcher and editor of **Interconnect
 
 - **AI2 departure to continue open-source AI work (2026-06-02)**: leaves AI2 to continue independent open-source-AI research and writing. **First wiki-captured surface**; framing surfaced as *"leadership churn at research institute; signals continued open-source momentum as a career path"* in the brief. Pattern-watch: where does Lambert land (or does he stay independent indefinitely)? — [[dailybrief-roundup-2026-06-02-brief]]
 - **Multi-teacher distillation = "post-training industry standard" (2026-06-04)**: on NVIDIA's [[nvidia-nemotron-3-ultra-550b-2026-06-04|Nemotron 3 Ultra 550B release]], Lambert frames the **multi-teacher on-policy distillation pipeline** (>10 specialized teacher models) as *"the post-training industry standard."* **First wiki-captured shift in frontier-vendor competitive surface from training-side to post-training-side** — pre-2026 the load-bearing differentiators were training compute + data quality + architecture; post-2026, **multi-teacher distillation pipelines + the specialized teacher models themselves** are the load-bearing differentiators. — [[nvidia-nemotron-3-ultra-550b-2026-06-04]]
+- **"Restricting open-source AI threatens American values + transparency + innovation" canonical-defense-positioning (2026-06-19)** ([[jun-19-open-source-research-origin-cluster-2026-06-19]]): post-departure-from-AI2 Lambert publicly argues against restricting open-source AI. **First wiki-captured Lambert canonical-substantive-surface in canonical-think-tank-tier open-source-AI-defense canonical-discourse** post-departure from AI2. Florian Brand counter-warns: restrictions enable **monopolistic rent-seeking**. **3rd substantive Lambert surface** confirms canonical-recurring open-source-AI-defense canonical-voice-tier. Extends to **4-voice canonical-open-source-AI-defense canonical-cluster** (cybersecurity-vets Jun 15 industry-tier + Willison Jun 16 practitioner-tier + Greg Isenberg Jun 13 practitioner-tier + Nathan Lambert Jun 19 think-tank-tier).
 
 ## Why The Wiki Tracks Lambert
 
