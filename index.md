@@ -27,6 +27,7 @@
 - [[bun]] — all-in-one JavaScript runtime (Jarred Sumner); subject of the Anthropic Dynamic Workflows Zig→Rust port case study (May 2026)
 - [[marble]] — [[world-labs]]' first product; multimodal-input 3D world generation; outputs Gaussian splats (renderer-side) + collision meshes (simulator-side); dissolves renderer-simulator boundary (June 2026)
 - [[ona]] — persistent-cloud-agents platform; OpenAI acquisition target (Jun 2026); long-running stateful agent environments extending OpenAI Codex from prompt-and-return to persistent-stateful-deployment
+- [[colossus-2]] — SpaceX's canonical-multi-tenant frontier-AI training substrate (Nvidia GB300 GPU cluster); anchors $5.4B–$6.3B multi-year compute-leasing canonical-deal with [[reflection-ai]] ($150M/month through 2029); first wiki-captured canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning; repositions SpaceX from canonical-launch-services to canonical-AI-substrate-provider (June 2026)
 
 ## Models & Providers
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
@@ -142,6 +143,10 @@
 - [[shane-legg]] — Google DeepMind co-founder + Chief AGI Scientist; 4-pathway AGI/superintelligence framework; 5 substantive surfaces (June 2026)
 - [[matei-zaharia]] — Databricks co-founder/CTO; Apache Spark creator; Omnigent meta-harness open-source author (Jun 2026); 6th Loop Engineering canonical voice
 - [[sarah-guo]] — Conviction Capital founder; No Priors podcast co-host; "model labs vs agent labs" + "what's untrainable" canonical framings; 8th Loop Engineering canonical voice candidate (June 2026)
+- [[0xcodez]] — independent practitioner-content-register voice (Lev Deviatkin; @0xCodez; movez.substack.com); canonical Loop Engineering + Dynamic Workflows + Claude Code multi-step canonical-guides; 3-substantive-surface canonical-voice-tier (Jun 11 Fable 5 + Jun 20 14-step Loop-Engineering-roadmap + Jun 21 Dynamic Workflows); "the leverage point has moved from typing prompts to designing systems that prompt" + 3 canonical-failure-modes (agentic-laziness + self-preferential-bias + goal-drift) canonical framings (June 2026)
+- [[anatoli-kopadze]] — independent practitioner-content-register voice (@AnatoliKopadze; t.me/kopadzemp); comprehensive Claude-features + canonical Loop-Engineering-introduction guides; 2-substantive-surface canonical-voice-tier (May 22 Claude Can Do All of This + Jun 20 Loops explained); 5-stage canonical-loop-articulation (DISCOVER+PLAN+EXECUTE+VERIFY+ITERATE) + 3-pillar canonical-discipline (verify + state + stop condition) (June 2026)
+- [[francois-fleuret]] — Meta FAIR (Fundamental AI Research) researcher; canonical-inference-optimization + canonical-LLM-novelty-theory voice; "LLMs model the probability density of innovative human creators" + speculative-decoding "nearly free lunch" canonical framings; 2-substantive-surface canonical-voice-tier (Jun 20 + Jun 21)
+- [[thibault-sottiaux]] — OpenAI Codex engineering lead (@tibo-sottiaux); canonical-direct-voice on Codex open-source-routing decisions + Codex UX-feedback; 2-substantive-surface canonical-voice-tier (Jun 17 + Jun 21)
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
@@ -185,6 +190,8 @@
 - [[box]] — public enterprise content-management SaaS; AI-native incumbent positioning via Levie's *"headless software"* framing (May 2026)
 - [[doordash]] — public US food-delivery / last-mile platform; wiki interest via Stulberg + aakashgupta DoorDash company-brain practitioner signals (May 2026)
 - [[cognition]] — autonomous-coding-agent vendor (Devin); $1B raised at $26B / $492M ARR run-rate / 10× usage growth this year (May 2026)
+- [[reflection-ai]] — open-source frontier AI lab; STRUCTURALLY MAJOR canonical-SpaceX-anchor-customer for [[colossus-2]] under multi-year $5.4B–$6.3B canonical-compute-commitment ($150M/month through 2029); first wiki-captured canonical-non-OpenAI canonical-non-xAI canonical-Anthropic-non-allied canonical-frontier-lab-funding model (June 2026)
+- [[allenai]] — Allen Institute for AI (Ai2); Seattle-based open-source AI research nonprofit; canonical OLMo + TMax + Tülu canonical-fully-open-source canonical-stack (training-data + canonical-checkpoint + canonical-code release); Nathan Lambert + Finbarr Timbers + Weijia Shi canonical-direct-voices (June 2026)
 
 ## Canvases
 - [[agi-debate.canvas|agi-debate]] — visual canvas of the AGI debate: LeCun, Hassabis, Karpathy, Fei-Fei Li, Luma, Silver
