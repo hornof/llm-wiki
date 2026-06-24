@@ -25,9 +25,9 @@ last_updated: 2026-06-23
 
 ## Compared To
 
-- **Vs. [[meta-ai|Meta FAIR]]**: Ai2 publishes full training-data + canonical-checkpoint + canonical-code (canonical-fully-open-source canonical-positioning) while Meta FAIR ships canonical-open-weights canonical-positioning only.
-- **Vs. [[mistral]]**: Ai2 canonical-nonprofit canonical-research-positioning vs. Mistral canonical-commercial canonical-frontier-lab canonical-positioning.
-- **Vs. [[deepmind]] / [[openai]] / [[anthropic]]**: Ai2 canonical-fully-open-source-frontier-research canonical-positioning vs. closed-frontier-lab cohort.
+- **Vs. [[meta|Meta FAIR]]**: Ai2 publishes full training-data + canonical-checkpoint + canonical-code (canonical-fully-open-source canonical-positioning) while Meta FAIR ships canonical-open-weights canonical-positioning only.
+- **Vs. [[mistral-ai|Mistral]]**: Ai2 canonical-nonprofit canonical-research-positioning vs. Mistral canonical-commercial canonical-frontier-lab canonical-positioning.
+- **Vs. [[google-deepmind|DeepMind]] / [[openai]] / [[anthropic]]**: Ai2 canonical-fully-open-source-frontier-research canonical-positioning vs. closed-frontier-lab cohort.
 
 ## Resources
 

@@ -29,4 +29,4 @@ last_updated: 2026-06-23
 
 - [[dailybrief-roundup-2026-06-21]] — Jun 21 Codex UX-feedback canonical-direct-voice (2nd substantive surface)
 - [[dailybrief-roundup-2026-06-17]] — Jun 17 Codex open-source-routing decisions (1st substantive surface)
-- [[tools/openai-codex]] — Codex tool page (vendor-side eng-lead direct-voice anchor)
+- [[codex]] — Codex tool page (vendor-side eng-lead direct-voice anchor)
