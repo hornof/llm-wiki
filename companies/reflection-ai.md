@@ -22,7 +22,7 @@ last_updated: 2026-06-23
 
 ## Compared To
 
-- Closest cohort: open-source frontier labs (e.g., [[allenai|Ai2/Allen Institute]] + [[mistral]] + [[meta-ai]] for Llama-tier work). Reflection AI's $5.4B+ compute commitment puts it in canonical-frontier-training-tier rather than canonical-academic-research-tier.
+- Closest cohort: open-source frontier labs (e.g., [[allenai|Ai2/Allen Institute]] + [[mistral-ai|Mistral]] + [[meta|Meta]] for Llama-tier work). Reflection AI's $5.4B+ compute commitment puts it in canonical-frontier-training-tier rather than canonical-academic-research-tier.
 - Distinguishes itself via canonical-SpaceX-substrate-anchor commitment (not multi-cloud canonical-pattern).
 
 ## Resources
