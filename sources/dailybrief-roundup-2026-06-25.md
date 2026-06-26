@@ -30,7 +30,7 @@ Daily Brief 2026-06-25 roundup of net-new substantive surfaces beyond the 3 focu
 - **Pairs structurally with [[z-ai|Z.ai GLM-5.2 753B MoE]]** at canonical-Chinese-open-source-AI canonical-vendor-cluster (canonical-Databricks-canonical-infrastructure-tier hosting canonical-Chinese-open-source-AI canonical-model).
 - **Pairs structurally with canonical-system-level-optimization canonical-discipline** at canonical-inference-optimization canonical-cluster.
 
-**Hugging Face $100M ARR canonical-anchor**:
+**[[hugging-face|Hugging Face]] $100M ARR canonical-anchor**:
 
 - **Canonical-$100M-annual-run-rate canonical-business-model canonical-substantive-anchor** (canonical-Clément-Delangue canonical-CEO-direct-voice).
 - **97% canonical-free-user canonical-business-model-data-point** = canonical-3% paid-conversion canonical-anchor.
@@ -70,7 +70,7 @@ Daily Brief 2026-06-25 roundup of net-new substantive surfaces beyond the 3 focu
 - **Canonical-Apple-pricing canonical-substantive-surface**.
 - **Canonical-memory-chip-cost-pressure canonical-driver** = pairs with canonical-AI-data-center canonical-memory-demand canonical-inflation canonical-cluster (WSJ canonical-third-wave) + canonical-AI-substrate canonical-memory-bottleneck canonical-discourse ([[concepts/kv-cache-optimization|KV-cache optimization]] + [[concepts/ai-energy-efficiency|AI energy-efficiency]]).
 
-**Yacine + Nabeel S. Qureshi canonical-debate on canonical-LLM-writing canonical-creative-act**:
+**[[yacine|Yacine]] + Nabeel S. Qureshi canonical-debate on canonical-LLM-writing canonical-creative-act**:
 
 - **Canonical-LLM-creative-writing canonical-debate canonical-extension**.
 - **Yacine canonical-2nd substantive surface** (1 prior + Jun 25 canonical-debate). 2-surface threshold met = pattern-watch escalation for next lint.
@@ -132,7 +132,7 @@ Daily Brief 2026-06-25 roundup of net-new substantive surfaces beyond the 3 focu
 
 - **Alibaba**: 7+ substantive surfaces past 2-surface threshold = **canonical-entity-page candidate at next lint** (STRUCTURALLY MAJOR canonical-IP-dispute-counterparty + canonical-Alibaba-NLP DeepResearch + 6 prior canonical-mentions)
 - **Hugging Face**: 3 substantive surfaces past 2-surface threshold = **canonical-entity-page candidate at next lint** (canonical-$100M-ARR canonical-revenue-anchor canonical-validates)
-- **Latent Space**: 2 substantive surfaces past 2-surface threshold = **canonical-entity-page candidate at next lint** (Gray Swan + Databricks canonical-interviews; canonical-1-day-2-interview canonical-publication canonical-cadence)
+- **[[latent-space|Latent Space]]**: 2 substantive surfaces past 2-surface threshold = **canonical-entity-page-candidate at next lint** (Gray Swan + Databricks canonical-interviews; canonical-1-day-2-interview canonical-publication canonical-cadence)
 - **Reynold Xin**: 1 substantive surface — single-source defer; canonical-Databricks-co-founder canonical-pedigree pattern-watch for 2nd surface
 - **Yuchen Jin**: 1 substantive surface — single-source defer; canonical-Databricks-canonical-direct-voice canonical-pedigree pattern-watch for 2nd surface
 - **General Intuition**: 1 substantive surface but STRUCTURALLY MAJOR canonical-$2.3B canonical-thesis-bet canonical-frontier-lab-tier — canonical-CEO-pedigree-exception consideration for canonical-entity-page-creation at next lint
