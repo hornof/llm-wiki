@@ -3,7 +3,7 @@ name: Dan Jeffries
 type: person
 affiliation: Independent (writer / AI-skepticism voice on X)
 signal_sources: [twitter]
-last_updated: 2026-06-08
+last_updated: 2026-06-27
 ---
 
 ## Who They Are
@@ -32,6 +32,7 @@ Anchors the **RSI-skepticism corner** of the 4-leg bracketed-trajectory framewor
 - **Constructive responses from peer voices**: [[junyang-lin|Junyang Lin]]'s world-models-as-bridge framing is **first wiki-captured constructive response to the Jeffries-LeCun bottleneck critique** ([[junyang-lin-new-lab-world-models-rsi-2026-06-06]]). [[nando-de-freitas|Nando de Freitas]]'s unified-causal-agent training proposal *centers* on the credit-assignment problem at the technical heart of feedback-loop-design ([[nando-de-freitas-unified-causal-agent-training-2026-06-06]]).
 - **Pairs with [[imas-trammell-post-agi-scarcity-dwarkesh-2026-06-04|Imas + Trammell post-AGI scarcity framing]]** as **2-vector RSI-skepticism cluster**: Imas + Trammell assume RSI happens and ask *what stays scarce*; Jeffries argues *RSI doesn't fully arrive in the time-multiplicity-bottlenecked domains in the first place*.
 - **Pairs with [[demis-hassabis|Hassabis]] AGI 2030 ± 1 + [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute RSI scenario 3]] + [[junyang-lin|Lin's]] world-models-grounded RSI** as the **4-position frontier-AI singularity-timeline articulation cluster**.
+- **2026-06-27: canonical-open-source-rebellion canonical-warning canonical-direct-voice** ([[dailybrief-roundup-2026-06-27]]): *"sudden restrictions on frontier AI models could spark an open-source rebellion."* Canonical-2-week-block canonical-anchor (high-level model access reportedly blocked for two weeks). **2nd substantive surface** = canonical-2-domain canonical-voice extension: canonical-RSI-skepticism (Jun 4) + canonical-AI-policy-restrictions-skepticism (Jun 27). Pairs structurally with [[anthropic-usg-conflict-resolution-mythos-100-orgs-asian-clones-2026-06-27|Trump admin Mythos 100+ orgs canonical-cooperation-resolution canonical-event]] at canonical-direct-tension: canonical-Jeffries-warning suggests canonical-USG-restrictions canonical-counter-productive while canonical-Trump-admin canonical-broad-deployment canonical-resolution canonical-evidence canonical-resolution-arc-outcome.
 
 ## Where to Follow
 
