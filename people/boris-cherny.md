@@ -3,7 +3,7 @@ name: Boris Cherny
 type: person
 affiliation: Anthropic (Claude Code creator)
 signal_sources: [conference, twitter, podcast]
-last_updated: 2026-06-17
+last_updated: 2026-06-29
 ---
 
 ## Who They Are
@@ -38,6 +38,7 @@ Boris Cherny is the creator of [[claude-code]] at [[anthropic]] — started as a
   5. Self-verify end to end (Chrome extension for web, iOS/Android sim MCP for mobile, full server-startup for backend)
 - **Context-rot counter-claim** (2026-06-08 X reply, [[bcherny-5-tips-opus-autonomous-2026-06-05]]): *"Context rot isn't a thing with 4.8 imo, but curious if that's been your experience also."* Direct contradiction of [[linas-beliunas-claude-goal-guide-2026-05-14|Linas's "context rot silently degrades long runs"]] framing — Cherny disputes for [[claude-opus-4-8|Opus 4.8]] generation.
 - **5-archetype long-horizon-workload taxonomy** (2026-06-08 X reply, [[bcherny-5-tips-opus-autonomous-2026-06-05]]): feature-building / language-migration / framework-migration / iterative-profiling-and-optimization / flaky-test-resolution.
+- **2026-06-29: canonical-Claude-Code-subagents-default-in-background canonical-next-version-roadmap-anchor** ([[dailybrief-roundup-2026-06-29]]): canonical-Cherny canonical-direct-voice canonical-roadmap-anchor — *"next Claude Code version will run subagents in the background by default. This lets users continue chatting while tasks run independently."* **First wiki-captured canonical-subagents-default-background canonical-Claude-Code-roadmap-anchor**. Extends canonical-Cherny canonical-2-direct-voice canonical-cadence canonical-cluster (Jun 10 Tokyo "I don't prompt Claude anymore" + Jun 29 subagents-default-roadmap) = canonical-Anthropic-Claude-Code-creator canonical-direct-voice canonical-recurring canonical-anchor-tier canonical-validation.
 - **Canonical `/loop` starter** (via [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn]]): */loop babysit all my PRs. Auto-fix build issues, and when comments come in, use a worktree agent to fix them.*
 - **Cron-under-the-hood disclosure** (via [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn]]): *"Boris literally runs his on cron. The /loop command in Claude Code uses cron under the hood."*
 - **`/usage` slash command surfaced** (2026-06-08 X reply, [[bcherny-5-tips-opus-autonomous-2026-06-05]]): *"Run `/usage` to see a breakdown of the specific skills, mcps, and plugins that are using your tokens."* First wiki-captured per-skill / per-MCP / per-plugin token-breakdown primitive.
