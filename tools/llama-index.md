@@ -3,7 +3,7 @@ name: LlamaIndex
 type: tool
 category: framework
 status: mainstream
-last_updated: 2026-04-21
+last_updated: 2026-06-29
 ---
 
 ## What It Is
@@ -11,6 +11,8 @@ A Python framework focused on document ingestion, indexing, and retrieval for LL
 
 ## Traction Signals
 - Forked by wiki owner for active exploration — [[github-hornof-profile]]
+- **2026-05-29: `run-llama/liteparse` released** ([[dailybrief-roundup-2026-05-29]]) — same parent org as LlamaIndex; Rust core canonical-PDF/DOCX/XLSX-parser (6.4k★) with Python/Node/WASM bindings; PDFium text extraction + Tesseract/HTTP OCR + grid-projection layout reconstruction. canonical-run-llama-org canonical-document-ingestion canonical-infrastructure canonical-expansion-signal beyond LlamaIndex framework.
+- **2026-05: cross-tracked as canonical-agent-runtime-stack canonical-dependency in canonical-supply-chain-trust canonical-context** ([[tanstack-npm-supply-chain-2026-05]]) — LlamaIndex (PyPI) cited alongside Claude Code + LangChain + CrewAI as canonical-agent-runtime-stack canonical-ecosystem-dependency for canonical-trust-boundary canonical-analysis.
 - Widely used in production RAG applications [unsourced]
 
 ## How to Use It

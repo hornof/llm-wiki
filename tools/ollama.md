@@ -3,7 +3,7 @@ name: Ollama
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-04-21
+last_updated: 2026-06-29
 ---
 
 ## What It Is
@@ -12,6 +12,8 @@ A tool for running large language models locally. Pull and run open-weight model
 ## Traction Signals
 - Forked by wiki owner for active exploration — [[github-hornof-profile]]
 - Supports a wide range of current models: Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma [from repo description]
+- **2026-06-13: STRUCTURALLY MAJOR canonical-Greg-Isenberg canonical-#1-runtime-recommendation** ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]) — canonical-Ollama (or LM Studio) cited as canonical-step-1 in canonical-local-models-pivot canonical-playbook responding to canonical-Fable-5 canonical-export-control; canonical-7B-any-laptop / canonical-32B-Mac-32GB+ / canonical-70B-DGX-Spark canonical-hardware-tiering canonical-anchor; canonical-Ollama-as-canonical-operator-side-substrate canonical-response to canonical-frontier-vendor-restrictions
+- **2026-06-23: canonical-Apple-Silicon canonical-competitor canonical-pattern-watch** ([[dailybrief-roundup-2026-06-23]]) — `raullenchai/Rapid-MLX` canonical-Apple-Silicon-local-LLM-inference canonical-engine (AI Score 10/10) emerges as canonical-canonical-Ollama canonical-Apple-Silicon-specialized canonical-counter-substrate canonical-pattern
 
 ## How to Use It
 Install, run `ollama pull <model>`, then `ollama run <model>`. Also exposes a local REST API compatible with OpenAI's API format, making it easy to swap into existing code.

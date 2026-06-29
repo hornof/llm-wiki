@@ -3,7 +3,7 @@ name: CrewAI
 type: tool
 category: framework
 status: gaining-traction
-last_updated: 2026-04-21
+last_updated: 2026-06-29
 ---
 
 ## What It Is
@@ -11,6 +11,8 @@ A Python framework for orchestrating multi-agent AI workflows. Agents are assign
 
 ## Traction Signals
 - Forked by wiki owner for active exploration — [[github-hornof-profile]]
+- **2026-06-08: Opik canonical-50+ framework integrations canonical-roster includes CrewAI** ([[akshay-pachaar-opik-self-repairing-harness-2026-06-08]]) — CrewAI cited alongside LangGraph as canonical-multi-agent-framework canonical-instrumentation-target at canonical-self-repairing-harness canonical-substrate-tier
+- **2026-06-13: Omnigent canonical-positioning canonical-comparison-target** ([[zaharia-omnigent-multi-agent-meta-harness-2026-06-13]]) — Matei Zaharia's Omnigent positioned in same canonical-multi-agent-orchestration canonical-cohort as CrewAI + LangChain + Anthropic Dynamic Workflows (verification-pending Zaharia-canonical-direct-comparison)
 - One of the most-starred agent orchestration frameworks on GitHub [unsourced]
 
 ## How to Use It

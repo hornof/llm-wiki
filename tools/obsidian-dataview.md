@@ -3,7 +3,7 @@ name: Obsidian Dataview
 type: tool
 category: ide-extension
 status: mainstream
-last_updated: 2026-04-21
+last_updated: 2026-06-29
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ An [[obsidian]] plugin that lets you query your vault's frontmatter and content 
 ## Traction Signals
 - Recommended in Karpathy's original LLM Wiki gist as part of the optional tool stack — [[karpathy-llm-wiki-gist]]
 - One of the most-installed Obsidian plugins; effectively standard in any serious Obsidian vault
+- **2026-06-29 status**: stable canonical-incumbent canonical-Obsidian-plugin; no canonical-substantive-displacement canonical-event surfaced in 2026-Q2 ingest cadence. Used in this wiki's `meta/dashboard.md` for canonical-recent-activity + canonical-seed-pages canonical-queries (per [[claude-obsidian:wiki-lint]] scaffold).
 
 ## How to Use It
 Install from Obsidian's community plugins. Write queries inline in notes using code blocks tagged `dataview`. Example — list all tools with gaining-traction status:

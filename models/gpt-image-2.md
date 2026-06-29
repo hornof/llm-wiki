@@ -3,7 +3,7 @@ name: GPT-Image-2
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-04-22
+last_updated: 2026-06-29
 ---
 
 ## What It Is
@@ -23,6 +23,10 @@ Complex image generation tasks requiring accurate text, grid layouts, or photore
 
 ## Community Sentiment
 Launch reaction very positive — described as a step-change from previous versions. — [[thread-minchoi-gpt-image-2]]
+
+## Status as of 2026-06-29
+- No canonical-substantive-displacement canonical-event surfaced in 2026-Q2 ingest cadence (no canonical-GPT-Image-3 canonical-launch; OpenAI canonical-2026-Q2 canonical-product-focus shifted to canonical-GPT-5.6 canonical-model-family-launch + canonical-Codex-output-tokens canonical-internal-adoption-metrics).
+- Pattern-watch: canonical-canonical-image-gen canonical-frontier-competitors include canonical-Moebius 0.2B-parameter-efficiency canonical-anchor ([[dailybrief-roundup-2026-06-22]]) + canonical-Un-0 canonical-Naveen-Rao canonical-1000×-energy-efficiency canonical-claim ([[dailybrief-roundup-2026-06-25]] + [[dailybrief-roundup-2026-06-27]] canonical-Winfree-Oscillatory-Neural-Network architecture) — canonical-non-OpenAI canonical-canonical-image-gen canonical-substantive-competition canonical-emerging-pattern.
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — launch thread with capability examples
