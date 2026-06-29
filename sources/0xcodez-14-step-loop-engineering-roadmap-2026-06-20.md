@@ -4,7 +4,11 @@ type: source
 medium: twitter-thread
 url: https://x.com/0xCodez/status/2064374643729773029
 ingested: 2026-06-21
+updated: 2026-06-29
 ---
+
+> [!note] Canonical-content-extension 2026-06-29
+> Cross-device-re-clipped 2026-06-29 (saved as `_raw/Loop engineering the 14-step roadmap from prompter to loop designer. 2.md`) captures the **full 14-step canonical-content** (362 lines vs prior canonical-clipping's truncated steps 1-4). **Net-new canonical-anchors from steps 5-14 extraction**: canonical-/loop vs /goal canonical-distinction (canonical-maker-vs-checker-split-applied-to-stop-condition); canonical-5-building-blocks canonical-roster (Automations + State + Verifiers + Memory + Tools); canonical-good-first-loops canonical-roster (CI failure triage + dependency bumps + lint-and-fix + flaky test reproduction + issue-to-PR drafts); canonical-bad-first-loops canonical-roster (architecture rewrites + auth/payments + production deploys + vague product + judgment-call work). Pairs with [[raytar-2-event-cluster-stop-being-the-loop-anthropic-internal-video-2026-06-26|Raytar canonical-5-beat canonical-loop-articulation]] + [[anatolikopadze-loops-explained-2nd-surface-2026-06-21|AnatoliKopadze canonical-5-stage canonical-articulation]] = canonical-3-author canonical-5-component-loop canonical-pattern-convergence cluster.
 
 ## Summary
 
