@@ -12,7 +12,7 @@ Daily Brief 2026-07-01 roundup of net-new substantive surfaces beyond the focuse
 
 ## Key Claims / Takeaways
 
-**STRUCTURALLY MAJOR Jelani Nelson canonical-Berkeley-EECS-chair → Anthropic canonical-talent-attrition** (Digg):
+**STRUCTURALLY MAJOR [[jelani-nelson|Jelani Nelson]] canonical-Berkeley-EECS-chair → Anthropic canonical-talent-attrition** (Digg):
 
 - **Canonical-Berkeley-EECS-chair canonical-tier canonical-poach** = first wiki-captured canonical-top-CS-department-chair-tier canonical-frontier-lab canonical-talent-attrition canonical-event.
 - **Canonical-Anthropic-canonical-talent-attractor canonical-tier canonical-extension** at canonical-academic-leadership-hire-caliber canonical-anchor.
