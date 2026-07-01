@@ -8,7 +8,7 @@ ingested: 2026-07-01
 
 ## Summary
 
-**Khairallah (@eng_khairallah1) canonical-comprehensive-AI-Engineer-in-2026 canonical-career-guide** (X post 2026-06-23; cross-device-clipped 2026-07-01). **Canonical-portfolio-over-credentials canonical-thesis**: *"a portfolio of shipped projects carries more weight than a degree"* + canonical-6-phase canonical-roadmap-to-AI-engineer canonical-path + canonical-AI-engineer-vs-ML-researcher canonical-distinction. **Canonical-owner-relevant canonical-substantive-source** — canonical-directly-relevant to wiki-owner's canonical-hands-on-AI-engineering canonical-return-path. **Khairallah 2nd canonical-substantive surface** (extends [[khairallah-claude-projects-6-part-blueprint-2026-06-06|Jun 6 canonical-Claude-Projects-6-part-blueprint]] = canonical-2-substantive-surface canonical-recurring-author canonical-cadence canonical-validation).
+**[[khairallah|Khairallah (@eng_khairallah1)]] canonical-comprehensive-AI-Engineer-in-2026 canonical-career-guide** (X post 2026-06-23; cross-device-clipped 2026-07-01). **Canonical-portfolio-over-credentials canonical-thesis**: *"a portfolio of shipped projects carries more weight than a degree"* + canonical-6-phase canonical-roadmap-to-AI-engineer canonical-path + canonical-AI-engineer-vs-ML-researcher canonical-distinction. **Canonical-owner-relevant canonical-substantive-source** — canonical-directly-relevant to wiki-owner's canonical-hands-on-AI-engineering canonical-return-path. **Khairallah 2nd canonical-substantive surface** (extends [[khairallah-claude-projects-6-part-blueprint-2026-06-06|Jun 6 canonical-Claude-Projects-6-part-blueprint]] = canonical-2-substantive-surface canonical-recurring-author canonical-cadence canonical-validation).
 
 ## Key Claims / Takeaways
 
