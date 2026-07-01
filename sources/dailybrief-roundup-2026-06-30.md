@@ -25,7 +25,7 @@ Daily Brief 2026-06-30 roundup of net-new substantive surfaces beyond the 3 focu
 - Canonical-Tempo canonical-day-one canonical-natively-issues canonical-OpenUSD canonical-anchor.
 - Canonical-Open-Standard canonical-positioning: canonical-share-economics-with-users canonical-thesis.
 - **First wiki-captured Open Standard + OpenUSD + Tempo canonical-substantive-surfaces**.
-- **Pairs structurally with `[[stripe]]` canonical-payments-incumbent canonical-stablecoin canonical-positioning** (canonical-entity-page-candidate pattern-watch).
+- **Pairs structurally with [[stripe|Stripe]] canonical-payments-incumbent canonical-stablecoin canonical-positioning**.
 
 **STRUCTURALLY MAJOR OpenAI canonical-inference-cost-cuts-in-half on canonical-logged-out-ChatGPT-traffic** (Digg):
 
@@ -152,7 +152,7 @@ Daily Brief 2026-06-30 roundup of net-new substantive surfaces beyond the 3 focu
 - [[dailybrief-roundup-2026-06-27]] — paired DSpark DeepSeek canonical-speculative-decoding canonical-validation
 - [[ai-for-science]] — paired Grant Sanderson canonical-AI-mathematical-discovery canonical-cluster
 - [[alex-lupsasca]] — paired canonical-AI-mathematical-discovery canonical-vibe-physics canonical-cluster
-- `[[stripe]]` — paired canonical-payments-stablecoin canonical-3-vendor canonical-cluster (canonical-entity-page-candidate pattern-watch)
+- [[stripe]] — paired canonical-payments-stablecoin canonical-3-vendor canonical-cluster
 - [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17]] — paired canonical-Anthropic-USG canonical-re-promotion
 
 ## Verification-Pending

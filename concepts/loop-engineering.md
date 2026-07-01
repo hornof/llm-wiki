@@ -1,9 +1,12 @@
 ---
 name: Loop Engineering
 type: concept
-maturity: emerging
-last_updated: 2026-06-18
+maturity: gaining-mainstream-recognition
+last_updated: 2026-06-30
 ---
+
+> [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
+> **[[andrew-ng|Andrew Ng]] canonical-mainstream-AI-education-pedigree canonical-direct-validation** ([[andrew-ng-loop-engineering-3-loop-validation-2026-06-30|Jun 30 X-thread + canonical-The-Batch newsletter]]): Ng canonical-explicitly-cites canonical-Loop-Engineering canonical-coinage canonical-attribution to **[[boris-cherny|Boris Cherny]] + [[peter-steinberger|Peter Steinberger]]** as canonical-viral-social-media canonical-source-anchors + canonical-3-loop canonical-articulation (agentic-coding minute-scale + developer-feedback tens-of-minutes-to-hours + external-feedback hours-to-weeks) + canonical-context-advantage-vs-taste canonical-articulation. **Cluster status: 16-voice canonical-extension** (15-voice canonical-cluster + canonical-Andrew-Ng canonical-mainstream-AI-education-tier).
 
 ## Definition
 
