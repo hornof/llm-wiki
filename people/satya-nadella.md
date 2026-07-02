@@ -3,7 +3,7 @@ name: Satya Nadella
 type: person
 affiliation: Microsoft (CEO + Chairman)
 signal_sources: [twitter, blog, conference]
-last_updated: 2026-06-14
+last_updated: 2026-07-02
 ---
 
 ## Who They Are
@@ -14,13 +14,15 @@ Satya Nadella is the **CEO + Chairman of [[microsoft|Microsoft]]** (since 2014; 
 
 ## Their Current Focus
 
+- **2026-07-02 — Frontier Co. canonical-productization-milestone** ([[satya-nadella-frontier-co-launch-2026-07-02]]) — canonical-named-company canonical-launch: *"our new **Frontier Co.**, our ambition is to help every enterprise build its own AI capability, and to help create a frontier ecosystem where every organization can turn its knowledge, workflows, and judgment into its own AI systems that continuously improve."* Direct-productized answer to Jun 14 Frontier-ecosystem-thesis
 - **Frontier-ecosystem-not-frontier-model thesis** ([[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]]) — Microsoft positions as ecosystem-side alternative to frontier-vendor-monopoly-of-economic-returns narratives
-- **Human capital + token capital + learning loop** canonical 2-component firm-capital framework
+- **Human capital + token capital + learning loop** canonical 2-component firm-capital framework → canonical-Jul-2 canonical-refined "learning loop in which human capital and token capital compound" canonical-single-sentence canonical-thesis-statement
 - **AI-product-discipline public-positioning** ([[dailybrief-roundup-2026-06-05|Scout-rejection event]]) — Microsoft-side AI-product-discipline rejection of addictive-AI-agent-proposal
 - **Microsoft AI leadership 3-vector positioning**: Nadella product-discipline + de Freitas research-methodology + Nadella ecosystem-strategy
 
 ## Notable Takes
 
+- **2026-07-02 — Frontier Co. canonical-productization + canonical-3-pillar canonical-enterprise-AI-build-substrate** ([[satya-nadella-frontier-co-launch-2026-07-02]]): *"The future of the firm is a learning loop in which human capital and token capital compound. With our new **Frontier Co.**, our ambition is to help every enterprise build its own AI capability, and to help create a frontier ecosystem where every organization can turn its **knowledge, workflows, and judgment** into its own AI systems that continuously improve."* **First wiki-captured canonical-Frontier-Co canonical-named-company canonical-productization + canonical-3-pillar canonical-knowledge+workflows+judgment canonical-enterprise-AI-build-substrate + canonical-"learning loop in which human capital and token capital compound" canonical-single-sentence canonical-firm-thesis canonical-refinement**. **2nd-substantive-surface canonical-Nadella-CEO-cadence canonical-validation**. Extends canonical-Loop-Engineering canonical-cluster to canonical-CEO-tier canonical-firm-strategy canonical-articulation (canonical-adjacent to [[andrew-ng]] canonical-buzzphrase + canonical-Boris-Cherny + canonical-Peter-Steinberger canonical-vendor-tier + canonical-Anatoli-Kopadze + canonical-Movez + canonical-0xCodez canonical-practitioner-tier).
 - **2026-06-14 — Frontier ecosystem, not just frontier model** ([[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]]): *"In my view, our priority has to be building a frontier ecosystem, not just a frontier model, so value flows broadly across every company, every industry, and every country."* **First wiki-captured "frontier ecosystem, not just frontier model" canonical strategic-thesis**.
 - **"Human capital + token capital" 2-component firm-capital framework** ([[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]]): *"Every company is going to have to build what I think of as human capital and token capital."* + *"Human capital does not become less valuable as token capital grows. It only becomes more valuable!"* **First wiki-captured "human capital + token capital" canonical 2-component firm-capital framework**.
 - **"You can offload a task, even a job, but you can never offload your learning"** ([[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]]): **First wiki-captured "learning loop as new IP of the firm" canonical articulation**.
