@@ -84,7 +84,7 @@ Canonical-second-inclusion in canonical-Daily-Brief (previously covered in [[ant
 - [[claude-code-artifacts-launch-2026-06-18]] — Jul 2 Pro/Max GA expansion update (2-week beta-to-GA arc)
 - [[simon-willison]] — canonical-3-substantive-surface canonical-cadence-milestone update
 - [[satya-nadella]] — canonical-Microsoft-$2.5B canonical-Frontier-Co-canonical-follow-up canonical-financial-commitment update
-- `[[microsoft]]` — canonical-page-pending (canonical-multi-lint canonical-pattern-watch canonical-Nadella-Frontier-Co-related canonical-Microsoft-entity-page canonical-creation-candidate); canonical-Microsoft-$2.5B canonical-Frontier-Co canonical-financial-commitment update tracked via [[satya-nadella]] page
+- [[microsoft]] — canonical-Microsoft canonical-$2.5B canonical-AI-deployment-company canonical-Frontier-Co canonical-financial-commitment update (canonical-entity-page canonical-created canonical-2026-07-03 canonical-lint)
 - [[anthropic]] — canonical-USG-conflict-resolution + canonical-Samsung-custom-chip updates
 - [[openai]] — canonical-5%-equity-donation-USG update (also covered in separate source)
 - [[index]] — Recent ingests entry
