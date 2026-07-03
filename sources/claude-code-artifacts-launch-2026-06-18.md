@@ -90,6 +90,10 @@ Anthropic articulates one of the most common internal-testing use-cases: **debug
 - [[agentic-coding-tooling-cluster-2026-06-17]] — Jun 17 Vercel Eve + Codex routing + Polypore + Adam YC W25
 - [[claude-cowork]] — Anthropic adjacent product context
 
+## Update: 2026-07-02 canonical-Pro/Max canonical-GA canonical-expansion
+
+**canonical-Claude-Code canonical-Artifacts canonical-Pro-and-Max canonical-plans canonical-GA-expansion** ([ClaudeDevs on X Jul 2](https://x.com/ClaudeDevs/status/2072770790114914317)) — canonical-2-week canonical-beta-to-GA canonical-arc canonical-milestone: Jun 18 Team + Enterprise beta → Jul 2 Pro + Max GA. **canonical-451.5K-views canonical-2-hour canonical-post-tweet canonical-signal** = canonical-viral-Claude-Code-vendor-tier canonical-anchor. Canonical-articulation: *"Ask for an artifact, Claude writes the code, publishes it live to claude.ai, and updates it in real time while it keeps working. Pages are private to your account and fully self-contained."* — canonical-consistent-with-Jun-18-private-to-org-default canonical-governance-positioning. **canonical-Ansar-H canonical-quote-tweet canonical-adjacent-Fable-5-back canonical-viral-moment canonical-cross-reference** ("NOW SHOWING: FABLE 5"). See [[dailybrief-roundup-2026-07-02-pt2]] for full canonical-Jul-2 canonical-context.
+
 ## Verification-pending
 
 - Specific Claude Code artifacts technical-architecture (storage + rendering + state-management)
