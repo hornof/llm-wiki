@@ -3,7 +3,7 @@ name: career-ops
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-04-30
+last_updated: 2026-07-06
 ---
 
 ## What It Is
@@ -18,6 +18,7 @@ The author built it during a layoff to evaluate 740+ job offers, landed a Head o
 - **Open source under MIT** — no paywall or DM-gate; reproducible by other practitioners
 - **Author shipped it after using it on themselves**: 740+ offers evaluated, real job landed (Head of Applied AI). Self-validation before public release is unusual and adds credibility
 - Cross-mention: appears in same-week practitioner output as [[alfiejcarter-linkedin-claude-stack]]; both stacks use Playwright MCP — converging convention for real Claude Code tool stacks
+- **2026-06-27 to 2026-07-02 canonical-5-voice canonical-AI-native-roles-and-architecture-evolution canonical-cluster canonical-adjacent-positioning**: career-ops canonical-positioning canonical-directly-in-the-space canonical-articulated by canonical-Greg-Isenberg canonical-3-pillar canonical-AI-native-company + canonical-Boris-Cherny canonical-5-archetype canonical-future-roles + canonical-Andrew-Ng canonical-3-loop canonical-Loop-Engineering + canonical-Khairallah canonical-6-phase canonical-roadmap-to-AI-engineer + canonical-Anatoli-Kopadze canonical-agent-spectrum. **career-ops as canonical-existence-proof of canonical-portfolio-over-credentials canonical-Khairallah-thesis + canonical-agent-leveraged-professional-software canonical-Cherny-tandem-human-AI-tier**.
 
 ## How to Use It
 
