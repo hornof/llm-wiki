@@ -2,7 +2,7 @@
 name: Model-Rendered UI
 type: concept
 maturity: emerging
-last_updated: 2026-05-15
+last_updated: 2026-07-06
 ---
 
 ## Definition
@@ -48,6 +48,10 @@ Karpathy flags an unresolved question on the path from step 3 to step n: how exa
 ## Practitioner Bridge: HTML Output Prompting (May 2026)
 
 The practitioner-pattern "ask Claude for HTML, not Markdown" ([[thariq-shihipar]] / [[willison-html-effectiveness-2026-05]] / [[karpathy-html-output-taxonomy-2026-05-08]]) is the *currently-shipped* prong of the taxonomy above (step 3). It is concretely available today inside [[claude-code]] and on Claude.ai. The model-rendered-UI research direction is the *next* prong (step n). Karpathy's May 2026 framing is the first time the wiki has a primary-voice articulation of *the practitioner pattern and the research direction as a single ladder rather than two separate developments*.
+
+## Adobe: self-assembling websites (July 2026)
+
+A [latent.space piece](https://www.latent.space/p/the-website-of-the-future) surfaced in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]] reports Adobe experimenting with **agentic sites that assemble a different page for every visitor**, generated per user intent rather than authored once. This is the *application-layer* cousin of model-rendered UI: still (for now) structured web output, but with the page composition itself model-generated at request time. Conceptually significant; no concrete working example in the coverage yet. Watch whether "page assembled per visitor" and "pixels streamed per visitor" (Flipbook) converge or stay distinct.
 
 ## Related Concepts
 - [[world-models]] — related idea: models that predict and generate environment state rather than tokens

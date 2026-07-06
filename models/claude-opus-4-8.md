@@ -3,7 +3,7 @@ name: Claude Opus 4.8
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-06-01
+last_updated: 2026-07-06
 ---
 
 ## What It Is
@@ -58,6 +58,10 @@ Sits alongside [[claude-mythos]] (Anthropic's preview line); positioning between
 ### Subagent-token-management critique (Manheim, 2026-05-31)
 
 Per [[dailybrief-supplemental-2026-05-31|David Manheim's critique]]: Opus 4.8 *"improves at game music composition but struggles with autonomous subagent token management… requires close supervision despite receiving explicit instructions."* Pairs with [[nateherk-dynamic-workflows-2026-05-30|Nate Herk's 41-Haiku ~50%-plan cost case study]]: Manheim's framing explains why Nate Herk's case study had such high cost — explicit Haiku instruction was needed for cost-discipline because the model doesn't autonomously manage subagent token budgets well.
+
+### Tool-schema hallucination on non-native harnesses (Ronacher, 2026-07-04)
+
+Per [[armin-ronacher|Armin Ronacher]]'s "Better Models: Worse Tools" ([[armin-ronacher-better-models-worse-tools-2026-07-04]]): Opus 4.8 (and [[claude-sonnet-5|Sonnet 5]]) are **worse than their predecessors at calling third-party edit-tool schemas** — they invent `edits[]` fields that aren't in the schema, causing the harness (Pi) to reject otherwise-correct edits. Ronacher's hypothesis: RL-tuning the models to excel at [[claude-code|Claude Code]]'s *native* search-and-replace edit tool degraded generalization to *alternative* schemas. A concrete capability-alignment gap — the model knows the edit it wants but not a non-native tool's interface contract. First wiki-captured "newer model = worse at a specific third-party tool schema" regression; caution against assuming newer-is-strictly-better for integration work.
 
 ## When to Use It
 

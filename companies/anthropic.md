@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-06-07
+last_updated: 2026-07-06
 ---
 
 ## What It Is
@@ -65,6 +65,7 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 - **Claude Certified Architect, Foundations** — Anthropic's first official technical certification (March 2026); proctored exam for solution architects building production Claude applications; gateway to a multi-track cert program with seller/architect/developer tracks promised later in 2026 — [[claude-certified-architect]]
 - **Enterprise AI Services Joint Venture** (announced 2026-05-03, name TBD) — new company co-founded with Blackstone, Hellman & Friedman, and Goldman Sachs; backed by General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital. Purpose-built to deliver custom Claude implementations for mid-sized companies (community banks, regional health systems, mid-sized manufacturers) that lack in-house frontier-AI capacity. Anthropic contributes Applied AI engineers who embed alongside the firm's engineering team. Will become a Claude Partner Network member. Distinct from existing SI partners (Accenture, Deloitte, PwC), which serve large enterprises — [[anthropic-enterprise-ai-services-company-2026-05]]
 - **Claude for Financial Services** (launched 2026-05-05) — packaged set of 10 ready-to-run agent templates for IB, equity research, accounting, audit, and compliance workflows; ships as plugins for [[claude-code]] and Cowork or as cookbooks for production deployment as Managed Agents — [[claude-financial-services]], [[claudeai-financial-services-agents-2026-05]]
+- **Claude Science** (announced 2026-06-30) — AI workbench for scientists: customizable app integrating research tools, auditable artifacts, and compute access. Continues the vertical-app wedge alongside Financial Services. Product launch, no adoption signals yet — [[claude-science]], [[dailybrief-roundup-2026-07-06]]
 - **Claude Cowork** (named publicly 2026-05-05 as a plugin host alongside Claude Code) — autonomous-execution surface inside [[claude-desktop]] for non-coding workflows; routes through MCP → Chrome Extension → Computer Use; 38+ built-in connectors; Plugins, Skills, Scheduled Tasks, Dispatch (mobile pairing), Projects; Sonnet 4.6 default — see [[claude-cowork]], [[claude-cowork-cheatsheet-2026-05-07]]
 - **Managed Agents** (named publicly 2026-05-05; expanded at Code w/ Claude 2026 on 2026-05-06) — production deployment mode for Claude agents via Anthropic's cookbooks; first-class hosted runtime path distinct from CLI plugin install. Code w/ Claude 2026 added three named features: **Multi-agent Orchestration** (public beta — agent fleets for complex tasks), **Outcomes** (public beta — agents iterate toward defined success criteria), **Dreaming** (research preview — agents inspect previous sessions and self-improve) — [[willison-code-w-claude-2026]]. Public docs describe **Managed Agents Memory** as workspace-scoped collections of text documents mounted under `/mnt/memory/` and accessible to agents through normal file tools — [[ashwingop]] uses this as a primary touchpoint when arguing the substrate Anthropic provides is a knowledge base, not a [[company-brain]] — [[ashwingop-managed-agents-company-brain-2026-05-08]]
 - **Claude Code subsystems** (Code w/ Claude 2026 announcements, 2026-05-06) — **Code Review** (cross-team automated review), **Remote Agents** (control laptop from phone), **CI Auto-fix** (automatic fixes against PRs), **Security Reviews** (automated security review primitive), **Claude Code Routines** (higher-order async automation prompts), **Claude Code Desktop App** (full-screen IDE GUI, distinct from [[claude-desktop]] which is the chat/MCP host) — [[willison-code-w-claude-2026]]
@@ -84,6 +85,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 
 ## Traction Signals
 
+- **2026-07-06: Applied-government wedge** — Anthropic case study: the Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems. Vendor-published, unverified, marketing-adjacent — but a directional signal of the high-trust-vertical GTM (government/finance/science) — [[alberta-government-claude-cybersecurity-2026-07-06]]
+- **2026-06-30: Cross-vendor jailbreak severity framework** — shipped with the Fable 5 redeployment alongside Amazon, Microsoft, Google, and other Project Glasswing participants: a consensus 4-criteria severity scale for LLM jailbreaks. Positions Anthropic as the convener of an industry safety-scoring standard — [[jailbreak-severity-framework]], [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30]]
 - Claude models consistently rank highly on coding and reasoning benchmarks [unsourced]
 - MCP adopted broadly as infrastructure standard for agentic AI ecosystems
 - Constitutional AI paper widely cited in alignment research community [unsourced]

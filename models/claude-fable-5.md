@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-06-13
+last_updated: 2026-07-06
 ---
 
 ## What It Is
@@ -46,7 +46,20 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 - **Taelin (2026-06-09)**: dismissed leaked benchmarks as marketing.
 - **Pattern-watch**: Anthropic + Anthropic-Institute cross-cutting safety + capability narrative — [[anthropic-institute-when-ai-builds-itself-2026-06-04|RSI publication]] (Jun 4) → Fable 5 ship (Jun 9) = **first wiki-captured frontier-lab "warning-AI-too-dangerous + ship-most-powerful-model-publicly" 5-day-gap event**.
 
-## STATUS: Trump-Admin Export Control (2026-06-13 — globally suspended)
+## RESOLVED: Redeployed Globally (2026-06-30/07-01) + Jailbreak Severity Framework
+
+Per [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30|Anthropic's "Redeploying Fable 5" announcement]]: US export controls were lifted **2026-06-30** and Fable 5 + [[claude-mythos|Mythos 5]] returned globally **2026-07-01** across Claude Platform, Claude.ai, [[claude-code|Claude Code]], and [[claude-cowork|Claude Cowork]] (cloud surfaces — AWS/Google Cloud/Microsoft Foundry — re-enabled separately). This resolves the export-control saga documented below.
+
+- **Access window / pricing**: Pro/Max/Team/select-Enterprise got Fable 5 at up to **50% of weekly usage limits through July 7**, after which it moves to **usage credits (pay-per-use)** — the ~$10/$50-per-million-tokens premium tier per [[dailybrief-roundup-2026-07-03|Greg Isenberg's pricing PSA]] ("most expensive model Anthropic sells").
+- **New safety classifier**: targets the specific bypass from the Amazon research report, blocking it in "over 99% of cases" — at the cost of **more false positives on routine coding** (deliberate tradeoff). Resolves the [[wsj-amazon-jassy-anthropic-crackdown-2026-06-13|Amazon/Jassy jailbreak dispute]].
+- **Multi-vendor jailbreak severity framework**: shipped alongside the redeployment with Amazon, Microsoft, Google, and other Project Glasswing participants — a consensus 4-criteria severity scale (Capability Gain / Breadth / Ease of Weaponization / Discoverability). See [[jailbreak-severity-framework]]. Structurally the more important half of the announcement: cross-vendor adversarial-robustness scoring.
+
+### Real-world usage + capability datapoints (July 2026)
+
+- **Willison ships sqlite-utils 4.0rc2 mostly via Fable for $149.25** ([[simon-willison-sqlite-utils-fable-149-2026-07-05]]): 37 prompts / 30 files / 34 commits; caught a `delete_where()` data-loss bug; itemized cost breakdown ($141.02 main session + sub-agent reviews). First wiki-captured full itemized dollar cost for a real Fable-driven OSS release.
+- **GPU kernel generation** ([[jack-clark|Jack Clark]], Import AI 464, via [[dailybrief-roundup-2026-07-06]]): Fable writing GPU kernels — automation-of-software-R&D signal (summary thin, primary not deeply fetched).
+
+## STATUS: Trump-Admin Export Control (2026-06-13 — globally suspended, since lifted — see above)
 
 Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sacks (WH AI Czar) 2026-06-13 announcement]]: **Trump Administration issued export control on Claude Fable 5** following a "highly credible trusted partner" jailbreak disclosure + Dario Amodei refusing USG-safety-request to fix-or-de-deploy.
 
@@ -67,6 +80,9 @@ Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sac
 
 ## Resources
 
+- [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30]] — **global redeployment + multi-vendor jailbreak severity framework** (resolves export-control saga; June 30 / July 1 2026)
+- [[simon-willison-sqlite-utils-fable-149-2026-07-05]] — real-world OSS usage: sqlite-utils 4.0rc2 for $149.25
+- [[jailbreak-severity-framework]] — the 4-criteria cross-vendor severity scale
 - [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]] — **Trump-Admin export-control on Fable 5 + Anthropic-USG jailbreak conflict** (June 13 2026)
 - [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]] — operator-side local-models pivot (same-day reaction)
 - [[claudeai-fable-5-mythos-5-official-launch-2026-06-09]] — **Anthropic-canonical official launch announcement** (@claudeai); 3-category safeguard architecture + <5% aggregate fallback to Opus 4.8 + Mythos 5 = Glasswing-partners-only
