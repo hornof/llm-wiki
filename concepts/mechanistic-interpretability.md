@@ -2,7 +2,7 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-05-26
+last_updated: 2026-07-06
 ---
 
 ## Definition
@@ -66,8 +66,13 @@ Three independent surfaces of sparse-autoencoder-based interpretability research
 
 **Underlying convergence**: three independent labs / research groups, three different application domains, all converging on SAEs as the load-bearing interpretability primitive. The Anthropic and GoodfireAI results specifically disagree on the *geometry* of what SAEs are discovering — Anthropic verbalizes discovered features as text; GoodfireAI characterizes them as curved-manifold-tiles. Worth tracking whether these resolve to the same underlying object or whether they describe genuinely different mechanisms.
 
+## Global Workspace / J-space (Anthropic, July 2026)
+
+[[anthropic-global-workspace-language-models-2026-07-06]] argues Claude has an internal **global workspace** ("J-space") with *access-consciousness* properties — reportable, controllable, causally load-bearing for deliberate reasoning — while most processing bypasses it. The **J-lens (Jacobian lens)** reads the internal pattern associated with each vocabulary word, surfacing hidden intermediate reasoning (e.g. steps of a multi-step math problem that never appear in output) and safety-relevant private state (the model flagging a scenario as "fake"). Sits in the same read-the-reasoning-out lineage as NLAs, at a coarser (workspace-level) grain. Full treatment on the [[global-workspace]] concept page.
+
 ## Key Papers / Posts
 
+- [[anthropic-global-workspace-language-models-2026-07-06]] — "A global workspace in language models"; J-space + J-lens; access- (not phenomenal-) consciousness framing (July 2026)
 - [[anthropic-natural-language-autoencoders-2026-05]] — Natural Language Autoencoders; first wiki capture of an Anthropic interpretability publication producing first-person model-introspection text
 - [[anthropic-teaching-claude-why-2026-05-08]] — "Teaching Claude Why" alignment-training paper; trains reasoning *in* (28× sample-efficiency, 0–<1% honeypot blackmail rate from Haiku 4.5 onward)
 - [[cheng-zhang-distributed-icl-2026-05]] — Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning (Cheng & Zhang, May 2026 arXiv preprint)
@@ -76,5 +81,6 @@ Three independent surfaces of sparse-autoencoder-based interpretability research
 
 ## Related Concepts
 
+- [[global-workspace]] — the J-space workspace result, given its own concept page
 - [[verifiability-and-jagged-intelligence]] — auditability is the practitioner-facing reason mechanistic interpretability matters for production agents
 - [[constitutional-ai]] — Anthropic's earlier-published alignment program; mechanistic interpretability complements behavioral alignment by giving it a causal substrate

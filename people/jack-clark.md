@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-06-04
+last_updated: 2026-07-06
 ---
 
 ## Who They Are
@@ -38,5 +38,7 @@ First wiki capture of a sustained-policy-synthesis voice from inside a frontier 
 - **2026-05-11 — Import AI 456: RSI / radical optionality** ([[import-ai-456-clark-rsi-radical-optionality-2026-05-11]]): surfaces Anton Korinek's RSI economic-growth model (~6 years to explosive growth regime under full software R&D automation + 5% economy-wide automation shock); names *"radical optionality"* as the regulatory framing.
 - **2026-06-01 — Import AI 459: oversight, protein-folding scaling laws, extinction-risk pricing** ([[import-ai-459-clark-oversight-protein-extinction-2026-06-01]]): three structural topics. **Extinction-risk-pricing is the structurally novel one** — first wiki-captured concrete-economic-framing of *AI-extinction-risk as a priced variable*. Together with Korinek's RSI growth-regime modeling from Import AI 456, the two articles **bracket the AI economic-trajectory at both ends** (upside RSI growth + downside extinction-risk-tail). First wiki-captured bracketed-trajectory Anthropic-policy economic-modeling framework.
 - **2026-06-04 — Anthropic Institute *"When AI builds itself"*** ([[anthropic-institute-when-ai-builds-itself-2026-06-04]]): co-authored with [[marina-favaro|Marina Favaro]]. **First wiki-captured Anthropic-Institute publication** + **first wiki-captured first-party Anthropic data on RSI trajectory**. 8× per-engineer productivity / >80% Claude-authored code / 76% open-ended task success (50pt jump in 6 months) / Mythos Preview ~52× code-optimization speedup / 64% beat-human researcher next-step / Project Glasswing 10K+ critical-vulns in first weeks. Explicit ask for **verifiable global frontier-AI slowdown mechanism**. **Completes Clark's bracketed-trajectory framework**: Korinek RSI upside (Import AI 456) + Clark extinction-risk-pricing downside (Import AI 459) + Anthropic Institute first-party-evidence anchor (this) = 3-leg complete framework. **Establishes Anthropic Institute as Clark's first-party-data-publication surface in parallel with Import AI as his curation surface.**
+
+- **2026-07-06 — Import AI 464: Fable writes GPU kernels; AI automation; analog computation** (surfaced in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]], [importai.substack.com](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels)): Clark covers [[claude-fable-5|Fable]] generating GPU kernels — a concrete datapoint for the automation-of-software-R&D lever he tracks (each unit of R&D automation is structurally heavier than routine-task automation). Brief summary is thin; captured as a GPU-kernel-generation signal, primary not deeply fetched.
 
 Clark's editorial surface functions as **the 5th layer of [[anthropic|Anthropic's]] trust-as-moat stack** (alongside Training-Layer CAI + Alignment-Layer NLAs/Teaching-Claude-Why + Surface-Layer ad-free + Runtime-Layer containment). The Policy-Layer is articulated structurally rather than prescriptively. The Anthropic Institute publication is the first-party-data sibling of the Import AI curation work.

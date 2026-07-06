@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-06-30
+last_updated: 2026-07-06
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -242,6 +242,10 @@ Extends cluster to **12-voice canonical-cluster** with 0xMovez at operator-tier-
 ### Hanako practitioner-tier — "the bottleneck was never the model" (2026-06-13)
 
 [[hanakoxbt-claude-loops-while-you-sleep-2026-06-13]] — [[hanako|Hanako (@hanakoxbt)]] publishes practitioner-tier 5-canonical-discipline-articulations: *"a loop is just Claude on a schedule"* + *"start with one loop, not ten"* + *"boring + bounded + easy-to-verify"* canonical good-first-loop-properties + *"babysit the rules not the work"* + *"the bottleneck was never the model"*. Opens with canonical Cherny-behavioral-reference (*"few thousand agents working overnight while he sleeps"* + *"runs most of it from his phone"* + *"hasn't written a line of code this year"*).
+
+### AIEWF conference-tier recognition (2026-07-06)
+
+The [AI Engineer World's Fair Daily Dispatch](https://www.latent.space/p/aiewf-daily-dispatch-locomotives) — "the great loops debate and the state of AI engineering," surfaced in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]] — puts the loop-architecture debate on the main-conference agenda. No new specific technique beyond what the cluster above already captures, but it confirms loop engineering has crossed from practitioner-X-thread discourse into the flagship AI-engineering conference's framing of the field's state of play. Consistent with the `gaining-mainstream-recognition` maturity tag.
 
 ## Key Papers / Posts
 

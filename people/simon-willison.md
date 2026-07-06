@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-07-03
+last_updated: 2026-07-06
 ---
 
 ## Who They Are
@@ -18,6 +18,7 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 
 ## Notable Takes
 
+- **Ships sqlite-utils 4.0rc2 mostly via Fable for $149.25, publishes the itemized bill (2026-07-05)** ([[simon-willison-sqlite-utils-fable-149-2026-07-05]]): upgraded to Claude Max to maximize his Fable allowance before the July 7 price change, then ran 37 prompts across 30 files → 34 commits. Fable caught a catastrophic `delete_where()` data-loss bug (would have forced an emergency major version), fixed transaction handling throughout, and wrote release notes Willison rated better than his own. Full cost breakdown via AgentsView ($141.02 main session + sub-agent reviews = $149.25). Key take: **AI changes what you can afford to iterate on, but the SemVer judgment call stayed in the decision-making, not the execution** — catching the bug pre-release meant a safe `4.0.1` path instead of a `5.0`. Rc3 followed a day later after a Fable + GPT-5.5 backlog pass. First wiki-captured full itemized dollar figure for a real Fable-driven OSS release.
 - **canonical-2026-07-03 canonical-"Fable's judgement" canonical-anti-micromanage-testing canonical-directive** ([[simon-willison-fables-judgement-anti-micromanage-testing-2026-07-03]]): canonical-stop-dictating-how-Claude-Code-should-test → canonical-let-the-model-decide-when-automated-testing-is-worth-the-lift. canonical-Claude-Code-team-at-AIE canonical-pattern-attribution. **canonical-first-wiki-captured canonical-Simon-Willison canonical-anti-micromanagement canonical-testing canonical-directive** + canonical-Fable's-biggest-win-isn't-speed canonical-testing-judgment canonical-thesis + canonical-fewer-guardrails-better-judgment canonical-agent-productivity-next-tier canonical-thesis.
 - **canonical-2026-07-02 canonical-DSPy-applied-to-Datasette-Agent canonical-SQL-system-prompts** ([[dailybrief-roundup-2026-07-02-pt2]]): canonical-metric-driven-prompt-iteration canonical-vs-ship-first-thing-that-feels-right canonical-2-tier canonical-articulation.
 - **canonical-2026-07-02 canonical-llm-coding-agent-0.1a0 canonical-alpha-release**: canonical-Simon-Willison canonical-coding-agent canonical-built-on-top-of-LLM-library canonical-transition-to-agent-framework canonical-anchor.
