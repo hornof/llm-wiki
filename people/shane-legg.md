@@ -14,12 +14,12 @@ Shane Legg is **co-founder and Chief AGI Scientist of Google DeepMind**. Co-foun
 
 - **2026-06-12: 4-pathway AGI/superintelligence framework** — Legg articulates **canonical 4-pathway framework** for AGI / superintelligence development trajectories. **First wiki-captured Legg-direct-voice substantive surface** ([[shane-legg-four-pathways-agi-superintelligence-2026-06-12]]). Pairs structurally with [[concepts/recursive-self-improvement|RSI Anthropic-Institute framework]] + [[concepts/agi|AGI Hassabis Einstein-test framework]] at the **multi-lab AGI-pathway-discourse canonical-anchor** layer.
 - **2026-06-12: Karpathy loopcraft canonical-reference** — Karpathy's loopcraft / stacking-loops framing cites Legg's 4-pathway framework as foundational. — [[karpathy-loopcraft-stacking-loops-2026-06-12]]
-- **DeepMind multi-agent safety positioning**: Legg structurally-attached to DeepMind's [[deepmind|June $10M multi-agent safety research commitment]] (canonical lab-side AGI-safety-investment signal).
+- **DeepMind multi-agent safety positioning**: Legg structurally-attached to DeepMind's [[google-deepmind|June $10M multi-agent safety research commitment]] (canonical lab-side AGI-safety-investment signal).
 
 ## Notable Takes
 
 - **4-pathway AGI/superintelligence framework**: canonical lab-side AGI-pathway-discourse anchor; pathways span (1) scaling-to-AGI, (2) RL-environments-to-AGI, (3) world-models-to-AGI, (4) hybrid / multi-agent emergence (specific pathways verification-pending). — [[shane-legg-four-pathways-agi-superintelligence-2026-06-12]]
-- **(Implied via DeepMind multi-agent safety commitment)**: structurally-significant frontier-risk-locus is **multi-agent coordination** dynamics. — [[deepmind]]
+- **(Implied via DeepMind multi-agent safety commitment)**: structurally-significant frontier-risk-locus is **multi-agent coordination** dynamics. — [[google-deepmind|DeepMind]]
 
 ## Wiki-tracked surfaces
 

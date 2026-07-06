@@ -23,7 +23,7 @@ The SpaceX-Anysphere acquisition completes a **first wiki-captured SpaceX 3-laye
 
 | Layer | Asset | Source |
 |---|---|---|
-| **Compute substrate** | xAI Colossus + Tesla compute capacity | [[anthropic-xai-colossus-2026-05]] |
+| **Compute substrate** | xAI Colossus + Tesla compute capacity | [[willison-anthropic-xai-colossus-2026-05]] |
 | **Frontier model** | [[xai|xAI Grok]] family | xAI organizational anchor |
 | **AI-coding product** | **Anysphere/Cursor** | Jun 16 announcement |
 

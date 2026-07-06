@@ -73,7 +73,7 @@ The 2026-06-15 Daily Brief surfaces **4 same-day Anthropic-USG-conflict events**
 
 **First wiki-captured European-AI-substrate-deficiency-attribution-to-training-skill-and-ecosystem canonical framing** — directly counter-frames the **compute-centric** EU AI-investment narrative. Pairs structurally with:
 - [[india-meta-manus-geopolitical-ai-fallout-2026-06-13|India sovereign-LLM strategic-discourse]] — non-US-non-China major-bloc sovereign-AI sibling
-- [[mistral|France/EU Mistral]] — entity-page candidate (multi-lint carry-over; Series D verification-pending); Pleias-Langlais positions EU's structural-deficit context
+- [[mistral-ai|France/EU Mistral]] — entity-page candidate (multi-lint carry-over; Series D verification-pending); Pleias-Langlais positions EU's structural-deficit context
 - [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella frontier-ecosystem thesis]] — "frontier-ecosystem-not-frontier-model" framing now extends to **EU-substrate-ecosystem-deficiency** layer
 - [[google-intel-3m-tpus-2028-2026-06-08|Google-Intel substrate diversification]] — US-side substrate-strategy context
 
@@ -115,7 +115,7 @@ The 2026-06-15 Daily Brief surfaces **4 same-day Anthropic-USG-conflict events**
 - [[pierre-carl-langlais]] — entity-page candidate (single-source defer)
 - [[ben-thompson]] — entity-page candidate (Stratechery; single-source-here defer; multi-lint carry-over potential)
 - [[stratechery]] — entity-page candidate (publication; single-source-here defer)
-- [[mistral]] — pattern-watch (EU-substrate-deficiency context anchors)
+- [[mistral-ai|Mistral]] — pattern-watch (EU-substrate-deficiency context anchors)
 - [[concepts/agi]] — safety-as-canonical-Anthropic-positioning extends concept
 - [[anthropic-mitre-attack-cyber-threats-2026-06-03]] — cybersecurity-vets-protest reframes Anthropic-cyber-defense-positioning
 - [[india-meta-manus-geopolitical-ai-fallout-2026-06-13]] — extends to 3-bloc sovereign-AI debate cluster (now India + EU)

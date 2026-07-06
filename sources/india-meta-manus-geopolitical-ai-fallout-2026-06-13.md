@@ -34,14 +34,14 @@ Two TechCrunch reports (2026-06-13; surfaced via [[dailybrief-roundup-2026-06-14
   - **China-side action**: forced unwinding of $2B AI-deal (Meta-Manus Jun 13)
   - **Pattern**: AI capability has become a sovereign-asset over which both major powers will deploy state-action vs vendor-side counterparties
 - **Extends 8-narrative-event 10-day Anthropic-USG-conflict crisis cluster to 9th narrative-event**: India sovereignty response is the **first wiki-captured direct downstream-policy-response to the Anthropic-USG-conflict cluster** — demonstrates that the cluster's effects are now propagating to third-country-policy-debates within hours.
-- **First wiki-captured "sovereign-LLM as response to US-export-control on US-frontier-AI" canonical pattern**: India joining the **sovereign-LLM strategic-discourse** alongside [[mistral|France/EU]], [[deepseek|China/DeepSeek]], [[qwen|China/Qwen]], previously-tracked sovereign-AI cluster.
+- **First wiki-captured "sovereign-LLM as response to US-export-control on US-frontier-AI" canonical pattern**: India joining the **sovereign-LLM strategic-discourse** alongside [[mistral-ai|France/EU]], [[deepseek|China/DeepSeek]], [[qwen|China/Qwen]], previously-tracked sovereign-AI cluster.
 - **First wiki-captured AI-vendor-as-USG-bargaining-chip pattern triggers third-country sovereign-AI policy-debate**: India's response demonstrates that even the **possibility** of USG-directed capability-suspension is sufficient to trigger sovereign-LLM policy-debate in trade-partner nations.
 - **First wiki-captured Meta-China deal-unwinding event** — China-side state-action vs US-tech-vendor; pairs with [[trump-admin-openai-equity-stake-2026-06-06|Trump-admin OpenAI equity-stake consideration]] at the **state-action-vs-AI-vendor-equity-arrangement canonical-pattern** layer.
 
 ### India sovereign-LLM strategic-discourse
 
 India joins the **sovereign-LLM strategic-discourse cluster** with:
-- [[mistral|France/EU sovereign-LLM]] — Series D anticipated (Q3 2026)
+- [[mistral-ai|France/EU sovereign-LLM]] — Series D anticipated (Q3 2026)
 - [[deepseek|China DeepSeek]] — open-weight 671B family
 - [[qwen|China Qwen]] — open-weight model family
 - [[meta|US Meta Llama]] — open-weight (US-domestic)
@@ -90,7 +90,7 @@ The brief's *Why it matters* framings highlight founder-track implications:
 - [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]] — extends 8-narrative-event cluster to 9th narrative-event
 - [[india]] — entity-page candidate (first wiki-captured substantive India-sovereign-LLM policy-debate surface)
 - [[manus]] — entity-page candidate (single-substantive-surface defer; Meta deal context)
-- [[mistral]], [[deepseek]], [[qwen]] — sovereign-LLM strategic-discourse cluster context
+- [[mistral-ai|Mistral]], [[deepseek]], [[qwen]] — sovereign-LLM strategic-discourse cluster context
 - [[dailybrief-roundup-2026-06-14]] — back-link
 
 ## Adjacent sources

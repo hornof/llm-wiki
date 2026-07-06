@@ -21,7 +21,7 @@ ingested: 2026-06-14
 | Sample efficiency remains the hard bottleneck (Dwarkesh) | already-ingested Jun 8 — re-promoted | [[dwarkesh-sample-efficiency-black-hole-2026-06-08]] |
 | Loopcraft: stacking loops as design pattern (Karpathy) | already-ingested Jun 12 | [[karpathy-loopcraft-stacking-loops-2026-06-12]] |
 | Nadella: moats live in token capital + learning loops | already-ingested Jun 14 — direct-voice surface | [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]] |
-| DeepMind commits $10M to multi-agent safety research | already-noted via [[meta/lint-report-2026-06-13|lint report]] | [[deepmind]] |
+| DeepMind commits $10M to multi-agent safety research | already-noted via [[meta/lint-report-2026-06-13|lint report]] | [[google-deepmind|DeepMind]] |
 
 ### Net-new items — focused source pages
 

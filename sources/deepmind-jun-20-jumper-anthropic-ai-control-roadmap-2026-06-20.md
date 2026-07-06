@@ -93,7 +93,7 @@ Brief framing: *"Nobel-laureate researcher migration signals Anthropic's pull on
 ## Pages Updated
 
 - [[anthropic]] — John Jumper canonical-hire event (Nobel-laureate AlphaFold co-creator); "Anthropic's pull on senior talent" canonical-positioning context
-- [[google-deepmind]] / [[deepmind]] — John Jumper canonical-departure + DeepMind AI Control Roadmap canonical-document event; canonical-DeepMind 4-voice cluster extension
+- [[google-deepmind]] / [[google-deepmind|DeepMind]] — John Jumper canonical-departure + DeepMind AI Control Roadmap canonical-document event; canonical-DeepMind 4-voice cluster extension
 - [[john-jumper]] — new entity-page candidate (single-source defer; Nobel-laureate AlphaFold co-creator; canonical-Anthropic-hire event)
 - [[demis-hassabis]] — paired canonical-DeepMind voice context; Jumper canonical-AlphaFold-co-author canonical-departure
 - [[shane-legg]] / [[andreas-kirsch]] — paired canonical-DeepMind voice cluster
@@ -120,7 +120,7 @@ Brief framing: *"Nobel-laureate researcher migration signals Anthropic's pull on
 - [[anthropic-how-we-contain-claude-2026-05-31]] — Anthropic "How We Contain Claude"
 - [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17]] — Anthropic-USG-conflict cluster
 - [[jun-19-open-source-research-origin-cluster-2026-06-19]] — Andreas Kirsch (DeepMind) Jun 19 governance-direct-voice
-- [[fei-fei-li-world-models-functional-taxonomy-2026-06-03]] — paired AI-for-Science canonical context
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03]] — paired AI-for-Science canonical context
 - [[dailybrief-roundup-2026-06-20]] — brief surfacing both events
 
 ## Verification-pending
