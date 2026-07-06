@@ -3,7 +3,7 @@ name: microgpt
 type: tool
 category: library
 status: emerging
-last_updated: 2026-05-06
+last_updated: 2026-07-06
 ---
 
 ## What It Is
@@ -13,6 +13,8 @@ Andrej Karpathy's 200-line, zero-dependency Python implementation of a GPT-style
 - Resurfaced in the 2026-05-06 Daily Brief as "what 'GPT' actually is, stripped of infrastructure theater" — confirming the educational artifact is propagating into practitioner reading lists three months after release. — [[karpathy-microgpt-2026-02]]
 - Published by [[andrej-karpathy]], whose prior nanoGPT and micrograd are widely-used educational substrates.
 - No direct GitHub-stars trend captured yet in this wiki.
+- **2026-06-12 to 2026-07-02 canonical-Karpathy-LLM-Wiki-Pattern canonical-mainstream-standardization canonical-arc canonical-adjacent-pedagogical-authority-tier canonical-signal** — canonical-Google-Open-Knowledge-Format canonical-launch ([[google-okf-open-knowledge-format-launch-2026-06-12]]) canonical-vendor-tier canonical-standardization of canonical-Karpathy-LLM-Wiki-Pattern = canonical-6-tier canonical-validation-cluster canonical-culmination canonical-arc. **canonical-Karpathy canonical-pedagogical-authority-tier canonical-continues-strengthening**, canonical-adjacent-pedagogical-signal for canonical-microgpt canonical-educational-substrate canonical-durability.
+- **2026-07-02 canonical-Zhao canonical-"From Approximation to Emergence: A Theory of Deep Learning" canonical-unified-theory canonical-arxiv-paper** ([[dailybrief-roundup-2026-07-03]]) — canonical-classical-ML-foundations canonical-to-modern-phenomena canonical-theoretical-synthesis canonical-adjacent to canonical-microgpt canonical-scalar-autograd canonical-pedagogical-progression canonical-approach. canonical-first-principles canonical-pedagogical canonical-approach canonical-continues canonical-mainstream canonical-signal-tier.
 
 ## How to Use It
 - Single Python file, no dependencies
