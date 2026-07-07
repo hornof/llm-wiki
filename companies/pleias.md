@@ -21,7 +21,7 @@ Pleias is the **first wiki-captured EU-AI-substrate canonical-voice-tier**. Posi
 - **Uses Anthropic-Fable-5-suspension as canonical evidence-anchor** — frames 2026-06-13 USG-export-control event as **EU-AI-ecosystem-gap-exposure** moment
 
 Pairs structurally with:
-- [[mistral|Mistral]] — French/EU sovereign-LLM context (multi-lint carry-over)
+- [[mistral-ai|Mistral]] — French/EU sovereign-LLM context (multi-lint carry-over)
 - [[india-meta-manus-geopolitical-ai-fallout-2026-06-13|India sovereign-LLM strategic-discourse]] — Pleias joins India + EU as **first wiki-captured 3-bloc sovereign-AI debate cluster** (India + EU + Anthropic-USG-side)
 - [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella frontier-ecosystem thesis]] — Pleias-Langlais framing extends Nadella's framing from firm-CEO-vocabulary to EU-substrate-ecosystem-deficiency layer
 - [[europe-2031-initiative]] — counter-positioning voice within EU-AI-substrate-deficiency canonical-debate (entity-page candidate; single-source defer)
@@ -37,5 +37,5 @@ Pairs structurally with:
 - [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17]] — Jun 17 2-voice EU-AI-substrate-deficiency canonical-debate
 - [[dailybrief-roundup-2026-06-15]] + [[dailybrief-roundup-2026-06-17]] — paired brief surfaces
 - [[pierre-carl-langlais]] — Pleias CTO (entity-page candidate; multi-source single-source-defer carry-over)
-- [[mistral]] — adjacent France/EU sovereign-LLM context
+- [[mistral-ai|Mistral]] — adjacent France/EU sovereign-LLM context
 - [[europe-2031-initiative]] — counter-positioning voice

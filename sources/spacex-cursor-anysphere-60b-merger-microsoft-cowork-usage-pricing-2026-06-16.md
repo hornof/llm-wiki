@@ -24,7 +24,7 @@ ingested: 2026-06-16
 
 **First wiki-captured "$60 billion all-stock SpaceX-Anysphere merger" canonical price-point anchor**. **First wiki-captured Q3 2026 SpaceX-Cursor-acquisition close projection**. Pairs structurally with:
 - [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07|Linas SpaceX-Cursor rumor Jun 7]] — 1st substantive surface; revenue-per-employee + acquisition-rumor framing
-- [[anthropic-xai-colossus-2026-05|xAI Colossus]] — SpaceX-side compute-substrate historical anchor
+- [[willison-anthropic-xai-colossus-2026-05|xAI Colossus]] — SpaceX-side compute-substrate historical anchor
 - [[spectnfa-hassabis-ai-infrastructure-vs-calculator-2026-06-06|Hassabis AI-infrastructure-vs-calculator]] — frontier-compute-as-strategic-asset context
 - [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08|Greg Isenberg "moat is the system"]] — SpaceX-as-AI-infrastructure-substrate canonical thesis
 
@@ -89,14 +89,14 @@ The 2 Jun 16 events combined with [[salesforce-fin-ai-3-6b-acquisition-2026-06-1
 - [[deepseek]] — Microsoft → DeepSeek V4 evaluation event (first wiki-captured)
 - [[salesforce-fin-ai-3-6b-acquisition-2026-06-15]] — 3-day tier-1 enterprise-AI-consolidation cluster context
 - [[openai-ona-acquisition-deployment-simulation-2026-06-16]] — 3-day tier-1 enterprise-AI-consolidation cluster context
-- [[anthropic-xai-colossus-2026-05]] — SpaceX-AI-vertical-integration historical anchor
+- [[willison-anthropic-xai-colossus-2026-05]] — SpaceX-AI-vertical-integration historical anchor
 - [[anthropic-usg-conflict-10th-narrative-event-cluster-2026-06-15]] — Ralph Miller MSFT-defensive-positioning skeptic-frame contextualized
 - [[dailybrief-roundup-2026-06-16]] — back-link
 
 ## Adjacent sources
 
 - [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07]] — 1st substantive surface for SpaceX-Cursor acquisition narrative
-- [[anthropic-xai-colossus-2026-05]] — SpaceX-side AI-substrate historical anchor
+- [[willison-anthropic-xai-colossus-2026-05]] — SpaceX-side AI-substrate historical anchor
 - [[alderson-xai-datacentre-reit-pivot-2026-06-08]] — SpaceX vertical-integration thesis context
 - [[google-intel-3m-tpus-2028-2026-06-08]] — compute-substrate strategic-asset canonical pair
 - [[salesforce-fin-ai-3-6b-acquisition-2026-06-15]] — Jun 15 tier-1 enterprise-AI-acquisition sibling

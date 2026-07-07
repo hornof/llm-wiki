@@ -21,7 +21,7 @@ ingested: 2026-06-17
 - **Brief framing**: *"Top-lab leadership convening on geopolitics + cyber-capability restrictions. Shapes which models reach market and who can build on them."*
 - **Insightful-tier framing**: *"CEOs meeting at G7 signals the industry won the legitimacy game. Now the actual fight is about export control as competitive moat — which labs get to sell elite capabilities to allies, which don't. Policy is becoming product strategy."*
 
-**First wiki-captured 4-CEO G7 frontier-AI convening event** — first wiki-captured Anthropic + OpenAI + DeepMind + Mistral CEO same-meeting convening at G7-tier. **First wiki-captured "export control as competitive moat" canonical-positioning framing**: per Digg insightful-tier framing, the G7 meeting reframes export-control from regulatory-constraint to **strategic-product-positioning** ("policy is becoming product strategy"). **First wiki-captured Mistral CEO substantive-surface as G7-tier convening-attendee** — extends [[mistral|Mistral]] multi-lint carry-over pattern-watch context (Mistral Series D verification-pending).
+**First wiki-captured 4-CEO G7 frontier-AI convening event** — first wiki-captured Anthropic + OpenAI + DeepMind + Mistral CEO same-meeting convening at G7-tier. **First wiki-captured "export control as competitive moat" canonical-positioning framing**: per Digg insightful-tier framing, the G7 meeting reframes export-control from regulatory-constraint to **strategic-product-positioning** ("policy is becoming product strategy"). **First wiki-captured Mistral CEO substantive-surface as G7-tier convening-attendee** — extends [[mistral-ai|Mistral]] multi-lint carry-over pattern-watch context (Mistral Series D verification-pending).
 
 **Extends 17-narrative-event Anthropic-USG-conflict cluster to 18th narrative-event**. Pairs structurally with:
 - [[dario-policy-on-ai-exponential-via-mehta-2026-06-11|Dario "Policy on the AI Exponential" Jun 11]] — Dario-side strategic policy positioning context
@@ -110,7 +110,7 @@ The 4 Jun 17 events extend the 17-narrative-event cluster to **21-narrative-even
 - [[dario-amodei]] — G7 convening attendee + "policy is becoming product strategy" canonical-positioning context
 - [[sam-altman]] — G7 convening attendee
 - [[demis-hassabis]] — G7 convening attendee
-- [[mistral]] — Mistral-CEO G7-tier substantive-surface; multi-lint carry-over pattern-watch now actionable
+- [[mistral-ai|Mistral]] — Mistral-CEO G7-tier substantive-surface; multi-lint carry-over pattern-watch now actionable
 - [[europe-2031-initiative]] — new entity-page candidate (single-source defer; canonical EU-AI compute-gap policy-warning surface)
 - [[pleias]] — pattern-watch (2-voice EU-AI-substrate-deficiency canonical-debate: compute vs training-skill-and-ecosystem)
 - [[pentagon]] / [[department-of-defense]] — new entity-page candidate (single-source defer; 1.5M-user AI-deployment scale-anchor)

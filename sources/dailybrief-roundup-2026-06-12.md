@@ -88,7 +88,7 @@ Aggregate of non-headline items from `Daily Briefs/2026-06-12.md`. **Headlines c
 ## Pages Updated
 
 - [[dailybrief-roundup-2026-06-12]] — this page (new)
-- [[mistral]] — Series D rumor surface + European-vendor cluster-membership
+- [[mistral-ai|Mistral]] — Series D rumor surface + European-vendor cluster-membership
 - [[minimax]] — entity-page candidate (first substantive surface; M3 428B + 1M context + 59% SWE-Bench Pro)
 - [[moonshot-ai]] — entity-page candidate (first substantive surface; Kimi-K2.7-Code open-source)
 - [[allenai]] — olmo-eval unified-workbench surface

@@ -69,7 +69,7 @@ ingested: 2026-06-16
 **First wiki-captured DOJ-side AI-vendor-infrastructure-defense-via-national-security-framing canonical event**. **First wiki-captured "national, economic, and energy security" canonical triple-framing for AI-compute-substrate**. Pairs structurally with:
 - [[google-intel-3m-tpus-2028-2026-06-08|Google-Intel 3M TPU procurement]] = compute-substrate-as-strategic-asset canonical pair
 - [[alderson-xai-datacentre-reit-pivot-2026-06-08|Martin Alderson xAI REIT pivot]] = compute-substrate-as-financial-asset canonical pair
-- [[anthropic-xai-colossus-2026-05]] = xAI compute-substrate canonical historical anchor
+- [[willison-anthropic-xai-colossus-2026-05]] = xAI compute-substrate canonical historical anchor
 - [[india-meta-manus-geopolitical-ai-fallout-2026-06-13|India + Meta-Manus geopolitical-AI fallout cluster]] = state-action-vs-AI-substrate canonical-pattern
 
 **First wiki-captured "USG-prioritizes-compute-capacity-over-permitting" canonical regulatory-prioritization framing**. **First wiki-captured 2-vector USG-AI-policy paired-events Jun 13-16**: Jun 13 Anthropic-side export-control (restrictive) + Jun 16 xAI-side DOJ-infrastructure-defense (permissive) — **first wiki-captured "selective USG-AI-policy: restrictive on safety-positioning frontier-vendor + permissive on raw-substrate-build frontier-vendor" canonical regulatory-pattern**.
@@ -127,7 +127,7 @@ The 4 Jun 16 events extend the 13-narrative-event cluster to **17-narrative-even
 - [[anthropic-disputes-jailbreak-findings-techcrunch-2026-06-12]] — Anthropic-side prior dispute
 - [[anthropic-mitre-attack-cyber-threats-2026-06-03]] — Anthropic MITRE ATT&CK cyber-defense-positioning
 - [[anthropic-how-we-contain-claude-2026-05-31]] — Anthropic containment publication
-- [[anthropic-xai-colossus-2026-05]] — xAI compute-substrate historical anchor
+- [[willison-anthropic-xai-colossus-2026-05]] — xAI compute-substrate historical anchor
 - [[dailybrief-roundup-2026-06-16]] — brief surfacing all 4 events
 
 ## Verification-pending

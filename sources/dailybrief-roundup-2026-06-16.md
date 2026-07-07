@@ -22,7 +22,7 @@ ingested: 2026-06-16
 | **Anthropic Public Record transparency initiative** (Jun 12 first results) | NET-NEW focused source | [[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16]] |
 | **OpenAI acquires Ona** (Jun 16) | NET-NEW focused source | [[openai-ona-acquisition-deployment-simulation-2026-06-16]] |
 | **OpenAI Deployment Simulation** (Jun 16) | NET-NEW focused source | [[openai-ona-acquisition-deployment-simulation-2026-06-16]] |
-| DeepMind $10M multi-agent safety | re-promotion | [[deepmind]] |
+| DeepMind $10M multi-agent safety | re-promotion | [[google-deepmind|DeepMind]] |
 | **Simon Willison "Fable 5 Export Controls Harm US Cyber Defense"** | NET-NEW focused source | [[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16]] |
 | **SpaceX to acquire Anysphere/Cursor in $60B all-stock merger** | NET-NEW focused source | [[spacex-cursor-anysphere-60b-merger-microsoft-cowork-usage-pricing-2026-06-16]] |
 | **Microsoft Copilot Cowork → usage-based pricing** | NET-NEW focused source | [[spacex-cursor-anysphere-60b-merger-microsoft-cowork-usage-pricing-2026-06-16]] |

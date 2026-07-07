@@ -99,7 +99,7 @@ Pairs structurally with:
 
 - [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17]] — back-link (G7 + EU + Sacks rebuttal + Pentagon)
 - [[agentic-coding-tooling-cluster-2026-06-17]] — back-link (Vercel Eve + Polypore + Codex routing + Adam YC W25)
-- [[deepmind]] — UK house-building AI planning partnership + paired Pentagon 2-vector government-AI-deployment cluster
+- [[google-deepmind|DeepMind]] — UK house-building AI planning partnership + paired Pentagon 2-vector government-AI-deployment cluster
 - [[concepts/verifiability-and-jagged-intelligence]] — arXiv 2606.17107 "prefill commitment" + arXiv 2606.17057 "paired-correct + decoupled-wrong" failure-modes
 - [[concepts/recursive-self-improvement]] — TLA+ formal-verification canonical safety-substrate (arXiv 2606.17182 + Pramaana Labs)
 - [[pramaana-labs]] — new entity-page candidate (single-source defer; $27M Khosla seed for formal verification)

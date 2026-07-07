@@ -55,7 +55,7 @@ ingested: 2026-06-13
 
 ## Pages Updated
 
-- [[minchoi]] — entity-page candidate (first substantive surface; defer)
+- [[min-choi|Min Choi]] — entity-page candidate (first substantive surface; defer)
 - [[claude-fable-5]] — community-showcase canonical aggregation-thread pattern; Ultracode-mode one-shot Three.js game; Fable-orchestrator + Opus-heavy-reasoning model-routing recipe
 - [[0xcodez-fable-5-14-step-self-improving-agent-2026-06-11]] — back-link as 2nd-validation of model-routing-by-task-complexity matrix
 - [[anthropic-dynamic-workflows-official-docs-2026-06]] — Ultracode mode one-shot Three.js game canonical-capability demonstration

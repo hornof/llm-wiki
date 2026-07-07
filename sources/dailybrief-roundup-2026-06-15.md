@@ -28,7 +28,7 @@ ingested: 2026-06-15
 
 ### From the Labs
 
-- **DeepMind $10M multi-agent AI safety research funding** — already-noted via [[meta/lint-report-2026-06-13|lint-report]] + [[dailybrief-roundup-2026-06-14]] — re-promotion. — [[deepmind]]
+- **DeepMind $10M multi-agent AI safety research funding** — already-noted via [[meta/lint-report-2026-06-13|lint-report]] + [[dailybrief-roundup-2026-06-14]] — re-promotion. — [[google-deepmind|DeepMind]]
 
 ### Worth a Skim items
 
@@ -79,7 +79,7 @@ ingested: 2026-06-15
 - [[anthropic]] — 4 Jun 15 Anthropic-USG-conflict narrative-event-extensions (in focused source)
 - [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]] — extended to 13-narrative-event cluster
 - [[jack-clark]] — Import AI 461 "alignment is not on track" canonical Anthropic-co-founder framing added
-- [[deepmind]] — $10M multi-agent safety re-promotion noted
+- [[google-deepmind|DeepMind]] — $10M multi-agent safety re-promotion noted
 - [[concepts/verifiability-and-jagged-intelligence]] — Gemma 4 single-neuron-intervention mechanistic-interpretability framing added
 - [[concepts/ai-labor-market-impacts]] — Narayanan + Kapoor "AI-as-evolution-not-extinction" counter-frame added
 - [[gemma]] — entity-page candidate (single-source — Gemma 4 mechanistic-interpretability surface; pattern-watch)

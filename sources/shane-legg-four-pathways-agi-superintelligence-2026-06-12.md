@@ -40,8 +40,8 @@ The framework identifies **4 distinct technical pathways** from AGI to superinte
 - **Pairs with [[concepts/recursive-self-improvement|RSI bracketed-trajectory framework]] 5-leg articulation**: Legg's framework formalizes the *"transition pathways"* substrate the wiki's 5-leg framework (Korinek + Clark + Anthropic Institute + Jeffries + Dwarkesh sample-efficiency) operates atop. **First wiki-captured 4-pathway-to-5-leg-framework mapping** can now be articulated:
   - **Pathway 1 (Scaling)** ↔ Dwarkesh sample-efficiency-as-bottleneck (leg 5)
   - **Pathway 2 (RSI)** ↔ Korinek upside (leg 1) + Anthropic Institute first-party-evidence (leg 3) + Jeffries Time-Multiplicity skepticism (leg 4) + Clark extinction-risk-pricing downside (leg 2)
-  - **Pathway 3 (Multi-agent collectives)** ↔ ALSO operationalized via [[deepmind|DeepMind]] 2026-06-11 **$10M multi-agent safety research commitment** ([[dailybrief-roundup-2026-06-11|Jun 11 brief]])
-- **Pairs with [[deepmind|DeepMind $10M multi-agent safety research commitment]] (Jun 11)**: 1-day prior — first wiki-captured **DeepMind-side 2-event 2-day multi-agent-pathway investment-cluster** (funding commitment Jun 11 + Legg framework Jun 12). DeepMind is now wiki-tracked as operationally committed to the multi-agent-collectives pathway specifically.
+  - **Pathway 3 (Multi-agent collectives)** ↔ ALSO operationalized via [[google-deepmind|DeepMind]] 2026-06-11 **$10M multi-agent safety research commitment** ([[dailybrief-roundup-2026-06-11|Jun 11 brief]])
+- **Pairs with [[google-deepmind|DeepMind $10M multi-agent safety research commitment]] (Jun 11)**: 1-day prior — first wiki-captured **DeepMind-side 2-event 2-day multi-agent-pathway investment-cluster** (funding commitment Jun 11 + Legg framework Jun 12). DeepMind is now wiki-tracked as operationally committed to the multi-agent-collectives pathway specifically.
 - **Pairs with [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute RSI publication]]**: 8-day gap; Legg framework extends Anthropic Institute's 3-scenario framework (stalls / compounding / RSI) into a **broader pathway-space typology**.
 - **Adds Legg as canonical RSI-research voice**: pairs with [[demis-hassabis|Demis Hassabis (Legg's DeepMind co-founder)]] at the **DeepMind-internal-Legg-Hassabis 2-voice-cluster** on frontier-AI trajectory. Hassabis = AGI 2030 ± 1 timeline-anchor; Legg = pathways-structural-framework. **First wiki-captured DeepMind-internal-leadership 2-voice complementary positioning** on AGI → superintelligence.
 
@@ -61,7 +61,7 @@ The framework identifies **4 distinct technical pathways** from AGI to superinte
 - [[shane-legg]] — new entity page candidate (single substantive surface; DeepMind co-founder; 4-pathway framework); pattern-watch for 2nd surface
 - [[concepts/recursive-self-improvement]] — 4-pathway-to-5-leg-framework mapping added
 - [[demis-hassabis]] — DeepMind-internal 2-voice complementary positioning noted (Legg pathways + Hassabis timeline)
-- [[deepmind]] — Legg framework + $10M multi-agent funding 2-event cluster
+- [[google-deepmind|DeepMind]] — Legg framework + $10M multi-agent funding 2-event cluster
 
 ## Adjacent sources
 

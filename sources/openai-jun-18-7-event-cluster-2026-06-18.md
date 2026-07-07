@@ -19,7 +19,7 @@ ingested: 2026-06-18
 - **Insightful-tier framing**: *"o3 Deep Research solving 18 unsolved pediatric cases in one go isn't just a win for inference—it's a proof point that frontier models can do something humans-in-the-loop can't: hold a diagnostic hypothesis steady across 50+ sources without losing the thread."*
 
 **First wiki-captured peer-reviewed NEJM AI canonical applied-AI-diagnostic proof-point**. **First wiki-captured "frontier models can hold a diagnostic hypothesis steady across 50+ sources without losing the thread" canonical-applied-AI capability-anchor**. Pairs structurally with:
-- [[fei-fei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li world-models functional taxonomy]] — applied-AI canonical-domain-application pair
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li world-models functional taxonomy]] — applied-AI canonical-domain-application pair
 - [[anthropic-enterprise-ai-services-company-2026-05|Anthropic enterprise-services positioning]] — enterprise-applied-AI canonical-positioning
 - [[openai-ona-acquisition-deployment-simulation-2026-06-16|OpenAI Ona + Deployment Simulation Jun 16]] — OpenAI 3-day product+research velocity-cluster
 
@@ -40,7 +40,7 @@ ingested: 2026-06-18
 **First wiki-captured LifeSciBench entity-surface + OpenAI expert-authored canonical-benchmark articulation**. Pairs structurally with:
 - [[openai-deployment-simulation|OpenAI Deployment Simulation Jun 16]] — pre-release safety-eval canonical-technique
 - [[anthropic-public-record|Anthropic Public Record Jun 12]] — 2-vendor 6-day vendor-side safety-evaluation-discipline cluster
-- [[fei-fei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li world-models functional taxonomy]] — life-science-applied-AI canonical-context
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li world-models functional taxonomy]] — life-science-applied-AI canonical-context
 
 **First wiki-captured "expert-authored canonical-benchmark canonical-product-positioning" framing** — OpenAI canonical-direction toward domain-specific evals.
 
@@ -147,7 +147,7 @@ ingested: 2026-06-18
 - [[anthropic-s1-filing-2026-06-01]] — Anthropic S-1 IPO-prep paired-context
 - [[dario-policy-on-ai-exponential-via-mehta-2026-06-11]] — Dario policy-essay paired-context
 - [[trump-admin-openai-equity-stake-2026-06-06]] — Trump-admin + OpenAI canonical-pre-IPO context
-- [[fei-fei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li]] — applied-AI canonical-context
+- [[feifei-li-world-models-functional-taxonomy-2026-06-03|Fei-Fei Li]] — applied-AI canonical-context
 - [[dailybrief-roundup-2026-06-18]] — brief
 
 ## Verification-pending

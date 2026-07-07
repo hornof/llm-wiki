@@ -143,7 +143,7 @@ Pairs structurally with:
 - [[allenai]] / [[ai2]] / [[nathan-lambert]] / [[florian-brand]] — new entity-page candidates (single-source defer; AI2 canonical-think-tank-tier open-source-AI-defense canonical-cluster)
 - [[jurgen-schmidhuber]] / [[schmidhuber]] / [[sakana-ai]] / [[hardmaru]] — new entity-page candidates (single-source defer; Schmidhuber 1991-canonical-origin-claim + Sakana AI canonical-acknowledgment)
 - [[andreas-kirsch]] — new entity-page candidate (single-source defer; Google DeepMind canonical-governance-direct-voice canonical-substantive-surface)
-- [[google-deepmind]] / [[deepmind]] — canonical-DeepMind-researcher-tier governance-direct-voice-articulation (Andreas Kirsch); paired with canonical-CEO-tier (Hassabis) + canonical-Chief-AGI-Scientist-tier (Legg)
+- [[google-deepmind]] / [[google-deepmind|DeepMind]] — canonical-DeepMind-researcher-tier governance-direct-voice-articulation (Andreas Kirsch); paired with canonical-CEO-tier (Hassabis) + canonical-Chief-AGI-Scientist-tier (Legg)
 - [[concepts/recursive-self-improvement]] — Slime canonical-RL-scaling-framework-tier extension
 - [[concepts/agentic-engineering]] — canonical-distillation-origin-and-circumvention cluster context
 - [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17]] — paired Jun 19 4-voice canonical-open-source-AI-defense canonical-cluster
