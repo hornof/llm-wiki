@@ -3,7 +3,7 @@ name: Thariq Shihipar
 type: person
 affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter]
-last_updated: 2026-06-05
+last_updated: 2026-07-07
 twitter: "@trq212"
 ---
 
@@ -47,6 +47,10 @@ Establishes Thariq as a **practitioner-content surfacing role** for Anthropic-in
 **8+ use-case categories**: migrations/refactors (Bun Zig→Rust concrete instantiation) + deep research + deep verification + sorting + memory/rule adherence (CLAUDE.md-mining) + root-cause investigation + triaging-at-scale (with **quarantine pattern** for untrusted-input) + exploration/taste + evals + model/intelligence routing.
 
 **Establishes Thariq as Anthropic-internal practitioner-content voice for the Claude Code agent-architecture surface**: 1st (HTML output format) was an output-format-side surface; 2nd (Suzanne's Learn Quiz) was a session-management-side surface; 3rd (Dynamic Workflows harness) is an orchestration-side surface. **Pattern**: Thariq's surfacing role is *bringing Anthropic-internal Claude Code practice into the public discourse* — wiki treats his X/blog posts as Anthropic-canonical practitioner-content reference even when not formally an Anthropic publication.
+
+## 4th Surface: Boost of Delba Oliveira's Official Loops Taxonomy (2026-07-06)
+
+[[claude-code-getting-started-loops-2026-07-06]] — Thariq boosts colleague [[delba-oliveira|Delba Oliveira]]'s **"Getting started with loops"** post (*"great post by @delba_oliveira"*), the repost drawing 322K views. Consistent with his established **practitioner-content surfacing role** for Anthropic-internal Claude Code practice: here amplifying the team's first official [[loop-engineering]] taxonomy rather than authoring it. Where his earlier surfaces were HTML-output (format), Learn Quiz (session-management), and Dynamic Workflows (orchestration), this one hands the orchestration-surface authorship to a teammate and acts as the distribution channel.
 
 ## Where to Follow
 

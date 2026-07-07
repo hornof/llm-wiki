@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -247,6 +247,29 @@ Extends cluster to **12-voice canonical-cluster** with 0xMovez at operator-tier-
 
 The [AI Engineer World's Fair Daily Dispatch](https://www.latent.space/p/aiewf-daily-dispatch-locomotives) — "the great loops debate and the state of AI engineering," surfaced in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]] — puts the loop-architecture debate on the main-conference agenda. No new specific technique beyond what the cluster above already captures, but it confirms loop engineering has crossed from practitioner-X-thread discourse into the flagship AI-engineering conference's framing of the field's state of play. Consistent with the `gaining-mainstream-recognition` maturity tag.
 
+### Anthropic official 4-type loop taxonomy — vendor-canonical articulation (2026-07-06)
+
+[[claude-code-getting-started-loops-2026-07-06]] — [[delba-oliveira|Delba Oliveira]] ([[claude-code]] team) publishes **"Getting started with loops"** on the Claude Blog / `@ClaudeDevs`, boosted same-day by [[thariq-shihipar|Thariq]] (322K views). **First wiki-captured official-vendor definition + classification of "loop"** — the Anthropic-canonical answer to the "what actually *is* a loop" question the practitioner cluster (Steinberger → Cherny → Van Horn → McDonald → Sydney Runkle) had left under-specified.
+
+**Official Anthropic definition**: *"loops as agents repeating cycles of work until a stop condition is met"* — categorized by (1) how triggered, (2) how stopped, (3) which Claude Code primitive, (4) task-fit.
+
+**4-type taxonomy with "you hand off X" framing** (reframes loop design as *choosing which piece of your own judgment you delegate*):
+
+| Loop | You hand off | Use it when | Primitive |
+|---|---|---|---|
+| **Turn-based** (the agentic loop) | The check | Exploring / deciding | Custom verification skills (`SKILL.md`) |
+| **Goal-based** | The stop condition | You know what "done" looks like | `/goal` (evaluator model gates each stop attempt) |
+| **Time-based** | The trigger | Work happens outside your project on a schedule | `/loop` (local) → `/schedule` (cloud routine) |
+| **Proactive** | The prompt | Recurring + well-defined | Dynamic workflows + `/schedule` + `/goal` + skills + **auto mode** |
+
+**Maps the taxonomy onto primitives the wiki already tracks** — this is the official spine under the practitioner discourse: turn-based = the inner agentic loop (verification via skills); goal-based = Van Horn's Stage-4 "ralph productized"; time-based/proactive = Stage-5 orchestration loops (scheduling replaces the human kickoff). Confirms the wiki's independently-assembled lineage against Anthropic's own framing.
+
+**Vendor-canonical restatement of verifier-discipline** (echoes McDonald + Zodchii): *"The quality of a loop's output depends on the system around it"* — clean codebase + self-verification skills + reachable docs + **fresh-context second agent for `/code-review`** (*"a reviewer with fresh context is less biased and not influenced by the main agent's reasoning"*). When a result misses the standard, *"try to encode it to improve the system for all future iterations"* — the outer-loop / `SKILL.md`-as-memory principle in vendor voice.
+
+**Token-discipline checklist** (vendor-side companion to Van Horn's 3 hard-stops): right primitive + model per job · clear success/stop criteria · **pilot before a large run** (dynamic workflows can spawn hundreds of agents) · scripts for deterministic work · match interval to change-rate · review via `/usage` (by skills/subagents/MCPs), `/goal` (turns + tokens), `/workflows` (per-agent tokens, stop any agent).
+
+Extends the Loop-Engineering cluster with the **first official Anthropic-vendor-documentation-tier voice** (prior vendor-creator-tier was Cherny's individual "strongly agree"; this is team-authored canonical documentation). Practitioner counter-signal persists in the boost thread: `@CallofdutyFan32` reports burning a Fable Max 20× limit on an unattended loop with *"a 500% improvement"* when babysat — live evidence for the closed-loop / verifier-gate thesis over naive autonomy.
+
 ## Key Papers / Posts
 
 - **ReAct paper** (2022): [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) — academic origin of the reason-act-observe-repeat loop
@@ -256,6 +279,7 @@ The [AI Engineer World's Fair Daily Dispatch](https://www.latent.space/p/aiewf-d
 - **[[steipete-loops-engineering-vision-md-2026-06-07|Steinberger Loops Engineering tweet]]** (2026-06-07): *"you should be designing loops that prompt your agents"*
 - **[[bcherny-5-tips-opus-autonomous-2026-06-05|Cherny 5-tip recipe]]** (2026-06-05): Anthropic-internal-creator-voice canonical checklist for autonomous-Opus operation
 - **[[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn WTF Is a Loop synthesis]]** (2026-06-07): comprehensive synthesis-essay surfacing the 5-stage lineage + Cherny WorkOS receipts + Gas Town + roborev + Uber cap + Gartner deployment-gap
+- **[[claude-code-getting-started-loops-2026-07-06|Delba Oliveira — Getting started with loops]]** (2026-07-06): first official Claude Code team loop taxonomy — Anthropic-canonical definition + 4-type classification (turn / goal / time / proactive) mapped to `/goal`, `/loop`, `/schedule`, dynamic workflows, auto mode
 
 ## Related Concepts
 
