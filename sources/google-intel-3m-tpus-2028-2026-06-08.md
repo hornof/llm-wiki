@@ -48,8 +48,8 @@ ingested: 2026-06-08
 
 ## Pages Updated
 
-- [[companies/google]] — entity-page candidate (currently dead-link in wiki); first substantive Google-as-substrate-procurement-actor wiki surface
-- [[companies/intel]] — entity-page candidate; first substantive Intel-as-foundry-customer-target wiki surface; 18A node-readiness signal
+- [[google]] — first substantive Google-as-substrate-procurement-actor wiki surface
+- [[intel]] — first substantive Intel-as-foundry-customer-target wiki surface; 18A node-readiness signal
 - [[spacex]] — substrate-tier monopoly thesis: Google diversification adds counter-pressure
 - [[willison-anthropic-xai-colossus-2026-05]] — back-link for compute-supply-chain context
 

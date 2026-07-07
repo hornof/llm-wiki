@@ -72,5 +72,5 @@ Timeline: **"6-9 months"** for distillation lag; models become cheaper "next yea
 
 ## Pages Updated
 
-- [[people/anton-leicht]] (new — policy analyst, writes *Threading the Needle*; first wiki capture; structural-analysis voice on frontier-AI access)
+- [[anton-leicht]] (new — policy analyst, writes *Threading the Needle*; first wiki capture; structural-analysis voice on frontier-AI access)
 - [[claude-mythos]] (updated — generalization of the selective-deployment pattern via Leicht; OpenAI Daybreak as named parallel; distillation-driven sustained-restriction framing)
