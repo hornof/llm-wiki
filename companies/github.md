@@ -2,7 +2,7 @@
 name: GitHub
 type: company
 status: active
-last_updated: 2026-06-04
+last_updated: 2026-07-08
 ---
 
 ## What It Is
@@ -13,6 +13,7 @@ Code-hosting + collaboration platform; Microsoft subsidiary since 2018. Operator
 
 - **2026-06-02 / 2026-06-03**: **Kyle Daigle on Latent Space — GitHub's plan for Agents.** First wiki-captured platform-side articulation of agentic-coding-driven velocity-vs-review-throughput mismatch as a structural problem rather than a UX-polish problem. Source first listed in [[dailybrief-roundup-2026-06-02-brief|the 06-02 brief]] under "Worth a Skim"; promoted to headline + standalone source page on the 06-03 brief. Brief insightful framing: *"Copilot created the condition it can't solve alone — agents that write faster than code review works."* + *"the real constraint isn't GitHub's architecture; it's organizational. Teams need new code-review rituals for agentic velocity."* — [[github-daigle-agent-strategy-2026-06-03]]
 - **2026-06-04 (footnote-4 cross-confirmation)**: [[anthropic-institute-when-ai-builds-itself-2026-06-04|The Anthropic Institute's *When AI builds itself*]] (footnote 4) supplies concrete data confirming the Daigle platform-strain framing: **GitHub saw ~1 billion code commits in all of 2025 vs 275 million per week mid-2026 (= ~14 billion annualized for 2026 = ~14× year-over-year growth)**. Daigle quoted as saying GitHub is *"pushing incredibly hard"* on capacity just to keep up. **First wiki-captured cross-vendor first-party data confirmation** of GitHub's platform-strain framing with concrete commit-volume numbers from a separate frontier lab's operational publication. — [[anthropic-institute-when-ai-builds-itself-2026-06-04]]
+- **2026-07-06/07 — GitLost prompt-injection repo-leak (Noma Security)**: [[noma-gitlost-copilot-repo-leak-2026-07-07|GitLost]] — an unauthenticated attacker exfiltrates **private-repo** contents by hiding instructions in a public **GitHub Issue** that **GitHub Agentic Workflows** (agents powered by Claude or Copilot) read and then leak back via the agent's own `add-comment` tool. The keyword *"Additionally"* alone bypassed the safety prompt. **First wiki-captured named, concrete prompt-injection exploit against GitHub's production coding-agent surface** — the security counterpart to the velocity-strain framing above (agents wired to read attacker-controlled input + write to public surfaces = confused-deputy exfiltration). Concrete instantiation of the attack class the [[jailbreak-severity-framework|jailbreak-severity framework]] targets. Responsibly disclosed; coordination ongoing. — [[noma-gitlost-copilot-repo-leak-2026-07-07]]
 
 ## Cross-cutting framings
 
@@ -23,5 +24,6 @@ Code-hosting + collaboration platform; Microsoft subsidiary since 2018. Operator
 ## Resources
 
 - [[github-daigle-agent-strategy-2026-06-03]] — Kyle Daigle Latent Space podcast; agentic-coding platform-strain articulation
+- [[noma-gitlost-copilot-repo-leak-2026-07-07]] — Noma Security "GitLost"; prompt-injection private-repo exfiltration via GitHub Agentic Workflows
 - [[claude-code]] — the practitioner-side agentic-coding tool driving the platform-strain
 - [[saas-disruption-thesis]] — GitHub-Daigle as tier-4 utility-software-platform-adaptation case study

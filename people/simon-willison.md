@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-07-06
+last_updated: 2026-07-08
 ---
 
 ## Who They Are
@@ -48,6 +48,8 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **datasette-agent-micropython 0.1a0 — sandbox-safe code execution (2026-06-03)**: **6th tooling shipment in 8 days**. Sandbox-safe agentic code execution via micropython ([simonwillison.net/2026/Jun/2/datasette-agent-micropython/](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/)). **Pattern: practitioner-tooling shipment-cadence as frontier-vendor-release indicator is now structurally load-bearing**. Sandbox-safe-execution is the *practitioner-side answer* to [[anthropic-how-we-contain-claude-2026-05-31|Anthropic's containment publication]] — runtime-isolation as operator-side equivalent of vendor-side runtime-containment. — [[dailybrief-roundup-2026-06-03]]
 - **Google internal-comms shift on AI-product-readiness criticism (2026-06-04 surfacing)**: Willison surfaces a 404 Media report by Emanuel Maiberg on Google's internal-comms tightening around AI-product-readiness criticism. Post title *"A slightly different version"*. **First wiki-captured frontier-vendor internal-comms-control event around AI-product-readiness criticism**. Lands same-day as [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's openly-framed RSI publication]] — first wiki-captured same-day frontier-lab internal-positioning contrast (Anthropic openness vs Google closure). Anti-pair with [[willison-shopify-river-2026-05|River]] transparency-as-default framing. — [[willison-google-ai-criticism-internal-comms-2026-06-04]]
 - **Charity Majors enthusiasts-vs-skeptics framing surfacing (2026-06-04)**: surfaces [[charity-majors|Charity Majors]]'s framing — *"AI enthusiasts are in a race against time, AI skeptics are in a race against entropy."* **First wiki-captured load-bearing structural framing for AI-engineering-org team dynamics**. Pattern: enthusiasts and skeptics have different binding constraints, both correct (enthusiasts → time / windows close; skeptics → entropy / systems degrade without maintenance). **First wiki-captured engineering-management-voice framing of AI-team-dynamics** with operational rigor. — [[willison-charity-majors-enthusiasts-skeptics-2026-06-04]]
+
+- **sqlite-utils 4.0 released — schema migrations, Fable-5 code-review incorporated (2026-07-07)**: the [[simon-willison-sqlite-utils-fable-149-2026-07-05|$149 Fable-driven rc]] thread lands as **sqlite-utils 4.0 stable** (major version: adds database schema migrations), preceded by 4.0rc4 folding in Claude Fable 5's code review — a concrete LLM-in-the-loop OSS iteration cycle. Same day he shipped a **`github-code` Web Component** built with **GPT-5.5 in ~2 minutes from a one-sentence prompt** — a practitioner datapoint on the collapsing cost of narrow tool authoring (*"why do we still copy-paste snippets?"*). Surfaced via [[dailybrief-roundup-2026-07-08]]. — [[dailybrief-roundup-2026-07-08]]
 
 ## Where to Follow
 - Blog: simonwillison.net
