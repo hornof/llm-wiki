@@ -270,6 +270,7 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[post-realBigBrainAI-dorsey-ai-rebuild]] — X post amplifying Jack Dorsey's rebuild-vs-copilot framing for [[block]]
 
 ### Recent ingests
+- [[claude-managed-agents-updates-2026-06-30]] — ClaudeDevs June 2026 platform updates to **Claude Managed Agents** (the [[claude-agent-sdk|Claude Agent SDK]]'s hosted agent-session surface): streaming session event deltas, per-session agent overrides (model/system-prompt/tools/mcp_servers/skills), new webhook types, reverse pagination, credential-injection scoping, new Console Observability tab. Production-hardening signal → updated [[claude-agent-sdk]] (now documents the Managed Agents surface) (June 30 2026)
 - [[dailybrief-roundup-2026-07-06]] — roll-up of the 2026-07-06 Daily Brief (`Daily Briefs/2026-07-06.md`); spins off 6 focused source pages + captures Claude Science, AIEWF loops debate, Adobe self-assembling sites, RAG pruning, Import AI 464, Grant Sanderson, openwiki/openscience repos
 - [[anthropic-global-workspace-language-models-2026-07-06]] — Anthropic "global workspace" / J-space mechanistic research; J-lens reads internal reasoning; access- not phenomenal-consciousness → new [[global-workspace]]
 - [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]] — GLM 5.2 (~$4.40/MTok) as first credible open-weights Opus peer; thesis that it collapses ~90%-margin LLM inference → new [[ai-margin-collapse]], [[glm-5-2]], [[zhipu-ai]]
