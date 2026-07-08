@@ -116,7 +116,7 @@ Opus 4.8 canonical-verify-gate justification: *"Anthropic reports it's roughly 4
 - [[block-builderbot-launch-2026-06-17]] — paired Jun 17 firm-tier production-scale operationalization vs operator-tier 2-model-split
 - [[gregisenberg-pick-a-side-7-question-poll-2026-06-16]] — practitioner-tier strategic-question-shift canonical-pattern context
 - [[zodchii-opus-4-8-setup-guide-2026-05-29]] — Opus 4.8 0% uncritically-reporting-flawed-results canonical-anchor confirmation
-- [[0xMovez]] — new entity-page candidate (single-source defer; substantive 10-step canonical-playbook voice)
+- [[0xmovez]] — new entity-page candidate (single-source defer; substantive 10-step canonical-playbook voice)
 
 ## Adjacent sources
 

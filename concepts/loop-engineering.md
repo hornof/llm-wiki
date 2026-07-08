@@ -213,7 +213,7 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 
 ### 0xMovez — 10-step canonical playbook + 2-model split-architecture (2026-06-18)
 
-[[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — [[0xMovez]] publishes (Apr 22 orig; cross-device-clipped Jun 18) **STRUCTURALLY MASSIVE 10-step canonical-playbook for self-improving operator-tier Loop Engineering** using **Kimi K2.6 + Opus 4.8 2-model split-architecture**:
+[[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — [[0xmovez]] publishes (Apr 22 orig; cross-device-clipped Jun 18) **STRUCTURALLY MASSIVE 10-step canonical-playbook for self-improving operator-tier Loop Engineering** using **Kimi K2.6 + Opus 4.8 2-model split-architecture**:
 - **Kimi K2.6**: 300 parallel agents × 4,000 coordinated steps (up from K2.5's 100/1,500); $0.95/M in + $4.00/M out + $0.16 cache hits
 - **Opus 4.8 verify-gate**: *"4x less likely than 4.7 to let a flaw pass; first Claude to score 0% on uncritically reporting flawed results"*
 

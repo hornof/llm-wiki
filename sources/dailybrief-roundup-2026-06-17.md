@@ -108,7 +108,7 @@ Pairs structurally with:
 - [[hex]] / [[clay]] — paired Ploy early-adopter context
 - [[joshua-baer]] / [[capital-factory]] — canonical-tribute event noted
 - [[simon-willison]] — datasette-tailscale 0.1a0 continuous-tooling-shipment-cadence canonical-pattern
-- [[index.md]] — 3 new Recent ingests entries
+- [[index]] — 3 new Recent ingests entries
 
 ## Adjacent sources
 

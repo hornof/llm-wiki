@@ -8,7 +8,7 @@ last_updated: 2026-06-23
 
 ## Who They Are
 
-**Thibault Sottiaux (@tibo-sottiaux)** is an OpenAI Codex engineering lead and canonical-direct-voice on Codex shipping cadence, open-source-routing decisions, and UX feedback. Wiki-tracked primarily as a **canonical vendor-side OpenAI Codex eng-lead voice** with first wiki-captured canonical-open-source-routing decisions + canonical Codex-UX-feedback articulations. **2-substantive-surface canonical-voice-tier** (Jun 17 + Jun 21), with slug-variant `[[tibo-sottiaux]]` reserved if the canonical handle-attribution form re-surfaces.
+**Thibault Sottiaux (@tibo-sottiaux)** is an OpenAI Codex engineering lead and canonical-direct-voice on Codex shipping cadence, open-source-routing decisions, and UX feedback. Wiki-tracked primarily as a **canonical vendor-side OpenAI Codex eng-lead voice** with first wiki-captured canonical-open-source-routing decisions + canonical Codex-UX-feedback articulations. **2-substantive-surface canonical-voice-tier** (Jun 17 + Jun 21), with slug-variant `[[thibault-sottiaux]]` reserved if the canonical handle-attribution form re-surfaces.
 
 ## Their Current Focus
 

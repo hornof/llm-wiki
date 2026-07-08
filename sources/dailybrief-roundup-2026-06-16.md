@@ -88,7 +88,7 @@ ingested: 2026-06-16
 - [[bland]] — new entity-page candidate ($100M Series C voice-AI surface)
 - [[brian-armstrong]] / [[coinbase]] — tokenized-stocks tangential surface
 - [[elon-musk]] — space-based-solar-for-AI-computation canonical framing
-- [[index.md]] — 4 new Recent ingests entries
+- [[index]] — 4 new Recent ingests entries
 
 ## Adjacent sources
 

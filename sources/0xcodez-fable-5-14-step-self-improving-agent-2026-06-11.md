@@ -163,7 +163,7 @@ ingested: 2026-06-12
 - [[claude-md-pattern]] — STATE.md 5-section canonical template + Memory Instruction + verifier-sub-agent-beats-self-critique discipline added
 - [[concepts/recursive-self-improvement]] — "self-improving is not self-learning" canonical distinction added
 - [[bcherny-5-tips-opus-autonomous-2026-06-05]] — back-link as Cherny 5-tip recipe + 0xCodez 14-step expansion-companion
-- [[0xCodez]] — entity-page candidate flagged (single substantive surface; defer)
+- [[0xcodez]] — entity-page candidate flagged (single substantive surface; defer)
 
 ## Adjacent sources
 

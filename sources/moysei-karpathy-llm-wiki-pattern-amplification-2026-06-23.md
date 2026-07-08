@@ -90,7 +90,7 @@ ingested: 2026-06-28
 - **CreaoAfrica + 0xValerid + pomider + vadwarp**: 1 substantive surface each — single-source defers
 - **Canonical-9-rules canonical-Karpathy canonical-anchor**: verification-pending canonical-specific-rules canonical-articulation
 - **Canonical-30-year-old-Lisbon-developer canonical-case-study**: verification-pending full-extraction
-- **Slug-disambiguation**: @0xMoysei (Jun 23 canonical-LLM-Wiki-Pattern canonical-articulation) vs `[[0xMovez]]` (canonical-300-agent canonical-playbook Jun 18) — **canonical-DIFFERENT-people canonical-clarification** (avoid canonical-slug-confusion; pre-existing multi-lint carry-over `[[0xMovez]]` slug-case-normalization is for canonical-different-person)
+- **Slug-disambiguation**: @0xMoysei (Jun 23 canonical-LLM-Wiki-Pattern canonical-articulation) vs `[[0xmovez]]` (canonical-300-agent canonical-playbook Jun 18) — **canonical-DIFFERENT-people canonical-clarification** (avoid canonical-slug-confusion; pre-existing multi-lint carry-over `[[0xmovez]]` slug-case-normalization is for canonical-different-person)
 
 ## Pages Updated
 

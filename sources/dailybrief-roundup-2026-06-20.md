@@ -88,7 +88,7 @@ ingested: 2026-06-20
 - [[russell-kaplan]] / [[cognition-ai]] — new entity-page candidates (single-source defer; canonical-Cognition-AI + canonical-obstetric-ultrasound-skepticism-analogy)
 - [[emad-mostaque]] — new entity-page candidate (single-source defer; canonical-Stability-AI co-founder + canonical-fable-level-MacBook-tease)
 - [[concepts/ai-for-science]] — Russell Kaplan + canonical-medical-AI-impact context
-- [[index.md]] — 2 new Recent ingests entries
+- [[index]] — 2 new Recent ingests entries
 
 ## Adjacent sources
 

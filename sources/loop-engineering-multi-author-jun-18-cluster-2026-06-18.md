@@ -73,7 +73,7 @@ The Jun 17 22:52 "Your AI Agents Don't Have a Memory Problem. They Have a Select
 - [[concepts/agentic-engineering]] — 11-stage canonical-Claude-Workflow practitioner-tier extension
 - [[hornof-knowledge-work-plugins-claude-cowork-2026-06-17]] — paired Claude full-team-of-office-workers 2-event 24-hour canonical-convergence
 - [[anthropic-institute-when-ai-builds-itself-2026-06-04]] — verification-pending "When AI Builds Itself 2" dedup vs identical content
-- [[index.md]] — roundup-tier acknowledged
+- [[index]] — roundup-tier acknowledged
 
 ## Adjacent sources
 

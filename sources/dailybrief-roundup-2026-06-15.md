@@ -84,7 +84,7 @@ ingested: 2026-06-15
 - [[concepts/ai-labor-market-impacts]] — Narayanan + Kapoor "AI-as-evolution-not-extinction" counter-frame added
 - [[gemma]] — entity-page candidate (single-source — Gemma 4 mechanistic-interpretability surface; pattern-watch)
 - [[cartesia]], [[arvind-narayanan]], [[sayash-kapoor]], [[jia-bin-huang]] — new entity-page candidates (single-source defer)
-- [[index.md]] — 3 new Recent ingests entries
+- [[index]] — 3 new Recent ingests entries
 
 ## Adjacent sources
 
