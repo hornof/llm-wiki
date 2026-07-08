@@ -8,7 +8,7 @@ ingested: 2026-06-29
 
 ## Summary
 
-**[[0xmovez|Movez (@0xMovez)]] 2nd canonical-substantive surface** — canonical-AI-agent-loops + canonical-harness + canonical-evals + canonical-memory canonical-stack-articulation referencing canonical-ex-Google-engineer canonical-20-min canonical-video-explanation. **First wiki-captured canonical-5-step canonical-self-improvement-loop canonical-articulation**: *"trace every run → judge it with an LLM → diagnose → fix → ship. That loop is how agents self-improve over time."* **First wiki-captured canonical-"Agent loops + memory + harness + evals" canonical-4-component canonical-stack-statement at canonical-Movez-tier**. **Extends [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|Jun 18 canonical-300-agent canonical-playbook]] to canonical-2-substantive-surface canonical-cadence** = canonical-Movez canonical-entity-page-candidate canonical-validation + **canonical-slug-case-normalization canonical-resolution-anchor** (multi-lint carry-over `[[0xMovez]]` typo finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at next lint).
+**[[0xmovez|Movez (@0xMovez)]] 2nd canonical-substantive surface** — canonical-AI-agent-loops + canonical-harness + canonical-evals + canonical-memory canonical-stack-articulation referencing canonical-ex-Google-engineer canonical-20-min canonical-video-explanation. **First wiki-captured canonical-5-step canonical-self-improvement-loop canonical-articulation**: *"trace every run → judge it with an LLM → diagnose → fix → ship. That loop is how agents self-improve over time."* **First wiki-captured canonical-"Agent loops + memory + harness + evals" canonical-4-component canonical-stack-statement at canonical-Movez-tier**. **Extends [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|Jun 18 canonical-300-agent canonical-playbook]] to canonical-2-substantive-surface canonical-cadence** = canonical-Movez canonical-entity-page-candidate canonical-validation + **canonical-slug-case-normalization canonical-resolution-anchor** (multi-lint carry-over `[[0xmovez]]` typo finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at next lint).
 
 ## Key Claims / Takeaways
 
@@ -35,7 +35,7 @@ ingested: 2026-06-29
 - **Canonical-"loops + harness + evals" canonical-3-layer canonical-articulation** (canonical-replies-extension)
 - **Canonical-ex-Google-engineer canonical-20-min canonical-video-explanation canonical-reference** (canonical-verification-pending canonical-video-URL + canonical-presenter-identity)
 - **Canonical-agent-judgment-calls-as-dark-matter canonical-counter-articulation** (adelbucetta canonical-direct-voice)
-- **Slug-disambiguation-resolution canonical-anchor**: @0xMovez canonical-2-surface canonical-cadence canonical-validates canonical-entity-page-creation at next lint; canonical-multi-lint canonical-`[[0xMovez]]` canonical-slug-case-normalization canonical-carry-over canonical-resolution-pathway
+- **Slug-disambiguation-resolution canonical-anchor**: @0xMovez canonical-2-surface canonical-cadence canonical-validates canonical-entity-page-creation at next lint; canonical-multi-lint canonical-`[[0xmovez]]` canonical-slug-case-normalization canonical-carry-over canonical-resolution-pathway
 
 ## Cross-Cutting Synthesis
 
@@ -58,7 +58,7 @@ ingested: 2026-06-29
 
 - Pairs with [[victor-taelin|Victor Taelin canonical-benchmarks-as-marketing canonical-skeptic]] + canonical-Charity-Majors canonical-engineering-discipline at canonical-Loop-Engineering canonical-skeptic-tier canonical-articulation cluster.
 
-**Canonical-slug-case-normalization canonical-resolution-pathway**: canonical-multi-lint canonical-carry-over canonical-`[[0xMovez]]` canonical-typo canonical-issue finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at next lint with canonical-disambiguation from canonical-different-person @0xMoysei (canonical-LLM-Wiki-Pattern canonical-amplifier).
+**Canonical-slug-case-normalization canonical-resolution-pathway**: canonical-multi-lint canonical-carry-over canonical-`[[0xmovez]]` canonical-typo canonical-issue finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at next lint with canonical-disambiguation from canonical-different-person @0xMoysei (canonical-LLM-Wiki-Pattern canonical-amplifier).
 
 **Pattern-watch escalations for next lint**:
 

@@ -8,7 +8,7 @@ last_updated: 2026-06-29
 
 ## Who They Are
 
-**Movez (@0xMovez)** is an independent canonical-Loop-Engineering canonical-practitioner-amplifier-tier voice publishing canonical-self-improving-agent + canonical-agent-loops + canonical-harness + canonical-evals canonical-articulations on X + Substack. Wiki-tracked as **2-substantive-surface canonical-voice-tier** (Jun 18 + Jun 29 = 11-day canonical-recurring-author canonical-cadence). **Canonical-slug-case-normalization canonical-resolution-anchor**: multi-lint canonical-`[[0xMovez]]` typo finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at this lint. **Canonical-DIFFERENT-person from @0xMoysei** (canonical-LLM-Wiki-Pattern-amplifier Jun 28; see canonical-disambiguation below).
+**Movez (@0xMovez)** is an independent canonical-Loop-Engineering canonical-practitioner-amplifier-tier voice publishing canonical-self-improving-agent + canonical-agent-loops + canonical-harness + canonical-evals canonical-articulations on X + Substack. Wiki-tracked as **2-substantive-surface canonical-voice-tier** (Jun 18 + Jun 29 = 11-day canonical-recurring-author canonical-cadence). **Canonical-slug-case-normalization canonical-resolution-anchor**: multi-lint canonical-`[[0xmovez]]` typo finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at this lint. **Canonical-DIFFERENT-person from @0xMoysei** (canonical-LLM-Wiki-Pattern-amplifier Jun 28; see canonical-disambiguation below).
 
 ## Their Current Focus
 

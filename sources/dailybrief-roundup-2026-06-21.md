@@ -46,7 +46,7 @@ ingested: 2026-06-21
 
 | Item | Significance |
 |---|---|
-| **Tibo Sottiaux (OpenAI Codex eng-lead) asks devs for UX feedback** + Nick Dobos requests drag-to-reorder thread layouts on iOS | **First wiki-captured Tibo Sottiaux 2nd substantive surface** (extends [[agentic-coding-tooling-cluster-2026-06-17|Jun 17 Codex open-source-routing canonical-event]] = entity-page threshold met!). **First wiki-captured "drag-to-reorder thread layouts on iOS" canonical-Codex-UX-feedback canonical-request**. **First wiki-captured Nick Dobos canonical-substantive-surface as canonical-Codex-UX-feedback canonical-developer-voice**. — [[tibo-sottiaux]] / [[thibault-sottiaux]] (2nd surface!) + [[nick-dobos]] |
+| **Tibo Sottiaux (OpenAI Codex eng-lead) asks devs for UX feedback** + Nick Dobos requests drag-to-reorder thread layouts on iOS | **First wiki-captured Tibo Sottiaux 2nd substantive surface** (extends [[agentic-coding-tooling-cluster-2026-06-17|Jun 17 Codex open-source-routing canonical-event]] = entity-page threshold met!). **First wiki-captured "drag-to-reorder thread layouts on iOS" canonical-Codex-UX-feedback canonical-request**. **First wiki-captured Nick Dobos canonical-substantive-surface as canonical-Codex-UX-feedback canonical-developer-voice**. — [[thibault-sottiaux]] / [[thibault-sottiaux]] (2nd surface!) + [[nick-dobos]] |
 | **Alexander Doria — Anton Osika past advice against domestic European LLMs undermines technological sovereignty** | **First wiki-captured Alexander Doria + Anton Osika canonical-European-LLM-sovereignty canonical-debate event**. **First wiki-captured "Osika past advice against training domestic European LLMs" canonical-historical-Osika-position canonical-attribution**. Pairs structurally with [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17|Pleias Pierre-Carl Langlais EU-AI-substrate-deficiency canonical-debate]] + [[dailybrief-roundup-2026-06-19|EU 7-DC tender + 40K-GPUs sovereign-plan scale-back]] at the **canonical-EU-AI-sovereignty canonical-discourse cluster** layer. DeepSeek R1 release reignited canonical-European-model-training-dispute. — [[alexander-doria]] + [[anton-osika]] |
 | **Alisa Liu (UW PhD joining OpenAI) — AI job search guide** | First wiki-captured Alisa Liu canonical-substantive-surface as canonical-AI-job-search canonical-practitioner-voice. Yejin Choi + Noah Smith canonical-advisors (verification-pending Liu canonical-thesis-area + canonical-OpenAI-role). — [[alisa-liu]] / [[yejin-choi]] / [[noah-smith]] |
 | **xlr8harder — safety alignment suppresses dark and complex themes required for high-quality creative writing** + Daniel Francis (Abel founder) | **First wiki-captured xlr8harder canonical-substantive-surface as canonical-safety-alignment-vs-creative-writing canonical-debate voice**. **First wiki-captured "safety alignment suppresses dark and complex themes required for high-quality creative writing" canonical-articulation**. **First wiki-captured Daniel Francis + Abel canonical-substantive-surface as canonical-writing-quality canonical-debate-voice**. Pairs structurally with [[dailybrief-roundup-2026-06-20|Harper's Bazaar AI-detection Pangram canonical-event]] at the **canonical-creative-AI canonical-debate cluster** layer. — [[xlr8harder]] / [[daniel-francis]] / [[abel]] |
@@ -76,7 +76,7 @@ ingested: 2026-06-21
 - [[qwen]] — paired DGX Spark canonical-infrastructure-substrate-anchor + two-Qwen3-models residency-math
 - [[devashish-me]] — new entity-page candidate (single-source defer; canonical-infrastructure-optimization canonical-voice-tier)
 - [[dgx-spark]] / [[nvidia]] — new entity-page candidate (DGX Spark canonical-infrastructure-substrate-anchor)
-- [[tibo-sottiaux]] / [[thibault-sottiaux]] — **2nd substantive surface added** (entity-page threshold met; pattern-watch escalation for next lint)
+- [[thibault-sottiaux]] / [[thibault-sottiaux]] — **2nd substantive surface added** (entity-page threshold met; pattern-watch escalation for next lint)
 - [[codex]] — UX-feedback-solicitation context + drag-to-reorder thread layouts canonical-feature-request
 - [[nick-dobos]] — new entity-page candidate (single-source defer)
 - [[alexander-doria]] / [[anton-osika]] — new entity-page candidates (single-source defer; canonical-European-LLM-sovereignty canonical-debate)
@@ -86,7 +86,7 @@ ingested: 2026-06-21
 - [[msci]] — new entity-page candidate (single-source defer; canonical-ESG-rating-substrate)
 - [[elon-musk]] — continued canonical-direct-voice cadence ("electric rockets are physically impossible")
 - [[spacex]] — MSCI lowest-ESG-rating canonical-event
-- [[index.md]] — 1 new Recent ingests entry
+- [[index]] — 1 new Recent ingests entry
 
 ## Adjacent sources
 

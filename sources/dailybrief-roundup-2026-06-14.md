@@ -115,7 +115,7 @@ OpenAI faces **multi-state-attorneys-general investigation** on **ads + health-d
 - [[zaharia-omnigent-multi-agent-meta-harness-2026-06-13]] — paired synara operator-side multi-provider-parallel-session context
 - [[dwarkesh-sample-efficiency-black-hole-2026-06-08]] — re-promotion confirmation
 - [[karpathy-loopcraft-stacking-loops-2026-06-12]] — re-promotion confirmation
-- [[index.md]] — 3 new Recent ingests entries
+- [[index]] — 3 new Recent ingests entries
 
 ## Adjacent sources
 

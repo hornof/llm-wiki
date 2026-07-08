@@ -85,7 +85,7 @@ ingested: 2026-06-19
 - [[openai-jun-18-7-event-cluster-2026-06-18]] — Noam Shazeer Google-brain-drain canonical-extension
 - [[demis-hassabis]] / [[shane-legg]] — paired canonical-DeepMind voice context with Andreas Kirsch
 - [[harvey]] / [[asml]] / [[ukraine-trophylab]] / [[jarred-sumner]] — new entity-page candidates (single-source defer)
-- [[index.md]] — 2 new Recent ingests entries
+- [[index]] — 2 new Recent ingests entries
 
 ## Adjacent sources
 

@@ -98,7 +98,7 @@ ingested: 2026-06-22
 - [[reflection-ai]] — new entity-page candidate (paired with focused source)
 - [[colossus-2]] — paired focused source
 - [[harbor-framework]] / [[mlc-ai]] / [[tirx]] / [[simple-evals]] — new entity-page candidates (single-source defers; canonical-repos worth-watching)
-- [[index.md]] — 2 new Recent ingests entries
+- [[index]] — 2 new Recent ingests entries
 
 ## Adjacent sources
 

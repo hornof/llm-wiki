@@ -106,7 +106,7 @@ ingested: 2026-06-23
 - [[concepts/ai-labor-market-impacts]] + [[topics/ai-roi-gap]] — TechCrunch AI-tech-layoffs canonical-running-list context
 - [[concepts/company-brain]] — Engram canonical-personalized-AI extension
 - [[rapid-mlx]] / [[voicebox]] / [[palmier-pro]] / [[openmontage]] / [[apple-container]] — new entity-page candidates (5-canonical-repos)
-- [[index.md]] — 2 new Recent ingests entries
+- [[index]] — 2 new Recent ingests entries
 
 ## Adjacent sources
 

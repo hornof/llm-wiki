@@ -87,7 +87,7 @@ ingested: 2026-06-18
 - [[joseph-krause]] / [[radical-ai]] — new entity-page candidates (single-source defer)
 - [[metr-hawk]] / [[ceo-bench]] / [[zlab-princeton]] — new entity-page candidates (single-source defer)
 - [[elastic]] / [[deductive-ai]] — new entity-page candidates (single-source defer)
-- [[index.md]] — 3 new Recent ingests entries
+- [[index]] — 3 new Recent ingests entries
 
 ## Adjacent sources
 
