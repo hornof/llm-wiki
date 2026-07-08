@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-07-06
+last_updated: 2026-07-08
 ---
 
 ## Definition
@@ -17,11 +17,13 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 
 - **Trigger model**: [[glm-5-2]] from [[zhipu-ai|Z.ai / Zhipu]] at ~$4.40/MTok vs ~$25/MTok for Opus (<20% of retail), described as a "drop-in replacement" for many tasks.
 - **Still a projection**: Alderson's piece is Part 1 and forward-looking; the collapse is argued, not yet observed in lab financials. Counter-forces (vision, web search, latency, enterprise trust, tool-use reliability) still favor the closed frontier for now.
+- **Lifecycle-phases counter-framing** ([[techcrunch-open-source-not-hurting-anthropic-2026-07-07|TechCrunch, 2026-07-07]]): open-weight and closed frontier models occupy **different lifecycle phases, not the same competitive lane** — which is why open models haven't dented Anthropic's business *yet*. This is a **timing disagreement, not a refutation**: Alderson says the collapse triggers when a credible open peer arrives; TechCrunch says the peer isn't competing for the same (frontier) work yet, so the collapse is deferred until the phases converge. The load-bearing word in both is *"yet."* Corroborated by [[latent-space-field-guide-to-fable-2026-07-08|AutomationBench-AA]]: best open-weight ([[glm-5-2|GLM-5.2]]) scores 27.8% vs Fable 5's 48.6% — a real capability gap on agentic-automation work, consistent with "different phase."
 - Track: independent GLM-vs-Opus benchmarks; whether frontier labs cut inference prices in response; open-weights adoption in production.
 
 ## Key Papers / Posts
 
 - [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]] — "GLM 5.2 and the coming AI margin collapse (Part 1)".
+- [[techcrunch-open-source-not-hurting-anthropic-2026-07-07]] — lifecycle-phases counter-framing (collapse deferred, not refuted).
 
 ## Related Concepts
 

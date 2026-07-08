@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-07-06
+last_updated: 2026-07-08
 ---
 
 ## What It Is
@@ -40,11 +40,16 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 - General-purpose reasoning, coding, agentic workflows
 - **Avoid** if task involves frontier-LLM-development (silently-restricted; 0.03% of traffic)
 
+## Benchmarks
+
+- **AutomationBench-AA** (657 SaaS automation tasks; via Latent Space [[latent-space-field-guide-to-fable-2026-07-08|Field Guide to Fable]], 2026-07-08): **Fable 5 48.6%** — a near dead-heat with [[claude-opus-4-8|Opus 4.8]] (48.5%), well ahead of Gemini 3.5 Flash (42.6%) and GPT-5.5 xhigh (42.1%); best open-weight ([[glm-5-2|GLM-5.2]]) trails at 27.8%. Caveat: **all models still break business rules**, and scores vary sharply by domain (Finance/Legal/Healthcare). Reinforces the "frontier is a two-horse Fable-5/Opus-4.8 race; open-weight lags" read.
+
 ## Community Sentiment
 
 - **Anthropic-narrative tension** (TechCrunch): release *"days after warning AI is getting too dangerous"* — vendor-side simultaneous safety-narrative-articulation + capability-deployment.
 - **Taelin (2026-06-09)**: dismissed leaked benchmarks as marketing.
 - **Pattern-watch**: Anthropic + Anthropic-Institute cross-cutting safety + capability narrative — [[anthropic-institute-when-ai-builds-itself-2026-06-04|RSI publication]] (Jun 4) → Fable 5 ship (Jun 9) = **first wiki-captured frontier-lab "warning-AI-too-dangerous + ship-most-powerful-model-publicly" 5-day-gap event**.
+- **"Field Guide to Fable" (Latent Space, 2026-07-08)** — frames Fable 5 as *"the world's most significant model launch to date"* but locates the step-change in **harness/mental-model discipline**, not raw capability: *"the harness we put them in, and the way we prompt them"* constrains models more than their limits. Synthesizes [[thariq-shihipar|Thariq]]'s AIEWF keynote into four principles — **Unhobbling Claude** (strip artificial constraints), **finding unknown unknowns** (blindspot passes), **emotional shift** (weeks→hours), **"tradeoffs are not real"** (good+fast+cheap). Reality check: *"Building is easy, generating value is still hard."* — [[latent-space-field-guide-to-fable-2026-07-08]]
 
 ## RESOLVED: Redeployed Globally (2026-06-30/07-01) + Jailbreak Severity Framework
 
