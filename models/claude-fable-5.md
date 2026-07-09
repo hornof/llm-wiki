@@ -63,6 +63,7 @@ Per [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30|Anth
 
 - **Willison ships sqlite-utils 4.0rc2 mostly via Fable for $149.25** ([[simon-willison-sqlite-utils-fable-149-2026-07-05]]): 37 prompts / 30 files / 34 commits; caught a `delete_where()` data-loss bug; itemized cost breakdown ($141.02 main session + sub-agent reviews). First wiki-captured full itemized dollar cost for a real Fable-driven OSS release.
 - **GPU kernel generation** ([[jack-clark|Jack Clark]], Import AI 464, via [[dailybrief-roundup-2026-07-06]]): Fable writing GPU kernels — automation-of-software-R&D signal (summary thin, primary not deeply fetched).
+- **End-to-end website pipeline via MCP connectors** (Awa K. Penn, 2026-07-08; clipped, primary-post images not fetched): practitioner listicle showing Fable 5 driving strategy → copy → visual identity → responsive build → **domain search (GoDaddy MCP)** → **host/publish (Netlify connector)** in one flow — *"build, host, and publish websites with a domain name, just like a WordPress engineer."* Reply confirmations ("built it in 20 minutes"). A "what people are shipping" datapoint on Fable-5 + MCP-connector chaining; hype-format, treat as anecdotal.
 
 ## STATUS: Trump-Admin Export Control (2026-06-13 — globally suspended, since lifted — see above)
 

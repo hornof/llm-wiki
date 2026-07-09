@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 ---
 
 ## Who They Are
@@ -29,6 +29,7 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 - **8-step local-models on-ramp guide** ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]): runtime (Ollama / LM Studio) + hardware-matching + 4-model-recommendation taxonomy (Qwen 3 / DeepSeek / Gemma 4 / Llama) + quantization (Q4/Q5) + agent-connection (Hermes) + context-window-constraint + tool-wiring + fine-tuning. **First wiki-captured 8-step canonical local-models on-ramp**.
 - **"AI eats the middle / job-bookends"** ([[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08]]): *"AI eats the middle of your work. You used to spend 80% of your day on execution. Now agents do that. Your job is the bookends: deciding what to do and judging whether it's good enough."* **Extends to 6-surface engineering-role-shift convergence**.
 - **Pairs with [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|same-day David Sacks Sacks Trump-Admin export-control announcement]]**: 2-surface same-day USG-export-control + operator-side local-models-pivot reaction-cluster.
+- **3 token-saving Claude Code plugins + token-economy discourse (2026-07-08)** ([[gregisenberg-3-token-saving-plugins-2026-07-08]]): shares `caveman` / `morph` / `codeburn` plugins for reducing token burn in long-running [[claude-code]] sessions (reported ~25% savings). The valuable part is the skeptic reply-thread it drew: *"plugins net-add tokens once you factor tool-schema loading on every request,"* token-saving *"can mask output degradation — the silent cost,"* and *"optimize value-per-output, not cost-per-token."* Plus `CCAUDIT` (open-source) for auditing wasted tokens. Cost-side companion to the [[loop-engineering]] token-discipline checklist.
 
 ## Where to Follow
 
