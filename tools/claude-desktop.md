@@ -3,7 +3,7 @@ name: Claude Desktop
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-05-08
+last_updated: 2026-07-09
 ---
 
 ## What It Is
@@ -12,12 +12,15 @@ Anthropic's desktop application for macOS and Windows. Hosts Claude conversation
 
 Download: [claude.ai/download](https://claude.ai/download). Requires a Claude Pro or higher subscription for full access.
 
+As of the **Claude Agent SDK** announcement (Code w/ Claude 2026, May 6), Claude Desktop is one of the **hosts built on the [[claude-agent-sdk|Claude Agent SDK]]** — the SDK is the developer layer underneath the IDE and Desktop hosts alike. See [[claude-agent-sdk]].
+
 ## Traction Signals
 
 - **Default MCP host for personal-agent tutorials.** April 2026 viral X tutorial by [[seelffff]] uses Claude Desktop (not Claude Code) as the MCP host for a personal life-management agent stack — Filesystem MCP + [[playwright-mcp]] + a custom 25-line Telegram MCP — and explicitly recommends Claude Desktop because "Projects in Claude Desktop have persistent memory and read your folder." — [[seelffff-personal-ai-agent]] / [[personal-ai-agent-claude-desktop-mcp]]
 - **Cowork tab graduated to a first-class surface** (May 2026): Claude Desktop now hosts [[claude-cowork]], Anthropic's autonomous-execution surface for non-coding workflows. Practitioner cheat sheet [[claude-cowork-cheatsheet-2026-05-07]] documents 38+ built-in MCP connectors, the **MCP → Chrome → Computer Use** priority ladder, Plugins, Skills (`SKILL.md`), Scheduled Tasks, Dispatch (mobile pairing). Claude Desktop is the *host*; Cowork is the autonomous mode within it.
 - **Native scheduled-tasks support cited** as a near-term capability for "scheduled morning briefing" at 7am — practitioner expects Claude Desktop to run agent commands on cron without Claude Code in the loop. [unsourced beyond the seelffff post; verify before relying]
 - **Claude Pro–only agent stacks possible**: Claude Desktop + MCP unlocks browser automation, filesystem read/write, and external push delivery on a $20/mo subscription with no API keys. Lowers the barrier from "developer with API budget" to "anyone with Claude Pro."
+- **Cowork plugin ecosystem maturing (June 2026)**: the [[claude-cowork]] surface hosted in Claude Desktop now runs file-based plugins (`.claude-plugin/plugin.json` + `.mcp.json` + `commands/` + `skills/`) — the wiki owner open-sourced an 11-plugin knowledge-work suite for it ([[hornof-knowledge-work-plugins-claude-cowork-2026-06-17]]). Signals Desktop/Cowork is becoming a genuine non-coding-agent *platform*, not just a chat host.
 
 ## How to Use It (MCP host)
 
