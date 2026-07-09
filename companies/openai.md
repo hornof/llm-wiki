@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-06-07
+last_updated: 2026-07-09
 ---
 
 ## What It Is
@@ -66,6 +66,8 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - 2026-06-06: **Trump administration considers equity stake in OpenAI** (TechCrunch). **First wiki-captured concrete US-government-equity-in-a-frontier-AI-lab proposal**. **6th component of OpenAI policy-positioning stack** (was 5): API PMF + 3rd-party-evals + Foundation $250M + federal-preemption + biodefense + **government-equity-alignment-consideration**.
 - 2026-06-06: **OpenAI releases Lockdown Mode for prompt-injection protection** (TechCrunch). Enterprise security primitive **for protecting sensitive data from prompt-injection attacks**. **First wiki-captured OpenAI-side concrete enterprise-security primitive** for prompt-injection mitigation. **5-day turnaround from [[chatgpt-sheets-exfiltration-promptarmor-2026-06-01|the ChatGPT-Sheets exfiltration disclosure]]**. Pairs with [[trq-dynamic-workflows-harness-2026-06-02|Thariq's quarantine pattern]] + [[anthropic-self-service-data-analytics-2026-06-03|Anthropic's provenance footer primitive]] + [[anthropic-mitre-attack-cyber-threats-2026-06-03|Anthropic MITRE ATT&CK mapping]] as the **4-primitive agent-output integrity cluster**. **7-component OpenAI policy-and-product-positioning stack now articulated** (adds operational-discipline-side alongside policy-side). — [[openai-lockdown-mode-prompt-injection-2026-06-06]]
 - 2026-06-07: **Joshua Achiam (OpenAI) publicly contests Anthropic safety-governance** ([[dailybrief-roundup-2026-06-07|Daily Brief]]). Achiam claims Anthropic safety governance is *"untested"*; counterclaim by independent researcher Andreas Kirsch cites OpenAI's failed Altman ouster. **First wiki-captured inter-vendor safety-governance public-contest event**. Pattern: safety-positioning is now operationally publicly contestable. — [[dailybrief-roundup-2026-06-07]] Brief flag: *"Verify before repeating."* **5+1 same-week Trump-administration ↔ frontier-AI federal-regulatory cluster now articulated**: [[trump-narrower-ai-eo-2026-06-02|EO Jun 02]] + [[openai-federal-ai-safety-framework-2026-06-03|OpenAI blueprint Jun 03]] + [[house-draft-federal-ai-preemption-bill-2026-06-04|House bill Jun 04]] + [[openai-biodefense-intelligence-age-2026-06-05|biodefense Jun 05]] + equity-stake-consideration Jun 06 + [[sriram-krishnan-leaves-whitehouse-ai-advisor-2026-06-06|Krishnan departure Jun 06]]. **First wiki-captured divergence between OpenAI and Anthropic ownership-trajectory positioning** — OpenAI moving toward government-equity-aligned-structure; Anthropic moving toward public-equity-market-structure ([[anthropic-s1-filing-2026-06-01|S-1 IPO filing]]). — [[trump-admin-openai-equity-stake-2026-06-06]]
+
+- 2026-07-08: **GPT-Live — voice mode with tiered-inference delegation** (via [[simon-willison]], [[dailybrief-roundup-2026-07-09]]): OpenAI's upgraded voice model **routes complex tasks to GPT-5.5 behind the scenes**. First wiki-captured **tiered-inference-in-production-UX** precedent (fast conversational model + frontier-model delegation). Double-edged signal: the delegation implies the frontier model's **latency problem isn't solved** for real-time voice. — [[dailybrief-roundup-2026-07-09]]
 
 ## Resources
 - [[thread-minchoi-gpt-image-2]] — GPT-Image-2 launch

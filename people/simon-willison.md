@@ -3,7 +3,7 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 ---
 
 ## Who They Are
@@ -50,6 +50,7 @@ Simon Willison is an independent software engineer, blogger, and tooling builder
 - **Charity Majors enthusiasts-vs-skeptics framing surfacing (2026-06-04)**: surfaces [[charity-majors|Charity Majors]]'s framing — *"AI enthusiasts are in a race against time, AI skeptics are in a race against entropy."* **First wiki-captured load-bearing structural framing for AI-engineering-org team dynamics**. Pattern: enthusiasts and skeptics have different binding constraints, both correct (enthusiasts → time / windows close; skeptics → entropy / systems degrade without maintenance). **First wiki-captured engineering-management-voice framing of AI-team-dynamics** with operational rigor. — [[willison-charity-majors-enthusiasts-skeptics-2026-06-04]]
 
 - **sqlite-utils 4.0 released — schema migrations, Fable-5 code-review incorporated (2026-07-07)**: the [[simon-willison-sqlite-utils-fable-149-2026-07-05|$149 Fable-driven rc]] thread lands as **sqlite-utils 4.0 stable** (major version: adds database schema migrations), preceded by 4.0rc4 folding in Claude Fable 5's code review — a concrete LLM-in-the-loop OSS iteration cycle. Same day he shipped a **`github-code` Web Component** built with **GPT-5.5 in ~2 minutes from a one-sentence prompt** — a practitioner datapoint on the collapsing cost of narrow tool authoring (*"why do we still copy-paste snippets?"*). Surfaced via [[dailybrief-roundup-2026-07-08]]. — [[dailybrief-roundup-2026-07-08]]
+- **`llm-meta-ai` 0.1 + GPT-Live surfacing + Bun-Rust writeup (2026-07-08/09)** ([[dailybrief-roundup-2026-07-09]]): three same-window shipments/surfacings — (1) **`llm-meta-ai` 0.1** plugs Meta's **Muse Spark 1.1** open model into his `llm` CLI (*"open models win on integration friction, not inference speed"*); (2) surfaces **[[openai|OpenAI]]'s GPT-Live** (voice mode delegating hard tasks to GPT-5.5); (3) a detailed **Bun Zig→Rust** rewrite breakdown (narrative writeup of the already-tracked [[bun|Bun port]]). Continues his role as the highest-cadence LLM-tooling surfacing voice.
 
 ## Where to Follow
 - Blog: simonwillison.net

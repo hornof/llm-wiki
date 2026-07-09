@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-05-31
+last_updated: 2026-07-09
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -43,7 +43,7 @@ This concept uses "world model" to mean an AI-maintained operational picture of 
 
 ## Current State
 
-Genuinely early. Block is the primary public example; others are likely experimenting privately. Key prerequisites that most companies lack:
+Genuinely early. [[block|Block]] is the primary public example; **[[uber|Uber]] joins as a second public production-scale datapoint** ([[praveen-neppalli-uber-agentic-adoption-2026-07-09]], July 2026): 99% of engineers on AI tools, >70% of PRs agent-attributed, and an **Agentic Pods** operating model that pushes agents past engineering into finance/legal/ops/marketing/support via 2-week embed sprints. Uber's *"workflow becomes the unit of automation, not the task"* and *"build with them, not for them"* are concrete restatements of the rebuild-the-workflow (not copilot-the-task) thesis. Others are likely experimenting privately. Key prerequisites that most companies lack:
 - Remote-first, artifact-rich work (everything must be machine-readable)
 - Rich proprietary data signal (Block has both sides of financial transactions)
 - Leadership willing to dismantle middle management (politically difficult)
