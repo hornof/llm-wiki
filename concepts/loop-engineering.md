@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-07
+last_updated: 2026-07-09
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -269,6 +269,13 @@ The [AI Engineer World's Fair Daily Dispatch](https://www.latent.space/p/aiewf-d
 **Token-discipline checklist** (vendor-side companion to Van Horn's 3 hard-stops): right primitive + model per job · clear success/stop criteria · **pilot before a large run** (dynamic workflows can spawn hundreds of agents) · scripts for deterministic work · match interval to change-rate · review via `/usage` (by skills/subagents/MCPs), `/goal` (turns + tokens), `/workflows` (per-agent tokens, stop any agent).
 
 Extends the Loop-Engineering cluster with the **first official Anthropic-vendor-documentation-tier voice** (prior vendor-creator-tier was Cherny's individual "strongly agree"; this is team-authored canonical documentation). Practitioner counter-signal persists in the boost thread: `@CallofdutyFan32` reports burning a Fable Max 20× limit on an unattended loop with *"a 500% improvement"* when babysat — live evidence for the closed-loop / verifier-gate thesis over naive autonomy.
+
+### Production receipts — Uber + Jane Street (July 2026)
+
+Two July datapoints extend the cluster from practitioner-content and vendor-docs into **firm-scale production receipts**:
+
+- **[[praveen-neppalli-uber-agentic-adoption-2026-07-09|Uber]]** (2026-07-07): 99% of engineers using AI tools, **>70% of PRs attributed to local/cloud agents**, 2,500+ agent skills. Its **Agentic Pods** program (2-week shadow→build→validate→ship sprints pairing AI-proficient engineers with domain experts; 16 pods / 16 functions in 2 months) operationalizes *"the workflow becomes the unit of automation — not the individual task"* — a firm-tier restatement of the Stage-5 "loop = unit of work" thesis + Sydney Runkle's event-driven-loop layer. Pairs with [[block-builderbot-launch-2026-06-17|Block Builderbot]] as a 2-firm production-scale [[ai-native-organizations]] cluster.
+- **[[cvxv666-jane-street-trading-agent-loops-2026-07-09|Jane Street / Horizon]]** (viral, unverified figures): a **generator + adversarial-verifier** two-agent loop (one builds a trading strategy, one tries to kill it via backtest) — the same builder-checker architecture as Zodchii/McDonald, now in quant finance, marketed under the literal phrase *"Loop Engineering."* Its reply-thread supplies a clean real-world statement of the **verifier ceiling**: surviving "data it's never seen" across thousands of trials is textbook multiple-testing/overfitting bias — *a loop that goes green is not a loop that is correct.* First wiki-captured out-of-domain (quant-trading) confirmation of both the pattern and its ceiling.
 
 ## Key Papers / Posts
 

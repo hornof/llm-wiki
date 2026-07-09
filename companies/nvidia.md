@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-06-04
+last_updated: 2026-07-09
 ---
 
 ## What It Is
@@ -26,6 +26,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 - Investor in Reflection ($8B valuation, open-source model startup competing with DeepSeek) alongside Sequoia and Lightspeed — [[forbes-ai-50-2026]]
 - **2026-06-04: Nemotron 3 Ultra release** — **550B-parameter open-weight hybrid Mamba2-Transformer MoE for agentic workloads**. **First wiki-captured NVIDIA-side frontier-scale open-weight foundation-model release**. [[nathan-lambert|Nathan Lambert]] (post-AI2) frames the **multi-teacher on-policy distillation pipeline** (10+ specialized teacher models) as *"the post-training industry standard"*. **First wiki-captured shift in frontier-vendor competitive surface from training-side to post-training-side**. Pairs with same-week [[dailybrief-roundup-2026-06-03|Google Gemma 4 12B/26B release]] — 2 frontier-vendor open-weight events in 1 day window establishing open-weight tier as competitive with closed-vendor frontier capabilities at the agentic-workload layer. **First wiki-captured concrete-instantiation of NVIDIA's substrate-tier-to-application-tier vertical-integration move** at the frontier-model layer. — [[nvidia-nemotron-3-ultra-550b-2026-06-04]]
 - **2026-06-04 (Goldman Sachs forecast)**: Goldman Sachs forecasts **SpaceX AI revenue $322B by 2030** driven by compute-as-a-service offerings. **First wiki-captured concrete dollar-forecast for SpaceX AI revenue trajectory**; SpaceX includes [[xai|xAI]] Colossus capacity. Skepticism noted on Goldman's IPO underwriting role potentially biasing the forecast upward. Pairs with [[anthropic-spacex-higher-limits-2026-05-06|substrate-tier compute lock-in framing]]. — [[dailybrief-roundup-2026-06-04]]
+- **2026-07-09 — "victim of the compute marketplace it created"** ([TechCrunch](https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/), via [[dailybrief-roundup-2026-07-09]]): counter-signal to the moat narrative — the commoditizing GPU/compute marketplace Nvidia enabled now works against it; **infrastructure/compute is no longer a durable moat play**. Pairs structurally with the [[ai-margin-collapse]] thesis (commoditization pressure moving up the stack from open-weight models to the compute layer). Primary not fetched.
 
 ## Management Notes
 

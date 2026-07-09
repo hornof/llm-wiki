@@ -2,7 +2,7 @@
 name: Uber
 type: company
 status: active
-last_updated: 2026-06-03
+last_updated: 2026-07-09
 ---
 
 ## What It Is
@@ -13,6 +13,8 @@ Global ride-hailing + delivery platform. Wiki-tracked here for its **enterprise-
 
 - **2026-05-26**: **Uber's president on AI ROI skepticism** (surfaced via [[dailybrief-roundup-2026-05-26]]). First wiki-captured *executive-level AI-ROI-skepticism statement* from a major F500 operator. **Primary unfetched**; specific quote not deeply captured. Adds Uber as the **executive-statement entry** in a paired-signal sequence with the operational-spend-cap that lands ~1 week later.
 - **2026-06-03**: **$1,500/month per-employee AI tool spend ceiling** (Willison-surfaced 2026-06-03). **First wiki-captured concrete enterprise-side per-employee AI tooling spend ceiling.** Claude Code named explicitly as a flagged category. Brief insightful framing: *"the $1.5k ceiling isn't about model cost — it's where customers stop justifying custom workflows."* **Operational instantiation of the May 26 executive-skepticism signal** — 2-of-3 of a wiki-captured Uber-side paired-signal sequence (executive statement → operational cap → ??). Adds Uber as the **5th surface** of the [[ai-roi-gap]] thesis. — [[uber-ai-tool-cap-1500-2026-06-03]]
+
+- **2026-07-07 — first-party agentic-adoption showcase + Agentic Pods** ([[praveen-neppalli-uber-agentic-adoption-2026-07-09]]): Praveen Neppalli reports **99% of engineers using AI tools**, **>70% of PRs attributed to local/cloud agents**, **2,500+ agent skills**. **Agentic Pods** — 2-week sprints pairing AI-proficient engineers with a business-function domain expert (shadow→prioritize→build→validate→ship); **16 pods across 16 functions in 2 months**, with wins like capital-allocation 15h→30min and support 9,000 manual workflows→self-service. Canonical lesson: *"the workflow becomes the unit of automation — not the individual task."* **Tension worth tracking**: this aggressive-adoption showcase sits alongside Uber's own [[uber-ai-tool-cap-1500-2026-06-03|$1,500/mo per-employee AI-spend cap]] — spend discipline and deep adoption coexisting, not contradicting.
 
 ## Cross-cutting framings
 
