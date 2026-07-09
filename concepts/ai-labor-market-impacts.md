@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-06-08
+last_updated: 2026-07-08
 ---
 
 ## Definition
@@ -124,6 +124,15 @@ The structural framework above measures the labor-market signal in employment, e
 **Counter-take worth tracking** (Hot Aisle): *"None of this is new."* Historical cycles (dot-com, mobile, crypto) produced similar discontinuous-outcome distributions. Whether AI is structurally different or just the same shape at larger scale is an open question this essay does not settle.
 
 Treat as cultural-sentiment data point, not measurement: specific numbers ($20M retirement wealth threshold, ~10k people) are Deedy's estimates; framing is SF-centric.
+
+## Cultural-Sentiment Companion 2 — the "ghost economy" (unverified, July 2026)
+
+[[zerqfer-ghost-economy-ai-personas-2026-07-08]] — an anonymous viral essay claiming a hidden "ghost economy" of under-25 operators running **AI-persona micro-businesses** (synthetic face via Flux/Gemini + a Claude-managed personality with a `brain` memory file + automated distribution) that quietly out-earn and displace the humans whose roles they mimic — AI fitness coaches, influencers, receptionists, UGC creators, web-dev cold-callers.
+
+> [!warning] Unverified anecdotal content
+> Every case is pseudonymous with suspiciously precise figures and an engagement-bait close. **No numbers are verified.** This is a *demand-side cultural signal*, not measurement — kept adjacent to, not merged into, the sourced structural analysis above.
+
+**Why it's worth a marker anyway**: it articulates a coherent, repeatable stack (pick a face-assumed-human job → synthesize the face cheaply → automate the personality with Claude + a memory file → automate distribution → stay invisible). That's the demand-side texture of the labor-displacement thesis — the folk version of [[claude-fable-5|"one person outperforms a team"]] and the [[skill-md|outer-loop memory]] pattern (the `brain` file) applied to synthetic-persona businesses. Candidate concept if a *verifiable* second surface on synthetic-persona economies appears.
 
 ## Open Questions
 
