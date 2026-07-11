@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -276,6 +276,13 @@ Two July datapoints extend the cluster from practitioner-content and vendor-docs
 
 - **[[praveen-neppalli-uber-agentic-adoption-2026-07-09|Uber]]** (2026-07-07): 99% of engineers using AI tools, **>70% of PRs attributed to local/cloud agents**, 2,500+ agent skills. Its **Agentic Pods** program (2-week shadow→build→validate→ship sprints pairing AI-proficient engineers with domain experts; 16 pods / 16 functions in 2 months) operationalizes *"the workflow becomes the unit of automation — not the individual task"* — a firm-tier restatement of the Stage-5 "loop = unit of work" thesis + Sydney Runkle's event-driven-loop layer. Pairs with [[block-builderbot-launch-2026-06-17|Block Builderbot]] as a 2-firm production-scale [[ai-native-organizations]] cluster.
 - **[[cvxv666-jane-street-trading-agent-loops-2026-07-09|Jane Street / Horizon]]** (viral, unverified figures): a **generator + adversarial-verifier** two-agent loop (one builds a trading strategy, one tries to kill it via backtest) — the same builder-checker architecture as Zodchii/McDonald, now in quant finance, marketed under the literal phrase *"Loop Engineering."* Its reply-thread supplies a clean real-world statement of the **verifier ceiling**: surviving "data it's never seen" across thousands of trials is textbook multiple-testing/overfitting bias — *a loop that goes green is not a loop that is correct.* First wiki-captured out-of-domain (quant-trading) confirmation of both the pattern and its ceiling.
+
+### Practitioner/tooling layer — doctrine hardens into how-to + a promoted tool (2026-07-09/10)
+
+By July the loop-engineering canon is stable enough that new content mostly *restates* it. Two July 9-10 datapoints add signal without adding a canonical voice:
+
+- **[[how-to-build-first-ai-loop-slate-2026-07-10|Rahul (@sairahul1) "How To Build Your First AI Loop in 2026"]]** — a long-form build tutorial that reprises the entire canon verbatim (Steinberger/Cherny "write loops not prompts" opener; Discover→Execute→Verify→Iterate→Stop; maker-checker; `STATE.md`; the four failure modes **Ralph Wiggum / goal drift / self-preferential bias / agentic laziness**) and threads it through a single promoted tool, **[[slate|Slate]]** (RandomLabs). Genuinely new: (a) the **4-condition test** for *when a loop earns its cost* — task repeats ≥weekly + verification automated + budget absorbs waste + "done" is objective, *"fail any one → use a prompt instead"*; (b) **[[slate|Slate]]** as a named swarm-orchestration agent (thin/promotional signal — see its page); (c) a claimed, **second-hand [[andrew-ng|Andrew Ng]] escalation** *"prompting is gone in 3-6 months"* (unverified). This is the **promotional/tutorial-listicle register** of loop engineering — real doctrine wrapped around a paid tool and an engagement hook; not counted as a new canonical cluster voice.
+- **[[alex-lieberman-ai-engineering-best-practices-2026-07-09|Alex Lieberman]] manager-tier takeaways** — supplies the cleanest **manager-tier statement of how you verify knowledge work**: *"a standardized schema/metadata on markdown files… allows you to make non-software tasks verifiable which allows you to close the agent loop more successfully."* This is the missing bridge from [[claude-md-pattern|CLAUDE.md-as-behavioral-contract]] to verifier-discipline — **structure/schema *is* the verifier when there's no test suite** (McDonald "design the verifier" for non-code tasks). Adds a maintenance angle: a **"strong immune system around markdown files" / autophagy** discipline for spec bloat (thin memory layer). Folded into [[claude-md-pattern]].
 
 ## Key Papers / Posts
 
