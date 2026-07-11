@@ -3,7 +3,7 @@ name: Claude Desktop
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 ## What It Is
@@ -21,6 +21,7 @@ As of the **Claude Agent SDK** announcement (Code w/ Claude 2026, May 6), Claude
 - **Native scheduled-tasks support cited** as a near-term capability for "scheduled morning briefing" at 7am — practitioner expects Claude Desktop to run agent commands on cron without Claude Code in the loop. [unsourced beyond the seelffff post; verify before relying]
 - **Claude Pro–only agent stacks possible**: Claude Desktop + MCP unlocks browser automation, filesystem read/write, and external push delivery on a $20/mo subscription with no API keys. Lowers the barrier from "developer with API budget" to "anyone with Claude Pro."
 - **Cowork plugin ecosystem maturing (June 2026)**: the [[claude-cowork]] surface hosted in Claude Desktop now runs file-based plugins (`.claude-plugin/plugin.json` + `.mcp.json` + `commands/` + `skills/`) — the wiki owner open-sourced an 11-plugin knowledge-work suite for it ([[hornof-knowledge-work-plugins-claude-cowork-2026-06-17]]). Signals Desktop/Cowork is becoming a genuine non-coding-agent *platform*, not just a chat host.
+- **Reflect dashboard (beta, 2026-07-09)**: a new **Settings → Reflect** surface on both web and desktop that visualizes how you use Claude (topics, patterns, task types over 1/3/6/12 months), scores your usage against the **4D AI-fluency framework**, and adds optional **quiet hours** + **break nudges**. Beta for Free/Pro/Max users with **Memory** on; Cowork reflection "coming soon." First Anthropic **consumer-wellbeing / metacognition** surface on Desktop — instruments the human side of the loop rather than adding autonomy. — [[anthropic-reflect-with-claude-launch-2026-07-09]]
 
 ## How to Use It (MCP host)
 
