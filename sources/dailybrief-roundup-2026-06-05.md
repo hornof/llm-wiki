@@ -95,6 +95,10 @@ Non-headline aggregate from [[Daily Briefs/2026-06-05.md|the 2026-06-05 Daily Br
 - DID note the *Paul Graham vs Garry Tan attribution* caveat per the brief's flag.
 - DID flag the *OpenClaw* term as verification-pending (potentially a Microsoft-internal framework name).
 
+## Pages Updated
+
+Triage roundup — net-new entity-page creation was deferred (see Judgment calls). Entity/topic pages referenced or reinforced by this brief: [[ai-energy-efficiency]], [[ai-roi-gap]], [[ai-vulnerability-discovery]], [[openai]], [[ami-labs]], [[andon-labs]], [[physical-intelligence]], [[world-labs]].
+
 ## Verification-pending
 
 - All claims here inherit the "primary not fetched" status; specific verification-pending items flagged per-section above.

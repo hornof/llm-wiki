@@ -84,7 +84,7 @@ McDonald reads the [[bun|Bun Zig→Rust port]] via Dynamic Workflows as **the fl
 
 **Canonical framing**: *"The verification is not a step at the end. **It's actually the architecture.**"* — first wiki-captured "verification-is-the-architecture-not-a-final-step" canonical-pattern.
 
-**Numbers anchor** (corroborates [[anthropic-bun-zig-rust-port-2026-05|prior Bun port coverage]]):
+**Numbers anchor** (corroborates [[anthropic-dynamic-workflows-primary-2026-05-28|prior Bun port coverage]]):
 - ~750,000 lines of Rust
 - **99.8% existing test suite passing**
 - **Anthropic: 11 days from first commit to merge**; **Sumner: 6 days**

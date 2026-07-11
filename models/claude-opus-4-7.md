@@ -3,8 +3,15 @@ name: Claude Opus 4.7
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-05-10
+last_updated: 2026-07-10
 ---
+
+> [!note] Lint refresh — 2026-07-10 (superseded as default, but still Active)
+> Reviewed during the 2026-07-10 lint against Anthropic's primary [model-deprecations page](https://platform.claude.com/docs/en/about-claude/model-deprecations):
+> - **`claude-opus-4-7` is listed "Active"** — *not* deprecated or retired. Tentative retirement is **"not sooner than 2027-04-16."** No migration mandate exists for 4.7 (unlike `claude-opus-4-1`, retiring 2026-08-05, and `claude-opus-4`/`claude-sonnet-4`, retired 2026-06-15).
+> - **Superseded as the default model** by [[claude-opus-4-8]] (launched **2026-05-28**, same price, adds Claude Code dynamic workflows) — see [[claude-sonnet-5-launch-2026-06-30|the broader Claude 5 / Opus 4.8 cluster]]. 4.7 remains available via API for pinned workloads.
+> - **Migration gotcha**: `temperature` / `top_p` / `top_k` are deprecated **from Opus 4.7 onward** — non-default values return a 400 error (also true on Opus 4.8 and Claude Sonnet 5).
+> - *(A secondary report of a 4.7 "fast mode" deprecation on 2026-07-24 could not be confirmed against Anthropic primary docs — left out pending verification.)*
 
 ## What It Is
 

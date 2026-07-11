@@ -83,6 +83,10 @@ Brief promotes the [Auriel Wright Latent Space post](https://www.latent.space/p/
 - Did NOT propagate Lisan al Gaib 4-6 month China-Western-gap claim as wiki-canonical (single-source; Brand's counter pending verification)
 - Did NOT propagate Achiam-Anthropic-untested claim as wiki-canonical (single-source inter-vendor contest)
 
+## Pages Updated
+
+Triage roundup — all items were deduped against existing pages or deferred (see Judgment calls); this brief created/updated no entity pages and functions as a cross-reference index into the individual source pages listed above (e.g. [[junyang-lin-new-lab-world-models-rsi-2026-06-06]], [[nando-de-freitas-unified-causal-agent-training-2026-06-06]], [[house-draft-federal-ai-preemption-bill-2026-06-04]]).
+
 ## Verification-pending
 
 - All claims here inherit the "primary not fetched" status of the brief; specific verification-pending items flagged per-section above

@@ -3,7 +3,7 @@ name: Playwright MCP
 type: tool
 category: api
 status: gaining-traction
-last_updated: 2026-05-09
+last_updated: 2026-07-10
 ---
 
 ## What It Is
@@ -25,6 +25,14 @@ The official package is published by Microsoft at [`@playwright/mcp`](https://gi
 
 > [!note] Status upgrade (May 2026)
 > Promoted from `emerging` to `gaining-traction` after the fourth independent signal landed (akshay-pachaar token-cost data, joining career-ops, LinkedIn stack, and seelffff). Cross-host adoption (Claude Code + Claude Desktop) plus first-party Anthropic-published Code-Mode framing referencing the Playwright MCP cost crosses the threshold.
+
+### Lint refresh — 2026-07-10 (still dominant, now complemented not replaced)
+
+Reviewed during the 2026-07-10 lint. Playwright MCP remains actively maintained and the de-facto standard for MCP browser *driving*:
+
+- **Actively shipping**: latest release **v0.0.78 (2026-07-09)** — the repo now **auto-publishes to the official MCP Registry** on each release. Recent additions: `Locator.drop` drag-and-drop tool, `responseBody`/`responseHeaders` on network requests, plain-expression support in `browser_evaluate`, tab-group syncing. ([github.com/microsoft/playwright-mcp/releases](https://github.com/microsoft/playwright-mcp/releases))
+- **~34.9k GitHub stars**; README documents first-class client integrations across VS Code, Cursor, and Claude Desktop. Built on Playwright's cross-engine layer → covers Chromium / Firefox / WebKit, unlike Chrome-only rivals. ([github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)) *(npm download counts not retrievable — npmjs returned 403.)*
+- **Not displaced, but no longer the sole default.** 2026 practitioner comparisons frame a **"driving vs. debugging" split**: Playwright MCP for E2E/CI automation *driving*, paired with **Chrome DevTools MCP** (Chrome-only, adds performance tracing) or **Claude-in-Chrome** for interactive *debugging*. It remains the standard for test/automation driving, now complemented rather than replaced. *(Directional — rests on secondary comparison writeups, not a single authoritative metric.)*
 
 ## How to Use It
 
