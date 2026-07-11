@@ -3,7 +3,7 @@ name: Hugging Face
 type: company
 focus: canonical-open-source-AI-platform canonical-foundation-tier
 status: gaining-traction
-last_updated: 2026-06-25
+last_updated: 2026-07-11
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ last_updated: 2026-06-25
 
 ## Traction Signals
 
+- **2026-07-09/11: Delangue "open source AI matters more than ever" — half the Fortune 500 on HF models** ([[dailybrief-roundup-2026-07-11]], TechCrunch podcast, *primary not fetched*): Clément Delangue reiterates open-source momentum, claiming **~half of the Fortune 500 use Hugging Face models**. Enterprise-penetration data point extending the [[dailybrief-roundup-2026-06-25|Jun-25 $100M-ARR / 97%-free-user]] business-model anchor; pairs with the [[ai-margin-collapse|open-weights ecosystem]] thread.
 - **2026-06-25: canonical-$100M-ARR + 97%-free-user canonical-business-model-data-point** ([[dailybrief-roundup-2026-06-25]]) — Clément Delangue canonical-CEO-direct-voice 1st substantive surface; first wiki-captured Hugging Face canonical-revenue canonical-anchor.
 - **2+ prior canonical-substantive surfaces** as canonical-open-source-AI-platform canonical-foundation-tier reference (model-hub + datasets-hub canonical-substrate canonical-anchor across multiple practitioner walkthroughs).
 
