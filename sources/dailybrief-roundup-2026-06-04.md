@@ -102,6 +102,10 @@ Non-headline aggregate from [[Daily Briefs/2026-06-04.md|the 2026-06-04 Daily Br
 - Did NOT promote Ramp / Axiom Math / ChatGPT memory upgrade / SpaceX forecast / Ball autonomous-corporations / Grok Imagine attribution dispute to standalone source pages (Digg-tail / single-line surface coverage; defer until cross-referenced).
 - Did NOT propagate Ramp $44B valuation as wiki-canonical (single-source; verification-pending on round-investor-list).
 
+## Pages Updated
+
+Triage roundup — net-new entity-page creation was deferred (see Judgment calls). Entity/topic pages referenced or reinforced by this brief: [[ai-roi-gap]], [[saas-disruption-thesis]], [[verifiability-and-jagged-intelligence]], [[mem0]], [[xai]].
+
 ## Verification-pending
 
 - All claims here inherit the "primary not fetched" status of the brief; specific verification-pending items flagged per-section above.

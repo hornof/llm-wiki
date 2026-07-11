@@ -96,6 +96,10 @@ Verification-pending: leak source, whether the UI display was a routing-table ar
 - Did NOT propagate Mythos 5 above-Opus-tier framing as wiki-canonical (leak; verification-pending)
 - DID note the Meta-engineers-labeling event as concrete operational signal validating Ng's specialist-role-fragmentation prediction
 
+## Pages Updated
+
+Triage roundup — net-new entity-page creation was deferred (see Judgment calls). Entity/model pages referenced or reinforced by this brief: [[ai-vulnerability-discovery]], [[claude-mythos]].
+
 ## Verification-pending
 
 - All claims here inherit the "primary not fetched" status of the brief; specific verification-pending items flagged per-section above

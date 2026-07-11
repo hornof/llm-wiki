@@ -100,6 +100,10 @@ Andrew Curran speculates that *"Mercury-Alpha"* (an unidentified model showing u
 - Did NOT promote the cross-modal stenosis arXiv to standalone page (single-source today).
 - Did NOT promote Tesla Robotaxi or Meta Business Agent to standalone source pages despite their structural significance — both are in Digg-tail, single-line surfaces; defer until cross-referenced or follow-up coverage justifies the page.
 
+## Pages Updated
+
+Triage roundup — net-new entity-page creation was deferred (see Judgment calls). Entity/topic pages referenced or reinforced by this brief: [[andrew-ng]], [[simon-willison]], [[google-deepmind]], [[xai]], [[concepts/ai-for-science|ai-for-science]].
+
 ## Verification-pending
 
 - All claims here inherit the "primary not fetched" status of the brief; specific verification-pending items flagged per-section above.
