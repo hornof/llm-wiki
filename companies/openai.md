@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-07-09
+last_updated: 2026-07-11
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-07-11 Daily Brief cluster** ([[dailybrief-roundup-2026-07-11]], *primaries not fetched*): (1) **sued by [[apple|Apple]]** over alleged trade-secret theft on a leadership-directed-misconduct theory — first wiki-captured Apple-vs-OpenAI IP litigation ([[apple-openai-trade-secret-lawsuit-2026-07-10]]); (2) **[[gpt-5-6|GPT-5.6 (Sol/Terra/Luna)]] reached general availability** with a ~$1–$30/1M-output three-tier pricing ladder; (3) **Deutsche Telekom** enterprise rollout (customer service, ops, network, voice) — a large non-AI-incumbent adoption datapoint.
 - ChatGPT has largest consumer AI user base
 - GPT-Image-2 launch (April 2026) received strong community reaction — [[thread-minchoi-gpt-image-2]]
 - Inference costs for GPT-3.5 level performance fell 280x (2022–2024) — [[thread-aakashgupta-1b-model]]

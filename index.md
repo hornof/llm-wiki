@@ -176,6 +176,7 @@
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[apple]] — consumer-hardware/platform + AI-IP legal actor; sued OpenAI over alleged trade-secret theft (leadership-directed theory, Jul 2026)
 - [[deepseek]] — Chinese open-weights frontier lab (DeepSeek-V3/R1); anchor of the AI-margin-collapse thesis
 - [[moonshot-ai]] — Chinese AI lab; Kimi K2.6 model family; cheap-generator half of split-architecture loops
 - [[google]] — 3rd US-frontier-AI organization (alongside Anthropic + OpenAI); Google DeepMind + Google Cloud + Gemini + DiffusionGemma; substrate-tier 2-vector diversification strategy (Intel-foundry upstream + SpaceX-compute downstream); Shane Legg 4-pathway AGI framework + Hassabis AGI 2030 ± 1 voices (June 2026)
