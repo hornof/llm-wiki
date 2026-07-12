@@ -6,6 +6,9 @@
 - [[codex]] — OpenAI's flagship AI-coding-product; practitioner-tier preference dominance (Greg Isenberg Jun 16: 4/4 picks); Jun 17 open-source-model-routing + self-hosted-local-endpoints (first wiki-captured operator-substrate-control-friendly canonical-positioning)
 - [[openclaw]] — Peter Steinberger open-source agent-infrastructure; heartbeats canonical-pattern (Sydney Runkle LangChain Jun 17 validation); 10-hour multi-hour-runs scale (Crabbox + GPT-5.5)
 - [[slate]] — RandomLabs terminal coding agent pitched for swarm-orchestration loops (auto per-step model selection + parallel subagents + STATE.md memory); **emerging, thin signal** — sole source is one promotional thread (Jul 2026)
+- [[superpowers]] — Jesse Vincent (obra) agentic-skills framework + dev methodology; Claude Code plugin (TDD / subagent-driven-dev / brainstorming); ~253k★, official-marketplace + cross-agent (Jul 2026)
+- [[context7]] — Upstash MCP server serving up-to-date, version-specific library docs into agent context (anti-hallucination); ~59k★, 30+ MCP clients (Jul 2026)
+- [[claude-mem]] — Alex Newman (thedotmack) persistent cross-session memory for Claude Code; lifecycle hooks + AI compression + SQLite/Chroma retrieval; ~87k★ (Jul 2026)
 - [[crewai]] — Python framework for multi-agent role-playing workflows
 - [[langchain]] — agent engineering platform; broad LLM application framework
 - [[llama-index]] — document ingestion and RAG framework; "leading document agent platform"
@@ -87,6 +90,7 @@
 
 ## People & Voices
 - [[addy-osmani]] — Google Chrome DevRel; "Agent Harness Engineering" (Agent = Model + Harness; the ratchet principle); recurring loop/harness-engineering synthesizer
+- [[charlie-hills]] — Substack creator; "Build Your Whole Team with Claude" (42 skills as a company org chart); Claude-skills packaging/distribution voice
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
 - [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
 - [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute

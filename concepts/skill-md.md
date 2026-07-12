@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-07-08
+last_updated: 2026-07-12
 ---
 
 ## Definition
@@ -15,6 +15,7 @@ SKILL.md is the unit of **outer-loop memory** in [[loop-engineering|loop enginee
 
 ## Current State
 
+- **Packaged, branded, installable catalogs (2026-07-12)**: [[charliejhills-claude-whole-company-42-skills-2026-07-12|Charlie Hills' "Build Your Whole Team with Claude"]] lays out **42 skills as a company org chart** (`claude-code` = "the operating system"), every tile a real install from a mix of first-party (`github.com/anthropics/skills`, `claude.com/plugins/{finance,small-business,legal}`) and third-party OSS (`obra/superpowers`, `upstash/context7`, `thedotmack/claude-mem`, …). Signals SKILL.md graduating from a per-capability primitive into a **distribution ecosystem** with a long OSS tail and a consumer-legible "company-as-a-stack-of-skills" packaging. The bundled department plugins claim ~100+ skills total (Marketing 45, Small Business 31, …), of which 42 are the curated chart.
 - **Plugin-level substrate**: surfaced as the Skills half of the `commands/` + `skills/` plugin structure in the wiki owner's [[hornof-knowledge-work-plugins-claude-cowork-2026-06-17|knowledge-work-plugins]] — file-based markdown + JSON, no code or build steps.
 - **Operator-discipline pattern**: [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|0xMovez's playbook]] frames "save the workflow as a Skill" and "turn verify-feedback into a permanent rule" as core self-improving-loop steps — the Document-to-Skill vs Skill-captures-process distinction.
 - Adjacent to vendor-neutral siblings (AGENTS.md) and project-root discipline files (CLAUDE.md, CONSTRAINTS.md).
