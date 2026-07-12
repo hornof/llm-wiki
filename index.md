@@ -87,6 +87,7 @@
 
 ## People & Voices
 - [[addy-osmani]] — Google Chrome DevRel; "Agent Harness Engineering" (Agent = Model + Harness; the ratchet principle); recurring loop/harness-engineering synthesizer
+- [[charlie-hills]] — Substack creator; "Build Your Whole Team with Claude" (42 skills as a company org chart); Claude-skills packaging/distribution voice
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
 - [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
 - [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute
