@@ -3,7 +3,7 @@ name: Anatoli Kopadze (@AnatoliKopadze)
 type: person
 affiliation: independent; Telegram channel `t.me/kopadzemp`
 signal_sources: [twitter, telegram]
-last_updated: 2026-07-02
+last_updated: 2026-07-12
 ---
 
 ## Who They Are
@@ -13,7 +13,7 @@ last_updated: 2026-07-02
 ## Their Current Focus
 
 - **2026-06-08: "AI Agents. What they are and how to Build Your Own Step by Step"** ([[anatolikopadze-ai-agents-what-they-are-how-to-build-2026-06-08]]) — canonical-comprehensive-AI-agents canonical-practitioner-guide. First wiki-captured canonical-3-things-that-make-an-agent canonical-anchor (**tools + memory + loop**) + canonical-spectrum-from-chat-to-agent canonical-4-tier articulation (Chat → RAG → Assistants → Agents) + canonical-5-types-of-agents canonical-roster (Research + Writing + Code + Business + Personal) + canonical-Claude-Code-Telegram-bot canonical-step-by-step canonical-tutorial (10-20 minute setup). Extends canonical-2-voice canonical-agent-architecture canonical-component-list canonical-convergence with [[0xmovez]] (both agree memory + loops; different on harness+evals vs tools).
-- **2026-06-20: "Loops explained: Claude, GPT, Mira and what actually works"** ([[anatolikopadze-loops-explained-2nd-surface-2026-06-21]]) — first wiki-captured 5-stage canonical-loop-articulation (DISCOVER + PLAN + EXECUTE + VERIFY + ITERATE) + 3-pillar canonical Loop-Engineering-discipline (verify is the heart + state makes the loop learn + stop condition keeps it sane) — extends McDonald canonical-2-pillar to canonical-3-pillar. First wiki-captured "Mira" canonical-model-reference (verification-pending model-attribution).
+- **2026-06-20: "Loops explained: Claude, GPT, Mira and what actually works"** ([[anatolikopadze-loops-explained-2nd-surface-2026-06-21]]) — first wiki-captured 5-stage canonical-loop-articulation (DISCOVER + PLAN + EXECUTE + VERIFY + ITERATE) + 3-pillar canonical Loop-Engineering-discipline (verify is the heart + state makes the loop learn + stop condition keeps it sane) — extends McDonald canonical-2-pillar to canonical-3-pillar. The piece's back half promotes **[[mira|Mira]]**, a Telegram no-code agent product (corrected 2026-07-12 — not a model, as the title's "Claude, GPT, Mira" phrasing first suggested).
 - **2026-05-22: "Claude Can Do All of This. Most People Have No Idea"** ([[practitioner-claude-settings-features-cluster-2026-06-20]]) — comprehensive practitioner-tier Claude-features canonical-guide. First wiki-captured "Projects as Claude that actually remembers you + Project Instructions field" + "Artifacts as working apps inside your chat" + "Never start a response with 'Great question' or 'Certainly'" canonical-Project-Instructions anti-pattern.
 
 ## Notable Takes

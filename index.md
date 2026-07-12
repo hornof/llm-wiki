@@ -9,6 +9,7 @@
 - [[superpowers]] — Jesse Vincent (obra) agentic-skills framework + dev methodology; Claude Code plugin (TDD / subagent-driven-dev / brainstorming); ~253k★, official-marketplace + cross-agent (Jul 2026)
 - [[context7]] — Upstash MCP server serving up-to-date, version-specific library docs into agent context (anti-hallucination); ~59k★, 30+ MCP clients (Jul 2026)
 - [[claude-mem]] — Alex Newman (thedotmack) persistent cross-session memory for Claude Code; lifecycle hooks + AI compression + SQLite/Chroma retrieval; ~87k★ (Jul 2026)
+- [[mira]] — Telegram no-code agent product (Composio 500+ apps, model-agnostic, "Skills" = loops); **emerging, single-promotional-source** — corrects a prior "Mira = model" misattribution (Jul 2026)
 - [[crewai]] — Python framework for multi-agent role-playing workflows
 - [[langchain]] — agent engineering platform; broad LLM application framework
 - [[llama-index]] — document ingestion and RAG framework; "leading document agent platform"
