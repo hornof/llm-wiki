@@ -8,7 +8,7 @@ ingested: 2026-06-21
 
 ## Summary
 
-**AnatoliKopadze (@AnatoliKopadze)** publishes (2026-06-20 original; cross-device-clipped 2026-06-21; saved as `_raw/Loops explained Claude, GPT, Mira and what actually works.md`) **"Loops explained: Claude, GPT, Mira and what actually works"** — practitioner-tier comprehensive Loop Engineering canonical-introduction. **2nd substantive AnatoliKopadze surface** (extends [[practitioner-claude-settings-features-cluster-2026-06-20|May 22 "Claude Can Do All of This"]] — entity-page threshold now met). **First wiki-captured AnatoliKopadze "Loops explained" canonical-Loop-Engineering-introduction surface**. **First wiki-captured 5-stage canonical-loop-articulation** (DISCOVER → PLAN → EXECUTE → VERIFY → ITERATE). **First wiki-captured "verify is the heart of the loop" + "state is what makes the loop learn" + "stop condition is what keeps it sane" canonical-3-pillar Loop-Engineering-discipline articulation**. **First wiki-captured "AI has been in everyone's hands for years. Most people who use it every day still use it the slowest way there is" canonical-AnatoliKopadze-opening framing**. **First wiki-captured "Mira" canonical-model-reference** (verification-pending: Mistral? Or new model?). **AnatoliKopadze 2nd substantive surface = entity-page threshold met** = pattern-watch escalation for next lint. Pairs structurally with [[0xcodez-14-step-loop-engineering-roadmap-2026-06-20|0xCodez Jun 20 14-step canonical-roadmap]] + [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|McDonald verifier-discipline-first canonical-corrective]] + [[hanako|Hanako practitioner-tier canonical-voice]] at the **canonical practitioner-tier Loop-Engineering canonical-cluster** layer.
+**AnatoliKopadze (@AnatoliKopadze)** publishes (2026-06-20 original; cross-device-clipped 2026-06-21; saved as `_raw/Loops explained Claude, GPT, Mira and what actually works.md`) **"Loops explained: Claude, GPT, Mira and what actually works"** — practitioner-tier comprehensive Loop Engineering canonical-introduction. **2nd substantive AnatoliKopadze surface** (extends [[practitioner-claude-settings-features-cluster-2026-06-20|May 22 "Claude Can Do All of This"]] — entity-page threshold now met). **First wiki-captured AnatoliKopadze "Loops explained" canonical-Loop-Engineering-introduction surface**. **First wiki-captured 5-stage canonical-loop-articulation** (DISCOVER → PLAN → EXECUTE → VERIFY → ITERATE). **First wiki-captured "verify is the heart of the loop" + "state is what makes the loop learn" + "stop condition is what keeps it sane" canonical-3-pillar Loop-Engineering-discipline articulation**. **First wiki-captured "AI has been in everyone's hands for years. Most people who use it every day still use it the slowest way there is" canonical-AnatoliKopadze-opening framing**. **"Mira" is a promoted [[mira|Telegram no-code agent product]] — NOT a model** (record corrected 2026-07-12 from the fuller re-clip; the article's back half is a Mira ad). **AnatoliKopadze 2nd substantive surface = entity-page threshold met** = pattern-watch escalation for next lint. Pairs structurally with [[0xcodez-14-step-loop-engineering-roadmap-2026-06-20|0xCodez Jun 20 14-step canonical-roadmap]] + [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|McDonald verifier-discipline-first canonical-corrective]] + [[hanako|Hanako practitioner-tier canonical-voice]] at the **canonical practitioner-tier Loop-Engineering canonical-cluster** layer.
 
 ## Key Claims / Takeaways
 
@@ -88,7 +88,7 @@ ON STOP: summarize what changed and what still fails
 
 > *"Under the hood, a real loop is assembled from five building blocks. Claude Code and Codex now ship all five."*
 
-**First wiki-captured "Claude Code and Codex now ship all five [building blocks]" canonical-vendor-equivalence anchor** — pairs structurally with [[codex|Codex Jun 17 open-source-model-routing canonical-event]] at the **canonical-AI-coding-product canonical-vendor-equivalence canonical-positioning** layer. **First wiki-captured AnatoliKopadze "Mira" canonical-model-reference** (in title; verification-pending: Mistral canonical-product? Or new model?).
+**First wiki-captured "Claude Code and Codex now ship all five [building blocks]" canonical-vendor-equivalence anchor** — pairs structurally with [[codex|Codex Jun 17 open-source-model-routing canonical-event]] at the **canonical-AI-coding-product canonical-vendor-equivalence canonical-positioning** layer. The article's closing section reveals **"Mira" is a [[mira|Telegram no-code agent product]]** (Composio-connected, model-agnostic, "Skills" = loops) that the piece promotes — not a model, as the title's "Claude, GPT, Mira" phrasing first suggested.
 
 ### Cross-cutting framings
 
@@ -104,7 +104,7 @@ ON STOP: summarize what changed and what still fails
 - **First wiki-captured 2-voice 4-condition canonical-test convergence cluster** (0xCodez + AnatoliKopadze, 1-day cadence)
 - **First wiki-captured canonical-LOOP-SPEC-template articulation** (GOAL + EACH ITERATION + VERIFY + STOP WHEN + ON STOP)
 - **First wiki-captured "Claude Code and Codex now ship all five [building blocks]" canonical-vendor-equivalence anchor**
-- **First wiki-captured AnatoliKopadze "Mira" canonical-model-reference** (verification-pending)
+- **"Mira" identified as a promoted [[mira|Telegram no-code agent product]]** (corrected 2026-07-12; earlier clip truncated before the reveal and the wiki provisionally read it as a model)
 - **First wiki-captured "the agent grades its own homework, and the model that did the work is far too generous a grader" canonical-failure-mode framing**
 - **First wiki-captured "AI has been in everyone's hands for years. Most people who use it every day still use it the slowest way there is" canonical-opening framing**
 
@@ -119,7 +119,7 @@ ON STOP: summarize what changed and what still fails
 - [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — paired canonical-spec-template canonical-discipline cluster
 - [[codex]] — paired canonical-AI-coding-product canonical-vendor-equivalence canonical-positioning ("Claude Code and Codex now ship all five [building blocks]")
 - [[claude-code]] — paired canonical-vendor-equivalence canonical-positioning
-- [[mira]] — entity-page candidate (single-source defer; verification-pending Mistral-product or new-model canonical-attribution)
+- [[mira]] — created 2026-07-12 as a Telegram no-code agent product (Composio-connected, model-agnostic, "Skills" = loops); `emerging`, single-promotional-source caveat. Corrects the earlier model-attribution guess.
 - [[practitioner-claude-settings-features-cluster-2026-06-20]] — paired 1st substantive AnatoliKopadze surface (May 22 "Claude Can Do All of This")
 
 ## Adjacent sources
@@ -137,7 +137,7 @@ ON STOP: summarize what changed and what still fails
 ## Verification-pending
 
 - Specific AnatoliKopadze canonical-voice-tier background
-- Specific "Mira" canonical-model attribution (Mistral canonical-product? OpenAI canonical-product? New-model?)
+- ~~Specific "Mira" canonical-model attribution~~ **RESOLVED 2026-07-12**: Mira is a [[mira|Telegram no-code agent product]], not a model (Composio 500+ apps, model-agnostic, "Skills" = loops). Remaining: independent corroboration of Mira's traction (sole source is promotional).
 - Specific full canonical-AnatoliKopadze-thread-content beyond captured intro
 - Specific "light version" canonical-articulation (mentioned but not fully captured)
 - Specific "what everyone can use" canonical-light-version canonical-articulation
