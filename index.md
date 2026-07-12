@@ -86,6 +86,7 @@
 - [[loop-engineering]] — Steinberger/Cherny mid-2026 practitioner-content register above harness-engineering; 5-stage lineage (ReAct → AutoGPT → ralph → /goal → orchestration loops); 3 production hard stops (max iterations, no-progress, budget ceiling); "loops = cron + decision-maker in the body" (Van Horn synthesis, June 2026)
 
 ## People & Voices
+- [[addy-osmani]] — Google Chrome DevRel; "Agent Harness Engineering" (Agent = Model + Harness; the ratchet principle); recurring loop/harness-engineering synthesizer
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
 - [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
 - [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute

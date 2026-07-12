@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -283,6 +283,19 @@ By July the loop-engineering canon is stable enough that new content mostly *res
 
 - **[[how-to-build-first-ai-loop-slate-2026-07-10|Rahul (@sairahul1) "How To Build Your First AI Loop in 2026"]]** — a long-form build tutorial that reprises the entire canon verbatim (Steinberger/Cherny "write loops not prompts" opener; Discover→Execute→Verify→Iterate→Stop; maker-checker; `STATE.md`; the four failure modes **Ralph Wiggum / goal drift / self-preferential bias / agentic laziness**) and threads it through a single promoted tool, **[[slate|Slate]]** (RandomLabs). Genuinely new: (a) the **4-condition test** for *when a loop earns its cost* — task repeats ≥weekly + verification automated + budget absorbs waste + "done" is objective, *"fail any one → use a prompt instead"*; (b) **[[slate|Slate]]** as a named swarm-orchestration agent (thin/promotional signal — see its page); (c) a claimed, **second-hand [[andrew-ng|Andrew Ng]] escalation** *"prompting is gone in 3-6 months"* (unverified). This is the **promotional/tutorial-listicle register** of loop engineering — real doctrine wrapped around a paid tool and an engagement hook; not counted as a new canonical cluster voice.
 - **[[alex-lieberman-ai-engineering-best-practices-2026-07-09|Alex Lieberman]] manager-tier takeaways** — supplies the cleanest **manager-tier statement of how you verify knowledge work**: *"a standardized schema/metadata on markdown files… allows you to make non-software tasks verifiable which allows you to close the agent loop more successfully."* This is the missing bridge from [[claude-md-pattern|CLAUDE.md-as-behavioral-contract]] to verifier-discipline — **structure/schema *is* the verifier when there's no test suite** (McDonald "design the verifier" for non-code tasks). Adds a maintenance angle: a **"strong immune system around markdown files" / autophagy** discipline for spec bloat (thin memory layer). Folded into [[claude-md-pattern]].
+
+### Addy Osmani "Agent Harness Engineering" — the most complete single-author harness taxonomy (2026-04-19)
+
+[[addy-osmani-agent-harness-engineering-2026-04-19|Addy Osmani]] publishes the most comprehensive single-author synthesis of the harness the cluster has captured, under the equation **`Agent = Model + Harness`** and the thesis *"a decent model with a great harness beats a great model with a bad harness"* — the sharpest restatement of [[trq-dynamic-workflows-harness-2026-06-02|Thariq's harness-primacy]]. Two principles are net-new to the cluster:
+
+- **The ratchet principle** — every agent failure becomes a *permanent* constraint: *"every line in a good `AGENTS.md` should be traceable back to a specific thing that went wrong."* Failures ratchet one-directionally into rules. Pairs with [[alex-lieberman-ai-engineering-best-practices-2026-07-09|Lieberman's markdown-autophagy]] as the pruning counterpart.
+- **Working-backwards-from-behavior** — *"if you can't name the behaviour a component exists to deliver, it probably shouldn't be there."*
+
+Also contributes an **8-layer harness model** (Filesystem&Git · Bash&Code · Sandboxes · Memory&Search · Context-Management · Long-Horizon-Execution · Hooks · Tool-Config), the feedback principle *"success is silent, failures are verbose,"* and two forward framings: the **model–harness training loop** (harness primitives standardize → shape model post-training → co-optimization, *not* model-agnostic scaffolding) and **Harness-as-a-Service** ([[claude-agent-sdk|Claude Agent SDK]] / Codex SDK / OpenAI Agents SDK — configuring pre-factored runtimes over hand-building loops; vendor-side sibling of Steinberger's "fleets that design loops").
+
+### Terry Tao — independent-expert corroboration (2026-07-11)
+
+[[terry-tao-coding-agents-old-new-apps-2026-07-11|Terry Tao]] (Fields Medalist) reports porting ~24 legacy Java applets to JS and building new visualizers in "a couple hours" each, concluding *"the precise language or spec that software is written in has become far less relevant"* — an independent, vendor-neutral confirmation of [[rahulgs-english-code-interpreters-10-point-thesis-2026-06-17|the "english → code interpreters"]] thesis. Crucially he re-states the verifier ceiling from the domain-outsider side: agents net a *"wash as far as code quality"* (finds latent bugs, introduces subtle ones), acceptable *only because the work is non-critical* — a real-world instance of *a loop that goes green is not a loop that is correct*, gated here by human review.
 
 ## Key Papers / Posts
 
