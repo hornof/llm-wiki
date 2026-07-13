@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-05-08
+last_updated: 2026-07-13
 
 ---
 
@@ -93,6 +93,21 @@ Karpathy's pattern resurrects Vannevar Bush's 1945 **Memex** vision — a person
 - **Contradiction flagging at ingest**: write `[!contradiction]` callouts immediately rather than deferring to lint
 - **Batch ingestion via parallel agents**: process multiple sources simultaneously
 - **/autoresearch**: autonomous research loop with configurable objectives
+
+## Practitioner playbook — the Self-Writing Vault (8 rules, 2026-06-29)
+
+[[chewadot-self-writing-vault-8-rules-2026-06-29|@chewadot's "The Self-Writing Vault"]] operationalizes the abstract three-layer architecture into a concrete daily-autonomy playbook — the clearest "here's how you actually run it" surface the wiki has captured:
+
+1. **Voice beats keyboard** — dictate into `inbox/`; friction kills note-making.
+2. **One inlet, many outlets** — exactly one dump folder; Claude builds `topics/` `projects/` `people/` from it (this wiki's single-`_raw/` discipline).
+3. **Morning belongs to Claude** — a 6:30–8:00 **cron** files new `inbox/` items, drops `[[backlinks]]`, writes a daily digest. A **time-based [[loop-engineering|loop]]**; scheduling replaces the human kickoff.
+4. **`raw/` is sacred** — never edited by human or Claude; cleaned copies go to `processed/`. (The immutable-raw-sources rule.)
+5. **Backlink > note** — system-prompt rule: *"every new note gets ≥3 backlinks, and one to a note 2+ years old."* Forces density over accumulation.
+6. **Sunday synthesis** — weekly `weekly-synthesis/YYYY-Www.md`: themes, self-contradictions, half-made promises. An outer-loop synthesis step.
+7. **Context into every session** — auto-load vault state at chat start (the [[context-engineering|context-engineering]] / hot-cache discipline).
+8. **The graph is the pulse** — rising link-density = alive; files-without-links = *"a warehouse, not a second brain."*
+
+Rules 3 & 6 are scheduled/synthesis **loops**; rule 7 is **context engineering**; rule 8 is the **lint** health-metric — the playbook is the LLM-Wiki-Pattern sitting at the intersection of all three.
 
 ## Karpathy's Ongoing Use (Confirmed 2026)
 At AI Ascent 2026, Karpathy confirmed he still actively uses a personal LLM Wiki: "Anytime I see a different projection onto information, I always feel like I gain insight. So it's really just a lot of prompts for me to do synthetic data generation over some fixed data... I love asking questions about things." He frames it as a tool to enhance human *understanding* specifically — the bottleneck he identifies is not access to information but the ability to understand and direct. — [[karpathy-vibe-coding-agentic-engineering]]
