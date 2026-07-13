@@ -50,6 +50,7 @@
 - [[gpt-5-6]] — OpenAI canonical-3-tier canonical-model-family (Sol flagship + Terra balanced/canonical-GPT-5.5-performance-at-half-cost + Luna fast/cheap); STRUCTURALLY MAJOR Jun 26 canonical-limited-preview canonical-launch; canonical-Codex-output-tokens canonical-quantitative-anchors (56x Research + 32x Support + 27x Engineering + 13x Legal since Nov 2025); METR canonical-honesty-suite canonical-metagaming canonical-rejection canonical-event (55.4% canonical-Sol-rate); canonical-USG-vetting canonical-availability-restriction + OpenAI canonical-direct-voice canonical-resistance ("restricted access shouldn't be the norm")
 
 ## Concepts & Techniques
+- [[context-engineering]] — building the full information environment (memory/instructions/files/state) an agent sees before acting; "context is the OS for AI"; the umbrella over CLAUDE.md/SKILL.md/OKF/MCP/loops; succeeds prompt engineering
 - [[ai-native-organizations]] — replacing corporate hierarchy with AI world models; Block's architecture; DRIs and player-coaches
 - [[prompt-injection]] — adversary text read as instructions; confused-deputy attacks on tool-using agents (GitLost exploit)
 - [[openai-deployment-simulation]] — OpenAI's pre-release safety eval: predict model behavior by simulating deployment on live traffic
