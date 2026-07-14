@@ -47,3 +47,9 @@ jobs:
           # See https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
           # or https://code.claude.com/docs/en/cli-reference for available options
 
+      - name: TEMP(debug) dump raw Claude execution output
+        if: always()
+        run: |
+          echo "===== claude-execution-output.json ====="
+          cat "${RUNNER_TEMP}/claude-execution-output.json" 2>/dev/null || echo "(file not found)"
+          echo "===== end ====="
