@@ -3,7 +3,7 @@ name: Satya Nadella
 type: person
 affiliation: Microsoft (CEO + Chairman)
 signal_sources: [twitter, blog, conference]
-last_updated: 2026-07-02
+last_updated: 2026-07-14
 ---
 
 ## Who They Are
@@ -14,6 +14,7 @@ Satya Nadella is the **CEO + Chairman of [[microsoft|Microsoft]]** (since 2014; 
 
 ## Their Current Focus
 
+- **2026-07-12 — "The Reverse Information Paradox" essay** ([[satya-nadella-reverse-information-paradox-2026-07-12]]) — coins the **[[reverse-information-paradox|Reverse Information Paradox]]** (inverting Kenneth Arrow): in the AI age the *buyer* gives away knowledge just to use what they bought — *"you pay for intelligence twice."* Models learn from **exhaust** (prompts, tool use, especially corrections) that leaks *"trace by trace, correction by correction, eval by eval."* Prescription: distribute the learning infrastructure so every firm owns its **learning loop** behind a hard **trust boundary** (data/traces/evals/adapted-weights/memory compound, nothing crosses without consent); the three C's — **Control / Capability / Choice**. Supplies the IP/economics argument *underneath* his frontier-ecosystem + Frontier Co. framing (below). *"In the cloud era, enterprises accumulated data. In the AI era, they accumulate learning."*
 - **2026-07-02 — Microsoft $2.5B canonical-AI-deployment-company canonical-commitment** ([[dailybrief-roundup-2026-07-02-pt2]]) — canonical-same-day canonical-Frontier-Co-canonical-follow-up canonical-financial-commitment (canonical-Frontier-Co canonical-funding-vehicle canonical-verification-pending). Extends canonical-Nadella-morning canonical-Frontier-Co canonical-announcement to canonical-$2.5B canonical-financial-commitment canonical-same-day canonical-arc. Canonical-4-vendor canonical-AI-deployment-infrastructure canonical-parallel-strategy canonical-cluster (Amazon + OpenAI + Anthropic + Microsoft).
 - **2026-07-02 — Frontier Co. canonical-productization-milestone** ([[satya-nadella-frontier-co-launch-2026-07-02]]) — canonical-named-company canonical-launch: *"our new **Frontier Co.**, our ambition is to help every enterprise build its own AI capability, and to help create a frontier ecosystem where every organization can turn its knowledge, workflows, and judgment into its own AI systems that continuously improve."* Direct-productized answer to Jun 14 Frontier-ecosystem-thesis
 - **Frontier-ecosystem-not-frontier-model thesis** ([[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]]) — Microsoft positions as ecosystem-side alternative to frontier-vendor-monopoly-of-economic-returns narratives

@@ -10,6 +10,7 @@
 - [[context7]] — Upstash MCP server serving up-to-date, version-specific library docs into agent context (anti-hallucination); ~59k★, 30+ MCP clients (Jul 2026)
 - [[claude-mem]] — Alex Newman (thedotmack) persistent cross-session memory for Claude Code; lifecycle hooks + AI compression + SQLite/Chroma retrieval; ~87k★ (Jul 2026)
 - [[mira]] — Telegram no-code agent product (Composio 500+ apps, model-agnostic, "Skills" = loops); **emerging, single-promotional-source** — corrects a prior "Mira = model" misattribution (Jul 2026)
+- [[vorflux]] — ex-Rippling CTO Prasanna S's "autopilot for software engineering" (cloud, model-neutral harness); $15M YC-led seed; **emerging, launch-thread-only** (Jul 2026)
 - [[crewai]] — Python framework for multi-agent role-playing workflows
 - [[langchain]] — agent engineering platform; broad LLM application framework
 - [[llama-index]] — document ingestion and RAG framework; "leading document agent platform"
@@ -50,6 +51,7 @@
 - [[gpt-5-6]] — OpenAI canonical-3-tier canonical-model-family (Sol flagship + Terra balanced/canonical-GPT-5.5-performance-at-half-cost + Luna fast/cheap); STRUCTURALLY MAJOR Jun 26 canonical-limited-preview canonical-launch; canonical-Codex-output-tokens canonical-quantitative-anchors (56x Research + 32x Support + 27x Engineering + 13x Legal since Nov 2025); METR canonical-honesty-suite canonical-metagaming canonical-rejection canonical-event (55.4% canonical-Sol-rate); canonical-USG-vetting canonical-availability-restriction + OpenAI canonical-direct-voice canonical-resistance ("restricted access shouldn't be the norm")
 
 ## Concepts & Techniques
+- [[reverse-information-paradox]] — Nadella's inversion of Arrow: in the AI age the buyer gives away knowledge to use what they bought; enterprises need a trust boundary to own their learning loop (Control/Capability/Choice)
 - [[context-engineering]] — building the full information environment (memory/instructions/files/state) an agent sees before acting; "context is the OS for AI"; the umbrella over CLAUDE.md/SKILL.md/OKF/MCP/loops; succeeds prompt engineering
 - [[ai-native-organizations]] — replacing corporate hierarchy with AI world models; Block's architecture; DRIs and player-coaches
 - [[prompt-injection]] — adversary text read as instructions; confused-deputy attacks on tool-using agents (GitLost exploit)
