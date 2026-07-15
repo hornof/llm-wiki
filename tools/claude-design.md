@@ -3,8 +3,14 @@ name: Claude Design
 type: tool
 category: other
 status: gaining-traction
-last_updated: 2026-05-14
+last_updated: 2026-07-15
 ---
+
+> [!update] Lint refresh — 2026-07-15
+> - **June 17 2026 major update** (2 months post-launch): tighter **design-to-code sync** — hand off to [[claude-code|Claude Code]] and invoke via **`/design`** in the terminal; can **start from a local codebase**; **design-system import** from GitHub/raw files with output checked against your system; refined image editor; a new **admin role to approve/lock edits**; and it now **shares usage limits with Claude Code + chat** (more token-efficient). ([engadget](https://www.engadget.com/2196329/anthropics-design-assistant-now-works-better-with-its-coding-agent/))
+> - **Still research preview** — no GA announcement found as of 2026-07-15. ([Anthropic release notes](https://support.claude.com/en/articles/12138966-release-notes))
+> - **Model: still Opus 4.7.** No source confirms a migration to [[claude-opus-4-8|Opus 4.8]] (which is now the default Opus generation) or the Claude 5 family — Claude Design still documents Opus 4.7. Note the page below references 4.7 as "current"; 4.7 is now a *superseded-as-default* generation, but appears to still power Claude Design.
+> - **Krieger/Figma board departure — CONFIRMED** (was "single source, unconfirmed" below): Anthropic CPO Mike Krieger resigned from Figma's board **2026-04-14**, three days before Claude Design launched; Figma stock fell ~7% on launch day. ([TechCrunch](https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/))
 
 ## What It Is
 
@@ -71,7 +77,7 @@ Source: [[anthropic-claude-design-labs-announcement]]
 
 ## Community Sentiment
 
-April 2026 (launch): substantial cross-platform signal. Multiple independent X/Twitter threads on launch day; practitioners from Anthropic's own verticals team (Ryan Mather, @Flomerboy) shared tips publicly. Comparisons to Figma and Adobe surfaced immediately, with at least one report that Anthropic exec Mike Krieger left Figma's board ahead of the launch (per @TheRundownAI; single source, unconfirmed by Anthropic). Bear-case "VC hype" counter-signal still present but outnumbered. Japanese-language practitioner commentary frames it as "the same compression Claude Code brought to engineering, now applied to design." Overall: `gaining-traction`. [[anthropic-claude-design-labs-announcement]]
+April 2026 (launch): substantial cross-platform signal. Multiple independent X/Twitter threads on launch day; practitioners from Anthropic's own verticals team (Ryan Mather, @Flomerboy) shared tips publicly. Comparisons to Figma and Adobe surfaced immediately, with reports that Anthropic exec Mike Krieger left Figma's board ahead of the launch (**since confirmed** — resigned 2026-04-14, 3 days pre-launch; see the 2026-07-15 refresh note above). Bear-case "VC hype" counter-signal still present but outnumbered. Japanese-language practitioner commentary frames it as "the same compression Claude Code brought to engineering, now applied to design." Overall: `gaining-traction`. [[anthropic-claude-design-labs-announcement]]
 
 ## Resources
 - [[anthropic-claude-design-labs-announcement]] — April 17, 2026 Anthropic Labs announcement; primary source for product surface, workflow, and terminology

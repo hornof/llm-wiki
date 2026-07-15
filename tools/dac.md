@@ -3,8 +3,11 @@ name: DaC (bruin-data/dac)
 type: tool
 category: framework
 status: emerging
-last_updated: 2026-05-15
+last_updated: 2026-07-15
 ---
+
+> [!update] Lint refresh — 2026-07-15
+> **Actively maintained** — **~709 GitHub stars**, latest release **v0.6.0 (2026-07-09)** across 46 releases, so development continued right up to this month. The **dual Claude Code + Codex skill still ships** (`dac init` installs `.claude/skills/create-dashboard/SKILL.md` + `.codex/skills/create-dashboard`). A "Dashboards as Code with Bruin DAC" course exists (Bruin Academy) and it was a Show HN. Still `emerging` (low absolute star count), but healthy and shipping. Sources: [github.com/bruin-data/dac](https://github.com/bruin-data/dac), [getbruin.com/docs/dac](https://getbruin.com/docs/dac/). *(Star/version numbers as of 2026-07-15.)*
 
 ## What It Is
 
