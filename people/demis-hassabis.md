@@ -3,7 +3,7 @@ name: Demis Hassabis
 type: person
 affiliation: Google DeepMind (CEO)
 signal_sources: [twitter, academic, conference, video]
-last_updated: 2026-06-09
+last_updated: 2026-07-14
 ---
 
 ## Who They Are
@@ -15,6 +15,7 @@ Background before DeepMind: chess prodigy; worked at Bullfrog Productions (Theme
 Building toward AGI at Google DeepMind, with an explicit 2030 target. Simultaneously running [[isomorphic-labs]] on drug discovery. Publicly holds a stricter definition of AGI than most in the industry. Focused on the fundamental gaps between current systems and true general intelligence: continual learning, creativity, long-term planning. Describes the current moment as "the agent era."
 
 ## Notable Takes
+- **2026-07-14 — "A Framework for Frontier AI" (Frontier AI Standards Body proposal)** ([[hassabis-frontier-ai-framework-standards-body-2026-07-14]]): proposes a **FINRA-style federally-overseen public-private Standards Body** that defines "Frontier-class" benchmark thresholds, runs **30-day pre-release safety testing** (voluntary → mandatory for US-market deployment), and can *"ratchet up… including coordinating a slowdown in development among the Frontier Labs if deemed necessary."* AGI *"probably only a few short years away"*; *"we've essentially found a way to make sand think"*; impact *"10x of the Industrial Revolution at 10x the speed."* Stance: **"cautious optimism."** First wiki-captured frontier-lab-CEO concrete regulatory-architecture; anchors [[frontier-ai-governance]]. Pairs with [[openai-federal-ai-safety-framework-2026-06-03|OpenAI's federal-framework ask]].
 - **AGI definition**: "A system that can exhibit all the cognitive capabilities humans can" — explicitly stricter than most lab CEOs — [[thread-milkroadai-hassabis-agi]]
 - **AGI by 2030**: "I've been pretty consistent about that." DeepMind's 2009 founding was a "20 year mission"; he says the field is "basically exactly on track." — [[hassabis-deepmind-alphafold-agi]]
 - **Jagged intelligence**: current AI systems "spike brilliantly in one area and collapse in another based on how a question is posed" — not general intelligence — [[thread-milkroadai-hassabis-agi]]
