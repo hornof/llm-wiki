@@ -3,8 +3,14 @@ name: River
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-05-11
+last_updated: 2026-07-15
 ---
+
+> [!update] Lint refresh — 2026-07-15
+> **New primary source — Shopify Engineering's "Under the River" (2026-05-28)** ([shopify.engineering/under-the-river](https://shopify.engineering/under-the-river)) supersedes the second-hand May-11 surfacing with first-party detail:
+> - **Adoption (30-day window)**: **59,918 River sessions across 5,170 Slack channels**, **7,000+ employees**, and **3,536 merged PRs coauthored by River** (~**1 in 8** merged PRs). Merge rate reportedly climbed **36% → 77%** over two months. ([InfoWorld](https://www.infoworld.com/article/4190178/when-software-developers-and-ai-agents-share-the-learning.html))
+> - **Architecture — "Aquifer"**: River isn't standalone; it runs on an internal platform (**Aquifer**) hosting multiple agent profiles (River + PR-review + research agents), **decoupling decision-making from execution**, with **durable session logs in Postgres** and **disposable sandboxes**. The no-DMs / public-channel-only design is confirmed first-party (private conversations would be lost; public ones become searchable corporate knowledge).
+> These numbers move River from "described once" to a **quantified internal-scale receipt** for the transparency-as-governance thesis — though it remains internal-only (still `emerging` as a publicly-trackable tool).
 
 ## What It Is
 
