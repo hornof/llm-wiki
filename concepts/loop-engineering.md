@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-12
+last_updated: 2026-07-15
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -269,6 +269,8 @@ The [AI Engineer World's Fair Daily Dispatch](https://www.latent.space/p/aiewf-d
 **Token-discipline checklist** (vendor-side companion to Van Horn's 3 hard-stops): right primitive + model per job · clear success/stop criteria · **pilot before a large run** (dynamic workflows can spawn hundreds of agents) · scripts for deterministic work · match interval to change-rate · review via `/usage` (by skills/subagents/MCPs), `/goal` (turns + tokens), `/workflows` (per-agent tokens, stop any agent).
 
 Extends the Loop-Engineering cluster with the **first official Anthropic-vendor-documentation-tier voice** (prior vendor-creator-tier was Cherny's individual "strongly agree"; this is team-authored canonical documentation). Practitioner counter-signal persists in the boost thread: `@CallofdutyFan32` reports burning a Fable Max 20× limit on an unattended loop with *"a 500% improvement"* when babysat — live evidence for the closed-loop / verifier-gate thesis over naive autonomy.
+
+**Practitioner amplification — [[akshay-pachaar-mcp-vs-cli-2026-05-09|Akshay Pachaar]] "four types of agent loops" (2026-06-22)**: restates the same turn/goal/time/proactive taxonomy with two crisp additions — (a) **each type "hands off one more job than the last"**: turn-based keeps both trigger + check with the human, goal-based automates the check (evaluator model), time-based automates the trigger (`/loop`→`/schedule`), proactive automates both *and* decides the workflow shape at runtime (triage + fix + adversarial reviewer); (b) a **task-fit mapping** — pick by whether the task is **exploratory → turn, measurable → goal, recurring → time, standing → proactive**. Reframes the two governing questions as *"what starts a run, and what decides the work is done."*
 
 ### Production receipts — Uber + Jane Street (July 2026)
 
