@@ -2,7 +2,7 @@
 name: xAI
 type: company
 status: active
-last_updated: 2026-06-02
+last_updated: 2026-07-16
 ---
 
 ## What It Is
@@ -17,6 +17,7 @@ xAI is Elon Musk's AI company, builder of the Grok model family and operator of 
 
 ## Traction Signals
 
+- **2026-07-15 — open-sourced `grok-build`** ([xai-org/grok-build](https://github.com/xai-org/grok-build); via [[simon-willison]], [[dailybrief-roundup-2026-07-16]]): a **Rust TUI harness** for fullscreen, mouse-driven, extensible coding agents — xAI's entry into the coding-agent-harness space alongside [[claude-code]] / [[codex]] / [[slate]] / [[vorflux]]. Willison flagged a **trust/consent failure**: the grok CLI *"bulk-uploads directories without consent"* — a design smell that mirrors broader AI-dev-tooling trust issues. *(Create-candidate `tools/grok-build` if adoption appears.)*
 - 2025: acquired by SpaceX, removing xAI from independent-AI-company indices like the Forbes AI 50 — [[forbes-ai-50-2026]].
 - 2026-05-07: contracted entire Colossus 1 capacity to Anthropic for frontier-model training. The deal is reported at $5B/yr in Daily Brief synopses (corroborated by Latent Space AINews); the Willison primary source omits pricing — [[willison-anthropic-xai-colossus-2026-05]]. *Note*: Musk publicly states he reserves the right to "reclaim the compute if their AI engages in actions that harm humanity," with Musk defining "harm" — a non-commercial discretionary clause inside an otherwise commercial deal.
 - Musk on the Anthropic deal: "I spent a lot of time last week with senior members of the Anthropic team...and was impressed."

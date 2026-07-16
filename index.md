@@ -40,6 +40,7 @@
 - [[colossus-2]] — SpaceX's canonical-multi-tenant frontier-AI training substrate (Nvidia GB300 GPU cluster); anchors $5.4B–$6.3B multi-year compute-leasing canonical-deal with [[reflection-ai]] ($150M/month through 2029); first wiki-captured canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning; repositions SpaceX from canonical-launch-services to canonical-AI-substrate-provider (June 2026)
 
 ## Models & Providers
+- [[inkling]] — Thinking Machines Lab's first model; 975B-MoE (41B active) open-weights, 1M context; "not the strongest… a good open-weights base for customization" (Jul 2026)
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 - [[qwen]] — Alibaba's open-weight LLM family (Qwen3); Chinese open-weights frontier peer to GLM/DeepSeek/Kimi
 - [[claude-opus-4-7]] — predecessor Opus generation (April 2026); ships with Claude Design built in
@@ -94,6 +95,7 @@
 - [[loop-engineering]] — Steinberger/Cherny mid-2026 practitioner-content register above harness-engineering; 5-stage lineage (ReAct → AutoGPT → ralph → /goal → orchestration loops); 3 production hard stops (max iterations, no-progress, budget ceiling); "loops = cron + decision-maker in the body" (Van Horn synthesis, June 2026)
 
 ## People & Voices
+- [[mira-murati]] — founder of Thinking Machines Lab; ex-OpenAI CTO; "extend human will and judgment" + open-weights/customization strategy (Inkling)
 - [[addy-osmani]] — Google Chrome DevRel; "Agent Harness Engineering" (Agent = Model + Harness; the ratchet principle); recurring loop/harness-engineering synthesizer
 - [[charlie-hills]] — Substack creator; "Build Your Whole Team with Claude" (42 skills as a company org chart); Claude-skills packaging/distribution voice
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
@@ -186,6 +188,7 @@
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[thinking-machines]] — Mira Murati's frontier lab; shipped the Inkling open-weights model + Tinker fine-tuning; customization-over-frontier-supremacy bet (Jul 2026)
 - [[apple]] — consumer-hardware/platform + AI-IP legal actor; sued OpenAI over alleged trade-secret theft (leadership-directed theory, Jul 2026)
 - [[deepseek]] — Chinese open-weights frontier lab (DeepSeek-V3/R1); anchor of the AI-margin-collapse thesis
 - [[moonshot-ai]] — Chinese AI lab; Kimi K2.6 model family; cheap-generator half of split-architecture loops
