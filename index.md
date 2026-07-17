@@ -40,6 +40,7 @@
 - [[colossus-2]] — SpaceX's canonical-multi-tenant frontier-AI training substrate (Nvidia GB300 GPU cluster); anchors $5.4B–$6.3B multi-year compute-leasing canonical-deal with [[reflection-ai]] ($150M/month through 2029); first wiki-captured canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning; repositions SpaceX from canonical-launch-services to canonical-AI-substrate-provider (June 2026)
 
 ## Models & Providers
+- [[kimi-k3]] — Moonshot's 2.8T-A50B MoE, "largest open model ever" (weights promised 2026-07-27); Opus-class-ish at Sonnet pricing; open-weight scaling inflection
 - [[inkling]] — Thinking Machines Lab's first model; 975B-MoE (41B active) open-weights, 1M context; "not the strongest… a good open-weights base for customization" (Jul 2026)
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 - [[qwen]] — Alibaba's open-weight LLM family (Qwen3); Chinese open-weights frontier peer to GLM/DeepSeek/Kimi
