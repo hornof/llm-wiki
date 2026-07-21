@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-07-06
+last_updated: 2026-07-20
 ---
 
 ## What It Is
@@ -85,6 +85,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 
 ## Traction Signals
 
+- **2026-07-20: $1.5B copyright settlement approved** ([[anthropic-copyright-settlement-1-5b-approved-2026-07-20]]): a court approved Anthropic's **$1.5B** class-action settlement with authors + publishers — **$3,000/work across ~500,000 works**. Key nuance: Judge Alsup ruled **training on copyrighted text *is* fair use** (Anthropic won the core question); the liability was for **acquiring the corpus via piracy** (Library Genesis / Pirate Library Mirror). Settles the case but sets **no binding appellate precedent** (won't be appealed). Largest AI-copyright payout captured; parallel suits still pending vs Google/Meta/Midjourney/OpenAI.
 - **2026-07-06: Applied-government wedge** — Anthropic case study: the Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems. Vendor-published, unverified, marketing-adjacent — but a directional signal of the high-trust-vertical GTM (government/finance/science) — [[alberta-government-claude-cybersecurity-2026-07-06]]
 - **2026-06-30: Cross-vendor jailbreak severity framework** — shipped with the Fable 5 redeployment alongside Amazon, Microsoft, Google, and other Project Glasswing participants: a consensus 4-criteria severity scale for LLM jailbreaks. Positions Anthropic as the convener of an industry safety-scoring standard — [[jailbreak-severity-framework]], [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30]]
 - Claude models consistently rank highly on coding and reasoning benchmarks [unsourced]
