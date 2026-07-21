@@ -53,6 +53,7 @@
 - [[gpt-5-6]] — OpenAI canonical-3-tier canonical-model-family (Sol flagship + Terra balanced/canonical-GPT-5.5-performance-at-half-cost + Luna fast/cheap); STRUCTURALLY MAJOR Jun 26 canonical-limited-preview canonical-launch; canonical-Codex-output-tokens canonical-quantitative-anchors (56x Research + 32x Support + 27x Engineering + 13x Legal since Nov 2025); METR canonical-honesty-suite canonical-metagaming canonical-rejection canonical-event (55.4% canonical-Sol-rate); canonical-USG-vetting canonical-availability-restriction + OpenAI canonical-direct-voice canonical-resistance ("restricted access shouldn't be the norm")
 
 ## Concepts & Techniques
+- [[science-as-training-data-frontier]] — Lila Sciences thesis: science, not the internet, is the next training-data frontier; automate the physical experiment loop so labs generate ground truth at data-center scale
 - [[frontier-ai-governance]] — how frontier models get tested/certified/regulated; Hassabis's FINRA-style Frontier AI Standards Body (30-day pre-release testing, "coordinated slowdown" lever) vs the OpenAI/Trump-EO/House-bill landscape
 - [[reverse-information-paradox]] — Nadella's inversion of Arrow: in the AI age the buyer gives away knowledge to use what they bought; enterprises need a trust boundary to own their learning loop (Control/Capability/Choice)
 - [[context-engineering]] — building the full information environment (memory/instructions/files/state) an agent sees before acting; "context is the OS for AI"; the umbrella over CLAUDE.md/SKILL.md/OKF/MCP/loops; succeeds prompt engineering
