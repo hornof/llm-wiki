@@ -26,7 +26,10 @@ A court approved **[[anthropic|Anthropic]]'s $1.5B class-action copyright settle
 ## Pages Updated
 - [[anthropic]]
 
+## Update: case name confirmed (AP, 2026-07-21)
+Per AP News (surfaced in the [[dailybrief-roundup-2026-07-21|2026-07-21 brief]]), the case is **Bartz v. Anthropic** — *"pirated books used to train Claude."* Resolves the case-name verification-pending below.
+
 ## Verification-pending
-- Formal case name / lead plaintiffs (not stated in the TechCrunch piece).
+- ~~Formal case name / lead plaintiffs~~ **RESOLVED**: *Bartz v. Anthropic* (per AP, 2026-07-21).
 - Whether Anthropic issued a statement (none in this source).
 - Exact final work count and per-work distribution mechanics.
