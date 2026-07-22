@@ -3,7 +3,7 @@ name: Thariq Shihipar
 type: person
 affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter]
-last_updated: 2026-07-08
+last_updated: 2026-07-21
 twitter: "@trq212"
 ---
 
@@ -13,6 +13,7 @@ Member of the [[claude-code]] team at [[anthropic]]. Author of "Using Claude Cod
 
 ## Their Current Focus
 
+- **2026-07-21 — Cat & Thariq fireside (Claude Code team)** (via [[simon-willison]], [[dailybrief-roundup-2026-07-21]]): the Claude Code leads discuss **evals, the agent security model, and dogfooding Claude Code**. Brief's read: *"Claude Code's security model — what agents can and can't do — is the actual product surface now, not the capability itself"* — a design-tradeoff signal on how Anthropic ships coding tools. *(Primary not fetched.)*
 - Practitioner-facing patterns for getting useful output out of [[claude-code]].
 - Output-format prompting: matching the format to the renderer rather than defaulting to Markdown.
 
