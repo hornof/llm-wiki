@@ -2,7 +2,7 @@
 name: Science as the Training-Data Frontier
 type: concept
 maturity: emerging
-last_updated: 2026-07-20
+last_updated: 2026-07-22
 ---
 
 ## Definition
@@ -16,6 +16,7 @@ The binding constraint in biotech/materials AI *"isn't compute or models; it's t
 ## Current State
 
 - **Lila Sciences** (Andy Beam & Rafa Gómez-Bombarelli) is the anchor instantiation — lab robots as **training-data factories** ([[lila-sciences-lab-as-data-center-2026-07]]). Recurred across 3 briefs (07-16 / 07-17 / 07-20), which is what elevated it here.
+- **Xaira — "causal models need causal data"** (Latent Space, [[dailybrief-roundup-2026-07-22]]): a 2nd independent instantiation in drug discovery — its **X-Cell** model is built on the premise that you must *generate the right (causal, interventional) data*, not just scrape observational data. Sharpens the thesis: it's not merely *more* data but **the right kind of data you can only get by running the experiment** — data-generation-first as the moat.
 - **Adjacent lineages the wiki tracks**: [[isomorphic-labs|Isomorphic Labs]] / [[demis-hassabis|Hassabis]] and AlphaFold (models trained on structural-biology data → drug discovery); the DeepMind + Isomorphic **bioresilience** framing ([[dailybrief-roundup-2026-07-16]]); [[ai-for-science|AI-for-science]] broadly.
 - **Open question**: throughput. The thesis rests on automated labs actually generating data fast/cheaply/reliably enough to matter — concrete results are still thin (verification-pending on the anchor source).
 
