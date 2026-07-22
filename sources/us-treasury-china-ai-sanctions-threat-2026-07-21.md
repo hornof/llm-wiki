@@ -22,6 +22,7 @@ ingested: 2026-07-21
 
 - **New lever in the US-China AI contest**: moves from *hardware* export controls to threatening the **models themselves** (financial sanctions on foreign open-weights labs) — a novel escalation if it ever formalizes.
 - **The distillation framing is doubled-edged**: US labs also distill; "IP theft via distillation" as a sanctions trigger would be legally + technically contentious. Pairs with the just-settled [[anthropic-copyright-settlement-1-5b-approved-2026-07-20|Anthropic copyright case]] — both are training-data-provenance-as-liability signals, one civil, one geopolitical.
+  - **Ben Thompson's "distillation hypocrisy" bridge** ("Who's Afraid of Chinese Models?", surfaced 2026-07-20/22 via [[simon-willison|Willison]]): flags the tension of **US labs banning distillation-of-their-outputs while themselves training on unlicensed data** — the exact contradiction the two provenance events expose (Bartz = training on unlicensed books settled; Bessent = *others'* distillation as a sanctions trigger). His framing: the sanctions posture is as much about **US open-model competitiveness** as about IP.
 - **Directly relevant to the open-weights thesis**: sanctions risk on [[deepseek|DeepSeek]] / [[moonshot-ai|Moonshot]] / [[qwen|Qwen]] would reshape *"whose weights do we build on"* ([[ai-margin-collapse]]).
 
 ## Pages Updated
