@@ -28,6 +28,10 @@ ingested: 2026-07-21
 ## Pages Updated
 - [[frontier-ai-governance]]
 
+## Update: 2026-07-22 — industry pushback
+
+**Startup founders urge the Trump administration NOT to shut off Chinese open-weight AI** (Politico, via the [[dailybrief-roundup-2026-07-23|07-23 brief]]): the reaction to the sanctions threat. Founders argue they *need access to competitive commodity open models* ([[deepseek|DeepSeek]] / [[moonshot-ai|Kimi]] / [[qwen|Qwen]]) — a tell that, for many builders, **open weights are now infrastructure**, and that export-controls-on-models could hurt US builders more than Chinese labs. Reinforces Ben Thompson's point that the posture is as much about US open-model competitiveness as IP.
+
 ## Verification-pending
 - Whether this becomes formal policy (EO / entity list / financial sanctions) vs. remains rhetoric.
 - Specific targeted entities + the legal theory of "distillation as IP theft."
