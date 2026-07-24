@@ -2,7 +2,7 @@
 name: Block
 type: company
 status: active
-last_updated: 2026-06-17
+last_updated: 2026-07-23
 ---
 
 ## What It Is
@@ -45,6 +45,7 @@ This is Sequoia-backed and explicitly called out as a model they believe "will r
 
 ## Traction Signals
 
+- **2026-07-22 — open-sources [[buzz|Buzz]]** ([[block-buzz-launch-2026-07-22]]): a Nostr-based, Apache-2.0, self-hosted **workspace where people *and* agents are equal, cryptographically-identified members** behind a signed event log — built to *"reduce dependency on Slack + GitHub"* and solve the *"one context"* problem ([[jack-dorsey|Jack Dorsey]]). Block's 2nd major open-source agent-infra release after [[goose|Goose]]; operationalizes *"block is rebuilding itself to be an intelligence."*
 - Sequoia-endorsed experiment; essay published as thought leadership [unsourced on date]
 - Remote-first, artifact-rich culture makes the "machine-readable work" prerequisite feasible [per [[block-organizational-intelligence]]]
 

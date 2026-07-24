@@ -3,7 +3,7 @@ name: Jack Dorsey
 type: person
 affiliation: Block (co-founder); formerly Twitter (co-founder)
 signal_sources: [twitter, podcast]
-last_updated: 2026-04-27
+last_updated: 2026-07-23
 ---
 
 ## Who They Are
@@ -15,6 +15,8 @@ Relevant to this wiki primarily for his public thesis on AI strategy: that treat
 ## Their Current Focus
 
 AI-native company architecture at [[block]]; building Goose ([[goose]]), an agent coding harness; executing the thesis that companies must rebuild around AI rather than augment existing workflows.
+
+- **2026-07-22 — announces [[buzz|Buzz]]** ([[block-buzz-launch-2026-07-22]]): open-sources a Nostr-based workspace where *"an agent on buzz is an equal member of the team"* (own keys, channels, audit trail) — *"block is rebuilding itself to be an intelligence… the seams between tools become the limit."* Extends the Goose stack with a cryptographic-identity collaboration layer; Apache-2.0, self-sovereign, no lock-in.
 
 ## Notable Takes
 
