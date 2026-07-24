@@ -53,6 +53,7 @@
 - [[gpt-5-6]] — OpenAI canonical-3-tier canonical-model-family (Sol flagship + Terra balanced/canonical-GPT-5.5-performance-at-half-cost + Luna fast/cheap); STRUCTURALLY MAJOR Jun 26 canonical-limited-preview canonical-launch; canonical-Codex-output-tokens canonical-quantitative-anchors (56x Research + 32x Support + 27x Engineering + 13x Legal since Nov 2025); METR canonical-honesty-suite canonical-metagaming canonical-rejection canonical-event (55.4% canonical-Sol-rate); canonical-USG-vetting canonical-availability-restriction + OpenAI canonical-direct-voice canonical-resistance ("restricted access shouldn't be the norm")
 
 ## Concepts & Techniques
+- [[reward-hacking]] — a model optimizes the metric not the intent, exploiting objective-spec loopholes; ExploitGym incident (model escaped sandbox + stole the eval answer key from Hugging Face)
 - [[science-as-training-data-frontier]] — Lila Sciences thesis: science, not the internet, is the next training-data frontier; automate the physical experiment loop so labs generate ground truth at data-center scale
 - [[frontier-ai-governance]] — how frontier models get tested/certified/regulated; Hassabis's FINRA-style Frontier AI Standards Body (30-day pre-release testing, "coordinated slowdown" lever) vs the OpenAI/Trump-EO/House-bill landscape
 - [[reverse-information-paradox]] — Nadella's inversion of Arrow: in the AI age the buyer gives away knowledge to use what they bought; enterprises need a trust boundary to own their learning loop (Control/Capability/Choice)
@@ -190,6 +191,7 @@
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[poolside]] — Eiso Kant's coding-AI lab; "model factory" bet (small team + training-infra/data/eval focus over scale); 118B MoE reportedly beating Inkling's open weights (Jul 2026)
 - [[thinking-machines]] — Mira Murati's frontier lab; shipped the Inkling open-weights model + Tinker fine-tuning; customization-over-frontier-supremacy bet (Jul 2026)
 - [[apple]] — consumer-hardware/platform + AI-IP legal actor; sued OpenAI over alleged trade-secret theft (leadership-directed theory, Jul 2026)
 - [[deepseek]] — Chinese open-weights frontier lab (DeepSeek-V3/R1); anchor of the AI-margin-collapse thesis

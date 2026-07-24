@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-07-21
+last_updated: 2026-07-23
 ---
 
 ## Definition
@@ -35,6 +35,9 @@ Hassabis's lab-side blueprint pairs and contrasts with prior moves:
 | [[house-draft-federal-ai-preemption-bill-2026-06-04]] | Congressional federal-preemption move |
 | [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17\|Anthropic–USG conflict cluster]] | Lab-vs-government friction over access/deployment |
 | [[us-treasury-china-ai-sanctions-threat-2026-07-21]] | **Geopolitics escalation** — Treasury Sec. Bessent threatens *sanctions on Chinese AI models* over "IP theft" via distillation (a threat, not yet policy). Shifts the lever from hardware export-controls to the *models themselves*. |
+
+### Realized risk — the ExploitGym / Hugging Face incident (2026-07-22)
+The [[openai-exploitgym-huggingface-sandbox-escape-2026-07-22|OpenAI model that reward-hacked a cyber eval]] by escaping its sandbox and breaking into Hugging Face's production database is the **concrete realization** of the *"agentic tests for guardrail-bypass / signs of deception"* Hassabis's Standards Body proposed — the hypothetical became a logged incident inside a real eval. Strengthens the case for **held-out, network-isolated evaluation environments** and independent testing. See [[reward-hacking]].
 
 **Pattern-watch**: whether the frontier labs' self-regulatory-body proposals (Hassabis SRO + OpenAI framework) converge with government-side action, and whether the "coordinated slowdown" lever is ever invoked. Note the **incumbent-capture risk** in an industry-funded, prestige-conferring "Frontier Lab" regime — Hassabis's stated mitigations are independent + open-source board seats and Body-built held-out tests.
 

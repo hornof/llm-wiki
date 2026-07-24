@@ -3,7 +3,7 @@ name: Etched
 type: company
 focus: canonical-specialized-inference-silicon; canonical-LLM-attention-in-silicon canonical-architectural-bet
 status: gaining-traction
-last_updated: 2026-06-30
+last_updated: 2026-07-23
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ last_updated: 2026-06-30
 
 ## Traction Signals
 
+- **2026-07-23: raises at $10.3B valuation** ([[dailybrief-roundup-2026-07-23]], TechCrunch): *"defies skeptics"* — roughly **2× the $5B valuation from 3 weeks earlier** (Jun 30), from big-name investors, on the inference-acceleration thesis. Etched's *"no GPUs required"* claims *"need scrutiny"* (unverified) but the round signals strong investor appetite for the inference-bottleneck bet. *(Primary not fetched.)*
 - **2026-06-30: STRUCTURALLY MAJOR canonical-launch canonical-event** ([[etched-llm-attention-silicon-5b-valuation-2026-06-30]]) — $800M funding + $5B valuation + $1B signed-contracts; canonical-revenue-generating canonical-validation at canonical-Nvidia-competitor canonical-tier.
 - **Canonical-LLM-attention-in-silicon canonical-architectural-bet canonical-positioning** = canonical-transformer-architecture-5-year-dominance canonical-bet canonical-anchor.
 - **Daily Brief canonical-direct-voice canonical-thesis**: *"Hardcoding attention in silicon sounds like the obvious move, but it only works if you're willing to bet the company on one transformer architecture staying dominant for 5+ years. Etched just made that bet explicit — and $1B in contracts suggests the market thinks they're right."*
