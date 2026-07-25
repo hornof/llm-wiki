@@ -28,6 +28,8 @@ last_updated: 2026-07-17
 
 Launch (2026-07-16). Read as an **open-weight scaling inflection** feeding the [[ai-margin-collapse]] thesis — *"expect margin compression across the mid-market LLM API stack"* ([[dailybrief-roundup-2026-07-17|brief]]). Willison's grounding note: past the point where parameter count alone signals capability; benchmark *design* matters more as hype peaks.
 
+- **2026-07-25 — UK AISI / CAISI preliminary cyber-capability assessment** ([[dailybrief-roundup-2026-07-25]], NIST): a safety-body pre-deployment evaluation of K3's *cyber* attack surface — the kind of independent held-out testing [[frontier-ai-governance|Hassabis's SRO]] proposed, now happening ad hoc on a specific open model. Also the model named in [[us-treasury-china-ai-sanctions-threat-2026-07-21|Bessent's sanctions-threat]] framing → K3 sits at the center of the open-weights governance/geopolitics debate.
+
 ## Resources
 - [[kimi-k3-largest-open-model-2026-07-16]] — launch + Willison analysis (fetched primary)
 - [Willison — "Kimi K3, and what we can still learn from the pelican benchmark"](https://simonwillison.net/2026/Jul/16/kimi-k3/)
