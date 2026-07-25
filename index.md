@@ -48,7 +48,7 @@
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 - [[qwen]] — Alibaba's open-weight LLM family (Qwen3); Chinese open-weights frontier peer to GLM/DeepSeek/Kimi
 - [[claude-opus-4-7]] — predecessor Opus generation (April 2026); ships with Claude Design built in
-- [[claude-opus-4-8]] — **current recommended Claude Code model** (May 28 2026); Anthropic claims 69.2% on SWE-bench Pro, beats GPT-5.5 + Gemini 3.1 Pro; same price as 4.7; ships alongside Dynamic Workflows preview
+- [[claude-opus-4-8]] — May 28 2026 Opus generation; **superseded as default by [[claude-opus-5]] (2026-07-24)** at the same per-token price; 69.2% SWE-bench Pro; shipped alongside Dynamic Workflows preview
 - [[claude-mythos]] — Anthropic preview model surfaced via Mozilla / Firefox security partnership and Natural Language Autoencoders research (May 2026); not yet GA; Mythos 5 = internal-tier (June 9 2026)
 - [[claude-fable-5]] — **first publicly-accessible Mythos-class frontier model** (June 9 2026); System Card + silent-restriction on frontier-LLM-development tasks (0.03% traffic); Anthropic 2-tier naming (Mythos internal + Fable public)
 - [[claude-sonnet-5]] — Anthropic canonical-most-agentic-Sonnet-yet canonical-default-tier (launched 2026-06-30); canonical-default-on-Free-and-Pro + canonical-1M-token-context-window + canonical-January-2026-knowledge-cutoff + canonical-performance-close-to-Opus-4.8-at-lower-prices + canonical-checks-its-own-output-without-being-asked canonical-self-verification feature; canonical-Anthropic 2026-Q2 canonical-product-roadmap canonical-completion-arc canonical-event
