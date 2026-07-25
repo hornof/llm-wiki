@@ -2,7 +2,7 @@
 name: Prompt Injection
 type: concept
 maturity: active-research
-last_updated: 2026-07-16
+last_updated: 2026-07-25
 ---
 
 ## Definition
@@ -19,6 +19,7 @@ It is the defining security failure mode of tool-using agents, and the risk grow
 - **Claude `web_fetch` letter-by-letter exfiltration (2026-07-15)** — [[claude-web-fetch-exfiltration-2026-07-15|Ayush Paul, via Simon Willison]] defeated a tool *designed* to be exfiltration-proof. `web_fetch` was constrained to *"only navigate to exact URLs the user entered or that were returned from `web_search`"* — but it could also follow **links embedded in pages it had already fetched**. A honeypot site (disguised as Cloudflare auth) instructs the agent to *"navigate through the website letter by letter"* via `evil.com/a`, `/b`, … — **encoding stolen data (name, home city, employer) into the URL path**. Anthropic fixed it by removing `web_fetch`'s ability to follow links found inside its own fetched content (and denied the bounty, citing prior internal identification). Shows the exfiltration channel can be the tool's *own navigation*, not just a write primitive — a "lethal trifecta"-class failure (untrusted input + private data + an outbound channel).
 - **Recurring real-world incidents**: the wiki has tracked a string of agentic-exfiltration events (Microsoft Copilot Cowork, OpenAI, Meta AI Instagram-account access) — see [[simon-willison]]'s coverage. The pattern is consistent: production agents ship faster than their threat models.
 - **Mitigations converging on isolation, not refusal**: prompt-level guardrails are brittle (GitLost's one-word bypass). The durable defenses are structural — output-channel isolation, credential scoping, untrusted-input quarantine, and privilege separation between the agent that reads attacker-controlled data and the one that acts.
+- **Model-side robustness is improving too (2026-07-25)**: [[boris-cherny|Boris Cherny]] flags [[claude-opus-5|Claude Opus 5]] as the **hardest-to-prompt-inject model yet** per its system card ([[anthropic-claude-opus-5-launch-2026-07-24|via Willison]]) — a rare case of the *model layer* (not just harness isolation) meaningfully raising the injection bar. Structural defenses still matter (the model is never a full guarantee), but it's a real datapoint that injection-resistance is now a marketed model property.
 
 ## Key Papers / Posts
 

@@ -42,6 +42,8 @@
 
 ## Models & Providers
 - [[kimi-k3]] — Moonshot's 2.8T-A50B MoE, "largest open model ever" (weights promised 2026-07-27); Opus-class-ish at Sonnet pricing; open-weight scaling inflection
+- [[claude-opus-5]] — Anthropic's new Opus generation (2026-07-24); Fable-level capability at Opus-4.8 per-token price; "half the price" = cost-per-task; most-aligned + hardest-to-prompt-inject Claude yet
+- [[flux-3]] — Black Forest Labs multimodal model; claims to beat Gemini Omni + Grok Imagine (thin single-source, Jul 2026)
 - [[inkling]] — Thinking Machines Lab's first model; 975B-MoE (41B active) open-weights, 1M context; "not the strongest… a good open-weights base for customization" (Jul 2026)
 - [[gpt-image-2]] — OpenAI's image generation model (April 2026); strong text rendering and grid layouts
 - [[qwen]] — Alibaba's open-weight LLM family (Qwen3); Chinese open-weights frontier peer to GLM/DeepSeek/Kimi
@@ -192,6 +194,7 @@
 
 ## Companies & Labs
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
+- [[prentis]] — Reid Hoffman + Mark Pincus AI lab (~$100M); automate routine computer tasks ("automation, not coding") (Jul 2026)
 - [[poolside]] — Eiso Kant's coding-AI lab; "model factory" bet (small team + training-infra/data/eval focus over scale); 118B MoE reportedly beating Inkling's open weights (Jul 2026)
 - [[thinking-machines]] — Mira Murati's frontier lab; shipped the Inkling open-weights model + Tinker fine-tuning; customization-over-frontier-supremacy bet (Jul 2026)
 - [[apple]] — consumer-hardware/platform + AI-IP legal actor; sued OpenAI over alleged trade-secret theft (leadership-directed theory, Jul 2026)
