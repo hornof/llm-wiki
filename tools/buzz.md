@@ -15,6 +15,7 @@ last_updated: 2026-07-23
 - **2026-07-22 launch** via Jack Dorsey ([[block-buzz-launch-2026-07-22]]); Apache-2.0, on GitHub (`block/buzz`), *"AI Score 9/10"* in the [[dailybrief-roundup-2026-07-21|07-21 brief]] repo-watch.
 - **Dogfooded inside Block's AI-native rebuild** — *"block is rebuilding itself to be an intelligence"*; Goose *"works across the company every day,"* and buzz targets the *"seams between tools"* that limit it.
 - **[unsourced beyond the launch]** — no external adoption metrics yet; explicitly early (git hosting being wired; mobile/push/approval-gates partial).
+- **2026-07-24/26 practitioner amplification** ([[graph-engineering-cluster-2026-07-26]]): @hot_town's hands-on review (*"Slack + OpenClaw + Herdr"* — agents as first-class citizens on **any** harness, choose models incl. local, agents delegate + run parallel in git worktrees) and [[greg-isenberg]]'s **shared-compute** thread. Early-adopter interest, still pre-metrics.
 
 ## Key Concepts
 
@@ -22,6 +23,7 @@ last_updated: 2026-07-23
 - **One context**: *"a feature branch becomes a channel"* — patches, CI results, review, and the merge decision live in the same thread as the conversation that shaped them. Directly attacks the [[context-engineering|context]] problem: *"every seam loses information… and agents feel it the most. they can't help with what they can't see."*
 - **Self-sovereign / signed-event log**: everything stored as a **signed event on a relay you host** (message, patch, review, workflow step, approval) — *"one record, one search."* Federation between relays is the stated path to decentralization.
 - **Harnesses**: ships integrations for **[[goose|Goose]], [[codex|Codex]], and [[claude-code|Claude Code]]** — model/harness-agnostic, *"no lock-in, including to us."*
+- **Shared compute** (per [[greg-isenberg]], [[graph-engineering-cluster-2026-07-26]]): the under-discussed Buzz idea — one person runs the machine and loads an open model (e.g. Gemma), and the whole community shares that compute. Framed as the fix for "the strongest open models need hardware most people won't buy alone, and it's a pain to set up if you're not technical."
 
 ## Compared To
 

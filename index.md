@@ -99,6 +99,7 @@
 - [[ai-labor-market-impacts]] — Anthropic's observed-exposure framework (March 2026); Computer Programmers 75% covered; young-worker hiring slowdown cross-confirmed by Brynjolfsson et al.; no aggregate unemployment effect yet
 - [[recursive-self-improvement]] — Anthropic Institute's first-party RSI framing (June 2026); 3-scenario future framework (stalls / compounding-efficiency / full-RSI); verifiable-slowdown-infrastructure as next deliverable; Korinek upside + Clark extinction-risk-pricing downside + Favaro/Clark first-party-evidence anchor = 3-leg framework
 - [[loop-engineering]] — Steinberger/Cherny mid-2026 practitioner-content register above harness-engineering; 5-stage lineage (ReAct → AutoGPT → ralph → /goal → orchestration loops); 3 production hard stops (max iterations, no-progress, budget ceiling); "loops = cron + decision-maker in the body" (Van Horn synthesis, June 2026)
+- [[graph-engineering]] — the coordination layer above loop-engineering (2026-07-18 Steinberger question → Hamel Husain "Loop Engineering Is Dead" article → Akshay Pachaar explainer); nodes/edges/state, 4 hard problems (node justification, state hygiene, trusted routing, agents-agreeing), "a loop is a one-node self-edged graph"; the top of the prompt→context→harness→loop→graph ladder
 
 ## People & Voices
 - [[mira-murati]] — founder of Thinking Machines Lab; ex-OpenAI CTO; "extend human will and judgment" + open-weights/customization strategy (Inkling)
@@ -164,7 +165,8 @@
 - [[anton-korinek]] — economist at Anthropic; RSI growth-regime model (~6 years to explosive-growth regime under software-R&D-automation + 5% economy-wide-automation shock); feedback contributor on Anthropic Institute RSI publication (May–June 2026)
 - [[dwarkesh-patel]] — host of *The Dwarkesh Podcast*; long-form interview surface for frontier-AI research + macroeconomics + cross-disciplinary AI conversations
 - [[sriram-krishnan]] — ex-White House AI advisor (departed 2026-06-06 to found new institution to shape Trump policy); structurally load-bearing WH-side counterpart to Anthropic-policy surface (June 2026)
-- [[peter-steinberger]] — independent practitioner (PSPDFKit founder, pre-AI); high-signal Claude Code practitioner-content voice; coined Loop Engineering elevation; VISION.md primitive disclosure (June 2026)
+- [[peter-steinberger]] — independent practitioner (PSPDFKit founder, pre-AI); high-signal Claude Code practitioner-content voice; coined Loop Engineering elevation; VISION.md primitive disclosure (June 2026); 2026-07 seeded the graph-engineering turn ("loops or graphs yet?")
+- [[hamel-husain]] — independent ML engineer/educator; coined the "graph engineering" framing with his 2026-07-18 article *"Loop Engineering Is Dead. Enter Graph Engineering"*; hype-skeptic register (names rebrands of prior art)
 - [[geoffrey-huntley]] — independent practitioner; published the ralph loop pattern (July 2025); $297 entire-programming-language receipt; 3rd stage in 5-stage Loop Engineering lineage
 - [[steve-yegge]] — veteran software engineer (Amazon/Google/Grab/Sourcegraph); author of Gas Town (Jan 2026) multi-agent Claude Code orchestration (Mayor + Patrol + git-durable state)
 - [[junyang-lin]] — ex-Alibaba Qwen team lead; founded new lab on world-models + RSI intersection (June 2026); 5th wiki-captured world-model lab; world-models-as-bridge constructive response to Jeffries-LeCun Time-Multiplicity critique

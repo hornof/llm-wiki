@@ -3,7 +3,7 @@ name: Peter Steinberger
 type: person
 affiliation: Independent / iOS developer (PSPDFKit founder, pre-AI)
 signal_sources: [twitter]
-last_updated: 2026-06-08
+last_updated: 2026-07-26
 ---
 
 ## Who They Are
@@ -11,6 +11,8 @@ last_updated: 2026-06-08
 Peter Steinberger (@steipete on X) is an iOS developer turned AI-coding practitioner-content voice. Founder of [PSPDFKit](https://pspdfkit.com/) (iOS PDF SDK acquired by Apryse 2024); since the rise of agentic coding has become a high-signal practitioner-content surface on Claude Code-side workflow patterns at the loop-design and project-tier-template layers. **First wiki entity surface 2026-06-07** with the **Loop Engineering elevation** — see [[steipete-loops-engineering-vision-md-2026-06-07]].
 
 ## Their Current Focus
+
+- **2026-07-18 — kicked off the "graph engineering" turn**: posted the nine-word question *"Are we still talking loops or did we shift to graphs yet?"*, prompting [[hamel-husain|Hamel Husain]]'s same-day article *"Loop Engineering Is Dead. Enter Graph Engineering."* Followed up 07-24 with *"am I a graph engineer now"* — self-aware meme-amplification of the field's compulsive renaming, over real substance (coordination across loops). Continues his pattern of coining/seeding the next practitioner-content register (loops → graphs). See [[graph-engineering]], [[graph-engineering-cluster-2026-07-26]].
 
 Loop-engineering as the primary register above prompt-engineering and harness-engineering. Disclosed primitive: **VISION.md** as the *push-back primitive* inside long-running loops — a project-tier complement to [[claude-md-pattern|CLAUDE.md]] articulating *what the project is trying to be*, distinct from CLAUDE.md's behavioral contract. Predicts ~3-month escalation to **fleets that design your loops**.
 

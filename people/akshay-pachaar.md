@@ -3,7 +3,7 @@ name: Akshay Pachaar
 type: person
 affiliation: Independent (AI/ML educator)
 signal_sources: [twitter]
-last_updated: 2026-05-09
+last_updated: 2026-07-26
 ---
 
 ## Who They Are
@@ -11,6 +11,8 @@ last_updated: 2026-05-09
 @akshay_pachaar on X. Independent AI/ML educator and explainer-thread author. Posts on LLMs, AI agents, and machine learning patterns. Functions as a synthesizer who takes Anthropic / Cloudflare / OpenAI primary publications and distills them into reference-grade practitioner threads with concrete numbers.
 
 ## Their Current Focus
+
+- **2026-07-25 — "Graph Engineering Clearly Explained"** ([[akshay-pachaar-graph-engineering-explainer-2026-07-25]]): the wiki's anchor synthesis for [[graph-engineering]] — separates the substance (3 primitives, 4 hard problems, decision rule) from the meme after [[peter-steinberger|Steinberger]]'s question + [[hamel-husain|Hamel Husain]]'s article. Also posted the compact *"prompt → context → harness → loop → graph engineering"* layering ladder (*"each layer wraps the one before"*). Continues his role as the field's reference-grade distiller.
 
 Agent runtimes, tool-calling patterns, MCP. May 2026 work focused on the [[code-mode]] pattern reframing of the year-long MCP-vs-CLI debate.
 
