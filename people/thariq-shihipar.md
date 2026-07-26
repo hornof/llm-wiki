@@ -3,7 +3,7 @@ name: Thariq Shihipar
 type: person
 affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter]
-last_updated: 2026-07-21
+last_updated: 2026-07-26
 twitter: "@trq212"
 ---
 
@@ -13,6 +13,7 @@ Member of the [[claude-code]] team at [[anthropic]]. Author of "Using Claude Cod
 
 ## Their Current Focus
 
+- **2026-07-24 — Authored Anthropic's official "new rules of context engineering for Claude 5 generation models"** ([[thariq-anthropic-context-engineering-claude-5-rules-2026-07-24]]): headline result *"we removed over 80% of Claude Code's system prompt for models like Claude Opus 5 and Claude Fable 5 with no measurable loss on our coding evaluations."* Thesis: capable models need **less constraint, more judgment, progressive disclosure**. His **6th surface** — and his first *authored* (not merely amplified) vendor-canonical statement on context/harness design. Updates [[context-engineering]] and directly tempers the [[claude-md-pattern|CLAUDE.md exhaustive-rules]] lineage. *(Primary fetched.)*
 - **2026-07-21 — Cat & Thariq fireside (Claude Code team)** (via [[simon-willison]], [[dailybrief-roundup-2026-07-21]]): the Claude Code leads discuss **evals, the agent security model, and dogfooding Claude Code**. Brief's read: *"Claude Code's security model — what agents can and can't do — is the actual product surface now, not the capability itself"* — a design-tradeoff signal on how Anthropic ships coding tools. *(Primary not fetched.)*
 - Practitioner-facing patterns for getting useful output out of [[claude-code]].
 - Output-format prompting: matching the format to the renderer rather than defaulting to Markdown.
