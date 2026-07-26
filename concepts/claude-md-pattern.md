@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-07-10
+last_updated: 2026-07-26
 ---
 
 ## Definition
@@ -16,6 +16,9 @@ Distinct from [[llm-wiki-pattern]], which is about source-curation across a know
 CLAUDE.md sits between zero-shot prompting (high token cost, no consistency) and exhaustive style guides (compliance falls off as length grows). When tuned, it materially reduces classes of recurring Claude failures — silent wrong assumptions, over-engineering, "orthogonal damage" to nearby code, silent successes hiding silent failures — without per-task re-prompting.
 
 A community-quoted claim ([[mnilax-claude-md-12-rules-2026-05-09]], citing Anthropic docs as source) is that **CLAUDE.md is advisory: Claude follows it ~80% of the time, and compliance drops sharply past 200 lines** as important rules get buried. This makes the CLAUDE.md pattern a constraint-driven design exercise, not a policy-document one.
+
+> [!update] 2026-07-24 — Anthropic tempers the exhaustive-rules framing for the Claude 5 generation
+> [[thariq-anthropic-context-engineering-claude-5-rules-2026-07-24|Thariq Shihipar (Anthropic)]] reports **removing >80% of Claude Code's system prompt** for Opus 5 / Fable 5 with no coding-eval loss, and reframes the advice as **judgment over rules**: keep CLAUDE.md **lightweight** (gotchas, not obvious knowledge), lean on **auto-memory** + skills + **progressive disclosure** rather than a big rules file. *"A common myth is that you want to make these a central repository for every known practice… because Claude would not find it otherwise."* This is the vendor-canonical version of the leanness discipline the [[mnilax-claude-md-12-rules-2026-05-09|200-line ceiling]] + [[alex-lieberman-ai-engineering-best-practices-2026-07-09|Lieberman autophagy]] threads argued for — now with a tool (`claude doctor`) to enforce it. **Note the generational caveat**: this is calibrated to the *more capable Claude 5 models*; the "each rule prevents a specific mistake" discipline below still holds, but the bar for *adding* a rule (vs trusting judgment) is higher than it was for 4.x. See [[context-engineering]].
 
 ## Current State
 

@@ -2,7 +2,7 @@
 name: Context Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-26
 ---
 
 ## Definition
@@ -41,6 +41,20 @@ Three memory tiers feed context: **long-term** (learned across all past sessions
 
 ### MCP as context from everywhere
 [[mcp|Model Context Protocol]] pulls context from the systems the work already lives in (GitHub, Linear/Jira, Slack, Postgres, Drive, Sentry) so the agent sees not just the code but the ticket that motivated it, the decision thread, the live error, and the schema the fix must respect — "complete context" without per-system integrations.
+
+### Vendor-canonical update — "new rules" for the Claude 5 generation (2026-07-24)
+[[thariq-shihipar|Thariq Shihipar]]'s official Anthropic post ([[thariq-anthropic-context-engineering-claude-5-rules-2026-07-24]]) reports **removing >80% of Claude Code's system prompt** for Opus 5 / Fable 5 *"with no measurable loss on our coding evaluations"* — and reframes the strategy for capable models as **less constraint, more judgment, progressive disclosure**. The six "Then → Now" shifts:
+
+| Then | Now (Claude 5 gen) |
+|---|---|
+| **Rules** | **Judgment** — principles over explicit rules; trust the model to interpret intent |
+| **Examples** | **Interface design** — expressive tool *parameters* (enumerations) over usage examples |
+| **Upfront loading** | **Progressive disclosure** — selective context + **deferred tool defs** (ToolSearch) |
+| **Repetition** | **Concise descriptions** — instructions in the *tool description*, not repeated in the system prompt |
+| **CLAUDE.md memory** | **Auto-memory** — automatic saving over manual documentation |
+| **Simple specs** | **Rich references** — code / test suites / HTML artifacts / rubrics; *"write code that reads like the surrounding code"* |
+
+Crucially, it does **not** claim context replaces prompting — they're complementary (*prompts* task-specific; *context* general/reusable): *"context engineering matters more than ever, but the strategy has changed."* Ships a **`claude doctor`** command to auto-simplify skills + CLAUDE.md. Tempers the [[claude-md-pattern|exhaustive-rules]] framing directly: *"a common myth is that you want to make these a central repository for every known practice."*
 
 ### The "8x" claim (caveat)
 The framing source ([[noisyb0y1-context-engineering-8x-2026-07-04]]) asserts *"Anthropic engineers merge 8x more code per day than a year ago… the model didn't change; what changed is what Claude sees before it starts."* **This 8x figure and the "Anthropic's own research says so" attribution are author-asserted in a promotional practitioner thread, not traced to a specific Anthropic publication here** — treat the number as illustrative, not a verified benchmark. The *underlying discipline* (7 components, 3-layer stack, AGENTS.md, memory files, MCP) is well-grounded in ideas the wiki already tracks; the 8x is the hook.

@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-07-08
+last_updated: 2026-07-26
 ---
 
 ## Definition
@@ -59,6 +59,8 @@ For an AI engineering / VPE career:
 - **Expertise framing** (Autor & Thompson 2025) — focuses on the expertise level required for the *remaining* unautomated tasks.
 
 The Anthropic measure is the first to use first-party-lab usage telemetry as the empirical anchor. Other labs (OpenAI, Google) have not yet published comparable usage-anchored exposure measures — would be a structural move if/when they do.
+
+- **Stanford SIEPR — "What is Really Happening to Jobs: Separating AI Hype from Reality"** ([[dailybrief-roundup-2026-07-26]], policy brief): a credible academic-policy synthesis that positions the middle ground between the "we're all doomed" and "horses→tractors, nothing changes" poles — displacement is real but uneven, retraining friction and *timeline* matter more than the headline number. Directionally consistent with the Anthropic first-party findings above (no systematic unemployment yet; concentrated young-worker / high-exposure signals). *(Primary not fetched — captured as a corroborating policy-side data point, useful for founder-narrative / hiring framing.)*
 
 ## Timeline-Calibration Hexangle (June 2026)
 
