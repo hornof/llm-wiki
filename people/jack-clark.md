@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-07-20
+last_updated: 2026-07-27
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor o
 
 ## Their Current Focus
 
+- **Week-long task completion + "the bitter lesson for robotics" (Import AI 466, ~2026-07-27)** ([[dailybrief-roundup-2026-07-27]], [importai.substack.com](https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for)): Clark frames a capability milestone — models now solving **multi-day / week-long programming tasks** — as another instance of Sutton's **bitter lesson**: *scale + brute force keeps beating domain knowledge, and the field keeps ignoring it.* His applied read is that **robotics** is learning this slower than software because its feedback loop is physical rather than computational. Extends Clark's task-horizon / automation-reach thread (Import AI 464 GPU-kernels → 465 open/closed data-flywheel → 466 week-long task horizon). *(Primary not deeply fetched.)*
 - **Open-vs-closed gaps + policy (Import AI 465, ~2026-07-20)**: Clark's issue frames the **open/closed model landscape** (incl. [[kimi-k3|Kimi K3]]) and [[frontier-ai-governance|Demis Hassabis's policy plan]]. The [[dailybrief-roundup-2026-07-20|brief]]'s read: *"the open/closed gap isn't about models — it's about who controls the data flywheel"* (closed labs own the feedback loop; open gets the weights) — pairs with the [[science-as-training-data-frontier|data-frontier]] and [[ai-margin-collapse|margin-collapse]] threads. *(Primary not fetched.)*
 - **Automation reaching "too-hard-to-automate" work (Import AI 464, 2026-07-09)**: Clark's issue *"Fables writes GPU kernels"* frames model-generated **GPU-kernel code** as a marker of automation eating a task long assumed to be safely human — the brief's read: *"the skill gap between 'human kernel writer' and 'model that reads specs' just compressed by years in weeks."* Extends Clark's substrate-collapse / software-moving-into-the-weights thread from OS-level to **low-level hardware-kernel generation**. Also covers AI automation and analog computation. — [[dailybrief-roundup-2026-07-11]] *(primary not fetched)*
 - **Recursive self-improvement (RSI) and economic modeling**: Import AI 456 (May 11 2026) surfaces Anton Korinek's RSI economic-growth model — full automation of software R&D plus 5% economy-wide automation produces a singularity-grade growth regime in ~6 years; 13% economy-wide automation is sufficient to trigger "explosive" growth. Korinek now works with Clark at Anthropic — establishes this as an in-house thread, not an external citation. — [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]]
