@@ -169,6 +169,7 @@
 - [[hamel-husain]] — independent ML engineer/educator; coined the "graph engineering" framing with his 2026-07-18 article *"Loop Engineering Is Dead. Enter Graph Engineering"*; hype-skeptic register (names rebrands of prior art)
 - [[geoffrey-huntley]] — independent practitioner; published the ralph loop pattern (July 2025); $297 entire-programming-language receipt; 3rd stage in 5-stage Loop Engineering lineage
 - [[steve-yegge]] — veteran software engineer (Amazon/Google/Grab/Sourcegraph); author of Gas Town (Jan 2026) multi-agent Claude Code orchestration (Mayor + Patrol + git-durable state)
+- [[travis-oliphant]] — creator of NumPy/SciPy, co-founder of Anaconda; now founding OpenTeams/Nebari — applying the open-standard-then-monetize-the-network playbook to sovereign enterprise AI infrastructure (June 2026)
 - [[junyang-lin]] — ex-Alibaba Qwen team lead; founded new lab on world-models + RSI intersection (June 2026); 5th wiki-captured world-model lab; world-models-as-bridge constructive response to Jeffries-LeCun Time-Multiplicity critique
 - [[nando-de-freitas]] — Microsoft VP of AI (ex-DeepMind RL lead); unified continual interactive causal-agent training proposal to replace SFT+RLHF pipelines (June 2026); 3rd-vendor entrant in 3-vendor 4-day post-training-methodology debate
 - [[dan-jeffries]] — independent AI-skepticism voice on X; Time + Multiplicity bottleneck framing for RSI; *"the recursive self-improvement loop hits a wall because of reality"* critique of Anthropic Institute publication; LeCun-amplified (June 2026)
@@ -223,6 +224,7 @@
 - [[meta]] — Facebook / Instagram / WhatsApp / Meta AI / Meta Business Agent; 3rd vendor in the cross-vendor agentic-exfiltration pattern (Jun 2026); Business Agent globally rolled out post-2-year pilot (Jun 2026)
 - [[mistral-ai]] — open-weight European AI lab; $3.1B raised; selling to EU governments and corporations; Paris
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
+- [[openteams]] — Travis Oliphant's (NumPy/Anaconda) co.; open-source Nebari stack + "Distributed AI Economy" (Intelligence Hubs / Frames / Cogs / Ops) for sovereign, owned enterprise AI; vision-stage (June 2026 whitepaper)
 - [[physical-intelligence]] — foundation models for robots from human teleoperator data; $1B raised; founded 2024
 - [[reflection]] — open-source AI lab challenging DeepSeek; $2.1B, ex-DeepMind founders Misha Laskin & Ioannis Antonoglou
 - [[safe-superintelligence]] — AI research lab; $3B raised; Palo Alto; founded 2024

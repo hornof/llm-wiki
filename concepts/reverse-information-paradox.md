@@ -2,7 +2,7 @@
 name: Reverse Information Paradox
 type: concept
 maturity: emerging
-last_updated: 2026-07-14
+last_updated: 2026-07-27
 ---
 
 ## Definition
@@ -29,6 +29,8 @@ Cites **Alex Karp** (Palantir): *"technical customers want control over their co
 
 *"In the cloud era, enterprises accumulated data. In the AI era, they accumulate learning."*
 
+**Productized instantiation (2026-06)** — [[openteams|OpenTeams / Nebari]]'s *"Distributed AI Economy"* whitepaper ([[openteams-distributed-ai-economy-whitepaper-2026-06]]) is a near-direct architectural build-out of this prescription: an **Intelligence Hub** deployed inside the org's own perimeter, with **Organizational Memory** as a governed context substrate that *"belongs to the organization that produced it… cannot be rented or bought from a vendor,"* and **Frames** as the portable, versioned, inheritable container for the org's rules/terminology/norms (the [[context-engineering|context]] layer reframed as an *asset to retain* rather than exhaust to leak). It cites the same [[satya-nadella|Nadella]] "sovereignty" framing. Vendor vision doc (single-source, pre-scale) — but the clearest worked example yet of what a Reverse-Information-Paradox-compliant stack looks like.
+
 ## Key Papers / Posts
 - [[satya-nadella-reverse-information-paradox-2026-07-12]] — the coinage essay (X long-form)
 - Kenneth Arrow, "Economic Welfare and the Allocation of Resources for Invention" (1962) — the original Information Paradox
@@ -38,3 +40,4 @@ Cites **Alex Karp** (Palantir): *"technical customers want control over their co
 - [[ai-native-organizations]] — firms whose competitive edge is an accumulating learning loop
 - [[context-engineering]] — the corrections/traces/evals that become "exhaust" are exactly the context an org engineers; here reframed as an *asset to retain*
 - [[mcp]] — the model-decoupled orchestration layer "Choice" depends on
+- [[openteams]] — a productized three-layer instantiation (Intelligence Hub + Frames/Cogs/Ops) of the "own your learning loop" prescription
