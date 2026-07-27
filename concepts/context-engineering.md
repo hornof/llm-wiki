@@ -61,11 +61,13 @@ The framing source ([[noisyb0y1-context-engineering-8x-2026-07-04]]) asserts *"A
 
 ## Key Papers / Posts
 - [[noisyb0y1-context-engineering-8x-2026-07-04]] — practitioner synthesis: "context is the operating system for AI"; 7 components + 3-layer stack + AGENTS.md + memory + MCP (8x claim caveated)
+- [[graph-engineering-cluster-2026-07-26|@vartekxx — "Context Engineering: the Karpathy-Cherny method that replaced prompting"]] (2026-07-08) — practitioner essay; the sharp hook: *the same model scores 0.637 vs 0.488 on the same benchmark* with identical weights and question, differing only in what else was in the context window. Same "context is the OS" thesis as noisyb0y1, independent surface.
 
 ## Related Concepts
 - [[claude-md-pattern]] — the project-context layer (AGENTS.md/CLAUDE.md) as behavioral contract
 - [[skill-md]] — per-capability procedure + verifier; outer-loop memory
 - [[loop-engineering]] — context that evolves each step *is* the agent loop; context engineering is its input side
+- [[graph-engineering]] — two layers up the same ladder (prompt → context → harness → loop → graph); every graph node call is a context problem
 - [[okf]] — portable knowledge-file layer
 - [[mcp]] — cross-system context retrieval
 - [[llm-wiki-pattern]] — context engineering applied to a personal knowledge base

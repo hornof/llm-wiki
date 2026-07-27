@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-15
+last_updated: 2026-07-26
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -303,6 +303,10 @@ Also contributes an **8-layer harness model** (Filesystem&Git · Bash&Code · Sa
 
 [[terry-tao-coding-agents-old-new-apps-2026-07-11|Terry Tao]] (Fields Medalist) reports porting ~24 legacy Java applets to JS and building new visualizers in "a couple hours" each, concluding *"the precise language or spec that software is written in has become far less relevant"* — an independent, vendor-neutral confirmation of [[rahulgs-english-code-interpreters-10-point-thesis-2026-06-17|the "english → code interpreters"]] thesis. Crucially he re-states the verifier ceiling from the domain-outsider side: agents net a *"wash as far as code quality"* (finds latent bugs, introduces subtle ones), acceptable *only because the work is non-critical* — a real-world instance of *a loop that goes green is not a loop that is correct*, gated here by human review.
 
+### Graph engineering — the successor framing (2026-07-18)
+
+The register moved up a layer within ~six weeks. On 2026-07-18 [[peter-steinberger|Steinberger]] posted *"Are we still talking loops or did we shift to graphs yet?"*; hours later [[hamel-husain|Hamel Husain]] published *"Loop Engineering Is Dead. Enter Graph Engineering."* — see [[graph-engineering]] (anchored on [[akshay-pachaar]]'s explainer). The load-bearing reconciliation: **a single loop is just a one-node graph with a self-edge; graphs don't replace loops, they coordinate many of them.** Loop engineering remains the layer where the individual cycle is engineered (brakes, completion check, critic); graph engineering is the coordination layer above it (nodes/edges/state, routing, parallel fan-out). *"A graph of weak loops is just distributed failure."* Not a repudiation — an extension, and (per the practitioners themselves) *"the word may not survive the year; the design question will."*
+
 ## Key Papers / Posts
 
 - **ReAct paper** (2022): [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) — academic origin of the reason-act-observe-repeat loop
@@ -319,6 +323,7 @@ Also contributes an **8-layer harness model** (Filesystem&Git · Bash&Code · Sa
 - [[claude-md-pattern]] — CLAUDE.md / VISION.md project-tier canonical content-template stack; VISION.md is Steinberger's push-back primitive
 - [[trq-dynamic-workflows-harness-2026-06-02]] — Thariq's *"A harness for every task"* + 3-failure-mode framework (agentic laziness / self-preferential bias / goal drift) that loops exist to solve
 - [[anthropic-dynamic-workflows-official-docs-2026-06]] — Anthropic Dynamic Workflows canonical docs (16 concurrent / 1000 total runtime constraints; pair-with-`/goal` recommendation)
+- [[graph-engineering]] — the coordination layer directly above; a loop is a one-node self-edged graph, graphs connect and govern many loops (2026-07-18 successor framing)
 
 ## Verification-pending
 
