@@ -3,7 +3,7 @@ name: Andrej Karpathy
 type: person
 affiliation: Anthropic (research group lead, May 2026); Eureka Labs (founder — status post-Anthropic-move unclear)
 signal_sources: [twitter, blog, github, youtube]
-last_updated: 2026-05-25
+last_updated: 2026-07-27
 ---
 
 ## Who They Are
@@ -18,6 +18,7 @@ Building AI education tools at Eureka Labs. Actively vibe-coding and agentic eng
 - **On schema**: CLAUDE.md is co-evolved by you and the LLM over time — not defined once and frozen — [[karpathy-llm-wiki-gist]]
 - **Software 2.0**: Neural networks are a new kind of software where you specify behavior through data rather than code — predates current LLM wave but predicted its direction
 - **Software 3.0**: "What is the piece of text to copy paste to your agent? That's the programming paradigm." Prompting is programming; the LLM is an interpreter; the context window is your lever. — [[karpathy-vibe-coding-agentic-engineering]]
+- **autoresearch + AgentHub → the [[graph-engineering]] atom** (March 2026, surfaced via [[graph-engineering-loops-to-graphs-synthesis-2026-07-24]]): Karpathy's **autoresearch** repo (~86K stars) puts an agent in a bounded harness running a *ratchet loop* — propose one change, commit, eval ~5 min, keep-or-`git reset` — where *"program.md is programming the program."* He then sketched **AgentHub** (*"GitHub is for humans, AgentHub is for agents"*), where the **commit DAG is the coordination graph** rather than a single main branch, and called for autoresearch to become *"asynchronously massively collaborative for agents… in the style of SETI@home."* His *vibe coding → agentic engineering* framing is the base of the wiki's [[graph-engineering|graph-engineering]] progression; he calls recursive model self-improvement *"the final boss battle."*
 - **Vibe coding vs. agentic engineering**: "Vibe coding raises the floor for everyone. Agentic engineering is about preserving the quality bar of professional software — you're not allowed to introduce vulnerabilities." — [[karpathy-vibe-coding-agentic-engineering]]
 - **>10x speedup claim**: "People who are very good at [agentic engineering] peak a lot more than 10x from my perspective right now." — [[karpathy-vibe-coding-agentic-engineering]]
 - **December 2025 inflection**: The moment Karpathy stopped correcting agent output — "I can't remember the last time I corrected it" — and started trusting the system. A "very stark transition." — [[karpathy-vibe-coding-agentic-engineering]]

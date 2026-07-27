@@ -2,7 +2,7 @@
 name: Graph Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-26
+last_updated: 2026-07-27
 ---
 
 ## Definition
@@ -49,8 +49,23 @@ Anthropic's published token costs make it concrete: a single agent burns ~**4×*
 ### The decision rule
 Reach for a graph when the work **splits into genuine specialties**, needs **parallel fan-out and join**, needs **different models per step**, or needs **failure isolation + auditable routing**. Otherwise stay in the loop. Practitioner corroboration of the parallel-fan-out case: [[greg-isenberg|Greg Isenberg]] argues a single local Claude Code instance *"leaves 10x on the table"* vs. cloud VMs each running an isolated agent in its own worktree ([[graph-engineering-cluster-2026-07-26]]).
 
+### Depth: the "loops → graphs" synthesis (Karpathy → AgentHub → Anthropic infra)
+A rigorous independent synthesis paper ([[graph-engineering-loops-to-graphs-synthesis-2026-07-24]], 11pp; *not* an Anthropic/Karpathy primary) grounds the meme in real systems and supplies the depth the explainer-tier sources lack:
+
+- **The three-step progression**: **vibe coding** (human intends, model writes) → **agentic engineering** (human specifies / orchestrates / verifies, stays responsible) → **graph engineering** (agents share durable state through typed, queryable graphs of work and knowledge). This is the same [[loop-engineering|prompts→harness→loops]] ladder, extended to where *state* lives.
+- **The atom is Karpathy's autoresearch ratchet-loop**: an agent in an executable harness (`prepare.py` fixed / `train.py` mutable / `program.md` = natural-language control spec) proposes one change → commits → evals ~5 min → keeps if the metric improves, else `git reset`. *"program.md is programming the program."* Four conditions make a loop agent-friendly: **verifiable output, reversible action, short horizon, bounded environment.**
+- **AgentHub = "GitHub for agents"** (Karpathy's sketch): the **commit DAG *is* the graph** (commits = nodes, parent links = edges); removes convergence abstractions (no main branch, no PRs, no merge queue) because the primary op is *"traverse the search graph,"* not *"merge to main."*
+- **Two graphs, not one — and don't collapse them**: the **commit DAG** tracks *work lineage* (what changed, which experiment is the parent); the **knowledge graph** tracks *domain knowledge* (which entities exist, how related, which sources support). Together they *"prevent agents from rebuilding the world from scratch in every context window."*
+- **The knowledge graph as shared memory** — the concrete technique ([[knowledge-graph-4-prompts-synthesis-2026-07-24]]): **four Claude prompts with structured outputs replace four trained models** — Extraction (Haiku) for typed entities + S-P-O triples, Resolution (Sonnet) clustering surface forms (*"Edwin Aldrin" → "Buzz Aldrin"*), Summarization (Sonnet) for hub-node profiles, Querying (Sonnet) over a serialized **k=2-hop** subgraph with edge-level citations. *The Pydantic schema is the only training data.* Workers write findings back as graph updates; the orchestrator's context stays small regardless of worker count — *"the agent forgets, the graph does not."* Precision-favoring by design (a wrong entity spawns wrong relations that propagate through multi-hop reasoning).
+- **Five-plane production architecture**: control / execution / artifact / graph / evaluation — *"prevents one chat transcript from becoming the database, workflow engine, and audit log."*
+- **Staged build path**: Day 1 reflective loop → Day 2 tools → Week 1 planning → Week 2 multi-agent (artifact-contract handoffs, worktree isolation) → Month 1 wire into a graph → Month 2 swarm (define the reducer *before* fan-out).
+- **The load-bearing thesis**: *"the bottleneck is often not the next model call — it is the placement of memory and evaluation."* The path from loops to graphs is *"from implicit state to explicit state, volatile to durable memory, estimation to evidence."*
+- **Caveats it is honest about**: metrics can be gamed (a ratchet optimizes what it can see — the [[reward-hacking]] failure); dynamic workflows are expensive (1,000-sub-agent runs cost tens of dollars + correlated errors); coherent-context tasks (architecture, narrative, tightly-coupled refactors) *degrade* when fragmented; *"do not introduce a graph merely because the system has agents."*
+
 ## Key Papers / Posts
 - [[akshay-pachaar-graph-engineering-explainer-2026-07-25]] — the anchor explainer: 3 primitives, 4 hard problems, decision rule (this page's spine)
+- [[graph-engineering-loops-to-graphs-synthesis-2026-07-24]] — **the depth source** (11pp independent synthesis): Karpathy autoresearch → AgentHub commit-DAG → Anthropic Dynamic Workflows/KG-cookbook; vibe→agentic→graph progression; five-plane architecture; "place memory outside the context window"
+- [[knowledge-graph-4-prompts-synthesis-2026-07-24]] — **the KG-as-shared-memory technique** (7pp independent synthesis): 4 structured-output prompts (Haiku extract / Sonnet resolve+summarize+query) replace 4 trained models; the Pydantic schema is the only training data
 - **Hamel Husain — "Loop Engineering Is Dead. Enter Graph Engineering."** (2026-07-18) — the coinage article (referenced via the explainer; primary not fetched)
 - **Peter Steinberger** (2026-07-18): *"Are we still talking loops or did we shift to graphs yet?"* — the nine-word prompt that started it
 - **LangGraph** (Jan 2024), **AutoGen GraphFlow**, **Google ADK 2.0** — the pre-existing implementations the name retroactively describes
