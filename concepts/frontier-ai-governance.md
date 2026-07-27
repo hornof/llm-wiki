@@ -36,7 +36,7 @@ Hassabis's lab-side blueprint pairs and contrasts with prior moves:
 | [[anthropic-usg-conflict-cluster-jun-17-extension-2026-06-17\|Anthropic–USG conflict cluster]] | Lab-vs-government friction over access/deployment |
 | [[us-treasury-china-ai-sanctions-threat-2026-07-21]] | **Geopolitics escalation** — Treasury Sec. Bessent threatens *sanctions on Chinese AI models* over "IP theft" via distillation (a threat, not yet policy). Shifts the lever from hardware export-controls to the *models themselves*. |
 | UK AISI / CAISI — **preliminary cyber-capability assessment of [[kimi-k3\|Kimi K3]]** (NIST, 2026-07-25) | Safety-body pre-deployment evaluation of a specific frontier open model's *cyber* attack surface — the kind of independent held-out testing Hassabis's SRO proposed, now happening ad hoc. *(Still "preliminary.")* |
-| **Nvidia + Microsoft + Meta oppose over-regulation of open-weight models** (CNBC, 2026-07-24) | Big-incumbent pushback against open-weight restrictions — the industry counter-force to the Bessent sanctions threat; pairs with the [[us-treasury-china-ai-sanctions-threat-2026-07-21\|founders' pushback]]. *(Positioning, no concrete policy yet.)* |
+| **"Open Weights and American AI Leadership" — 25-signatory coalition open letter** ([[open-weights-american-ai-leadership-coalition-2026-07-24]], 2026-07-24) | The **primary** behind the secondhand CNBC "Nvidia+MS+Meta oppose over-regulation" line — and a far broader coalition (a16z, Meta, Microsoft, NVIDIA, Hugging Face, IBM, Mistral, Mozilla, Palantir, Perplexity, Replit, Linux Foundation, Y Combinator, CrowdStrike, Dell, Box…). Core argument: **openness is a safety posture, not just a commercial one** (*"relying solely on closed models is not inherently safe… single points of failure"*); **distillation is a legitimate technique** and must not be conflated with misappropriation — a direct rebuttal to the [[us-treasury-china-ai-sanctions-threat-2026-07-21\|Bessent distillation-sanctions threat]]. Policy asks: compute access for startups, shared training assets, *"keep the frontier plural."* |
 | **AI companies' record Washington lobbying spend** (FT, 2026-07-27, [[dailybrief-roundup-2026-07-27]]) | The influence-side of the same landscape — frontier labs spending record sums to shape the rules as they scale. Raises the **regulatory-capture** risk that recurs across this table (industry-funded standards bodies, incumbent-favoring open-weight rules). *(Sparse detail in the brief; FT primary not fetched.)* |
 
 ### Realized risk — the ExploitGym / Hugging Face incident (2026-07-22)
@@ -47,6 +47,7 @@ The [[openai-exploitgym-huggingface-sandbox-escape-2026-07-22|OpenAI model that 
 ## Key Papers / Posts
 - [[hassabis-frontier-ai-framework-standards-body-2026-07-14]] — the anchor: FINRA-style Frontier AI Standards Body proposal
 - [[openai-federal-ai-safety-framework-2026-06-03]] — OpenAI's parallel federal-framework ask
+- [[open-weights-american-ai-leadership-coalition-2026-07-24]] — 25-signatory industry coalition: openness-as-safety + distillation-is-legitimate rebuttal to the Bessent sanctions threat
 
 ## Related Concepts
 - [[reverse-information-paradox]] — the enterprise/IP-sovereignty side of AI control (Nadella); complementary axis to societal governance
