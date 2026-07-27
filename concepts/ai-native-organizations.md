@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-07-09
+last_updated: 2026-07-27
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -56,6 +56,7 @@ Sequoia called this "significant enough that it will reshape how companies of al
 - [[jensen-huang]] / [[nvidia]] — adjacent experiment: flat structure via direct information broadcast rather than AI world model; both routes eliminate middle management overhead
 - [[world-models]] — LeCun's ML concept; different meaning, overlapping term
 - [[agentic-ai]] — the intelligence layer in Block's architecture is an agentic AI system
+- [[loop-engineering]] / [[graph-engineering]] — the harness→loop→graph ladder applied at *org* scale is the same claim from the tooling side; **[[chamath-decision-context-agents|8090's "Software Factory"]]** (re-amplified by Chamath 2026-07-27, [[dailybrief-roundup-2026-07-27]]) pitches exactly this — *"an agent harness for an entire product organization, not just a repository,"* a control plane that centralizes context, governs where agents drive vs. humans judge, traces every output to original intent, and refines the harness each interaction. Vendor-promotional single source (mocking replies: *"becomes a service company in a year, SPAC"*); the *category claim* — org-scale harness — is the trackable part.
 
 ## Startup Signal: YC + Scoble (April 2026)
 

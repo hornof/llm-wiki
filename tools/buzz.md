@@ -3,7 +3,7 @@ name: Buzz
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-07-23
+last_updated: 2026-07-27
 ---
 
 ## What It Is
@@ -16,6 +16,7 @@ last_updated: 2026-07-23
 - **Dogfooded inside Block's AI-native rebuild** — *"block is rebuilding itself to be an intelligence"*; Goose *"works across the company every day,"* and buzz targets the *"seams between tools"* that limit it.
 - **[unsourced beyond the launch]** — no external adoption metrics yet; explicitly early (git hosting being wired; mobile/push/approval-gates partial).
 - **2026-07-24/26 practitioner amplification** ([[graph-engineering-cluster-2026-07-26]]): @hot_town's hands-on review (*"Slack + OpenClaw + Herdr"* — agents as first-class citizens on **any** harness, choose models incl. local, agents delegate + run parallel in git worktrees) and [[greg-isenberg]]'s **shared-compute** thread. Early-adopter interest, still pre-metrics.
+- **"First proper multiplayer agent harness" framing** (@jtwald, 2026-07-25, [[dailybrief-roundup-2026-07-27]]): *"Buzz is not a slack killer. It's much bigger. It's the first proper multiplayer agent harness. The network effects of who wins at that layer will decide where value accrues as models commoditize."* Reframes Buzz from a Slack competitor to a **new infrastructure layer** — the wiki's harness→loop→graph ladder ([[graph-engineering]]) applied at the *multiplayer/org* scale. Reply-thread receipts: Larry Velez (*"needed a bridge between two sets of agents and buzz may be it"*), @0xGuavaGuy (daily use since launch, forked to add agent-thread visibility). Sharpest pushback: *"why would a general harness win over a specific harness the company builds itself?"*
 
 ## Key Concepts
 
@@ -30,6 +31,7 @@ last_updated: 2026-07-23
 - **[[goose|Goose]]** — Block's agent *substrate* (the harness); buzz is the *workspace/collaboration layer* around it. Complementary Block open-source stack.
 - **[[river|River]]** (Shopify) — same *agent-as-shared-team-member + transparency* thesis, but River is internal/private-Slack-based (governance by audience); buzz is open-source, Nostr-based, cryptographic-identity (governance by signed attribution). Two takes on [[ai-native-organizations|AI-native-org]] transparency substrate.
 - **Slack + GitHub** — the incumbent stack buzz explicitly aims to replace by removing the seams between them.
+- **PromptQL** (Hasura / Tanmai Gopal) — competing "AI version of Slack" claim (*"$136M to kill Slack,"* 2026-07-08); a reply to @jtwald's post argued PromptQL shipped the multiplayer-agent-workspace layer weeks earlier and has been in production since March. Prior-art contender for the same "agent-collaboration layer," closed/hosted vs Buzz's open-source + cryptographic-identity model. *(Single-mention competitor claim; not independently verified.)*
 
 ## Resources
 - [[block-buzz-launch-2026-07-22]] — Jack Dorsey's launch announcement (primary)
