@@ -3,14 +3,14 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-07-17
+last_updated: 2026-07-28
 ---
 
 ## What It Is
 
 **Kimi K3** is [[moonshot-ai|Moonshot AI]]'s new flagship — a **2.8-trillion-parameter Mixture-of-Experts model (≈50B active, "2.8T-A50B")**, billed as **the largest open model ever released**. Successor to the K2 line ([[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|K2.6]]). The headline framing ([[dailybrief-roundup-2026-07-17|brief]]): *"Opus-class capability at Sonnet pricing"* — the open-model inflection where open weights compete on **capability *and* cost in the same tier**.
 
-> ⚠️ **Not actually open-weights yet (as of 2026-07-16).** Per [[simon-willison|Simon Willison]], the **open-weight release is *promised* by 2026-07-27**; K3 is currently available only via **Moonshot's website, API, and OpenRouter**. The "largest open model ever released" headline is ahead of the weights drop.
+> ✅ **Weights released 2026-07-27** (on schedule). Per [[simon-willison|Simon Willison]] ([[dailybrief-roundup-2026-07-28]]), Moonshot published the **Kimi-K3 weights on Hugging Face** (`moonshotai/Kimi-K3`) — a **~1.56 TB artifact**. The earlier "largest open model ever released" headline (which was ahead of the drop as of 07-16) is now backed by an actual open-weight release. *(Prior caveat resolved.)*
 
 ## Strengths & Weaknesses
 
