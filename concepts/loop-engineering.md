@@ -84,7 +84,7 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 
 ## Verifier-discipline-first corrective (Samuel McDonald, 2026-06-15)
 
-A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering discourse: [[samueljmcd|Samuel McDonald]] publishes [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|"My Thoughts on Loop Engineering"]] arguing that **the verifier — not the generator — is the bottleneck**. Adds **10th canonical voice** to the cluster at the **verifier-discipline-first-tier**.
+A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering discourse: Samuel McDonald publishes [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|"My Thoughts on Loop Engineering"]] arguing that **the verifier — not the generator — is the bottleneck**. Adds **10th canonical voice** to the cluster at the **verifier-discipline-first-tier**.
 
 **Central reformulation**: *"A loop is a generator wired to a verifier. The generator was never the bottleneck. The verifier is."*
 
@@ -173,7 +173,7 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 
 ### Cherny "strongly agree" + Rahul GS english→code-interpreters reframing (2026-06-17)
 
-[[rahulgs-english-code-interpreters-10-point-thesis-2026-06-17]] — [[rahulgs|Rahul GS]] publishes Jun 17 a **10-point canonical thesis** reframing Fable+ class models as **"english → code interpreters"** + 10 canonical-discipline-shifts (small/large-diff-management-for-review + time-to-ship-≠-time-to-PR + bottleneck-solving + agency + risk-management-over-line-by-line + cost-of-complexity-changing + duck-typing-canonical-reframing + logical-verification-at-enormous-cost + code-permissions-as-canonical-opt-in).
+[[rahulgs-english-code-interpreters-10-point-thesis-2026-06-17]] — Rahul GS publishes Jun 17 a **10-point canonical thesis** reframing Fable+ class models as **"english → code interpreters"** + 10 canonical-discipline-shifts (small/large-diff-management-for-review + time-to-ship-≠-time-to-PR + bottleneck-solving + agency + risk-management-over-line-by-line + cost-of-complexity-changing + duck-typing-canonical-reframing + logical-verification-at-enormous-cost + code-permissions-as-canonical-opt-in).
 
 **STRUCTURALLY CRITICAL**: [[boris-cherny|Boris Cherny]] (Claude Code creator) responds *"Strongly agree with all of the above. **We are entering the next era of code**, where the model is able to generate correct code for an increasingly large percent of tasks. **Our job is to make sure the model and our systems have the right guardrails**, then to run Claude Code + an[..."* — **first wiki-captured Cherny direct-voice "strongly agree" validation of a non-Anthropic-authored canonical-framework**.
 
@@ -186,7 +186,7 @@ McDonald flags Anthropic's own published caveat on the Bun port: **the port is n
 
 ### Sydney Runkle (LangChain) — 4-layer canonical Loop Engineering stack (2026-06-16/17)
 
-[[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17]] — [[sydney-runkle|Sydney Runkle]] publishes **"The Art of Loop Engineering"** with **LangChain-side 4-layer canonical Loop Engineering stack**. Extends Loop Engineering cluster from 10-voice to **11-voice** (Sydney Runkle at LangChain-tier).
+[[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17]] — Sydney Runkle publishes **"The Art of Loop Engineering"** with **LangChain-side 4-layer canonical Loop Engineering stack**. Extends Loop Engineering cluster from 10-voice to **11-voice** (Sydney Runkle at LangChain-tier).
 
 | Layer | What it does | Impact | LangChain primitive |
 |---|---|---|---|
