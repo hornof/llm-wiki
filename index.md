@@ -62,6 +62,7 @@
 - [[reverse-information-paradox]] — Nadella's inversion of Arrow: in the AI age the buyer gives away knowledge to use what they bought; enterprises need a trust boundary to own their learning loop (Control/Capability/Choice)
 - [[context-engineering]] — building the full information environment (memory/instructions/files/state) an agent sees before acting; "context is the OS for AI"; the umbrella over CLAUDE.md/SKILL.md/OKF/MCP/loops; succeeds prompt engineering
 - [[ai-native-organizations]] — replacing corporate hierarchy with AI world models; Block's architecture; DRIs and player-coaches
+- [[engineering-leadership-ai-era]] — the repricing of CTO/VP-Eng/Head-of-Eng roles under AI (higher expectations, lower leverage → burnout, fractional, founder paths); Gergely Orosz's mid-2026 exodus signal; owner-relevant
 - [[prompt-injection]] — adversary text read as instructions; confused-deputy attacks on tool-using agents (GitLost exploit)
 - [[openai-deployment-simulation]] — OpenAI's pre-release safety eval: predict model behavior by simulating deployment on live traffic
 - [[skill-md]] — SKILL.md primitive: per-capability procedure + verification; outer-loop memory for loop engineering
@@ -167,6 +168,7 @@
 - [[sriram-krishnan]] — ex-White House AI advisor (departed 2026-06-06 to found new institution to shape Trump policy); structurally load-bearing WH-side counterpart to Anthropic-policy surface (June 2026)
 - [[peter-steinberger]] — independent practitioner (PSPDFKit founder, pre-AI); high-signal Claude Code practitioner-content voice; coined Loop Engineering elevation; VISION.md primitive disclosure (June 2026); 2026-07 seeded the graph-engineering turn ("loops or graphs yet?")
 - [[hamel-husain]] — independent ML engineer/educator; coined the "graph engineering" framing with his 2026-07-18 article *"Loop Engineering Is Dead. Enter Graph Engineering"*; hype-skeptic register (names rebrands of prior art)
+- [[gergely-orosz]] — writes The Pragmatic Engineer (most-read software-eng/eng-management newsletter); field-sourced voice on how AI is repricing engineering roles + careers (CTO/VPE exodus, 2026-07)
 - [[geoffrey-huntley]] — independent practitioner; published the ralph loop pattern (July 2025); $297 entire-programming-language receipt; 3rd stage in 5-stage Loop Engineering lineage
 - [[steve-yegge]] — veteran software engineer (Amazon/Google/Grab/Sourcegraph); author of Gas Town (Jan 2026) multi-agent Claude Code orchestration (Mayor + Patrol + git-durable state)
 - [[travis-oliphant]] — creator of NumPy/SciPy, co-founder of Anaconda; now founding OpenTeams/Nebari — applying the open-standard-then-monetize-the-network playbook to sovereign enterprise AI infrastructure (June 2026)

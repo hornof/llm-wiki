@@ -3,7 +3,7 @@ name: Buzz
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-07-27
+last_updated: 2026-07-28
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ last_updated: 2026-07-27
 - **Agent-as-equal-member**: *"an agent on buzz is an equal member of the team"* — agents get their own **keys, channels, and audit trail** (same identity model as people), and can search history, open repos, send patches, review code, run workflows, edit canvases. Everything is **signed + attributable**. The *open, cryptographic* counterpart to [[river|Shopify's River]] (agent-as-shared-Slack-participant) — governance by **attribution + audit** rather than audience.
 - **One context**: *"a feature branch becomes a channel"* — patches, CI results, review, and the merge decision live in the same thread as the conversation that shaped them. Directly attacks the [[context-engineering|context]] problem: *"every seam loses information… and agents feel it the most. they can't help with what they can't see."*
 - **Self-sovereign / signed-event log**: everything stored as a **signed event on a relay you host** (message, patch, review, workflow step, approval) — *"one record, one search."* Federation between relays is the stated path to decentralization.
+- **Why Nostr** (per @hot_town's explainer, 2026-07-24, [[dailybrief-roundup-2026-07-28]]): every Buzz object is *"just a simple Nostr event — id, timestamp, kind, tags, content, signature"*; you sign it and push to **relays** (plain servers anyone can run — Buzz spins one up on startup, or self-host). *"The events are the source of truth, not any one app's database,"* which is what lets anyone follow/build on them (person, agent, or bot) and is the technical reason Buzz can do things *"closed platforms can't."*
 - **Harnesses**: ships integrations for **[[goose|Goose]], [[codex|Codex]], and [[claude-code|Claude Code]]** — model/harness-agnostic, *"no lock-in, including to us."*
 - **Shared compute** (per [[greg-isenberg]], [[graph-engineering-cluster-2026-07-26]]): the under-discussed Buzz idea — one person runs the machine and loads an open model (e.g. Gemma), and the whole community shares that compute. Framed as the fix for "the strongest open models need hardware most people won't buy alone, and it's a pain to set up if you're not technical."
 
