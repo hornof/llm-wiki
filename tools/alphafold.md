@@ -3,7 +3,7 @@ name: AlphaFold
 type: tool
 category: platform
 status: mainstream
-last_updated: 2026-05-27
+last_updated: 2026-07-28
 ---
 
 ## What It Is
