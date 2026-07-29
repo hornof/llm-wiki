@@ -227,6 +227,7 @@
 - [[mistral-ai]] — open-weight European AI lab; $3.1B raised; selling to EU governments and corporations; Paris
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
 - [[openteams]] — Travis Oliphant's (NumPy/Anaconda) co.; open-source Nebari stack + "Distributed AI Economy" (Intelligence Hubs / Frames / Cogs / Ops) for sovereign, owned enterprise AI; vision-stage (June 2026 whitepaper)
+- [[factory-ai]] — "agent-native software development"; Droid coding agents automating the code→test→deploy pipeline; the coding-pipeline instance of the software-factory category (cf. 8090, OpenTeams); co-founder Eno Reyes
 - [[physical-intelligence]] — foundation models for robots from human teleoperator data; $1B raised; founded 2024
 - [[reflection]] — open-source AI lab challenging DeepSeek; $2.1B, ex-DeepMind founders Misha Laskin & Ioannis Antonoglou
 - [[safe-superintelligence]] — AI research lab; $3B raised; Palo Alto; founded 2024

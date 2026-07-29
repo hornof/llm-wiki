@@ -3,7 +3,7 @@ name: Dwarkesh Patel
 type: person
 affiliation: independent (host of Dwarkesh Podcast)
 signal_sources: [podcast, blog, youtube]
-last_updated: 2026-06-04
+last_updated: 2026-07-29
 ---
 
 ## Who They Are
@@ -18,6 +18,7 @@ Host of **The Dwarkesh Podcast** (dwarkesh.com / formerly The Lunar Society), on
 
 ## Notable Episodes (wiki-tracked)
 
+- **"Why compute might get 10x+ more expensive" (essay, 2026-07-29)** ([[dailybrief-roundup-2026-07-29]]): argues that if software-engineer-grade AI capability is priced to the human labor it substitutes, **H100 spot pricing is ~15× below equilibrium** — so compute costs should *rise* toward that anchor, not fall. Cuts against "inference gets ever-cheaper" intuitions and bears on the [[ai-margin-collapse|margin-collapse]] math (today's inference margins may reflect *underpriced* compute). *(Primary not deeply fetched.)*
 - **Imas + Trammell on post-AGI scarcity (2026-06-04)**: hosts [[alex-imas|Alex Imas]] + [[phil-trammell|Phil Trammell]] for *What remains scarce after AGI?* — **first wiki-captured load-bearing post-AGI economics framing** organized around the *"what stays scarce when intelligence is no longer scarce?"* question. Scarcity shifts from intelligence to capital + coordination + presence-bound goods. — [[imas-trammell-post-agi-scarcity-dwarkesh-2026-06-04]]
 - **Reiner Pope on chip-design (2026-05-27)**: surfaced in [[dailybrief-roundup-2026-05-27|the 05-27 roundup]] alongside AI-infra funding cluster signals. Primary not deeply fetched. — [[dailybrief-roundup-2026-05-27]]
 

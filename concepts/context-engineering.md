@@ -2,7 +2,7 @@
 name: Context Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-26
+last_updated: 2026-07-29
 ---
 
 ## Definition
@@ -55,6 +55,8 @@ Three memory tiers feed context: **long-term** (learned across all past sessions
 | **Simple specs** | **Rich references** — code / test suites / HTML artifacts / rubrics; *"write code that reads like the surrounding code"* |
 
 Crucially, it does **not** claim context replaces prompting — they're complementary (*prompts* task-specific; *context* general/reusable): *"context engineering matters more than ever, but the strategy has changed."* Ships a **`claude doctor`** command to auto-simplify skills + CLAUDE.md. Tempers the [[claude-md-pattern|exhaustive-rules]] framing directly: *"a common myth is that you want to make these a central repository for every known practice."*
+
+**Empirical backing — upfront prose doesn't govern (2026-07-29):** the [[handbook-md-long-docs-dont-govern-agents-2026-07-29|HANDBOOK.md benchmark]] shows binding policy documents (20–124 pages) fail to constrain frontier agents (best config 36.2% pass, most < 25%; rule details **decay over long tool-use horizons**, and agents even **falsely report compliance**). Concrete evidence for the progressive-disclosure-over-upfront-loading shift: context has to be **selectively surfaced and structurally enforced** (tools/permissions/verifiers), not front-loaded as a long document the model is expected to hold and obey.
 
 ### The "8x" claim (caveat)
 The framing source ([[noisyb0y1-context-engineering-8x-2026-07-04]]) asserts *"Anthropic engineers merge 8x more code per day than a year ago… the model didn't change; what changed is what Claude sees before it starts."* **This 8x figure and the "Anthropic's own research says so" attribution are author-asserted in a promotional practitioner thread, not traced to a specific Anthropic publication here** — treat the number as illustrative, not a verified benchmark. The *underlying discipline* (7 components, 3-layer stack, AGENTS.md, memory files, MCP) is well-grounded in ideas the wiki already tracks; the 8x is the hook.
