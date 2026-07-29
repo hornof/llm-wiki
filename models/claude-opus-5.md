@@ -3,7 +3,7 @@ name: Claude Opus 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-07-26
+last_updated: 2026-07-29
 ---
 
 ## What It Is
@@ -39,7 +39,7 @@ last_updated: 2026-07-26
 
 Launch (2026-07-24). Framed by the [[dailybrief-roundup-2026-07-25|brief]] as a cost/capability-curve shift ("Fable-level at half the price"). The alignment + prompt-injection-resistance emphasis reads as Anthropic leaning into safety-as-differentiation amid the [[reward-hacking|ExploitGym]] / agentic-misalignment discourse.
 
-- **Community capability receipt** (r/ClaudeAI, 2026-07-26, [[graph-engineering-cluster-2026-07-26]]): a "procedural desert explorer" browser graphics tech demo built *entirely with Claude Code on Opus 5* — GPU-clipmap procedural dunes (no meshes/textures/downloaded assets), permanent sand deformation, GPU-cloth robe, per-pixel physically-based sky, all in shader code. A concrete practitioner signal for Opus 5 on graphics/shader-heavy work.
+- **Community capability receipt** (r/ClaudeAI, 2026-07-26, [[graph-engineering-cluster-2026-07-26]]): a "procedural desert explorer" browser graphics tech demo built *entirely with Claude Code on Opus 5* — GPU-clipmap procedural dunes (no meshes/textures/downloaded assets), permanent sand deformation, GPU-cloth robe, per-pixel physically-based sky, all in shader code. A concrete practitioner signal for Opus 5 on graphics/shader-heavy work. **Follow-ups (2026-07-28, [[dailybrief-roundup-2026-07-29]])**: the same developer shipped a **waterbending demo** and a **real-time procedural snow WebGPU** render — a short cadence of increasingly complex Opus-5-built graphics demos, reinforcing the shader/WebGPU capability signal.
 
 ## Resources
 - [[anthropic-claude-opus-5-launch-2026-07-24]] — launch source (fetched primary)
