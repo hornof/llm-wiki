@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-26
+last_updated: 2026-07-30
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -242,6 +242,8 @@ Extends cluster to **12-voice canonical-cluster** with 0xMovez at operator-tier-
 ### Hanako practitioner-tier — "the bottleneck was never the model" (2026-06-13)
 
 [[hanakoxbt-claude-loops-while-you-sleep-2026-06-13]] — [[hanako|Hanako (@hanakoxbt)]] publishes practitioner-tier 5-canonical-discipline-articulations: *"a loop is just Claude on a schedule"* + *"start with one loop, not ten"* + *"boring + bounded + easy-to-verify"* canonical good-first-loop-properties + *"babysit the rules not the work"* + *"the bottleneck was never the model"*. Opens with canonical Cherny-behavioral-reference (*"few thousand agents working overnight while he sleeps"* + *"runs most of it from his phone"* + *"hasn't written a line of code this year"*).
+
+**Concrete laptop-free recipe** ([[raw-batch-roundup-2026-07-30]]): the "runs it from his phone" pattern gets a named practitioner stack — **Termius + Tailscale + tmux** (Termius amplified by DHH, who uses it to *"control a whole fleet of machines… every server is a tab"*): run the agent **inside tmux** so the session survives disconnect, **Tailscale** for secure access back to your machine, **Termius SSH** from iPhone/iPad/Android. *"You don't need your laptop to build with Claude Code, Codex, or any other AI coding agent."* The durability + remote-control substrate the orchestration-loop stage (stage 5) assumes — a session that outlives your attention. (Adjacent: **herdr**, a tmux-style agent-control TUI DHH is wiring into Omarchy — see [[buzz]]/graph-engineering-cluster mentions.)
 
 ### AIEWF conference-tier recognition (2026-07-06)
 

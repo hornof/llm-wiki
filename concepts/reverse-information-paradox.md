@@ -2,7 +2,7 @@
 name: Reverse Information Paradox
 type: concept
 maturity: emerging
-last_updated: 2026-07-27
+last_updated: 2026-07-30
 ---
 
 ## Definition
@@ -30,6 +30,8 @@ Cites **Alex Karp** (Palantir): *"technical customers want control over their co
 *"In the cloud era, enterprises accumulated data. In the AI era, they accumulate learning."*
 
 **Productized instantiation (2026-06)** — [[openteams|OpenTeams / Nebari]]'s *"Distributed AI Economy"* whitepaper ([[openteams-distributed-ai-economy-whitepaper-2026-06]]) is a near-direct architectural build-out of this prescription: an **Intelligence Hub** deployed inside the org's own perimeter, with **Organizational Memory** as a governed context substrate that *"belongs to the organization that produced it… cannot be rented or bought from a vendor,"* and **Frames** as the portable, versioned, inheritable container for the org's rules/terminology/norms (the [[context-engineering|context]] layer reframed as an *asset to retain* rather than exhaust to leak). It cites the same [[satya-nadella|Nadella]] "sovereignty" framing. Vendor vision doc (single-source, pre-scale) — but the clearest worked example yet of what a Reverse-Information-Paradox-compliant stack looks like.
+
+**Author dogfoods the thesis (2026-07-29/30)** — [[satya-nadella|Nadella]] built a *"ROIC Intelligence App"* (mentioned on Microsoft's earnings call) from a Morgan Stanley PDF using Copilot code + a `/drill-me` skill + autopilot, then `/rubber-duck` to test — and the framing is pure Reverse-Information-Paradox: *"this is not about Tokenmaxxing or vibe coding. Every step of the way the rails are engineered to create value, making everything a long-term reusable asset, with governance/security, and cost controls."* Crucially, **all artifacts stay inside the enterprise trust boundary** — app in Copilot, code in GitHub Enterprise, data pipelines/lake/semantic models in Fabric, everything *"under Agent 365 IT/Sec/FinOps control."* The clearest first-party demonstration of the *"own your learning loop behind a hard trust boundary"* prescription — from the person who coined it. ([[raw-batch-roundup-2026-07-30]])
 
 ## Key Papers / Posts
 - [[satya-nadella-reverse-information-paradox-2026-07-12]] — the coinage essay (X long-form)
