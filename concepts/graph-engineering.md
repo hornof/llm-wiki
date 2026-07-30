@@ -15,15 +15,17 @@ The coinage crystallized in a two-step exchange (July 2026): on **2026-07-18** [
 
 The load-bearing reframe: **a single agent loop is just a one-node graph with an edge pointing back to itself.** Graphs don't replace loops — they *connect and govern* them. This makes graph engineering the top of a wrapping stack the wiki already tracks, each layer containing the one below:
 
-| Layer | Unit of work |
-|---|---|
-| **Prompt engineering** | the words you send |
-| **[[context-engineering]]** | everything the model sees, not just instructions |
-| **[[trq-dynamic-workflows-harness-2026-06-02\|Harness engineering]]** | the code around the model (tools, state, errors) |
-| **[[loop-engineering]]** | the autonomous cycle driving one agent |
-| **Graph engineering** | coordination across many loops |
+| Layer | What it is | Unit of work |
+|---|---|---|
+| **Prompt engineering** | the message | **one input** |
+| **[[context-engineering]]** | the memory (curation across steps) | **what stays in the window** |
+| **[[trq-dynamic-workflows-harness-2026-06-02\|Harness engineering]]** | the machine (gather → run → tools/sub-agents → verify) | **one pass through the machine** |
+| **[[loop-engineering]]** | the run (decide whether to run the pass again) | **the whole run** |
+| **Graph engineering** | the coordination (which loops run at all) | **the whole job** |
 
 *"Each layer wraps the one before it… skip a lower layer and the graph just fails in a more elaborate way."* — [[akshay-pachaar-graph-engineering-explainer-2026-07-25]]. This is the same "the harness, not the model, is the expensive part" thesis extended one level up: a graph of weak loops is just *distributed* failure.
+
+The crisp **"unit of work" per layer** framing above comes from **Avi Chawla** ([[raw-batch-roundup-2026-07-30-pt2]], a 2nd independent voice restating Pachaar's ladder): *"prompt and context both live inside the harness gather step. The harness is one pass, the loop decides whether to run that pass again, and the graph decides which loops run at all."* Corroborates the wrapping-stack model from a distinct practitioner. (A same-week hype tweet by @beamnxw touts an academic *"ETCLOVG seven-layer harness architecture… harness engineering as the primary determinant of AI agent reliability"* — same thesis, formalized; **tweet-sourced, paper not fetched — treat as an unverified pointer.**)
 
 ## Current State
 

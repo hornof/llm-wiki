@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-05-09
+last_updated: 2026-07-30
 
 ---
 
@@ -15,6 +15,8 @@ Karpathy's term for the professional engineering discipline of coordinating AI a
 
 ## Why It Matters
 Karpathy asserts the speedup from skilled agentic engineering is well beyond 10x — "people who are very good at this peak a lot more than 10x from my perspective right now." This is not a marginal productivity improvement; it is a capability transformation for engineers who master it.
+
+**Spec-clarity is the newly load-bearing skill (2026-07-30, [[raw-batch-roundup-2026-07-30-pt2]])**: Dax Raad (@thdxr) argues the leverage is now total — *"you now have the ability to play with every possible solution… refactor everything when you think of better patterns; if you're not producing the best software of your life right now something is wrong."* Ben Dickson names the corresponding skill shift: engineers *"used to start with vaguely defined goals and gradually crystallize"* the problem while exploring; AI coding agents instead require **clearly defining problems, goals, and all requirements up front** — front-loaded specification, not exploratory crystallization. This is the same behavioral pivot the [[claude-md-pattern]] and [[context-engineering|progressive-disclosure]] threads describe, restated as the individual-engineer skill: the bottleneck moves from *writing* to *specifying + judging*.
 
 ## Core Responsibilities of the Agentic Engineer
 1. **Spec and design authority**: the engineer owns the system design, not the agent. Example: insisting on a persistent unique user ID rather than letting the agent cross-correlate by email address.
