@@ -2,7 +2,7 @@
 name: Graph Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-27
+last_updated: 2026-07-30
 ---
 
 ## Definition
@@ -69,6 +69,9 @@ A rigorous independent synthesis paper ([[graph-engineering-loops-to-graphs-synt
 - **Hamel Husain — "Loop Engineering Is Dead. Enter Graph Engineering."** (2026-07-18) — the coinage article (referenced via the explainer; primary not fetched)
 - **Peter Steinberger** (2026-07-18): *"Are we still talking loops or did we shift to graphs yet?"* — the nine-word prompt that started it
 - **LangGraph** (Jan 2024), **AutoGen GraphFlow**, **Google ADK 2.0** — the pre-existing implementations the name retroactively describes
+
+### Adjacent trend — ontologies "are so back" (2026-07-30)
+A Latent Space piece (*"Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web,"* [[dailybrief-roundup-2026-07-30]]) argues agentic systems are pulling **formal ontologies + rules** back into fashion as **deterministic boundaries** — *"once you let a model make decisions, you stop tolerating probabilistic fuzz at the boundary."* This is the same move as graph engineering's **typed knowledge graph as shared memory** ([[knowledge-graph-4-prompts-synthesis-2026-07-24]]) and its **"deterministic code controls predictable routing"** rule: the reliability comes from *structure the model must respect*, not from more model. Framed as a bottom-up revival (enforced by agent error) rather than the semantic web's failed top-down encoding of human meaning — the ground-truth substrate the "many agents agreeing" failure mode needs.
 
 ## Related Concepts
 - [[loop-engineering]] — the layer directly below; a loop is a one-node self-edged graph, graphs coordinate many loops

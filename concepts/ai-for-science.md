@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-05-27
+last_updated: 2026-07-30
 ---
 
 ## Definition
@@ -29,6 +29,8 @@ Google DeepMind is the most prominent institution pursuing AI for science at sca
 | Virtual cell | Cell biology simulation | In development |
 
 A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT-5.x) are used in iterative dialogue to *derive novel theoretical results*. [[alex-lupsasca]] (OpenAI Science) documented GPT-5.2 deriving novel gluon-amplitude and graviton results that had stumped expert humans for over a year. This is a categorically different mode than AlphaFold-style application: model produces *frontier theoretical conjectures*, not interpolation on a well-defined problem. — [[latent-space-lupsasca-vibe-physics-2026-05]]
+
+**AI-assisted cryptanalysis as a research *methodology* (2026-07-28/30)** ([[dailybrief-roundup-2026-07-30]], via [[simon-willison|Willison]]): Anthropic researchers prompted **Claude to discover mathematical weaknesses** in the post-quantum signature scheme **HAWK** and in **weakened AES variants**, then **published the prompts**. The load-bearing signal is *methodological, not the flaws themselves* (**practical impact ≈ zero** — real-world crypto isn't broken): it demonstrates a new mode of **AI-as-research-accelerant** — prompt-engineering a model to hunt for attack surfaces in a formal domain, with the prompt chain as the reproducible artifact. Extends the vibe-physics pattern (novel research-grade findings) from theoretical physics to **cryptanalysis/security**; a datapoint for Jack Clark's *"automation reaching too-hard-to-automate work"* thread ([[jack-clark]]).
 
 ## Simulations as New Science
 Hassabis argues AI-powered simulations could unlock entirely new sciences for emergent-system domains (economics, social science) by enabling repeatable controlled experiments that are impossible in the real world. Economics, for example, can't run "interest rates +0.5%" a thousand times; accurate simulators could change this.
