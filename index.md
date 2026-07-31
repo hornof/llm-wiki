@@ -3,6 +3,7 @@
 ## Tools & Frameworks
 - [[goose]] — Block's agent coding harness; AI-native tooling dogfooded internally since early 2024
 - [[buzz]] — Block's open-source (Apache-2.0, Nostr) workspace where people + agents are equal cryptographically-identified members; "one context" over Slack+GitHub (Jul 2026)
+- [[qm]] — Y Combinator's open-source (MIT) multiplayer agent harness for a whole company (yc-software/qm, July 2026); cloud-first, Slack/web UI, company-brain connectors; direct peer to Buzz in the org-scale-harness category
 - [[claude-code]] — Anthropic's CLI/agentic coding tool; recommended layer for LLM Wiki workflows
 - [[codex]] — OpenAI's flagship AI-coding-product; practitioner-tier preference dominance (Greg Isenberg Jun 16: 4/4 picks); Jun 17 open-source-model-routing + self-hosted-local-endpoints (first wiki-captured operator-substrate-control-friendly canonical-positioning)
 - [[openclaw]] — Peter Steinberger open-source agent-infrastructure; heartbeats canonical-pattern (Sydney Runkle LangChain Jun 17 validation); 10-hour multi-hour-runs scale (Crabbox + GPT-5.5)
