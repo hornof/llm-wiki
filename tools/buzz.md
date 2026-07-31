@@ -3,7 +3,7 @@ name: Buzz
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-07-28
+last_updated: 2026-07-31
 ---
 
 ## What It Is
@@ -34,6 +34,7 @@ last_updated: 2026-07-28
 - **[[river|River]]** (Shopify) — same *agent-as-shared-team-member + transparency* thesis, but River is internal/private-Slack-based (governance by audience); buzz is open-source, Nostr-based, cryptographic-identity (governance by signed attribution). Two takes on [[ai-native-organizations|AI-native-org]] transparency substrate.
 - **Slack + GitHub** — the incumbent stack buzz explicitly aims to replace by removing the seams between them.
 - **PromptQL** (Hasura / Tanmai Gopal) — competing "AI version of Slack" claim (*"$136M to kill Slack,"* 2026-07-08); a reply to @jtwald's post argued PromptQL shipped the multiplayer-agent-workspace layer weeks earlier and has been in production since March. Prior-art contender for the same "agent-collaboration layer," closed/hosted vs Buzz's open-source + cryptographic-identity model. *(Single-mention competitor claim; not independently verified.)*
+- **[[qm|QM]]** (Y Combinator, 2026-07-31) — the closest direct peer: another **open-source multiplayer agent harness for a whole company** (MIT, `yc-software/qm`), run internally across YC's accounting/legal/events/engineering. Cloud-first with Slack/web UI + "company brain" connectors, vs Buzz's Nostr + cryptographic-identity model. Two same-cycle open-source entrants confirm the *"multiplayer agent harness"* is becoming a real, contested category — not a one-off.
 
 ## Resources
 - [[block-buzz-launch-2026-07-22]] — Jack Dorsey's launch announcement (primary)
