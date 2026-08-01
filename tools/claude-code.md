@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-06-08
+last_updated: 2026-07-31
 ---
 
 
@@ -41,6 +41,7 @@ Install via npm (`npm install -g @anthropic-ai/claude-code`), authenticate, then
 
 ## Key Concepts
 - **CLAUDE.md**: configuration file in a project directory that gives Claude persistent context and instructions — equivalent to a system prompt for a codebase. Per Anthropic docs (cited in [[mnilax-claude-md-12-rules-2026-05-09]]): **advisory — followed ~80% of the time; compliance drops sharply past ~200 lines** as rules get buried. See [[claude-md-pattern]] for the practitioner-evolved discipline of treating it as a behavioral contract rather than a config dump.
+- **Cloud sessions ("cloud computers", included with Pro/Max)**: Claude Code cloud sessions are *"basically disposable Linux VMs"* — they clone private repos, install dependencies, run tests, push branches, and **keep working after you close your laptop** ([[dailybrief-roundup-2026-07-31]], r/ClaudeAI). Practitioner note: each session starts context-blind, so power users pair them with a **context repository** (see [[claude-md-pattern|CLAUDE.md context-repo pattern]]) so every VM onboards itself first. The [[loop-engineering|"runs it from his phone" / durable-session]] substrate, now first-party.
 - **Tool use**: Claude Code can read/write files, run shell commands, search the web, and call MCP servers
 - **Hooks**: shell commands that run automatically on events (e.g., after each response)
 - **Harnesses**: the internal prompting/settings layer baked into IDE integrations (Claude Code, Cursor, Windsurf, Copilot); distinct from orchestration frameworks like LangChain or CrewAI

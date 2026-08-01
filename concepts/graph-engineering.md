@@ -2,7 +2,7 @@
 name: Graph Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 ---
 
 ## Definition
@@ -25,7 +25,7 @@ The load-bearing reframe: **a single agent loop is just a one-node graph with an
 
 *"Each layer wraps the one before it… skip a lower layer and the graph just fails in a more elaborate way."* — [[akshay-pachaar-graph-engineering-explainer-2026-07-25]]. This is the same "the harness, not the model, is the expensive part" thesis extended one level up: a graph of weak loops is just *distributed* failure.
 
-The crisp **"unit of work" per layer** framing above comes from **Avi Chawla** ([[raw-batch-roundup-2026-07-30-pt2]], a 2nd independent voice restating Pachaar's ladder): *"prompt and context both live inside the harness gather step. The harness is one pass, the loop decides whether to run that pass again, and the graph decides which loops run at all."* Corroborates the wrapping-stack model from a distinct practitioner. (A same-week hype tweet by @beamnxw touts an academic *"ETCLOVG seven-layer harness architecture… harness engineering as the primary determinant of AI agent reliability"* — same thesis, formalized; **tweet-sourced, paper not fetched — treat as an unverified pointer.**)
+The crisp **"unit of work" per layer** framing above comes from **Avi Chawla** ([[raw-batch-roundup-2026-07-30-pt2]], a 2nd independent voice restating Pachaar's ladder): *"prompt and context both live inside the harness gather step. The harness is one pass, the loop decides whether to run that pass again, and the graph decides which loops run at all."* Corroborates the wrapping-stack model from a distinct practitioner. A **3rd voice** ([[beamnxw-harness-loop-graph-engineering-2026-07-25|@beamnxw's explainer]]) supplies the sharpest three-way distinction and mnemonic: **harness = the machinery around the model (environment); loop = the repeated work-and-feedback cycle (feedback); graph = the explicit workflow topology — nodes/branches/joins/state/controlled-cycles (flow)** → **"environment → feedback → flow."** The distinctions become load-bearing *"the moment an agent leaves a demo notebook and starts touching files, APIs, customers, or production code."* *(Correction: an earlier note here cited a "ETCLOVG seven-layer paper" — that was tweet-hype; the actual source is @beamnxw's practitioner explainer, not a peer-reviewed paper.)*
 
 ## Current State
 
