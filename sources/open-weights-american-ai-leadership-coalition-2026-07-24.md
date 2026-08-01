@@ -27,5 +27,9 @@ American Innovators Network · **Andreessen Horowitz** · Arcee AI · Arena · *
 
 Upgrades the wiki's [[frontier-ai-governance]] coverage from a secondhand CNBC line to the actual coalition text — and reframes the "incumbents oppose regulation" read: the signatory list spans frontier labs, open-weight vendors, enterprise incumbents, cyber-defense firms, VCs, and foundations, arguing openness as a *safety* posture, not merely a commercial one. The countervailing weight against the [[us-treasury-china-ai-sanctions-threat-2026-07-21|Treasury sanctions threat]].
 
+## Update — 230+ signatories (2026-07-30)
+
+One week after launch, Microsoft's **Brad Smith** (@BradSmi, [[dailybrief-roundup-2026-07-31]]) reported the letter had grown from ~25 to **"more than 230 companies and organizations from across the tech sector,"** thanking **Nvidia, a16z, and Palantir** for co-leading the effort with Microsoft. The open-ecosystem camp consolidated into a large bloc fast — reframing the earlier "25-signatory" framing as an initial anchor, not the ceiling.
+
 ## Pages Updated
 - [[frontier-ai-governance]]

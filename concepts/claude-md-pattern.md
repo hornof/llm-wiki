@@ -2,7 +2,7 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-07-29
+last_updated: 2026-07-31
 ---
 
 ## Definition
@@ -53,6 +53,15 @@ A community-quoted claim ([[mnilax-claude-md-12-rules-2026-05-09]], citing Anthr
 - **Rules over examples** — examples cost ~10× the context of rules and Claude over-fits to them.
 - **No identity prompts** — "be a senior engineer" doesn't move behavior; Claude already thinks it's senior. Imperatives close the thinking-vs-doing gap; identity prompts don't.
 - **Customize, don't copy** — keep the rules that map to mistakes you've actually made; drop the rest.
+
+### The context-repository pattern (for cloud sessions, 2026-07-31)
+A practitioner technique that extends CLAUDE.md to **[[claude-code|Claude Code cloud sessions]]** (disposable Linux VMs that start context-blind): keep **one small private repo every cloud VM opens first** ([[dailybrief-roundup-2026-07-31]], r/ClaudeAI `blitzos`). Its structure:
+- **`CLAUDE.md`** — the agent's onboarding doc: maps the repos, architecture, conventions, and workflows.
+- **`.gitmodules`** — references the actual project repos *without copying their code* (so the context repo stays small).
+- **`sessions/`** — short **handoff notes** from previous agents (cross-session memory the VM lacks natively).
+- **`skills/`** — the skills every new cloud VM should have.
+
+This is the CLAUDE.md-as-behavioral-contract discipline scaled to a *fleet of ephemeral agents*: the file isn't just per-project config, it's the **onboarding + handoff layer** that gives each disposable VM the org/architecture context it starts without. Pairs with the [[handbook-md-long-docs-dont-govern-agents-2026-07-29|"keep it lean, structure over prose"]] finding — the context repo is a *map + index*, not a long rulebook.
 
 ### Connection to other Claude Code patterns
 - **Skill writing** ([[claude-code]] §Skill Writing) — same imperative-over-conversational logic; descriptions = WHEN-not-just-WHAT, directive verbs, explicit output format.
