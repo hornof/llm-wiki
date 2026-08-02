@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-06-05
+last_updated: 2026-08-02
 ---
 
 ## What This Is
@@ -151,6 +151,19 @@ Consulting firms (PwC, Accenture) deploying Anthropic / OpenAI APIs directly are
 - Chamath has commercial interest (8090) in the framing.
 - 17.5% guaranteed IRR claim and Anthropic $1.5B venture details captured with verification-pending caveat — primary documents not surfaced.
 - Counter-take that consulting firms thrive (Anakin via thread): the consulting layer captures value precisely because integrating AI into enterprise workflow is the binding constraint — *"models are interchangeable inputs; advantage comes from distribution, data, and execution at scale."* Worth holding both framings.
+
+## Chamath's 6-Layer AI Value-Chain Investing Guide (2026-08-01)
+
+Chamath ([[raw-batch-roundup-2026-08-02]]) lays out where he sees value accruing across the AI stack — a sharper, investment-side restatement of the two-tier diagnosis above. His six layers, most-to-least bullish where he's positioned:
+
+1. **LPS — "Land, Power, Shell"**: **most bullish**, fastest cash-on-cash. Energized land + grid power (he + partner acquired *"almost 6GW… from today thru 2029"*, grid + behind-the-meter). *"As data centers get more pushback, energized land can explode in value."* → the [[ai-energy-efficiency|power/energy bottleneck]] as an ownable, un-rebuildable moat.
+2. **Silicon**: **out**. Helped start Groq (2015, licensed to Nvidia for $20B Dec 2025) — but now *"perf demands too high, manufacturing precision too complex, supply-chain influence impossible for a startup."* Capital will be wasted chasing Groq/Cerebras.
+3. **Clouds**: lucrative but hard/expensive; risk-skewed because *"as alignment becomes more important, clouds will be asked to build robust KYC and attest to it"* — he won't own the liability when USG says a cloud enabled a bad actor.
+4. **Models**: the open economic question — *"how much of the revenue is because of tokenmaxxing and poor model behavior?"* If a lot, annualized revenues diminish even as token consumption inflects up. The [[ai-margin-collapse|margin]] question, restated.
+5. **Harnesses**: *"where the action is, why I started 8090."* The harness lets an enterprise **own its proprietary context** — *"data, workflows, evals, business rules"* — what Alex Karp calls its *"alpha."* This creates **low, model-agnostic switching costs**, reinforcing his bearishness at layer 4. The [[reverse-information-paradox|own-your-learning-loop]] / [[chamath-decision-context-agents|8090 Software Factory]] thesis as investment logic.
+6. **Applications**: long-term winner alongside harnesses — *"off-the-shelf is largely replaced with custom software… alpha embedded, proprietary by nature."* Build-once-sell-repeatedly SaaS GTM is *"a laggard motion for a world that doesn't need it."* — the [[ai-native-organizations|custom-software-eats-SaaS]] endgame.
+
+**The unifying rule** (via NateOnTop, Chamath-endorsed): *"you're most bullish where the moat is something you own outright and can't be rebuilt — energized land, an enterprise's alpha — and out where you have to re-win a capital and engineering race."* Note the standing conflict-of-interest: layers 5–6 are Chamath's own 8090 position.
 
 ## Public-Incumbent Restructuring Signals (May 2026)
 

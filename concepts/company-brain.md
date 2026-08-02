@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-06-15
+last_updated: 2026-08-02
 ---
 
 ## Definition
@@ -46,6 +46,10 @@ If one is missing, you get something useful but incomplete:
 - Communication without structure → transcripts and summaries
 - Reasoning without provenance → plausible guesses
 - Action without context → brittle automation
+
+## Practitioner instance: the daily market-signal file (Greg Isenberg, 2026-08-02)
+
+[[greg-isenberg|Greg Isenberg]] ([[raw-batch-roundup-2026-08-02]]) names a minimal, concrete company-brain artifact: *"every startup should have a daily markdown file called `what_the_market_is_telling_us.md`"* that **updates every morning from the places where customer truth already lives** — Stripe (who pays/upgrades/churns), PostHog (product behavior), Intercom/Plain (support complaints), Granola/Gmeet transcripts (sales calls), HubSpot/Salesforce (CRM/lost-deal reasons), Linear/Jira/GitHub Issues (bugs/requests), + an **Ideabrowser MCP** for outside market signal. This is the **factual-memory + integration** layers of a company brain compressed into one continuously-regenerated markdown file — the [[claude-md-pattern|markdown-as-substrate]] discipline applied to *market awareness* rather than coding rules, and the reason connectors (the [[mcp|MCP]] layer) are what make a company brain more than a static doc.
 
 ## Cross-Cutting Principle: Universal Substrate, Multiple Ontologies
 
