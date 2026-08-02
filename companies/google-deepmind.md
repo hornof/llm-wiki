@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-07-30
+last_updated: 2026-08-02
 ---
 
 ## What It Is
@@ -45,6 +45,8 @@ Four coordinated product surfaces announced at I/O 2026:
 **Strategic posture**: single-fast-model + massive distribution surface (YouTube Shorts) — structurally inverse to Anthropic's task-tiered model-routing-default discipline ([[svpino-subagent-pilled-2026-05-15|svpino subagent-pilled]] / [[zephyr-7-claude-setups-2026-05-15|Zephyr setup #6]]). — [[google-io-2026-flash-omni-spark-antigravity]]
 
 **May 25 follow-up — Google AI Studio native Android app builder**: Logan Kilpatrick announces free no-code Android-app generation in AI Studio; **250K Android apps "created" in ~1 week** since launch (Logan: *">99% of these folks never built an Android app before"*). Android's 3B-user surface as the deployment funnel. **Min Choi load-bearing skeptical question**: how many of the 250K have actually been submitted/approved to Google Play? — submit/approval funnel could narrow this by 1-2 orders of magnitude. **Lucas Beyer (Google researcher) spotted "generate music" in the AI Studio UI** — first wiki signal of an undisclosed Google music-generation surface. Continues Google's distribution-volume-over-margin strategy alongside Gemini 3.5 Flash + Omni YouTube Shorts integration — three consumer-distribution surfaces in five days. — [[google-ai-studio-android-app-builder-2026-05-25]]
+
+**2026-07-31 — a stack of free consumer AI tools** ([[raw-batch-roundup-2026-08-02]], r/ArtificialInteligence, 14 named): a circulating list underscores Google's **distribution-volume-over-margin** strategy — **Pomelli** (URL → on-brand social/ad campaigns), **Mixboard** (AI moodboard, "Pinterest meets Canva"), **Stitch** (describe a UI → HTML/CSS/Tailwind), **Opal** (no-code AI mini-app + shareable link), and a notable rename: **NotebookLM → "Gemini Notebook"** (folding the standout research tool under the Gemini brand). Individually minor, collectively the same play as Gemini Flash/Omni/AI-Studio: free tools at consumer scale as the funnel. *(Listicle-sourced; product surfaces real, adoption unmeasured.)*
 
 **June 3 follow-up — Gemma 4 12B and 26B open-weights release**: Google releases **Gemma 4 12B (and 26B)** open-weights models; **Gemma 4 12B reportedly beats the larger Gemma 3 27B on GPQA + coding benchmarks**. Brief framing: *"efficiency gains in open weights (local execution on 16GB VRAM). Signals where the model frontier is moving for dev-tool vendors and cost-conscious B2B builders."* **First wiki-captured Gemma 4 release**. Pairs structurally with [[hassid-cant-beat-ai-cost-collapse-2026-05-18|the cost-collapse thesis]] at the open-weights layer — capability-per-parameter scaling continues on the open-weights side, not just frontier-vendor-side. **Verification-pending**: license terms (Gemma vs Apache-2.0); specific benchmark deltas; multimodal capabilities. — [[dailybrief-roundup-2026-06-03]]
 

@@ -3,7 +3,7 @@ name: Matt Pocock
 type: person
 affiliation: independent (Total TypeScript course; mattpocockuk online)
 signal_sources: [twitter, github, youtube]
-last_updated: 2026-06-01
+last_updated: 2026-08-02
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Matt Pocock (X handle `@mattpocockuk`) is a well-known TypeScript educator (Tota
 
 ## Their Current Focus
 
+- **2026-08-01 — "grill-driven development" (GDD)** ([[raw-batch-roundup-2026-08-02]]): pushes back on his skills being filed under *spec-driven development*. His specs are *"intended to be deleted immediately — not kept around, or treated as source code"*; they're *"just a projection of the decisions made during grilling."* Value is the **interrogation-to-clarity** process, not the artifact; proposes **GDD** (vs. Birgitta Boeckeler's "spec-first," which she keeps under SDD). Sharpens the [[agentic-engineering|spec-clarity]] thread: the durable asset is the decisions, not a persisted spec doc.
 - **`mattpocock/skills`** repository ([[mattpocock-skills-repo-2026-05-30]]) — the highest-star wiki-captured cross-vendor Claude-Code/Codex-skills distribution; `npx skills@latest` install model
 - **TypeScript-and-AI educator surface** — Total TypeScript course; YouTube; X content
 - **Practitioner-friction surfacing** — example: 2026-05-31 frustration post on Claude Code's workflow-trigger-detection ([[dailybrief-roundup-2026-05-31]])
