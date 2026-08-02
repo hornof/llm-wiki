@@ -64,7 +64,7 @@ After a year of design-partner work, [[ashwingop]] reframed the architecture abo
 
 ## Single Brain 5-layer architecture (Eric Siu, 2026-05-29)
 
-A **2nd substantive vendor surface** in the Company Brain space (after Sentra/Ashwingop): [[eric-siu]] (Single Grain CEO; Single Brain founder) publishes [[eric-siu-single-brain-5-layer-company-brain-2026-05-29|the Single Brain canonical 5-layer architecture]] grounded in concrete Single Grain implementation metrics. **Validates Company Brain as multi-vendor canonical-category**, not single-vendor positioning.
+A **2nd substantive vendor surface** in the Company Brain space (after Sentra/Ashwingop): Eric Siu (Single Grain CEO; Single Brain founder) publishes [[eric-siu-single-brain-5-layer-company-brain-2026-05-29|the Single Brain canonical 5-layer architecture]] grounded in concrete Single Grain implementation metrics. **Validates Company Brain as multi-vendor canonical-category**, not single-vendor positioning.
 
 The 5 layers (stacked bottom-up):
 

@@ -39,7 +39,7 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 - Podcast: [Startup Ideas Podcast (@startupideaspod)](https://x.com/startupideaspod)
 - Wiki sources: [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08]], [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]
 - Related concepts: [[ai-native-organizations]], [[loop-engineering]]
-- Related people: [[theo-tabah]] (Startup Ideas co-host); [[ashwingop|Ashwin Gopalan / Sentra]] (Company Brain three-layer-memory-substrate sibling framing)
+- Related people: Theo Tabah (Startup Ideas co-host); [[ashwingop|Ashwin Gopalan / Sentra]] (Company Brain three-layer-memory-substrate sibling framing)
 
 ## Verification-pending
 
