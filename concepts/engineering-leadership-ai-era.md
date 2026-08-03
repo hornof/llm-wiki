@@ -2,7 +2,7 @@
 name: Engineering Leadership in the AI Era
 type: concept
 maturity: emerging
-last_updated: 2026-07-30
+last_updated: 2026-08-02
 ---
 
 ## Definition
@@ -31,6 +31,8 @@ For a practitioner deciding *how* to re-enter hands-on AI engineering (the wiki 
 
 ### Where the demand actually is — the forward-deployed engineer (2026-07-30)
 The flip side of the leadership squeeze: the role the AI industry is *scrambling* to hire is the **forward-deployed engineer (FDE)** — a Palantir-origin hybrid of engineer + solutions-architect + customer-embed who makes AI actually deliver ROI inside a specific enterprise. Per TechCrunch ([[dailybrief-roundup-2026-07-30]]), only *"~2,000 U.S. engineers can deliver meaningful AI ROI,"* and enterprises are racing to hire them — strong demand against a hard supply bottleneck. **Owner-relevant**: this is the concrete, well-paid, hands-on-adjacent role that sits exactly where a returning VP-Eng/CTO's judgment + build ability + business-reading skills converge — the *"role closer to IC or manager"* Eno Reyes flagged as *"never more valuable,"* now with a name and a market. The scarce, in-demand skill isn't the org-chart title; it's the ability to turn a capable model into governed, working enterprise value.
+
+**Now its own page: [[forward-deployed-engineer]]** ([[sairahul1-fde-no-bs-guide-2026-07-31]], 2026-07-31) — with hard numbers: FDE postings **up 729%** (643→5,330, Apr 2025→2026), senior FDE comp **$785K+** at Anthropic/OpenAI, and **$11.5B raised in one week** on labs' deployment vehicles (Anthropic $1.5B JV + OpenAI's $10B "Deployment Company"). Palantir's framing seals the connection to this page: *"an FDE is a startup CTO embedded inside someone else's company."* The macro driver is the [[ai-labor-market-impacts|MIT 95%-no-impact study]] — the deployment gap, staffed.
 
 ### The counterpoint threads the wiki already tracks
 - **IC-side role shift** ([[andrej-karpathy]]): the individual-contributor job moves to *"taste, judgment, spec ownership"* — the "bookends" of deciding-what and judging-quality ([[greg-isenberg|Isenberg]]'s *"AI eats the middle"*). The leadership-side squeeze here is the management-tier counterpart.
