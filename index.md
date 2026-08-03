@@ -64,6 +64,7 @@
 - [[context-engineering]] — building the full information environment (memory/instructions/files/state) an agent sees before acting; "context is the OS for AI"; the umbrella over CLAUDE.md/SKILL.md/OKF/MCP/loops; succeeds prompt engineering
 - [[ai-native-organizations]] — replacing corporate hierarchy with AI world models; Block's architecture; DRIs and player-coaches
 - [[engineering-leadership-ai-era]] — the repricing of CTO/VP-Eng/Head-of-Eng roles under AI (higher expectations, lower leverage → burnout, fractional, founder paths); Gergely Orosz's mid-2026 exodus signal; owner-relevant
+- [[forward-deployed-engineer]] — "tech's hottest job": the FDE closes the last-mile between an AI product and enterprise value (Palantir-origin, "a startup CTO embedded in someone else's company"); postings +729%, senior comp $785K+ at frontier labs; MIT 95%-no-impact study is the driver; owner-relevant re-entry path
 - [[prompt-injection]] — adversary text read as instructions; confused-deputy attacks on tool-using agents (GitLost exploit)
 - [[openai-deployment-simulation]] — OpenAI's pre-release safety eval: predict model behavior by simulating deployment on live traffic
 - [[skill-md]] — SKILL.md primitive: per-capability procedure + verification; outer-loop memory for loop engineering

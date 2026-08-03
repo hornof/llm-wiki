@@ -2,7 +2,7 @@
 name: Factory AI
 type: company
 status: active
-last_updated: 2026-07-29
+last_updated: 2026-08-02
 ---
 
 ## What It Is
@@ -14,6 +14,7 @@ last_updated: 2026-07-29
 - **Product surface**: **Droid** agents automate the coding→testing→deployment pipeline; a **Factory Desktop App** with **Design Mode** (2026-07-28) lets Droid build artifacts like `.pptx` slide decks previewable in-browser and editable by natural-language instruction (*"highlight the L3+ bars in orange"*) — the [[karpathy-html-output-taxonomy-2026-05-08|render-the-output]] pattern applied to presentations.
 - **Positioning**: markets the full *"Software Factory"* dashboard framing (live pipeline, automations, throughput, validations, merged PRs, incident telemetry) — a dev-org control plane, not just an IDE assistant. Competes with [[claude-code]], [[codex]], and [[cursor]] in the coding-agent market, but pitched at the **org/pipeline** level.
 - **Open Secure AI Alliance** (2026-07-28): Factory joined the NVIDIA-backed alliance to *"build and share open tools for securing AI systems"* — an agent-security posture signal (pairs with the [[prompt-injection]] threat surface).
+- **Hiring-velocity signal (2026-08-02)** ([[raw-batch-roundup-2026-08-02-pt2]]): in a @benln thread ranking fastest-growing startups by hiring velocity, a Factory team member (Madison Faulkner) noted Factory *"2x'd in size in the last 3 months."* Self-reported, unverified, but a headcount-growth datapoint for a Tier-2 [[forward-deployed-engineer|FDE]]-hiring applied-AI startup.
 - *(Traction is product-announcement / self-described so far; no independent adoption metrics captured yet — treat as an emerging named entrant.)*
 
 ## Compared To
