@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-07-20
+last_updated: 2026-08-04
 ---
 
 ## What It Is
@@ -85,6 +85,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 
 ## Traction Signals
 
+- **2026-08-04: $10B cloud deal with Volta** ([[dailybrief-roundup-2026-08-04]], TechCrunch): Anthropic signs a **$10B deal with AI-cloud startup Volta** — its 3rd major compute-supply lock-in after Salesforce and Amazon (and the [[anthropic-spacex-higher-limits-2026-05-06|SpaceX/Colossus]] compute). Reinforces the read that at frontier scale the moat is **compute infrastructure + inference economics**, not API-only positioning — the lab outsources the commodity compute race to keep R&D on reasoning. *(Volta is a young cloud startup; deliverability of promised density/efficiency is the open question — no page yet.)*
+- **2026-08-04: Tino Cuéllar joins as Chief Global Affairs Officer** ([[dailybrief-roundup-2026-08-04]], anthropic.com): **Mariano-Florentino (Tino) Cuéllar** (former California Supreme Court justice; Carnegie Endowment president) takes a senior policy/governance role — a signal of Anthropic staffing up for **government + standards engagement** as the [[frontier-ai-governance|governance fight]] intensifies. Complements [[jack-clark|Jack Clark's]] policy surface.
 - **2026-07-20: $1.5B copyright settlement approved** ([[anthropic-copyright-settlement-1-5b-approved-2026-07-20]]): a court approved Anthropic's **$1.5B** class-action settlement with authors + publishers — **$3,000/work across ~500,000 works**. Key nuance: Judge Alsup ruled **training on copyrighted text *is* fair use** (Anthropic won the core question); the liability was for **acquiring the corpus via piracy** (Library Genesis / Pirate Library Mirror). Settles the case but sets **no binding appellate precedent** (won't be appealed). Largest AI-copyright payout captured; parallel suits still pending vs Google/Meta/Midjourney/OpenAI.
 - **2026-07-06: Applied-government wedge** — Anthropic case study: the Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems. Vendor-published, unverified, marketing-adjacent — but a directional signal of the high-trust-vertical GTM (government/finance/science) — [[alberta-government-claude-cybersecurity-2026-07-06]]
 - **2026-06-30: Cross-vendor jailbreak severity framework** — shipped with the Fable 5 redeployment alongside Amazon, Microsoft, Google, and other Project Glasswing participants: a consensus 4-criteria severity scale for LLM jailbreaks. Positions Anthropic as the convener of an industry safety-scoring standard — [[jailbreak-severity-framework]], [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30]]
