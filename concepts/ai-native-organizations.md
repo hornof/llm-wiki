@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-07-30
+last_updated: 2026-08-04
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -47,6 +47,8 @@ Genuinely early. [[block|Block]] is the primary public example; **[[uber|Uber]] 
 - Remote-first, artifact-rich work (everything must be machine-readable)
 - Rich proprietary data signal (Block has both sides of financial transactions)
 - Leadership willing to dismantle middle management (politically difficult)
+
+**[[replit|Replit]] — "The Self-Driving Company" (published telemetry, 2026-08, [[dailybrief-roundup-2026-08-04]])**: a **3rd public production datapoint**, and the first with released metrics from *weaving agents into the business fabric* rather than leaving them in chat windows. Jan→Jun: **lines of code +5.8×**; **output per engineer nearly tripled** (holding the cohort constant) while the team doubled; **code-review latency flat** because an agent reviews and pulls in a second human *only when risk warrants* (30% human-review time saved); reversion/incident rates flat; support closes its hardest escalated tickets **60% faster**; and it **churned a seven-figure SaaS contract** because the agent-built internal replacement was better (matched specialized vendor tools *"at a tenth of the cost"*). Employee framing: *"people don't feel like they've been automated. They feel like they've been promoted."* John Sviokla (Forbes) maps this as the **4th and final stage of a "RISE" adoption model** — Research → Islands of Innovation → Scaling → **Emergent Intelligence**, where *"intelligence stops living in individual tools and starts living in the connective tissue of the firm — artifacts, orchestration layer, human-machine contracts."* His design-exercise prompt is pure org-design (not model-choice): which workflows have *verifiable outcomes* an agent can be checked against; a **semantic layer** over data (sources of truth); **guardrails first** (access policies, token proxies, audit logging); who holds authority on escalation. *(Replit is an AI-coding-platform frontier case; telemetry is self-published.)*
 
 Sequoia called this "significant enough that it will reshape how companies of all kinds operate." That's a strong claim. The honest answer is we won't know for several years.
 

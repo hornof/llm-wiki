@@ -230,6 +230,7 @@
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
 - [[openteams]] — Travis Oliphant's (NumPy/Anaconda) co.; open-source Nebari stack + "Distributed AI Economy" (Intelligence Hubs / Frames / Cogs / Ops) for sovereign, owned enterprise AI; vision-stage (June 2026 whitepaper)
 - [[factory-ai]] — "agent-native software development"; Droid coding agents automating the code→test→deploy pipeline; the coding-pipeline instance of the software-factory category (cf. 8090, OpenTeams); co-founder Eno Reyes
+- [[replit]] — browser AI coding platform (Amjad Masad); "The Self-Driving Company" — a leading AI-native-org case with published telemetry (+5.8x LOC, tripled output/engineer, churned a 7-figure SaaS contract); "promoted not automated"
 - [[physical-intelligence]] — foundation models for robots from human teleoperator data; $1B raised; founded 2024
 - [[reflection]] — open-source AI lab challenging DeepSeek; $2.1B, ex-DeepMind founders Misha Laskin & Ioannis Antonoglou
 - [[safe-superintelligence]] — AI research lab; $3B raised; Palo Alto; founded 2024
