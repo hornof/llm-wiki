@@ -3,7 +3,7 @@ name: Marble
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-06-03
+last_updated: 2026-08-04
 ---
 
 ## What It Is
