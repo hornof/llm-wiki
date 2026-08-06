@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-08-02
+last_updated: 2026-08-06
 ---
 
 ## What It Is
@@ -20,6 +20,8 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 ## Key People
 - [[demis-hassabis]] — CEO; neuroscience PhD; strict AGI definition; Nobel laureate
 - [[pushmeet-kohli]] — Head of AI for Science group (nearly a decade); leads virtual cell and simulation research
+
+**Major departure (2026-08-06)** ([[raw-batch-roundup-2026-08-06]]): **[[jeff-dean|Jeff Dean]]** (Chief Scientist; Google Brain co-founder; MapReduce/Bigtable/TensorFlow) leaves after 27 years to co-found **[[discoloop-ai|DiscoLoop AI]]** — taking **Oriol Vinyals** (Gemini co-lead, AlphaStar/AlphaFold) and **Quoc Le** (seq2seq/AutoML), plus Google-systems legend **Sanjay Ghemawat**. A **top-of-org brain-drain**: four of Google/DeepMind's most foundational systems + ML researchers departing together. A structural talent-retention signal at the frontier as elite teams keep spinning out ([[thinking-machines]], [[safe-superintelligence]], now DiscoLoop).
 
 ## Notable Research
 - **AlphaGo / AlphaZero**: superhuman Go and chess via reinforcement learning
