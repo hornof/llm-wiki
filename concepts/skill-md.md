@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-07-12
+last_updated: 2026-08-06
 ---
 
 ## Definition
@@ -19,6 +19,7 @@ SKILL.md is the unit of **outer-loop memory** in [[loop-engineering|loop enginee
 - **Plugin-level substrate**: surfaced as the Skills half of the `commands/` + `skills/` plugin structure in the wiki owner's [[hornof-knowledge-work-plugins-claude-cowork-2026-06-17|knowledge-work-plugins]] — file-based markdown + JSON, no code or build steps.
 - **Operator-discipline pattern**: [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|0xMovez's playbook]] frames "save the workflow as a Skill" and "turn verify-feedback into a permanent rule" as core self-improving-loop steps — the Document-to-Skill vs Skill-captures-process distinction.
 - Adjacent to vendor-neutral siblings (AGENTS.md) and project-root discipline files (CLAUDE.md, CONSTRAINTS.md).
+- **The load-bearing distinction — skills are progressive-disclosure, config is always-on (2026-08-06)** ([[raw-batch-roundup-2026-08-06]], r/AskVibecoders guide): *"A config file like CLAUDE.md or AGENTS.md pushes instructions into **every** session whether they're relevant or not. A skill sits idle until the agent reads its **description** and decides the current task fits, then loads the full body."* This is the cleanest practitioner statement of *why* skills exist as a separate primitive — they're the **selective-context / progressive-disclosure** answer to the [[handbook-md-long-docs-dont-govern-agents-2026-07-29|long-doc-doesn't-govern]] + [[context-engineering|context-engineering]] problem: don't push everything into every session; let the task pull in what it needs. Format: `SKILL.md` (required — YAML frontmatter `name` + **`description` carrying the trigger conditions**, e.g. *"Trigger when reviewing PRs… Do not use for architecture reviews, use the architecture skill instead"*) + optional `scripts/` `references/` `assets/`. The **description is the routing surface** — it's what the agent reads to decide whether to load the body.
 
 ## Related Concepts
 

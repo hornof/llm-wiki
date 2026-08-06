@@ -113,6 +113,7 @@
 - [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute
 - [[aakashgupta]] — X/product analyst; AI company strategy and management coverage
 - [[demis-hassabis]] — CEO Google DeepMind; Nobel laureate; AGI by 2030; Einstein Test; ex-Bullfrog/Elixir game designer
+- [[jeff-dean]] — legendary Google systems/ML engineer (MapReduce/Bigtable/TensorFlow/Google Brain, ex-Chief-Scientist Google DeepMind); left Google after 27 years (Aug 2026) to co-found DiscoLoop AI
 - [[yann-lecun]] — CNN inventor; Turing Award; founder AMI Labs; "LLMs are a dead end for superintelligence"
 - [[andrej-karpathy]] — AI researcher/educator; founder Eureka Labs; Software 3.0; vibe coding vs. agentic engineering
 - [[andrew-ng]] — co-founder Google Brain; DeepLearning.AI; 8M+ students; key AI educator
@@ -230,6 +231,7 @@
 - [[openai]] — GPT family, ChatGPT, GPT-Image-2, OpenAI API, Agents SDK
 - [[openteams]] — Travis Oliphant's (NumPy/Anaconda) co.; open-source Nebari stack + "Distributed AI Economy" (Intelligence Hubs / Frames / Cogs / Ops) for sovereign, owned enterprise AI; vision-stage (June 2026 whitepaper)
 - [[factory-ai]] — "agent-native software development"; Droid coding agents automating the code→test→deploy pipeline; the coding-pipeline instance of the software-factory category (cf. 8090, OpenTeams); co-founder Eno Reyes
+- [[discoloop-ai]] — new AI lab (Aug 2026) founded by Jeff Dean + Sanjay Ghemawat + Oriol Vinyals + Quoc Le on departing Google; all-star Google-systems/ML pedigree; focus undisclosed
 - [[replit]] — browser AI coding platform (Amjad Masad); "The Self-Driving Company" — a leading AI-native-org case with published telemetry (+5.8x LOC, tripled output/engineer, churned a 7-figure SaaS contract); "promoted not automated"
 - [[physical-intelligence]] — foundation models for robots from human teleoperator data; $1B raised; founded 2024
 - [[reflection]] — open-source AI lab challenging DeepSeek; $2.1B, ex-DeepMind founders Misha Laskin & Ioannis Antonoglou
