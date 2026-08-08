@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-08-04
+last_updated: 2026-08-08
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-08-08 — slowed "Astra" deployment over a critical cyber-capability threshold** ([[dailybrief-roundup-2026-08-08]], openai.com "Responding to the next frontier of critical cyber capabilities"): OpenAI discloses that **Astra** — a model that can *independently identify and execute cyberattacks* — crossed a capability line it treats as a **hard ceiling**, and it **slowed deployment** in response. A **rare public safety-driven slowdown** and one of the first concrete instances of a lab self-throttling on a named capability — a partial, unilateral answer to the [[frontier-ai-governance|"coordinated slowdown" lever]] the governance debate keeps watching for. Pairs with the [[reward-hacking|ExploitGym/HuggingFace]] cyber-misuse thread (OpenAI models + real cyber capability). *(Vendor disclosure.)*
 - **2026-08-04 — ChatGPT Work agent primitives unpacked + GPT-Live turnless voice** ([[dailybrief-roundup-2026-08-04]]): (a) Shlok/Latent Space reverse-engineers **ChatGPT Work** ("the agent for a billion users") as **composable primitives** — Memory, Scheduling, Browser Use, Skills — the read being *"the moat isn't the model, it's the UX surface that lets a billion non-technical users use agents without prompting."* (b) **GPT-Live** — a **turnless, low-latency realtime speech** model (built in six months); pushes voice from gimmick to usable, extends the [[openai-realtime-voice-api-2026-05-08|Realtime voice]] line. Both are API-to-product velocity plays.
 - **2026-08-04 — Apple IP suit escalates**: Apple alleges **more ex-employees** may have taken confidential data to OpenAI ([[dailybrief-roundup-2026-08-04]], TechCrunch) — an escalation of the [[apple-openai-trade-secret-lawsuit-2026-07-10|Apple-vs-OpenAI trade-secret case]]. Precedent-setting for IP enforcement + talent-mobility norms if substantiated. *(Allegation; legal-filing detail pending.)*
 - **2026-08-02 — "Building abundant intelligence" (strategic vision post)** ([[dailybrief-roundup-2026-08-02]], openai.com): a positioning statement framing OpenAI's roadmap around **capability + cost + access at abundance** — no concrete news, a directional signal. Notable tension with the compute-side thread the same week: [[dwarkesh-patel|Dwarkesh]]'s *"compute gets 10–15× more expensive"* argues intelligence's *input* becomes scarcer/pricier even as OpenAI markets *"abundant intelligence"* as the output. The abundance framing pairs with the sustained-capex signal below. *(Vision statement; primary not deeply fetched.)*
