@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-06-08
+last_updated: 2026-08-08
 ---
 
 ## What This Is
@@ -17,6 +17,10 @@ The topic is structurally adjacent to but distinct from:
 - [[saas-disruption-thesis]] — which is about *whether SaaS-incumbents survive AI-native challengers* (a supply-side question).
 - [[ai-labor-market-impacts]] — which is about *whether AI reduces or restructures employment* (a labor-side question).
 - This page is about *whether the dollars spent on AI map to demonstrable enterprise value* (a demand-side / ROI question).
+
+## "Tokenpocalypse" — the cost-cutting inflection (2026-08-07)
+
+[[simon-willison|Willison]] surfaces internal **Accenture** data (via leaked audio) showing a **cost-per-task inflection** as companies scramble to cut AI spend ([[dailybrief-roundup-2026-08-08]]). The load-bearing nuance: **engineers are *not* the token-bloat drivers** — the runaway spend comes from other agentic/document workflows (the source URL, tellingly, is *"pdfs are terrible"* — PDF ingestion as a token sink). This is the **demand-side counterpart** to Chamath's *"how much revenue is tokenmaxxing?"* ([[saas-disruption-thesis]]) and [[dwarkesh-patel|Dwarkesh's]] compute-repricing thesis: measurable B2B pressure to cut per-task token cost, now with named-enterprise data behind it. Reinforces that the ROI gap is partly a **cost-control** problem, not only a value-capture one. *(Leaked-audio-sourced; directional.)*
 
 ## The Empirical Anchor Points (May 2026)
 
