@@ -3,7 +3,7 @@ name: Claude Opus 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-07-29
+last_updated: 2026-08-09
 ---
 
 ## What It Is
@@ -44,4 +44,5 @@ Launch (2026-07-24). Framed by the [[dailybrief-roundup-2026-07-25|brief]] as a 
 ## Resources
 - [[anthropic-claude-opus-5-launch-2026-07-24]] — launch source (fetched primary)
 - [anthropic.com/news/claude-opus-5](https://www.anthropic.com/news/claude-opus-5)
+- **System prompt published** (Willison, 2026-08-09, [[dailybrief-roundup-2026-08-09]]): the Opus 5 system prompt surfaced publicly, alongside a note on the DoC export-control suspension history (controls on Claude lifted 2026-06-30) — a model-behavior + governance transparency datapoint. [simonwillison.net](https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/)
 - [[claude-opus-4-8]] — predecessor (same per-token price); [[claude-fable-5]] — the top-tier it approaches

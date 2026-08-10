@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-07-30
+last_updated: 2026-08-09
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -81,6 +81,7 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 - **[[steve-yegge|Steve Yegge]] Gas Town** ([github.com/gastownhall/gastown](https://github.com/gastownhall/gastown), Jan 2026): 20-30 Claude Code instances coordinated by a **Mayor agent**, **Patrol agents** running continuous loops, state stored in git for crash recovery. First wiki-captured concrete instantiation of the *"loop supervising other loops"* pattern shipped + open source. See [[mvanhorn-wtf-is-a-loop-2026-06-07]].
 - **[[zodchii-4-agent-pipeline-2026-05-30|zodchii 4-agent pipeline]]**: Planner/Coder/Tester/Reviewer with discrete handoff-files in `.pipeline/{spec,changes,test-results,review}.md`. Sibling architectural pattern: **discrete handoff** vs Yegge's **continuous-supervised**.
 - **[[dailybrief-roundup-2026-05-27|PolyArch/humanize RLCR loop]]**: Claude implements + Codex reviews independently until acceptance criteria met. **Cross-vendor agent-review loop**.
+- **[[practical-systems-autonomous-company-dashclaw-2026-08-08|"A company that runs itself"]] (2026-08-08)**: an **11-step company loop** (8 agent roles) where the build step is **headless Claude Code** — `claude -p "/supergoal Build @GOAL.md … no human present, do not stop until finished" --model claude-fable-5 --max-turns 200 --permission-mode bypassPermissions` with a 120-min wall clock + 10-sec-polled kill switch (built a 44-test app in 71 min untouched). The load-bearing addition is a **governance control-plane (DashClaw)**: risk-scored action ledger where `outreach_send`/`charge_customer` **park as `pending_approval`** — the push-back primitive applied to *money- and email-touching* actions, with a hard assertion enforcing *"governance bugs should be loud."* The `--permission-mode bypassPermissions` inside the build is safe **only because** the outer loop human-gates every real-world side effect.
 
 ## Verifier-discipline-first corrective (Samuel McDonald, 2026-06-15)
 
