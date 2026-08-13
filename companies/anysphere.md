@@ -7,7 +7,7 @@ last_updated: 2026-06-16
 
 ## What It Is
 
-**Anysphere** is the parent company of **Cursor**, the AI-first code editor that became the canonical practitioner-tier AI-coding-product surface through 2025-2026. As of 2026-06-16, Anysphere is the **acquisition target of a [[spacex|SpaceX]] $60 billion all-stock merger** projected to close in Q3 2026. Founded by [[tomas-reimers|Tomas Reimers]] (also launching the **Origin** Git-compatible version-control-for-AI-agents platform Jun 16). Wiki-tracked primarily for the **SpaceX-Anysphere acquisition narrative** (which operationalizes [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella's frontier-ecosystem-not-frontier-model thesis]] at the substrate-tier-vertically-integrated-acquirer canonical-pattern layer).
+**Anysphere** is the parent company of **Cursor**, the AI-first code editor that became the canonical practitioner-tier AI-coding-product surface through 2025-2026. As of 2026-06-16, Anysphere is the **acquisition target of a [[spacex|SpaceX]] $60 billion all-stock merger** projected to close in Q3 2026. Founded by Tomas Reimers (also launching the **Origin** Git-compatible version-control-for-AI-agents platform Jun 16). Wiki-tracked primarily for the **SpaceX-Anysphere acquisition narrative** (which operationalizes [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella's frontier-ecosystem-not-frontier-model thesis]] at the substrate-tier-vertically-integrated-acquirer canonical-pattern layer).
 
 ## Traction Signals
 
@@ -31,7 +31,7 @@ The SpaceX-Anysphere acquisition completes a **first wiki-captured SpaceX 3-laye
 
 ### Pairing with Tomas Reimers Origin launch
 
-Same-day Tomas Reimers launches [[origin|Origin]] — *"Git-compatible version control platform for AI agents"*. Pattern-watch: does Origin pivot post-SpaceX-acquisition, or remain Tomas-Reimers-independent?
+Same-day Tomas Reimers launches Origin — *"Git-compatible version control platform for AI agents"*. Pattern-watch: does Origin pivot post-SpaceX-acquisition, or remain Tomas-Reimers-independent?
 
 ## Compared To
 
