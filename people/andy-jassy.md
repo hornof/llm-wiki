@@ -12,7 +12,7 @@ Andy Jassy is **CEO of Amazon** (since 2021; succeeded Jeff Bezos). Previously f
 
 ## Their Current Focus
 
-- **2026-06-13: WSJ disclosure** — Jassy's **direct security warnings to Trump-administration officials triggered the USG-export-control suspension** of [[claude-fable-5|Fable 5]] + [[claude-mythos-5|Mythos 5]]. **First wiki-captured Amazon-CEO direct-role-in-Anthropic-USG-crackdown disclosure event**. **Resolves** the [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|Sacks "trusted partner" identity question]] (= Amazon, most likely Jassy directly). — [[wsj-amazon-jassy-anthropic-crackdown-2026-06-13]]
+- **2026-06-13: WSJ disclosure** — Jassy's **direct security warnings to Trump-administration officials triggered the USG-export-control suspension** of [[claude-fable-5|Fable 5]] + [[claude-mythos|Mythos 5]]. **First wiki-captured Amazon-CEO direct-role-in-Anthropic-USG-crackdown disclosure event**. **Resolves** the [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|Sacks "trusted partner" identity question]] (= Amazon, most likely Jassy directly). — [[wsj-amazon-jassy-anthropic-crackdown-2026-06-13]]
 - **Pattern**: Amazon-Anthropic 3-channel structural-conflict-of-interest publicly-disclosed:
   - **Capital channel**: Amazon = largest single Anthropic investor ($8B+ since 2023; Series H participant Jun 2026)
   - **Distribution channel**: AWS Bedrock = primary cloud-distribution channel for Claude models

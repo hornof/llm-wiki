@@ -39,7 +39,7 @@ David Sacks is the **Trump Administration White House AI & Crypto Czar** (appoin
 - All-In Podcast (co-host, pre-government)
 - Wiki sources: [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]]
 - Related concepts: [[concepts/recursive-self-improvement]] (regulatory-mechanism layer)
-- Related people: [[dario-amodei]] (regulatory-conflict-counterparty); [[sriram-krishnan]] (WH-AI-Czar-role-predecessor); [[trump|Donald Trump]] (administration-principal)
+- Related people: [[dario-amodei]] (regulatory-conflict-counterparty); [[sriram-krishnan]] (WH-AI-Czar-role-predecessor); Donald Trump (administration-principal)
 
 ## Verification-pending
 
