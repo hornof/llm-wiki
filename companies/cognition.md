@@ -2,7 +2,7 @@
 name: Cognition
 type: company
 status: active
-last_updated: 2026-05-29
+last_updated: 2026-08-12
 ---
 
 ## What It Is
@@ -19,6 +19,7 @@ Pricing pattern: per-seat enterprise contracts; *"capability franchise"* multipl
 
 ## Traction Signals (May 2026)
 
+- **2026-08-12: reportedly in talks to raise at ~$40B valuation** ([[dailybrief-roundup-2026-08-12]], TechCrunch) — up from the **$26B** May round, a ~54% markup in ~3 months and a dev-productivity-AI **mega-round** benchmark. Confirms autonomous-coding-agent vendors are still commanding "capability-franchise" pricing despite the [[ai-margin-collapse|margin]] and [[ai-roi-gap|ROI-gap]] questions. *(Reported/in-talks — not closed.)*
 - **$492M ARR run-rate** (May 2026) — operational scale that crosses the *"autonomous-coding-agent vendors are commercially real"* threshold
 - **10× usage growth this year** (Anthropic-framed; verification-pending)
 - **$1B raise at $26B valuation** — 53× ARR multiple

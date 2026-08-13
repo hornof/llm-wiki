@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-08-04
+last_updated: 2026-08-12
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor o
 
 ## Their Current Focus
 
+- **23 RSI ideas + PostTrainBench + trust-vs-racing (Import AI 468, ~2026-08-10/12)** ([[dailybrief-roundup-2026-08-12]], [importai.substack.com](https://importai.substack.com/p/import-ai-468-23-rsi-ideas-posttrainbench)): Clark curates **23 recursive-self-improvement research ideas**, surfaces **PostTrainBench** (a *post-training* measurement framework — the "what can you do with a model after training" axis, distinct from pre-training capability), and frames the **trust-vs-racing** tension (how transparency interplays with competitive AI-racing dynamics — the governance thread). The RSI-ideas + PostTrainBench pairing sharpens his standing thesis that the automation-of-AI-research lever is where the action is. *(Primary not deeply fetched.)*
 - **Self-sustaining AI viruses + pacing AI progress + creativity (Import AI 467, ~2026-08-04)** ([[dailybrief-roundup-2026-08-04]], [importai.substack.com](https://importai.substack.com/p/import-ai-467-self-sustaining-ai)): Clark's issue covers **self-sustaining AI "viruses"** (the worm-class / autonomous-propagation risk the wiki tracks in [[reward-hacking]] + [[prompt-injection|self-propagating Word worm]]), **pacing AI progress** (the coordination question behind the [[frontier-ai-governance|"Pace AI" letter]]), and confusion about **AI and creativity**. Continues his long-term-dynamics beat. *(Primary not deeply fetched.)*
 - **Week-long task completion + "the bitter lesson for robotics" (Import AI 466, ~2026-07-27)** ([[dailybrief-roundup-2026-07-27]], [importai.substack.com](https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for)): Clark frames a capability milestone — models now solving **multi-day / week-long programming tasks** — as another instance of Sutton's **bitter lesson**: *scale + brute force keeps beating domain knowledge, and the field keeps ignoring it.* His applied read is that **robotics** is learning this slower than software because its feedback loop is physical rather than computational. Extends Clark's task-horizon / automation-reach thread (Import AI 464 GPU-kernels → 465 open/closed data-flywheel → 466 week-long task horizon). *(Primary not deeply fetched.)*
 - **Open-vs-closed gaps + policy (Import AI 465, ~2026-07-20)**: Clark's issue frames the **open/closed model landscape** (incl. [[kimi-k3|Kimi K3]]) and [[frontier-ai-governance|Demis Hassabis's policy plan]]. The [[dailybrief-roundup-2026-07-20|brief]]'s read: *"the open/closed gap isn't about models — it's about who controls the data flywheel"* (closed labs own the feedback loop; open gets the weights) — pairs with the [[science-as-training-data-frontier|data-frontier]] and [[ai-margin-collapse|margin-collapse]] threads. *(Primary not fetched.)*
