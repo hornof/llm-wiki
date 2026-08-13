@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-08-06
+last_updated: 2026-08-13
 ---
 
 ## Definition
@@ -20,6 +20,8 @@ SKILL.md is the unit of **outer-loop memory** in [[loop-engineering|loop enginee
 - **Operator-discipline pattern**: [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|0xMovez's playbook]] frames "save the workflow as a Skill" and "turn verify-feedback into a permanent rule" as core self-improving-loop steps — the Document-to-Skill vs Skill-captures-process distinction.
 - Adjacent to vendor-neutral siblings (AGENTS.md) and project-root discipline files (CLAUDE.md, CONSTRAINTS.md).
 - **The load-bearing distinction — skills are progressive-disclosure, config is always-on (2026-08-06)** ([[raw-batch-roundup-2026-08-06]], r/AskVibecoders guide): *"A config file like CLAUDE.md or AGENTS.md pushes instructions into **every** session whether they're relevant or not. A skill sits idle until the agent reads its **description** and decides the current task fits, then loads the full body."* This is the cleanest practitioner statement of *why* skills exist as a separate primitive — they're the **selective-context / progressive-disclosure** answer to the [[handbook-md-long-docs-dont-govern-agents-2026-07-29|long-doc-doesn't-govern]] + [[context-engineering|context-engineering]] problem: don't push everything into every session; let the task pull in what it needs. Format: `SKILL.md` (required — YAML frontmatter `name` + **`description` carrying the trigger conditions**, e.g. *"Trigger when reviewing PRs… Do not use for architecture reviews, use the architecture skill instead"*) + optional `scripts/` `references/` `assets/`. The **description is the routing surface** — it's what the agent reads to decide whether to load the body.
+
+- **"A markdown file is an employee" — the labor framing (Garry Tan / YC, 2026-08-13)** ([[garry-tan-new-rules-for-founders-a16z-2026-08-13]]): the crispest one-line statement of SKILL.md-as-durable-labor from a top allocator — *"an employee that will do the job perfectly every time, as many times as you want."* Tan's build loop makes the self-improvement explicit: when the agent errs, *"the actual trace turns into a skill file that's perfect… anytime it screws up in a future case it's just a bug fix, and then it's there forever"* — the outer-loop-memory ratchet (encode-the-lesson-once) stated as an HR metaphor. His own instances: **G-Stack** (engineering QA loop skills), **G-Brain** (RAG memory). Frames a few-hundred skill files as the labor pool behind a *"$15M ARR, 2-3 people"* company.
 
 ## Related Concepts
 

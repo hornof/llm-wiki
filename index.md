@@ -152,6 +152,7 @@
 - [[delba-oliveira]] — Anthropic Claude Code team; author of "Getting started with loops" — first official Claude Code loop taxonomy (July 2026)
 - [[lilian-weng]] — leading applied-ML/AI-safety researcher; Lil'Log author, OpenAI alumna; "use engineering for RSI" 35-paper RLHF/control synthesis (July 2026)
 - [[jack-clark]] — Anthropic co-founder / Head of Policy; editor of *Import AI* weekly newsletter since 2017; "radical optionality" regulatory framing (May 2026); Import AI 464 Fable-writes-GPU-kernels (July 2026)
+- [[ryan-greenblatt]] — Redwood Research AI-safety lead; "AI control" (make possibly-misaligned models safe to use via oversight); recurring RSI / automate-AI-research voice (Dwarkesh, Aug 2026)
 - [[armin-ronacher]] — creator of Flask/Jinja2, early Sentry; building the Pi coding harness; "Better Models: Worse Tools" — newer Claude models worse at third-party tool schemas (July 2026)
 - [[vladimir-klimontovich]] — Jitsu CEO (YC S20); author of "Claude Code Did My Taxes" — clean non-coding document-prep workflow walkthrough (Jan 2026)
 - [[anton-leicht]] — independent AI-policy analyst; *Threading the Needle* Substack; structural-analysis voice on frontier-AI access regimes (May 2026)
