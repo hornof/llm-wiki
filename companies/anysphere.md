@@ -44,6 +44,6 @@ Same-day Tomas Reimers launches [[origin|Origin]] — *"Git-compatible version c
 - [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07]] — Jun 7 1st substantive surface (Linas SpaceX-Cursor rumor)
 - [[spacex]] — acquirer; 3-layer AI-vertical-integration substrate
 - [[xai]] — SpaceX-side frontier-model layer
-- [[tomas-reimers]] — Anysphere founder; Origin launcher
-- [[origin]] — Tomas Reimers Git-for-AI-agents platform (same-day launch)
+- Tomas Reimers — Anysphere founder; Origin launcher
+- Origin — Tomas Reimers's Git-for-AI-agents platform (same-day launch)
 - [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]] — frontier-ecosystem canonical-positioning operationalized

@@ -202,6 +202,7 @@
 - [[min-choi]] — Min Choi (@minchoi); independent canonical-viral-content-curator + high-signal X voice; **canonical-4-substantive-surface canonical-cadence-anchor-tier canonical-milestone** (May 25 Google AI Studio Android submit-approval skeptical-question + Jul 1 canonical-1st-Fable-5-viral-thread canonical-10-examples + Jul 3 canonical-2nd-Fable-5-viral-thread canonical-9-visible-examples + Jul 6 canonical-3rd-Fable-5-viral-thread canonical-99-hours-in canonical-4-visible-examples with canonical-Ammaar-Reshi canonical-C&C-iPhone-ARM64-port + canonical-Rork+Fable-5 canonical-Subway-Surfers-1-hour + canonical-Fable-5+Seedance canonical-ocean-wildlife); canonical-Fable-5-viral-moment canonical-curator-anchor + canonical-99-hour-Fable-5-return canonical-cadence-anchor + canonical-Google-product-signal canonical-skeptical-questioning canonical-viral-numbers-vs-actual-shipped canonical-verification canonical-thesis (May-July 2026)
 
 ## Companies & Labs
+- [[amazon]] — AWS + Anthropic's primary compute/capital partner; part of the 4-vendor compute cluster; CEO Andy Jassy (stub, created 2026-08-12)
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
 - [[prentis]] — Reid Hoffman + Mark Pincus AI lab (~$100M); automate routine computer tasks ("automation, not coding") (Jul 2026)
 - [[poolside]] — Eiso Kant's coding-AI lab; "model factory" bet (small team + training-infra/data/eval focus over scale); 118B MoE reportedly beating Inkling's open weights (Jul 2026)

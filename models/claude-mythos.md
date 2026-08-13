@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-06-09
+last_updated: 2026-08-12
 ---
 
 ## What It Is
