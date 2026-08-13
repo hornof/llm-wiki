@@ -29,7 +29,7 @@ last_updated: 2026-07-03
 
 - [[openai]] — canonical-Microsoft-Azure canonical-exclusive-distribution-partner canonical-largest-single-investor canonical-relationship canonical-pattern-watch
 - [[anthropic]] — canonical-Azure-Anthropic-Foundry canonical-availability + canonical-Nadella canonical-post-Anthropic-USG-conflict canonical-positioning
-- `[[amazon]]` — canonical-page-pending; canonical-4-vendor canonical-AI-deployment-infrastructure canonical-parallel-strategy canonical-cluster (Amazon + OpenAI + Anthropic + Microsoft)
+- [[amazon]] — canonical-4-vendor canonical-AI-deployment-infrastructure canonical-parallel-strategy canonical-cluster (Amazon + OpenAI + Anthropic + Microsoft)
 
 ## Resources
 

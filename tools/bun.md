@@ -3,7 +3,7 @@ name: Bun
 type: tool
 category: framework
 status: gaining-traction
-last_updated: 2026-06-05
+last_updated: 2026-08-12
 ---
 
 ## What It Is

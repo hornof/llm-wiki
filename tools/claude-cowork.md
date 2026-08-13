@@ -3,7 +3,7 @@ name: Claude Cowork
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-06-08
+last_updated: 2026-08-12
 ---
 
 ## What It Is
@@ -23,7 +23,9 @@ Cowork sits in Anthropic's three-surface product line:
 
 Recommended workflow: *"Brainstorm in Chat → execute in Cowork → iterate in Chat."*
 
-Surface details: no CLI, no terminal, no config files. Cowork is a tab inside the Claude Desktop app. Default model is **Claude Sonnet 4.6**, switchable to Opus by asking Claude in-session.
+Surface details: no CLI, no terminal, no config files. Default model is **Claude Sonnet 4.6**, switchable to Opus by asking Claude in-session.
+
+> **Current-state refresh (2026-08-12, [claude.com/product/cowork](https://claude.com/product/cowork))**: Cowork has broadened well past the "tab in Claude Desktop" framing. It now runs on **desktop** (macOS, Windows x64/arm64, Linux), with **web rolling out** and **mobile in beta** (+ ChromeOS via Play Store) — *"tasks you can steer from anywhere,"* with **cross-platform continuity**. New capabilities surfaced: **visual step-by-step transparency** (files opened, tools used, decisions made), **unattended operation** (tasks run while you're offline), and **parallel task handling**. An **effort control** (alongside the model selector) lets you dial how deeply Claude thinks per task. **Availability**: requires a **paid plan** — included with **Enterprise**; **Sonnet 4.6 is the default** on Free/Pro tiers where available. Enterprise adds **admin controls, spend management, usage analytics, Analytics API + OpenTelemetry observability, and private plugin marketplaces**. Also note the **domain migration**: Anthropic's product pages moved from `anthropic.com/product/*` to **`claude.com/product/*`**.
 
 ## Traction Signals
 
