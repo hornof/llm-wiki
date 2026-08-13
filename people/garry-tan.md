@@ -3,7 +3,7 @@ name: Garry Tan
 type: person
 affiliation: Y Combinator (President & CEO)
 signal_sources: [yc-rfs, twitter]
-last_updated: 2026-05-01
+last_updated: 2026-08-12
 ---
 
 ## Who They Are
@@ -13,6 +13,8 @@ President and CEO of Y Combinator. Long-time YC presence (former YC partner, the
 ## Their Current Focus
 
 Running YC. Public-facing leadership signal-posting on AI, startup ecosystem, and the YC RFS. Internal "G-Brain" concept (referenced by [[tom-blomfield]] in the Company Brain RFS) suggests Garry is also actively workshopping the personal/organizational-memory pattern at YC scale.
+
+- **2026-08-12 — "the experienced older AI-native founder" thesis** ([[raw-batch-roundup-2026-08-12-a16z]], a16z podcast): *"as many Patrick Collisons as ever, but one mega-trend is the 35-, 40-, 45-year-old founder who's been around the block, built a lot of engineering… suddenly there's 400 of those people. You can outperform an entire department of any Mag 7."* Exemplar: **[[peter-steinberger]]** (*"knows what to build"*). The constructive inverse of the CTO/VPE-squeeze thread — see [[engineering-leadership-ai-era]].
 
 ## Notable Takes
 

@@ -3,7 +3,7 @@ name: Peter Steinberger
 type: person
 affiliation: Independent / iOS developer (PSPDFKit founder, pre-AI)
 signal_sources: [twitter]
-last_updated: 2026-07-26
+last_updated: 2026-08-12
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Peter Steinberger (@steipete on X) is an iOS developer turned AI-coding practiti
 
 ## Their Current Focus
 
+- **2026-08-12 — named by Garry Tan as the exemplar "experienced AI-native founder"** ([[raw-batch-roundup-2026-08-12-a16z]]): YC's [[garry-tan|Garry Tan]] cites Steinberger as *the* archetype of the been-around-the-block 40-something builder who *"knows what to build"* and, with AI leverage, can *"outperform an entire department of any Mag 7."* External validation of his practitioner-authority standing — see [[engineering-leadership-ai-era]].
 - **2026-07-18 — kicked off the "graph engineering" turn**: posted the nine-word question *"Are we still talking loops or did we shift to graphs yet?"*, prompting [[hamel-husain|Hamel Husain]]'s same-day article *"Loop Engineering Is Dead. Enter Graph Engineering."* Followed up 07-24 with *"am I a graph engineer now"* — self-aware meme-amplification of the field's compulsive renaming, over real substance (coordination across loops). Continues his pattern of coining/seeding the next practitioner-content register (loops → graphs). See [[graph-engineering]], [[graph-engineering-cluster-2026-07-26]].
 
 Loop-engineering as the primary register above prompt-engineering and harness-engineering. Disclosed primitive: **VISION.md** as the *push-back primitive* inside long-running loops — a project-tier complement to [[claude-md-pattern|CLAUDE.md]] articulating *what the project is trying to be*, distinct from CLAUDE.md's behavioral contract. Predicts ~3-month escalation to **fleets that design your loops**.
