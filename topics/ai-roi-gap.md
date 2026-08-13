@@ -22,6 +22,8 @@ The topic is structurally adjacent to but distinct from:
 
 [[simon-willison|Willison]] surfaces internal **Accenture** data (via leaked audio) showing a **cost-per-task inflection** as companies scramble to cut AI spend ([[dailybrief-roundup-2026-08-08]]). The load-bearing nuance: **engineers are *not* the token-bloat drivers** — the runaway spend comes from other agentic/document workflows (the source URL, tellingly, is *"pdfs are terrible"* — PDF ingestion as a token sink). This is the **demand-side counterpart** to Chamath's *"how much revenue is tokenmaxxing?"* ([[saas-disruption-thesis]]) and [[dwarkesh-patel|Dwarkesh's]] compute-repricing thesis: measurable B2B pressure to cut per-task token cost, now with named-enterprise data behind it. Reinforces that the ROI gap is partly a **cost-control** problem, not only a value-capture one. *(Leaked-audio-sourced; directional.)*
 
+**Concrete deployment-failure datapoint — Kinney Drugs pulls its AI phone assistant (2026-08-07/12)** ([[dailybrief-roundup-2026-08-12]], WCAX): a regional pharmacy chain **rolled back an AI phone assistant after hundreds of customer complaints** — a rare *named* public retreat from a shipped consumer-facing voice-AI deployment. Fits the [[ai-roi-gap|gap]]'s "shipped ≠ retained value" pattern from the *customer-experience* angle (not just cost): capability existed, but the deployment failed the operational bar and got unshipped. Pairs with the [[reward-hacking|deployment-hygiene]] thread — the failures increasingly surface at the last mile, not the model.
+
 ## The Empirical Anchor Points (May 2026)
 
 ### Field-data funnel: $100K → $18K (Sankar, 2026-05-25)

@@ -43,6 +43,7 @@
 
 ## Models & Providers
 - [[kimi-k3]] — Moonshot's 2.8T-A50B MoE, "largest open model ever" (weights promised 2026-07-27); Opus-class-ish at Sonnet pricing; open-weight scaling inflection
+- [[muse-glimmer]] — Meta's 30B Apache-2.0 agentic open-weights model (Aug 2026); a permissive-license shift re-entering the open-weights race
 - [[claude-opus-5]] — Anthropic's new Opus generation (2026-07-24); Fable-level capability at Opus-4.8 per-token price; "half the price" = cost-per-task; most-aligned + hardest-to-prompt-inject Claude yet
 - [[flux-3]] — Black Forest Labs multimodal model; claims to beat Gemini Omni + Grok Imagine (thin single-source, Jul 2026)
 - [[inkling]] — Thinking Machines Lab's first model; 975B-MoE (41B active) open-weights, 1M context; "not the strongest… a good open-weights base for customization" (Jul 2026)
