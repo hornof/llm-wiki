@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-07-29
+last_updated: 2026-08-13
 ---
 
 ## Definition
@@ -19,6 +19,7 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 - **Still a projection**: Alderson's piece is Part 1 and forward-looking; the collapse is argued, not yet observed in lab financials. Counter-forces (vision, web search, latency, enterprise trust, tool-use reliability) still favor the closed frontier for now.
 - **Lifecycle-phases counter-framing** ([[techcrunch-open-source-not-hurting-anthropic-2026-07-07|TechCrunch, 2026-07-07]]): open-weight and closed frontier models occupy **different lifecycle phases, not the same competitive lane** — which is why open models haven't dented Anthropic's business *yet*. This is a **timing disagreement, not a refutation**: Alderson says the collapse triggers when a credible open peer arrives; TechCrunch says the peer isn't competing for the same (frontier) work yet, so the collapse is deferred until the phases converge. The load-bearing word in both is *"yet."* Corroborated by [[latent-space-field-guide-to-fable-2026-07-08|AutomationBench-AA]]: best open-weight ([[glm-5-2|GLM-5.2]]) scores 27.8% vs Fable 5's 48.6% — a real capability gap on agentic-automation work, consistent with "different phase."
 - **Compute-price counterforce** ([[dwarkesh-patel|Dwarkesh Patel]], *"Why compute might get 10x+ more expensive,"* 2026-07-29, [[dailybrief-roundup-2026-07-29]]): if software-engineer-grade capability is market-priced to human salary, **H100 spot pricing is ~15× below equilibrium** — implying compute costs *rise*, not fall, as capability approaches labor-substitution. This cuts against naive "inference gets ever-cheaper" margin math: today's inference margins may be an artifact of *underpriced* compute. The open-question is whether the labor-arbitrage demand ceiling is hit **before or after** someone learns to run human-level reasoning on ~2 orders of magnitude less compute.
+- **Reasoning-trace theft as a distillation/cost-bypass vector (2026-08-11/13)** ([[dailybrief-roundup-2026-08-13]], [[simon-willison|Willison]] + Latent Space): researchers show frontier models (Anthropic/OpenAI/Google) leak **encrypted chain-of-thought** that persists across sessions/users, and an attacker can **replay a pricey model's reasoning trace into a cheaper sibling** to inherit the reasoning *without paying for it*. A structural twist on the margin thesis: it's not just *open-weight parity* undercutting price — the **frontier's own reasoning output becomes a cheap input** (a reproducibility feature that accidentally enabled a cost-bypass attack). Sharpens the [[reverse-information-paradox|who-captures-the-learning]] question and the distillation-governance thread ([[frontier-ai-governance]] / [[us-treasury-china-ai-sanctions-threat-2026-07-21|Bessent]]).
 - Track: independent GLM-vs-Opus benchmarks; whether frontier labs cut inference prices in response; open-weights adoption in production; whether compute spot-prices climb toward Dwarkesh's labor-anchored equilibrium.
 
 ## Key Papers / Posts

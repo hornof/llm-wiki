@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-08-09
+last_updated: 2026-08-13
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -120,6 +120,12 @@ Pairs structurally with [[benln-dorsey-mini-agi-2026-05-13|FundamentalAnalysis's
 | **C-suite-emergence** | New CAIO role + every functional leader becomes AI-fluent | 76% of IBM-surveyed CEOs hiring CAIO in 2026 (up from 26% in 2024); 57% promoted from inside — [[nateherk-caio-opportunity-2026-05-17]] |
 
 All three converge on the underlying claim: **AI replaces the labor function that aggregates information for higher-status decision-makers** — middle managers in Block, first-year analysts in IB, IT administrators in Kyndryl's framing.
+
+## "A markdown file is an employee" — Garry Tan / YC (2026-08-13)
+
+[[garry-tan|Garry Tan]] (YC CEO) gives the thesis its crispest allocator-level statement ([[garry-tan-new-rules-for-founders-a16z-2026-08-13]]): *"a markdown file is an employee… an employee that will do the job perfectly every time, as many times as you want."* The operating loop: **skillify** every repeated feat into markdown+code+tests+cron; building an agentic company is just *"seeing where the bottlenecks are, then instructing the agent to create a markdown file that blows away that roadblock."* Two structural claims worth tracking:
+- **Agents as the middle-management layer**: *"the mid-level of bureaucracy should be agents"* — execs set direction, ICs decide execution, agents organize work + resolve conflicts probabilistically and surface *ground-truth* two levels down (Brex CEO's meeting-transcript agent cited). This is the [[company-brain|company-brain]] introspection thesis at the org-design level.
+- **"Everything is slower than you think"** — the seven-plus-or-minus-two middle-management bottleneck means adoption *lags*, which is the founder opportunity; Tan predicts **2027 = "the harness wars"** (the [[buzz|multiplayer-harness]] / [[qm|QM]] category fight). Receipt: *"zero to $15M ARR in 4 months, 2-3 people, a few hundred skill files."*
 
 ## Solo-Founder Instantiation: 13-Agent Stack (sairahul1, May 2026)
 
