@@ -2,7 +2,7 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-05-24
+last_updated: 2026-08-14
 ---
 
 ## Definition
@@ -51,6 +51,10 @@ A candidate physical-neural-network circuit must be:
 4. **Trainable by gradient descent** — needs a behavioral model accurate enough for backpropagation
 
 [[mcmahon-1000x-energy-efficiency-2026-05]] uses this as the formal criterion separating "real co-design candidates" from "interesting but useless" analog-circuit proposals.
+
+## The grid-cost side: hyperscalers' natural-gas bet (2026-08-14)
+
+Joules-per-token is the *demand-side* efficiency metric; the *supply-side* cost is now its own inflection. Per TechCrunch ([[dailybrief-roundup-2026-08-14]]), a new forecast has **US natural-gas prices potentially tripling** — a direct **infra cost shock** for hyperscalers who **bet on natural gas** to power the data-center buildout. This is the same *energy-is-the-binding-constraint* thesis the wiki tracks from the other direction: [[dwarkesh-patel|Dwarkesh's]] compute-repricing ([[ai-margin-collapse]]) and Chamath's **"LPS" (Land, Power, Shell)** bet ([[saas-disruption-thesis]]) both say *energized power* is the scarce, ownable layer — and a gas-price spike is exactly the risk that makes it scarce. If it holds, it pushes the hosted-vs-local calculus toward on-prem/efficient inference (the [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|local-models-as-insurance]] + open-weights thread). *(Forecast-dependent; directional.)*
 
 ## Related Concepts
 
