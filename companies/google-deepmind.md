@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-08-06
+last_updated: 2026-08-14
 ---
 
 ## What It Is
@@ -39,7 +39,7 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 
 Four coordinated product surfaces announced at I/O 2026:
 
-- **Gemini 3.5 Flash (GA)** — Google's single-fast-model deployment strategy; *"plans to use it for everything"* (Willison framing). Pricing $1.5/M input, $9/M output. Logan Kilpatrick frames as *"start of a new era for the model family";* Lucas Beyer (researcher) **publicly questions the 3.5 naming** for what Kilpatrick calls a fundamental shift. Internal positioning is contested.
+- **Gemini 3.5 Flash (GA)** — Google's single-fast-model deployment strategy; *"plans to use it for everything"* (Willison framing). Pricing $1.5/M input, $9/M output. Logan Kilpatrick frames as *"start of a new era for the model family";* Lucas Beyer (researcher) **publicly questions the 3.5 naming** for what Kilpatrick calls a fundamental shift. Internal positioning is contested. **Update: Gemini 3.7 Flash** shipped by 2026-08-13 (surfaced via Willison's `llm-gemini 0.33` plugin update, [[dailybrief-roundup-2026-08-14]]) — the Flash line's iterative-version cadence continuing.
 - **Gemini Omni** — video-input-to-video-output multimodal model. Four named capabilities (world understanding, reference-anything, **conversational editing — "like Nano Banana, but for video"**, multimodal blending). **Distribution via YouTube Shorts + YouTube Create app + Google AI Plus/Pro/Ultra subscriptions** — load-bearing consumer-distribution signal leveraging Google's ~2B-MAU video moat.
 - **Gemini Spark** — background-agent surface; Google's equivalent of [[claude-cowork]] / [[claude-code]] / OpenAI Codex. First wiki-tracked Google background-agent product at the Gemini consumer-product level.
 - **Antigravity 2.0** — Google's agent SDK / platform; consolidates underneath Spark and Omni as the agent-platform layer. Third-party tooling (e.g., `run-llama/antigravity-demo`) forming within 24 hours of I/O.
