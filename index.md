@@ -70,6 +70,7 @@
 - [[openai-deployment-simulation]] — OpenAI's pre-release safety eval: predict model behavior by simulating deployment on live traffic
 - [[skill-md]] — SKILL.md primitive: per-capability procedure + verification; outer-loop memory for loop engineering
 - [[agentic-engineering]] — Karpathy's quality-preserving counterpart to vibe coding; professional software with agent leverage
+- [[ai-engineering-skills]] — Andrew Ng's data-backed (10k+ job postings) map of the 4 core AI-engineering skills: build+deploy AI apps / SWE fundamentals / using coding agents / shaping the build; the wiki's hands-on-ramp curriculum
 - [[ai-for-science]] — using AI as the description language for biology/physics/weather; AlphaFold paradigm
 - [[constitutional-ai]] — Anthropic's training methodology; replaces human harmlessness labels with AI-generated feedback (RLAIF); foundation of Claude's training
 - [[agi]] — Artificial General Intelligence; Hassabis's strict definition, Einstein Test, 2030 timeline; Karpathy's verifiability complement
