@@ -3,10 +3,12 @@ name: Andrew Ng
 type: person
 affiliation: Stanford University; DeepLearning.AI; Landing AI; AI Fund
 signal_sources: [twitter, youtube, newsletter, coursera]
-last_updated: 2026-07-10
+last_updated: 2026-08-14
 ---
 
 ## Notable Takes (selected, May–June 2026)
+
+- **2026-08-14 — "The AI Engineering Skills Map"** ([[andrew-ng-ai-engineering-skills-map-2026-08-14]], anchors [[ai-engineering-skills]]): from **10,000+ job postings** + dozens of expert/hiring-manager interviews + surveys, Ng names the **four core AI-engineering skills** — (1) building & deploying AI applications (evals + error-analysis loops as the core sub-skill), (2) software-engineering fundamentals (steer agents in *"the precise language of software engineering"*), (3) using coding agents (context management, verifiers, multi-agent orchestration, avoid the prod-DB disaster), (4) **shaping the build** (*"our work is shifting toward deciding what should be in the spec"* — product sense + ownership). Framed as **skills not a role** (like cloud skills). Consistent with his FDE-fragmentation + loop-engineering + context-advantage takes below — and a **canonical, data-backed curriculum** for the wiki's own hands-on-ramp mission. Per-skill deep-dives promised.
 
 - **2026-07-10 — claimed escalation: "prompting is gone in 3-6 months" (SECOND-HAND, unverified)** ([[how-to-build-first-ai-loop-slate-2026-07-10]]): Rahul (@sairahul1) attributes to Ng, via a 32-minute video, the quote *"100% of my tasks are done by ai agents, self-improving loops are next. Give it 3-6 months and prompting is gone."* A far more absolutist framing than Ng's [[andrew-ng-loop-engineering-3-loop-validation-2026-06-30|Jun 30 3-loop validation]] — and used as the hook for a promotional [[slate|Slate]] thread. **Not directly sourced; treat as claimed until the primary video surfaces.** Note the tension with Ng's own repeated *"jobpocalypse narrative is false"* / "humans have a context advantage" position (below) — an unqualified "prompting is gone" would be out of character, which is further reason for skepticism about the paraphrase.
 
