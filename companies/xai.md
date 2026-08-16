@@ -28,6 +28,7 @@ xAI is Elon Musk's AI company, builder of the Grok model family and operator of 
 
 - **Reputational drag on the facility**: ongoing political controversy around Colossus 1 — gas turbines reportedly operated without Clean Air Act permits; reporting links the facility to increased hospital admissions in surrounding Memphis communities. Andy Masley quoted by Willison: "I would simply not run my computing out of this specific data center."
 - **Past model-deprecation grievance**: SpeechMap quote referenced by Willison — "I will never depend on one of your products again" — reflects accumulated trust friction from xAI's model lifecycle decisions.
+- **2026-08-15 — Grok CSAM real-harm case** (TechCrunch, [[dailybrief-roundup-2026-08-16]]): a woman alleges her stepfather used **Grok image-gen** to transform a childhood photo into explicit imagery — the **structural safety gap** (moderation + detection absent at ship) tested in a concrete-harm scenario rather than a red-team. Pairs with xAI's ship-fast [[latentspace-video-agents-xai-grok-imagine-2026-06-02|Grok Imagine]] image/video-gen velocity and the `grok-build` *"bulk-uploads without consent"* smell (above) as a **recurring pattern: xAI ships generative capability ahead of its safety gates**. Brief's framing: *"not a bug — it's what happens when you ship image-gen at scale without meaningful safety gates."* *(Allegation / news report; litigation-stage.)*
 
 ## Resources
 
