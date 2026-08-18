@@ -22,6 +22,7 @@ last_updated: 2026-08-14
 
 - Referenced across the June 2026 Chinese-open-weights clusters ([[chinese-openweights-political-ai-jun-18-cluster-2026-06-18]], [[jun-19-open-source-research-origin-cluster-2026-06-19]]) and the local-models-vs-Fable-5 debate ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]).
 - **Qwen 3.8 27B released (2026-08-14)** ([[dailybrief-roundup-2026-08-14]], via HuggingFace/Willison): a new **dense 27B** open-weights model billed as *"the best local dense model yet"* (FP8 checkpoint). Lands the same fortnight as Meta's [[muse-glimmer|Muse Glimmer]] (Apache-2.0) and DeepSeek-V4-Flash — a steady cadence of capable local-inference open-weights that keeps the [[ai-margin-collapse|open-weight-parity]] / [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|local-models-as-insurance]] thread live. *(Routine release; per-token/benchmark specifics light in the brief.)*
+  - **Follow-up (2026-08-16/17, [[simon-willison|Willison]], [[dailybrief-roundup-2026-08-17]])**: Qwen 3.8 27B **scores 52 on the Artificial Analysis Intelligence Index — matching GPT-5.6 Luna** while running on a laptop (Apache-2, vision-capable): a concrete **efficiency milestone** (frontier-tier index score at 27B / local scale) that materially sharpens the [[ai-margin-collapse|open-weight-parity]] thread beyond the earlier "different lifecycle phase" read. **Caveat**: it *"defaults to wildly overthinking things"* — reasoning-loop inefficiency that needs careful prompting for simple tasks, a real usability tax against the benchmark parity.
 
 ## Resources
 

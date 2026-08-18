@@ -19,7 +19,8 @@ last_updated: 2026-08-12
 
 ## Traction Signals
 
-- *(Stub — created to close a ghost link. Amazon recurs across the wiki via AWS, the Anthropic partnership, and the 4-vendor compute cluster; expand with concrete signals — AWS AI-infra announcements, Anthropic-deal specifics, Bedrock/Trainium — as they're ingested.)*
+- **2026-08-17 — "destroying rare books to train AI"** (404 Media investigation, via [[simon-willison]], [[dailybrief-roundup-2026-08-17]]): reporters tracked a shipment of **scarce/rare texts** that ended at an **Amazon AI-training facility** — physical books consumed (destructively scanned) as training data. A **training-data-provenance + IP/copyright + cultural-heritage** signal: Amazon's buying power is reshaping *what data exists* for training. Brief's read: *"the corpus your model trains on is partly determined by whoever can afford to buy it first."* First concrete non-AWS AI signal on this page; a create-candidate anchor for a future `concepts/training-data-provenance`. *(Investigative report; Amazon response not captured.)*
+- *(Otherwise still a stub. Amazon recurs across the wiki via AWS, the Anthropic partnership, and the 4-vendor compute cluster; expand with concrete signals — AWS AI-infra announcements, Anthropic-deal specifics, Bedrock/Trainium — as they're ingested.)*
 
 ## Resources
 - [[andy-jassy]] — CEO
