@@ -3,7 +3,7 @@ name: Goose
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-06-17
+last_updated: 2026-08-18
 ---
 
 ## What It Is

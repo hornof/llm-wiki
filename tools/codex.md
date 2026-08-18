@@ -1,17 +1,18 @@
 ---
 name: Codex
 type: tool
-category: ide-extension
-status: gaining-traction
-last_updated: 2026-06-17
+category: cli
+status: mainstream
+last_updated: 2026-08-18
 ---
 
 ## What It Is
 
-**Codex** is OpenAI's flagship AI-coding-product (revival of the OpenAI Codex brand, re-released 2025-2026 as an integrated AI coding tool competing with [[claude-code|Claude Code]] + [[cursor|Cursor]]/[[anysphere|Anysphere]] + GitHub Copilot). Wiki-tracked primarily for its **practitioner-tier preference dominance** (per [[gregisenberg-pick-a-side-7-question-poll-2026-06-16|Greg Isenberg practitioner-poll Jun 16]]: 4/4 distinct-answer comments pick Codex over Claude Code) and its **operator-substrate-control-friendly canonical-positioning** (Jun 17 open-source-model-routing + self-hosted-local-endpoints capability shipping).
+**Codex** is OpenAI's flagship AI-coding agent (revival of the OpenAI Codex brand, re-released 2025-2026 as an integrated CLI + desktop coding tool competing with [[claude-code|Claude Code]] + [[cursor|Cursor]]/[[anysphere|Anysphere]] + GitHub Copilot). Wiki-tracked for its **practitioner-tier preference dominance** (per [[gregisenberg-pick-a-side-7-question-poll-2026-06-16|Greg Isenberg practitioner-poll Jun 16]]: 4/4 distinct-answer comments pick Codex over Claude Code) and its **operator-substrate-control-friendly positioning** (open-source-model-routing + self-hosted-local-endpoints).
 
 ## Traction Signals
 
+- **2026-08 (web refresh): default model → GPT-5.6 Sol; desktop + cross-tool import ship** ([Releasebot Codex updates](https://releasebot.io/updates/openai/codex), [Codex review 2026](https://zackproser.com/blog/openai-codex-review-2026)): after **GPT-5.6 (Sol / Terra / Luna) went GA on 2026-07-09**, Codex switched its default to **gpt-5.6-sol** (**88.8% Terminal-Bench 2.1, 64.6% SWE-Bench Pro**). New in the Aug cycle: a **Linux desktop app preview** (Ubuntu/Debian/Fedora), **`/import` of setup + recent chats from [[claude-code|Claude Code]] and [[cursor|Cursor]]** (a direct switching-cost attack on rivals), broader **plugin support**, persistent conversation sections, and an **`--approve-for-me`** auto-approval CLI flag. Basis for the **status upgrade gaining-traction → mainstream** (OpenAI flagship, frontier-default, cross-tool import). *(Web-sourced; benchmark figures per third-party trackers.)*
 - **2026-06-17: Codex configurable to route any open-source model + self-hosted local endpoints** — Thibault Sottiaux (OpenAI Codex engineering lead) announcement: *"Codex tools can now be configured to run any open-source model. Users can route client traffic to self-hosted local endpoints."* **First wiki-captured operator-substrate-control-friendly AI-coding-product canonical category-positioning** (OpenAI first vendor-side adopter). **STRUCTURALLY MAJOR**: validates [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|Jun 13 Greg Isenberg "local models are insurance" canonical framing]] via OpenAI-side vendor-shipping. — [[agentic-coding-tooling-cluster-2026-06-17]]
 - **2026-06-16: Practitioner-tier preference dominance** — [[gregisenberg-pick-a-side-7-question-poll-2026-06-16|Greg Isenberg "Pick a side" poll]]: 4/4 distinct-answer comments pick Codex over [[claude-code|Claude Code]]. **First wiki-captured Codex-dominance signal in practitioner-content register**. Peter Yang: *"Codex browser use is incredible"*. Riley Brown + klöss + nick vasilescu + AmirMušić all pick Codex.
 
