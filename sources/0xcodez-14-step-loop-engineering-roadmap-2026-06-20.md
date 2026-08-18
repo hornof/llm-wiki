@@ -102,7 +102,7 @@ updated: 2026-06-29
 - [[concepts/loop-engineering]] — 14-step canonical-roadmap + 4-condition canonical-test + "who wins, who loses" canonical-economics framing + 13-voice cluster extension
 - [[0xcodez]] — new entity-page candidate (2nd substantive surface; threshold met past lint-recommendation)
 - [[lev-deviatkin]] — canonical-identity-attribution (paired with 0xCodez handle)
-- [[0xcodez-fault-5-14-step-self-improving-agent-2026-06-11]] — paired prior 0xCodez substantive surface
+- [[0xcodez-fable-5-14-step-self-improving-agent-2026-06-11]] — paired prior 0xCodez substantive surface
 - [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15]] — 4-condition canonical-test "verification automated" canonical-anchor + paired Addy Osmani canonical-attribution cluster
 - [[anthropic]] — Anthropic 8x-code-merging canonical-anchor + "almost certainly an overstatement" canonical-direct-voice qualification
 - [[block-builderbot-launch-2026-06-17]] — paired vendor-internal AI-productivity-gain canonical-anchor cluster
@@ -114,7 +114,7 @@ updated: 2026-06-29
 
 ## Adjacent sources
 
-- [[0xcodez-fault-5-14-step-self-improving-agent-2026-06-11]] — paired prior 0xCodez 14-step surface (alternate spelling slug — verification-pending)
+- [[0xcodez-fable-5-14-step-self-improving-agent-2026-06-11]] — paired prior 0xCodez 14-step surface (alternate spelling slug — verification-pending)
 - [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15]] — McDonald verifier-discipline-first canonical-corrective
 - [[zodchii-builder-checker-looping-team-2026-06-16]] — Zodchii looping-team practitioner-tier operationalization
 - [[hanako]] — Hanako practitioner-tier canonical-voice

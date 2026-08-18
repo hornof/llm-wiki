@@ -3,7 +3,7 @@ name: Ona
 type: tool
 category: platform
 status: acquisition-target
-last_updated: 2026-06-16
+last_updated: 2026-08-18
 ---
 
 ## What It Is

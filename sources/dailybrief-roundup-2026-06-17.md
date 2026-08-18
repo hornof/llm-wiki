@@ -59,7 +59,7 @@ Pairs structurally with:
 
 #### XDOF robot training data — supply-chain business
 
-**"Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it"** (TechCrunch Jun 17) — **first wiki-captured XDOF entity surface** + **first wiki-captured "embodied-AI robot-training-data as supply-chain business" canonical-pattern signal**. Brief framing: *"Embodied AI labs outsourcing data collection to XDOF signals that physical-world training data is becoming a bottleneck. Structural pattern emerging."* Pairs structurally with [[bezos-prometheus-physical-age-2026-06-11|Bezos "physical age" canonical-framing]] at the **embodied-AI-data-substrate canonical-bottleneck** layer.
+**"Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it"** (TechCrunch Jun 17) — **first wiki-captured XDOF entity surface** + **first wiki-captured "embodied-AI robot-training-data as supply-chain business" canonical-pattern signal**. Brief framing: *"Embodied AI labs outsourcing data collection to XDOF signals that physical-world training data is becoming a bottleneck. Structural pattern emerging."* Pairs structurally with [[prometheus-12b-41b-bezos-physical-age-2026-06-11|Bezos "physical age" canonical-framing]] at the **embodied-AI-data-substrate canonical-bottleneck** layer.
 
 #### Simon Willison — datasette-tailscale plugin
 

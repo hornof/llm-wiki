@@ -2,15 +2,19 @@
 name: Openclaw
 type: tool
 category: framework
-status: gaining-traction
-last_updated: 2026-06-17
+status: mainstream
+last_updated: 2026-08-18
 ---
 
 ## What It Is
 
-**Openclaw** is a [[peter-steinberger|Peter Steinberger]]-led open-source agent-infrastructure project providing **heartbeat-based always-on agent infrastructure** + **cron-canonical infrastructure** for Loop Engineering at multi-hour-agent-run scale. Documentation at `docs.openclaw.ai`. Wiki-tracked primarily for its **canonical-cron-and-heartbeat infrastructure positioning** within the **11-voice [[concepts/loop-engineering|Loop Engineering canonical-cluster]]**.
+**Openclaw** is a [[peter-steinberger|Peter Steinberger]]-created open-source AI-agent framework that turns LLMs into autonomous, locally-running **personal agents** you interact with through everyday messaging apps (iMessage, WhatsApp) as you would a human assistant. Launched late 2025 as *Clawdbot* → briefly *Moltbot* → **OpenClaw** (Jan 2026). It is also wiki-tracked for its **heartbeat / cron always-on infrastructure** positioning within the [[concepts/loop-engineering|Loop Engineering cluster]]. Documentation at `docs.openclaw.ai`.
 
 ## Traction Signals
+
+- **2026-08 (web refresh): most-starred repository in GitHub history — ~347K stars (April 2026)** ([openclaw.wikipedia](https://en.wikipedia.org/wiki/OpenClaw), [Fast Company](https://www.fastcompany.com/91550800/how-peter-steinberger-built-openclaw)): explosive growth to the top of GitHub all-time, shipping **production-grade security** (self-hosted agents viable for Fortune 500) — the security-hardening research wave includes *ClawKeeper* ([arXiv 2603.24414](https://arxiv.org/pdf/2603.24414)) and an OpenClaw threat-model case study ([arXiv 2603.12644](https://arxiv.org/pdf/2603.12644)). Basis for the **status upgrade gaining-traction → mainstream**.
+- **2026-02-16 (web refresh): Steinberger joins [[openai|OpenAI]] to build "next-generation personal agents"** ([steipete.me](https://steipete.me/posts/2026/openclaw)); **OpenClaw is *not* shutting down** — it transitions to an **independent, OpenAI-backed foundation**, keeping the code free and community-driven. Structurally notable: the [[concepts/loop-engineering|Loop-Engineering]] 2nd-voice steward moving in-house at OpenAI while the project stays open (pairs with [[codex|Codex]]'s OpenAI-side open-model-routing — OpenAI courting the operator-control / personal-agent layer). *(Web-sourced; primary = Steinberger's own post.)*
+- **2026-06-17: Sydney Runkle (LangChain) canonical heartbeats reference** — [[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17|"The Art of Loop Engineering"]] explicitly cites Openclaw heartbeats: *"One popular example of crons in action is 'heartbeats' in openclaw, which turn your agent into an always-on, proactive assistant."* **First wiki-captured LangChain-tier canonical validation of Openclaw heartbeats canonical-pattern**. — [[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17]]
 
 - **2026-06-17: Sydney Runkle (LangChain) canonical heartbeats reference** — [[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17|"The Art of Loop Engineering"]] explicitly cites Openclaw heartbeats: *"One popular example of crons in action is 'heartbeats' in openclaw, which turn your agent into an always-on, proactive assistant."* **First wiki-captured LangChain-tier canonical validation of Openclaw heartbeats canonical-pattern**. — [[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17]]
 - **2026-06-16: Greg Isenberg practitioner-poll Q1 framing** — [[gregisenberg-pick-a-side-7-question-poll-2026-06-16|"Pick a side"]] Q1: *"Openclaw vs Hermes?"* — klöss picks Openclaw; community-tier signal for canonical-tooling-positioning. **First wiki-captured Greg Isenberg practitioner-tier Openclaw canonical positioning signal**. — [[gregisenberg-pick-a-side-7-question-poll-2026-06-16]]
