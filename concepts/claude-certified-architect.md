@@ -2,12 +2,24 @@
 name: Claude Certified Architect
 type: concept
 maturity: emerging
-last_updated: 2026-04-30
+last_updated: 2026-08-20
 ---
 
 ## Definition
 
-**Claude Certified Architect, Foundations** is Anthropic's first official technical certification, launched March 12, 2026 alongside the [[anthropic|Claude Partner Network]]. It is a proctored exam targeting solution architects building production applications with Claude. Access is gated through `anthropic.skilljar.com/claude-certified-architect-foundations-access-request`. Anthropic announced additional certifications for "sellers, architects, and developers" coming later in 2026 — Foundations is the entry point of a multi-track program.
+**Claude Certified Architect, Foundations** is Anthropic's first official technical certification, launched March 12, 2026 alongside the [[anthropic|Claude Partner Network]]. It is a proctored exam targeting solution architects building production applications with Claude. Access is gated through `anthropic.skilljar.com/claude-certified-architect-foundations-access-request`. Anthropic announced additional certifications for "sellers, architects, and developers" coming later in 2026 — Foundations is the entry point of a multi-track program **that has since expanded to a reported 4-certification track (see the Professional tier below)**.
+
+## Professional tier — CCAR-P (2026-08)
+
+The **Professional (CCAR-P)** exam is live — the next rung above Foundations, and the multi-track program the launch promised is now a reported **4 certifications** (a passing candidate references "practice tests for all 4"). First-person breakdown from an early passer ([[raw-batch-roundup-2026-08-20]], Reddit r/ClaudeAI, 4–5 yrs AI experience):
+
+- **Difficulty inverts expectations**: rated *"moderately easy… noticeably easier than the Architect Foundations exam"* — advice was *"if you've cleared Foundations, go straight for Professional."* A second commenter agreed the materials were easy and, notably, *"mostly general knowledge about architecting AI solutions,"* **not Anthropic-specifics** — the exam tests solution-architecture judgment, not product trivia.
+- **Heavy topics** (scenario-based tradeoff questions): MCP/tool-integration tradeoffs (API-direct vs wrap), **agentic-orchestration vs single-shot** decisioning, few-shot vs single-shot prompting, **system decomposition** (emphasized), production prompt design (structure + maintenance at scale), **AI governance applied in practice**, and **architectural tradeoffs for highly-secure/regulated environments**. Governance + security scenarios flagged as the least-intuitive study area.
+- **Question-design trap**: some items ask "what would you do at *this* step" then follow with "what would you do *before* this process" — the process under evaluation is stated only in the first line; misreading which process is in scope is the main failure mode.
+- **Owner-relevance**: for a returning architect, the CCAR-P blueprint doubles as a compact production-architecture curriculum — and its *"not Anthropic-specific"* framing means the study surface generalizes beyond Claude.
+
+### Cert-value caveat (practitioner debate)
+The same thread carries a well-upvoted skeptic subthread: multiple-choice IT certs (MCSE/CCNA/CBP) historically *"went from respected to laughed at"* because they get **dumped online** and signal little; the durable exceptions are **hands-on practical exams** (Linux Foundation CKAD/CKA, Red Hat) where *"you have to perform on live servers to pass."* Read the CCAR-P accordingly — a multiple-choice cert is a **curriculum signal + client-legibility marker**, not a competence proof. Its value is the blueprint (what Anthropic thinks production competence is), not the badge.
 
 ## Why It Matters
 

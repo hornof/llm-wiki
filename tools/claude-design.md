@@ -3,7 +3,7 @@ name: Claude Design
 type: tool
 category: other
 status: gaining-traction
-last_updated: 2026-07-15
+last_updated: 2026-08-20
 ---
 
 > [!update] Lint refresh — 2026-07-15
@@ -76,6 +76,8 @@ Source: [[anthropic-claude-design-labs-announcement]]
 - [[stitch]] — Google Labs AI design tool with the open-sourced DESIGN.md spec. Stitch is positioned as a portable design-rule layer agents consume; Claude Design (per practitioner usage) appears to be a generation surface rather than a spec layer.
 
 ## Community Sentiment
+
+- **2026-08-18 — image-generation gap is the recurring friction** ([[raw-batch-roundup-2026-08-20]], r/ClaudeDesign): practitioners rave about the Claude Design surface (desktop module, templates, design-system setup, manual editing) but hit a wall on **native image generation, described as *"truly, truly horrible"*** (*"little stick-figure outputs"*; ChatGPT beats it on the same prompt). The practical consequence: Claude Design *"only works well if you give it a prompt **and** all the resources"* — you can't *"prompt in a picture of X"* or a hypothetical logo, so decks/mockups depend on assets generated elsewhere and fed in. First wiki-captured **capability-gap** signal on Claude Design (generation surface strong, asset-generation weak) — the workaround is an external image model in the loop. *(Consistent with the broader "Claude image-gen is weak" practitioner consensus.)*
 
 April 2026 (launch): substantial cross-platform signal. Multiple independent X/Twitter threads on launch day; practitioners from Anthropic's own verticals team (Ryan Mather, @Flomerboy) shared tips publicly. Comparisons to Figma and Adobe surfaced immediately, with reports that Anthropic exec Mike Krieger left Figma's board ahead of the launch (**since confirmed** — resigned 2026-04-14, 3 days pre-launch; see the 2026-07-15 refresh note above). Bear-case "VC hype" counter-signal still present but outnumbered. Japanese-language practitioner commentary frames it as "the same compression Claude Code brought to engineering, now applied to design." Overall: `gaining-traction`. [[anthropic-claude-design-labs-announcement]]
 
