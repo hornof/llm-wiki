@@ -56,6 +56,13 @@ A candidate physical-neural-network circuit must be:
 
 Joules-per-token is the *demand-side* efficiency metric; the *supply-side* cost is now its own inflection. Per TechCrunch ([[dailybrief-roundup-2026-08-14]]), a new forecast has **US natural-gas prices potentially tripling** — a direct **infra cost shock** for hyperscalers who **bet on natural gas** to power the data-center buildout. This is the same *energy-is-the-binding-constraint* thesis the wiki tracks from the other direction: [[dwarkesh-patel|Dwarkesh's]] compute-repricing ([[ai-margin-collapse]]) and Chamath's **"LPS" (Land, Power, Shell)** bet ([[saas-disruption-thesis]]) both say *energized power* is the scarce, ownable layer — and a gas-price spike is exactly the risk that makes it scarce. If it holds, it pushes the hosted-vs-local calculus toward on-prem/efficient inference (the [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|local-models-as-insurance]] + open-weights thread). *(Forecast-dependent; directional.)*
 
+## Supply-side cost shocks (2026-08-19): memory +500%, nuclear power
+
+Two supply-side signals landed together, both hitting the *cost* side of the metric rather than the Joules-per-token *efficiency* side ([[dailybrief-roundup-2026-08-19]]):
+
+- **Memory prices up ~500% in 12 months** (Latent Space AINews) — framed as *"Moore's Law reversed to 2007 levels."* This is the acute-price-spike escalation of the memory-as-binding-constraint thesis: the [[dailybrief-roundup-2026-05-24|May signal]] was *cost-share* (memory ~67% of AI-chip BOM per Epoch AI, HBM cannibalizing DRAM/NAND fabs); this is *price*. It sharpens the **quadruple-convergence on memory-as-binding-constraint** — McMahon (energy-side), the KV-cache research wave (research-side), Epoch AI 67% BOM (cost-share-side), and now a 500% price spike (market-price-side). Direct input to any [[ai-margin-collapse|inference-margin]] model. *(AINews summary; primary not fetched.)*
+- **TerraPower nuclear reactor targets AI data centers** (TechCrunch) — a structural **power-supply** answer for compute density, the complement to the **natural-gas price-spike** (the grid-cost section below, 2026-08-14): if energized power is the scarce, ownable layer (Chamath's **LPS / "Land, Power, Shell"**, [[saas-disruption-thesis]]), nuclear is one route to securing it. Reinforces the *energy-is-the-binding-constraint* read from the supply direction. *(TechCrunch; deployment-timeline unverified.)*
+
 ## Related Concepts
 
 - [[mcp]] — protocol-level optimization layer; orthogonal but interacts with KV-cache cost
