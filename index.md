@@ -116,6 +116,7 @@
 - [[aakashgupta]] — X/product analyst; AI company strategy and management coverage
 - [[demis-hassabis]] — CEO Google DeepMind; Nobel laureate; AGI by 2030; Einstein Test; ex-Bullfrog/Elixir game designer
 - [[jeff-dean]] — legendary Google systems/ML engineer (MapReduce/Bigtable/TensorFlow/Google Brain, ex-Chief-Scientist Google DeepMind); left Google after 27 years (Aug 2026) to co-found DiscoLoop AI
+- [[john-kim]] — Meta L7 Senior Staff eng + Claude Code educator (Push to Prod); "50 tips" — validation-loop-first, context-is-king, multi-instance juggling, subagent-contrarian
 - [[yann-lecun]] — CNN inventor; Turing Award; founder AMI Labs; "LLMs are a dead end for superintelligence"
 - [[andrej-karpathy]] — AI researcher/educator; founder Eureka Labs; Software 3.0; vibe coding vs. agentic engineering
 - [[andrew-ng]] — co-founder Google Brain; DeepLearning.AI; 8M+ students; key AI educator
@@ -486,6 +487,8 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[cheng-zhang-distributed-icl-2026-05]] — Cheng & Zhang preprint: 100% probing accuracy ↔ 0% causal effect at the same positions; distributed-output-templates framing for ICL (May 2026)
 - [[bsuh-agents-need-control-flow-2026-05]] — Brian / bsuh: counter-position arguing agents need deterministic control flow in code, not more elaborate prompt chains (May 2026)
 - [[mcmahon-1000x-energy-efficiency-2026-05]] — Unconventional AI's primary technical thesis: data movement, not arithmetic, is the binding constraint; Amdahl's-Law-in-energy forces full-stack co-design (May 7 2026)
+- [[forbes-mehra-solo-founder-playbook-2026-08-03]] — Forbes stats case for the solo-founder playbook: 23.7%→36.3% solo-founded share, $3–12K/yr AI stack vs $80–120K/mo team, Base44 $80M receipt, Amodei billion-dollar-solo prediction (Aug 3 2026)
+- [[naveengrao-100x-entrepreneurs-2026-08-19]] — Naveen Rao on X: "AI will create 100x more entrepreneurs"; rejects the job-loss frame, blames AI labs' rhetoric for it (Aug 19 2026)
 - [[nrao-linkedin-1000x-2026-05]] — Naveen Rao LinkedIn amplification; "building in the open"; substantive practitioner comment thread on coordination physics and heterogeneous-fleet orchestration (May 8 2026)
 - [[ashwingop-managed-agents-company-brain-2026-05-08]] — Ashwin Gopalan reads Anthropic Managed Agents as the structural signal pointing to Company Brain as the next infra layer; engages directly with [[karpathy-llm-wiki-gist]] and Garry Tan's GBrain framing as "directionally right" but bounded by the single-owner regime (May 8 2026)
 - [[ashwingop-semantics-ontology-2026-05-07]] — Sentra Part 7: semantics ≠ ontology; substrate-vs-lens architectural separation; roles give organizational memory more stable ontologies than individuals; falsifiable 18-month "decisions-into-action" bet (May 7 2026)
