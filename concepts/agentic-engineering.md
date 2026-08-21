@@ -160,6 +160,15 @@ Companion to [[cat-wu]]'s "trusting Claude Code on your production databases" fr
 
 Implication for agentic engineering: tool plumbing (Code Mode), control flow (Brian's framing), and production safety (Codex four layers) are necessary but **not sufficient**. The 25% corruption rate is the failure shape that survives all three. Self-verification patterns (cf. [[claude-cowork]] cheat sheet's "ask Claude to verify its own work" framing) are practitioner-side mitigation; trained-in reasoning ([[anthropic-teaching-claude-why-2026-05-08]]) is the lab-side mitigation.
 
+## "Code is free" — the codebase-as-prompts extreme (Google Cloud team, Aug 2026)
+
+A widely-shared X thread ([[raw-batch-roundup-2026-08-21]], @choopyplug1 relaying a **Google Cloud engineer / ex-OpenAI, "Ryan"**) is the most extreme spec-is-the-artifact datapoint captured: a **~1M-line codebase built in 8 months where the team "wrote zero of it," and ~250K of those lines are prompts** — *"code is free. I mean it."* Two structural moves stand out:
+
+- **Threat-model-as-checked-in-artifact**: the security threat model *"isn't a Google doc — it's checked into the repo,"* and an **agent validates every PR against it** via *"40 lines of YAML in GitHub Actions."* Security review becomes a versioned, agent-enforced gate rather than a human checkpoint — the [[loop-engineering|verifier-in-the-loop]] applied to security.
+- **Interfaces-impossible-to-misuse**: adding *"two sentences to `security.md` saying secure code comes from interfaces that are impossible to misuse"* produced a *"shocking"* measurable security uplift — a tiny [[skill-md|rule-file]] edit steering the whole agent fleet's output (the [[claude-md-pattern|CLAUDE.md]] leverage principle at the security layer).
+
+If the code is disposable and the **prompts + threat-model + interface-rules are the durable artifacts**, this is the endpoint of the [[skill-md|"a markdown file is an employee"]] (Garry Tan) and [[john-kim|compound-engineering]] threads: *"he banned his team from coding."* *(Second-hand X thread promoting an article; the engineer's surname is withheld — a vivid directional datapoint, not a verified case study.)*
+
 ## Resources
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party practitioner popularization (May 2026); adds 4-step workflow, three failure modes, and "cognitive debt" coinage
