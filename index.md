@@ -2,6 +2,7 @@
 
 ## Tools & Frameworks
 - [[goose]] — Block's agent coding harness; AI-native tooling dogfooded internally since early 2024
+- [[mojo]] — Modular's MLIR-based Python-superset systems language for AI infra; open-sourced Apache-2 (2026-08), ~3yr post-announcement
 - [[buzz]] — Block's open-source (Apache-2.0, Nostr) workspace where people + agents are equal cryptographically-identified members; "one context" over Slack+GitHub (Jul 2026)
 - [[qm]] — Y Combinator's open-source (MIT) multiplayer agent harness for a whole company (yc-software/qm, July 2026); cloud-first, Slack/web UI, company-brain connectors; direct peer to Buzz in the org-scale-harness category
 - [[claude-code]] — Anthropic's CLI/agentic coding tool; recommended layer for LLM Wiki workflows
