@@ -21,6 +21,7 @@ First wiki appearance: 2026-05-28 via the Dynamic Workflows launch primary.
   - **Workflow shape**: lifetime-mapping workflow → per-file behavior-identical port workflow (hundreds of agents in parallel with 2 reviewers per file) → fix-loop driving build + test suite clean → overnight workflow addressing unnecessary data copies + opening PR for each
   - **Critical qualifier**: *"While not yet in production, all of this was handled by dynamic workflows."* — port is real and code is on disk; production deployment pending.
   - **Per-file dual-review parallelism pattern** named for the first time at scale: hundreds of agents with 2:1 reviewer:author ratio.
+- **Bun 1.4 — `Bun.WebView` ships (2026-08-20)** ([[dailybrief-roundup-2026-08-21]], via [[simon-willison]]): first concrete **post-Rust-rewrite** feature release the wiki has captured — a built-in **`Bun.WebView`** giving a *"headless-browser-as-a-library"* surface (Willison built a **shot-scraper-style JSON API** on it: in-process browser automation, no per-job Docker container). Signal that the Zig→Rust port is now shipping user-facing capability, not just achieving parity — the productionization the 2026-05-28 case study left pending is materializing. *(Willison hands-on; a Bun feature, not yet a GA-of-the-rewrite claim.)*
 
 ## How to Use It
 

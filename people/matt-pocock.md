@@ -28,6 +28,8 @@ Matt Pocock (X handle `@mattpocockuk`) is a well-known TypeScript educator (Tota
 - GitHub: [github.com/mattpocock](https://github.com/mattpocock) (skills repo at `mattpocock/skills`)
 - Total TypeScript: [totaltypescript.com](https://www.totaltypescript.com/)
 
+- **`/wayfinder` skill — greenfield-planning "fog of war" (2026-08-20)** ([[dailybrief-roundup-2026-08-21]], Latent Space): a named [[skill-md|SKILL.md]] workflow for **cutting through the fog of unclear/greenfield projects** — structured planning-mode discovery when the spec doesn't exist yet. Extends Pocock's skills-ecosystem authorship (the 112K-star `mattpocock/skills` repo below) from reusable capabilities into a **planning/orientation** pattern; pairs with his [[agentic-engineering|disposable-spec]] framing (wayfinder is how you *find* the spec worth writing).
+
 ## Resources
 
 - [[mattpocock-skills-repo-2026-05-30]] — 112.1K-star `mattpocock/skills` repository; `npx skills@latest` distribution; cross-vendor
