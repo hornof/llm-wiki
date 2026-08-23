@@ -53,6 +53,12 @@ The practitioner-pattern "ask Claude for HTML, not Markdown" ([[thariq-shihipar]
 
 A [latent.space piece](https://www.latent.space/p/the-website-of-the-future) surfaced in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]] reports Adobe experimenting with **agentic sites that assemble a different page for every visitor**, generated per user intent rather than authored once. This is the *application-layer* cousin of model-rendered UI: still (for now) structured web output, but with the page composition itself model-generated at request time. Conceptually significant; no concrete working example in the coverage yet. Watch whether "page assembled per visitor" and "pixels streamed per visitor" (Flipbook) converge or stay distinct.
 
+## "Stop making TUIs" + the agent interface (Aug 2026)
+
+Two 2026-08 dev-practice signals ([[dailybrief-roundup-2026-08-22]]) push the same direction from the *tooling* side:
+- **Thomas Ptacek — "Stop Making TUIs"** (via [[simon-willison]]): coding agents have made **native GUIs cheap enough that the marginal cost of a real UI is now below the cognitive tax of a TUI workflow.** The econ flipped — a tool built by an agent *"doesn't feel like a script anymore,"* so users actually use it. The practitioner-facing consequence of model-rendered UI: when generating a UI is nearly free, the default output stops being terminal text.
+- **"The Evolution of the Agent Interface"** (Latent Space): the agent is **absorbing into model weights**, and the durable surface becomes the **interface that captures human attention**, not the control layer over the model. Same trajectory as this concept — the rendered interface, not the harness plumbing, is where the human sits.
+
 ## Related Concepts
 - [[world-models]] — related idea: models that predict and generate environment state rather than tokens
 - [[agentic-ai]] — agent interfaces may evolve toward model-rendered rather than structured UI
