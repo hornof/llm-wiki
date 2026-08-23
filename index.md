@@ -78,6 +78,7 @@
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
 - [[software-3-0]] — Karpathy's framing: natural language as the programming paradigm; "the piece of text to copy paste to your agent"
 - [[simulation-scaling]] — "simulation is the new scaling law" (Joon Sung Park / Simile AI); 10% worse, 100x cheaper, 10000x faster synthetic experience; moat shifts from real-data to fast simulators
+- [[training-data-quality]] — training data as a contested + degrading substrate: provenance/IP shock (Amazon rare-books) + saturation/model-collapse (Pew AI-content study); simulation-scaling as the synthetic escape hatch
 - [[spatial-intelligence]] — Fei-Fei Li's thesis: 3D world understanding complements (not replaces) LLMs; "wordsmiths in the dark"; World Labs / Marble
 - [[verifiability-and-jagged-intelligence]] — Karpathy's mechanistic AGI gap framing; verifiable domains progress, unverifiable lag
 - [[vibe-coding]] — Karpathy's term: floor-raising hobbyist mode of AI-assisted coding; distinct from agentic engineering

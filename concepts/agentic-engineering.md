@@ -160,6 +160,13 @@ Companion to [[cat-wu]]'s "trusting Claude Code on your production databases" fr
 
 Implication for agentic engineering: tool plumbing (Code Mode), control flow (Brian's framing), and production safety (Codex four layers) are necessary but **not sufficient**. The 25% corruption rate is the failure shape that survives all three. Self-verification patterns (cf. [[claude-cowork]] cheat sheet's "ask Claude to verify its own work" framing) are practitioner-side mitigation; trained-in reasoning ([[anthropic-teaching-claude-why-2026-05-08]]) is the lab-side mitigation.
 
+## From line-review to outcome-validation — and where the ceiling still bites (Aug 2026)
+
+Two same-cycle signals ([[dailybrief-roundup-2026-08-23]], both via [[simon-willison]]) sharpen *how the human works with a coding agent*:
+
+- **"More than just code review"** — as agents get reliable, the reviewer's job shifts from *reading every line* to **validating that the change actually does what was intended.** The brief's framing: *"you're no longer a linter, you're a decider"* — the real bottleneck isn't trusting the output, it's **having a clear enough spec of intent to verify against.** This is the review-side of the [[loop-engineering|verifier discipline]] and the practical counterpart to Willison's own [[simon-willison|discipline-erosion]] worry (if you're not reading every line, verification *is* the safeguard).
+- **Ceiling datapoint — Linus Torvalds debugs a kernel issue with AI as a *"tireless helper"***: the AI handled the grunt work but **resisted the hard problem** — Torvalds' stubbornness beat the model. A concrete, high-credibility instance of the [[verifiability-and-jagged-intelligence|floor-vs-ceiling]] split: agents raise the floor (tireless mechanical work) without yet reaching the ceiling (the genuinely hard, novel diagnosis). Useful ballast against the **"code is free"** maximalism (section below).
+
 ## "Code is free" — the codebase-as-prompts extreme (Google Cloud team, Aug 2026)
 
 A widely-shared X thread ([[raw-batch-roundup-2026-08-21]], @choopyplug1 relaying a **Google Cloud engineer / ex-OpenAI, "Ryan"**) is the most extreme spec-is-the-artifact datapoint captured: a **~1M-line codebase built in 8 months where the team "wrote zero of it," and ~250K of those lines are prompts** — *"code is free. I mean it."* Two structural moves stand out:
