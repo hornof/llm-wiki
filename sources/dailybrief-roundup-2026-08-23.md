@@ -12,7 +12,7 @@ Daily Brief `Daily Briefs/2026-08-23.md`. Mostly re-surfaces (simulation-scaling
 
 ## Net-new — page created / folded
 
-- **Pew: "How Much of the Internet Is Written with AI?"** (2026-08-20) → **new concept [[training-data-quality]]**. Quantitative estimate of AI-generated-content prevalence; the structural worry — *if most new internet text is AI-generated, training-data quality collapses in 2–3 cycles ("hall of mirrors")* — is the empirical anchor for **model-collapse**. Paired with the [[amazon|Amazon rare-books provenance shock]] (#247) it forms a coherent *"training data is contested + degrading"* concept, with [[simulation-scaling]] (#256) as the synthetic escape hatch.
+- **Pew: "How Much of the Internet Is Written with AI?"** (2026-08-20) → folded into the **existing [[training-data-quality]]** concept (adding a "Supply Squeeze" section). Quantitative estimate of AI-generated-content prevalence; the structural worry — *if most new internet text is AI-generated, training-data quality collapses in 2–3 cycles ("hall of mirrors")* — is the empirical anchor for **model-collapse**. Paired with the [[amazon|Amazon rare-books provenance shock]] (#247) it extends the existing data-quality page (previously *quality-over-scale* + data-as-moat) with the *supply-is-contested-and-degrading* angle, and links [[simulation-scaling]] (#256) as the synthetic escape hatch. *(Note: an earlier draft of this ingest mistakenly created a colliding new page at the same slug; corrected by merging into the existing page rather than replacing it.)*
 - **OpenAI extends Zero-Data-Retention to frontier models + private safety processing** (openai.com) → folded into [[openai]]. Enterprise privacy/compliance differentiation for regulated domains (legal/health/finance) — the "moat is the enterprise surface, not the model" play.
 - **"More than just code review" + Linus Torvalds "tireless helper"** (both via [[simon-willison]]) → folded into [[agentic-engineering]]. (a) The reviewer's job shifts from **line-by-line review → outcome validation** (*"no longer a linter, you're a decider"*) — spec-of-intent becomes the bottleneck. (b) Torvalds debugs a kernel issue with AI as a *"tireless helper"* that **handled grunt work but resisted the hard problem** — a high-credibility **floor-vs-ceiling** datapoint, ballast against "code is free" maximalism.
 
@@ -32,4 +32,4 @@ Daily Brief `Daily Briefs/2026-08-23.md`. Mostly re-surfaces (simulation-scaling
 - **Import AI 469** → [[jack-clark]] (#247); **GLM-5.3 (Death of Params)** → [[glm-5-2]] (#253).
 
 ## Pages Updated
-- [[training-data-quality]] (new), [[openai]], [[agentic-engineering]]
+- [[training-data-quality]] (expanded — "Supply Squeeze" section), [[openai]], [[agentic-engineering]]

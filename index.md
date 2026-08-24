@@ -78,7 +78,6 @@
 - [[model-rendered-ui]] — every pixel streamed live from a model; no HTML/layout engine; Flipbook prototype (April 2026)
 - [[software-3-0]] — Karpathy's framing: natural language as the programming paradigm; "the piece of text to copy paste to your agent"
 - [[simulation-scaling]] — "simulation is the new scaling law" (Joon Sung Park / Simile AI); 10% worse, 100x cheaper, 10000x faster synthetic experience; moat shifts from real-data to fast simulators
-- [[training-data-quality]] — training data as a contested + degrading substrate: provenance/IP shock (Amazon rare-books) + saturation/model-collapse (Pew AI-content study); simulation-scaling as the synthetic escape hatch
 - [[spatial-intelligence]] — Fei-Fei Li's thesis: 3D world understanding complements (not replaces) LLMs; "wordsmiths in the dark"; World Labs / Marble
 - [[verifiability-and-jagged-intelligence]] — Karpathy's mechanistic AGI gap framing; verifiable domains progress, unverifiable lag
 - [[vibe-coding]] — Karpathy's term: floor-raising hobbyist mode of AI-assisted coding; distinct from agentic engineering
@@ -87,7 +86,7 @@
 - [[concepts/okf|Open Knowledge Format (OKF)]] — canonical-Google-Cloud canonical-vendor-neutral canonical-open-specification (Apache 2.0; published 2026-06-12) for canonical-agent-memory as canonical-directory-of-markdown-files with canonical-YAML-frontmatter; canonical-standardizes canonical-Karpathy-LLM-Wiki-Pattern at canonical-Google-Cloud-vendor-tier; canonical-3-answer mental-model (CLAUDE.md=behave / OKF=knows / MCP=calls); canonical-directly-actionable-for-this-wiki
 - [[mcp]] — Model Context Protocol; Anthropic's open standard for connecting LLMs to tools and data sources; infrastructure layer for agentic AI
 - [[rag]] — query-time retrieval-augmented generation; complementary to LLM Wiki at different scales
-- [[training-data-quality]] — data quality as the real constraint; 1B clean model > 1.8T noisy model
+- [[training-data-quality]] — data quality as the real constraint (1B clean > 1.8T noisy); plus the supply squeeze — provenance/IP (Amazon rare-books) + saturation/model-collapse (Pew), with simulation-scaling as the synthetic escape hatch
 - [[claude-certified-architect]] — Anthropic's first official technical certification (March 2026); 5 weighted domains (agentic, Claude Code, prompting, MCP, context); part of Claude Partner Network
 - [[company-brain]] — three-layer memory substrate (factual + context graph + action coordination) beneath agentic AI at organizational scale; YC RFS phrasing, Sentra thesis (April 2026)
 - [[vibe-physics]] — Lupsasca's coined-by-analogy term for using GPT-5.x to derive novel theoretical physics results; second "vibe X" pattern propagating into adjacent disciplines (May 2026)
