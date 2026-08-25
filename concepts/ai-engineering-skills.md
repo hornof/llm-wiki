@@ -2,7 +2,7 @@
 name: AI Engineering Skills
 type: concept
 maturity: emerging
-last_updated: 2026-08-14
+last_updated: 2026-08-24
 ---
 
 ## Definition
@@ -21,6 +21,19 @@ This is the wiki's mission stated as a curriculum: the **hands-on ramp-up** map 
 4. **Shaping the build** — as agents get better at delivering *to a spec*, the human work shifts to **deciding what's in the spec**: product sense, business context, customer goals; *"engineers should no longer expect a pixel-perfect design to implement."* Plus **ownership/agency** — identify opportunities and drive them (MVP-fast vs build-carefully judgment). This is the same judgment the [[forward-deployed-engineer|FDE]] role and the [[engineering-leadership-ai-era|experienced-founder]] wave price at a premium.
 
 **Underlying mindset**: *continuous learning* — the field churns, so the meta-skill is evolving your own workflow.
+
+### Skill #1 deep-dive — the six sub-skills of "Building & Deploying" (2026-08-21)
+
+The first per-skill deep-dive Ng promised ([[andrew-ng-ai-engineering-skills-building-deploying-2026-08-21]]) decomposes Skill #1. Unifying frame: *AI output is unpredictable, so building is **iterative, not plannable up front*** — you build → examine → decide-next, *"creating reliable software from unreliable AI components."* The six:
+
+1. **LLM foundations** — tokenization/generation → when to trust vs. when they fail; multimodal choice; context-window tradeoffs; cache hits, knowledge cutoff, reasoning-effort, sampling, tool-calling; when to fine-tune/self-host.
+2. **Grounding models with data** — past RAG/vector-search: prompt-vs-tool-retrieval, and the right representation (**vector index / [[graph-engineering|knowledge graph]] / semantic layer**); doc→LLM-ready pipelines kept clean + fresh ([[training-data-quality]]).
+3. **Building agentic systems** — workflow ↔ agent-harness architecture; chain/parallelize, code-vs-LLM; agent-loop design (tools incl. MCP/CLI/sandbox, memory, long-session [[context-engineering|context]], single- vs [[graph-engineering|multi-agent]]); productionize with guardrails, adversarial-input + [[ai-vulnerability-discovery|data-exfiltration]] defense, governance; + voice/computer-use/generative-UI.
+4. **Evaluation-driven development** — *"the most important trait that distinguishes someone great at building AI systems."* Deterministic vs LLM-as-judge vs human-in-loop; read traces + EDA + product insight; **evaluate your evals.** Makes progress *systematic, not random* — the [[loop-engineering|verifier discipline]] as the load-bearing sub-skill.
+5. **Operating in production** — observability on real usage, drift detection, incident response (incl. [[reward-hacking|prompt-injection]]); **statistical** regression testing/CI-CD calibrated to mistake-risk; cost/latency optimization (model choice, distillation, fine-tuning, workflow simplification).
+6. **Machine learning foundations** — model tradeoffs, data engineering, and the mental frameworks (**bias/variance, error analysis, engineering your data**) for reasoning about uncertain-output systems.
+
+Ng flags **software-engineering fundamentals** (Skill #2) as the next deep-dive.
 
 ## Current State
 
