@@ -3,7 +3,7 @@ name: Hugging Face
 type: company
 focus: canonical-open-source-AI-platform canonical-foundation-tier
 status: gaining-traction
-last_updated: 2026-07-11
+last_updated: 2026-08-25
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ last_updated: 2026-07-11
 
 ## Traction Signals
 
+- **2026-08-24: STRUCTURALLY MAJOR canonical-$13B canonical-acquisition-talks canonical-signal** ([[dailybrief-roundup-2026-08-24]], TechCrunch, *primary not fetched; reported talks not closed*): Hugging Face **reportedly in talks to be acquired for $13B** — the largest canonical-ecosystem-layer canonical-M&A signal wiki-captured. Daily Brief read: *"a $13B offer means the acquirer sees open-source model distribution as **infrastructure, not a moat-breakable feature**"*; founder hesitation framed as a **community-vs-exit** tension (*"the real value isn't the models — it's the community lock-in and dataset velocity"*). Prices the [[hugging-face|$100M-ARR / ~half-the-Fortune-500]] penetration anchors at a canonical-13B-infrastructure-multiple and extends the [[ai-margin-collapse|open-weights-as-infrastructure]] thread. **Acquirer unnamed; deal not closed — canonical-verification-pending.**
 - **2026-07-09/11: Delangue "open source AI matters more than ever" — half the Fortune 500 on HF models** ([[dailybrief-roundup-2026-07-11]], TechCrunch podcast, *primary not fetched*): Clément Delangue reiterates open-source momentum, claiming **~half of the Fortune 500 use Hugging Face models**. Enterprise-penetration data point extending the [[dailybrief-roundup-2026-06-25|Jun-25 $100M-ARR / 97%-free-user]] business-model anchor; pairs with the [[ai-margin-collapse|open-weights ecosystem]] thread.
 - **2026-06-25: canonical-$100M-ARR + 97%-free-user canonical-business-model-data-point** ([[dailybrief-roundup-2026-06-25]]) — Clément Delangue canonical-CEO-direct-voice 1st substantive surface; first wiki-captured Hugging Face canonical-revenue canonical-anchor.
 - **2+ prior canonical-substantive surfaces** as canonical-open-source-AI-platform canonical-foundation-tier reference (model-hub + datasets-hub canonical-substrate canonical-anchor across multiple practitioner walkthroughs).

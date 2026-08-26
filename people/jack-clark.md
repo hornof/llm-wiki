@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-08-12
+last_updated: 2026-08-25
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor o
 
 ## Their Current Focus
 
+- **No rights for machines + SPADE + Hawkeye (Import AI 470, ~2026-08-24)** ([[dailybrief-roundup-2026-08-24]], [importai.substack.com](https://importai.substack.com/p/import-ai-470-no-rights-for-machines)): three threads across policy / ops / optimization. **"No machine rights"** stakes a policy position against extending legal/moral standing to AI systems (the governance beat). **SPADE** — *automating the generation of training environments* — is the ops-side continuation of his automation-of-AI-research thread and pairs directly with the [[simulation-scaling|simulation-as-scaling-law]] synthetic-environment argument (who builds the worlds the agents train in). **Hawkeye — better GPU kernels** — extends the recurring model-generated-GPU-kernel marker (Import AI 464 "Fable writes GPU kernels") one step further into kernel *optimization*. Continues the 464 → 468 → 469 → 470 automation-reach arc. *(Primary not deeply fetched.)*
 - **Science AI + RSI simulator + Zuck's technological pessimism (Import AI 469, ~2026-08-17)** ([[dailybrief-roundup-2026-08-17]], [importai.substack.com](https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator)): Clark frames **autonomous AI researchers** (AI systems that conduct scientific research) as the next frontier, surfaces an **RSI simulator**, and covers **Zuckerberg's technological pessimism**. Directly continues the automation-of-AI-research beat (Import AI 464 GPU-kernels → 468 23-RSI-ideas → 469 Science-AI) and pairs with the recurring [[ryan-greenblatt|Greenblatt RSI]] / [[recursive-self-improvement]] thread. *("Light on concrete detail" per the brief; primary not fetched.)*
 - **23 RSI ideas + PostTrainBench + trust-vs-racing (Import AI 468, ~2026-08-10/12)** ([[dailybrief-roundup-2026-08-12]], [importai.substack.com](https://importai.substack.com/p/import-ai-468-23-rsi-ideas-posttrainbench)): Clark curates **23 recursive-self-improvement research ideas**, surfaces **PostTrainBench** (a *post-training* measurement framework — the "what can you do with a model after training" axis, distinct from pre-training capability), and frames the **trust-vs-racing** tension (how transparency interplays with competitive AI-racing dynamics — the governance thread). The RSI-ideas + PostTrainBench pairing sharpens his standing thesis that the automation-of-AI-research lever is where the action is. *(Primary not deeply fetched.)*
 - **Self-sustaining AI viruses + pacing AI progress + creativity (Import AI 467, ~2026-08-04)** ([[dailybrief-roundup-2026-08-04]], [importai.substack.com](https://importai.substack.com/p/import-ai-467-self-sustaining-ai)): Clark's issue covers **self-sustaining AI "viruses"** (the worm-class / autonomous-propagation risk the wiki tracks in [[reward-hacking]] + [[prompt-injection|self-propagating Word worm]]), **pacing AI progress** (the coordination question behind the [[frontier-ai-governance|"Pace AI" letter]]), and confusion about **AI and creativity**. Continues his long-term-dynamics beat. *(Primary not deeply fetched.)*

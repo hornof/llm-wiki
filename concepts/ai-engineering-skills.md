@@ -2,7 +2,7 @@
 name: AI Engineering Skills
 type: concept
 maturity: emerging
-last_updated: 2026-08-24
+last_updated: 2026-08-25
 ---
 
 ## Definition
@@ -40,6 +40,7 @@ Ng flags **software-engineering fundamentals** (Skill #2) as the next deep-dive.
 - **Anchored on a canonical, data-backed source**: [[andrew-ng]] (DeepLearning.AI) + team; *"akin to running clustering on a massive dataset of jobs and expert interviews."* Ng promises per-skill deep-dives + a more detailed map in follow-up posts — **track for the fuller version.**
 - **Convergence check**: the map independently ratifies the wiki's spine — evals/verifiers ([[loop-engineering]]), context management ([[context-engineering]]), multi-agent orchestration ([[graph-engineering]]), spec-shaping + product sense ([[forward-deployed-engineer]] / [[engineering-leadership-ai-era]]). A rare case where a mainstream-authority taxonomy and the wiki's accreted threads line up 1:1.
 - **Skills-not-credential — CEO-tier corroboration (Tim Cook, 2026-08-21)** ([[raw-batch-roundup-2026-08-21]]): asked what Apple screens for, Cook names the two credentials most companies filter on first — a degree and coding — and rejects both: *"we hire people that code, people that don't… a lot of people that don't code on a daily basis."* He simultaneously calls coding *"the only global language we all share"* and a form of self-expression worth learning. The tension is the point: **coding as literacy, not as a hiring gate** — the same *skills-not-a-role/credential* framing as Ng's map, and a counterweight to reading the [[claude-certified-architect|certification]] wave as gatekeeping.
+- **LLM-foundations-as-baseline — Paul Graham (2026-08-24)** ([[dailybrief-roundup-2026-08-24]]): *"If I were 17, I'd learn how to build LLMs from scratch."* A credible-voice signal that **LLM fundamentals** — Skill #1's first sub-skill (tokenization/generation, when-to-trust-vs-fail, context tradeoffs) — is now the new *baseline* builder skill, not a specialist niche. No novel pedagogy; the signal is *who* is saying it and *how young* the recommended entry point is. Pairs with Cook's skills-not-credential framing as the *what-to-learn-first* companion to the *how-you're-hired* claim.
 
 ## Related Concepts
 - [[agentic-engineering]] — "using coding agents" + "SWE fundamentals" are its skill substrate

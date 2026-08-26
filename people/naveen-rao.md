@@ -2,8 +2,8 @@
 name: Naveen Rao
 type: person
 affiliation: Unconventional AI (founder)
-signal_sources: [linkedin, blog]
-last_updated: 2026-05-08
+signal_sources: [linkedin, blog, twitter]
+last_updated: 2026-08-20
 ---
 
 ## Who They Are
@@ -21,6 +21,8 @@ Building Unconventional AI in the open. Public posture is unusual for hardware: 
 - **"It's the interaction of the model and the physics of the hardware. We need to do it all to realize 1000x"** (May 2026) — explicit rejection of single-primitive "magic bullet" approaches; co-design over the full stack. — [[nrao-linkedin-1000x-2026-05]]
 - **"K2 metaphor"**: "summiting K2 is only worth doing because it's hard" — frames the 1000× target as worth pursuing precisely because of its difficulty. — [[nrao-linkedin-1000x-2026-05]]
 - **Building in the open** (May 2026) — public stance contra typical AI-hardware-startup secrecy; bets on technical credibility and recruiting over IP firewall. — [[nrao-linkedin-1000x-2026-05]]
+
+- **"AI will create 100x more entrepreneurs"** (Aug 2026) — rejects the job-loss frame ("it's not loss, it's change"), blames part of the doom narrative on "AI labs' rhetoric," and stakes the mechanism on AI enabling human agency — more people able to deliver value. — [[naveengrao-100x-entrepreneurs-2026-08-19]]
 
 ## Where to Follow
 

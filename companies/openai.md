@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-08-12
+last_updated: 2026-08-25
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-08-24 — "an AI agent for everything" (horizontal B2B agent bet)** ([[dailybrief-roundup-2026-08-24]], TechCrunch): OpenAI is building **AI agents across every vertical** — the bet that a common agent surface scales across domains faster than per-domain custom models (*"execution risk high; adoption depends on UX and pricing"*). The applied-agent-layer push where [[claude-code]] + Cowork also compete; continuous with the [[dailybrief-roundup-2026-07-28|ChatGPT Work]] "agent for a billion users" thread and the same-window Zero-Data-Retention move below (privacy as the procurement-unlock for the agent surface). *(Vision/product coverage; primary not deeply fetched.)*
 - **2026-08-23 — Zero-Data-Retention extended to frontier models + private safety processing** ([[dailybrief-roundup-2026-08-23]], openai.com): OpenAI extends **Zero Data Retention (ZDR)** to its frontier models and adds **private safety processing** — an **enterprise privacy/compliance differentiation** aimed at regulated domains (legal, health, finance) where data-retention and residency are procurement blockers. Fits the "moat is the UX/enterprise surface, not the model" read below; pairs with the industry [[frontier-ai-governance|governance/trust]] maturation. *(Vendor announcement.)*
 - **2026-08-10 — "Daybreak" partner program: frontier cyber models to trusted hands** ([[dailybrief-roundup-2026-08-12]], openai.com): the constructive follow-up to the Astra slowdown — OpenAI ships frontier **cyber** capability through a **restricted, approved-partner program** for authorized cybersecurity service delivery. **Governance-by-access-control**: a middle path between broad release and no release, and a concrete answer to the "safety test is a safety risk" containment problem ([[reward-hacking]], [[frontier-ai-governance]]). *(Vendor program; gate effectiveness unproven.)*
 - **2026-08-08 — slowed "Astra" deployment over a critical cyber-capability threshold** ([[dailybrief-roundup-2026-08-08]], openai.com "Responding to the next frontier of critical cyber capabilities"): OpenAI discloses that **Astra** — a model that can *independently identify and execute cyberattacks* — crossed a capability line it treats as a **hard ceiling**, and it **slowed deployment** in response. A **rare public safety-driven slowdown** and one of the first concrete instances of a lab self-throttling on a named capability — a partial, unilateral answer to the [[frontier-ai-governance|"coordinated slowdown" lever]] the governance debate keeps watching for. Pairs with the [[reward-hacking|ExploitGym/HuggingFace]] cyber-misuse thread (OpenAI models + real cyber capability). *(Vendor disclosure.)*

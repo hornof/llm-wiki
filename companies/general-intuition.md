@@ -3,7 +3,7 @@ name: General Intuition
 type: company
 focus: canonical-emerging-frontier-lab; canonical-game-trained-agent canonical-paradigm
 status: emerging
-last_updated: 2026-06-25
+last_updated: 2026-08-25
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ last_updated: 2026-06-25
 
 ## Traction Signals
 
+- **2026-08-24: canonical-~$6B canonical-up-round canonical-2nd-substantive-surface** ([[dailybrief-roundup-2026-08-24]], TechCrunch, *primary not fetched*): General Intuition raises at a **~$6B valuation** (Valor Equity Partners + Point72 + 776 named), *"as AI startup pushes into robotics."* Canonical-2nd-substantive-surface promotes the entity past the [[general-intuition-2-3b-game-trained-agents-2026-06-25|Jun-25 $2.3B thesis-bet]] into a canonical-tier-1-capitalized canonical-embodied-foundation-model canonical-bet. Reinforces the canonical-game-trained-agent → canonical-embodied/robotics canonical-real-world-deployment canonical-paradigm. **Canonical-capital-intensive canonical-long-bet; canonical-embodied-FM canonical-approach-unproven — canonical-6-month-result canonical-tracking-anchor still open.**
 - **2026-06-25: STRUCTURALLY MAJOR canonical-funding-event** ([[general-intuition-2-3b-game-trained-agents-2026-06-25]]) — $320M canonical-raise + canonical-$2.3B canonical-total-thesis-bet (TechCrunch canonical-headline). First wiki-captured General Intuition canonical-substantive-surface as canonical-emerging-frontier-lab.
 - **Canonical-game-trained-agent canonical-paradigm canonical-thesis** at canonical-frontier-lab-tier = first wiki-captured.
 - **Daily Brief direct framing**: *"Extraordinary claim; execution risk unproven. Track 6-month results."*
