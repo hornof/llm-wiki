@@ -20,6 +20,8 @@ Widely regarded as one of the most consequential AI-safety-and-capability voices
 
 ## Notable Takes (selected)
 
+- **Billion-dollar solo company by 2026 at 70–80% probability** (cited via Forbes, Aug 2026) — predicted verticals: dev tools, automated customer service. — [[forbes-mehra-solo-founder-playbook-2026-08-03]]
+
 - ***"Machines of Loving Grace"* (October 2024)** — Anthropic CEO essay laying out the canonical bull case for AI as accelerator of biology, neuroscience, economic development, and governance. Functions as the company's *"why we're building this"* doc. *Not yet ingested as a separate wiki source — primary fetch worth doing.*
 - **Constitutional AI advocacy** — Amodei is the loudest CEO voice for *alignment-by-published-principles*; the approach is the training-layer analog of the [[anthropic-claude-space-to-think-2026-05-28|ad-free surface]] and [[anthropic-claudes-constitution|published Claude Constitution]] trust-as-moat stack.
 - **AI-development pace + safety urgency** — public framing positions Anthropic as racing-but-cautious: capability gaps narrowing fast enough that delay isn't an option, but with explicit safety-research investment to prevent the failure modes Amodei has named publicly.

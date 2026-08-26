@@ -2,7 +2,7 @@
 name: Graph Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-31
+last_updated: 2026-08-25
 ---
 
 ## Definition
@@ -64,8 +64,17 @@ A rigorous independent synthesis paper ([[graph-engineering-loops-to-graphs-synt
 - **The load-bearing thesis**: *"the bottleneck is often not the next model call — it is the placement of memory and evaluation."* The path from loops to graphs is *"from implicit state to explicit state, volatile to durable memory, estimation to evidence."*
 - **Caveats it is honest about**: metrics can be gamed (a ratchet optimizes what it can see — the [[reward-hacking]] failure); dynamic workflows are expensive (1,000-sub-agent runs cost tens of dollars + correlated errors); coherent-context tasks (architecture, narrative, tightly-coupled refactors) *degrade* when fragmented; *"do not introduce a graph merely because the system has agents."*
 
+### "A graph is a memory of why" — assumption-tracking / provenance graphs (2026-08-24)
+
+A practitioner schema relayed by [[0xwast3-graph-memory-of-why-2026-08-24|@0xWast3]] (attributed to an unnamed "Anthropic ex-engineer") inverts the default framing to sharpen the **shared-state / provenance** problem this page's [[#The four hard problems|hard problem #2]] names: *"A graph is not an execution order. It's a memory of why."* Where the canonical `research → write → review` graph moves *output* forward, this design moves the **reason** forward — every edge carries why it exists, and every step carries the **assumption** that made it correct.
+
+Seven nodes, one of which only remembers: **INTENT** (what, never how) → **DECOMPOSE** (steps, each with a stated assumption) → **WORKER** (executes one step, sees nothing else — the "one node, one specialty" isolation) → **AUDIT** (checks output against the *assumption*, not the goal) → **DRIFT** (compares the step to INTENT — [[trq-dynamic-workflows-harness-2026-06-02|goal-drift]] as an explicit node) → **LEDGER** (stores every decision with its justifying assumption) → **ROOT** (holds the graph; when an assumption breaks, **re-runs every step built on it**). The payoff is **assumption-scoped invalidation**: the replayed-month receipt is 4,100 steps with 380 built on an assumption wrong by day three — the old pipeline shipped all 380 and *linked none*; this design reruns exactly those 380. *"A pipeline that forgets its reasons has to redo all of it or trust all of it"* — the assumption-per-step is the third option (selective, evidence-anchored re-execution).
+
+This is the [[#The knowledge graph as shared memory|"the agent forgets, the graph does not"]] thesis made *causal*: the durable store isn't just entities+relations, it's the **assumption-DAG** that lets you compute the blast radius of a wrong premise. It operationalizes the "checkpoints + idempotency" discipline (a broken assumption is a targeted, replay-safe re-execution) and the LangGraph-style typed-shared-state model. *(Second-hand relay; the "$6/month beats a $300K eval suite" and "Anthropic ex-engineer" claims are self-asserted and unverified; promotional register.)*
+
 ## Key Papers / Posts
 - [[akshay-pachaar-graph-engineering-explainer-2026-07-25]] — the anchor explainer: 3 primitives, 4 hard problems, decision rule (this page's spine)
+- [[0xwast3-graph-memory-of-why-2026-08-24]] — assumption-tracking "memory of why" 7-node schema (INTENT/DECOMPOSE/WORKER/AUDIT/DRIFT/LEDGER/ROOT); assumption-scoped invalidation as a provenance-graph pattern
 - [[graph-engineering-loops-to-graphs-synthesis-2026-07-24]] — **the depth source** (11pp independent synthesis): Karpathy autoresearch → AgentHub commit-DAG → Anthropic Dynamic Workflows/KG-cookbook; vibe→agentic→graph progression; five-plane architecture; "place memory outside the context window"
 - [[knowledge-graph-4-prompts-synthesis-2026-07-24]] — **the KG-as-shared-memory technique** (7pp independent synthesis): 4 structured-output prompts (Haiku extract / Sonnet resolve+summarize+query) replace 4 trained models; the Pydantic schema is the only training data
 - **Anthropic — "Patterns and problems in emerging multi-agent systems"** (research, 2026-08, [[dailybrief-roundup-2026-08-16]]) — a **first-party failure-mode taxonomy** for multi-agent setups: the coordination/observability-debt side of the [[#The four hard problems|four hard problems]] above. The brief's read — *"Anthropic's framing of patterns + failure modes here is the inverse of what most orgs are doing — shipping coordination without understanding it"* — is the same *"don't add a graph merely because the system has agents"* discipline this page argues. *(Primary not fetched; publication noted.)*

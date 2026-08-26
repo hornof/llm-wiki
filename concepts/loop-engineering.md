@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-08-09
+last_updated: 2026-08-25
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -85,6 +85,13 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 
 ## Nvidia: "the harness, not the model, is the hero" — ARC-AGI-3 30%→100% (2026-08-21)
 The strongest empirical anchor yet for the harness-as-capability thesis ([[dailybrief-roundup-2026-08-22]], TechCrunch on Nvidia research): a **custom harness took Claude Opus 5 from 30% → 100% on ARC-AGI-3** (instruction-free 2D reasoning games where the model must figure out the rules like a human), **with no change to the model.** The two harness ingredients named: **memory management** + a **"supervisor" boss-like component** overseeing the worker loop. 30% had been the top *model-only* result; the harness closes the entire remaining gap. This is the loop/harness layer proving it is where long-horizon capability actually lives — a raw model becomes *"something that can act on its own"* through the harness, not the weights. Operationalizes this page's thesis and the [[graph-engineering|supervisor/reviewer-node]] pattern (the supervisor is a graph move inside a loop). **Create-candidate `harness-engineering`** — the "Agent Harness Engineering vs Loop vs Graph" distinction now has a landmark result to anchor it. *(TechCrunch on an Nvidia developer-blog result; benchmark-specific — ARC-AGI-3.)*
+
+### "Harness engineering" as terminal vocabulary — Lieberman + Garry Tan (2026-08-24)
+
+Two same-thread 2026-08 posts ([[businessbarista-harness-engineering-product-2026-08-24]]) frame the *lifecycle of the harness register itself* — and push the standing `harness-engineering` create-candidate from a capability anchor (Nvidia, above) to a **discourse/enterprise-architecture anchor**:
+
+- **[[alex-lieberman|Alex Lieberman]] (@businessbarista) — the term is transitional scaffolding**: *"Agent harness & harness engineering will not be phrases uttered on the internet 12 months from now… complexity still hasn't been abstracted out of the user's experience, but this will all sit cleanly under 'product'."* Reads harness/loop/graph-engineering as **practitioner-content registers naming a moving abstraction boundary** — as the boundary stabilizes, the naming collapses into "product." Consistent with this cluster's own hedge (*"the word may not survive the year; the design question will"* — [[graph-engineering]]) and Steinberger's prompts→harnesses→loops→fleets ladder as *register-churn*, not four permanent layers.
+- **[[garry-tan|Garry Tan]] (YC CEO) — the enterprise-architecture restatement**: *"systems of record will need to become AI harnesses or face replacement by agents."* Moves harness-primacy off the coding desktop and onto **enterprise software**: a CRM/ERP/ticketing system either exposes itself as a governed context+permission surface an agent can drive end-to-end, or an agent-native competitor eats it. Builder-side receipt in-thread (Eric Rea, Podium): *"we started building agents and quickly realized we needed to build the system of record too… agents need all the context and permissions you'd give an employee."* Counter-anchor (Sushanth Raman): *"yet somehow, AS/400 systems have survived every era of computing"* — systems-of-record are the stickiest enterprise software; "become a harness or die" may resolve as "slowly wrap a harness around a 40-year-old core." Tracked at org scale in [[ai-native-organizations]].
 
 ## Verifier-discipline-first corrective (Samuel McDonald, 2026-06-15)
 

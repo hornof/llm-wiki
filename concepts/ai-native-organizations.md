@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-08-13
+last_updated: 2026-08-25
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -127,6 +127,8 @@ All three converge on the underlying claim: **AI replaces the labor function tha
 - **Agents as the middle-management layer**: *"the mid-level of bureaucracy should be agents"* — execs set direction, ICs decide execution, agents organize work + resolve conflicts probabilistically and surface *ground-truth* two levels down (Brex CEO's meeting-transcript agent cited). This is the [[company-brain|company-brain]] introspection thesis at the org-design level.
 - **"Everything is slower than you think"** — the seven-plus-or-minus-two middle-management bottleneck means adoption *lags*, which is the founder opportunity; Tan predicts **2027 = "the harness wars"** (the [[buzz|multiplayer-harness]] / [[qm|QM]] category fight). Receipt: *"zero to $15M ARR in 4 months, 2-3 people, a few hundred skill files."*
 
+**Systems-of-record-become-harnesses (Tan, 2026-08-24)**: in a follow-on reply-thread prediction ([[businessbarista-harness-engineering-product-2026-08-24]]) Tan sharpens the enterprise-architecture stakes — *"systems of record will need to become AI harnesses or face replacement by agents."* The CRM/ERP/ticketing system either exposes itself as a governed context+permission surface an agent can drive end-to-end, or an agent-native competitor eats its function. Builder-side receipt (Eric Rea, Podium): *"we started building agents and quickly realized we needed to build the system of record too… agents need all the context and permissions you'd give an employee."* Counter-anchor (Sushanth Raman): *"yet somehow, AS/400 systems have survived every era of computing"* — systems-of-record are the stickiest enterprise software, so the resolution may be "slowly wrap a harness around a 40-year-old core" rather than replacement. This is [[loop-engineering|harness-primacy]] applied at org scale, and the enterprise-software face of [[alex-lieberman|Lieberman's]] *"harness engineering will disappear into 'product'"* prediction (same thread).
+
 ## Solo-Founder Instantiation: 13-Agent Stack (sairahul1, May 2026)
 
 [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] gives the AI-native-org thesis a concrete *solo-founder* template: replace the first three hires (market analyst + content/social manager + EA/chief-of-staff at $4–12K/mo each) with three Claude-orchestrated business agents, then add 10 Claude-Code-native dev agents for engineering workflow. Cost claim: **~$1,300/month total** for the full stack; 90-day phased build plan; claim that 13 well-built agents cover 70–80% of a team-of-six's output for the first 12–18 months of a business.
@@ -139,8 +141,30 @@ This is the **smallest-scale instantiation** of the company-becomes-the-model fr
 
 Counter-take in the comment thread (Lawand Soran): *"The founders who get there first are not the ones with the best AI tools. They are the ones who fixed the operational layer underneath before adding AI on top. Agents break fast when the workflows they plug into were already broken."* — same shape as Lovejoy's "configuration-as-security" framing applied to operational-discipline as the binding prerequisite.
 
+## Population-Level Receipts: Solo-Founder Share (Forbes, Aug 2026)
+
+Solo-founded startups rose **23.7% (2019) → 36.3% (mid-2025)**; a full AI stack costs $3K–$12K/yr vs $80K–$120K/mo for the equivalent human team; solo founders keep a median 75% more equity at exit. Named receipts: Base44 (solo → $80M Wix acquisition in 6 months), Pieter Levels, Polsia. Failure modes: enterprise sales, regulated industries, compute-at-scale. Same claim from the founder side: [[naveengrao-100x-entrepreneurs-2026-08-19|Naveen Rao's "100x more entrepreneurs"]]. — [[forbes-mehra-solo-founder-playbook-2026-08-03]]
+
+## The Enterprise-Transformation Demand Curve (Lieberman, 2026-08-25)
+
+Where the sections above are *supply-side* theses (how a firm could rebuild), [[alex-lieberman|Alex Lieberman]] (@businessbarista) supplies a rare **demand-side receipt**: the 10 most common AI-transformation asks his consulting practice gets from enterprises, **ranked by frequency** ([[businessbarista-enterprise-ai-asks-2026-08-25]]). The ordering is the signal:
+
+1. **AI Diagnostic / ROI Study** — where-do-we-start; opportunity map + ROI-by-use-case + implementation plan
+2. **Agentic Workflow Automation** — agents/automations/integrations for recurring processes ([[loop-engineering]]/[[graph-engineering]] as the delivery unit)
+3. **Architecture & SDLC Assessment** — codebase/tech-debt review + engineers' AI-fluency evaluation + modernization plan
+4. **Security Testing & Patching** — vuln / data-leakage / prompt-injection / misuse testing ([[ai-vulnerability-discovery]], [[prompt-injection]])
+5. **Security Assessment** — security/privacy/compliance risk + remediation
+6. **Code Modernization** — legacy stacks as a *tax on agent performance*, not just human maintainability
+7. **Data Engineering** — pipelines, migrations, search + knowledge systems ([[training-data-quality]], grounding)
+8. **MCP Gateway** — governed model/tool/data access: auth, routing, logging, usage controls ([[mcp]])
+9. **Model fine-tuning** — verticalized post-training ([[end-of-finetuning|near the bottom]] — least-common ask)
+10. **Citizen SDLC** — a secure, governed path for non-technical staff to promote AI prototypes to production
+
+Two structural reads: **(a) adoption is security-gated, not capability-gated** — two of the top five asks (#4 testing + #5 assessment) are security, and the #1 ask is still *diagnosis* (where to start), not build; **(b) fine-tuning is de-emphasized** (#9 of 10), corroborating the [[end-of-finetuning]] thread. The taxonomy maps almost 1:1 onto [[ai-engineering-skills|Ng's AI-Engineering Skills]] — the demand-side and supply-side maps are converging on the same shape. Owner-relevant: this *is* the current AI-engineering book of work. *(Single practitioner's book-of-business; a demand signal, not a market survey.)*
+
 ## Key Sources
 
+- [[businessbarista-enterprise-ai-asks-2026-08-25]] — Lieberman's 10 frequency-ranked enterprise AI-transformation asks (demand-side receipt; security-gated adoption; fine-tuning near bottom)
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
 - [[benln-yc-summer-2026-rfs]] — YC Summer 2026 RFS; AI-native service companies as explicit startup category (image-only social signal)
 - [[yc-summer-2026-rfs]] — full primary-source RFS text; Gustaf Alströmer's AI-Native Service Companies entry, plus Tom Blomfield's Company Brain and Diana Hu's AI OS for Companies as adjacent organizational-substrate categories
