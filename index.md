@@ -109,6 +109,8 @@
 - [[graph-engineering]] — the coordination layer above loop-engineering (2026-07-18 Steinberger question → Hamel Husain "Loop Engineering Is Dead" article → Akshay Pachaar explainer); nodes/edges/state, 4 hard problems (node justification, state hygiene, trusted routing, agents-agreeing), "a loop is a one-node self-edged graph"; the top of the prompt→context→harness→loop→graph ladder
 
 ## People & Voices
+- [[dylan-patel]] — SemiAnalysis founder/chief analyst; compute/capital-supply-side voice; "everything's a neocloud" + "Anthropic & OpenAI own most compute by 2028"
+- [[claire-vo]] — ChatPRD creator; "How I AI" host; ex-LaunchDarkly CPO/CTO; launched CXO.dev (builder-led AI-transformation consulting); solo→team reversal
 - [[mira-murati]] — founder of Thinking Machines Lab; ex-OpenAI CTO; "extend human will and judgment" + open-weights/customization strategy (Inkling)
 - [[addy-osmani]] — Google Chrome DevRel; "Agent Harness Engineering" (Agent = Model + Harness; the ratchet principle); recurring loop/harness-engineering synthesizer
 - [[charlie-hills]] — Substack creator; "Build Your Whole Team with Claude" (42 skills as a company org chart); Claude-skills packaging/distribution voice

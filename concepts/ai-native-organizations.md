@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -129,6 +129,8 @@ All three converge on the underlying claim: **AI replaces the labor function tha
 
 **Systems-of-record-become-harnesses (Tan, 2026-08-24)**: in a follow-on reply-thread prediction ([[businessbarista-harness-engineering-product-2026-08-24]]) Tan sharpens the enterprise-architecture stakes — *"systems of record will need to become AI harnesses or face replacement by agents."* The CRM/ERP/ticketing system either exposes itself as a governed context+permission surface an agent can drive end-to-end, or an agent-native competitor eats its function. Builder-side receipt (Eric Rea, Podium): *"we started building agents and quickly realized we needed to build the system of record too… agents need all the context and permissions you'd give an employee."* Counter-anchor (Sushanth Raman): *"yet somehow, AS/400 systems have survived every era of computing"* — systems-of-record are the stickiest enterprise software, so the resolution may be "slowly wrap a harness around a 40-year-old core" rather than replacement. This is [[loop-engineering|harness-primacy]] applied at org scale, and the enterprise-software face of [[alex-lieberman|Lieberman's]] *"harness engineering will disappear into 'product'"* prediction (same thread).
 
+**SaaS-vendor-side corroboration — "apps that agents can use" (Lovable CTO, 2026-08-26)** ([[dailybrief-roundup-2026-08-26]], Latent Space): Lovable reframes the future of SaaS as **MCP-enabled "capabilities"** — a *runtime contract* that lets an agent call an app's primitives without the app knowing which agent will call them. The inversion is stated cleanly: *"not 'can agents use my UI' but 'can agents use my primitives'"* — and Lovable positions its own move from **builder-tool → capability-server** as the winning shape. This is Tan's *"systems of record become harnesses"* claim executed from the *vendor* side: the SaaS app that survives is the one that exposes a governed, agent-drivable [[mcp|MCP]] surface. The [[businessbarista-enterprise-ai-asks-2026-08-25|#8 "MCP Gateway"]] enterprise ask is the buyer-side of the same shape.
+
 ## Solo-Founder Instantiation: 13-Agent Stack (sairahul1, May 2026)
 
 [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] gives the AI-native-org thesis a concrete *solo-founder* template: replace the first three hires (market analyst + content/social manager + EA/chief-of-staff at $4–12K/mo each) with three Claude-orchestrated business agents, then add 10 Claude-Code-native dev agents for engineering workflow. Cost claim: **~$1,300/month total** for the full stack; 90-day phased build plan; claim that 13 well-built agents cover 70–80% of a team-of-six's output for the first 12–18 months of a business.
@@ -162,9 +164,12 @@ Where the sections above are *supply-side* theses (how a firm could rebuild), [[
 
 Two structural reads: **(a) adoption is security-gated, not capability-gated** — two of the top five asks (#4 testing + #5 assessment) are security, and the #1 ask is still *diagnosis* (where to start), not build; **(b) fine-tuning is de-emphasized** (#9 of 10), corroborating the [[end-of-finetuning]] thread. The taxonomy maps almost 1:1 onto [[ai-engineering-skills|Ng's AI-Engineering Skills]] — the demand-side and supply-side maps are converging on the same shape. Owner-relevant: this *is* the current AI-engineering book of work. *(Single practitioner's book-of-business; a demand signal, not a market survey.)*
 
+**The category thickens: builder-led AI-transformation consulting (2026-08).** A second named entrant lands the same window: [[claire-vo|Claire Vo]] (ChatPRD creator; "How I AI" host) launches **CXO.dev**, *"AI operating models for scaled software companies… by builders, not consultants"* ([[clairevo-cxo-dev-launch-2026-08-25]]). Her three-part model for what real change requires — **technical readiness + agent-ready operating model + cultural change** — is the *how* under Lieberman's *what*, and #2 of her service lines is literally *"getting your repo agent-ready"* (the [[garry-tan|codebase-becomes-a-harness]] claim sold as a service). Two structural notes: (1) the **builder-led** positioning is an explicit wedge against the incumbent [[chamath-openai-consulting-fox-in-henhouse-2026-05-17|OpenAI/Anthropic $5.5B consulting ventures]] and the Deloitte/McKinsey tier — the bet is that *operators who've shipped with AI* beat *consultants who advise on it*; (2) Vo is the **solo-founder poster child** ([[#Solo-Founder Instantiation: 13-Agent Stack (sairahul1, May 2026)|the ChatPRD one-person-$1M]] receipt) *reversing* into a co-founded team + operator network — a live counter-datapoint to the "solo founder is the endgame" reading of this page.
+
 ## Key Sources
 
 - [[businessbarista-enterprise-ai-asks-2026-08-25]] — Lieberman's 10 frequency-ranked enterprise AI-transformation asks (demand-side receipt; security-gated adoption; fine-tuning near bottom)
+- [[clairevo-cxo-dev-launch-2026-08-25]] — Claire Vo launches CXO.dev (builder-led AI-transformation consulting; solo→team reversal; technical-readiness + operating-model + cultural-change model)
 - [[block-organizational-intelligence]] — essay tracing org design history and Block's architecture
 - [[benln-yc-summer-2026-rfs]] — YC Summer 2026 RFS; AI-native service companies as explicit startup category (image-only social signal)
 - [[yc-summer-2026-rfs]] — full primary-source RFS text; Gustaf Alströmer's AI-Native Service Companies entry, plus Tom Blomfield's Company Brain and Diana Hu's AI OS for Companies as adjacent organizational-substrate categories

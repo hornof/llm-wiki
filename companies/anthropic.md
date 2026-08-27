@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-08-04
+last_updated: 2026-08-26
 ---
 
 ## What It Is
@@ -85,6 +85,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 
 ## Traction Signals
 
+- **2026-08-26: $45B compute deal with Nscale** ([[dailybrief-roundup-2026-08-26]], TechCrunch): Anthropic *"continues its compute-gobbling streak"* with a **$45B deal with Nscale** — its largest single compute lock-in captured, dwarfing the [[dailybrief-roundup-2026-08-04|$10B Volta deal]] three weeks prior and extending the Salesforce/Amazon/SpaceX-Colossus supply stack. Direct fuel for [[dylan-patel|Patel's]] [[ai-margin-collapse|compute-consolidation-by-2028]] thesis (the two leading labs buying up most world compute). *(TechCrunch; deal terms/duration not detailed.)*
+- **2026-08-26: flagship struggles to attract users as cheaper tools thrive** ([[dailybrief-roundup-2026-08-26]], via [[simon-willison|Willison]]): reporting that Anthropic's **premium model is losing share to cheaper/faster alternatives** despite the $65B annualized run-rate — the first **user-acquisition-side** evidence for the [[ai-margin-collapse|premium↔commodity bifurcation]]. *"No fab advantage to defend"* the top-tier price gap. A share/mix signal, **not** a revenue-decline claim (revenue still growing); watch whether Anthropic responds with pricing or a cheaper tier. *(Secondary reporting.)*
+- **2026-08-25: AI-wellbeing research grants** ([[dailybrief-roundup-2026-08-25]], anthropic.com "Funding better evaluations of AI's impact on wellbeing"): structural grant funding for **evaluation methods around AI's impact on human wellbeing** — a governance/positioning move extending the trust-as-moat stack into a new eval category. Complements the [[frontier-ai-governance|governance]] surface and the [[jack-clark|policy]] layer. *(Scope vague; track whether "wellbeing evals" becomes a standard category.)*
 - **2026-08-04: $10B cloud deal with Volta** ([[dailybrief-roundup-2026-08-04]], TechCrunch): Anthropic signs a **$10B deal with AI-cloud startup Volta** — its 3rd major compute-supply lock-in after Salesforce and Amazon (and the [[anthropic-spacex-higher-limits-2026-05-06|SpaceX/Colossus]] compute). Reinforces the read that at frontier scale the moat is **compute infrastructure + inference economics**, not API-only positioning — the lab outsources the commodity compute race to keep R&D on reasoning. *(Volta is a young cloud startup; deliverability of promised density/efficiency is the open question — no page yet.)*
 - **2026-08-04: Tino Cuéllar joins as Chief Global Affairs Officer** ([[dailybrief-roundup-2026-08-04]], anthropic.com): **Mariano-Florentino (Tino) Cuéllar** (former California Supreme Court justice; Carnegie Endowment president) takes a senior policy/governance role — a signal of Anthropic staffing up for **government + standards engagement** as the [[frontier-ai-governance|governance fight]] intensifies. Complements [[jack-clark|Jack Clark's]] policy surface.
 - **2026-07-20: $1.5B copyright settlement approved** ([[anthropic-copyright-settlement-1-5b-approved-2026-07-20]]): a court approved Anthropic's **$1.5B** class-action settlement with authors + publishers — **$3,000/work across ~500,000 works**. Key nuance: Judge Alsup ruled **training on copyrighted text *is* fair use** (Anthropic won the core question); the liability was for **acquiring the corpus via piracy** (Library Genesis / Pirate Library Mirror). Settles the case but sets **no binding appellate precedent** (won't be appealed). Largest AI-copyright payout captured; parallel suits still pending vs Google/Meta/Midjourney/OpenAI.
