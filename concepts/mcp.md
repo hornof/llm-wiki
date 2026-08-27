@@ -2,7 +2,7 @@
 name: Model Context Protocol (MCP)
 type: concept
 maturity: active-research
-last_updated: 2026-05-20
+last_updated: 2026-08-26
 ---
 
 ## Definition
@@ -12,6 +12,7 @@ MCP (Model Context Protocol) is Anthropic's open standard for connecting LLMs to
 MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool access into each LLM application, MCP lets you plug any data source or capability into any MCP-compatible model. This is the practical infrastructure layer under the "agents that take autonomous actions" vision.
 
 ## Current State
+- **"The future of SaaS is apps that agents can use" — MCP as runtime contract (Lovable CTO, 2026-08-26)** ([[dailybrief-roundup-2026-08-26]], Latent Space): a SaaS-vendor-side thesis that apps should expose **MCP-enabled "capabilities"** so agents can call their *primitives* without the app knowing which agent will call them — *"not 'can agents use my UI' but 'can agents use my primitives.'"* Lovable frames its own shift from **builder-tool → capability-server** as the winning shape. First wiki capture of a SaaS vendor explicitly re-architecting around MCP as an *inversion of the product surface* (the API/primitive layer, not the UI, becomes the product). The SaaS-vendor complement to [[ai-native-organizations|Garry Tan's "systems of record become AI harnesses"]] and the [[businessbarista-enterprise-ai-asks-2026-08-25|enterprise "MCP Gateway" ask]]. *(Vendor framing.)*
 - **Stateless MCP (MCP 2.0 spec shift, 2026-07-31)** ([[dailybrief-roundup-2026-07-31]], [[simon-willison|Willison]]): the spec moves toward **stateless, composable context servers** — a tool server no longer needs persistent backend session state, so servers become easier to host, chain, and embed. Willison is shipping `mcp-explorer` + `datasette-mcp` on it. Practitioner read: this is the wedge for plugging Claude into existing ops/data infrastructure without standing up stateful backends — *"a licensing model for how AI agents talk to existing infrastructure,"* not just a protocol tidy-up. (Owner-relevant for a Build-Lab MCP-server roadmap.)
 - Launched by Anthropic as an open standard (not proprietary)
 - Supported natively in Claude Code, Claude Desktop, and growing third-party tools
