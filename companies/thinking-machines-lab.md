@@ -2,7 +2,7 @@
 name: Thinking Machines Lab
 type: company
 status: active
-last_updated: 2026-05-13
+last_updated: 2026-08-27
 ---
 
 ## What It Is
@@ -24,6 +24,7 @@ Thinking Machines Lab is an AI research and product company founded in 2025 by M
 - Murati's pedigree (OpenAI CTO who oversaw ChatGPT launch) gives the lab credibility and talent draw
 - **#1 on Paraform Talent Density Index, May 4 2026** — ahead of [[openai]] (#2) and [[anthropic]] (#3); [[brianlamanna-paraform-talent-density-2026-05]]
 - **2026-05-11**: first public research/product output — **TML-Interaction-Small** + [[interaction-models]] framing. Establishes the lab as a research-output entity, not just a balance sheet — [[thinking-machines-interaction-models-2026-05-11]]
+- **2026-08-27: co-founder Barret Zoph resurfaces at Google** ([[dailybrief-roundup-2026-08-27]], TechCrunch): Zoph — a **Thinking Machines co-founder** who was *"ousted before joining OpenAI"* — is now at **Google** (role/scope unknown). An elite-researcher churn datapoint threading the top labs (Thinking Machines → OpenAI-that-didn't-happen → Google), and a founder-departure signal for a lab whose thesis is largely its talent density. *(TechCrunch; role not detailed.)*
 
 ## "Resume Raises" Context
 
