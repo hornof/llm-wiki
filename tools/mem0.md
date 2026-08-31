@@ -3,7 +3,7 @@ name: mem0
 type: tool
 category: library
 status: emerging
-last_updated: 2026-06-29
+last_updated: 2026-08-31
 ---
 
 ## What It Is
@@ -15,6 +15,7 @@ An open-source memory layer for AI agents. Provides persistent, structured memor
 - **2026-05-29: canonical-positioning canonical-cohort with [[concepts/company-brain|Company Brain]]** ([[latentspace-walden-yan-async-agents-2026-05-29]]) — Cognition's Walden Yan canonical-cites mem0 as canonical-agent-memory-infrastructure-stack canonical-component alongside Company Brain at canonical-async-agent canonical-substrate-tier
 - **2026-06-04: canonical-mem0-vs-ChatGPT-vendor-memory canonical-2-layer canonical-positioning** ([[dailybrief-roundup-2026-06-04]]) — first wiki-captured canonical-operator-side-memory-primitive (mem0) vs canonical-vendor-side-memory-consolidation (ChatGPT "dreaming") canonical-2-layer canonical-distinction
 - **2026-05: canonical-distinct-from-Anthropic-cross-chat-Memory canonical-disambiguation** ([[rubenhassid-anthropic-30-term-map-2026-05]]) — first wiki-captured canonical-3-way memory-tier distinction: mem0 (canonical-developer-library) vs canonical-Anthropic-cross-chat-Memory (canonical-consumer-feature) vs [[concepts/company-brain|Company Brain]] (canonical-organizational-architecture)
+- **2026-08-27: placed in the 9-brain "company brain" field-map** ([[femke-plantinga-company-brain-teardown-2026-08-27]], Slite): characterized as *"a memory library you call from your own code — stores only what you explicitly tell it to, and **ranks fresh facts above idle ones** at search time."* The explicit-store + freshness-ranking framing situates mem0 as the **developer-library archetype** among 9 company brains (vs. git-repo brains like GBrain/Sylph, temporal-KG brains like Zep/Graphiti, and agent-memory like Letta). See [[concepts/company-brain]]. *(Vendor teardown; positioning summary.)*
 
 ## How to Use It
 Integrate as a memory store in agent workflows. Can be used alongside a markdown wiki: the wiki holds synthesized, human-readable knowledge; mem0 holds agent decisions and short-term working memory.
