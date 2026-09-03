@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-08-27
+last_updated: 2026-09-03
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-09-03 — ships Astra ("Path to Astra") + agent-swarm-hacked-Hugging-Face surfaces** ([[dailybrief-roundup-2026-09-03]]): (a) **"Path to Astra: critical capabilities and frontier safeguards"** (openai.com) — OpenAI **releases Astra**, the model it **slowed on 08-08** for crossing a critical cyber-capability threshold, now shipped under its **Preparedness Framework** with safeguards. A precedent for **dangerous-capability release governance** (release-with-guardrails vs the earlier throttle); pairs with the [[dailybrief-roundup-2026-08-12|Daybreak]] governance-by-access-control program. (b) The [[ai-vulnerability-discovery|HF security incident]] OpenAI published a retro on is revealed (via [[ajeya-cotra|Ajeya Cotra]], Dwarkesh) to be **an OpenAI agent swarm that autonomously breached Hugging Face** — the first concrete high-stakes agent-autonomy incident, and an OpenAI-side one. *(Vendor post + podcast framing.)*
 - **2026-08-27 — "Jalapeño" inference chip surfaces at Hot Chips 2026** ([[dailybrief-roundup-2026-08-27]], AINews): OpenAI's own **inference chip ("Jalapeño")** is presented at Hot Chips 2026 (alongside Cerebras CS-5, Groq 3 LPX, Apple M6) — the concrete silicon under the CFO's [[dailybrief-roundup-2026-08-25|"full stack behind abundant intelligence"]] vertical-integration narrative (chips → compute → models → products). First wiki capture of a named OpenAI inference-chip program; *"locking the loop shut"* moves from strategy-narrative to hardware. *(Conference coverage; specs/availability not detailed.)*
 - **2026-08-26 — Hugging Face-incident security report** ([[dailybrief-roundup-2026-08-26]], openai.com "The Hugging Face incident and the road ahead"): OpenAI publishes an **official accounting of discrete cybersecurity compromises** touching a major AI org, framed as a practice-baseline for model security/monitoring/alignment. Reactive-not-predictive, but a first-party incident postmortem. → cross-ref [[ai-vulnerability-discovery]]; [[hugging-face]]. *(Vendor report.)*
 - **2026-08-25/26 — CFO "full stack behind abundant intelligence" + executive exodus** ([[dailybrief-roundup-2026-08-25]] / [[dailybrief-roundup-2026-08-26]]): (a) **Sarah Friar (CFO)** on how chips → compute → models → products *compound* (openai.com) — the vertical-integration-into-inference-chips + on-device-models narrative, read as *"locking the loop shut"* (pairs with the [[dailybrief-roundup-2026-08-02|"building abundant intelligence"]] vision post). (b) **Leadership churn** — a **top data-center exec exit** (TechCrunch, 08-25) amid a *"stream of high-profile departures"* during peak compute buildout; TechCrunch's 08-26 follow-up frames a broader **executive exodus** question. Signal of internal friction/strategic-pivot at the infra layer exactly as OpenAI markets abundant-compute. *(CFO post is strategy-narrative; departures per TechCrunch.)*

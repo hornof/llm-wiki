@@ -2,7 +2,7 @@
 name: RAG (Retrieval-Augmented Generation)
 type: concept
 maturity: mainstream
-last_updated: 2026-05-01
+last_updated: 2026-09-03
 ---
 
 ## Definition
@@ -13,6 +13,18 @@ Solves the knowledge cutoff and hallucination problems for domain-specific or up
 
 ## Current State
 Mainstream in production AI systems. Well-understood toolchain: embeddings → vector store → retrieval → LLM. Active research in improving retrieval quality (reranking, hybrid search, late chunking).
+
+## Vector-Database Mechanics (practitioner reference)
+
+A clean anatomy of the retrieval step ([[raw-batch-roundup-2026-09-02|@claudeskills101 / Alex Prompter]], 2026-08-31): a vector DB is *"not a regular database with a feature bolted on — every part of the stack serves one operation: finding the closest vectors to a query, fast."* The pipeline:
+
+1. **Embedding** — an embedding model turns text/data into a **dense vector** capturing *meaning*, not keywords.
+2. **Similarity search** — finds nearest vectors to the query embedding by a **distance metric** (not exact match).
+3. **Metadata** — rides alongside every vector (source/date/category) and **filters what search may return** (it doesn't replace the vector — e.g. `source = documentation AND date > X`).
+4. **Index** — **HNSW / IVF / PQ** exist so the DB **approximates** nearest neighbors instead of scanning every vector; index + vectors + metadata live in one store, making retrieval a **single query, not a cross-system join**.
+5. **Top-K retrieval** — returns the K nearest vectors with scores; filtering narrows further, all without leaving the DB.
+
+In RAG: documents chunked → chunks embedded → DB retrieves top-K → **only those** go to the LLM as context (*"the LLM never sees the whole collection, only the part the vector search decided mattered"*). **Named DBs, same job, different tradeoffs**: Pinecone, Weaviate, Milvus, Qdrant, Chroma, **pgvector**. *(Owner-relevant hands-on reference; source is promotional but the mechanics are standard/accurate.)*
 
 ## Strengths & Weaknesses
 **Strengths**: scales to millions of documents; hallucinations isolated to a single answer; documents stay authoritative and unmodified; good for dynamic/frequently-updated corpora.
