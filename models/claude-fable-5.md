@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-07-08
+last_updated: 2026-09-03
 ---
 
 ## What It Is
@@ -18,6 +18,10 @@ last_updated: 2026-07-08
 | **Public-accessible Mythos-class** | **Fable 5** | Public via Anthropic API + Claude.ai + dev surfaces |
 
 Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos 5** ([PDF](https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf)) shipped same day — first wiki-captured System Card as primary model-release-artifact pattern (*"the PDF is the model release"* per [[dailybrief-roundup-2026-06-09|Daily Brief insightful framing]]).
+
+## Fable 5.1 point-release (2026-09-01)
+
+[[dailybrief-roundup-2026-09-03|Willison]] surfaces **Claude Fable 5.1** — an Anthropic point-release marketed for **coding, knowledge work, and long-running problem-solving**, introduced on a new **Terminal-Bench-Science** benchmark. Continues the Fable 5 → 5.1 iterative cadence; Willison's hands-on note is characteristically low-key (*"made me a really nice animated pelican"* — his running model-capability sniff-test). *(Point-release; benchmark/pricing specifics light in the surfacing.)*
 
 ## Strengths & Weaknesses
 

@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-08-02
+last_updated: 2026-09-03
 
 ---
 
@@ -19,6 +19,10 @@ Karpathy asserts the speedup from skilled agentic engineering is well beyond 10x
 **Spec-clarity is the newly load-bearing skill (2026-07-30, [[raw-batch-roundup-2026-07-30-pt2]])**: Dax Raad (@thdxr) argues the leverage is now total — *"you now have the ability to play with every possible solution… refactor everything when you think of better patterns; if you're not producing the best software of your life right now something is wrong."* Ben Dickson names the corresponding skill shift: engineers *"used to start with vaguely defined goals and gradually crystallize"* the problem while exploring; AI coding agents instead require **clearly defining problems, goals, and all requirements up front** — front-loaded specification, not exploratory crystallization. This is the same behavioral pivot the [[claude-md-pattern]] and [[context-engineering|progressive-disclosure]] threads describe, restated as the individual-engineer skill: the bottleneck moves from *writing* to *specifying + judging*.
 
 **Counter-nuance — the spec is disposable ([[matt-pocock|Matt Pocock]], "grill-driven development", 2026-08-01, [[raw-batch-roundup-2026-08-02]])**: Pocock pushes back on lumping his skills under *spec-driven development* (SDD). In his approach the specs are *"intended to be deleted immediately — not kept around, or treated as source code."* The spec is *"just a projection of the decisions made during grilling"* — the value is the **interrogation** (the model grilling you into clarity), not the artifact it emits. He proposes **"grill-driven development (GDD)"** for it (vs. Birgitta Boeckeler's "spec-first," which she still files under SDD). The sharpening: front-loaded clarity matters (Dax/Dickson), but the durable asset is the *decisions*, not a persisted spec document — consistent with the [[claude-md-pattern|"keep it lean, structure over prose"]] discipline (don't hoard the spec as a long living rulebook).
+
+## OSS governance shifts to agent software factories ("PRs NOT Welcome", 2026-09-03)
+
+[[dailybrief-roundup-2026-09-03|Latent Space, "PRs NOT Welcome"]] documents top AI open-source projects — **Vercel's AI SDK, Astro, tldraw** — shifting maintainer governance from *"accept PRs from anyone"* to **teams of agents that fix issues and write the code**. The maintainer's job moves from *reviewing external contributions* to *running the agent fleet that produces them* — the [[loop-engineering|generator+verifier loop]] applied to project maintenance, with the human as fleet-architect. The brief's skeptical read: *"the move from 'accept PRs from anyone' to 'we run the agents that write the code' is just outsourcing triage to Claude… the real problem was always gatekeeping, not throughput."* Same shape as [[company-brain|Gorgias Cortex's nightly-wrong-answers→PRs]] and the [[raw-batch-roundup-2026-08-21|"code is free" / codebase-as-prompts]] thread, now at **OSS-project-governance** scale — contribution *throughput* stops being the bottleneck and **curation/direction** becomes the scarce function. *(Latent Space; the named projects are the trackable anchor.)*
 
 ## Core Responsibilities of the Agentic Engineer
 1. **Spec and design authority**: the engineer owns the system design, not the agent. Example: insisting on a persistent unique user ID rather than letting the agent cross-correlate by email address.

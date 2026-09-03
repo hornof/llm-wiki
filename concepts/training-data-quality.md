@@ -2,7 +2,7 @@
 name: Training Data Quality
 type: concept
 maturity: active-research
-last_updated: 2026-08-24
+last_updated: 2026-09-03
 ---
 
 ## Definition
@@ -47,6 +47,7 @@ The 2026-08 signals reframe the *supply side* of the same constraint — the dat
 
 - **Provenance/IP shock — data has an acquisition cost** ([[amazon|Amazon rare-books]], [[dailybrief-roundup-2026-08-17]]): 404 Media tracked scarce physical books being destructively scanned into an Amazon AI-training facility. *"The corpus your model trains on is partly determined by whoever can afford to buy it first."* Data-sourcing becomes a capitalized, contestable supply chain — copyright law lagging the arbitrage. The physical-world instantiation of the $10-15B/yr data-spend loop above.
 - **Saturation / model-collapse risk — the "hall of mirrors"** (Pew Research, *"How Much of the Internet Is Written with AI?"*, 2026-08-20, [[dailybrief-roundup-2026-08-23]]): a quantitative estimate of AI-generated-content prevalence online. The structural worry the brief names: *if most new internet text is AI-generated, training-data quality collapses in 2–3 cycles — the internet stops being a mirror of human thought and becomes a hall of mirrors.* The empirical anchor for the long-discussed **model-collapse** concern. *(Pew study; the collapse timeline is inference, not measured.)*
+- **The retrieval/citation side — manufactured sources feeding AI recommendations** (Perplexity cites **215,128** manufactured "best software" pages, trellner.com, [[dailybrief-roundup-2026-09-03]]): three sites generated **215K+ SEO-spam pages** that AI recommendation/citation systems (Perplexity) now surface as sources. The hall-of-mirrors problem at the **inference/retrieval** layer, not just pre-training: if the *live web an AI cites* is itself AI-manufactured spam engineered to be cited, [[rag|retrieval-grounded]] answers inherit the pollution regardless of how clean the base model's training data was. Sharpens the [[ai-vulnerability-discovery|AI-code-supply-chain]] analogy into an **information-supply-chain** attack. *(Report; per-citation impact on Perplexity answers not quantified.)*
 - **The escape hatch — synthetic experience**: [[simulation-scaling]] (Joon Sung Park / Simile AI, *"10% worse, 100× cheaper, 10000× faster"*) is the direct response — if real data is contested and degrading, manufacture it. The two theses are complements: this page names the problem (supply squeeze), simulation-scaling proposes the fix (synthetic supply). Note the tension with the quality-over-scale evidence above — synthetic data trades some fidelity for volume, so *"is synthetic data clean data?"* becomes the load-bearing open question.
 
 ## Strategic Implication
