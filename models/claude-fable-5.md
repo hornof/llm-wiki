@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-09-03
+last_updated: 2026-09-08
 ---
 
 ## What It Is
@@ -22,6 +22,14 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 ## Fable 5.1 point-release (2026-09-01)
 
 [[dailybrief-roundup-2026-09-03|Willison]] surfaces **Claude Fable 5.1** — an Anthropic point-release marketed for **coding, knowledge work, and long-running problem-solving**, introduced on a new **Terminal-Bench-Science** benchmark. Continues the Fable 5 → 5.1 iterative cadence; Willison's hands-on note is characteristically low-key (*"made me a really nice animated pelican"* — his running model-capability sniff-test). *(Point-release; benchmark/pricing specifics light in the surfacing.)*
+
+**Viral capability receipts (Min Choi thread, 2026-09-03, [[raw-batch-roundup-2026-09-03]])**: [[min-choi|Min Choi]] (recurring Fable-viral curator) collects real-world 5.1 builds — the register is **one-shot games/worlds/simulations + engine rewrites + short RL loops**:
+- **Call of Duty clone** in *3 prompts, ~$218* (Riley Brown)
+- **GTA-style open-world multiplayer set in NYC** — Matt Shumer, *"keep the loop going so it keeps getting better"* (the [[loop-engineering|iterate-the-loop]] pattern)
+- **Photo → designed house → cinematic walkthrough**, generated *"through code"* (Alex Albert, Anthropic)
+- **Trackmania Nations Forever physics engine rewritten in pure C (~a day)**, with inputs from a **PPO policy it trained in ~20 min** (adonis_singh)
+
+Consistent with the [[claude-fable-5|Fable 5]] "english→code-interpreter at the frontier" capability arc; costs/times are self-reported viral-curation, not benchmarks.
 
 ## Strengths & Weaknesses
 

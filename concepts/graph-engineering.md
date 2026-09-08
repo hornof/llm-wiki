@@ -2,7 +2,7 @@
 name: Graph Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-08-25
+last_updated: 2026-09-08
 ---
 
 ## Definition
@@ -42,7 +42,7 @@ The canonical starter graph: `research → write → review`, with a conditional
 ### The four hard problems
 1. **When a node deserves to exist** — a node earns its place only if it's a *real specialty* (different model, different toolset, or a genuinely separate role like a read-only reviewer). Napkin test: *"if you can't draw the graph on a napkin, it's too complex; if collapsing two nodes loses nothing, they were never two nodes."* The common failure is turning "summarize this PDF" into a five-node graph.
 2. **Keeping shared state clean** — in a loop the failure mode is context rot; in a graph the same disease moves into shared state (a sloppy write in node 2 becomes confident input for node 5). Fixes are *"simple and boring"*: typed schema, explicit per-field write permissions, checkpoints between nodes. Caveat: replay re-executes post-checkpoint nodes, so any node with **external side effects** (send email, create record) must be **idempotent**.
-3. **Routing you can trust** — an edge is a decision; who makes it matters. Model-decided routes buy flexibility *and* instability (same state, different paths, miserable debugging). **Google's ADK 2.0 rule** — *"deterministic code should control predictable routing; models should only handle steps that need actual judgment."* Route with code wherever the condition is checkable.
+3. **Routing you can trust** — an edge is a decision; who makes it matters. Model-decided routes buy flexibility *and* instability (same state, different paths, miserable debugging). **Google's ADK 2.0 rule** — *"deterministic code should control predictable routing; models should only handle steps that need actual judgment."* Route with code wherever the condition is checkable. **Production receipt: Spotify "Portal"** ([[spotify-portal-model-routing-2026-09-04]], 2026-09-04) — a two-model Claude Code router that cut tokens **90%** — found *rules-as-instructions didn't hold* (the model routed around soft guidance) and switched to **hard blocks at the routing layer** (files >350 lines *blocked* from the expensive model): *"written rules are a suggestion; a block is not."* A firm-scale confirmation that trustworthy routing is enforced in deterministic code, not requested of the model.
 4. **Agents agreeing with each other** — loop engineering's sharpest rule (*never let an agent grade its own homework*) gets worse at scale: 20 agents on the same base model reading the same flawed context happily agree, and models measurably prefer their own outputs — *"organized nonsense at industrial scale."* Fix: a **reviewer node with teeth** — different model, fresh context (not the full conversation), verdict anchored to evidence the graph can't fabricate (tests that ran, code that compiled). **[[cognition|Cognition]]** landed here after a year running Devin: many agents may *read* in parallel, but **only one agent is ever allowed to write** — reads are safe to parallelize, writes are where the damage happens.
 
 ### Where a graph is overkill — "most of the time"
