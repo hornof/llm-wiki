@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-08-25
+last_updated: 2026-09-08
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -100,6 +100,8 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 **Central reformulation**: *"A loop is a generator wired to a verifier. The generator was never the bottleneck. The verifier is."*
 
 **Closing canonical**: *"Design the verifier, not the prompt."*
+
+**Empirical check — do agents actually use verification well? (Danluu, 2026-09-07)** ([[dailybrief-roundup-2026-09-08]], danluu.com "How well do agents use test/verification techniques?"): a high-signal empirical analysis finding **agents are still weak at correctness-validation** — the generator has outrun the agent's ability to *operate* the verifier. Sharpens McDonald's thesis from the other side: it's not enough to *design* a good verifier if the agent underuses it — the closing of the loop is itself a capability gap, not just a harness-design choice. Concrete grounding for the *"the feedback inside the loop is the magic"* claim.
 
 ### Open vs Closed loops
 
