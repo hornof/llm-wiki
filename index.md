@@ -43,6 +43,7 @@
 - [[colossus-2]] — SpaceX's canonical-multi-tenant frontier-AI training substrate (Nvidia GB300 GPU cluster); anchors $5.4B–$6.3B multi-year compute-leasing canonical-deal with [[reflection-ai]] ($150M/month through 2029); first wiki-captured canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning; repositions SpaceX from canonical-launch-services to canonical-AI-substrate-provider (June 2026)
 
 ## Models & Providers
+- [[gpt-6-astra]] — OpenAI's GPT-6 flagship (codename "Astra", launched 2026-09-08); claimed SOTA computer-use + coding; ~2.5× token cost but cheaper per task; first frontier flagship gated through a dangerous-capability (critical-cyber) governance process
 - [[kimi-k3]] — Moonshot's 2.8T-A50B MoE, "largest open model ever" (weights promised 2026-07-27); Opus-class-ish at Sonnet pricing; open-weight scaling inflection
 - [[muse-glimmer]] — Meta's 30B Apache-2.0 agentic open-weights model (Aug 2026); a permissive-license shift re-entering the open-weights race
 - [[claude-opus-5]] — Anthropic's new Opus generation (2026-07-24); Fable-level capability at Opus-4.8 per-token price; "half the price" = cost-per-task; most-aligned + hardest-to-prompt-inject Claude yet

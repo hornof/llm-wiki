@@ -2,7 +2,7 @@
 name: Mistral AI
 type: company
 status: active
-last_updated: 2026-04-29
+last_updated: 2026-09-08
 ---
 
 ## What It Is
@@ -11,6 +11,7 @@ Mistral AI is a French AI startup (founded 2023, Paris) that develops open-weigh
 
 ## Key Signals
 
+- **2026-09-08: raises €3B at ~€21B valuation — "sovereign AI becomes big business"** ([[dailybrief-roundup-2026-09-08]], TechCrunch): a step-change from the ~$14B (April 2026) valuation — **~€21B** with **Samsung + PSG + EU capital**. The brief's read: *"less about the lab's capability and more about Europe betting €3B that it can't afford to be shut out of frontier AI… a geopolitical move wearing a funding announcement."* Elevates Mistral to a **fully-funded frontier-lab** tier alongside OpenAI/Anthropic and hardens the [[#Geopolitical Angle|sovereign-AI]] thesis into a venture-scale reality. *(TechCrunch; investor split / primary/secondary mix not detailed.)*
 - **Forbes 2026 AI 50** inclusion — [[forbes-ai-50-2026]]
 - Customers include Cisco and European government agencies; local (French/European) roots are described as a "winning differentiator" for government buyers
 - Valued at $14B (per Forbes accompanying feature)
