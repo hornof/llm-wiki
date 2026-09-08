@@ -3,7 +3,7 @@ name: Min Choi (@minchoi)
 type: person
 affiliation: independent AI content curator + X (@minchoi)
 signal_sources: [twitter]
-last_updated: 2026-07-06
+last_updated: 2026-09-08
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ last_updated: 2026-07-06
 
 ## Their Current Focus
 
+- **2026-09-03: canonical-Fable-5.1-viral-thread canonical-"10-wild-examples"** ([[raw-batch-roundup-2026-09-03]]) — canonical-cadence continues onto the [[claude-fable-5|Fable 5.1]] point-release; canonical-first-4-visible-examples: (1) canonical-Riley-Brown canonical-Call-of-Duty-clone canonical-3-prompts-$218 canonical-cost-anchor; (2) canonical-Matt-Shumer canonical-GTA-style-NYC-open-world-multiplayer canonical-"keep-the-loop-going"; (3) canonical-Alex-Albert canonical-photo→house-design→cinematic-walkthrough canonical-video-through-code; (4) canonical-adonis_singh canonical-Trackmania-physics-engine-pure-C-rewrite + canonical-20-min-PPO-policy. Extends the canonical-Fable-viral-curator canonical-catalog from Fable 5 → 5.1.
 - **2026-07-06: canonical-3rd-Fable-5-viral-thread canonical-99-hours-in canonical-anchor** ([[min-choi-fable-5-viral-3rd-thread-99-hours-in-2026-07-06]]) — canonical-first-4-visible-examples: (1) canonical-Ammaar-Reshi canonical-Command-Conquer-Generals-Zero-Hour canonical-iPhone-iPad canonical-ARM64-native-no-emulator canonical-2003-engine canonical-port + canonical-open-source; (2) canonical-Alex-Nguyen canonical-Rork+Fable-5 canonical-Subway-Surfers-clone canonical-1-hour canonical-full-pipeline canonical-idea-to-art-to-3D-to-code; (3) canonical-Adam-Lyttle canonical-kid's-toy-to-mobile-game + canonical-"Make no mistakes" canonical-community-meme-echo; (4) canonical-Anshu canonical-Fable-5+Seedance canonical-ocean-wildlife-app canonical-video-integration. **canonical-first-wiki-captured canonical-99-hour-since-Fable-5-return canonical-quantitative-timing-anchor** + canonical-first-wiki-captured canonical-Rork canonical-tool-mention + canonical-first-wiki-captured canonical-Seedance canonical-video-generation-tool-mention.
 - **2026-07-03: canonical-2nd-Fable-5-viral-thread canonical-9-visible-examples** ([[min-choi-fable-5-viral-2nd-thread-9-examples-2026-07-03]]) — canonical-Fable-5-viral-moment canonical-2nd-thread canonical-9-visible-examples canonical-catalog (canonical-$289K-Polymarket-AI-trading-bot + canonical-GTA-6-trailer-1-hour + canonical-3D-Tokyo-Metro-subway + canonical-KernelBench-Mega-megakernel-record + canonical-3D-SF-Golden-Gate-20M-tokens + canonical-Fable-5-vs-Codex-Opus + canonical-oneshot-flight-simulator-levelsio-reference + canonical-Miles-Deutscher-tutorial-video + **STRUCTURALLY MAJOR canonical-Diego-Cabezas canonical-Fable-5-orchestrator canonical-Opus + Codex canonical-4-tier canonical-multi-model canonical-team-pattern**).
 - **2026-07-01: canonical-1st-Fable-5-viral-thread canonical-10-wild-examples** (canonical-first-4-visible-examples in [[dailybrief-roundup-2026-07-02-pt2]]) — canonical-Fable-5 canonical-Rocket-League-clone-one-shot + canonical-Spiderman-Godot + canonical-Minecraft-clone + canonical-Riley-Brown-race-for-Super-Intelligence-game canonical-4-prompts-$173-tokens canonical-cost-anchor.
