@@ -110,6 +110,10 @@
 - [[graph-engineering]] — the coordination layer above loop-engineering (2026-07-18 Steinberger question → Hamel Husain "Loop Engineering Is Dead" article → Akshay Pachaar explainer); nodes/edges/state, 4 hard problems (node justification, state hygiene, trusted routing, agents-agreeing), "a loop is a one-node self-edged graph"; the top of the prompt→context→harness→loop→graph ladder
 
 ## People & Voices
+- [[martin-alderson]] — independent AI-infra-economics analyst; coined the [[ai-margin-collapse]] thesis (GLM-5.2 inference-margin collapse) + "xAI-as-datacentre-REIT" framing
+- [[samuel-mcdonald]] — practitioner voice (@samueljmcd); verifier-discipline-first [[loop-engineering]] corrective — "a loop is a generator wired to a verifier; design the verifier, not the prompt"
+- [[sairahul1]] — practitioner voice (Rahul, @sairahul1); solo-founder 13-agent playbook + "build your first AI loop" + FDE no-BS guide (owner-relevant)
+- [[rahul-gs]] — practitioner voice (@rahulgs); "english → code interpreters" 10-pt thesis (Boris Cherny "strongly agree" endorsed)
 - [[alex-lieberman]] — Morning Brew co-founder (@businessbarista); AI-transformation consulting; demand-side enterprise-AI-adoption voice (10-ask taxonomy, "harness→product", markdown-as-verification-gate)
 - [[ajeya-cotra]] — AI-safety researcher/analyst; framed the OpenAI agent-swarm Hugging Face breach as the first live-fire agent-autonomy incident (single surface — watch)
 - [[dylan-patel]] — SemiAnalysis founder/chief analyst; compute/capital-supply-side voice; "everything's a neocloud" + "Anthropic & OpenAI own most compute by 2028"
