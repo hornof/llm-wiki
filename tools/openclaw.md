@@ -29,7 +29,7 @@ Documentation at `docs.openclaw.ai`. **Heartbeats canonical-pattern**: cron-base
 Pairs structurally with:
 - [[peter-steinberger|Peter Steinberger]] — project steward; canonical [[concepts/loop-engineering|Loop Engineering]] 2nd-voice (Loop-Engineering-coinage-context per [[steipete-loops-engineering-vision-md-2026-06-07]])
 - [[concepts/loop-engineering|Loop Engineering canonical-cluster]] — Openclaw at **canonical-cron-and-heartbeat infrastructure-tier** within 11-voice cluster
-- [[hermes-agent]] — competing/complementary tool (Greg Isenberg Q1 framing); single-source-defer carry-over
+- **Hermes** (hermes-agent) — competing/complementary tool (Greg Isenberg Q1 framing); single-source-defer carry-over (create-candidate if it re-surfaces)
 - [[sydney-runkle-langchain-4-layer-loop-engineering-2026-06-17|Sydney Runkle Event-driven loop (Level 3)]] — Openclaw heartbeats canonical-pattern reference at LangChain-tier
 - [[hanakoxbt-claude-loops-while-you-sleep-2026-06-13|Hanako "a loop is just Claude on a schedule"]] practitioner-tier canonical-simplicity framing — Openclaw heartbeats operationalizes this at canonical-cron-tier
 - [[block-builderbot-launch-2026-06-17]] — Builderbot Slack-tag-canonical-trigger vs Openclaw heartbeats canonical-cron-trigger = first wiki-captured 2-vendor canonical-trigger-mechanism cluster
