@@ -8,7 +8,7 @@ last_updated: 2026-07-16
 
 ## What It Is
 
-**Inkling** is the first model release from [[thinking-machines|Thinking Machines Lab]] ([[mira-murati|Mira Murati]]'s frontier lab), launched **2026-07-15** as an **open-weights** model. It is a **Mixture-of-Experts transformer — 975B total parameters, 41B active**, with up to a **1M-token context window**. Positioned explicitly as *"a good open-weights base for customization"* rather than a frontier-leader: *"Inkling is not the strongest overall model available today, open or closed."* A smaller sibling, **Inkling-Small** (276B total / 12B active), is in preview and reportedly matches or exceeds Inkling on many benchmarks.
+**Inkling** is the first model release from [[thinking-machines-lab|Thinking Machines Lab]] ([[mira-murati|Mira Murati]]'s frontier lab), launched **2026-07-15** as an **open-weights** model. It is a **Mixture-of-Experts transformer — 975B total parameters, 41B active**, with up to a **1M-token context window**. Positioned explicitly as *"a good open-weights base for customization"* rather than a frontier-leader: *"Inkling is not the strongest overall model available today, open or closed."* A smaller sibling, **Inkling-Small** (276B total / 12B active), is in preview and reportedly matches or exceeds Inkling on many benchmarks.
 
 ## Strengths & Weaknesses
 
@@ -18,7 +18,7 @@ last_updated: 2026-07-16
 
 **Benchmarks** (Thinking Machines-published): HLE (w/ tools) **46.0%**, AIME 2026 **97.1%**, GPQA Diamond **87.2%**, SWEBench Verified **77.6%**, FORTRESS adversarial-safety **78.0%**, Design Arena web-dev ranked 7th (1257). *Vendor-published; independent replication not yet captured.*
 
-**The honest self-positioning is the story**: a frontier lab shipping a *deliberately-not-#1*, customization-first open model — competing on adaptability + the [[thinking-machines|Tinker]] fine-tuning platform, not raw benchmark supremacy.
+**The honest self-positioning is the story**: a frontier lab shipping a *deliberately-not-#1*, customization-first open model — competing on adaptability + the [[thinking-machines-lab|Tinker]] fine-tuning platform, not raw benchmark supremacy.
 
 ## When to Use It
 
@@ -33,4 +33,4 @@ Launch-day (2026-07-15). Framed by the [[dailybrief-roundup-2026-07-16|brief]] a
 ## Resources
 - [[thinking-machines-inkling-open-weights-launch-2026-07-16]] — launch source (fetched primary)
 - [thinkingmachines.ai/news/introducing-inkling](https://thinkingmachines.ai/news/introducing-inkling/) — official announcement
-- [[thinking-machines]] — the lab; [[mira-murati]] — founder
+- [[thinking-machines-lab]] — the lab; [[mira-murati]] — founder

@@ -8,7 +8,7 @@ last_updated: 2026-07-16
 
 ## Who They Are
 
-Mira Murati is the founder of **[[thinking-machines|Thinking Machines Lab]]** and the former **CTO of OpenAI**, where she led product and research engineering through the GPT-3.5/4 and ChatGPT era. Her lab is positioned around **customization and human agency** rather than a pure race for the strongest frontier model.
+Mira Murati is the founder of **[[thinking-machines-lab|Thinking Machines Lab]]** and the former **CTO of OpenAI**, where she led product and research engineering through the GPT-3.5/4 and ChatGPT era. Her lab is positioned around **customization and human agency** rather than a pure race for the strongest frontier model.
 
 ## Their Current Focus
 

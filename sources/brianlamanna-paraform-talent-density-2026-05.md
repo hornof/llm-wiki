@@ -75,7 +75,7 @@ Brian LaManna posted a "companies I'd consider going to" list on May 4 2026, att
 ## What's Notable by Absence
 
 - **No Google DeepMind, Microsoft AI, Meta, or Apple** — talent-density rankings appear to filter for venture-stage / standalone companies. Frontier-lab researchers at Big Tech are ranked elsewhere or excluded by methodology.
-- **No [[google-deepmind]], [[ami-labs]], [[ineffable-intelligence]], [[safe-superintelligence]], [[reflection]]** — the "neo-labs" cluster from [[ai-50-brink-list-2026]] is absent, suggesting Paraform's methodology may require some minimum org/staff size threshold.
+- **No [[google-deepmind]], [[ami-labs]], [[ineffable-intelligence]], [[safe-superintelligence]], [[reflection-ai]]** — the "neo-labs" cluster from [[ai-50-brink-list-2026]] is absent, suggesting Paraform's methodology may require some minimum org/staff size threshold.
 - **No [[block]], no [[luma-ai]], no [[world-labs]], no [[physical-intelligence]], no [[isomorphic-labs]]** — implies the index leans toward companies actively recruiting through Paraform's network rather than a market-wide talent map.
 
 ## Provenance Caveat

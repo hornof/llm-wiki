@@ -115,7 +115,7 @@ Deleted 1 byte-identical Web Clipper dup: `_raw/How to Actually Use Claude Code 
 ## Pages Updated
 
 - [[matt-pocock]] *(if entity page exists)* — 2nd wiki surface noted; still defer entity page until 3rd substantive surface
-- [[eng-khairallah]] *(if entity page exists)* — 2nd wiki surface; update Notable Takes with *"system-that-prompts-itself"* framing
+- [[khairallah]] *(if entity page exists)* — 2nd wiki surface; update Notable Takes with *"system-that-prompts-itself"* framing
 - [[ai-native-organizations]] — Paul Graham *"never been in people's heads"* framing added as the foundational case for AI-native-from-Day-One orgs
 - [[saas-disruption-thesis]] — willchen500 Harvey / Legora two-sided-trap added as **first wiki-captured concrete two-sided-trap case study at the AI-native-challenger tier**; pgraham 4th-tier-AI-native-from-Day-One framing noted
 - [[claude-code]] — workflow-trigger-detection friction (Pocock) cross-referenced with Nate Herk's framing as practitioner-divergence-on-same-UI-mechanism
