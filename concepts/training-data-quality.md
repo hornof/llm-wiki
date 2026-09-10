@@ -2,7 +2,7 @@
 name: Training Data Quality
 type: concept
 maturity: active-research
-last_updated: 2026-09-08
+last_updated: 2026-09-10
 ---
 
 ## Definition
@@ -16,6 +16,7 @@ If data quality — not compute — is the binding constraint, competitive advan
 - GPT-4o runs at ~200B parameters and outperforms the original 1.8T GPT-4 — [[thread-aakashgupta-1b-model]]
 - Inference costs for GPT-3.5 level performance fell 280x (2022–2024), driven by smaller, cleaner, better-architected models — [[thread-aakashgupta-1b-model]]
 - Karpathy's claim (via Dwarkesh): 1B parameter model on clean data could match 1.8T frontier model — [[thread-aakashgupta-1b-model]]
+- **[[dwarkesh-patel|Dwarkesh Patel]] — "Pretraining progress is mostly coming from data" (2026-09-09, dwarkesh.com, [[dailybrief-roundup-2026-09-10]])**: a **6-year decomposition of scaling-law progress** attributing the curve primarily to **data, not architecture** — *"the next bottleneck isn't a better transformer, it's text that hasn't been seen before."* The strongest analysis-side statement of this page's whole thesis: reframes frontier R&D-spend allocation from an algorithm problem to a **platform/corpus problem** (which routes into the [[#The Supply Squeeze — contested + degrading (Aug 2026)|supply-squeeze]] + model-collapse threads). *(Distinct from [[dylan-patel|Dylan Patel]] — this is Dwarkesh.)*
 
 ## The Cognitive Core Hypothesis
 Karpathy proposes separating:
