@@ -99,6 +99,6 @@ Forbes' eighth annual AI 50 list spotlights the most promising privately-held AI
 - [[physical-intelligence]] — new stub created
 - [[safe-superintelligence]] — new stub created
 - [[thinking-machines-lab]] — new stub created
-- [[reflection]] — new stub created
+- [[reflection-ai]] — new stub created
 - [[cursor]] — new stub created
 - [[ai-50-2026-snapshot]] — aggregate landscape page

@@ -8,7 +8,7 @@ ingested: 2026-07-16
 
 ## Summary
 
-[[thinking-machines|Thinking Machines Lab]] ([[mira-murati|Mira Murati]]'s lab) publishes its **first model, [[inkling|Inkling]]** (2026-07-15) — an **open-weights** Mixture-of-Experts transformer (**975B total / 41B active**, 1M context), released with full weights on Hugging Face plus the **Tinker** fine-tuning platform. Notably self-positioned as *"not the strongest overall model available today, open or closed,"* but *"a good open-weights base for customization."* A US frontier lab shipping an open model is the structural event; anchor source for [[thinking-machines]], [[inkling]], and [[mira-murati]]. *(Primary fetched for accuracy.)*
+[[thinking-machines-lab|Thinking Machines Lab]] ([[mira-murati|Mira Murati]]'s lab) publishes its **first model, [[inkling|Inkling]]** (2026-07-15) — an **open-weights** Mixture-of-Experts transformer (**975B total / 41B active**, 1M context), released with full weights on Hugging Face plus the **Tinker** fine-tuning platform. Notably self-positioned as *"not the strongest overall model available today, open or closed,"* but *"a good open-weights base for customization."* A US frontier lab shipping an open model is the structural event; anchor source for [[thinking-machines-lab]], [[inkling]], and [[mira-murati]]. *(Primary fetched for accuracy.)*
 
 ## Key Claims / Takeaways
 
@@ -24,7 +24,7 @@ ingested: 2026-07-16
 - **Strategy = adaptation infrastructure over model rank** — Inkling + Tinker sells *customizability* (fine-tune it behind your own boundary), aligning with the [[reverse-information-paradox|"own your learning loop"]] thesis.
 
 ## Pages Updated
-- [[thinking-machines]] (new), [[inkling]] (new), [[mira-murati]] (new)
+- [[thinking-machines-lab]] (new), [[inkling]] (new), [[mira-murati]] (new)
 
 ## Verification-pending
 - **License** — the announcement says "open-weights"/"full weights available" but names no license; confirm terms before relying (redistribution / commercial use).

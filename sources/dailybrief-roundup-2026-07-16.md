@@ -12,7 +12,7 @@ Triage roundup of the **2026-07-16 Daily Brief** (`Daily Briefs/2026-07-16.md`).
 
 ## Elevated to pages
 
-- **Thinking Machines Lab launches Inkling (open-weights)** → new [[thinking-machines]] + [[inkling]] + [[mira-murati]] + [[thinking-machines-inkling-open-weights-launch-2026-07-16]]. 975B-MoE (41B active) open model + Tinker fine-tuning; *"not the strongest… a good open-weights base for customization."* Resolves the 07-11 deferred create-candidate.
+- **Thinking Machines Lab launches Inkling (open-weights)** → new [[thinking-machines-lab]] + [[inkling]] + [[mira-murati]] + [[thinking-machines-inkling-open-weights-launch-2026-07-16]]. 975B-MoE (41B active) open model + Tinker fine-tuning; *"not the strongest… a good open-weights base for customization."* Resolves the 07-11 deferred create-candidate.
 - **Claude `web_fetch` letter-by-letter exfiltration** (Ayush Paul / Willison) → new [[claude-web-fetch-exfiltration-2026-07-15]]; updated [[prompt-injection]]. Honeypot instructs the agent to encode stolen data into sequential URL paths; patched, bounty denied.
 
 ## Captured & deferred
@@ -27,7 +27,7 @@ Triage roundup of the **2026-07-16 Daily Brief** (`Daily Briefs/2026-07-16.md`).
 
 ## Dedup — already captured (no action)
 - **Redeploying Fable 5 + jailbreak-severity framework** → [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30]] (Jun 30). Recurs in briefs; not re-ingested.
-- **Thinking Machines "The Future Worth Building Is Human"** manifesto → now folded into the new [[thinking-machines]] / [[mira-murati]] pages.
+- **Thinking Machines "The Future Worth Building Is Human"** manifesto → now folded into the new [[thinking-machines-lab]] / [[mira-murati]] pages.
 
 ## Cross-cutting synthesis
 - **US open-weights entry**: a frontier US lab (Thinking Machines) shipping an open model enters the arena led by [[deepseek]] / [[moonshot-ai]] / [[qwen]] — an open-weights credibility move, not a commodity one.
@@ -39,5 +39,5 @@ Triage roundup of the **2026-07-16 Daily Brief** (`Daily Briefs/2026-07-16.md`).
 - Deferred grok-build's own page pending adoption; folded the sighting + consent bug into [[xai]].
 
 ## Pages Updated
-- [[thinking-machines]] (new), [[inkling]] (new), [[mira-murati]] (new), [[thinking-machines-inkling-open-weights-launch-2026-07-16]] (new)
+- [[thinking-machines-lab]] (new), [[inkling]] (new), [[mira-murati]] (new), [[thinking-machines-inkling-open-weights-launch-2026-07-16]] (new)
 - [[claude-web-fetch-exfiltration-2026-07-15]] (new), [[prompt-injection]], [[xai]]

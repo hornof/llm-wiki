@@ -84,7 +84,7 @@ Brink List: 3 of 20 female-led (Ricursive Intelligence/Anna Goldie, Axiom/Carina
 - [[physical-intelligence]] — on AI 50
 - [[safe-superintelligence]] — on AI 50
 - [[thinking-machines-lab]] — on AI 50
-- [[reflection]] — on AI 50
+- [[reflection-ai]] — on AI 50
 - [[cursor]] — on AI 50
 
 ## Related Pages

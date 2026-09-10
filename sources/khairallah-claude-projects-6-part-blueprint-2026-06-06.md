@@ -8,7 +8,7 @@ ingested: 2026-06-08
 
 ## Summary
 
-**[[eng-khairallah|Khairallah AL-Awady]] (@eng_khairallah1)** publishes (2026-06-06) **"How to Actually Set Up Claude Projects That Most Users Don't Know"** — a load-bearing canonical practitioner-content guide on **Claude Projects** (the persistent-project surface inside Claude.ai chat, distinct from [[claude-code|Claude Code]] CLI). **First wiki-captured comprehensive Claude-Projects-specific guide** with a **6-part blueprint** (Identity + Rules + Process + Output Format + Knowledge Files + Onboarding Message) + **5 Projects Everyone Needs** framework. Same-day amplification on his prior *"system that prompts itself"* video framing (2026-06-06 X post). **Establishes Claude Projects as a wiki-tracked distinct surface** from Claude Code / Claude Desktop / Claude Cowork.
+**[[khairallah|Khairallah AL-Awady]] (@eng_khairallah1)** publishes (2026-06-06) **"How to Actually Set Up Claude Projects That Most Users Don't Know"** — a load-bearing canonical practitioner-content guide on **Claude Projects** (the persistent-project surface inside Claude.ai chat, distinct from [[claude-code|Claude Code]] CLI). **First wiki-captured comprehensive Claude-Projects-specific guide** with a **6-part blueprint** (Identity + Rules + Process + Output Format + Knowledge Files + Onboarding Message) + **5 Projects Everyone Needs** framework. Same-day amplification on his prior *"system that prompts itself"* video framing (2026-06-06 X post). **Establishes Claude Projects as a wiki-tracked distinct surface** from Claude Code / Claude Desktop / Claude Cowork.
 
 ## Key Claims / Takeaways
 
@@ -89,7 +89,7 @@ Same-day X post amplifies eng_khairallah1's prior *"system that prompts itself"*
 
 ## Pages Updated
 
-- [[eng-khairallah]] — major update; Claude Projects 6-part blueprint surface added as Notable Take; multi-surface practitioner-content authority noted
+- [[khairallah]] — major update; Claude Projects 6-part blueprint surface added as Notable Take; multi-surface practitioner-content authority noted
 - [[claude-md-pattern]] — 5-tier canonical content-template stack section now articulated (Claude Code CLAUDE.md + VISION.md + Claude Projects + skill-file + agent-file)
 - [[claude-desktop]] — Claude Projects (web surface) noted as wiki-tracked distinct from Claude Code CLI
 - [[anthropic-self-service-data-analytics-2026-06-03]] — back-link as 2nd 3-failure-mode framework

@@ -32,7 +32,7 @@ ingested: 2026-06-02
   - Earlier access to model capabilities
   - Inside understanding of training-side intent (what Claude is *designed* to do well)
   - First-hand pressure to validate their own practices on the product they ship
-- **Anthropic-employees-using-Claude-as-quiz-master** is a *meta-recursive* usage pattern — using Claude to manage operator-side comprehension of Claude's own work. Pairs with [[eng-khairallah|eng_khairallah's]] *"system that prompts itself"* framing as the operator-discipline-at-internal-scale instantiation.
+- **Anthropic-employees-using-Claude-as-quiz-master** is a *meta-recursive* usage pattern — using Claude to manage operator-side comprehension of Claude's own work. Pairs with [[khairallah|eng_khairallah's]] *"system that prompts itself"* framing as the operator-discipline-at-internal-scale instantiation.
 
 ### Comment-thread amplifications worth surfacing
 
@@ -61,5 +61,5 @@ Verification-pending: Suzanne's full identity + team at Anthropic; the specific 
 - [[nateherk-opus-4-8-aios-2026-05-29]] — `/session-handoff` paired session-management primitive
 - [[karpathy-html-output-taxonomy-2026-05-08]] — HTML-explainer pattern Suzanne's quiz pattern adapts
 - [[anthropic-claude-cookbook-2026-05]] — official Anthropic cookbook this practice would complement
-- [[eng-khairallah]] — *"system that prompts itself"* meta-framing the Learn Quiz instantiates
+- [[khairallah]] — *"system that prompts itself"* meta-framing the Learn Quiz instantiates
 - [[autoresearch]] — Doubinski's auto-synthesize-Anthropic-team-content workflow uses the autoresearch shape

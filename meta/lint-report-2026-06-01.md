@@ -43,7 +43,7 @@ The discipline-side of the wiki is bulletproof. The dead-link surface drifts up 
 |---|---|---|
 | `[[zodchii-4-agent-pipeline-2026-05-31]]` | `nateherk-dynamic-workflows-2026-05-30` | **Slug typo** — actual page is `zodchii-4-agent-pipeline-2026-05-30` |
 | `[[autoresearch]]` | `nateherk-dynamic-workflows-2026-05-30`, `log` | Page doesn't exist; reference was speculative. Either create concept page or remove wikilink |
-| `[[eng-khairallah]]` | `nate-herk`, `dailybrief-roundup-2026-05-31` | Entity page deferred; either create stub or reference `[[eng-khairallah-multi-agent-team-course-2026-05-15]]` source-page slug directly |
+| `[[khairallah]]` | `nate-herk`, `dailybrief-roundup-2026-05-31` | Entity page deferred; either create stub or reference `[[eng-khairallah-multi-agent-team-course-2026-05-15]]` source-page slug directly |
 | `[[matt-pocock]]` | `dailybrief-roundup-2026-05-31` | 2nd Pocock surface noted; still deferred (reactive friction). Either create stub or strip wikilink |
 | `[[swyx]]` | `latentspace-walden-yan-async-agents-2026-05-29` | No entity page; either create stub or reference source pages directly |
 | `[[ai-native-service-companies]]` | `latentspace-walden-yan-async-agents-2026-05-29` | Concept page doesn't exist; would link 5+ existing wiki entries if created. Either create concept page or reference `[[gustaf-alstromer]]` who carries the framing |
@@ -157,7 +157,7 @@ I will not auto-apply anything without sign-off. The fixes I'd recommend, batche
 **Safe + high-leverage (recommend doing)**:
 - Fix the `[[zodchii-4-agent-pipeline-2026-05-31]]` → `-2026-05-30` slug typo (1 mechanical fix)
 - Fix `[[david-manheim-opus-4-8-subagent-token-critique-via-dailybrief-supplemental-2026-05-31]]` → `[[dailybrief-supplemental-2026-05-31]]` (real page that already covers Manheim; speculative slug I invented should be retired)
-- Strip the `[[eng-khairallah]]`, `[[matt-pocock]]`, `[[swyx]]`, `[[gerard-sans]]`, `[[opencode]]` wikilink-forms where they're referenced (5 deferred entities) OR create stubs
+- Strip the `[[khairallah]]`, `[[matt-pocock]]`, `[[swyx]]`, `[[gerard-sans]]`, `[[opencode]]` wikilink-forms where they're referenced (5 deferred entities) OR create stubs
 - Fix the `[[shipper takeaway 2 "automation is a lie"]]` malformed wikilink and `[[people/]]` empty-path typo
 - Cross-reference `[[agent-memory]]` / `[[claude-managed-agent-memory]]` to `[[mem0]]` / `[[company-brain]]`
 
