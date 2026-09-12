@@ -2,7 +2,7 @@
 name: Y Combinator
 type: company
 status: established
-last_updated: 2026-05-01
+last_updated: 2026-09-12
 ---
 
 ## What It Is
@@ -25,6 +25,12 @@ YC traction in *this wiki* is treated as a meta-signal — when YC names a categ
 - **Software for Agents category** (Aaron Epstein): YC partner-level validation of [[mcp]] and the agent-native infrastructure trajectory; "while everyone else is building agents, the biggest opportunity might be building the software those agents depend on."
 - **Inference Chips for Agent Workflows** (Diana Hu): YC explicitly names the chip-architecture-for-agent-loop gap that adjacent practitioners (e.g. [[chamath-decision-context-agents]]) have been flagging from the engineering side.
 - **AI Personalized Medicine RFS** (Ankit Gupta): explicitly names [[claude-code]] as "an agent harness" for analyzing personalized health data — Anthropic-product call-out at YC partner level.
+
+## Batch Signal — Fall 2026 Demo Day: the domain-specific harness (2026-09-11)
+
+jessy (**@goodhartproof**), posting from Demo Day: *"Besides hardware/physical things, everyone is just basically just building a domain-specific harness"* ([[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11]]). The most concrete read the wiki holds of what a YC batch currently *is* — an agent pointed at one industry's work, with the moat claimed to sit in domain RL, proprietary data and customer relationships rather than in the harness itself. Tracked as [[domain-specific-harness]]; consistent with [[garry-tan|Garry Tan's]] own *"systems of record must become AI harnesses or be replaced"* framing ([[loop-engineering]]).
+
+*One attendee's impression of a batch, not a counted tally. Directional.*
 
 ## Caveats
 

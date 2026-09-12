@@ -3,7 +3,7 @@ name: John Kim
 type: person
 affiliation: Meta (L7 Senior Staff Software Engineer)
 signal_sources: [youtube, twitter, newsletter]
-last_updated: 2026-08-20
+last_updated: 2026-09-12
 ---
 
 ## Who They Are
@@ -24,6 +24,7 @@ Full-time [[claude-code|Claude Code]] daily driver — *"one of those engineers 
 - **MCP caution**: MCPs *"blow up your context window"* and token bill — installs only what a project truly needs, and prefers hand-written scripts + `/context` auditing to keep usage lean.
 - **Compound engineering**: commit `CLAUDE.md` to the repo (a high bar, evaluated over weeks) to improve teammates' AI experience — the [[claude-md-pattern|CLAUDE.md]] as shared, versioned team memory; fix a mistake once, add the rule so *"it never does that mistake again"* ([[skill-md|skills/rules as durable memory]]).
 
+- **Singular focus and the 360-hour argument** ([[john-kim-singular-focus-condensed-learning-2026-09-12]], 2026-09-12): on his own switch into software at ~28 — *"I had just quit my job as a PM at a hardware company, put my entire life on hold."* The mechanism he credits is the absence of choice: *"No need to make plans, no distractions, no decision fatigue. What would have taken you years can really be condensed down to months."* The durable piece is the **scope estimate**: a course is ~45 hours of lecture, the 8–10 core engineering courses that carry real working knowledge total **~360 hours**, and the rest of a degree is *"nice to know or if you want to specialize."* He hedges it himself (*"just listening to lectures is not the same as understanding"*); the claim is about how small the core is, not that lectures substitute for practice. Countered in-thread by @nakularora: *"you will never have 1 thing in life… the better approach is knowing how to balance the different priorities while allocating majority time/thought on the top 1-2 things."*
 ## Where to Follow
 - X: [@PremiumGoblin](https://x.com/PremiumGoblin)
 - YouTube: *Push to Prod* (video: [How I use Claude Code](https://www.youtube.com/watch?v=mZzhfPle9QU))

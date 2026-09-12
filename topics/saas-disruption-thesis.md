@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-08-02
+last_updated: 2026-09-12
 ---
 
 ## What This Is
@@ -369,6 +369,14 @@ The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's
 [[techcrunch-token-bill-comes-due-2026-06-05|TechCrunch's "The token bill comes due"]] is the **first wiki-captured mainstream-press aggregate-level confirmation** of the cost-reckoning hitting enterprise AI deployment. Brief framing: *"Shift from 'go fast' to cost guardrails is reshaping dev-tools economics and hiring demand."*
 
 **Implication for the thesis**: the dev-tools-economics-reshaping signal is **first wiki-captured concrete confirmation** of the tier-4-utility-software-band reshaping under AI-amplification stress. Pairs with [[uber-ai-tool-cap-1500-2026-06-03|Uber-cap]] + [[github-daigle-agent-strategy-2026-06-03|GitHub Daigle platform-strain]] + [[dailybrief-roundup-2026-06-04|Ramp $750M AI-token-monitoring]] as the **72-hour cluster** crystallizing the dev-tools-economics transition.
+
+## The Vertical Wedge Restated — "the only businesses left to build" (Isenberg, 2026-09-10/12)
+
+[[greg-isenberg|Greg Isenberg]]'s reading of OpenAI's Agents API launch is the **constructive half** of this thesis: if agent infrastructure becomes rentable, *"the only thing left that's actually hard is knowing the job — what counts as a done claim, what makes a filing get rejected, where the money leaks."* The prescribed wedge is **one painful workflow with your own tools, data, approvals and a clear ROI** (freight exceptions, insurance reviews, security triage, revenue leakage, healthcare admin, compliance ops).
+
+His 2026-09-12 list of *"the only businesses left to build"* puts **domain-specific harnesses** and **vertical agents** as two of thirteen categories, alongside proprietary datasets, distribution, compute and energy, real assets, and marketplaces *"for people and agents."* The same shape [[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11|jessy observed across a YC batch]] the following day — tracked in full at [[domain-specific-harness]].
+
+**Where this cuts against the thesis's harder form**: Isenberg explicitly rejects *"software is over"* using OpenAI's own behavior as evidence — *"if that were true, OpenAI wouldn't be shipping infrastructure for other people to build agents on."* That is a real argument, and it reframes the [[naval-ravikant|Naval]] *"pure software is uninvestable"* line: not that the application layer dies, but that **the un-differentiated middle does** while domain-encoded verticals survive. It does not escape the platform-risk caveat above — the counter in Isenberg's own replies is that the vendor learns your flows from the agents you build on its substrate and then sells them directly.
 
 ## Tracking Signals
 
