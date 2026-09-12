@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-07-31
+last_updated: 2026-09-12
 ---
 
 ## Who They Are
@@ -33,12 +33,16 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 - **Pairs with [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|same-day David Sacks Sacks Trump-Admin export-control announcement]]**: 2-surface same-day USG-export-control + operator-side local-models-pivot reaction-cluster.
 - **3 token-saving Claude Code plugins + token-economy discourse (2026-07-08)** ([[gregisenberg-3-token-saving-plugins-2026-07-08]]): shares `caveman` / `morph` / `codeburn` plugins for reducing token burn in long-running [[claude-code]] sessions (reported ~25% savings). The valuable part is the skeptic reply-thread it drew: *"plugins net-add tokens once you factor tool-schema loading on every request,"* token-saving *"can mask output degradation — the silent cost,"* and *"optimize value-per-output, not cost-per-token."* Plus `CCAUDIT` (open-source) for auditing wasted tokens. Cost-side companion to the [[loop-engineering]] token-discipline checklist.
 
+- **"This is the AWS moment for agents" (2026-09-10)** ([[gregisenberg-agents-api-aws-moment-vertical-wedge-2026-09-10]]): on OpenAI's Agents API — *"everything that made agents hard to build is now something you rent instead of build… If your whole company is an agent platform, the thing you spent the last year building is now included for the price of tokens."* Notable for saying the uncomfortable half out loud (*"my first reaction was that this is bad news for a lot of people I know"*) before arguing the bull case. The conclusion is the wedge: *"if the hardest engineering just became a line item, then the only thing left that's actually hard is knowing the job"* — own one painful workflow with your own tools, data, approvals and a clear ROI. Anchors [[domain-specific-harness]].
+- **Argument from the vendor's revealed preference**: against the *"software is over, you'll just use ChatGPT for everything"* position — *"if that were true, OpenAI wouldn't be shipping infrastructure for other people to build agents on. They're telling you exactly what they think: the general model is theirs, the 10,000+ specific jobs it needs to be pointed at are yours."* The sharpest form of his standing anti-doomer line, and falsifiable.
+- **"The only businesses left to build" — 13 categories (2026-09-12)** ([[gregisenberg-agents-api-aws-moment-vertical-wedge-2026-09-10]]): AI-native service firms; offline businesses; distribution; proprietary datasets; **domain-specific harnesses** (*"the agent that runs one industry's work"*); robotics/physical AI; physical products with a fan following; compute and energy; health/longevity/care; marketplaces and social networks **for people and agents**; real assets; **vertical agents**; security. A replier's fair objection stands unanswered: *"item 5 and item 12 are the exact same pitch deck with different valuation multiples."* Isenberg links his own `ideabrowser.com` in-thread — weight the framing, discount the urgency.
+
 ## Where to Follow
 
 - X: [@gregisenberg](https://x.com/gregisenberg)
 - Podcast: [Startup Ideas Podcast (@startupideaspod)](https://x.com/startupideaspod)
 - Wiki sources: [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08]], [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]
-- Related concepts: [[ai-native-organizations]], [[loop-engineering]]
+- Related concepts: [[ai-native-organizations]], [[loop-engineering]], [[domain-specific-harness]]
 - Related people: Theo Tabah (Startup Ideas co-host); [[ashwingop|Ashwin Gopalan / Sentra]] (Company Brain three-layer-memory-substrate sibling framing)
 
 ## Verification-pending

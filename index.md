@@ -744,4 +744,5 @@ Sources ingested during the initial wiki build. All reachable via wikilinks from
 - [[ai-50-2026-snapshot]] — landscape view from Forbes 2026 AI 50 + Brink List; two-tier market, neo-labs trend, sector clusters
 - [[doing-great-work]] — Hamming's principles for first-class research; compounding effort, important problems, open doors, field rotation
 - [[saas-disruption-thesis]] — Naval's "18-month" SaaS disruption thesis; agents replacing pure-software moats; falsifiable timeline to Oct 2027
+- [[domain-specific-harness]] — the company-shape layer above [[loop-engineering]]: harness-as-product, "the agent that runs one industry's work"; YC-batch convergence (Sep 2026), the AWS-moment reading of OpenAI's Agents API, verification-surface as addressable market — and the four live objections (wrapper, platform absorption, Lieberman's 12-month dissolution clock, feedback capture)
 - [[ai-roi-gap]] — demand-side mirror of saas-disruption: spend-vs-shipped-value gap; Levie/Sankar/cyb3rops/Bort four-surface convergence (May 2026); Berkeley meta-analysis + NBER productivity-paradox + Uber-COO first public admission

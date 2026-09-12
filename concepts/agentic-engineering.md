@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-03
+last_updated: 2026-09-12
 
 ---
 
@@ -23,6 +23,17 @@ Karpathy asserts the speedup from skilled agentic engineering is well beyond 10x
 ## OSS governance shifts to agent software factories ("PRs NOT Welcome", 2026-09-03)
 
 [[dailybrief-roundup-2026-09-03|Latent Space, "PRs NOT Welcome"]] documents top AI open-source projects — **Vercel's AI SDK, Astro, tldraw** — shifting maintainer governance from *"accept PRs from anyone"* to **teams of agents that fix issues and write the code**. The maintainer's job moves from *reviewing external contributions* to *running the agent fleet that produces them* — the [[loop-engineering|generator+verifier loop]] applied to project maintenance, with the human as fleet-architect. The brief's skeptical read: *"the move from 'accept PRs from anyone' to 'we run the agents that write the code' is just outsourcing triage to Claude… the real problem was always gatekeeping, not throughput."* Same shape as [[company-brain|Gorgias Cortex's nightly-wrong-answers→PRs]] and the [[raw-batch-roundup-2026-08-21|"code is free" / codebase-as-prompts]] thread, now at **OSS-project-governance** scale — contribution *throughput* stops being the bottleneck and **curation/direction** becomes the scarce function. *(Latent Space; the named projects are the trackable anchor.)*
+
+## The quality bar, written down as "laws" — a published orchestrator mission note (2026-09-10)
+
+[[croovies-loop-orchestrator-mission-note-2026-09-10]] is the clearest practitioner artifact the wiki holds of Karpathy's *"preserving the quality bar"* expressed as **enforceable rules on an agent fleet** rather than as intent. Four are worth naming as agentic-engineering primitives:
+
+- **Plan review before code exists.** Non-trivial features must produce a plan doc *with no feature code*, which a **rival vendor's model** ([[openai|Codex]]) reviews for design/architecture/reuse/risk before building starts — *in addition to* the per-PR review. Pushes the quality gate **upstream of generation**, where the discipline's usual failure is catching bad architecture at review time when it is expensive to undo.
+- **Cross-vendor adversarial review as a purchased good.** A second vendor's subscription bought *"just for adversarial reviews"* — self-review by the same model family treated as structurally insufficient. The [[loop-engineering|push-back primitive]] with money behind it.
+- **Review strictly before human QA, never after.** No work reaches the human until automated review has run and all findings are resolved; *"the ONLY legitimate re-QA loop is when [the human's] own QA feedback requires changes."* A direct answer to the [[john-kim|review-as-bottleneck]] problem: protect the scarce human step by making it the last one.
+- **Rules accrete from failures.** *"When your agent does something you don't like — add a law to guide the working style"* — [[claude-md-pattern|compound engineering]] pointed at the supervisor's conduct rather than the codebase.
+
+The human role in this setup is **QA and direction only**: *"you evolve from directing code, to reviewing outcomes (and tossing out bad code and having it start over instead of worrying about driving every PR). Like a real manager."* Same curation-over-throughput shift as the OSS-governance section above, at individual scale. *(Self-report from a vendor-interested poster; the structure is reproducible, the throughput claims are not.)*
 
 ## Core Responsibilities of the Agentic Engineer
 1. **Spec and design authority**: the engineer owns the system design, not the agent. Example: insisting on a persistent unique user ID rather than letting the agent cross-correlate by email address.
@@ -60,6 +71,7 @@ See [[vibe-coding]]. Vibe coding raises the floor; agentic engineering raises th
 - [[software-3-0]] — the broader paradigm; agentic engineering is the professional manifestation
 - [[verifiability-and-jagged-intelligence]] — explains which domains benefit most from agentic approaches
 - [[agentic-ai]] — the broader topic page covering multi-agent patterns, protocols, and tools
+- [[domain-specific-harness]] — the company-shape layer: what gets built once the quality bar is holdable
 
 ## Solo Operator Vision (Naval's Reinforcement)
 

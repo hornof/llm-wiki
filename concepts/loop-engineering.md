@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-08
+last_updated: 2026-09-12
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -84,7 +84,7 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 - **[[practical-systems-autonomous-company-dashclaw-2026-08-08|"A company that runs itself"]] (2026-08-08)**: an **11-step company loop** (8 agent roles) where the build step is **headless Claude Code** — `claude -p "/supergoal Build @GOAL.md … no human present, do not stop until finished" --model claude-fable-5 --max-turns 200 --permission-mode bypassPermissions` with a 120-min wall clock + 10-sec-polled kill switch (built a 44-test app in 71 min untouched). The load-bearing addition is a **governance control-plane (DashClaw)**: risk-scored action ledger where `outreach_send`/`charge_customer` **park as `pending_approval`** — the push-back primitive applied to *money- and email-touching* actions, with a hard assertion enforcing *"governance bugs should be loud."* The `--permission-mode bypassPermissions` inside the build is safe **only because** the outer loop human-gates every real-world side effect.
 
 ## Nvidia: "the harness, not the model, is the hero" — ARC-AGI-3 30%→100% (2026-08-21)
-The strongest empirical anchor yet for the harness-as-capability thesis ([[dailybrief-roundup-2026-08-22]], TechCrunch on Nvidia research): a **custom harness took Claude Opus 5 from 30% → 100% on ARC-AGI-3** (instruction-free 2D reasoning games where the model must figure out the rules like a human), **with no change to the model.** The two harness ingredients named: **memory management** + a **"supervisor" boss-like component** overseeing the worker loop. 30% had been the top *model-only* result; the harness closes the entire remaining gap. This is the loop/harness layer proving it is where long-horizon capability actually lives — a raw model becomes *"something that can act on its own"* through the harness, not the weights. Operationalizes this page's thesis and the [[graph-engineering|supervisor/reviewer-node]] pattern (the supervisor is a graph move inside a loop). **Create-candidate `harness-engineering`** — the "Agent Harness Engineering vs Loop vs Graph" distinction now has a landmark result to anchor it. *(TechCrunch on an Nvidia developer-blog result; benchmark-specific — ARC-AGI-3.)*
+The strongest empirical anchor yet for the harness-as-capability thesis ([[dailybrief-roundup-2026-08-22]], TechCrunch on Nvidia research): a **custom harness took Claude Opus 5 from 30% → 100% on ARC-AGI-3** (instruction-free 2D reasoning games where the model must figure out the rules like a human), **with no change to the model.** The two harness ingredients named: **memory management** + a **"supervisor" boss-like component** overseeing the worker loop. 30% had been the top *model-only* result; the harness closes the entire remaining gap. This is the loop/harness layer proving it is where long-horizon capability actually lives — a raw model becomes *"something that can act on its own"* through the harness, not the weights. Operationalizes this page's thesis and the [[graph-engineering|supervisor/reviewer-node]] pattern (the supervisor is a graph move inside a loop). **Create-candidate `harness-engineering`** — the "Agent Harness Engineering vs Loop vs Graph" distinction now has a landmark result to anchor it. *(Resolved 2026-09-12 as [[domain-specific-harness]], scoped to the **market/company-shape** layer; the engineering-practice layer stays on this page.)* *(TechCrunch on an Nvidia developer-blog result; benchmark-specific — ARC-AGI-3.)*
 
 ### "Harness engineering" as terminal vocabulary — Lieberman + Garry Tan (2026-08-24)
 
@@ -92,6 +92,29 @@ Two same-thread 2026-08 posts ([[businessbarista-harness-engineering-product-202
 
 - **[[alex-lieberman|Alex Lieberman]] (@businessbarista) — the term is transitional scaffolding**: *"Agent harness & harness engineering will not be phrases uttered on the internet 12 months from now… complexity still hasn't been abstracted out of the user's experience, but this will all sit cleanly under 'product'."* Reads harness/loop/graph-engineering as **practitioner-content registers naming a moving abstraction boundary** — as the boundary stabilizes, the naming collapses into "product." Consistent with this cluster's own hedge (*"the word may not survive the year; the design question will"* — [[graph-engineering]]) and Steinberger's prompts→harnesses→loops→fleets ladder as *register-churn*, not four permanent layers.
 - **[[garry-tan|Garry Tan]] (YC CEO) — the enterprise-architecture restatement**: *"systems of record will need to become AI harnesses or face replacement by agents."* Moves harness-primacy off the coding desktop and onto **enterprise software**: a CRM/ERP/ticketing system either exposes itself as a governed context+permission surface an agent can drive end-to-end, or an agent-native competitor eats it. Builder-side receipt in-thread (Eric Rea, Podium): *"we started building agents and quickly realized we needed to build the system of record too… agents need all the context and permissions you'd give an employee."* Counter-anchor (Sushanth Raman): *"yet somehow, AS/400 systems have survived every era of computing"* — systems-of-record are the stickiest enterprise software; "become a harness or die" may resolve as "slowly wrap a harness around a 40-year-old core." Tracked at org scale in [[ai-native-organizations]].
+
+*Status check 2026-09-12: the term did not dissolve — it became the observed shape of a whole YC batch ([[domain-specific-harness]]). That is not evidence against Lieberman; a term can be everywhere and still be absorbed into "product." His clock runs to 2027-08.*
+
+### Published mission note — a working orchestrator's prompt, in full (croovies, 2026-09-10)
+
+The most complete practitioner disclosure of **outer-loop orchestration structure** since the Van Horn/Zodchii cluster, and the first where the operator publishes the **prompt text itself** rather than describing the architecture ([[croovies-loop-orchestrator-mission-note-2026-09-10]], r/ClaudeAI). An orchestrator agent prompted as an engineering manager supervises up to **16 separate Claude Code sessions** (*"not subagents — separate claude sessions that can run their own subagents"*), across **8 orchestrators**, woken on a **90-minute ping**. Self-reported: 800+ tickets filed, 370+ completed `[unsourced]`.
+
+**Three stated preconditions**: agents can message each other; something can message the agent on a loop; **a locally running SQLite database the orchestrator owns**.
+
+**The mission note is Who / What / How** — identity ("if your orchestrator was a person you hired… who are they?", rationale: role-play changes how the model thinks), wake-up duties, and working style built by accretion: *"When your agent does something you don't like — add a law to guide the working style."* That last is [[claude-md-pattern|compound-engineering accretion]] turned on the **supervisor's own conduct** rather than on the codebase.
+
+Four "laws" worth extracting:
+
+1. **Plan review by a rival model before any code exists.** Non-trivial features produce a `ce:brainstorm → ce:plan` doc under `docs/spikes/` **with no feature code**; a **Codex** agent reviews *the plan*; the builder revises; only then does building start — *in addition to* the per-PR Codex review. A push-back primitive moved **upstream of generation**, where the Yegge/zodchii receipts put review downstream.
+2. **Model-tier routing by task complexity, passed explicitly.** Complex (multi-file, concurrency, data, persistence, security, architecture) → [[claude-fable-5|Fable 5]]; mechanical/cosmetic/docs → Opus 4.8. *"Pass the model EXPLICITLY on create_session (omitting it does not pick a tier)."* An **independent practitioner echo of [[spotify-portal-model-routing-2026-09-04|Spotify Portal]]** — same routing insight, individual scale, prompt-level rather than hard-blocked.
+3. **Human decisions go through structured multiple-choice, batched ≤4**, with a recommended option — because an open question *"temporarily gates child message_parent delivery."* The human-in-the-loop is itself a scheduling hazard to be managed.
+4. **Review strictly before human QA, never after.** *"The ONLY legitimate re-QA loop is when [the human's] own QA feedback requires changes."*
+
+**Why SQLite, in the operator's words**: *"This is basically an internal Jira / Memory, and it will survive all the compacts. It lets your orchestrator have context the builder agents don't have."* Durable state placed **outside** the context window and held **asymmetrically** — the supervisor knows things the workers structurally cannot. This is the clearest statement yet of why the outer loop needs its own store rather than a bigger window.
+
+**Cost, stated**: 2× Claude Max ($200 each) + 1× Codex ($100) = **$500/month**; *"the Codex is just for adversarial reviews."* Cross-vendor by design — the rival model exists to disagree. Commenters offered `herdr` + tmux panes, [[openclaw|OpenClaw]], Hermes, Orca, and **Beads** (Dolt-backed, models the whole work-graph — [[graph-engineering]] adjacency) as substrate alternatives.
+
+*Caveat: the screenshot is the operator's own paid Mac-only product, disclosed at the bottom of the post and declined in replies (**"but you are promoting it"**). The mission-note text is independently reproducible and is the artifact of value; the throughput numbers are not.*
 
 ## Verifier-discipline-first corrective (Samuel McDonald, 2026-06-15)
 
@@ -102,6 +125,8 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 **Closing canonical**: *"Design the verifier, not the prompt."*
 
 **Empirical check — do agents actually use verification well? (Danluu, 2026-09-07)** ([[dailybrief-roundup-2026-09-08]], danluu.com "How well do agents use test/verification techniques?"): a high-signal empirical analysis finding **agents are still weak at correctness-validation** — the generator has outrun the agent's ability to *operate* the verifier. Sharpens McDonald's thesis from the other side: it's not enough to *design* a good verifier if the agent underuses it — the closing of the loop is itself a capability gap, not just a harness-design choice. Concrete grounding for the *"the feedback inside the loop is the magic"* claim.
+
+**Market-side restatement — verification as addressable surface (jessy, 2026-09-11).** Asked what actually unlocks a domain, jessy (@goodhartproof) answered: *"the key unlock is increasing the surface area of verifiable things"* ([[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11]]). McDonald's *design the verifier* is an engineering instruction; this is the same claim aimed at **which markets are reachable at all** — a domain becomes harness-able exactly when checking the work is cheap. It predicts the observed ordering (GTM automation early, finance/accounting and clinical later) and is the hinge between this page and [[domain-specific-harness]].
 
 ### Open vs Closed loops
 
