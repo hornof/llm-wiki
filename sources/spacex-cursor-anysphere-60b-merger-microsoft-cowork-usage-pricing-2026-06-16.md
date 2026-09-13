@@ -81,7 +81,7 @@ The 2 Jun 16 events combined with [[salesforce-fin-ai-3-6b-acquisition-2026-06-1
 
 - [[spacex]] — $60B all-stock Anysphere/Cursor acquisition announcement; 3-layer AI-vertical-integration canonical articulation
 - [[elon-musk]] — SpaceX-Anysphere acquisition adds to multi-layer AI-vertical-integration canonical thesis
-- [[anysphere]] / [[cursor]] — $60B acquisition target; Q3 2026 close projection
+- [[anysphere]] / [[anysphere|Cursor]] — $60B acquisition target; Q3 2026 close projection
 - [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07]] — rumor confirmed + quantified; 2nd substantive surface validates entity-page-candidate threshold
 - [[microsoft]] — Copilot Cowork usage-based pricing shift; DeepSeek V4 evaluation event; operational margin-pressure evidence
 - [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14]] — Microsoft-side 2-tier strategic-vs-operational paired-events cluster context

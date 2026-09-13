@@ -2,8 +2,8 @@
 name: Hugging Face
 type: company
 focus: canonical-open-source-AI-platform canonical-foundation-tier
-status: gaining-traction
-last_updated: 2026-09-12
+status: acquisition-announced-close-unconfirmed
+last_updated: 2026-09-14
 ---
 
 ## What It Is
@@ -11,6 +11,9 @@ last_updated: 2026-09-12
 **Hugging Face** is a canonical-open-source-AI-platform canonical-foundation-tier vendor, founded by **Clément Delangue** (canonical-CEO-direct-voice). Wiki-tracked primarily for canonical-$100M-annual-run-rate canonical-revenue-anchor + canonical-97%-free-user canonical-business-model-data-point (canonical-3% canonical-paid-conversion-rate). **3+ canonical-substantive surfaces** including Jun 25 canonical-$100M-ARR canonical-CEO-direct-voice canonical-anchor.
 
 ## Traction Signals
+
+> [!note] On `status:` (corrected 2026-09-14)
+> The field read `gaining-traction` until 2026-09-14, while the first entry below recorded a **confirmed $12.9B [[nvidia|NVIDIA]] acquisition**. Same defect class as the [[claude-mythos]] naming contradiction: the body was kept current, the frontmatter was not. As with Mythos, the schema's company states have no slot for *acquired / acquisition pending*, so the value here is descriptive rather than from the allowed set — see `CLAUDE.md`.
 
 - **2026-09-10: Open Alignment team — Thomas Wolf calls for "100x more transparency and research"** ([[dailybrief-roundup-2026-09-10-neutral]], via Digg): Hugging Face is **staffing a dedicated team for open-model safety and alignment, including cybersecurity**. Notable for its timing on two fronts: it lands mid-[[nvidia|NVIDIA]]-acquisition (below), and in the same window as the [[ai-vulnerability-discovery|OpenAI agent-swarm HF breach]] that put HF's security posture under scrutiny — i.e. the open-weights hub building its own safety function rather than inheriting one from an acquirer. Partial answer to [[jack-clark|Jack Clark's]] *"Why Hugging Face worries me"* ecosystem-concentration argument. Open question: whether decentralized alignment research can match frontier-lab safety programs at scale. *(Secondary reporting; team size, scope and leadership unnamed — verification-pending.)*
 - **2026-09-03: canonical-DEAL-CONFIRMED-AT-$12.9B — "Nvidia confirms it will buy Hugging Face for $12.9 billion"** ([[dailybrief-roundup-2026-09-03]], TechCrunch): the [[nvidia|NVIDIA]] acquisition (talks 08-24 → AINews-reported 08-27, below) is now **officially confirmed** with a precise figure: **$12.9B**. Same-day, [[jack-clark|Jack Clark]]'s [[jack-clark|Import AI 471]] runs *"Why Hugging Face worries me"* on the ecosystem-concentration fallout, and the [[ai-vulnerability-discovery|OpenAI agent-swarm HF breach]] (Ajeya Cotra) puts HF's security posture under scrutiny in the same window. The open governance question (neutral hub vs CUDA-tilt) is unchanged and now live. **Close-timeline / antitrust exposure still pending.**

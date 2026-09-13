@@ -30,7 +30,7 @@ Aggregate capture of 2026-05-20 Daily Brief items that didn't warrant their own 
 
 - **Source**: Digg (secondary; not fetched).
 - **What**: Job openings posted for Harness Product Manager and R&D Engineer; team building an internal code product *"that may be released publicly as DeepSeek Code."*
-- **Why it matters**: First wiki capture of **DeepSeek entering the agentic-coding-tool category**. Joins [[claude-code]] (Anthropic), [[openai|Codex]] (OpenAI), [[cursor]] (independent), and emerging Google Antigravity stack as the **fifth named coding-agent surface** captured in the wiki. DeepSeek's positioning is distinctive — they're the leading Chinese open-source-frontier-model lab, so DeepSeek Code would be the first **open-source agentic-coding stack from a frontier lab**. Pairs with [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht's frontier-AI-access framework]] — DeepSeek's distillation-driven positioning makes a public Code Harness release structurally significant for the US-vs-non-US frontier-AI-tooling divergence.
+- **Why it matters**: First wiki capture of **DeepSeek entering the agentic-coding-tool category**. Joins [[claude-code]] (Anthropic), [[openai|Codex]] (OpenAI), [[anysphere|Cursor]] (independent), and emerging Google Antigravity stack as the **fifth named coding-agent surface** captured in the wiki. DeepSeek's positioning is distinctive — they're the leading Chinese open-source-frontier-model lab, so DeepSeek Code would be the first **open-source agentic-coding stack from a frontier lab**. Pairs with [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht's frontier-AI-access framework]] — DeepSeek's distillation-driven positioning makes a public Code Harness release structurally significant for the US-vs-non-US frontier-AI-tooling divergence.
 - **Action note**: track for follow-up; if DeepSeek Code launches publicly, warrants its own source + entity page.
 
 ### Cohere Command A+ open-source release
@@ -71,7 +71,7 @@ Aggregate capture of 2026-05-20 Daily Brief items that didn't warrant their own 
 - [[deepmind-co-scientist-aging-reversal-2026-05-19]] — headline brief item captured separately.
 - [[saas-disruption-thesis]] — Intuit 17% layoff as data point.
 - [[chamath-openai-consulting-fox-in-henhouse-2026-05-17]] — two-tier framing context for Intuit cut.
-- [[claude-code]] / [[cursor]] / [[openai|Codex]] — coding-agent category context for DeepSeek Code Harness team.
+- [[claude-code]] / [[anysphere|Cursor]] / [[openai|Codex]] — coding-agent category context for DeepSeek Code Harness team.
 - [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — frontier-AI-access framework relevant to DeepSeek + Cohere open-source positioning.
 - [[ai-energy-efficiency]] / [[kv-cache-optimization]] — inference-cost thesis relevant to Exa 20× + Anthropic 7× token-growth signals.
 - [[verifiability-and-jagged-intelligence]] — InferenceBench result as jagged-capability data point.

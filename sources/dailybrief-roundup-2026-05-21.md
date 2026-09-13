@@ -30,10 +30,10 @@ Aggregate capture of 2026-05-21 Daily Brief items that didn't warrant their own 
 ### Cursor doubles usage limits for new Teams-plan users for one month
 
 - **Source**: CEO Michael Truell X announcement (via Digg).
-- **What**: [[cursor]] (Anysphere) doubles usage limits for the next month for new users invited onto its Teams plan.
+- **What**: [[anysphere|Cursor]] (Anysphere) doubles usage limits for the next month for new users invited onto its Teams plan.
 - **Why it matters**: Same-week competitive-positioning move alongside [[latentspace-codex-rises-claude-meters-2026-05-14|OpenAI Codex's two-months-free-for-enterprise-switchers]] and [[claude-mythos|Anthropic's subscription-metering formalization]] from the prior weeks. **Cursor is competing on usage-cap generosity** — the cheapest way to keep Teams plan users from churning to Codex / Claude Code is to give them more rope. Pairs with [[av1dlive-cursor-1m-agent-orchestrator-2026-05-15|Cursor internal-org-design]] May 15 signal — Cursor is simultaneously rebuilding its own engineering around agent orchestration AND fighting a Teams-plan retention battle on usage caps.
 - **First wiki capture of Michael Truell as named Cursor CEO** in a citable form (prior wiki references identified him only via the Av1dlive Cursor-CEO video, with verification-pending caveat).
-- **Action note**: update [[cursor]] entity page with the doubled-Teams-limits competitive move + Michael Truell CEO confirmation.
+- **Action note**: update [[anysphere|Cursor]] entity page with the doubled-Teams-limits competitive move + Michael Truell CEO confirmation.
 
 ### Hark raises $700M Series A at $6B post-money
 
@@ -87,7 +87,7 @@ Aggregate capture of 2026-05-21 Daily Brief items that didn't warrant their own 
 ## Cross-references
 
 - [[openai-disproves-discrete-geometry-conjecture-2026-05-21]] / [[spacex-s1-anthropic-colossus-2-2026-05-20]] / [[turbopuffer-100m-arr-2026-05-21]] — headline items captured separately.
-- [[cursor]] — doubles Teams limits + Michael Truell CEO confirmation.
+- [[anysphere|Cursor]] — doubles Teams limits + Michael Truell CEO confirmation.
 - [[mechanistic-interpretability]] — GoodfireAI sparse-autoencoder-on-curved-manifolds finding.
 - [[anthropic]] — Q2-profitability cross-reference flagged for verification; 173% YTD valuation rise via Marcus reference.
 - [[antonleicht-frontier-ai-access-cut-off-2026-05-13]] — Qwen 3.7-Max + DeepSeek Code Harness Chinese-open-weights-coding-agent signals.
@@ -95,5 +95,5 @@ Aggregate capture of 2026-05-21 Daily Brief items that didn't warrant their own 
 
 ## Pages Updated
 
-- [[cursor]] (updated — Michael Truell named CEO; Teams-plan-doubled-usage-limits competitive move added under traction signals; date bumped to 2026-05-21)
+- [[anysphere|Cursor]] (updated — Michael Truell named CEO; Teams-plan-doubled-usage-limits competitive move added under traction signals; date bumped to 2026-05-21)
 - [[mechanistic-interpretability]] (updated — GoodfireAI sparse-autoencoder-on-curved-manifolds finding + Anthropic NLAs + EEG-foundation-model SAE = three-surface convergence on SAE-based interpretability research added; date bumped to 2026-05-21)

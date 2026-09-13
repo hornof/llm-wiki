@@ -53,7 +53,7 @@ Aggregator-surfaced (Digg via 2026-05-21 Daily Brief) report that **Turbopuffer*
 - [[saas-disruption-thesis]] — Turbopuffer as capital-efficient-AI-infrastructure data point.
 - [[dailybrief-roundup-2026-05-20]] — same-week Exa $250M / $2.2B / 20× token-growth capital-efficiency-vs-capital-scale companion signal.
 - [[anthropic]] — named Turbopuffer customer; consumer of object-storage-backed vector search.
-- [[cursor]] — named Turbopuffer customer.
+- [[anysphere|Cursor]] — named Turbopuffer customer.
 - [[brianlamanna-paraform-talent-density-2026-05]] — adjacent capital-efficient AI-stack-company pattern.
 
 ## Pages Updated

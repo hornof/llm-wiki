@@ -160,7 +160,7 @@ Daily Brief 2026-07-01 roundup of net-new substantive surfaces beyond the focuse
 - [[dario-amodei]] — paired canonical-Dario-critique canonical-canonical-Anthropic-USG-conflict canonical-discourse extension
 - [[concepts/loop-engineering]] — paired canonical-Warp-software-factories canonical-alignment
 - [[dan-jeffries]] — paired canonical-AI-skepticism canonical-cluster
-- [[cursor]] — paired canonical-Cursor-FDE canonical-enterprise-deployment canonical-substantive-surface
+- [[anysphere|Cursor]] — paired canonical-Cursor-FDE canonical-enterprise-deployment canonical-substantive-surface
 - [[anysphere]] — paired canonical-Cursor-parent canonical-entity
 
 ## Verification-Pending

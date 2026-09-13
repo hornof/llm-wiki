@@ -19,7 +19,7 @@ swyx (Shawn Wang) is the co-host of the **Latent Space** podcast (with Alessio F
 
 ## Notable Takes (via Latent Space episodes captured on the wiki)
 
-- **End of Finetuning thesis** ([[latentspace-end-of-finetuning-2026-05-13]]): trigger event = OpenAI deprecating fine-tuning APIs; multi-year practitioner shift to long-context + constitutional-spec; top 1% still RLFT ([[cognition]], [[cursor]]). First wiki-captured swyx-framed trend-name.
+- **End of Finetuning thesis** ([[latentspace-end-of-finetuning-2026-05-13]]): trigger event = OpenAI deprecating fine-tuning APIs; multi-year practitioner shift to long-context + constitutional-spec; top 1% still RLFT ([[cognition]], [[anysphere|Cursor]]). First wiki-captured swyx-framed trend-name.
 - **Age of Async Agents** ([[latentspace-walden-yan-async-agents-2026-05-29]]): with Walden Yan (Cognition) + Cole Murray (OpenInspect). 80% commit rates + spec-to-PR pipelines + memory + async execution. First wiki-captured Cognition-side operational-detail surface.
 - **Vibe physics surfacing** ([[latent-space-lupsasca-vibe-physics-2026-05]]): Lupsasca interview where the *"vibe physics"* framing was coined; OpenAI Science team primary source.
 - **Codex Rises / Claude Meters** ([[latentspace-codex-rises-claude-meters-2026-05-14]]): Codex momentum + Anthropic's subscription-includes-API-credit metering formalization.

@@ -31,7 +31,7 @@ ingested: 2026-05-16
 ## Why It Matters
 
 - **First wiki capture of a concrete comp claim** for the "agent orchestrator" role. Whether the $1.1M number is accurate or aspirational, the *job-title shift* (engineer-who-codes → engineer-who-runs-agents) is the second wiki capture of this framing this week, after the sairahul1/Khairallah playbooks.
-- **Cross-confirms [[cursor]]'s multi-agent direction**. Cursor as a tools company has been wiki-tracked for IDE / chat-with-codebase posture; this surfaces internal-org-design as a separate signal — Cursor's engineering org has reorganized around agent orchestration.
+- **Cross-confirms [[anysphere|Cursor]]'s multi-agent direction**. Cursor as a tools company has been wiki-tracked for IDE / chat-with-codebase posture; this surfaces internal-org-design as a separate signal — Cursor's engineering org has reorganized around agent orchestration.
 - **"Validation contract before code"** is the cleanest framing this week for *what changes about engineering work* when agents do the typing. Pairs cleanly with [[agentic-engineering]] (Karpathy's quality-preserving counterpart to vibe coding) and [[claude-md-pattern]] (specification-first discipline).
 
 ## Caveats
@@ -42,7 +42,7 @@ ingested: 2026-05-16
 
 ## Cross-references
 
-- [[cursor]] — Cursor as the named company; internal org-design data point added (with primary-verification caveat).
+- [[anysphere|Cursor]] — Cursor as the named company; internal org-design data point added (with primary-verification caveat).
 - [[eng-khairallah-multi-agent-team-course-2026-05-15]] — same-week convergent multi-agent practitioner-content cluster.
 - [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] — same-week convergent playbook from a different practitioner.
 - [[agentic-engineering]] — "validation contract before code" is the discipline that distinguishes agentic engineering from vibe coding.
@@ -50,4 +50,4 @@ ingested: 2026-05-16
 
 ## Pages Updated
 
-- [[cursor]] (updated — internal-org-design data point added under traction-adjacent signals: $1.1M agent-orchestrator comp claim from Cursor-CEO video, with primary-verification caveat; date bumped to 2026-05-16)
+- [[anysphere|Cursor]] (updated — internal-org-design data point added under traction-adjacent signals: $1.1M agent-orchestrator comp claim from Cursor-CEO video, with primary-verification caveat; date bumped to 2026-05-16)

@@ -60,7 +60,7 @@ Aggregate capture of 2026-05-23 Daily Brief items that didn't warrant their own 
 
 ### Repos worth watching
 
-- **earendil-works/pi** (AI Score 10/10, **53.3K stars**) — *"TypeScript monorepo providing an AI agent harness that includes an interactive coding-agent CLI, core agent runtime with tool calling and state management, a unified multi-provider LLM API, plus TUI and web-UI."* Star count is unusually high; pairs with [[claude-code]] / [[cursor]] / [[openai|Codex]] as a **fourth named coding-agent surface**. **Worth tracking** — if star-growth continues, becomes candidate for tool entity page.
+- **earendil-works/pi** (AI Score 10/10, **53.3K stars**) — *"TypeScript monorepo providing an AI agent harness that includes an interactive coding-agent CLI, core agent runtime with tool calling and state management, a unified multi-provider LLM API, plus TUI and web-UI."* Star count is unusually high; pairs with [[claude-code]] / [[anysphere|Cursor]] / [[openai|Codex]] as a **fourth named coding-agent surface**. **Worth tracking** — if star-growth continues, becomes candidate for tool entity page.
 - **4044ever/duolingo-chinese-dictionary** — niche; capture-only.
 
 ### Re-surfaced items (already covered in prior ingests)

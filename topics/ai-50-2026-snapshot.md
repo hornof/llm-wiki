@@ -31,7 +31,7 @@ Competing for the remaining ~20% of capital, plus their own growth. Top funded i
 ## Sector Themes Visible in the 2026 List
 
 **Coding agents are a major battleground**
-Claude Code (Anthropic), Codex (OpenAI), Cursor ($29.3B valuation), Cognition ($10B, acquired Windsurf), and Replit ($880M) are all competing for the same developer market. The coding layer has become the clearest commercial battleground in AI. See [[cursor]], [[claude-code]].
+Claude Code (Anthropic), Codex (OpenAI), Cursor ($29.3B valuation), Cognition ($10B, acquired Windsurf), and Replit ($880M) are all competing for the same developer market. The coding layer has become the clearest commercial battleground in AI. See [[anysphere|Cursor]], [[claude-code]].
 
 **Drug discovery is a serious cluster**
 Chai Discovery ($225M), [[isomorphic-labs]] (Google DeepMind spin-out), and Physical Intelligence (robotics-adjacent) represent the AI-for-science thesis playing out commercially. AlphaFold provided the foundation. See [[ai-for-science]], [[alphafold]].
@@ -85,7 +85,7 @@ Brink List: 3 of 20 female-led (Ricursive Intelligence/Anna Goldie, Axiom/Carina
 - [[safe-superintelligence]] — on AI 50
 - [[thinking-machines-lab]] — on AI 50
 - [[reflection-ai]] — on AI 50
-- [[cursor]] — on AI 50
+- [[anysphere|Cursor]] — on AI 50
 
 ## Related Pages
 
