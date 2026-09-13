@@ -3,3 +3,7 @@ _raw/
 # Obsidian app/vault state — local per-machine config, not shared via git
 .obsidian/
 Daily Briefs/
+
+# Obsidian scratch files created at vault root by accident (empty .base/.canvas templates)
+Untitled*.base
+Untitled*.canvas
