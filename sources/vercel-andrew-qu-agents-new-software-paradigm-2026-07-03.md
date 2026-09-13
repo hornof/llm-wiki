@@ -27,8 +27,7 @@ ingested: 2026-07-03
 
 ## Pages Updated
 
-- [[index]] — Recent ingests entry
-- [[log]] — ingest entry
+No entity pages were updated from this source. Reviewed at lint 2026-09-13 and left unfolded — the "agents are a new software paradigm" framing is already carried, with more support, by [[agentic-engineering]] and [[domain-specific-harness]]; this adds a vendor-side restatement rather than new evidence.
 
 ## Contradiction / Verification-Pending
 

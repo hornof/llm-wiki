@@ -40,8 +40,11 @@ ingested: 2026-07-02
 
 ## Pages Updated
 
-- [[index]] — Recent ingests entry
-- [[log]] — ingest entry
+*Originally filed 2026-07-02 with no entity pages attached; the material below was folded at lint on 2026-09-13, ten weeks later.*
+
+- [[agentic-engineering]] — the 539-point "driver's seat" consensus, the developer-vs-coder split, the six-voice **parallel-agent cognitive-load** finding, and the multi-voice legacy-codebase ceiling (incl. the `send_mail` naming-mismatch anecdote)
+- [[llm-wiki-pattern]] — the organic *"LLM wiki or similar"* mention as one of three co-equal pillars (project space + harness + wiki) with cross-model review
+- [[claude-fable-5]] — the four-case legacy capability catalogue (Unity leaks, 20-year-old Salesforce Apex, Japanese VN decompile, unprompted 25% image-gen speedup) and the unresolved Unity→Godot one-line benchmark
 
 ## Contradiction / Verification-Pending
 

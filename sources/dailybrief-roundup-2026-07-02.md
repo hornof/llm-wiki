@@ -66,8 +66,7 @@ ingested: 2026-07-02
 
 ## Pages Updated
 
-- [[index]] — Recent ingests entry
-- [[log]] — ingest entry
+No entity pages were updated from this brief — a triage roundup whose items were deduped against existing pages or deferred. Reviewed at lint 2026-09-13 and left as-is; it functions as a cross-reference index into the individual source pages of that window.
 
 ## Contradiction / Verification-Pending
 

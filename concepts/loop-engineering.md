@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-12
+last_updated: 2026-09-13
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -125,6 +125,15 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 **Closing canonical**: *"Design the verifier, not the prompt."*
 
 **Empirical check — do agents actually use verification well? (Danluu, 2026-09-07)** ([[dailybrief-roundup-2026-09-08]], danluu.com "How well do agents use test/verification techniques?"): a high-signal empirical analysis finding **agents are still weak at correctness-validation** — the generator has outrun the agent's ability to *operate* the verifier. Sharpens McDonald's thesis from the other side: it's not enough to *design* a good verifier if the agent underuses it — the closing of the loop is itself a capability gap, not just a harness-design choice. Concrete grounding for the *"the feedback inside the loop is the magic"* claim.
+
+**A working verifier, in full — the universe-atlas build (chrisjz, 2026-07-16).** [[chrisjz-universe-atlas-fable-verification-2026-07-16]] is the most complete practitioner account the wiki holds of what McDonald's *"design the verifier"* actually looks like in practice, and on the case usually assumed to be exempt: **visual output**. One engineer, a bit over a week, 92 merged PRs and ~14.5k lines of TypeScript and WGSL, and the reason given for the pace is one line — *"Verification, not trust."* Four mechanisms:
+
+1. **An independent oracle in CI** — planet positions tested against **JPL Horizons**, failing past 0.2 degrees. Not a snapshot of the model's own output; an external authority the code cannot negotiate with.
+2. **Physics gates at write time** — data generators that *"refuse to write a bad tile,"* so invalid data never enters the pipeline to be rationalized downstream.
+3. **Pixel-comparison of the real renderer** — CI renders the actual WebGPU scene on software Vulkan and diffs against baselines. The visual layer is under automated test.
+4. **Deterministic URLs as a bug-repro primitive** — every view is a URL, so *"when I found a visual bug I pasted the link into the chat and Fable reproduced the exact frame headlessly and bisected it."*
+
+**Mechanism 4 is the novel one** and generalizes past graphics. It closes the **observability gap** between a human looking at output and an agent that cannot see it: rather than describing a defect in prose — which is where the [[dailybrief-roundup-2026-09-08|Danluu finding]] says agents lose the thread — the human hands over an address the agent can re-enter exactly, and the loop closes on the same artifact both parties observed. **Any domain that can make its state addressable gets the same property.** Note also that the human role reduces to precisely what a verifier cannot supply: reviewing all 92 PRs, flying the app as a user to find the bugs worth fixing, and *"everything that needed an opinion."*
 
 **Market-side restatement — verification as addressable surface (jessy, 2026-09-11).** Asked what actually unlocks a domain, jessy (@goodhartproof) answered: *"the key unlock is increasing the surface area of verifiable things"* ([[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11]]). McDonald's *design the verifier* is an engineering instruction; this is the same claim aimed at **which markets are reachable at all** — a domain becomes harness-able exactly when checking the work is cheap. It predicts the observed ordering (GTM automation early, finance/accounting and clinical later) and is the hinge between this page and [[domain-specific-harness]].
 

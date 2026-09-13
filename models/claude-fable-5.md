@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-09-08
+last_updated: 2026-09-13
 ---
 
 ## What It Is
@@ -62,6 +62,29 @@ Consistent with the [[claude-fable-5|Fable 5]] "english→code-interpreter at th
 - **Taelin (2026-06-09)**: dismissed leaked benchmarks as marketing.
 - **Pattern-watch**: Anthropic + Anthropic-Institute cross-cutting safety + capability narrative — [[anthropic-institute-when-ai-builds-itself-2026-06-04|RSI publication]] (Jun 4) → Fable 5 ship (Jun 9) = **first wiki-captured frontier-lab "warning-AI-too-dangerous + ship-most-powerful-model-publicly" 5-day-gap event**.
 - **"Field Guide to Fable" (Latent Space, 2026-07-08)** — frames Fable 5 as *"the world's most significant model launch to date"* but locates the step-change in **harness/mental-model discipline**, not raw capability: *"the harness we put them in, and the way we prompt them"* constrains models more than their limits. Synthesizes [[thariq-shihipar|Thariq]]'s AIEWF keynote into four principles — **Unhobbling Claude** (strip artificial constraints), **finding unknown unknowns** (blindspot passes), **emotional shift** (weeks→hours), **"tradeoffs are not real"** (good+fast+cheap). Reality check: *"Building is easy, generating value is still hard."* — [[latent-space-field-guide-to-fable-2026-07-08]]
+
+### Build receipt — a true-scale universe atlas in a week (2026-07-16)
+
+[[chrisjz-universe-atlas-fable-verification-2026-07-16]]: one engineer with Fable 5 on Max (5×) shipped a browser atlas rendering real Gaia DR3 stars, 2.6M SDSS galaxies at true distances, planets on real orbits and live satellites — **92 merged PRs, 237 commits, ~14.5k lines of TypeScript and WGSL in a bit over a week**, with the resulting engine at 90 kB gzipped, zero runtime dependencies, raw WebGPU and no game engine. Fable wrote essentially all of it, including the Kepler solvers, SGP4 satellite propagation, ray-marched atmosphere and gravitational lensing.
+
+Held here as a **volume-and-difficulty receipt** rather than a capability claim, because the author is explicit that the model is not what made it work: *"the thing that made the pace possible: verification, not trust"* — an external oracle in CI, physics gates, renderer pixel-diffs, and deterministic URLs for headless bug repro. The verification architecture is folded at [[loop-engineering]] and is the more transferable half.
+
+*(Self-reported; site is live and source is MIT on GitHub, but the repo was not fetched to verify the CI claims.)*
+
+### Community-verified capability catalogue — r/ClaudeCode (2026-07-01)
+
+Four self-reported successes from a single practitioner in a high-vote thread ([[fable-good-enough-existential-swe-thread-2026-07-02]]), useful because they are **large-scope legacy work** rather than greenfield demos:
+
+- **Unity memory leaks** — three separate leaks fixed; memory ceiling fell from ~8 GB to *"never goes above 400mb."*
+- **Salesforce Apex legacy refactor, 20-year-old code** — JSON attachments migrated to native database tables with the surrounding spaghetti logic rewired. Took two 5-hour sessions against usage limits.
+- **Japanese visual-novel decompile and translate** — early-2000s binary, including a non-English Windows-locale fix.
+- **~25% image-generation speedup** via parallel model unloading — **unprompted**; the optimization was not asked for.
+
+The thread's framing question is the sharper artifact and remains open: the OP planned to give Fable exactly one instruction — *"Port this game to Godot. Make it functionally the same"* — and said *"if it can do it, I think I'm gonna start thinking about what jobs are safe from AI."* **No follow-up post was ever captured.** Verification-pending.
+
+Counterweight from the same thread: a multi-voice consensus that **large legacy codebases remain the worst fit** (*"failed catastrophically… doing it myself is faster"*) — see [[agentic-engineering]]. The four successes above are all *scoped* legacy tasks, which is consistent with, not contrary to, that ceiling.
+
+*(Self-reported, single practitioner, no artifacts; several commenters questioned the OP's authenticity. Folded 2026-09-13 at lint.)*
 
 ## RESOLVED: Redeployed Globally (2026-06-30/07-01) + Jailbreak Severity Framework
 

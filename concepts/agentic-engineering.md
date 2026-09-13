@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-12
+last_updated: 2026-09-13
 
 ---
 
@@ -65,6 +65,30 @@ See [[vibe-coding]]. Vibe coding raises the floor; agentic engineering raises th
 - Codex (OpenAI) — mentioned alongside Claude Code as a primary agentic engineering interface
 - [[career-ops]] — flagship open-source example of an agent-leveraged production tool stack (8.2k stars, MIT)
 - [[playwright-mcp]] — emerging convention for browser-side execution within agentic workflows
+
+## r/ClaudeCode community consensus — "developers are fine, coders may be a thing of the past" (2026-07-01)
+
+A high-vote r/ClaudeCode thread [[fable-good-enough-existential-swe-thread-2026-07-02]] is the wiki's best **community-vernacular** articulation of this page's thesis, and it converges on the same conclusions from the bottom up rather than from Karpathy down. *(Folded 2026-09-13 at lint — the material sat unpropagated on the source page for ten weeks.)*
+
+- **"You still need someone competent in the driver's seat"** (539 points, top comment): *"Opus 4.8 and GPT 5.5 are already good enough I barely need to manually code anymore, yet I still feel like I have as much work to do as ever."* The most-upvoted statement in the thread, and a direct community restatement of the quality-bar responsibility.
+- **"Developers are fine. Coders may be a thing of the past"** (261 points): *"I've barely written a line of code in the last six months… My time is spent on higher order problems, requiring more thought. Opus has been doing the grunt work."* The **developer/coder split** in vernacular form — the community's own version of the [[vibe-coding]] vs agentic-engineering distinction.
+- **"The act of writing code is what's been solved, not the act of architecting a solution"** — and, more bluntly: *"Writing code was never the bottleneck. Once you realize that, you will understand."* Pairs with *"once you have something to build, a lot of the work isn't 'how do I do X' but 'what do I do at all?'"*
+
+### The cost nobody prices: parallel-agent cognitive load
+
+A **six-voice convergence** in the same thread on a failure mode this page had not recorded — running agents in parallel is *more* tiring, not less:
+
+> *"the cognitive load is higher because we work in five threads to keep the AI busy. I've found myself more mentally exhausted and dead tired than I can remember in years."*
+
+Five separate commenters confirmed it independently. This is the practitioner-cost counterpart to [[john-kim|John Kim's]] *"it really feels like I'm playing StarCraft"* multi-instance workflow and his *"my bottleneck right now is really how much context switching I can do in my head."* **The throughput gain is real and the operator absorbs it as attention load** — worth holding against any productivity claim that counts only output.
+
+### Legacy codebases remain the worst fit — multi-voice
+
+*"Models don't do very well at maintaining coherence over a very large and developed codebase, even if it wrote itself."* · *"You toss a 100k+ codebase at it with models crossing deps that shouldn't be there because of years of built-on tech debt?"* · *"Recently I gave 4.8 a truly hard task and it failed catastrophically — I had to babysit it to the point where doing it myself is faster."*
+
+The concrete failure anecdote is the best of them (188 points): an SMS task named `send_mail`, where the model flags the *wrong* thing as wacky because the naming lies. Community antidote proposed in-thread is a living-docs set — `NAMING.md`, `CLAUDE.md`, `CHANGELOG`, `BUGS`, `LEARNINGS`, `FILETREE.md` — i.e. [[claude-md-pattern|the CLAUDE.md pattern]] extended to cover exactly the implicit knowledge a legacy codebase's names no longer carry.
+
+*(Reddit thread; vote counts are the only weighting available, and several commenters doubted the OP's authenticity. The convergence across independent voices is the signal, not any single claim.)*
 
 ## Related Concepts
 - [[vibe-coding]] — the floor-raising complement; entry-level

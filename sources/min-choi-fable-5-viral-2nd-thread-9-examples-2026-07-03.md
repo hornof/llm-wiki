@@ -37,8 +37,7 @@ ingested: 2026-07-03
 
 ## Pages Updated
 
-- [[index]] — Recent ingests entry
-- [[log]] — ingest entry
+No entity pages were updated from this source at the time. Reviewed at lint 2026-09-13: [[min-choi]] now exists and carries his Fable-viral-curator cadence, and [[claude-fable-5]] carries the capability receipts, both folded from later threads. Left unfolded as superseded rather than backfilled — the 2026-09 folds cover the same pattern with fresher examples.
 
 ## Contradiction / Verification-Pending
 

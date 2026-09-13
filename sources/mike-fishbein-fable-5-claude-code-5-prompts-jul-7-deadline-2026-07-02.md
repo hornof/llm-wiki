@@ -35,8 +35,7 @@ ingested: 2026-07-03
 
 ## Pages Updated
 
-- [[index]] — Recent ingests entry
-- [[log]] — ingest entry
+No entity pages were updated from this source. Reviewed at lint 2026-09-13 and left unfolded — a deadline-urgency promotional post; the durable Fishbein material ("the only barrier is the thought now") is already recorded via [[greg-isenberg]], and the Fable 5 pricing deadline is covered on [[claude-fable-5]].
 
 ## Contradiction / Verification-Pending
 
