@@ -3,12 +3,15 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-08-12
+last_updated: 2026-09-13
 ---
 
 ## What It Is
 
-Claude Mythos is an [[anthropic]] preview model — not yet generally available as of May 2026. Surfaced publicly through two channels in the same week:
+> [!note] On `status: announced` (reviewed 2026-09-13)
+> The frontmatter still reads `announced` rather than `available`, and that is deliberate. Mythos is **deployed but not publicly accessible** — running in production via Project Glasswing, Mozilla preview access, and critical-infrastructure engagements in 15 countries, while remaining unavailable to the public. The schema's three states (`announced` / `available` / `deprecated`) have no slot for *deployed-but-restricted*, which is the category Mythos and [[dailybrief-roundup-2026-09-10|OpenAI's unreleased models]] both occupy. `announced` is the least wrong option; the gap is the schema's, not the page's.
+
+Claude Mythos is an [[anthropic]] preview model — not publicly available. Originally surfaced May 2026. Surfaced publicly through two channels in the same week:
 
 1. **Mozilla preview-access partnership** (May 2026): Mozilla used Mythos preview access to drive a 20× monthly fix-volume jump on Firefox, including a 20-year-old XSLT bug and 15-year-old `<legend>` bug — [[willison-firefox-claude-mythos-2026-05]].
 2. **Anthropic interpretability research**: Mythos preview is one of three models Anthropic's Natural Language Autoencoders paper benchmarks against (alongside Claude Opus 4.6 and Claude Haiku 3.5) — [[anthropic-natural-language-autoencoders-2026-05]].
@@ -28,9 +31,11 @@ Claude Mythos is an [[anthropic]] preview model — not yet generally available 
 
 Limited — only two public references as of May 7 2026. Both are Anthropic-adjacent (Mozilla has preview access; Anthropic's own research uses it). Independent practitioner sentiment will require wider availability.
 
-## Naming Convention
+## Naming Convention — **resolved 2026-06-09**
 
-The "Mythos" name breaks the established Opus/Sonnet/Haiku tier pattern — first time Anthropic has named a Claude model outside that scheme since the 4.x families launched. Worth tracking whether Mythos is a tier above Opus, a research-track sibling, or a different positioning entirely. Insufficient public detail to call this yet.
+The "Mythos" name breaks the established Opus/Sonnet/Haiku tier pattern — the first time Anthropic named a Claude model outside that scheme since the 4.x families launched. The open question was whether Mythos is a tier above Opus, a research-track sibling, or different positioning entirely.
+
+**Answered by the 2026-06-09 Fable 5 launch** — see *Mythos 5 Public-Counterpart Ship* below. Mythos is the **safety-restricted internal-tier designation**; [[claude-fable-5|Fable]] is the public-accessible variant of the same model class. *(This section previously read "insufficient public detail to call this yet"; corrected at lint 2026-09-13, which is three months after the resolution landed further down the page.)*
 
 ## Selective-Deployment Pattern (Generalized, May 2026)
 

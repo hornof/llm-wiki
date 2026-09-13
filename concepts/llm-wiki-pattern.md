@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-07-13
+last_updated: 2026-09-13
 
 ---
 
@@ -50,6 +50,16 @@ The schema (CLAUDE.md) is designed to be co-evolved by you and the LLM over time
 - **Headkey**: belief graphs with confidence scores
 - **NEBULA**: human-defined entity types + LLM-enriched connections
 - **CodeDNA**: opt-in wiki pointers (lighter-weight integration)
+
+## Organic adoption — the pattern named unprompted in the wild (2026-07-01)
+
+The first wiki-captured instance of someone reaching for this pattern **in ordinary community conversation**, with no reference to Karpathy and no prompting. In a high-traffic r/ClaudeCode thread [[fable-good-enough-existential-swe-thread-2026-07-02]], a commenter describes what makes Fable work well:
+
+> *"Fable under a well designed **project space, harness, and with all the knowledge it needs under a LLM wiki or similar**, with another decent model like gpt 5.5 to review its output, is killer good. Just unbelievable."*
+
+Two things worth noting. The phrase *"LLM wiki or similar"* is used as though it names a known category — the marker of a pattern that has diffused past its origin. And it appears as one of **three co-equal pillars** (project space + harness + wiki) with cross-model review bolted on, which is a tighter architecture than this page describes on its own: the wiki supplies durable knowledge, the [[domain-specific-harness|harness]] supplies the runtime, and a rival model supplies the check ([[loop-engineering|verifier discipline]]).
+
+*(Single Reddit comment; the commenter's fuller workflow was never captured — verification-pending. Folded 2026-09-13 at lint, ten weeks after the source page recorded it.)*
 
 ## When to Use It
 - Personal research projects with <200 curated sources
