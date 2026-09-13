@@ -3,7 +3,7 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-09-08
+last_updated: 2026-09-13
 ---
 
 ## What It Is
@@ -24,6 +24,14 @@ last_updated: 2026-09-08
 ## Community Sentiment
 
 - Launch framed as OpenAI's largest ever; Latent Space also shipped a *"Frontier AEO Tracker: What Astra Chooses"* (AI-Enabled-Outcomes analysis across frontier models) as a GTM-decision aid. Early; independent capability/pricing assessments pending.
+
+## Capability receipt — a 27-minute route-planning session (2026-09-12)
+
+The first concrete, externally-observed task trace on this page, via [[simon-willison|Willison]] ([[dailybrief-roundup-2026-09-13]]): using **ChatGPT Work**, Astra went from a street address to **5K and 10K route visualizations plus GPX/GeoJSON output** over a **27-minute multimodal reasoning session** — sustained tool use against map data, not a single-shot answer.
+
+Useful for two reasons beyond the demo. It is a **long-horizon spatial-reasoning** trace, which is harder to fake than a benchmark score; and the 27-minute duration is itself the datapoint — it is the kind of run the [[ai-margin-collapse|"pay for solved problems, not tokens"]] pricing frame is built to justify. Modest scope, but this page has been headline-level since launch and needed a real one.
+
+*(Practitioner write-up of a single session; not a benchmark.)*
 
 ## Resources
 

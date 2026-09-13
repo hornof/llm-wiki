@@ -3,7 +3,7 @@ name: Sam Altman
 type: person
 affiliation: OpenAI (CEO, co-founder)
 signal_sources: [blog, twitter, podcast]
-last_updated: 2026-06-02
+last_updated: 2026-09-13
 ---
 
 ## Who They Are
@@ -27,6 +27,9 @@ Sam Altman is the co-founder and CEO of [[openai|OpenAI]], a position he has hel
   Plus the **"anyone-in-2035-marshalls-2025-intellectual-capacity"** 10-year horizon claim — adds Altman as **6th corner of the [[ai-labor-market-impacts|Timeline-Calibration Hexangle]]** (most ambitious quantitative claim). **"Compute budget for everyone on Earth"** distributive framing — pairs structurally with [[dailybrief-supplemental-2026-05-31|Bernie Sanders sovereign-wealth-fund proposal]] (same problem, different mechanism).
 
 - **2026-05-20 — OpenAI IPO filing** ([[openai-ipo-filing-2026-05-20]]): leading OpenAI's WSJ-reported confidential filing for public-market listing; first wiki-captured concrete OpenAI-IPO-trajectory data point.
+
+- **An IPO would be "ill-advised" in 2026** ([[dailybrief-roundup-2026-09-13]], TechCrunch, 2026-09-12): confidentially filed, but will not execute this year. Deflates the [[saas-disruption-thesis|OpenAI-IPO-as-public-market-validation]] thread the wiki had been tracking as imminent since May. No reason given — the brief reads it as caution on *"valuation or timing."*
+- **Converges with [[dario-amodei|Amodei]] on "pacing the frontier"** (2026-09-12): both CEOs signal alignment on slowing development, with an agent-swarm risk framing reported behind it. Landing in the same week as a third undisclosed [[ai-vulnerability-discovery|OpenAI agent-swarm incident]], the convergence reads as reaction rather than initiative. See [[frontier-ai-governance]] for why the wiki is not yet scoring this as a change.
 
 ## Notable Tensions / Controversies
 

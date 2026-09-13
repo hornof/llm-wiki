@@ -2,7 +2,7 @@
 name: Forward-Deployed Engineer (FDE)
 type: concept
 maturity: emerging
-last_updated: 2026-08-02
+last_updated: 2026-09-13
 ---
 
 ## Definition
@@ -42,6 +42,14 @@ Net: *"a founding CTO embedded inside someone else's company, with the full engi
 - **Tier 1 — Frontier labs** (Anthropic/OpenAI/Google Cloud): $385K mid / $610K staff / $1.2M principal. Most selective, best-resourced, highest upside; *rarely entry-level — they hire people who already shipped.*
 - **Tier 2 — Applied-AI startups** (Series A–D): ~half Tier-1 comp, same work, less gatekeeping. *Best growth path* without frontier-lab history. (e.g. [[factory-ai|Factory]].)
 - **Tier 3 — Fortune 500 AI teams**: $150K–$250K; most of the postings, least of the leverage. *"Fine as a start, bad as a destination."*
+
+## Vinoo Ganesh's playbook — Palantir → Kepler (2026-09-12)
+
+Latent Space, *"The Rise of the Forward Deployed Engineer — and How To Do the Job Right"* ([[dailybrief-roundup-2026-09-13]]): Vinoo Ganesh on FDE practice from the Palantir side, now at Kepler. Flagged in both the 09-12 and 09-13 briefs as directly relevant to the wiki owner's active role lane — *"concrete patterns for how applied-AI orgs structure field teams… shapes how you'd staff a VPE role."*
+
+Captured here as the **most substantial single-author FDE artifact surfaced to date** and the natural companion to the three-hats framing above. Worth noting the timing: the FDE role is re-surfacing right as [[domain-specific-harness|domain-specific harnesses]] become the observed startup shape — both are bets that the scarce skill is *encoding a specific customer's domain*, one inside a product company, one inside the customer. **Create-candidate: Vinoo Ganesh** (single surface).
+
+*(Primary not fetched — captured from brief summaries. The specific patterns Ganesh names are verification-pending and worth a read-through given the owner's role lane.)*
 
 ## Related Concepts
 - [[engineering-leadership-ai-era]] — the FDE is the in-demand counterpart to the CTO/VPE-exodus squeeze; the "role closer to IC/manager" that's *"never been more valuable"* (Eno Reyes)
