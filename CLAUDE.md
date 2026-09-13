@@ -17,7 +17,9 @@ When in doubt, prefer depth on tools with demonstrated traction over breadth on 
 /
 ├── CLAUDE.md          # This file — schema, workflows, conventions
 ├── index.md           # Content catalog organized by category (LLM-maintained)
-├── log.md             # Append-only ingest/query/lint log
+├── log.md             # Append-only ingest/query/lint log (current + prior month)
+├── meta/              # Lint reports and log archives
+│   └── log-archive/   # log.md rolled over by month: YYYY-MM.md
 ├── _raw/              # Immutable source drops (transcripts, links, pastes) — gitignored; drop zone for Obsidian Web Clipper and cross-device captures
 ├── tools/             # One page per AI tool or framework
 ├── models/            # One page per model family or provider
@@ -262,7 +264,18 @@ Wikilinks to all entity pages this ingest touched.
 
 When given a new source:
 
-0. **Daily Brief deduplication check** (skip if not ingesting from a Daily Brief). When the source is a Daily Brief in `Daily Briefs/`, before doing any work `grep` the brief filename (e.g., `2026-05-07-personal.md`) verbatim against `log.md`. If a hit is returned, the brief has already been processed — surface that to the owner and stop. If no hit, proceed.
+0. **Daily Brief deduplication check** (skip if not ingesting from a Daily Brief). When the source is a Daily Brief in `Daily Briefs/`, before doing any work grep for prior processing:
+
+   ```bash
+   grep -r "2026-09-10.md" log.md meta/log-archive/     # exact filename
+   grep -r "2026-09-10"    log.md meta/log-archive/     # bare date, as a backstop
+   ```
+
+   **Search both paths.** `log.md` holds only the current and prior month; everything older lives in `meta/log-archive/YYYY-MM.md` (rolled over 2026-09-13). Grepping `log.md` alone will report old briefs as unprocessed.
+
+   **Run both greps.** The filename form is authoritative, but it has two known blind spots: (a) `"2026-09-10.md"` does not match inside `"2026-09-10-neutral.md"`, so same-day variants need their own check; (b) the filename-verbatim rule in step 6 only began partway through 2026-05, so briefs before roughly 2026-05-13 are not traceable by filename even though they were processed — for those, grep the bare date and confirm against `sources/`.
+
+   If a hit is returned, the brief has already been processed — surface that to the owner and stop. If no hit, proceed.
 1. Save the raw content to `_raw/<slug>.<ext>`.
 2. Create or update `sources/<slug>.md`.
 3. Identify all entity references: tools, models, concepts, people, companies.
@@ -270,7 +283,9 @@ When given a new source:
    - If page exists: update only the sections that are materially changed. Preserve existing content unless contradicted.
    - If page doesn't exist: create it from the schema above.
 5. Update `index.md` if new pages were created.
-6. Append a one-line entry to `log.md`: `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`. **If the ingest was driven by a Daily Brief, the description field MUST include the brief filename(s) verbatim** (e.g., `Daily Briefs/2026-05-07-personal.md`, `Daily Briefs/2026-05-07-neutral.md`) so step 0 of the next ingest can detect prior processing via grep.
+6. Append a one-line entry to `log.md` (current + prior month only; older months are archived to `meta/log-archive/YYYY-MM.md`): `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`. **If the ingest was driven by a Daily Brief, the description field MUST include the brief filename(s) verbatim** (e.g., `Daily Briefs/2026-09-12.md`, `Daily Briefs/2026-09-10-neutral.md`) so step 0 of the next ingest can detect prior processing via grep.
+
+   **On brief filenames.** The daily [AI Pulse](../../../../src/claude/ai-pulse) run writes one personal-voice brief per day, `YYYY-MM-DD.md`. A neutral-voice edition, `YYYY-MM-DD-neutral.md`, is **on-demand only** (`main.py --neutral[=DATE]`, regenerated from that day's cache) — so its absence on most days is by design, not a gap. The `-personal`/`-neutral` pair convention ran only 2026-05-07 → 2026-05-12 and is dead. Note that `Daily Briefs/` in the vault is a **mirror**; `~/src/claude/ai-pulse/output/` is the source of truth.
 7. **Submit changes as a PR for owner review — do not commit directly to `main`.**
    - Create a branch named `ingest/YYYY-MM-DD` (or `ingest/YYYY-MM-DD-<short-tag>` if multiple ingest PRs land the same day).
    - Stage only ingest-related files. Exclude local Obsidian state (`.obsidian/workspace.json`), unrelated untracked files at vault root (e.g., `Untitled.md`, `Daily Briefs/`), and anything under gitignored paths (`_raw/` is intentionally excluded).
@@ -301,6 +316,16 @@ When asked to lint or health-check the wiki:
 7. Produce a lint report and ask the owner which issues to fix.
 
 ---
+
+## Log Maintenance
+
+`log.md` is append-only and is read and grepped every session, so it is kept small.
+
+- **Retention**: current + prior calendar month stay in `log.md`. Older months roll to `meta/log-archive/YYYY-MM.md`.
+- **Rollover**: when `log.md` exceeds ~150 KB or carries more than two months, move the oldest complete month's entry blocks (an entry line plus any continuation lines that follow it) into `meta/log-archive/YYYY-MM.md`, preserving text verbatim. Verify by comparing the multiset of non-empty lines before and after — it must be identical.
+- **Ordering**: entries are sorted by date within each file. The log drifted out of order before 2026-09-13 (56 misordered entries across five months), which is one reason date-based dedup greps were unreliable; keep it sorted.
+- **Dedup depends on this** — see Ingest step 0. Any grep for prior processing must cover `log.md` *and* `meta/log-archive/`.
+- **Entry length**: prose entries have grown to multi-kilobyte paragraphs. That is what drove `log.md` to 1.0 MB by 2026-09-13. Keep new entries to the facts a future dedup or audit needs: sources, pages touched, judgment calls, verification caveats.
 
 ## Conventions
 
