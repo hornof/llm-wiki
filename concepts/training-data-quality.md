@@ -2,7 +2,7 @@
 name: Training Data Quality
 type: concept
 maturity: active-research
-last_updated: 2026-09-10
+last_updated: 2026-09-13
 ---
 
 ## Definition
@@ -51,6 +51,14 @@ The 2026-08 signals reframe the *supply side* of the same constraint — the dat
 - **The retrieval/citation side — manufactured sources feeding AI recommendations** (Perplexity cites **215,128** manufactured "best software" pages, trellner.com, [[dailybrief-roundup-2026-09-03]]): three sites generated **215K+ SEO-spam pages** that AI recommendation/citation systems (Perplexity) now surface as sources. The hall-of-mirrors problem at the **inference/retrieval** layer, not just pre-training: if the *live web an AI cites* is itself AI-manufactured spam engineered to be cited, [[rag|retrieval-grounded]] answers inherit the pollution regardless of how clean the base model's training data was. Sharpens the [[ai-vulnerability-discovery|AI-code-supply-chain]] analogy into an **information-supply-chain** attack. *(Report; per-citation impact on Perplexity answers not quantified.)*
 - **The collateral cost — scraping externality on OSS infra** (git.kernel.org: **AI scrapers consume more CPU than all legitimate traffic combined**, [[simon-willison|Willison]] "Creepy crawlies", [[dailybrief-roundup-2026-09-08]]): the data-collection scramble has an **infrastructure externality** — training-data crawlers now outweigh all human traffic on core OSS hosts, pushing costs onto the volunteer-run projects being scraped. The supply-side of the squeeze isn't only *"can you buy clean data"* but *"the open web is being degraded/priced by the act of harvesting it."* *(Willison report; one host's telemetry.)*
 - **The escape hatch — synthetic experience**: [[simulation-scaling]] (Joon Sung Park / Simile AI, *"10% worse, 100× cheaper, 10000× faster"*) is the direct response — if real data is contested and degrading, manufacture it. The two theses are complements: this page names the problem (supply squeeze), simulation-scaling proposes the fix (synthetic supply). Note the tension with the quality-over-scale evidence above — synthetic data trades some fidelity for volume, so *"is synthetic data clean data?"* becomes the load-bearing open question.
+
+## The rights-holders organize — 25 mathematicians escalate against OpenAI (2026-09-11)
+
+TechCrunch, *"OpenAI's feud with mathematicians is only escalating"* ([[dailybrief-roundup-2026-09-13]]): an **open-letter escalation by twenty-five mathematicians** over intellectual property in training data. Distinct from the scraping-externality items above ([[dailybrief-roundup-2026-09-08|git.kernel.org]]) in that it is **organized, named, and from a field whose output is exactly the high-value reasoning data the supply squeeze is chasing**.
+
+The bind is specific and worth stating plainly: the same week, OpenAI needs mathematicians to **verify** its [[dailybrief-roundup-2026-09-10|Navier–Stokes claim]], while mathematicians on mathstodon are already wary of sharing unpublished work with it. **A lab cannot simultaneously be in an IP dispute with a professional community and depend on that community as its verification layer.** That tension, not the letter itself, is the tracking signal. → [[openai]]. **Terence Tao's** AI-problem-flattening warning ([[dailybrief-roundup-2026-09-10]]) is the adjacent grievance from the same field — still a create-candidate, now at a second distinct complaint from mathematics.
+
+*(Secondary reporting; letter text and signatory list not fetched.)*
 
 ## Strategic Implication
 "Data quality is the actual constraint. The companies winning the next phase will be the ones who figured out what to train on, and what to throw away." — @aakashgupta — [[thread-aakashgupta-1b-model]]

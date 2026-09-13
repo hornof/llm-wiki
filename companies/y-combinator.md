@@ -30,7 +30,9 @@ YC traction in *this wiki* is treated as a meta-signal — when YC names a categ
 
 jessy (**@goodhartproof**), posting from Demo Day: *"Besides hardware/physical things, everyone is just basically just building a domain-specific harness"* ([[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11]]). The most concrete read the wiki holds of what a YC batch currently *is* — an agent pointed at one industry's work, with the moat claimed to sit in domain RL, proprietary data and customer relationships rather than in the harness itself. Tracked as [[domain-specific-harness]]; consistent with [[garry-tan|Garry Tan's]] own *"systems of record must become AI harnesses or be replaced"* framing ([[loop-engineering]]).
 
-*One attendee's impression of a batch, not a counted tally. Directional.*
+Amplified two days later by [[pieter-levels|Pieter Levels]] — *"@ycombinator's batch literally only has harness startups or hardware startups"* — who draws the opposite conclusion from the same observation (*"software is mostly dead and hardware it is"*), and by David Galbraith's escalation that *"VC backed software startups are largely dead."* For a YC batch to be read as evidence **against** venture-backed software is itself the notable part. See [[levelsio-harness-startups-software-is-dead-2026-09-13]].
+
+*One attendee's impression of a batch, not a counted tally; neither Levels nor Galbraith attended. Directional.*
 
 ## Caveats
 

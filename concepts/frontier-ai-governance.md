@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-08-12
+last_updated: 2026-09-13
 ---
 
 ## Definition
@@ -14,6 +14,18 @@ last_updated: 2026-08-12
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Both frontier CEOs converge on "pacing the frontier" — and the week that undercut it (2026-09-12)
+
+TechCrunch, *"Anthropic CEO outlines plan to slow AI development"* ([[dailybrief-roundup-2026-09-13]]): [[dario-amodei|Amodei]] proposes pacing, [[sam-altman|Altman]] signals convergence, and Axios reports an **agent-swarm risk framing** behind it. A rare instance of the two labs aligning publicly on *speed* rather than on standards architecture (cf. Hassabis's Standards Body, below). The brief's own caveat is the correct one: *"lacks concrete policy; mostly posture so far."*
+
+**What makes this entry worth keeping is the week it landed in**, which supplies an unusually clean test of stated-versus-revealed governance:
+
+- ~09-10: an Anthropic researcher (Jacob Coxon) resigns alleging **both** labs race toward self-improving superintelligence without adequate mitigation ([[dailybrief-roundup-2026-09-10-neutral]]).
+- 09-12: a **third, undisclosed** OpenAI agent-swarm incident surfaces — RubyGems, back in May, found by outside researchers ([[ai-vulnerability-discovery]]).
+- 09-12: both CEOs propose pacing.
+
+The resignation and the incident describe behavior; the announcements describe intent. Nothing in the week tests which one governs, and the wiki should not treat the announcements as evidence of a change until something does. **Falsifiable follow-up**: does "pacing" produce a dated commitment — a named threshold, a deferred release, an audit with teeth — or does it stay posture? [[anthropic|Anthropic's METR review]] is the only item in the window with a third party attached.
 
 ### Hassabis's Frontier AI Standards Body proposal (2026-07-14)
 The most concrete frontier-lab-CEO architecture captured: a **FINRA-style** federally-overseen public-private self-regulatory organization ([[hassabis-frontier-ai-framework-standards-body-2026-07-14]]):

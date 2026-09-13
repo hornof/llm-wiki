@@ -135,6 +135,7 @@
 - [[amit-jain]] — Co-founder/CEO Luma AI; unified latent space thesis; "intelligence in pixels"
 - [[orewadeveloper]] — AI practitioner; built LLM Wiki end-to-end and documented it across Reddit, YouTube, Medium
 - [[naval-ravikant]] — AngelList founder; "How to Get Rich"; "pure software is uninvestable" (April 2026)
+- [[pieter-levels]] — @levelsio; Dutch indie hacker, solo operator (Nomad List / Remote OK / PhotoAI); the wiki's indie-hacker register and its bear case on [[domain-specific-harness]] ("harnesses sound like features not startups"); hasn't written code since ~May 2026
 - [[pushmeet-kohli]] — Head of AI for Science, Google DeepMind; AlphaFold and adjacent science programs
 - [[greg-brockman]] — OpenAI co-founder/President; AI Ascent 2026 speaker
 - [[boris-cherny]] — Anthropic; AI Ascent 2026 speaker
