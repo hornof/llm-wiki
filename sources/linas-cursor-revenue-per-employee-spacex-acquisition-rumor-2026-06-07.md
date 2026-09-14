@@ -19,7 +19,7 @@ ingested: 2026-06-08
 > *"Cursor generates more revenue per employee than Goldman Sachs, Google, and Apple combined."*
 
 **Verification-pending claims** (single-source Linas X post; primary Truell talk not deeply fetched):
-- **Cursor $60B valuation** — previously wiki-tracked at $29.3B (per [[cursor|cursor entity page]] April 2026 entry); **$60B would represent ~2× growth in 2 months**. Verification-critical.
+- **Cursor $60B valuation** — previously wiki-tracked at $29.3B (per [[anysphere|cursor entity page]] April 2026 entry); **$60B would represent ~2× growth in 2 months**. Verification-critical.
 - **Revenue-per-employee exceeds Goldman + Google + Apple combined** — extraordinary claim; verification-critical; pattern-watch is for independent corroboration (Forbes / Bloomberg / WSJ / TechCrunch)
 - **9-minute Truell talk** — primary source not fetched; talk venue + date + full content verification-pending
 
@@ -84,7 +84,7 @@ In comment thread responding to Blake Norton's *"wait that's actually insane rev
 ## Pages Updated
 
 - [[linas-beliunas]] — Cursor playbook X amplification + Dynamic Workflows positioning + 3-piece canonical-content stack noted
-- [[cursor]] — Cursor playbook X amplification noted under Community Sentiment (with $60B + revenue-per-employee + SpaceX-acquisition-rumor all flagged verification-critical)
+- [[anysphere|Cursor]] — Cursor playbook X amplification noted under Community Sentiment (with $60B + revenue-per-employee + SpaceX-acquisition-rumor all flagged verification-critical)
 - [[spacex]] — SpaceX → Cursor acquisition-rumor noted as speculative single-source comment-thread mention (verification-critical; pattern-watch)
 - [[claude-code]] — Dynamic Workflows positioning as enabling-primitive-for-Cursor-equivalent-productivity-at-every-operator-scale
 
@@ -97,7 +97,7 @@ In comment thread responding to Blake Norton's *"wait that's actually insane rev
 - [[anthropic-institute-when-ai-builds-itself-2026-06-04]] — Anthropic Institute "human role narrowing" framing
 - [[junyang-lin-new-lab-world-models-rsi-2026-06-06]] — Lin's "shift from hands-on engineering to high-level supervision" framing
 - [[spacex]] — SpaceX vertical-integration thesis (verification-pending Cursor extension)
-- [[cursor]] — Cursor entity page (verification-pending $60B valuation update)
+- [[anysphere|Cursor]] — Cursor entity page (verification-pending $60B valuation update)
 
 ## Verification-pending
 

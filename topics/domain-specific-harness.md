@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-13
+last_updated: 2026-09-14
 ---
 
 ## What This Is
@@ -56,6 +56,14 @@ Isenberg's argument from OpenAI's revealed preference: *"if [software were over]
 ### Where it sits in Isenberg's category list
 
 His 2026-09-12 *"only businesses left to build"* list puts **domain-specific harnesses** (#5, *"the agent that runs one industry's work"*) and **vertical agents** (#12) as separate items — a distinction he does not defend, and which a replier flagged: *"Item 5 and item 12 are the exact same pitch deck with different valuation multiples."* Recorded as an unresolved category confusion in the thesis, not a settled taxonomy.
+
+### Demand side — the category gets shopped for (2026-09-13)
+
+Two days after the YC-batch post and the same day [[pieter-levels|Levels]] made the bear case, [[sarah-guo|Sarah Guo]] (Conviction) asked simply: *"best multi agent harness outside of the labs?"* ([[saranormous-best-multi-agent-harness-2026-09-13]]).
+
+Worth holding for the framing rather than the answers. The term is used as **settled vocabulary** — no definition, no hedging, investor to professional audience, answered in kind. And the qualifier *"outside of the labs"* **concedes the absorption asymmetry as a premise**: the labs are assumed to have the best ones, and the question is what else exists. That is Levels's argument accepted as a shopping constraint rather than contested.
+
+The answers were AmpCode (named twice), [[cognition]]/Devin, openscout and Herdr — **every one a general-purpose multi-agent coding harness, none domain-specific**. The question did ask about multi-agent harnesses specifically, so this is not a clean test. But it is the one moment in this cluster where someone asked the market to *name* harnesses and nobody named the thing a YC batch is reportedly building.
 
 ## Open Objections
 

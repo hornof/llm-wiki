@@ -15,7 +15,7 @@ Brian LaManna posted a "companies I'd consider going to" list on May 4 2026, att
 1. [[thinking-machines-lab]]
 2. [[openai]]
 3. [[anthropic]]
-4. [[cursor]]
+4. [[anysphere|Cursor]]
 5. Applied Intuition
 6. Modal Labs
 7. Decagon
@@ -86,4 +86,4 @@ This is one operator's curation of Paraform's underlying data, not a primary Par
 
 - [[anthropic]] — talent-density signal noted
 - [[thinking-machines-lab]] — #1 talent-density (despite pre-product)
-- [[cursor]] — #4 talent-density despite frontier-lab competitive pressure
+- [[anysphere|Cursor]] — #4 talent-density despite frontier-lab competitive pressure

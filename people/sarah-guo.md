@@ -3,7 +3,7 @@ name: Sarah Guo
 type: person
 affiliation: Conviction Capital (founder, general partner)
 signal_sources: [podcast, twitter, blog]
-last_updated: 2026-06-14
+last_updated: 2026-09-14
 ---
 
 ## Who They Are
@@ -13,13 +13,15 @@ Sarah Guo is **founder and general partner of Conviction Capital**, an AI-focuse
 ## Their Current Focus
 
 - **2026-06-14: Latent Space podcast** — *"Open Models, Model Labs vs Agent Labs, and What's Untrainable"* — first wiki-captured Sarah Guo direct-voice substantive surface. **First wiki-captured "model labs vs agent labs" canonical structural-shift framing** — distinguishes **model-centric** labs (frontier-AI-vendors: Anthropic / OpenAI / Google DeepMind / xAI) from **agent-centric** labs (purpose-built agent-orchestration teams). **First wiki-captured "what's untrainable" canonical investor-side phrasing**. — [[dailybrief-roundup-2026-06-14]]
-- **Conviction Capital portfolio**: AI-focused early-stage investments (specific portfolio companies verification-pending: Cursor? Sierra? Decagon? Adept? Others?).
+- **Conviction Capital portfolio**: AI-focused early-stage investments. Specific holdings remain **verification-pending** — the speculative list previously carried here (Cursor? Sierra? Decagon? Adept?) was unsourced guesswork and has been removed rather than left to harden into fact *(lint 2026-09-14)*.
 
 ## Notable Takes
 
 - **"Model labs vs agent labs"** — structural-shift framing: if agent-centric labs are the next frontier, this **reshapes engineering-hiring + startup-evaluation** (agent-infrastructure vs model-training as competing strategic-orientations). — [[dailybrief-roundup-2026-06-14]]
 - **"What's untrainable"** — investor-side framing of capabilities that **cannot be trained-into models** and must instead be **engineered around** at the agent / harness / loop layer. Pairs structurally with [[loop-engineering|Loop Engineering canonical cluster]] at the investor-side framing-tier. — [[dailybrief-roundup-2026-06-14]]
 - **(Implied via No Priors hosting)** — Investor-side validation discipline for AI-startup-strategy + frontier-AI-vendor-positioning.
+
+- **"Best multi agent harness outside of the labs?" (2026-09-13)** [[saranormous-best-multi-agent-harness-2026-09-13]]: a one-line market question, notable for two things. It uses *"multi agent harness"* as settled vocabulary with no definition — investor-side adoption of the [[domain-specific-harness]] register. And the qualifier *"outside of the labs"* concedes the labs hold the best ones internally, which is [[pieter-levels|Levels's]] absorption asymmetry restated as a purchasing constraint rather than an objection. Replies named AmpCode (×2), [[cognition]]/Devin, openscout and Herdr — **all general-purpose, none domain-specific**.
 
 ## Wiki-tracked surfaces
 

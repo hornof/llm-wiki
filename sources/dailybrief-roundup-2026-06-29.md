@@ -150,7 +150,7 @@ Daily Brief 2026-06-29 roundup of net-new substantive surfaces beyond the 2 focu
 - [[david-sacks]] — paired canonical-Trump-admin canonical-AI-policy canonical-talent canonical-cluster
 - [[sriram-krishnan]] — paired canonical-WH-AI-advisor canonical-cohort
 - [[anysphere]] — paired canonical-Cursor canonical-product-roadmap-extension
-- [[cursor]] — paired canonical-mobile-extension canonical-event
+- [[anysphere|Cursor]] — paired canonical-mobile-extension canonical-event
 
 ## Verification-Pending
 

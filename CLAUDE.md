@@ -283,6 +283,9 @@ When given a new source:
    - If page exists: update only the sections that are materially changed. Preserve existing content unless contradicted.
    - If page doesn't exist: create it from the schema above.
 5. Update `index.md` if new pages were created.
+5a. **Close what this source answers.** Before finishing, grep every entity page you touched for open-question markers — `verification-pending`, `open question`, `remains unclear`, `unconfirmed`, `insufficient detail`, `not yet` — and resolve any the new source settles. Mark it resolved in place with the date rather than deleting the question, so the progression stays legible. Also check the page's `status:` frontmatter against what you just added to its body.
+
+   *Why this step exists:* `claude-mythos` carried "insufficient public detail to call this yet" for three months after the 2026-06-09 launch answered it, and `companies/cursor` described a confirmed acquisition as a rumor for the same reason. Both were found by lint, not by ingest. 111 entity pages still carry open-question markers.
 6. Append a one-line entry to `log.md` (current + prior month only; older months are archived to `meta/log-archive/YYYY-MM.md`): `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`. **If the ingest was driven by a Daily Brief, the description field MUST include the brief filename(s) verbatim** (e.g., `Daily Briefs/2026-09-12.md`, `Daily Briefs/2026-09-10-neutral.md`) so step 0 of the next ingest can detect prior processing via grep.
 
    **On brief filenames.** The daily [AI Pulse](../../../../src/claude/ai-pulse) run writes one personal-voice brief per day, `YYYY-MM-DD.md`. A neutral-voice edition, `YYYY-MM-DD-neutral.md`, is **on-demand only** (`main.py --neutral[=DATE]`, regenerated from that day's cache) — so its absence on most days is by design, not a gap. The `-personal`/`-neutral` pair convention ran only 2026-05-07 → 2026-05-12 and is dead. Note that `Daily Briefs/` in the vault is a **mirror**; `~/src/claude/ai-pulse/output/` is the source of truth.
@@ -316,6 +319,15 @@ When asked to lint or health-check the wiki:
 7. Produce a lint report and ask the owner which issues to fix.
 
 ---
+
+## Status Fields
+
+The `status:` values in the schemas above cover the common cases and **do not cover acquisition or restricted deployment**. Two recurring gaps:
+
+- **Acquired / acquisition pending** — no company value fits. `hugging-face` (confirmed NVIDIA acquisition) and `anysphere` (announced SpaceX merger) both use the descriptive `acquisition-announced-close-unconfirmed`.
+- **Deployed but not public** — no model value fits. `claude-mythos` runs in production under restricted access while reading `announced`, which is the least-wrong option.
+
+Where a descriptive value is used, say so in a note on the page. **The status field is the thing most likely to go stale** — it is small, it is not prose, and it does not get re-read when the body is updated. Ingest step 5a exists to catch this.
 
 ## Log Maintenance
 
