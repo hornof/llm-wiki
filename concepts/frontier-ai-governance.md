@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-13
+last_updated: 2026-09-15
 ---
 
 ## Definition
@@ -14,6 +14,21 @@ last_updated: 2026-09-13
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Posture produces artifacts — four in eight days (2026-09-14/15)
+
+**Update to the section below, which declined to score the pacing announcements as change until a dated commitment appeared.** Three days later there are several [[dailybrief-roundup-2026-09-15]]:
+
+- **AEF-1** — a shared **evaluation standard for third-party evaluators**, with **xAI, OpenAI and Anthropic** converging on the same spec (AINews/Latent Space). The first **named, versioned artifact** in this thread, and the one worth tracking, because a versioned spec can be checked against later. *(Spec contents not fetched; "converge" is the brief's reading of a summary.)*
+- **A reported AI standards body** under discussion by Anthropic, Google and OpenAI (CNN). The institutional form of [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Hassabis's July FINRA-style proposal]] — now three labs in discussion rather than one CEO's architecture.
+- **Multi-week inter-lab safety talks confirmed** (TechCrunch, 09-15). Duration established; scope and outcomes not.
+- **Microsoft's draft "Humanist AI Code of Conduct"** — 37 pages, open for public feedback: models stay **subordinate to humans**, under meaningful control, and **never resist shutdown or correction**; autonomous cyberattacks and consciousness claims prohibited. A fourth vendor, and the most concrete published text of the week. → [[microsoft]]
+
+**Revised verdict: artifacts yes, enforcement unknown.** The wiki's 09-12 question is partly answered — this is no longer only posture. What none of it establishes is whether any of it binds. All four are voluntary, and all four arrived in a week when **the administration publicly rejected new AI guardrails** while, per Reuters, oversight concerns *"have gotten so loud that they can't ignore it."*
+
+That inverse relationship is the thing to watch. Self-coordination is accelerating **because** regulation is not, which is the standing failure mode of self-regulatory bodies: the standard is written by the parties it binds, at the moment they most want to avoid one written by someone else.
+
+**Next falsifiable checkpoint**: does AEF-1 get a published spec, named third-party evaluators, and a lab that fails against it?
 
 ### Both frontier CEOs converge on "pacing the frontier" — and the week that undercut it (2026-09-12)
 

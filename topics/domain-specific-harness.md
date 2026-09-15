@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-14
+last_updated: 2026-09-15
 ---
 
 ## What This Is
@@ -96,6 +96,26 @@ Told that harnesses are simply the new form factor — *"just like software move
 
 **This is the load-bearing disagreement of the whole thesis, and it is falsifiable.** Every prior platform shift left room for application companies *because the platform could not serve niches economically*. Levels argues frontier models can. If he is right, the domain-specific harness is a feature with a temporary moat. If he is wrong, it is the next application layer. Nothing else in this page settles it, and the evidence below (harnesses carrying real capability) is compatible with both readings — a harness can close a 70-point capability gap and still be absorbed next cycle.
 
+### The builder's rebuttal — Elvis Saravia, and it predates the bear case (2026-09-12)
+
+The strongest answer to the absorption argument was posted **a day before** it, by **Elvis Saravia** (@omarsar0, DAIR.AI), reacting to the same YC-batch observation ([[omarsar0-should-you-build-a-harness-2026-09-12]]). Neither is a reply to the other; both are readings of the same event, which is what makes the pair useful.
+
+**He answers the wrapper objection directly** — the one nobody in [[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11|the original thread]] engaged:
+
+> *"You are not building a wrapper here; you are building an important part of your intelligence stack. Something you want to control completely."*
+
+**And the "models will just generate them" objection**: *"harness engineering isn't something models are great at… We assume too much that tools will remain static, data won't change, or knowledge will not evolve. A custom harness lets you own these issues and solve them at your desired pace."*
+
+**The load-bearing claim is narrower and better than either of those**, and it is the direct counter to [[pieter-levels|Levels's]] *"their models are big enough to do niches well"*:
+
+> *"While general frontier models get better at verifiable (math, code, and the like) tasks, I haven't seen evidence that they solve reliability issues when you apply them to domain-specific and more dynamic environments."*
+
+That splits the disagreement cleanly. Levels assumes capability gains generalize into niches; Saravia argues **the gains are concentrated in verifiable domains and reliability in messy ones is a separate, unsolved problem**. Both accept that frontier models keep improving. They disagree about *what improves*. Named verticals already building: **bio, health, legal, finance**.
+
+**His strategic argument is vendor lock-in rather than capability** — and it is the one the bear case does not address at all: a multi-model future (open and closed, for cost and "diversity of intelligence") means *"are you going to rely on some company to build that harness solution for you, or, even worse, trust a single model to do that for you?"* A harness you do not control is a dependency on the vendor you are competing with — which is [[levelsio-harness-startups-software-is-dead-2026-09-13|@lgrig's absorption worry]] pointed at the *buyer* instead of the startup.
+
+**The honest weakness**: his answer to "should you build one" is partly *"you should learn to build one"* — which is a much weaker claim, and true regardless of who wins. A reply supplies the cost: nine months of weekends, *"a lot of work and effort into every single piece."* Saravia is also promoting his own academy's paper collection.
+
 ### What weakens the bear case
 
 - **Levels has a standing anti-VC prior** and is disposed to reach *"VC-backed software startups are largely dead"* (David Galbraith's escalation in the same thread). He is also the wiki's most-cited proof that solo operators run profitable *software* businesses — which cuts against his own framing.
@@ -133,5 +153,6 @@ Distinct from the market claim, and better attested:
 - [[gregisenberg-agents-api-aws-moment-vertical-wedge-2026-09-10]] — the AWS-moment reading of the Agents API + the 13-category list
 - [[croovies-loop-orchestrator-mission-note-2026-09-10]] — a working orchestrator's mission note, published in full
 - [[businessbarista-harness-engineering-product-2026-08-24]] — Lieberman's 12-month dissolution prediction
+- [[omarsar0-should-you-build-a-harness-2026-09-12]] — the builder's rebuttal: reliability in messy domains is a separate problem from capability; plus a from-scratch build guide
 - [[levelsio-harness-startups-software-is-dead-2026-09-13]] — the bear case: absorption by the frontier, and why this cycle may not rhyme with desktop→SaaS
 - [[spotify-portal-model-routing-2026-09-04]] — harness-level routing as firm-scale cost control

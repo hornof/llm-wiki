@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-13
+last_updated: 2026-09-15
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -134,6 +134,12 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 4. **Deterministic URLs as a bug-repro primitive** — every view is a URL, so *"when I found a visual bug I pasted the link into the chat and Fable reproduced the exact frame headlessly and bisected it."*
 
 **Mechanism 4 is the novel one** and generalizes past graphics. It closes the **observability gap** between a human looking at output and an agent that cannot see it: rather than describing a defect in prose — which is where the [[dailybrief-roundup-2026-09-08|Danluu finding]] says agents lose the thread — the human hands over an address the agent can re-enter exactly, and the loop closes on the same artifact both parties observed. **Any domain that can make its state addressable gets the same property.** Note also that the human role reduces to precisely what a verifier cannot supply: reviewing all 92 PRs, flying the app as a user to find the bugs worth fixing, and *"everything that needed an opinion."*
+
+**Pre-action verification — checking before the agent acts (arXiv 2609.11957, 2026-09-14).** *"Look Before You Leap: Pre-Action Verification for LLM Agents"* ([[dailybrief-roundup-2026-09-15]]) proposes **cheap deterministic checks run before an action executes**, to catch silent failures rather than detect them afterwards. Structurally this is the same move as [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies's plan-review-before-any-code-exists law]] — push the gate **upstream of generation** — now as a general agent-loop primitive rather than one operator's house rule. Complements the post-hoc verifier this section describes: McDonald's *"design the verifier"* asks whether the output was right; this asks whether the action should be attempted. *(arXiv preprint, not independently evaluated.)*
+
+**Formal methods at the other extreme — NVIDIA OpenShell (2026-09-10).** *"What we have learned at OpenShell applying formal methods to control AI agents"* ([[dailybrief-roundup-2026-09-15]]) — agent-policy proving, i.e. the most formal end of the control spectrum this page tracks, against the prompt-level rules at the other. Pairs with the [[graph-engineering|deterministic-code-controls-routing]] thread and with the finding that **hard blocks held where written rules didn't** ([[spotify-portal-model-routing-2026-09-04|Spotify Portal]]). *(NVIDIA research dev-notes; not fetched in depth.)*
+
+**A minimal harness, from a practitioner who teaches it ([[omarsar0-should-you-build-a-harness-2026-09-12]], 2026-09-14).** Elvis Saravia's three-module recipe is the most concrete build-your-own guidance the wiki holds: an **LLM module** that supports several models (he used OpenRouter), a **tools module** built as [[mcp|MCP]] tools for interoperability, and an **agent loop** encapsulating both — starting from ReAct. Two details are the loop-engineering content rather than the tutorial content: **log at three boundaries** (loop in/out, LLM in/out, tool-call in/out), and **stand up a small diverse task set first** so every change can be re-run and inspected. That is a hand-rolled eval harness as step one — verifier-first, before memory, skills or subagents, which he explicitly orders last.
 
 **Market-side restatement — verification as addressable surface (jessy, 2026-09-11).** Asked what actually unlocks a domain, jessy (@goodhartproof) answered: *"the key unlock is increasing the surface area of verifiable things"* ([[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11]]). McDonald's *design the verifier* is an engineering instruction; this is the same claim aimed at **which markets are reachable at all** — a domain becomes harness-able exactly when checking the work is cheap. It predicts the observed ordering (GTM automation early, finance/accounting and clinical later) and is the hinge between this page and [[domain-specific-harness]].
 

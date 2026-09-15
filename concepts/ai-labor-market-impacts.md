@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-07-26
+last_updated: 2026-09-15
 ---
 
 ## Definition
@@ -50,6 +50,14 @@ For an AI engineering / VPE career:
 - **The young-worker finding is "just barely statistically significant"** in the Anthropic measure. Alternative interpretations: young workers staying in existing jobs, taking different jobs, returning to school. Survey mismeasurement also possible.
 - The Brynjolfsson et al. ADP-payroll cross-confirmation is what elevates the signal above noise — same direction, different data.
 - The Anthropic measure is anchored on Claude usage. Doesn't include OpenAI / Gemini usage, which would shift the exposure weights. Cross-lab usage-data fusion is the obvious next step.
+
+## The population/workflow distinction, and the erosion of expertise proxies (Sep 2026)
+
+Two items from the same week that sharpen how this page's claims should be read.
+
+**[[andrew-ng|Andrew Ng]]: software engineering is hit hardest, and openings are rising** ([[andrew-ng-software-engineering-hit-hardest-2026-09-11]]). Both are true because they answer different questions — *"threatened"* is a **workflow-level** question that gets asked at **population level** and therefore gets the wrong answer in both directions. AI eats **30–40%** of the role; the engineers who stayed busy *"stopped fighting for it and built the 60–70% it can't touch instead."* **Useful as a calibration rule for every displacement claim on this page**: ask which level the claim is measured at before comparing it to another. It also supplies the honest difficulty — *"there's no single moment that tells you which side of that line you're on."*
+
+**Sean Goedecke: "AI is breaking our proxies for expertise"** ([[dailybrief-roundup-2026-09-15]]). Credentials, portfolios and the other institutional signals used to infer competence degrade as evidence when the output is cheap to generate. This is the hiring- and org-design-side consequence of the same shift, and it bites hardest on exactly the 30–40% that is now automatable. Pairs with Ng's curriculum-lag argument: the institution that certifies the proxy moves on a multi-year cycle, and the proxy is decaying on a multi-month one. *(Single-author essay, not fetched in full; create-candidate.)*
 
 ## Adjacent / Counterposed Frameworks
 
@@ -141,6 +149,7 @@ Treat as cultural-sentiment data point, not measurement: specific numbers ($20M 
 - **Will the young-worker signal hold up?** Currently "just barely statistically significant" in one measure, 6-16% in another. Re-runs over the next 6-12 months are the verification.
 - **Where does junior hiring go instead?** If 22-25-year-olds aren't entering exposed occupations, the labor-force-exit / non-exposed-occupation / returning-to-school split is the actionable distinction.
 - **Does the framework predict the *next* wave of exposure?** Computer Programmers at 75% means ~25% of tasks are still uncovered — what are they? Where does the next 10pp come from? The cookbook of "what programmers do that LLMs still can't" becomes the survival manual.
+  > **Contradicting estimate, not a resolution (2026-09-15).** [[andrew-ng|Ng]] puts AI at **30–40% of the software-engineering role**, i.e. **60–70% uncovered** ([[andrew-ng-software-engineering-hit-hardest-2026-09-11]]) — against this page's Anthropic-paper anchor of **75% covered / ~25% uncovered** for Computer Programmers. Those are not compatible, and the gap is large enough to matter for anything built on either number. Plausible reconciliations, none verified: the paper measures **task coverage in usage data** while Ng estimates **share of the job in practice**; the occupational category *"Computer Programmers"* is narrower than *"software engineer"*; or the figures are simply two years apart in an area moving fast. **Both are recorded with their dates; neither is being preferred.** Per the contradiction policy, and a live example of the population-vs-workflow measurement problem described in the section above.
 - **Does Anthropic publishing this paper bias its own product roadmap?** The same usage data that anchors the labor-market measure is the data Anthropic uses to prioritize features (cf. [[anthropic-finance-agents-2026-05-05]] — KYC screener / statement auditor are the Customer-Service-Rep-adjacent automation surfaces). Feedback loop worth tracking.
 
 ## Key Papers / Posts
