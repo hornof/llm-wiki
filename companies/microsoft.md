@@ -2,13 +2,16 @@
 name: Microsoft
 type: company
 status: active
-last_updated: 2026-07-03
+last_updated: 2026-09-15
 ---
 
 ## What It Is
 
 **Microsoft Corp.** — canonical-multi-decade-pedigree canonical-technology-vendor + canonical-Azure-hyperscaler + canonical-largest-single-OpenAI-investor + canonical-Azure-OpenAI-exclusive-distribution-partner + canonical-Anthropic-Foundry-availability + canonical-co-founder-of-Microsoft-AI. First wiki entity surface **2026-07-03** following canonical-multi-lint canonical-pattern-watch canonical-Nadella + canonical-Frontier-Co + canonical-$2.5B canonical-AI-deployment-company canonical-Jul-2 canonical-net-new canonical-productization-cluster.
 
+## Traction Signals
+
+- **2026-09-15: draft "Humanist AI Code of Conduct"** ([[dailybrief-roundup-2026-09-15]], The Verge/Digg): a **37-page draft** released for public feedback, on the principle that *"people matter more than AI."* Stated principles — models remain **subordinate to humans**, under meaningful human control, and **never resist shutdown or correction**; **autonomous cyberattacks prohibited**; **consciousness claims prohibited**. Lands the same week as AEF-1 and the reported inter-lab standards body, making Microsoft the **fourth vendor** to publish a governance artifact in eight days, and the one with the most concrete published text. See [[frontier-ai-governance]] for why the cluster matters and what it does not establish. *(37-page draft not fetched; principles from the summary. Draft, voluntary, non-binding.)*
 ## Traction Signals
 
 - **2026-07-02: canonical-STRUCTURALLY MAJOR canonical-Frontier-Co canonical-named-company canonical-launch** ([[satya-nadella-frontier-co-launch-2026-07-02]]) — canonical-Nadella canonical-morning canonical-Frontier-Co canonical-announcement: *"our new **Frontier Co.**, our ambition is to help every enterprise build its own AI capability, and to help create a frontier ecosystem where every organization can turn its knowledge, workflows, and judgment into its own AI systems that continuously improve."* Extends [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Jun 14 Frontier-ecosystem-thesis]] to canonical-Jul-2 canonical-productization canonical-18-day canonical-thesis-to-named-company canonical-arc.

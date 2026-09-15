@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-13
+last_updated: 2026-09-15
 
 ---
 
@@ -89,6 +89,10 @@ Five separate commenters confirmed it independently. This is the practitioner-co
 The concrete failure anecdote is the best of them (188 points): an SMS task named `send_mail`, where the model flags the *wrong* thing as wacky because the naming lies. Community antidote proposed in-thread is a living-docs set — `NAMING.md`, `CLAUDE.md`, `CHANGELOG`, `BUGS`, `LEARNINGS`, `FILETREE.md` — i.e. [[claude-md-pattern|the CLAUDE.md pattern]] extended to cover exactly the implicit knowledge a legacy codebase's names no longer carry.
 
 *(Reddit thread; vote counts are the only weighting available, and several commenters doubted the OP's authenticity. The convergence across independent voices is the signal, not any single claim.)*
+
+## "The cost of writing code has collapsed" — what's left is the moat (Laurie Voss, 2026-09-14)
+
+Via [[simon-willison|Willison]] ([[dailybrief-roundup-2026-09-15]]): with code-writing cost at the floor, **product definition and UX become the durable moats**. Short fragment, no depth, but it is the same conclusion three separate threads reached this month from different directions — [[domain-specific-harness|the harness thread]] ("the only thing left that's actually hard is knowing the job"), the [[ai-labor-market-impacts|Ng 30–40% split]] ("build the 60–70% it can't touch"), and the *"code is free"* codebase-as-prompts thread below. When the cheap part gets cheaper, the residual is the product, not the engineering. *(Quote fragment; create-candidate Laurie Voss, single surface.)*
 
 ## Related Concepts
 - [[vibe-coding]] — the floor-raising complement; entry-level

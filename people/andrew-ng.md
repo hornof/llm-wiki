@@ -3,7 +3,7 @@ name: Andrew Ng
 type: person
 affiliation: Stanford University; DeepLearning.AI; Landing AI; AI Fund
 signal_sources: [twitter, youtube, newsletter, coursera]
-last_updated: 2026-08-14
+last_updated: 2026-09-15
 ---
 
 ## Notable Takes (selected, May–June 2026)
@@ -27,6 +27,10 @@ Running DeepLearning.AI (AI education at scale), Landing AI (enterprise AI adopt
 - **On open-source AI**: regulating basic technologies like open-source models "could hinder progress without markedly enhancing safety" — [[wikipedia-andrew-ng]]
 - **On AI and jobs**: "Rather than being distracted by evil killer robots, the challenge to labor caused by these machines is a conversation that academia and industry and government should have." — [[wikipedia-andrew-ng]]
 - **On GPUs for deep learning** (2008): early advocate when it was controversial; now universal practice — [[wikipedia-andrew-ng]]
+
+- **"Software engineering is the profession AI is hitting hardest" — and openings are still rising (2026-09-11)** ([[andrew-ng-software-engineering-hit-hardest-2026-09-11]]): the apparent contradiction is the point. *"Threatened"* was never a population-level question, it is a **workflow-level** one. AI eats **30–40% of the role**; the engineers still busiest *"didn't out-compete the model on that slice; they stopped fighting for it and built the 60–70% it can't touch instead."* The ones falling behind are *"still writing code like it's 2022."*
+  The sharpest part is the risk he actually names: **there is no signal telling you which side of the line you are on.** No single moment announces it.
+- **Institutional lag is structural, not a defect**: a curriculum committee, a faculty senate vote, then a year or two before a course exists — against a market reshaping every few months. *"That lag isn't a flaw in the system. It's the system working as designed, just aimed at a problem that no longer moves at its speed."* Pairs with his [[ai-engineering-skills|skill-chain]] and AI-FDE positions. *(Reddit relay of a video clip; primary not fetched, 30–40% is the poster's rendering of Ng's framing — indicative, not a cited statistic.)*
 
 ## Key Contributions
 - **Google Brain** (2011): co-founded with Jeff Dean; large-scale neural network research

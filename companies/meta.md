@@ -2,13 +2,16 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-08-12
+last_updated: 2026-09-15
 ---
 
 ## What It Is
 
 Meta (formerly Facebook) is a US technology company operating Facebook, Instagram, WhatsApp, Messenger, and Meta AI. Wiki-tracked primarily for its **AI deployment surface** (Meta Business Agent, Meta AI consumer-product across WhatsApp + Instagram) and the structurally-significant **cross-vendor agentic-exfiltration pattern** it has surfaced in.
 
+## Recent Activity
+
+- **2026-09-15: custom AI silicon roadmap — MTIA 450 "Arke" (H1 2027) and MTIA 500 "Astrid" (end-2027)** ([[dailybrief-roundup-2026-09-15]], Digg): an explicit push to **reduce NVIDIA dependence**, with execution risk flagged as high. Meta joins [[openai|OpenAI's "Jalapeño"]] and [[google|Google's TPUs]] in the buy-vs-build-silicon column; read alongside [[nvidia|the Economist's "central bank of AI"]] framing, this is the largest customers trying to exit the dependency the framing describes. Relevant to [[ai-margin-collapse]]: if inference cost is the binding constraint, the escape route is owning the substrate rather than optimizing on top of it. *(Roadmap dates are 12-18 months out; no silicon shipped.)*
 ## Recent Activity
 
 - **2026-08-10: Muse Glimmer — Meta re-enters open-weights (Apache-2.0)** ([[muse-glimmer]], [[dailybrief-roundup-2026-08-12]]): a **30B agentic open-weights** model under **Apache-2.0** — a *"meaningful licensing shift"* away from the restrictive Llama community license. Signals Meta competing on **openness terms**, consistent with Zuckerberg's [[frontier-ai-governance|maximal-open]] op-ed and Meta's coalition-signatory stance. First wiki-captured Meta open-weights release under a permissive license.
