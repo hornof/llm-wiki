@@ -2,10 +2,12 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-08-14
+last_updated: 2026-09-16
 ---
 
 ## Definition
+
+- **Inference sited at stranded generation — Rune, $40M (2026-09-16)** ([[dailybrief-roundup-2026-09-16]], Fast Company): modular servers placed **at solar farms**, running inference on otherwise-unused electricity. A different answer from the efficiency work this page mostly tracks: rather than reducing energy per token, **move the compute to power that would otherwise be curtailed**. Relevant to the [[ai-margin-collapse|compute-and-power scarcity]] thread, where the durable constraint is energized capacity rather than chips. *(Seed-stage; no deployment figures.)*
 
 The end-to-end-system energy cost of producing AI model output, expressed as **Joules per token** (text generation) or **Joules per image** (image generation), iso-quality with a comparable model. The metric explicitly excludes arithmetic-only proxies like TOPS or TOPS/Watt — those invite apples-to-oranges comparisons because they ignore data movement, which is the dominant energy cost in modern inference systems.
 

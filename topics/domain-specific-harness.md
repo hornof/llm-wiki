@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 ---
 
 ## What This Is
@@ -64,6 +64,24 @@ Two days after the YC-batch post and the same day [[pieter-levels|Levels]] made 
 Worth holding for the framing rather than the answers. The term is used as **settled vocabulary** — no definition, no hedging, investor to professional audience, answered in kind. And the qualifier *"outside of the labs"* **concedes the absorption asymmetry as a premise**: the labs are assumed to have the best ones, and the question is what else exists. That is Levels's argument accepted as a shopping constraint rather than contested.
 
 The answers were AmpCode (named twice), [[cognition]]/Devin, openscout and Herdr — **every one a general-purpose multi-agent coding harness, none domain-specific**. The question did ask about multi-agent harnesses specifically, so this is not a clean test. But it is the one moment in this cluster where someone asked the market to *name* harnesses and nobody named the thing a YC batch is reportedly building.
+
+### A third position — "do it all," not "own one workflow" (Mike Vernal, 2026-09-15)
+
+[[mvernal-barbell-ification-of-software-2026-09-15]] disagrees with **both** sides of this page. Where [[greg-isenberg|Isenberg]] says own *one painful workflow* and [[pieter-levels|Levels]] says the labs absorb it, Vernal argues the winner **owns an entire buying center** — one AI-native system per Sales, Marketing, Finance, HR, IT — and that *"most mid-sized point solutions will likely be consolidated or die off."*
+
+That is a direct challenge to the wedge strategy, not a variation on it. Isenberg's *"freight exceptions, insurance reviews, revenue leakage"* are precisely mid-sized point solutions. Vernal's advice to venture-backed founders is the opposite of a wedge: *"do it all. Just build the whole thing… I fear there is no safety in the middle."*
+
+He agrees with Levels on the mechanism (moats erode as engineering cost falls) and rejects his conclusion (software isn't dead, it barbells). He agrees with Isenberg that something durable remains and disagrees about its shape — **domain knowledge scoped to a workflow, or scale scoped to a buyer.**
+
+**The three positions now on this page are mutually exclusive and all falsifiable**, which is the useful state:
+
+| | Durable unit | Prediction |
+|---|---|---|
+| Isenberg | one painful workflow, domain-encoded | vertical wedges win |
+| Levels | nothing at this layer | labs ship "Claude Medical", harnesses become features |
+| Vernal | an entire buying center, won by scale | mid-sized point solutions consolidate or die |
+
+Note that Vernal's and Levels's predictions are **compatible in outcome** — both end with the middle gone — while disagreeing completely about who eats it.
 
 ## Open Objections
 

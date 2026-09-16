@@ -3,7 +3,7 @@ name: Addy Osmani
 type: person
 affiliation: Google (Chrome / web-platform DevRel)
 signal_sources: [blog, twitter, book]
-last_updated: 2026-07-12
+last_updated: 2026-09-16
 ---
 
 ## Who They Are
@@ -20,6 +20,8 @@ Addy Osmani is an engineering leader in Google's Chrome / web-platform organizat
 - **"If you can't name the behaviour a component exists to deliver, it probably shouldn't be there."** — minimalism-by-behavioral-justification for harness/context design; a sibling to the [[claude-md-pattern|CLAUDE.md]] "every rule maps to a mistake" discipline.
 - **"Success is silent, failures are verbose."** — feedback-loop design principle for self-verifying agents.
 - Cited as an authority in prior wiki sources ([[0xcodez-14-step-loop-engineering-roadmap-2026-06-20]], [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15]]) before this page existed.
+
+- **Surfaces Anthropic's internal agentic-coding figures (2026-09-14)** ([[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14]]): *"Claude now writes 80% of our code… Tests grew 10x. CI jobs up 25x in 6 months."* Notable for the follow-up as much as the post — challenged on what the 80% means, he gives a usable definition (**share of merged lines attributable to Claude**) rather than deflecting. Consistent with his *Agent = Model + Harness* framing: the harness layer is where the cost moved. See [[loop-engineering]].
 
 ## Where to Follow
 

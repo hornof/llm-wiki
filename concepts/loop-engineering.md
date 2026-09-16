@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -140,6 +140,16 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 **Formal methods at the other extreme — NVIDIA OpenShell (2026-09-10).** *"What we have learned at OpenShell applying formal methods to control AI agents"* ([[dailybrief-roundup-2026-09-15]]) — agent-policy proving, i.e. the most formal end of the control spectrum this page tracks, against the prompt-level rules at the other. Pairs with the [[graph-engineering|deterministic-code-controls-routing]] thread and with the finding that **hard blocks held where written rules didn't** ([[spotify-portal-model-routing-2026-09-04|Spotify Portal]]). *(NVIDIA research dev-notes; not fetched in depth.)*
 
 **A minimal harness, from a practitioner who teaches it ([[omarsar0-should-you-build-a-harness-2026-09-12]], 2026-09-14).** Elvis Saravia's three-module recipe is the most concrete build-your-own guidance the wiki holds: an **LLM module** that supports several models (he used OpenRouter), a **tools module** built as [[mcp|MCP]] tools for interoperability, and an **agent loop** encapsulating both — starting from ReAct. Two details are the loop-engineering content rather than the tutorial content: **log at three boundaries** (loop in/out, LLM in/out, tool-call in/out), and **stand up a small diverse task set first** so every change can be re-run and inspected. That is a hand-rolled eval harness as step one — verifier-first, before memory, skills or subagents, which he explicitly orders last.
+
+**The verifier bill, quantified — Anthropic's own CI load (2026-09-14).** The best number the wiki holds on what verifier-discipline actually costs, and it comes from the lab with the most reason to publish the flattering figure instead ([[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14]], [[addy-osmani|Osmani]]):
+
+> *"Claude now writes 80% of our code. Engineers ship 8x more code per quarter. Side effect: Tests grew 10x. CI jobs up 25x in 6 months."*
+
+**The asymmetry is the finding.** Output rose 8×, tests 10×, and **CI jobs 25×** — verification load grew roughly **three times faster than the test count and three times faster than the output it verifies**. Verification does not scale linearly with generation; on this evidence it scales worse. That is McDonald's *"the verifier is the bottleneck"* showing up as an infrastructure bill rather than an argument, and it is the concrete form of the [[dailybrief-roundup-2026-09-08|Danluu finding]] that the generator has outrun the agent's ability to operate the verifier.
+
+Note what Anthropic did about it: **test-impact analysis** — run only the tests a change can affect — i.e. they made verification *cheaper per unit*, not more plentiful. When the loop's feedback step becomes the dominant cost, the engineering moves into selecting which feedback to run. Expect that to be the next thing harnesses compete on.
+
+*(First-party figures relayed by an employee; the 80% is well defined — share of merged lines attributable to Claude — but there is no defect-rate and no cost number, and commenters asked for both. The linked engineering post was not fetched.)*
 
 **Market-side restatement — verification as addressable surface (jessy, 2026-09-11).** Asked what actually unlocks a domain, jessy (@goodhartproof) answered: *"the key unlock is increasing the surface area of verifiable things"* ([[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11]]). McDonald's *design the verifier* is an engineering instruction; this is the same claim aimed at **which markets are reachable at all** — a domain becomes harness-able exactly when checking the work is cheap. It predicts the observed ordering (GTM automation early, finance/accounting and clinical later) and is the hinge between this page and [[domain-specific-harness]].
 

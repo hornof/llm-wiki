@@ -2,7 +2,7 @@
 name: AI-Native Service Companies
 type: concept
 maturity: emerging
-last_updated: 2026-06-01
+last_updated: 2026-09-16
 ---
 
 ## Definition
@@ -50,3 +50,23 @@ AI-native service companies occupy the **AI-native challenger tier** in the May 
 - [[latentspace-walden-yan-async-agents-2026-05-29]] — Cognition operational-detail surface; *"dev productivity SaaS"* positioning
 - [[cognition-26b-valuation-492m-arr-2026-05-27]] — $26B/$492M ARR / 10× usage growth operational scale anchor
 - [[saas-disruption-thesis]] — adjacent thesis cluster
+
+## Practitioner account — the billable-day model as the binding constraint (2026-09-15)
+
+[[mardehaym-implementation-firm-vs-consultancy-2026-09-15]]: a services operator argues the structural problem is not AI adoption but **the unit of sale**. *"A consultancy has to keep an expensive person busy. $350 an hour, billed by the day… Scope expands. The team expands. Phase two gets sold in month three."* Efficiency gains cannot be passed to the client without shrinking the firm's own revenue, so they are not passed on — which is the concrete version of this page's *sell-the-outcome-not-the-tool* distinction.
+
+**The claimed inversion**: *"Every engagement we run has fewer people on it now than when it started. The firm is growing faster than it ever has."* Delivery unit is an *"AI velocity pod"* — **one senior engineer, agents across the SDLC, a fractional architect; roughly 1.5 FTE where a five-person team used to sit**, with **98% of shipped code not handwritten**.
+
+**The portable part is a diagnostic**, and it is the most useful thing on this page for evaluating a vendor:
+
+> *"When a mid-sized or large engineering shop says they've gone AI-native, I ask one question: how many people have you let go, and why are you still hiring more? If the answer is none and lots, they aren't passing any efficiency to you."*
+
+He is careful about what he is *not* attacking: *"A dynamic consultant at $5K an hour who unblocks the thing that's been strangling operations for two years is worth every dollar."* The target is **generic** advice, which he argues a model now supplies for free. And he names the new failure mode on his own side — firms that *"assemble a team to ride the AI demand wave, hire people with case studies, and suddenly the firm has case studies. But there's no history behind the logos."*
+
+**Sits under [[domain-specific-harness|the harness thesis]]**, explicitly: *"the work gets done, the harness takes more of the load, and we pull people off."*
+
+*(Heavily promotional — the post ends in a booking link — and every figure is unaudited self-report. The 98% is undefined, unlike [[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14|Anthropic's defined 80%]] from the same week. Mechanism useful; numbers not.)*
+
+## Counter-position — the middle disappears here too
+
+[[mvernal-barbell-ification-of-software-2026-09-15]] predicts *"one large software company by industry (e.g., Legal, Finance, Medicine)"* and most mid-sized point solutions consolidating or dying. If that holds, AI-native service firms face the same barbell as software: a few very large ones and many solo operators, with the mid-sized firm — exactly the shape described above — as the squeezed category. Worth tracking against Limestone's own growth claim.

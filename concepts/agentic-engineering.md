@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 
 ---
 
@@ -93,6 +93,16 @@ The concrete failure anecdote is the best of them (188 points): an SMS task name
 ## "The cost of writing code has collapsed" — what's left is the moat (Laurie Voss, 2026-09-14)
 
 Via [[simon-willison|Willison]] ([[dailybrief-roundup-2026-09-15]]): with code-writing cost at the floor, **product definition and UX become the durable moats**. Short fragment, no depth, but it is the same conclusion three separate threads reached this month from different directions — [[domain-specific-harness|the harness thread]] ("the only thing left that's actually hard is knowing the job"), the [[ai-labor-market-impacts|Ng 30–40% split]] ("build the 60–70% it can't touch"), and the *"code is free"* codebase-as-prompts thread below. When the cheap part gets cheaper, the residual is the product, not the engineering. *(Quote fragment; create-candidate Laurie Voss, single surface.)*
+
+## What 80%-written-by-Claude actually costs (Anthropic, 2026-09-14)
+
+[[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14]]: *"Claude now writes 80% of our code. Engineers ship 8x more code per quarter. Side effect: Tests grew 10x. CI jobs up 25x in 6 months."*
+
+The 80% is unusually well defined for this genre — challenged in the replies, [[addy-osmani|Osmani]] specifies **share of lines merged to production clearly attributable to Claude**, with the remaining 20% *"a mix of human written and other artifacts."* That is a merged-lines attribution measure, not a keystroke or session count, and it makes the figure comparable in a way most such claims are not. Set it against the **98% "not handwritten"** claimed by an AI-native services firm the same week ([[mardehaym-implementation-firm-vs-consultancy-2026-09-15]]) — **the gap between the two numbers is far smaller than the gap between their definitions**, and only one of them has a definition at all.
+
+**What the post does not contain is the part this page cares about**: no defect rate, no review-burden measure, no cost. The replies went straight there — *"you ship also 1000% more bugs"*, *"LOC isn't a metric"*, *"any stats on the cost?"* — and none were answered. A 25× CI increase has a bill.
+
+The honest reading: this is strong evidence that **the quality bar got expensive to hold, and that Anthropic paid rather than lowered it** (the engineering response was test-impact analysis, not fewer tests). It is not evidence that the bar held. See [[loop-engineering]] for the verification-scaling asymmetry.
 
 ## Related Concepts
 - [[vibe-coding]] — the floor-raising complement; entry-level

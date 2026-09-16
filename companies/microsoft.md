@@ -2,7 +2,7 @@
 name: Microsoft
 type: company
 status: active
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-09-15
 **Microsoft Corp.** — canonical-multi-decade-pedigree canonical-technology-vendor + canonical-Azure-hyperscaler + canonical-largest-single-OpenAI-investor + canonical-Azure-OpenAI-exclusive-distribution-partner + canonical-Anthropic-Foundry-availability + canonical-co-founder-of-Microsoft-AI. First wiki entity surface **2026-07-03** following canonical-multi-lint canonical-pattern-watch canonical-Nadella + canonical-Frontier-Co + canonical-$2.5B canonical-AI-deployment-company canonical-Jul-2 canonical-net-new canonical-productization-cluster.
 
 ## Traction Signals
+
+- **2026-09-16: Suleyman — consciousness is not the foundation for AI rights** ([[dailybrief-roundup-2026-09-16]], via [[simon-willison|Willison]]): Microsoft AI's CEO pushes back on anthropomorphic AI ethics. The brief notes it *"adds no novel framework"*, and the useful part is the pairing: it is the philosophical companion to Microsoft's own **Humanist AI Code of Conduct** above, which likewise **prohibits consciousness claims**. Vendor position and vendor philosophy arriving in the same week, pointing the same way.
 
 - **2026-09-15: draft "Humanist AI Code of Conduct"** ([[dailybrief-roundup-2026-09-15]], The Verge/Digg): a **37-page draft** released for public feedback, on the principle that *"people matter more than AI."* Stated principles — models remain **subordinate to humans**, under meaningful human control, and **never resist shutdown or correction**; **autonomous cyberattacks prohibited**; **consciousness claims prohibited**. Lands the same week as AEF-1 and the reported inter-lab standards body, making Microsoft the **fourth vendor** to publish a governance artifact in eight days, and the one with the most concrete published text. See [[frontier-ai-governance]] for why the cluster matters and what it does not establish. *(37-page draft not fetched; principles from the summary. Draft, voluntary, non-binding.)*
 ## Traction Signals
