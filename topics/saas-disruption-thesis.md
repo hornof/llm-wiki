@@ -1,7 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-09-12
+last_updated: 2026-09-16
 ---
 
 ## What This Is
@@ -377,6 +377,20 @@ The [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute's
 His 2026-09-12 list of *"the only businesses left to build"* puts **domain-specific harnesses** and **vertical agents** as two of thirteen categories, alongside proprietary datasets, distribution, compute and energy, real assets, and marketplaces *"for people and agents."* The same shape [[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11|jessy observed across a YC batch]] the following day — tracked in full at [[domain-specific-harness]].
 
 **Where this cuts against the thesis's harder form**: Isenberg explicitly rejects *"software is over"* using OpenAI's own behavior as evidence — *"if that were true, OpenAI wouldn't be shipping infrastructure for other people to build agents on."* That is a real argument, and it reframes the [[naval-ravikant|Naval]] *"pure software is uninvestable"* line: not that the application layer dies, but that **the un-differentiated middle does** while domain-encoded verticals survive. It does not escape the platform-risk caveat above — the counter in Isenberg's own replies is that the vendor learns your flows from the agents you build on its substrate and then sells them directly.
+
+## Barbell-ification — the middle dies, both ends grow (Mike Vernal, 2026-09-15)
+
+[[mvernal-barbell-ification-of-software-2026-09-15]]. The most structurally complete statement of this thesis the wiki holds, and the first to name **what replaces the eroded moats** rather than only announcing their erosion.
+
+**The mechanism**: all three classic software moats weaken simultaneously as engineering cost approaches zero — replication cost (software gets cheap to copy), switching cost (migrations automate), and network effects (*"integrations can be automated; the AI is a better expert than your p95 human"*).
+
+**The replacement is scale, not defensibility.** His Amazon reading: it had *"the least-defensible initial premise of the major tech companies"* and its moat is **7,500+ days of relentless reinvestment**. Forward: *"if the amount of software you can build in a given day increases by 1,000x, and you build that amount every day for 10 years, you probably still have a moat."* In Helmer's 7 Powers terms — **switching costs and network effects down; scale economies and branding up.**
+
+**The predicted end state**: one AI-native system per enterprise buying center; one all-in-one for SMB; one large company per industry; **most mid-sized point solutions consolidated or dead**; and an explosion of small software, mostly self-built, with a power law over the survivors. His advice to venture-backed founders is *"do it all… your moat is the totality of what you've built and completely owning the buying center. I fear there is no safety in the middle."*
+
+**Where this sharpens the page**: [[naval-ravikant|Naval's]] *"pure software is uninvestable"* said the category is dead. Vernal says **the middle** is dead and both ends grow — which is a more testable claim, and it predicts specific casualties (mid-market point solutions) on a specific mechanism (buying-center consolidation). His own caveat is the one investors should hold: the small-software winners *"will not be 'venture-addressable'… many founders and investors will be led astray by thinking they are."*
+
+*(Structural reasoning, not evidence. The newspaper table he anchors on was LLM-compiled by his own admission. Create-candidate: Mike Vernal, first surface.)*
 
 ## Tracking Signals
 

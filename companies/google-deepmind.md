@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-09-08
+last_updated: 2026-09-16
 ---
 
 ## What It Is
@@ -12,6 +12,8 @@ Google's primary AI research lab, formed from the merger of Google Brain and Dee
 Combine deep learning (then newly published by Hinton) with reinforcement learning — two siloed academic fields. Bet on accelerated compute (GPUs; later TPUs). Original mission: "Step one: solve intelligence, i.e. build AGI. Step two: use it to solve everything else." — [[hassabis-deepmind-alphafold-agi]]
 
 ## Traction Signals
+
+- **2026-09-16: institute for AGI's societal impact** ([[dailybrief-roundup-2026-09-16]], Digg): a research forum on AI safety, governance and economic impact, fronted by **Hassabis, Shane Legg and James Manyika**. Lands as the fifth voluntary, vendor-run governance artifact in nine days — see [[frontier-ai-governance]], where the cluster is assessed. The surfacing brief's caveat is worth carrying: *"vague on concrete agenda; appears advocacy-focused rather than novel capability work."* Distinct from [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Hassabis's July Standards Body proposal]], which was a regulatory architecture rather than a research institute. *(Announcement only; agenda, funding and staffing unstated.)*
 - AlphaFold solved the protein folding problem — Nobel Prize in Chemistry (Hassabis, 2024)
 - DeepMind systems won gold at International Math Olympiad
 - Gemini is Google's primary LLM family competing with GPT-4 and Claude

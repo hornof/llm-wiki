@@ -2,10 +2,12 @@
 name: Mistral AI
 type: company
 status: active
-last_updated: 2026-09-08
+last_updated: 2026-09-16
 ---
 
 ## What It Is
+
+- **2026-09-16: Mozilla partnership — Mistral models power Firefox's Smart Window AI beta** ([[dailybrief-roundup-2026-09-16]]), France and North America first, positioned on **privacy-first, multilingual** browsing. A distribution win that fits the sovereign/European positioning behind the €3B raise: an independent browser reaching for a non-American model provider is the same buyer logic as European governments doing so. → [[mozilla]] *(Beta; scope and terms undisclosed.)*
 
 Mistral AI is a French AI startup (founded 2023, Paris) that develops open-weight large language models. Its differentiation is twofold: open-source/open-weight model distribution, and a European identity that positions it as a non-American alternative for large corporations and government agencies. As of April 2026, it has raised $3.1B and is valued at approximately $14B.
 

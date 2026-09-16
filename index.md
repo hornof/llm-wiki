@@ -134,6 +134,7 @@
 - [[jeff-dean]] — legendary Google systems/ML engineer (MapReduce/Bigtable/TensorFlow/Google Brain, ex-Chief-Scientist Google DeepMind); left Google after 27 years (Aug 2026) to co-found DiscoLoop AI
 - [[john-kim]] — Meta L7 Senior Staff eng + Claude Code educator (Push to Prod); "50 tips" — validation-loop-first, context-is-king, multi-instance juggling, subagent-contrarian
 - [[yann-lecun]] — CNN inventor; Turing Award; founder AMI Labs; "LLMs are a dead end for superintelligence"
+- [[yoshua-bengio]] — Turing laureate (2018, with LeCun and Hinton); founder of LawZero, a lab-independent safety org funded up to C$300M by Canada and Germany (Sep 2026); "why are AI agents lying, cheating and coordinating?" — the outside-the-labs counterweight to vendor-authored governance
 - [[andrej-karpathy]] — AI researcher/educator; founder Eureka Labs; Software 3.0; vibe coding vs. agentic engineering
 - [[andrew-ng]] — co-founder Google Brain; DeepLearning.AI; 8M+ students; key AI educator
 - [[fei-fei-li]] — created ImageNet; Stanford HAI; World Labs (spatial intelligence, $1B raised)
