@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -79,6 +79,7 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 ### Multi-agent orchestration receipts
 
 - **[[steve-yegge|Steve Yegge]] Gas Town** ([github.com/gastownhall/gastown](https://github.com/gastownhall/gastown), Jan 2026): 20-30 Claude Code instances coordinated by a **Mayor agent**, **Patrol agents** running continuous loops, state stored in git for crash recovery. First wiki-captured concrete instantiation of the *"loop supervising other loops"* pattern shipped + open source. See [[mvanhorn-wtf-is-a-loop-2026-06-07]].
+  > **⚠ Reported shut down, 2026-09-17 — unconfirmed** ([[dailybrief-roundup-2026-09-17]], Latent Space *"Reality checks"*; the brief itself hedges with *"if confirmed"* and the primary was not fetched). This matters more than a normal project death: Gas Town is **this section's first and strongest open-source instantiation of the pattern**, and the wiki has leaned on it since June. If confirmed, the honest reading is that the loop-supervising-loops architecture was demonstrated but **not sustained by its own author** — which is evidence about operating cost and maintenance burden, not about whether the pattern works. The [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies mission note]] ($500/month, 8 orchestrators) is the surviving receipt at comparable scale. **Do not cite Gas Town as a live system without checking the repo.**
 - **[[zodchii-4-agent-pipeline-2026-05-30|zodchii 4-agent pipeline]]**: Planner/Coder/Tester/Reviewer with discrete handoff-files in `.pipeline/{spec,changes,test-results,review}.md`. Sibling architectural pattern: **discrete handoff** vs Yegge's **continuous-supervised**.
 - **[[dailybrief-roundup-2026-05-27|PolyArch/humanize RLCR loop]]**: Claude implements + Codex reviews independently until acceptance criteria met. **Cross-vendor agent-review loop**.
 - **[[practical-systems-autonomous-company-dashclaw-2026-08-08|"A company that runs itself"]] (2026-08-08)**: an **11-step company loop** (8 agent roles) where the build step is **headless Claude Code** — `claude -p "/supergoal Build @GOAL.md … no human present, do not stop until finished" --model claude-fable-5 --max-turns 200 --permission-mode bypassPermissions` with a 120-min wall clock + 10-sec-polled kill switch (built a 44-test app in 71 min untouched). The load-bearing addition is a **governance control-plane (DashClaw)**: risk-scored action ledger where `outreach_send`/`charge_customer` **park as `pending_approval`** — the push-back primitive applied to *money- and email-touching* actions, with a hard assertion enforcing *"governance bugs should be loud."* The `--permission-mode bypassPermissions` inside the build is safe **only because** the outer loop human-gates every real-world side effect.

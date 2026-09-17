@@ -3,7 +3,7 @@ name: Hugging Face
 type: company
 focus: canonical-open-source-AI-platform canonical-foundation-tier
 status: acquisition-announced-close-unconfirmed
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 ## What It Is
@@ -11,6 +11,8 @@ last_updated: 2026-09-14
 **Hugging Face** is a canonical-open-source-AI-platform canonical-foundation-tier vendor, founded by **Clément Delangue** (canonical-CEO-direct-voice). Wiki-tracked primarily for canonical-$100M-annual-run-rate canonical-revenue-anchor + canonical-97%-free-user canonical-business-model-data-point (canonical-3% canonical-paid-conversion-rate). **3+ canonical-substantive surfaces** including Jun 25 canonical-$100M-ARR canonical-CEO-direct-voice canonical-anchor.
 
 ## Traction Signals
+
+- **2026-09-17: open-weight safety partnership with Base Labs and Goodfire** ([[dailybrief-roundup-2026-09-17]], TechCrunch): a three-party effort shipping **methods for open-model training and monitoring**. Turns the [[#Open Alignment team|Open Alignment team]] announced a week earlier from a staffing statement into named collaborators and a scope. Notable for what it balances: the governance fortnight of AEF-1, the reported standards body and Microsoft's code of conduct is **entirely closed-lab**; this is the open-weights counterpart, and open-weight safety is the part none of those artifacts covers. → [[frontier-ai-governance]] *(Announcement; methods not published.)*
 
 > [!note] On `status:` (corrected 2026-09-14)
 > The field read `gaining-traction` until 2026-09-14, while the first entry below recorded a **confirmed $12.9B [[nvidia|NVIDIA]] acquisition**. Same defect class as the [[claude-mythos]] naming contradiction: the body was kept current, the frontmatter was not. As with Mythos, the schema's company states have no slot for *acquired / acquisition pending*, so the value here is descriptive rather than from the allowed set — see `CLAUDE.md`.

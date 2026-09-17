@@ -3,10 +3,13 @@ name: Claude Cowork
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 ---
 
 ## What It Is
+
+> [!update] Merged into the main Claude interface (2026-09-17)
+> Cowork is no longer a separate surface — Claude **routes queries automatically** rather than asking the user to choose, and the same release adds **Claude Docs** and **Claude Slides** in beta (export, sharing, simultaneous editing; Pro/Max first) ([[dailybrief-roundup-2026-09-17]]). The product-strategy read: a standalone surface that required users to know which tool to pick has been folded back into the assistant, with the routing decision moved inside the model. Sections below describing Cowork as a distinct product are **historical from 2026-09-17 onward**. → [[anthropic]]
 
 **Claude Cowork** is [[anthropic]]'s autonomous-execution surface for non-coding workflows — a tab inside [[claude-desktop]] that takes a brief in plain English and runs the task end-to-end across files, apps, and the browser. Anthropic's positioning ([[claude-cowork-cheatsheet-2026-05-07]]):
 

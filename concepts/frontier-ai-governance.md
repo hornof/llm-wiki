@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 ---
 
 ## Definition
@@ -34,6 +34,12 @@ That inverse relationship is the thing to watch. Self-coordination is accelerati
 
 - **DeepMind launches an institute for AGI's societal impact** (Hassabis, Shane Legg, James Manyika) — a **fifth** artifact in nine days, and the fifth that is **voluntary and vendor-run**. The brief is unimpressed: *"vague on concrete agenda; appears advocacy-focused rather than novel capability work."* → [[google-deepmind]]
 - **LawZero secures up to C$300M from the governments of Canada and Germany** — [[yoshua-bengio|Bengio's]] safety organization, Berlin office, Canadian compute. **The only item in this nine-day window with public money behind it and structural independence from the labs it would evaluate.** Everything else in the cluster is written by the parties it binds; this is not. Whether the independence survives the funding is the thing to watch.
+
+**Day-ten update (2026-09-17)** ([[dailybrief-roundup-2026-09-17]]). Three items that each fill a hole the vendor artifacts left:
+
+- **A head of state convenes the labs.** King Charles III hosted a closed-door AI safety summit at Dumfries House with **Jensen Huang, Demis Hassabis, Sarah Friar** and Anthropic representatives, warning of *"existential dangers"* if AI falls into the wrong hands. Categorically different from everything else in this cluster — **the labs were convened rather than convening themselves** — but it produced no standard, commitment or output. A summit, not an artifact; recorded for the convening power.
+- **Open-weight safety finally represented.** Base Labs, [[hugging-face]] and Goodfire announce a partnership shipping methods for **open-model training and monitoring** (TechCrunch). The nine-day artifact run — AEF-1, the standards body, Microsoft's code of conduct, DeepMind's institute — is **entirely closed-lab**, and open weights are the part none of it covers. This is the counterpart.
+- **Liability as a governance mechanism.** AIUC raises a Series A on **insurance for agent risk** — *"agents you can sue."* The market pricing agent liability is a different instrument from a voluntary standard: an underwriter has to quantify the risk to sell the policy, and has an incentive to be right. Worth tracking as the first non-voluntary, non-regulatory mechanism in this thread. *(Summary sparse; substance unassessed.)*
 
 **And the skeptical read on AEF-1, worth keeping alongside the optimistic one**: *"Three competing labs cosigning an evaluation standard is not 'maturity' — it's a credibility move before regulators force one on them. The real question is whether AEF-1 actually constrains anything or just makes evals look comparable when they're still black boxes."* Comparability without transparency is a real failure mode for an eval standard, and it is compatible with every fact currently on this page.
 
