@@ -2,10 +2,12 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 ---
 
 ## Definition
+
+- **The constraint becomes political — grid strain and community opposition (2026-09-17)** ([[dailybrief-roundup-2026-09-17]], Digg): **grid-capacity coalitions forming among Google, Nvidia and Anthropic**, against **parkland and Virginia pushback** on data-centre expansion. The notable shift is the shape of the problem: this page has tracked energy as an engineering and cost constraint, and it is becoming a **siting and consent** constraint. Competitors coordinating on grid access is what a genuinely binding physical limit looks like — and local opposition is the one input none of them can buy their way past. Pairs with [[ai-margin-collapse|the compute-and-power scarcity thread]] and with [[dailybrief-roundup-2026-09-16|Rune's solar-farm siting]] as the workaround. *(Brief-level; no capacity figures.)*
 
 - **Inference sited at stranded generation — Rune, $40M (2026-09-16)** ([[dailybrief-roundup-2026-09-16]], Fast Company): modular servers placed **at solar farms**, running inference on otherwise-unused electricity. A different answer from the efficiency work this page mostly tracks: rather than reducing energy per token, **move the compute to power that would otherwise be curtailed**. Relevant to the [[ai-margin-collapse|compute-and-power scarcity]] thread, where the durable constraint is energized capacity rather than chips. *(Seed-stage; no deployment figures.)*
 

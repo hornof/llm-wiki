@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-09-15
+last_updated: 2026-09-17
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-09-15
 Meta (formerly Facebook) is a US technology company operating Facebook, Instagram, WhatsApp, Messenger, and Meta AI. Wiki-tracked primarily for its **AI deployment surface** (Meta Business Agent, Meta AI consumer-product across WhatsApp + Instagram) and the structurally-significant **cross-vendor agentic-exfiltration pattern** it has surfaced in.
 
 ## Recent Activity
+
+- **2026-09-17: Muse — a proactive personal AI agent** ([[dailybrief-roundup-2026-09-17]], Digg): sends emails, books travel and **makes purchases via Stripe**, running on a **dedicated secure VM**, with free and paid tiers at roughly **$20–100/month**, across iOS, Android, web and WhatsApp. The most consumer-facing agent launch the wiki has captured. **The payments integration is the notable part** — an agent holding spending authority moves the [[ai-vulnerability-discovery|agent-autonomy risk surface]] from data and code to money, which is the category [[loop-engineering|the DashClaw governance pattern]] human-gates deliberately. *(Launch announcement; no adoption or safeguard detail.)*
 
 - **2026-09-15: custom AI silicon roadmap — MTIA 450 "Arke" (H1 2027) and MTIA 500 "Astrid" (end-2027)** ([[dailybrief-roundup-2026-09-15]], Digg): an explicit push to **reduce NVIDIA dependence**, with execution risk flagged as high. Meta joins [[openai|OpenAI's "Jalapeño"]] and [[google|Google's TPUs]] in the buy-vs-build-silicon column; read alongside [[nvidia|the Economist's "central bank of AI"]] framing, this is the largest customers trying to exit the dependency the framing describes. Relevant to [[ai-margin-collapse]]: if inference cost is the binding constraint, the escape route is owning the substrate rather than optimizing on top of it. *(Roadmap dates are 12-18 months out; no silicon shipped.)*
 ## Recent Activity

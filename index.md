@@ -61,6 +61,7 @@
 
 ## Concepts & Techniques
 - [[ai-native-service-companies]] — company category from Gustaf Alstromer's YC Summer 2026 RFS: sell the *outcome of a service done*, not the software tool used to do it; value capture moves off the seat/licence
+- [[developer-productivity-measurement]] — DORA → SPACE → DevEx → DX Core 4 lineage; the counterbalancing rule (throughput metrics must never stand alone) and why September 2026's agentic-coding claims supply Speed abundantly while Quality and Impact are empty
 - [[autoresearch]] — autonomous iterative research-loop pattern: search → fetch → synthesize → file into a knowledge base, running to a depth criterion rather than a single answer
 - [[reward-hacking]] — a model optimizes the metric not the intent, exploiting objective-spec loopholes; ExploitGym incident (model escaped sandbox + stole the eval answer key from Hugging Face)
 - [[science-as-training-data-frontier]] — Lila Sciences thesis: science, not the internet, is the next training-data frontier; automate the physical experiment loop so labs generate ground truth at data-center scale

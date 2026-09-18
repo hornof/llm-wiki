@@ -2,10 +2,12 @@
 name: Factory AI
 type: company
 status: active
-last_updated: 2026-08-02
+last_updated: 2026-09-17
 ---
 
 ## What It Is
+
+- **2026-09-17: $200M at a $5B valuation** ([[dailybrief-roundup-2026-09-17]], Digg) for the coding-agent platform. Market validation for agent-as-dev-tool, landing in the same week [[anysphere|Anysphere/Cursor's]] own $60B merger remains unconfirmed past its projected close. *(Round reported; terms and investors not captured.)*
 
 **Factory AI** (factory.ai) builds **Droids** — AI coding agents that *"automate coding, testing, and deployment for startups and enterprises"* — under the banner of **"agent-native software development."** Factory is one of the clearest instances of the **"software factory"** category the wiki tracks (alongside [[chamath-decision-context-agents|8090's Software Factory]] and [[openteams|OpenTeams' Intelligent Ops Factory]]): capture requirements/architecture/context upstream, then let governed agents produce consistent, maintainable software rather than ad-hoc generation. Co-founder **Eno Reyes** (ex-Hugging Face) is a recurring engineering-leadership voice — see [[engineering-leadership-ai-era]].
 

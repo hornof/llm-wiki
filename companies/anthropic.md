@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 ---
 
 ## What It Is
@@ -84,6 +84,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-09-17 — Claude Cowork merged into the main interface; Docs and Slides ship in beta** ([[dailybrief-roundup-2026-09-17]], Digg): Claude now **routes queries automatically** instead of making users pick a surface, and adds **Claude Docs** and **Claude Slides** with export, sharing and simultaneous editing (Pro/Max first). Two moves in one: a separate product folded back into the assistant, and a direct entry into collaborative document editing. See [[claude-cowork]]. *(Rollout announcement; adoption unmeasured.)*
 
 - **2026-09-14: first-party engineering figures — Claude writes 80% of Anthropic's code; CI jobs up 25×** ([[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14]], [[addy-osmani|Osmani]]): *"Engineers ship 8x more code per quarter. Side effect: Tests grew 10x. CI jobs up 25x in 6 months."* The 80% is defined as **share of lines merged to production clearly attributable to Claude**. The second-order numbers are the more interesting disclosure — verification load grew ~3× faster than output — and Anthropic's response was **test-impact analysis** rather than more compute. Read with [[loop-engineering]] and [[agentic-engineering]]. *(Employee-relayed vendor figures about the vendor's own product; no defect-rate or cost number published, both asked for in replies.)*
 - **2026-09-15: five accounts banned over bio-weapons research; disclosure published with the enforcement** ([[dailybrief-roundup-2026-09-15]], Digg): Anthropic flagged **five cases** of Claude use in research that could support biological weapons and banned the accounts, publishing both together. The distinction worth keeping is that this is **applied misuse, not jailbreak demonstration** — the lab policing what the model was actually used *for*. Third item in the same posture as the [[ai-vulnerability-discovery|unauthorized-access disclosures]] and the METR review: publish the failure alongside the response. *(Secondary reporting; case details not published.)*

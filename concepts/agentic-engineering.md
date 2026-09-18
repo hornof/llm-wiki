@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 
 ---
 
@@ -99,6 +99,8 @@ Via [[simon-willison|Willison]] ([[dailybrief-roundup-2026-09-15]]): with code-w
 [[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14]]: *"Claude now writes 80% of our code. Engineers ship 8x more code per quarter. Side effect: Tests grew 10x. CI jobs up 25x in 6 months."*
 
 The 80% is unusually well defined for this genre — challenged in the replies, [[addy-osmani|Osmani]] specifies **share of lines merged to production clearly attributable to Claude**, with the remaining 20% *"a mix of human written and other artifacts."* That is a merged-lines attribution measure, not a keystroke or session count, and it makes the figure comparable in a way most such claims are not. Set it against the **98% "not handwritten"** claimed by an AI-native services firm the same week ([[mardehaym-implementation-firm-vs-consultancy-2026-09-15]]) — **the gap between the two numbers is far smaller than the gap between their definitions**, and only one of them has a definition at all.
+
+The field already has the vocabulary for what is missing here, and the wiki now carries it at [[developer-productivity-measurement]]: [[dx-core-4-framework-2024-12]] makes **change failure rate** the mandatory counterweight to any throughput metric, and states the rule plainly — a speed number *"must be counterbalanced with other oppositional metrics."* Measured against its four dimensions, September 2026's agentic-coding claims supply **Speed** abundantly, **Effectiveness** only negatively (rising cognitive load), and **Quality** and **Impact** not at all.
 
 **What the post does not contain is the part this page cares about**: no defect rate, no review-burden measure, no cost. The replies went straight there — *"you ship also 1000% more bugs"*, *"LOC isn't a metric"*, *"any stats on the cost?"* — and none were answered. A 25× CI increase has a bill.
 
