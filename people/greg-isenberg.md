@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-09-12
+last_updated: 2026-09-20
 ---
 
 ## Who They Are
@@ -36,6 +36,8 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 - **"This is the AWS moment for agents" (2026-09-10)** ([[gregisenberg-agents-api-aws-moment-vertical-wedge-2026-09-10]]): on OpenAI's Agents API — *"everything that made agents hard to build is now something you rent instead of build… If your whole company is an agent platform, the thing you spent the last year building is now included for the price of tokens."* Notable for saying the uncomfortable half out loud (*"my first reaction was that this is bad news for a lot of people I know"*) before arguing the bull case. The conclusion is the wedge: *"if the hardest engineering just became a line item, then the only thing left that's actually hard is knowing the job"* — own one painful workflow with your own tools, data, approvals and a clear ROI. Anchors [[domain-specific-harness]].
 - **Argument from the vendor's revealed preference**: against the *"software is over, you'll just use ChatGPT for everything"* position — *"if that were true, OpenAI wouldn't be shipping infrastructure for other people to build agents on. They're telling you exactly what they think: the general model is theirs, the 10,000+ specific jobs it needs to be pointed at are yours."* The sharpest form of his standing anti-doomer line, and falsifiable.
 - **"The only businesses left to build" — 13 categories (2026-09-12)** ([[gregisenberg-agents-api-aws-moment-vertical-wedge-2026-09-10]]): AI-native service firms; offline businesses; distribution; proprietary datasets; **domain-specific harnesses** (*"the agent that runs one industry's work"*); robotics/physical AI; physical products with a fan following; compute and energy; health/longevity/care; marketplaces and social networks **for people and agents**; real assets; **vertical agents**; security. A replier's fair objection stands unanswered: *"item 5 and item 12 are the exact same pitch deck with different valuation multiples."* Isenberg links his own `ideabrowser.com` in-thread — weight the framing, discount the urgency.
+
+- **"AI-native services: a $100B opportunity" (2026-09-20)** ([[gregisenberg-ai-native-services-100b-guide-2026-09-20]]): his fullest operational piece, and the one that puts numbers behind item #1 of his own "only businesses left to build" list. Core premise: *"A business pays about $10,000 a year for QuickBooks. It pays about $120,000 a year for the accountant who uses QuickBooks."* The eight pieces (unit / intake / engine / rulebook / review layer / delivery / pricing / distribution) and the **already-outsourced × checkable-right-answer 2×2** are the transferable parts. **The rulebook is his best idea** — *"the written list of what 'correct' means in your niche and every way the AI gets it wrong,"* built one mistake at a time — a concrete answer to what "domain knowledge" actually is. Detail at [[ai-native-service-companies]]. *(Harvey/EvenUp/Kick figures asserted without citation; the $100B is underived; promotes his own idea service throughout.)*
 
 ## Where to Follow
 

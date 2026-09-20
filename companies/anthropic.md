@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-09-17
+last_updated: 2026-09-20
 ---
 
 ## What It Is
@@ -84,6 +84,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-09-17/20 — Life Sciences Verification Program; and a reported counter-Astra release** ([[dailybrief-roundup-2026-09-20]]): (a) the **Life Sciences Verification Program** (anthropic.com) continues the pattern of packaging Claude for regulated verticals ([[alberta-government-claude-cybersecurity-2026-07-06|cf. government/cyber]]). (b) Anthropic is **reportedly considering a new Claude variant to counter [[gpt-6-astra|GPT-6 Astra's]] momentum**, amid IPO speculation (Digg). Record this against [[dario-amodei|Amodei's]] 09-12 pacing advocacy: **publicly arguing for a slowdown while reportedly preparing a competitive release** is precisely the stated-versus-revealed gap that led this wiki to decline scoring "pacing the frontier" as change. Not a contradiction yet — a reported consideration is not a release — but it is the thing to watch. *(Reported/speculative; no model, date or confirmation.)*
 - **2026-09-17 — Claude Cowork merged into the main interface; Docs and Slides ship in beta** ([[dailybrief-roundup-2026-09-17]], Digg): Claude now **routes queries automatically** instead of making users pick a surface, and adds **Claude Docs** and **Claude Slides** with export, sharing and simultaneous editing (Pro/Max first). Two moves in one: a separate product folded back into the assistant, and a direct entry into collaborative document editing. See [[claude-cowork]]. *(Rollout announcement; adoption unmeasured.)*
 
 - **2026-09-14: first-party engineering figures — Claude writes 80% of Anthropic's code; CI jobs up 25×** ([[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14]], [[addy-osmani|Osmani]]): *"Engineers ship 8x more code per quarter. Side effect: Tests grew 10x. CI jobs up 25x in 6 months."* The 80% is defined as **share of lines merged to production clearly attributable to Claude**. The second-order numbers are the more interesting disclosure — verification load grew ~3× faster than output — and Anthropic's response was **test-impact analysis** rather than more compute. Read with [[loop-engineering]] and [[agentic-engineering]]. *(Employee-relayed vendor figures about the vendor's own product; no defect-rate or cost number published, both asked for in replies.)*
