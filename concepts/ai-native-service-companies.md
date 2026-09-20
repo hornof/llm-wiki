@@ -2,7 +2,7 @@
 name: AI-Native Service Companies
 type: concept
 maturity: emerging
-last_updated: 2026-09-16
+last_updated: 2026-09-20
 ---
 
 ## Definition
@@ -70,3 +70,37 @@ He is careful about what he is *not* attacking: *"A dynamic consultant at $5K an
 ## Counter-position — the middle disappears here too
 
 [[mvernal-barbell-ification-of-software-2026-09-15]] predicts *"one large software company by industry (e.g., Legal, Finance, Medicine)"* and most mid-sized point solutions consolidating or dying. If that holds, AI-native service firms face the same barbell as software: a few very large ones and many solo operators, with the mid-sized firm — exactly the shape described above — as the squeezed category. Worth tracking against Limestone's own growth claim.
+
+## The operational guide — Isenberg's eight pieces (2026-09-20)
+
+[[gregisenberg-ai-native-services-100b-guide-2026-09-20]] is the most complete treatment of this category the wiki holds, and it supplies the economics the page previously asserted only in principle.
+
+**The premise, in one example**: *"A business pays about $10,000 a year for QuickBooks. It pays about $120,000 a year for the accountant who uses QuickBooks. For twenty years, software companies fought over the $10,000."* US businesses spend roughly **$4.6T/year on services — about 6× software spend** — and that pool was unaddressable while every dollar was attached to a person.
+
+**Why a service beats a tool now**, and the line that links this page to [[ai-margin-collapse]]:
+
+> *"SaaS is running up a down escalator… Every time a lab ships, your product is worth a little less."* Against: *"You sell the finished work, so when the models get better, your business gets better."*
+
+**The eight pieces**: the **unit** (one defined deliverable, never per hour), the **intake** (a form — *"if you can't define intake as a form, your unit isn't clear enough yet"*), the **engine**, the **rulebook**, the **review layer**, the **delivery** (a dashboard, *"this replaces the account manager"*), the **pricing** (against the human alternative, not against your costs), and the **distribution** (cold outbound plus a free first job).
+
+### The rulebook is the durable idea
+
+> *"The written list of what 'correct' means in your niche and every way the AI gets it wrong… You build this list one mistake at a time… After a few hundred jobs, this rulebook is the thing that makes your output trustworthy and your business defensible."*
+
+This is **compound-engineering accretion aimed at a market instead of a codebase** — structurally the same primitive as [[claude-md-pattern|CLAUDE.md rules accruing from failures]] and the verifier discipline of [[loop-engineering]], here sold as the moat. It also explains the review layer: human checking is the cost the rulebook is designed to shrink.
+
+### The 2×2 that decides whether a niche works
+
+**Already outsourced?** × **Is there a checkable right answer?** Build in the top-right; skip *"in-house and judgment-heavy"* because *"that's a job, not a business."* The verifiability axis is [[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11|jessy's *"surface area of verifiable things"*]] arrived at independently nine days later, as a market-entry filter rather than a capability claim.
+
+### Receipts and the worked example
+
+**Harvey** ~$100M → $190M ARR in ~5 months; **EvenUp** ~$500/demand letter against 8-12 associate hours, past $50M revenue; **Kick** bookkeeping at $300-500/month, half a human bookkeeper's price, **>70% gross margins**. Worked example: home-health note review at **$2/note**, ~2,000 notes/month per agency, **fifty agencies ≈ $2.4M/year run by one person**.
+
+*(All three company figures are asserted without citation and were not verified; the $100B headline and the $4.6T services figure are both unsourced. Isenberg promotes his own idea service throughout.)*
+
+### Why this doesn't collapse into "a cheaper agency"
+
+> *"Most people building 'AI agencies' point the AI at production and leave everything else the way it was."*
+
+The overhead around the work — scoping calls, account management, manual QA — is what made agencies bad businesses. Collapsing it (intake→form, scope→menu, quality→rulebook, account management→dashboard) is the actual move, and matches the [[mardehaym-implementation-firm-vs-consultancy-2026-09-15|billable-day critique]] from five days earlier.

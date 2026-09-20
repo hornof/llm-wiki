@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-16
+last_updated: 2026-09-20
 ---
 
 ## What This Is
@@ -82,6 +82,16 @@ He agrees with Levels on the mechanism (moats erode as engineering cost falls) a
 | Vernal | an entire buying center, won by scale | mid-sized point solutions consolidate or die |
 
 Note that Vernal's and Levels's predictions are **compatible in outcome** — both end with the middle gone — while disagreeing completely about who eats it.
+
+### A path, not just a position — service as the wedge (Isenberg, 2026-09-20)
+
+[[gregisenberg-ai-native-services-100b-guide-2026-09-20]] adds the thing the three positions above all lack: **a sequence**. Rather than arguing about which layer is durable, it proposes climbing them — **do the work by hand for five customers → write down every mistake → productize → *only if you want to*, turn it into software** — *"with a business paying you at every rung, instead of raising money to guess."*
+
+That partly dissolves the Isenberg-vs-Vernal disagreement recorded above. Vernal says own a whole buying center; Isenberg's wedge is how you'd get there without the capital to start there. It does **not** answer [[pieter-levels|Levels]] — a rulebook built over a few hundred jobs is still something a frontier lab could replicate if it chose the vertical — but it names what the lab would have to replicate, which the earlier framing did not.
+
+**The strongest specific claim** is that the durable asset is the **rulebook**: *"the written list of what 'correct' means in your niche and every way the AI gets it wrong,"* accumulated one mistake at a time. That is a concrete, inspectable answer to *what exactly is the domain knowledge* — a question this page has carried since it was filed without one.
+
+He also names the enterprise version as the same play: *"the forward-deployed engineer model… is a service used as the wedge into an enterprise. It's how the winners get in the door."* → [[forward-deployed-engineer]]
 
 ## Open Objections
 

@@ -2,10 +2,13 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-07-31
+last_updated: 2026-09-20
 ---
 
 ## Definition
+
+> [!update] Claude Code supports `AGENTS.md` alongside `CLAUDE.md` (2026-09-18)
+> Thariq Shihipar via [[simon-willison|Willison]] ([[dailybrief-roundup-2026-09-20]]): project-level instruction files without requiring a folder-level `CLAUDE.md`. Small feature, notable direction — **the vendor-specific instruction file gains a vendor-neutral sibling**. Same interoperability pressure the wiki tracked when `mattpocock/skills` and `bruin-data/dac` shipped for both Claude Code and Codex: the *content template* this page describes is proving portable across vendors even where the filename isn't. Worth watching whether the neutral name becomes the default and this page's subject becomes a dialect of it. → [[claude-code]], [[skill-md]]
 
 **CLAUDE.md** is a per-project configuration file at a repository root that gives [[claude-code]] persistent context and behavioral instructions across sessions — equivalent to a system prompt for a codebase. The "CLAUDE.md pattern" is the practitioner-evolved discipline of treating this file not as a configuration dump but as a **behavioral contract**: each rule should answer the question *"what specific mistake does this prevent?"*
 

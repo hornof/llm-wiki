@@ -2,7 +2,7 @@
 name: Forward-Deployed Engineer (FDE)
 type: concept
 maturity: emerging
-last_updated: 2026-09-13
+last_updated: 2026-09-20
 ---
 
 ## Definition
@@ -52,6 +52,9 @@ Captured here as the **most substantial single-author FDE artifact surfaced to d
 *(Primary not fetched — captured from brief summaries. The specific patterns Ganesh names are verification-pending and worth a read-through given the owner's role lane.)*
 
 ## Related Concepts
+
+> [!note] FDE as a market wedge, not only a delivery model (2026-09-20)
+> [[gregisenberg-ai-native-services-100b-guide-2026-09-20]] names the FDE pattern as the enterprise instance of a general play: *"the forward-deployed engineer model, an engineer embedded with the customer who builds instead of advises, is a service used as the wedge into an enterprise. It's how the winners get in the door."* The reframe is useful — this page has described FDE as a *staffing* and *delivery* shape, and this positions it as a **go-to-market instrument**, with the small-scale version being an [[ai-native-service-companies|AI-native service]] in a niche you know. Relevant to the owner's role lane from both sides: the job, and the business it is a wedge for.
 - [[engineering-leadership-ai-era]] — the FDE is the in-demand counterpart to the CTO/VPE-exodus squeeze; the "role closer to IC/manager" that's *"never been more valuable"* (Eno Reyes)
 - [[ai-native-organizations]] / [[reverse-information-paradox]] — the last-mile-deployment gap is why owning your org's "alpha" (workflows/context/evals) is the durable asset
 - [[ai-labor-market-impacts]] — the MIT 95%-no-impact study is the macro datapoint underneath the role
