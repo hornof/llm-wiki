@@ -6,6 +6,9 @@ url:
 ingested: 2026-07-26
 ---
 
+> [!note] Roundup — no URL by design (checked 2026-09-21)
+> A `_raw` batch roundup (see title), so it is a cross-reference index into other source pages and correctly has no URL. It escaped the lint's roundup exemption only because its **slug does not start with `raw-batch-`**. Exemption rule widened to match on content rather than slug prefix — see `CLAUDE.md` rule 3a.
+
 ## Summary
 
 Roundup of the net-new `_raw/` drops synced 2026-07-24 → 07-26 (no Daily Brief for these — Obsidian Web Clipper captures). Dominant theme: the **graph-engineering** turn succeeding [[loop-engineering]]. Secondary: [[buzz]] shared-compute discourse, an [[claude-opus-5|Opus 5]] graphics demo, and a practitioner **context-engineering** essay. The graph-engineering anchor has its own page: [[akshay-pachaar-graph-engineering-explainer-2026-07-25]].

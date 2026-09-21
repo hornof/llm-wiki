@@ -344,6 +344,7 @@ Most source pages are reachable from the entity pages they updated. These few ar
 - [[dailybrief-research-roundup-2026-05-14]] — research-item roundup, 2026-05-14 brief
 - [[raw-batch-roundup-2026-08-14-skillsmap]] — batch capture, AI Engineering Skills Map window
 - [[reddit-20-notebooklm-prompts-image-2026-05]] — image-only source; prompts never transcribed, recorded as a circulation-pattern signal only
+- [[openai-5pct-equity-donation-us-sovereign-wealth-fund-2026-07-02]] — OpenAI 5% equity-donation item; no entity page links it, reachable only from the archived log until now
 
 ### Recent ingests
 

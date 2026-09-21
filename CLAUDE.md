@@ -276,6 +276,15 @@ When given a new source:
    **Run both greps.** The filename form is authoritative, but it has two known blind spots: (a) `"2026-09-10.md"` does not match inside `"2026-09-10-neutral.md"`, so same-day variants need their own check; (b) the filename-verbatim rule in step 6 only began partway through 2026-05, so briefs before roughly 2026-05-13 are not traceable by filename even though they were processed — for those, grep the bare date and confirm against `sources/`.
 
    If a hit is returned, the brief has already been processed — surface that to the owner and stop. If no hit, proceed.
+
+   **For `_raw` drops, grep `sources/` — not `log.md`.** Filename-grep works for Daily Briefs because step 6 mandates recording brief filenames verbatim. It does **not** work for `_raw` drops, which are logged by their *source-page slug* (`sources/jev-typesafe-system-one-model-2026-09-18`), never by the raw filename (`Jev Clearly Explained.md`). Grepping `log.md` for a raw filename returns zero hits for processed drops and will make you re-ingest them.
+
+   ```bash
+   ls sources/ | grep -i "<distinctive-token>"     # does a covering source page exist?
+   grep -rl "<author-handle-or-url>" sources/       # or match the handle / original URL
+   ```
+
+   **Do not trust `_raw` mtimes as a recency signal** — iCloud sync rewrites them, so already-processed files routinely surface as "new." *(Both failure modes hit on 2026-09-21: five drops looked net-new and unprocessed; all five were already ingested.)*
 1. Save the raw content to `_raw/<slug>.<ext>`.
 2. Create or update `sources/<slug>.md`.
 3. Identify all entity references: tools, models, concepts, people, companies.
@@ -320,11 +329,22 @@ When asked to lint or health-check the wiki:
    *Introduced 2026-09-20, when the stale count reached 31 and was growing ~1/week. Applying the test: **31 of 31 dormant, 0 actually behind.** The whole count was honest dormancy being reported as rot, which made the real signal unreadable.*
 
    **Match on word boundaries, not substrings.** The first run of this test reported 2 pages "behind"; both were artifacts — `River` matched inside *driver*, and `LangChain` matched loosely. Use `(?<![\w-])name(?![\w-])` plus an explicit `[[slug]]` / `[[slug|` wikilink count, and check what the hit actually says: the one surviving match for `River` was a passing category listing, not new information about the entity.
-2a. **Work the open-question backlog.** Rank entity pages carrying unresolved markers (`verification-pending`, `open question`, `remains unclear`, `unconfirmed`, `insufficient detail`, `not yet …`) by `last_updated`, take the oldest ~15, and check whether **the wiki has since answered them elsewhere**. Resolve in place with a date; leave genuinely open ones alone.
+2a. **Work the open-question backlog — and count it correctly.**
 
-   *Why this exists:* ingest step 5a only catches questions the current source happens to answer, which is a narrow slice — the marker count rose from 110 to 114 across five ingests under 5a alone. The three most consequential defects found in September 2026 — the `claude-mythos` naming contradiction, the `cursor`/`anysphere` split, and `spacex` describing an announced merger as a rumour for three months — were **all stale open questions the wiki had already answered on another page**, and none was reachable by 5a. Most of the backlog needs a primary fetch and is not resolvable this way; the sweep is for the minority that is.
+   **Two different things look alike here, and only one is debt:**
+
+   - **Inline provenance caveats** — `(Willison-surfaced; primary not fetched)`, `(Secondary reporting; terms not captured)`, `(vendor figures, unvalidated)`. These are the **sourcing discipline working as designed** and every fold should carry one where it applies. **Never count these as a backlog and never "resolve" them by deleting them.** ~107 exist and that is a healthy number, not a problem.
+   - **Tracked open questions** — items inside a dedicated `## Verification-pending` or `## Open Questions` section. **These are the backlog.** ~163 items across ~83 pages as of 2026-09-21.
+
+   Sort by **value, not age**: benchmark and capability claims the wiki actively cites are worth a primary fetch; contact handles and bios are not, and should be deleted rather than carried as open items. Check whether **the wiki has already answered it elsewhere** before reaching for the web — that is the cheap win, and it is how the `claude-mythos`, `cursor`/`anysphere` and `spacex` defects were all found.
+
+   *Why this exists:* ingest step 5a only catches what the current source happens to answer. The three most consequential defects of September 2026 — the `claude-mythos` naming contradiction, the `cursor`/`anysphere` split, and `spacex` describing an announced merger as a rumour for three months — were **all stale open questions the wiki had already answered on another page**, and none was reachable by 5a.
+
+   *Measurement warning, learned the hard way:* this number was mis-measured in **four consecutive lint passes** — first with an over-broad regex (111 vs 95, comparing two different patterns), then by counting **pages** rather than questions, then by counting bare section headers as questions while missing the real questions underneath them, and throughout by **counting inline provenance caveats as debt**. Count items inside the two named section types. Do not report a page count.
 3. Check that every `sources/` page lists at least one updated entity page. **Exempt by design**: `dailybrief-roundup-*` and `raw-batch-roundup-*` (cross-reference indexes into other source pages), and any source whose page explicitly records *why* it updated nothing — e.g. an image-only clipping with untranscribed content. A source that honestly documents having no entity value is correctly authored, not a defect. *(Rule relaxed 2026-09-20; the strict version produced 4 false positives out of 8 flags.)*
-3a. **Check every `sources/` page whose `medium` implies a URL actually has one** (`article`, `twitter-thread`, `reddit-post`, `podcast-episode`, `video`, `paper`, `github-repo`). An unsourced page cited as a primary is worse than a missing page. Note when grepping frontmatter: `^url:\s*(\S+)` **matches across newlines** in multiline mode, so an empty `url:` silently picks up the next key — use `^url:[^\S\n]*(\S+)`.
+3a. **Check every `sources/` page whose `medium` implies a URL actually has one** (`article`, `twitter-thread`, `reddit-post`, `podcast-episode`, `video`, `paper`, `github-repo`). An unsourced page cited as a primary is worse than a missing page.
+
+   **Two legitimate exemptions** — annotate the page and move on rather than "fixing" it: **roundups** (match on the page being a cross-reference index, *not* on a `raw-batch-` slug prefix — `graph-engineering-cluster-2026-07-26` is a roundup whose slug is not), and **locally-authored artifacts** such as synthesis PDFs written for study, which have no external URL by design. For those, leave `url:` empty and record `local_source: "_raw/<file>"`. Note when grepping frontmatter: `^url:\s*(\S+)` **matches across newlines** in multiline mode, so an empty `url:` silently picks up the next key — use `^url:[^\S\n]*(\S+)`.
 4. Check that every `tools/` page has a non-empty Traction Signals section.
 5. Flag any contradictions found across pages (e.g., tool listed as `emerging` in one place and `mainstream` in another).
 6. Scan `_raw/` for files not referenced by any `sources/` page — flag as unprocessed drops or deletable empties.
