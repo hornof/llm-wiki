@@ -3,10 +3,12 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-09-08
+last_updated: 2026-09-21
 ---
 
 ## Who They Are
+
+- **Import AI 473 (2026-09-21)** ([[dailybrief-roundup-2026-09-21]]): the **US superintelligence strategy**; a human brain in a mouse skull; and machine hermeneutics. *(Digest-level; issue not fetched.)*
 
 Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor of **Import AI**, a weekly Substack newsletter that has been one of the most-cited AI-policy + research-synthesis newsletters since 2017 (predates Anthropic). Clark's beat is the **intersection of AI capability and policy**: he reads heavily on the technical side and translates the implications for regulators, economists, and lab leadership. The Import AI archive functions as a structured weekly log of research and policy news, with Clark's editorial framing on what each item *means*.
 

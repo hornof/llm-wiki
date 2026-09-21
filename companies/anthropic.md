@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 ## What It Is
@@ -84,6 +84,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+
+- **2026-09-21: IPO delayed to November; ~$2T expected valuation; and the revenue figure is a *pace*** ([[dailybrief-roundup-2026-09-21]], Digg + Axios): the IPO window shifts **October → November 2026**, at an expected **~$2 trillion** valuation, potentially raising **up to $100B**, following OpenAI's similar postponement. Separately and more load-bearing: **Axios clarifies the reported "$100B revenue pace" is an annualized run-rate, not booked sales** — an earlier investor forecast put that threshold at year-end. Also reported: **seat-plus-usage enterprise pricing could "double or triple costs for frequent enterprise users."*
+  > The revenue clarification matters beyond this page. The wiki recorded an unresolved tension on 09-20 — [[openai|OpenAI]] at ~$40B claimed revenue against Anthropic's $65B annualized, the lower-valued lab reporting the larger number — and flagged that the two figures might not be comparable. **They are not.** See [[ai-margin-collapse]]. *(IPO timing, valuation and pricing all reported/speculative; the Axios clarification is the citable part.)*
 - **2026-09-17/20 — Life Sciences Verification Program; and a reported counter-Astra release** ([[dailybrief-roundup-2026-09-20]]): (a) the **Life Sciences Verification Program** (anthropic.com) continues the pattern of packaging Claude for regulated verticals ([[alberta-government-claude-cybersecurity-2026-07-06|cf. government/cyber]]). (b) Anthropic is **reportedly considering a new Claude variant to counter [[gpt-6-astra|GPT-6 Astra's]] momentum**, amid IPO speculation (Digg). Record this against [[dario-amodei|Amodei's]] 09-12 pacing advocacy: **publicly arguing for a slowdown while reportedly preparing a competitive release** is precisely the stated-versus-revealed gap that led this wiki to decline scoring "pacing the frontier" as change. Not a contradiction yet — a reported consideration is not a release — but it is the thing to watch. *(Reported/speculative; no model, date or confirmation.)*
 - **2026-09-17 — Claude Cowork merged into the main interface; Docs and Slides ship in beta** ([[dailybrief-roundup-2026-09-17]], Digg): Claude now **routes queries automatically** instead of making users pick a surface, and adds **Claude Docs** and **Claude Slides** with export, sharing and simultaneous editing (Pro/Max first). Two moves in one: a separate product folded back into the assistant, and a direct entry into collaborative document editing. See [[claude-cowork]]. *(Rollout announcement; adoption unmeasured.)*
 
