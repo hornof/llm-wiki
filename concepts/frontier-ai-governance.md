@@ -19,7 +19,13 @@ Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]],
 
 **Update to the section below, which declined to score the pacing announcements as change until a dated commitment appeared.** Three days later there are several [[dailybrief-roundup-2026-09-15]]:
 
-- **AEF-1** — a shared **evaluation standard for third-party evaluators**, with **xAI, OpenAI and Anthropic** converging on the same spec (AINews/Latent Space). The first **named, versioned artifact** in this thread, and the one worth tracking, because a versioned spec can be checked against later. *(Spec contents not fetched; "converge" is the brief's reading of a summary.)*
+- **AEF-1** — a shared **evaluation standard for third-party evaluators**, with **xAI, OpenAI and Anthropic** all signing on (AINews/Latent Space).
+  > **Corrected 2026-09-20 by web lookup — three things the brief-level reading got wrong**, and they matter for how this whole cluster reads:
+  > 1. **AEF-1 is not lab-authored.** It was published by the **[AI Evaluator Forum](https://aievaluatorforum.org/initiatives/minimum-operating-conditions)**, an external body, and the labs signed on. This wiki repeatedly characterised the September cluster as *"entirely voluntary and vendor-authored."* **Voluntary, yes. Vendor-authored, no — not this one.**
+  > 2. **It predates the cluster by nine months** (version dated **2025-12-04**). The news is not that a standard was created; it is that *"the labs showed up to it."* It was already in use by evaluators — **METR** (frontier-risk report, May 2026), **Transluce** (August 2026), **SecureBio** (September 2026) — and endorsed by the **European AI Office** for GPAI Code of Practice compliance. That METR is on that list connects it to [[anthropic|Anthropic's own METR review]].
+  > 3. **The five pillars are specific and checkable**: *sufficient access and resources* (incl. compute, time, safe harbour), *minimized conflicts of interest*, *analytic autonomy* (scoping, direct access, editorial control), *transparent methods and results* (publication rights, **no contingent release**), and *protection of sensitive information*. [[dario-amodei|Amodei]] committed to giving auditors **physical office access and company equipment**; OpenAI matched the embedded-evaluator pledge.
+  >
+  > **And the counter-current the briefs did not carry**: on 2026-09-18, **100+ AI experts signed a public letter** arguing OpenAI and Anthropic need *truly* independent evaluators with **unfiltered access and legal protection** — i.e. that signing AEF-1 is not sufficient. The optimistic and skeptical readings below both stand; this is the organised version of the skeptical one.
 - **A reported AI standards body** under discussion by Anthropic, Google and OpenAI (CNN). The institutional form of [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Hassabis's July FINRA-style proposal]] — now three labs in discussion rather than one CEO's architecture.
 - **Multi-week inter-lab safety talks confirmed** (TechCrunch, 09-15). Duration established; scope and outcomes not.
 - **Microsoft's draft "Humanist AI Code of Conduct"** — 37 pages, open for public feedback: models stay **subordinate to humans**, under meaningful control, and **never resist shutdown or correction**; autonomous cyberattacks and consciousness claims prohibited. A fourth vendor, and the most concrete published text of the week. → [[microsoft]]
@@ -28,7 +34,7 @@ Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]],
 
 That inverse relationship is the thing to watch. Self-coordination is accelerating **because** regulation is not, which is the standing failure mode of self-regulatory bodies: the standard is written by the parties it binds, at the moment they most want to avoid one written by someone else.
 
-**Next falsifiable checkpoint**: does AEF-1 get a published spec, named third-party evaluators, and a lab that fails against it?
+**Next falsifiable checkpoint** *(updated 2026-09-20 — two of three already met)*: the spec is published and evaluators are named (METR, Transluce, SecureBio). **What remains untested is the only part that bites: a lab failing against it, and what follows.** The 100+-expert letter argues the access and legal-protection conditions are not yet real enough for that to happen.
 
 **Day-nine update (2026-09-16)** ([[dailybrief-roundup-2026-09-16]]). Two additions that cut in opposite directions:
 

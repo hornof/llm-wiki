@@ -1,15 +1,22 @@
 ---
-title: "Block: The Company as an Intelligence"
+title: "From Hierarchy to Intelligence"
 type: source
 medium: article
-url:
+url: https://sequoiacap.com/article/from-hierarchy-to-intelligence
 ingested: 2026-04-26
-published:
+published: 2026-03-31
 ---
+
+> [!warning] Provenance corrected 2026-09-20
+> This page carried the title **"Block: The Company as an Intelligence"** with **no URL, no date and no byline** from ingest on 2026-04-26 until 2026-09-20 — while being listed in `index.md` under *Foundational primary sources* and cited as the primary for [[ai-native-organizations]] by three entity pages.
+>
+> **That title was invented.** The `_raw` clipping is a bare body paste that ends mid-sentence on *"…a company organized as an intelligence rather than"* — the title appears to have been constructed from that fragment. Found by the source-URL lint check added 2026-09-17; resolved by web lookup.
+>
+> **Actual publication**: *"From Hierarchy to Intelligence"* by **Roelof Botha** (Sequoia) and **Jack Dorsey** (Block), published **2026-03-31**, on [sequoiacap.com](https://sequoiacap.com/article/from-hierarchy-to-intelligence) and [block.xyz](https://block.xyz/inside/from-hierarchy-to-intelligence). The summary below was accurate throughout; only the identifying metadata was wrong.
 
 ## Summary
 
-Essay (likely Sequoia-published, co-authored with Block leadership) tracing 2,000 years of organizational design history and arguing that AI has finally broken the underlying constraint — span of control — that has forced every large organization into hierarchy. Block describes its own restructuring around AI "world models" as the first real alternative to hierarchical information routing. Three roles replace traditional management: ICs, DRIs, and player-coaches.
+Essay by [[jack-dorsey|Jack Dorsey]] and Sequoia's Roelof Botha, published by Sequoia and Block, tracing 2,000 years of organizational design history and arguing that AI has finally broken the underlying constraint — span of control — that has forced every large organization into hierarchy. Block describes its own restructuring around AI "world models" as the first real alternative to hierarchical information routing. Three roles replace traditional management: ICs, DRIs, and player-coaches.
 
 ## Key Claims / Takeaways
 

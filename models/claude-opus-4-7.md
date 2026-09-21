@@ -4,6 +4,7 @@ type: model
 provider: Anthropic
 status: available
 last_updated: 2026-07-10
+dormant_since: 2026-09-20
 ---
 
 > [!note] Lint refresh — 2026-07-10 (superseded as default, but still Active)

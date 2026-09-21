@@ -1,8 +1,8 @@
 ---
 name: Anysphere (Cursor)
 type: company
-status: acquisition-announced-close-unconfirmed
-last_updated: 2026-09-14
+status: acquired (SpaceX, closed 2026-08-14)
+last_updated: 2026-09-20
 ---
 
 > [!note] Merged page
@@ -12,17 +12,17 @@ last_updated: 2026-09-14
 
 **Anysphere** (founded 2022, San Francisco) is the company behind **Cursor**, the AI-first code editor that became the canonical practitioner-tier AI-coding-product surface through 2025-2026. Valued at **$29.3B as of April 2026** on **$3.3B raised**; listed on the Forbes 2026 AI 50.
 
-Since 2026-06-16 it has been the announced target of a **[[spacex|SpaceX]] $60B all-stock merger** — see the deal timeline, which is the part of this page most likely to be out of date.
+**Acquired by [[spacex|SpaceX]] in a $60B all-stock merger that closed 2026-08-14**, and now a wholly owned subsidiary. See the deal timeline below.
 
 ## The SpaceX deal — dated progression
 
-**Status as of 2026-09-14: announced, close unconfirmed.** Recorded as a progression rather than a single claim, because the wiki previously held two incompatible versions of it on two pages.
+**Status: CLOSED 2026-08-14.** *(Verified by web lookup 2026-09-20. The wiki carried "close unconfirmed" for five weeks after the deal had actually closed — the projected-close row was treated as an open tracking item when the answer was public. A reminder that "no news" is not evidence of no event; the wiki only knows what was ingested.)* Recorded as a progression rather than a single claim, because the wiki previously held two incompatible versions of it on two pages.
 
 | Date | Claim | Standing |
 |---|---|---|
 | **2026-06-07** | SpaceX–Cursor acquisition **rumor**, from a comment-thread aside — *"I guess that's why SpaceX decided to acquire them…"* Bundled with two other unverified claims: Cursor valuation **$60B** (vs the $29.3B April figure) and revenue-per-employee *"exceeding Goldman Sachs + Google + Apple combined."* | Speculative. No mainstream-press corroboration captured. — [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07]] |
 | **2026-06-16** | **$60B all-stock merger announced**, projected **Q3 2026 close**. Reported in the 06-16 Daily Brief as confirming and quantifying the Jun 7 rumor. | The strongest surface the wiki holds. Primary deal terms not fetched. — [[spacex-cursor-anysphere-60b-merger-microsoft-cowork-usage-pricing-2026-06-16]] |
-| **Q3 2026** | Projected close. | **Nothing captured.** The projected close window has now arrived and the wiki has no record of whether the deal closed, slipped, or collapsed. **Open tracking item.** |
+| **2026-08-14** | **CLOSED.** SpaceX finalized the all-stock acquisition, confirmed via **SEC Form 8-K**. Subsidiary **X67 Inc.** merged directly into Anysphere; Cursor's common and preferred stock converted into **~389.3M SpaceX shares** (~391M Class A issued in total including assumed RSUs and options). Cursor now operates as a **wholly owned subsidiary**, reportedly folded into a **"SpaceXAI"** division. | **Confirmed** — [SEC 8-K via Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/spacex-completes-record-60-billion-131311785.html), [CNBC (June announcement)](https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html). *Verified by web lookup 2026-09-20.* |
 
 > [!warning] What went wrong here, kept as a worked example
 > For three months the wiki asserted both versions at once. `companies/anysphere` (updated 06-16) stated the merger as fact with `status: acquisition-target`. `companies/cursor` was updated **two weeks later, on 07-01**, and still described the deal as a *"VERIFICATION-CRITICAL"* rumor, never mentioning the 06-16 announcement — so the later-edited page was the staler one. Meanwhile [[codex|tools/codex]] asserted a flat *"Acquired by SpaceX"*, past tense, for a deal that had only been announced. Found by the contradiction sweep in `meta/lint-report-2026-09-13.md`.

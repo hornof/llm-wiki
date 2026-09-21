@@ -4,6 +4,7 @@ type: model
 provider: Thinking Machines Lab
 status: available
 last_updated: 2026-07-16
+dormant_since: 2026-09-20
 ---
 
 ## What It Is

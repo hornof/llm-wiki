@@ -3,7 +3,7 @@ name: Codex
 type: tool
 category: cli
 status: mainstream
-last_updated: 2026-08-18
+last_updated: 2026-09-20
 ---
 
 ## What It Is
@@ -24,7 +24,7 @@ Verification-pending — Codex specific deployment-pattern + integration-tier (V
 
 Pairs structurally with:
 - [[claude-code|Claude Code]] — direct vendor-side competitive-product (Anthropic vs OpenAI AI-coding-product comparison)
-- [[anysphere|Cursor / Anysphere]] — $60B SpaceX all-stock merger **announced** 2026-06-16, projected Q3 2026 close, **close unconfirmed**; Codex competes at AI-coding-product-tier
+- [[anysphere|Cursor / Anysphere]] — $60B SpaceX all-stock merger **closed 2026-08-14** (announced 06-16; SEC 8-K); Codex competes at AI-coding-product-tier
 - [[ona]] — OpenAI persistent-cloud-agents acquisition (Jun 16); pairs as **first wiki-captured OpenAI 2-event Jun 16-17 AI-coding-and-agent-platform extension cluster** (Codex open-source-routing + Ona acquisition)
 - [[goose]] — Block's open-source agent framework; Codex now configurable to run on open-source-model-routing (potentially including Goose-routable open-weights)
 - [[claude-fable-5]] — practitioner-vocabulary "Ultracode Max = poor man's fable" canonical-framing post-suspension demonstrates Codex + Ultracode-Max as post-Fable-suspension practitioner-substitution cluster
@@ -35,7 +35,7 @@ Pairs structurally with:
 |---|---|---|---|
 | **Codex** | OpenAI | **Yes (Jun 17 open-source-routing)** | **Strong** (4/4 picks) |
 | [[claude-code]] | Anthropic | No | Strong but losing-ground per Jun 16 |
-| [[anysphere|Cursor]] / Anysphere | SpaceX merger announced Jun 2026; close unconfirmed | Partial (Origin, Git-for-AI-agents) | Strong but acquisition-distorted |
+| [[anysphere|Cursor]] / Anysphere | **Acquired by SpaceX**, closed 2026-08-14 | Partial (Origin, Git-for-AI-agents) | Strong but acquisition-distorted |
 | GitHub Copilot | Microsoft | No | Legacy |
 
 ## Resources

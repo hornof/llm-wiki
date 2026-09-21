@@ -4,6 +4,7 @@ type: model
 provider: OpenAI
 status: available
 last_updated: 2026-06-29
+dormant_since: 2026-09-20
 ---
 
 ## What It Is
