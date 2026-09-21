@@ -3,10 +3,12 @@ name: Akshay Pachaar
 type: person
 affiliation: Independent (AI/ML educator)
 signal_sources: [twitter]
-last_updated: 2026-07-26
+last_updated: 2026-09-20
 ---
 
 ## Who They Are
+
+- **Explains Jev — and corrects its vendor's central claim (2026-09-18)** ([[jev-typesafe-system-one-model-2026-09-18]]): his explainer of [[jev|TypeSafe's Jev]] is the wiki's only independent voice on it, and the valuable part is that he refuses the marketing. TypeSafe says the model *cannot hallucinate*; Pachaar: *"Jev cannot return an option outside the schema… But it can confidently choose the wrong valid option. Type safety prevents invalid shapes. It does not guarantee correct judgment."* His replacement wording — *"Jev cannot break the declared output schema, but it can still be wrong"* — is what the wiki now carries. Also supplies the framing for the whole category: *"language generation is the wrong interface when code already knows the possible answers."*
 
 @akshay_pachaar on X. Independent AI/ML educator and explainer-thread author. Posts on LLMs, AI agents, and machine learning patterns. Functions as a synthesizer who takes Anthropic / Cloudflare / OpenAI primary publications and distills them into reference-grade practitioner threads with concrete numbers.
 

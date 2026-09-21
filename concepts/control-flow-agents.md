@@ -2,7 +2,7 @@
 name: Control Flow for Agents
 type: concept
 maturity: emerging
-last_updated: 2026-05-07
+last_updated: 2026-09-20
 ---
 
 ## Definition
@@ -28,6 +28,16 @@ Counter-positioning voice in the practitioner conversation; not yet a dominant p
 ## What This Argument Does Not Provide
 
 The Brian / bsuh post is conceptual — no code patterns or framework recommendations. The argument is a stake-in-the-ground rather than an implementation guide. Watch for follow-up posts and any framework consolidation around this idea.
+
+## The argument shipped as a model — Jev (2026-09-20)
+
+This page records the practitioner argument that **deterministic code should hold the control flow while the model supplies judgment**. [[jev|Jev]] is a vendor building exactly that as a product ([[jev-typesafe-system-one-model-2026-09-18]]): typed questions in, a **probability distribution over caller-declared options** out, with the branching left in the caller's code.
+
+TypeSafe's framing is this page's thesis stated as a manifesto — AI as *"a primitive that any programmer can invoke for semantic judgement and decisions, while still using code for what it's best at: exact computation."* Or, more memorably: *"Computers can do so much by just branching on bits, imagine if they could also branch on common sense, understanding, and intent."* They acknowledge the lineage — *"the dream of neuro-symbolic AI… sometimes cheekily summarized as 'smart if-statements.'"*
+
+**What it adds that the pattern alone did not**: returning **probabilities rather than answers** makes the control-flow decision explicit and reviewable. A ticket that comes back `billing` at 0.52 against `technical` at 0.46 is a different instruction to your code than a bare `"billing"` — and a single-label API hides the difference. The threshold pattern that follows (act / confirm / escalate to a human, by confidence band, with the thresholds living in code) is the practical output.
+
+**The caveat belongs here too**: schema-bounded is not correct. *"Type safety prevents invalid shapes. It does not guarantee correct judgment."* And the whole approach rests on calibration that has not been demonstrated.
 
 ## Related Concepts
 

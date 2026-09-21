@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-17
+last_updated: 2026-09-20
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -135,6 +135,10 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 4. **Deterministic URLs as a bug-repro primitive** — every view is a URL, so *"when I found a visual bug I pasted the link into the chat and Fable reproduced the exact frame headlessly and bisected it."*
 
 **Mechanism 4 is the novel one** and generalizes past graphics. It closes the **observability gap** between a human looking at output and an agent that cannot see it: rather than describing a defect in prose — which is where the [[dailybrief-roundup-2026-09-08|Danluu finding]] says agents lose the thread — the human hands over an address the agent can re-enter exactly, and the loop closes on the same artifact both parties observed. **Any domain that can make its state addressable gets the same property.** Note also that the human role reduces to precisely what a verifier cannot supply: reviewing all 92 PRs, flying the app as a user to find the bugs worth fixing, and *"everything that needed an opinion."*
+
+**The judgment calls inside the loop get their own model — [[jev|Jev]] (2026-09-20).** [[jev-typesafe-system-one-model-2026-09-18]] targets a cost this page has not named: an agent run *"can contain many calls that require judgment but no generated prose"* — choose a tool, judge a result, detect risk, decide whether the task is done, pick the next model. Each currently goes to a generative model that emits tokens sequentially for a one-word answer.
+
+Jev returns **typed answers with probabilities** instead, and the pattern it enables is the part relevant here: **act / confirm / escalate by confidence band, with thresholds in code** — *"a dashboard label may tolerate a weak prediction. A command that deletes data should require a much higher bar."* That is the [[#Push-back primitive — "loop with something that can say no"|push-back primitive]] with a dial rather than a switch, and it is the same instinct as [[croovies-loop-orchestrator-mission-note-2026-09-10|routing by task complexity]] applied per-decision rather than per-session. **Contingent on calibration**, which is named but unevidenced.
 
 **Pre-action verification — checking before the agent acts (arXiv 2609.11957, 2026-09-14).** *"Look Before You Leap: Pre-Action Verification for LLM Agents"* ([[dailybrief-roundup-2026-09-15]]) proposes **cheap deterministic checks run before an action executes**, to catch silent failures rather than detect them afterwards. Structurally this is the same move as [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies's plan-review-before-any-code-exists law]] — push the gate **upstream of generation** — now as a general agent-loop primitive rather than one operator's house rule. Complements the post-hoc verifier this section describes: McDonald's *"design the verifier"* asks whether the output was right; this asks whether the action should be attempted. *(arXiv preprint, not independently evaluated.)*
 
