@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-09-17
+last_updated: 2026-09-21
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-09-17
 Meta (formerly Facebook) is a US technology company operating Facebook, Instagram, WhatsApp, Messenger, and Meta AI. Wiki-tracked primarily for its **AI deployment surface** (Meta Business Agent, Meta AI consumer-product across WhatsApp + Instagram) and the structurally-significant **cross-vendor agentic-exfiltration pattern** it has surfaced in.
 
 ## Recent Activity
+
+- **2026-09-21: [[amazon]] blocks Muse from shopping on its site** ([[dailybrief-roundup-2026-09-21]]) — four days after launch. The **first real test of an agent holding spending authority**, and it failed at the largest retail surface. The [[dailybrief-roundup-2026-09-20|Muse launch note]] flagged that payments moved the agent-autonomy risk surface to money; this shows the *other* constraint — not safety, but **whose customer relationship it is**. A purchasing agent is only as capable as the platforms that let it through the door. *(Reported; no Meta response captured.)*
 
 - **2026-09-17: Muse — a proactive personal AI agent** ([[dailybrief-roundup-2026-09-17]], Digg): sends emails, books travel and **makes purchases via Stripe**, running on a **dedicated secure VM**, with free and paid tiers at roughly **$20–100/month**, across iOS, Android, web and WhatsApp. The most consumer-facing agent launch the wiki has captured. **The payments integration is the notable part** — an agent holding spending authority moves the [[ai-vulnerability-discovery|agent-autonomy risk surface]] from data and code to money, which is the category [[loop-engineering|the DashClaw governance pattern]] human-gates deliberately. *(Launch announcement; no adoption or safeguard detail.)*
 

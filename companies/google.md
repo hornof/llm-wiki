@@ -3,7 +3,7 @@ name: Google
 type: company
 sector: AI / cloud infrastructure / search / hardware
 status: incumbent + frontier-lab parent
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 ## What It Does

@@ -2,10 +2,12 @@
 name: KV Cache Optimization
 type: concept
 maturity: active-research
-last_updated: 2026-05-25
+last_updated: 2026-09-21
 ---
 
 ## Definition
+
+- **Elastic Threshold Attention — learned contextual sparsity (arXiv 2609.20888, 2026-09-21)** ([[dailybrief-roundup-2026-09-21]]): a **trainable** sparsity method for long-context decoding, with hardware-accelerated gains claimed. Notable for where the learning sits: rather than a fixed heuristic for what to keep in cache, the threshold itself is learned per context. *(Preprint; claims not independently verified.)*
 
 Techniques for compressing or selectively retaining the key-value (KV) cache that transformer-based LLMs accumulate during inference. As context length grows, the KV cache dominates memory and bandwidth costs, becoming the binding constraint on long-context inference latency and serving cost. Optimization work falls into three rough families: **quantization** (lower-bit representations of cached K/V tensors), **eviction** (dropping tokens that contribute least to downstream attention), and **head-wise budgeting** (allocating bits or token-slots non-uniformly across attention heads based on per-head importance).
 

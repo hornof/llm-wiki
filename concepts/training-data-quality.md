@@ -2,7 +2,7 @@
 name: Training Data Quality
 type: concept
 maturity: active-research
-last_updated: 2026-09-13
+last_updated: 2026-09-21
 ---
 
 ## Definition
@@ -61,6 +61,12 @@ The bind is specific and worth stating plainly: the same week, OpenAI needs math
 *(Secondary reporting; letter text and signatory list not fetched.)*
 
 ## Strategic Implication
+
+### Recursive contamination reaches peer review (arXiv 2609.20942, 2026-09-21)
+
+*"When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation"* ([[dailybrief-roundup-2026-09-21]]): a controlled study of review feedback loops finding that **model-generated peer reviews enter the training corpora of later models**.
+
+Worse target than the scraping and SEO-spam items above, and for a specific reason: **peer review is the filter everything downstream trusts.** Web text being polluted degrades a noisy input. The review corpus being polluted degrades **the mechanism that decides what counts as established**, and the damage is self-reinforcing — each generation's reviews become the next generation's standard for what a good review looks like. Pairs with the [[dailybrief-roundup-2026-09-03|Perplexity manufactured-SEO citation]] finding as the same failure at the certification layer rather than the retrieval layer. *(Preprint; not independently replicated.)*
 "Data quality is the actual constraint. The companies winning the next phase will be the ones who figured out what to train on, and what to throw away." — @aakashgupta — [[thread-aakashgupta-1b-model]]
 
 ## Related Concepts

@@ -3,10 +3,12 @@ name: Qwen
 type: model
 provider: Alibaba
 status: available
-last_updated: 2026-08-27
+last_updated: 2026-09-21
 ---
 
 ## What It Is
+
+- **2026-09-21: Qwen-Image-2.1 open-sourced** ([[dailybrief-roundup-2026-09-21]], Digg): a **unified 7B model for image generation *and* editing** — text-to-image, local editing, transparent output — with weights on Hugging Face and ModelScope. Routine cadence for this team, and consistent with the [[ai-margin-collapse|param-efficiency-as-release-hygiene]] pattern the wiki tracked with Qwen3.8-Flash-Next: **one small model covering two capabilities that usually ship separately.** *(Release announcement; no benchmarks captured.)*
 
 **Qwen** is [[alibaba|Alibaba]]'s open-weight large-language-model family (the **Qwen3** generation is the wiki's canonical anchor), one of the leading **Chinese open-weights frontier** model lines tracked alongside [[glm-5-2|GLM-5.2]] ([[z-ai|Z.ai]]), DeepSeek ([[deepseek]]), and Kimi ([[moonshot-ai|Moonshot AI]]).
 
