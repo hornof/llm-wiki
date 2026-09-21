@@ -42,7 +42,8 @@ Anchors the **RSI-skepticism corner** of the 4-leg bracketed-trajectory framewor
 
 ## Verification-pending
 
-- **Specific Jeffries credentials / affiliation** — X bio not deeply fetched; broader background (prior writing, books, lab affiliations) verification-pending
+*Contact details are not tracked as open questions (lint 2026-09-21) — a missing X handle is a lookup, not research debt. Removed rather than carried.*
+
 - **Specific Anthropic-side response** to the critique (Marina Favaro / Jack Clark / Holden Karnofsky) — pattern-watch
 - **Specific LeCun-side longer-form articulation** of the critique — LeCun's reply is X-only; no LeCun blog post or paper directly addressing Jeffries's frame
 - **Quantitative bottleneck estimates** — Jeffries's frame is qualitative; no specific time-constants or multiplicity-thresholds quantified

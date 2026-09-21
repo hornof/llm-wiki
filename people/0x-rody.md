@@ -38,7 +38,8 @@ rody (@0x_rody on X) is an independent practitioner-content register voice publi
 
 ## Verification-pending
 
-- Full identity / X-bio context
+*Contact details are not tracked as open questions (lint 2026-09-21) — a missing X handle is a lookup, not research debt. Removed rather than carried.*
+
 - Whether 0x_rody = [[zodchii]] (same person two X handles) — shared Telegram channel `t.me/zodchixquant` is the load-bearing evidence; pattern-watch for verification
 - If distinct from zodchii: co-collaborator relationship + how the channel is jointly operated
 - Whether 0x_rody is the *"Anthropic engineer"* attribution zodchii applied in May 31 amplification (per [[zodchii]] Notable Takes section) — verification-pending

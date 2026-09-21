@@ -33,7 +33,8 @@ Victor Taelin is an **independent open-source creator** best known pre-AI for **
 
 ## Verification-pending
 
-- Taelin's specific Twitter / X handle (verification-pending; HVM project context only captured)
+*Contact details are not tracked as open questions (lint 2026-09-21) — a missing X handle is a lookup, not research debt. Removed rather than carried.*
+
 - Taelin's specific stated affiliation (independent / HVM-funded / consulting?)
 - Taelin's broader practitioner-content register voice beyond the 2 wiki-captured surfaces — does he publish on blog / Substack / X regularly?
 - Whether Taelin's GPT-5.5 hardcoding-incident has been corroborated by other practitioners or remains single-source
