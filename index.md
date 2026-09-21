@@ -242,7 +242,7 @@
 - [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
-- [[anysphere]] — **Anysphere (Cursor)**; AI-first code editor; $3.3B raised, $29.3B valuation (Apr 2026); competes with Claude Code and Codex — i.e. with the labs it depends on. SpaceX $60B all-stock merger **announced 2026-06-16, projected Q3 2026 close, close unconfirmed**; would complete a SpaceX 3-layer AI stack (compute substrate + xAI frontier model + coding product). Merged with the former `cursor` page at lint 2026-09-14.
+- [[anysphere]] — **Anysphere (Cursor)**; AI-first code editor; $3.3B raised, $29.3B valuation (Apr 2026); competes with Claude Code and Codex — i.e. with the labs it depends on. **Acquired by SpaceX** — $60B all-stock merger closed 2026-08-14 (SEC 8-K); now a wholly owned subsidiary; would complete a SpaceX 3-layer AI stack (compute substrate + xAI frontier model + coding product). Merged with the former `cursor` page at lint 2026-09-14.
 - [[eureka-labs]] — Karpathy's AI-native education company; founded 2024
 - [[github]] — Microsoft subsidiary; Copilot operator + dev-platform-side response to agentic-coding-driven velocity-vs-review mismatch (Daigle)
 - [[microsoft]] — canonical-multi-decade-pedigree canonical-technology-vendor + canonical-Azure-hyperscaler + canonical-largest-single-OpenAI-investor + canonical-Anthropic-Foundry-availability + canonical-Microsoft-AI-division; canonical-Jul-2 canonical-Frontier-Co canonical-named-company canonical-launch + canonical-$2.5B canonical-AI-deployment-company canonical-commitment (canonical-4-vendor canonical-AI-deployment-infrastructure canonical-parallel-strategy canonical-cluster with Amazon + OpenAI + Anthropic); canonical-Nadella-Frontier-ecosystem-not-just-frontier-model canonical-CEO-tier canonical-strategic-thesis + canonical-de-Freitas canonical-Microsoft-AI-VP canonical-research-methodology canonical-layer (June-July 2026)
@@ -305,7 +305,7 @@
 - [[karpathy-llm-wiki-gist]] — Karpathy's original gist; risks, schema evolution, tool stack, alternatives (primary source)
 - [[lecun-path-autonomous-machine-intelligence]] — Yann LeCun's 2022 paper; primary source for [[world-models]] and JEPA architecture
 - [[hamming-you-and-your-research]] — Richard Hamming's 1986 Bellcore talk; primary source for [[doing-great-work]]
-- [[block-organizational-intelligence]] — Block/Sequoia essay; primary source for [[ai-native-organizations]]
+- [[block-organizational-intelligence]] — *"From Hierarchy to Intelligence"*, Roelof Botha (Sequoia) + Jack Dorsey (Block), 2026-03-31; span-of-control as the 2,000-year constraint AI finally breaks; primary source for [[ai-native-organizations]]
 - [[bloomberg-feifei-li-2025]] — primary source for World Labs / spatial-intelligence updates ([[fei-fei-li]], [[world-labs]])
 - [[karpathy-lecun1989-33-years]] — Karpathy's 2022 essay; states the [[software-3-0]] thesis 4 years before naming it; "10,000,000X-sized neural net megabrain" projection
 

@@ -4,6 +4,7 @@ type: tool
 category: api
 status: emerging
 last_updated: 2026-07-08
+dormant_since: 2026-09-20
 ---
 
 ## What It Is

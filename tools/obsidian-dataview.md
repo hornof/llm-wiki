@@ -4,6 +4,7 @@ type: tool
 category: ide-extension
 status: mainstream
 last_updated: 2026-06-29
+dormant_since: 2026-09-20
 ---
 
 ## What It Is

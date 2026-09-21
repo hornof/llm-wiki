@@ -311,7 +311,15 @@ When asked a question about the wiki:
 When asked to lint or health-check the wiki:
 
 1. Scan for orphan pages (no inbound wikilinks).
-2. Scan for stale `last_updated` dates (>60 days) on tool/model pages — flag for refresh.
+2. Scan for stale `last_updated` dates (>60 days) on tool/model pages — **but split them before reporting.** A page is only *stale* if the wiki has fallen behind; if the entity simply hasn't done anything, the old date is honest.
+
+   Test: does the entity appear in any `sources/` page from the **last 45 days**? If **no** → **dormant**, add `dormant_since: YYYY-MM-DD` to its frontmatter and exclude it from the stale count. If **yes** → genuinely **behind**; flag for refresh.
+
+   **A dormant page re-enters the stale count automatically the moment the entity resurfaces**, which is the owner's standing rule ("refresh only when the entity resurfaces") expressed as tooling rather than as a habit. Clear `dormant_since` when you refresh the page.
+
+   *Introduced 2026-09-20, when the stale count reached 31 and was growing ~1/week. Applying the test: **31 of 31 dormant, 0 actually behind.** The whole count was honest dormancy being reported as rot, which made the real signal unreadable.*
+
+   **Match on word boundaries, not substrings.** The first run of this test reported 2 pages "behind"; both were artifacts — `River` matched inside *driver*, and `LangChain` matched loosely. Use `(?<![\w-])name(?![\w-])` plus an explicit `[[slug]]` / `[[slug|` wikilink count, and check what the hit actually says: the one surviving match for `River` was a passing category listing, not new information about the entity.
 2a. **Work the open-question backlog.** Rank entity pages carrying unresolved markers (`verification-pending`, `open question`, `remains unclear`, `unconfirmed`, `insufficient detail`, `not yet …`) by `last_updated`, take the oldest ~15, and check whether **the wiki has since answered them elsewhere**. Resolve in place with a date; leave genuinely open ones alone.
 
    *Why this exists:* ingest step 5a only catches questions the current source happens to answer, which is a narrow slice — the marker count rose from 110 to 114 across five ingests under 5a alone. The three most consequential defects found in September 2026 — the `claude-mythos` naming contradiction, the `cursor`/`anysphere` split, and `spacex` describing an announced merger as a rumour for three months — were **all stale open questions the wiki had already answered on another page**, and none was reachable by 5a. Most of the backlog needs a primary fetch and is not resolvable this way; the sweep is for the minority that is.

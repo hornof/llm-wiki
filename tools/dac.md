@@ -4,6 +4,7 @@ type: tool
 category: framework
 status: emerging
 last_updated: 2026-07-15
+dormant_since: 2026-09-20
 ---
 
 > [!update] Lint refresh — 2026-07-15
