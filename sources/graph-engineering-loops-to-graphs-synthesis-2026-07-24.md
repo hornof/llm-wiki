@@ -3,8 +3,12 @@ title: "From Loops to Graphs — independent synthesis (Karpathy autoresearch �
 type: source
 medium: paper
 url:
+local_source: "_raw/Graph-Engineering-Athropic-Karpathy-Loop.pdf"
 ingested: 2026-07-27
 ---
+
+> [!note] No external URL by design (checked 2026-09-21)
+> This is a **locally-authored synthesis PDF**, not a published paper — `_raw/Graph-Engineering-Athropic-Karpathy-Loop.pdf`, still present. `url:` is correctly empty; `local_source:` records where it lives. Flagged by the source-URL lint check and **cleared, not fixed** — the `medium: paper` typing is what draws the flag, and the alternative (`medium: article`) would be less accurate. See `CLAUDE.md` lint rule 3a for the exemption.
 
 ## Summary
 

@@ -2,9 +2,12 @@
 title: "Open Weights and American AI Leadership — industry coalition open letter (2026-07-24)"
 type: source
 medium: paper
-url:
+url: https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf
 ingested: 2026-07-27
 ---
+
+> [!note] Source URL recovered 2026-09-21 (lint)
+> Ingested 2026-07-24 from a local PDF with no URL recorded. Recovered and **verified**: the document is hosted by NVIDIA at [images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf](https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf). Confirmed the same document by extracting page 1 of both the local copy and the fetched file — identical title, date (July 24, 2026) and opening paragraph. *(The hosted file is larger, 783KB vs 258KB locally; likely a re-render rather than a different version, but the local copy may be truncated — re-fetch if signatory details matter.)*
 
 ## Summary
 
