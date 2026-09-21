@@ -1,7 +1,7 @@
 ---
 name: Agentic AI
 type: topic
-last_updated: 2026-05-16
+last_updated: 2026-09-20
 ---
 
 ## What It Is
@@ -108,7 +108,9 @@ Same-week convergent practitioner-content piece [[sairahul1-solo-founder-13-agen
 - **Evaluation gap (Gergely Kovács)**: *"Nobody evaluates the sub-agents. And nobody will evaluate the work of the sub-sub-agents ever."*
 - **Microservices analogy** lands independently across three commenters: same operational-cost arc as the 2015–2020 microservices renaissance and correction. svpino himself walks back the headline framing in the thread (*"I'm overindexing on using them now, but I'm sure I'll find the proper balance"*) — current practitioner posture, not settled position.
 
-### Internal Org-Design Signal: Cursor (May 2026, verification-pending)
+### Internal Org-Design Signal: Cursor / Anysphere (May 2026, verification-pending)
+
+*Canonical home is now [[anysphere]] (the `cursor` page was merged into it at lint 2026-09-14); the claims below are duplicated there with the same caveats.*
 
 [[av1dlive-cursor-1m-agent-orchestrator-2026-05-15]] surfaces a Cursor-CEO-video claim that **Cursor pays engineers $1.1M/year to run teams of AI agents that ship code while they sleep**. Three structural bullets: (1) engineers manage dozens of parallel agent colleagues each on its own remote machine, (2) *validation contract before code, not after — humans only at scoping and review*, (3) full planning → coding → testing → shipping loop with agents specialized by role (Specialist-Team pattern). **Primary not captured** — no Cursor exec quoted directly; flag as practitioner-content-secondary pending verification. The *job-title shift* (engineer-who-codes → engineer-who-runs-agents) is the second wiki-captured framing of this pattern this week alongside Khairallah and sairahul1.
 

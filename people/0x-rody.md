@@ -1,10 +1,13 @@
 ---
 name: rody (@0x_rody)
 type: person
-affiliation: independent; Telegram channel `t.me/zodchixquant` (shared with @zodchii — verification-pending whether same person)
+affiliation: independent; Telegram channel `t.me/zodchixquant` (shared with @zodchii — distinct people, see note)
 signal_sources: [twitter, telegram]
-last_updated: 2026-06-08
+last_updated: 2026-09-20
 ---
+
+> [!note] Same person as [[zodchii]]? — resolved 2026-09-20 (lint)
+> This page carried *"verification-pending whether same person"* for 104 days while the answer sat on the other page. [[zodchii]] records **amplifying and attributing** @0x_rody's 5-template subagent guide ([[rody-5-subagent-templates-2026-05-31]]) — you do not credit your own post to yourself in the third person. **Strong evidence they are distinct people** who share a Telegram channel and a similar dense-walkthrough register. Not conclusive (co-authors do amplify each other), but well past "pending", and the two pages should be read as separate voices.
 
 ## Who They Are
 
@@ -29,7 +32,7 @@ rody (@0x_rody on X) is an independent practitioner-content register voice publi
 ## Where to Follow
 
 - X: [@0x_rody](https://x.com/0x_rody)
-- Telegram: [`t.me/zodchixquant`](https://t.me/zodchixquant) — shared channel with [[zodchii]] (verification-pending whether same person)
+- Telegram: [`t.me/zodchixquant`](https://t.me/zodchixquant) — shared channel with [[zodchii]]; **distinct people** (resolved at lint 2026-09-20 — see note at top)
 - Wiki sources: [[rody-claude-code-slash-command-library-2026-06-07]], [[rody-5-subagent-templates-2026-05-31]]
 - Related: [[zodchii]] (same-Telegram-channel; verification-pending same-person or co-collaborators)
 
