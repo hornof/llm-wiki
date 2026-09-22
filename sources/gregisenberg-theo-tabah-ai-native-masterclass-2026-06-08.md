@@ -98,7 +98,8 @@ ingested: 2026-06-08
 
 - Greg Isenberg + Theo Tabah full identities — both entity-page candidates
 - @meetLCA full identity — acronym + consultancy
-- The 60-minute YouTube episode primary not fetched (`youtube.com/watch?v=LztPaNmcWGU`)
+- **Episode identified 2026-09-21, still not transcribed.** Confirmed title: **"Become AI Native in less than 60 mins"** (`youtube.com/watch?v=LztPaNmcWGU`, Greg Isenberg channel). Secondary coverage adds what Isenberg's own X summary left out — **Theo opens his actual workflows on screen**: a working prototype, an auto-generated client-proposal microsite, and a **live usability test synthesised into a V2 within the same session**. Those demos, not the 9-point framework, are the part the wiki is missing.
+  **Still open:** YouTube pages do not fetch usefully (SPA shell) and the podcast transcript hosts returned 403. **A transcript would need the audio.** Downgraded from "primary not fetched" to "identified, transcript unobtained" — the distinction matters, because the episode is no longer unidentified, just unread.
 - Specific Theo Tabah prior work — "advising the world's biggest companies on AI"
 - Specific @startupideaspod prior wiki-captured surfaces — pattern-watch for podcast becoming wiki-tracked surface
 - Whether Greg-side 9-point framework engages with [[ashwingop|Ashwin Gopalan / Sentra Company Brain]] framings directly

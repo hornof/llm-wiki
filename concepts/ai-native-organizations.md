@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-08-26
+last_updated: 2026-09-21
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -36,6 +36,23 @@ Three roles replace the traditional pyramid: ICs (specialists), DRIs (cross-cutt
 ## Note on "World Model" Terminology
 
 This concept uses "world model" to mean an AI-maintained operational picture of a company. This is distinct from [[world-models]] in the LeCun/ML sense (predictive models of physical reality using JEPA architecture). The terminology overlaps but the referents differ.
+
+## An agent org chart, three levels deep (Allie K. Miller, 2026-08-12)
+
+The most concrete single-operator instance this page holds ([[isenberg-allie-miller-ai-native-company-2026-08-12]], *Startup Ideas Podcast* with [[greg-isenberg|Isenberg]] and Sahil Bloom): **34 AI agents**, an **AI chief of staff called "Simon"**, and **six director-level agents** — with the human **three levels above** them.
+
+**The interesting part is the shape, not the count.** [[block-organizational-intelligence|"From Hierarchy to Intelligence"]] argues AI *dissolves* the span-of-control constraint that forced hierarchy in the first place — the company world model replaces what middle managers did. Miller does the opposite: she **rebuilds the hierarchy out of agents**, same layers, same information-routing function, non-human occupants. Both are "AI-native"; they are structurally opposite answers, and this page had only the dissolution side.
+
+Which one generalises is now a real open question rather than a rhetorical one. The dissolution case assumes routing is the thing to eliminate; Miller's assumes routing is the thing to automate.
+
+Mechanisms worth carrying:
+
+- **"Do smart things"** — a three-word core prompt resting on heavy accumulated context. Thin instruction is affordable when the [[company-brain|context substrate]] is rich.
+- **Daily dictated diaries**, to capture what never reaches formal channels — the *getting-signals-in* function solved by narration.
+- **"AI watchdogs"** flagging duplicate work and scheduling conflicts — the predictable failure of 34 agents with overlapping remits, handled with more agents rather than coordination overhead. Compare [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies]], who uses a supervisor plus a SQLite ticket table for the same problem.
+- **"Build the factory before the product"** — reusable primitives first, so later launches accelerate. [[domain-specific-harness|Harness-as-the-asset]] as a sequencing rule.
+
+*(Podcast summary; no transcript obtained, audio not fetched. Self-reported and unaudited — 34 agents is a headcount, not a result, and no output or quality measure is attached.)*
 
 ## Copilot vs. Rebuild (Dorsey Signal, April 2026)
 
