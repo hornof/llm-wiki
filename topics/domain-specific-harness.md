@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 ---
 
 ## What This Is
@@ -92,6 +92,16 @@ That partly dissolves the Isenberg-vs-Vernal disagreement recorded above. Vernal
 **The strongest specific claim** is that the durable asset is the **rulebook**: *"the written list of what 'correct' means in your niche and every way the AI gets it wrong,"* accumulated one mistake at a time. That is a concrete, inspectable answer to *what exactly is the domain knowledge* — a question this page has carried since it was filed without one.
 
 He also names the enterprise version as the same play: *"the forward-deployed engineer model… is a service used as the wedge into an enterprise. It's how the winners get in the door."* → [[forward-deployed-engineer]]
+
+### "Harness and model agnostic" — the layer above the argument (Ras Mic, 2026-09-14)
+
+[[rasmic-software-factory-isenberg-2026-09-14]] sidesteps the whole dispute on this page. Mic's **software factory** is *"a workflow, a set of skills, and domain knowledge, packed into markdown files"* — and he is emphatic that it is **completely harness and model agnostic**. The section title is the thesis: **"A Software Factory Is Markdown Files."**
+
+[[pieter-levels|Levels]] says the labs absorb the harness. [[omarsar0-should-you-build-a-harness-2026-09-12|Saravia]] says you must own it or accept vendor lock-in. **Mic's answer is that the valuable layer sits above both** — portable markdown that runs on any model and any harness, so absorption and lock-in are both beside the point. He aims this directly at the vendors: *"there's been a lot of like startups who have started… but a software factory is completely harness and model agnostic."*
+
+**Which is either the strongest answer on this page or a redefinition.** If the durable asset is a portable workflow rather than an integration, then Levels's absorption argument loses its target — a lab shipping "Claude Medical" does not eat your markdown. But it also concedes most of what the harness thesis claimed was defensible: the plumbing is commodity, and what remains is **written-down domain process**, which is closer to [[gregisenberg-ai-native-services-100b-guide-2026-09-20|Isenberg's "rulebook"]] than to a product.
+
+That convergence is worth noting on its own. Isenberg's rulebook (*"what 'correct' means in your niche and every way the AI gets it wrong"*) and Mic's factory (*"a workflow… packed into markdown files"*) were described on the same podcast six days apart, and they are the same asset seen from the market side and the engineering side.
 
 ## Open Objections
 

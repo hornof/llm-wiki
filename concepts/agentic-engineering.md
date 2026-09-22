@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-17
+last_updated: 2026-09-22
 
 ---
 
@@ -19,6 +19,19 @@ Karpathy asserts the speedup from skilled agentic engineering is well beyond 10x
 **Spec-clarity is the newly load-bearing skill (2026-07-30, [[raw-batch-roundup-2026-07-30-pt2]])**: Dax Raad (@thdxr) argues the leverage is now total — *"you now have the ability to play with every possible solution… refactor everything when you think of better patterns; if you're not producing the best software of your life right now something is wrong."* Ben Dickson names the corresponding skill shift: engineers *"used to start with vaguely defined goals and gradually crystallize"* the problem while exploring; AI coding agents instead require **clearly defining problems, goals, and all requirements up front** — front-loaded specification, not exploratory crystallization. This is the same behavioral pivot the [[claude-md-pattern]] and [[context-engineering|progressive-disclosure]] threads describe, restated as the individual-engineer skill: the bottleneck moves from *writing* to *specifying + judging*.
 
 **Counter-nuance — the spec is disposable ([[matt-pocock|Matt Pocock]], "grill-driven development", 2026-08-01, [[raw-batch-roundup-2026-08-02]])**: Pocock pushes back on lumping his skills under *spec-driven development* (SDD). In his approach the specs are *"intended to be deleted immediately — not kept around, or treated as source code."* The spec is *"just a projection of the decisions made during grilling"* — the value is the **interrogation** (the model grilling you into clarity), not the artifact it emits. He proposes **"grill-driven development (GDD)"** for it (vs. Birgitta Boeckeler's "spec-first," which she still files under SDD). The sharpening: front-loaded clarity matters (Dax/Dickson), but the durable asset is the *decisions*, not a persisted spec document — consistent with the [[claude-md-pattern|"keep it lean, structure over prose"]] discipline (don't hoard the spec as a long living rulebook).
+
+## A software factory, end to end (Ras Mic, 2026-09-14)
+
+The section below records OSS projects shifting to "agent software factories" as a governance move. [[rasmic-software-factory-isenberg-2026-09-14]] supplies **what one actually contains**: **isolate → build → prove → ship**.
+
+- **Isolate** — a fresh git worktree per feature, branched from `origin/main`, so parallel agents never collide.
+- **Build** — a *code structure* skill enforcing service-layer architecture, explicitly so the output stays readable by a hired human: *"Models get the job done, and they often get it done in a sloppy way, so the skill supplies the guideline."*
+- **Prove** — before/after state captured as video, screenshots or numbers.
+- **Ship** — Greptile scores the PR; the agent loops back until **5/5**.
+
+**This is the quality bar implemented as a pipeline rather than asserted as a principle**, and the build step is the notable one for this page: the constraint is not correctness but *readability by a future human*, encoded as a reusable skill. Claimed scale is **15 features in parallel**, with the operator reviewing **visual proof instead of diffs** — which is the [[#From line-review to outcome-validation|line-review → outcome-validation]] shift with a concrete artifact attached.
+
+*(Self-reported; no defect rate, no throughput measure. See [[loop-engineering]] for the verification mechanism and [[developer-productivity-measurement]] for what is still missing.)*
 
 ## OSS governance shifts to agent software factories ("PRs NOT Welcome", 2026-09-03)
 

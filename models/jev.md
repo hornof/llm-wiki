@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 ---
 
 ## What It Is
@@ -74,6 +74,10 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 - **[[loop-engineering]]** — Jev targets the judgment calls inside the loop, not the loop itself.
 
 ## Community Sentiment
+
+**Independent surfaces arrive within a week (2026-09-21/22)** ([[dailybrief-roundup-2026-09-22]]): [[simon-willison|Willison]] writes *"Jev introduces a new shape of LLM"*; Latent Space runs *"Jev: System One models for Prod, not God"* with TypeSafe CEO Diogo Almeida; and Willison ships **`llm-typesafe 0.1a0`**, adding Jev to the LLM CLI.
+
+**These validate attention, not calibration.** This page's central caveat — that calibration is the entire product and no reliability data exists — is untouched by a plugin and two write-ups. Note the manifesto's *"Build Prod, Not God"* framing has become the Latent Space headline, which is adoption of the *positioning* as much as the model.
 
 Limited and early. [[akshay-pachaar|Pachaar's]] explainer notes the reaction was *"unusually strong for a model that cannot hold a conversation"* — and is also the source of the sharpest correction on the record, pushing back on the no-hallucination claim. No independent evaluation captured.
 

@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-09-21
+last_updated: 2026-09-22
 ---
 
 ## What It Is
@@ -84,6 +84,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-09-22: China reportedly probes DeepSeek and Moonshot over data leaks *to* Anthropic** ([[dailybrief-roundup-2026-09-22]], Digg) — **the inverse of the claim on this page**. On 2026-09-10 Anthropic publicly detailed **distillation campaigns run against it** by Alibaba, Moonshot and DeepSeek. Now the same two labs are under investigation by their own government for leaking data **in the other direction**.
+  > Both accounts cannot be the whole picture and **the wiki is not resolving them**. Candidates, none verified: two distinct flows; one data movement characterised oppositely by opposing jurisdictions; or positioning on one or both sides. The structural point is the durable one — *who took what from whom* between US and Chinese labs is now a contest between **regulators**, with each side's version arriving through its own press. Both dates recorded; neither preferred. → [[deepseek]], [[frontier-ai-governance]]
 
 - **2026-09-21: IPO delayed to November; ~$2T expected valuation; and the revenue figure is a *pace*** ([[dailybrief-roundup-2026-09-21]], Digg + Axios): the IPO window shifts **October → November 2026**, at an expected **~$2 trillion** valuation, potentially raising **up to $100B**, following OpenAI's similar postponement. Separately and more load-bearing: **Axios clarifies the reported "$100B revenue pace" is an annualized run-rate, not booked sales** — an earlier investor forecast put that threshold at year-end. Also reported: **seat-plus-usage enterprise pricing could "double or triple costs for frequent enterprise users."*
   > The revenue clarification matters beyond this page. The wiki recorded an unresolved tension on 09-20 — [[openai|OpenAI]] at ~$40B claimed revenue against Anthropic's $65B annualized, the lower-valued lab reporting the larger number — and flagged that the two figures might not be comparable. **They are not.** See [[ai-margin-collapse]]. *(IPO timing, valuation and pricing all reported/speculative; the Axios clarification is the citable part.)*

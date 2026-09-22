@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 ---
 
 ## Who They Are
@@ -38,6 +38,9 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 - **"The only businesses left to build" — 13 categories (2026-09-12)** ([[gregisenberg-agents-api-aws-moment-vertical-wedge-2026-09-10]]): AI-native service firms; offline businesses; distribution; proprietary datasets; **domain-specific harnesses** (*"the agent that runs one industry's work"*); robotics/physical AI; physical products with a fan following; compute and energy; health/longevity/care; marketplaces and social networks **for people and agents**; real assets; **vertical agents**; security. A replier's fair objection stands unanswered: *"item 5 and item 12 are the exact same pitch deck with different valuation multiples."* Isenberg links his own `ideabrowser.com` in-thread — weight the framing, discount the urgency.
 
 - **"AI-native services: a $100B opportunity" (2026-09-20)** ([[gregisenberg-ai-native-services-100b-guide-2026-09-20]]): his fullest operational piece, and the one that puts numbers behind item #1 of his own "only businesses left to build" list. Core premise: *"A business pays about $10,000 a year for QuickBooks. It pays about $120,000 a year for the accountant who uses QuickBooks."* The eight pieces (unit / intake / engine / rulebook / review layer / delivery / pricing / distribution) and the **already-outsourced × checkable-right-answer 2×2** are the transferable parts. **The rulebook is his best idea** — *"the written list of what 'correct' means in your niche and every way the AI gets it wrong,"* built one mistake at a time — a concrete answer to what "domain knowledge" actually is. Detail at [[ai-native-service-companies]]. *(Harvey/EvenUp/Kick figures asserted without citation; the $100B is underived; promotes his own idea service throughout.)*
+
+- **"Building a Software Factory that actually works" with Ras Mic (2026-09-14)** ([[rasmic-software-factory-isenberg-2026-09-14]]): the wiki's **first Isenberg video source with a full transcript**, and the most complete end-to-end agentic-delivery pipeline it holds — isolate / build / prove / ship. Isenberg's own contribution is the framing that makes it land: he maps the four steps onto a physical plant (custom order → station, assembly line, **quality control**, shipping), and Mic says he may rename his skills to match. See [[loop-engineering]] and [[domain-specific-harness]].
+- **Hosts the concrete AI-native-org receipts, not just the frameworks** ([[isenberg-allie-miller-ai-native-company-2026-08-12]], 2026-08-12): his *Startup Ideas Podcast* episode with **Allie K. Miller** is where the wiki's sharpest agent-org-chart datapoint came from — 34 agents, an AI chief of staff, six director-level agents, human three levels up. **Worth noting for sourcing:** all eight prior Isenberg sources here are X threads or an article; his podcast is a separate and denser channel that the wiki had not been capturing. See [[ai-native-organizations]].
 
 ## Where to Follow
 
