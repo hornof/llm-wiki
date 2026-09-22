@@ -2,7 +2,7 @@
 name: DeepSeek
 type: company
 status: active
-last_updated: 2026-09-13
+last_updated: 2026-09-22
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-09-13
 Chinese AI lab, one of the canonical **Chinese open-weights frontier vendors** the wiki tracks alongside [[z-ai|Z.ai]], [[qwen|Qwen]] (Alibaba), and [[moonshot-ai|Moonshot AI]]. Known for the **DeepSeek-V3** and **DeepSeek-R1** open-weight model lines, which established the "credible open-weights peer at a fraction of frontier price" pattern that now anchors the [[ai-margin-collapse|AI-margin-collapse]] thesis.
 
 ## Recent Activity
+
+- **2026-09-22: reportedly under investigation by Chinese regulators over data leaks to [[anthropic]]** ([[dailybrief-roundup-2026-09-22]], Digg), alongside [[moonshot-ai|Moonshot]]. Directly inverts the 2026-09-10 story in which **Anthropic accused DeepSeek** of running distillation campaigns against it. See [[anthropic]] for why the wiki records both without resolving them. *(Secondary reporting of a reported probe — no filing, no official statement, no detail on what data.)*
 
 - Referenced across the wiki's **Chinese-open-weights frontier-vendor cluster** — see [[z-ai]]'s comparison of GLM-5.2 vs DeepSeek-V3 / Qwen3 / Kimi K2.6. Surfaced repeatedly in the June 2026 Chinese-open-weights / political-AI clusters ([[chinese-openweights-political-ai-jun-18-cluster-2026-06-18]], [[jun-19-open-source-research-origin-cluster-2026-06-19]]) and Fable-5-vs-local-models pieces ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]).
 - DeepSeek-R1's reasoning-model open release is a recurring reference point for the open-vs-closed-frontier debate. *(Specific 2026 model/version details verification-pending — page created from the wiki's cross-reference cluster; primaries not individually fetched.)*

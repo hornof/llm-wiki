@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-09-21
+last_updated: 2026-09-22
 ---
 
 ## Definition
@@ -49,6 +49,7 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
   **This is the sharpest counter on this page to its own neocloud thread.** [[dylan-patel|Dylan Patel's]] *"everything's a neocloud"* argues applied-AI companies converge on compute reselling because that is where the revenue is. If the pure-play neoclouds are selling below cost to service datacentre debt, **the convergence is toward a loss-making business**, and the historical rhyme Patel himself offered — late-90s companies all becoming search engines, then dying — reads less like a warning about the cull and more like a description of the destination. *(Q2 results via secondary reporting; no figures captured. CoreWeave and Nebius have no wiki pages — create-candidates.)*
 - **"Annualized revenue" confirmed as not-a-comparable-quantity (2026-09-21)** ([[dailybrief-roundup-2026-09-21]], Axios): Anthropic's reported **"$100B revenue pace" is an annualized run-rate, not booked sales** — an earlier investor forecast put that threshold at *year-end*. **This resolves the direction of yesterday's tension**, where [[openai|OpenAI's ~$40B claimed revenue]] against Anthropic's $65B annualized had the lower-valued lab reporting the larger figure. The page flagged that the two might not be measuring the same thing; they are not. **Every revenue multiple on this page should be read as run-rate-on-run-rate at best**, and cross-company comparisons treated as unreliable until the basis is stated.
 - **Alphabet's off-books guarantees, with figures (2026-09-21)** ([[dailybrief-roundup-2026-09-21]]): **$43.8B guaranteed in six months**, including **$27B of new data-centre lease guarantees**, with **under 2% reaching the balance sheet**. Puts numbers on [[dailybrief-roundup-2026-09-20|the ~$300B item]]. The brief's read: *"That's not accounting — that's a bet the AI arms race doesn't reverse before the leases mature."* → [[google]]
+- **A 1T open-weights model for ~$3M — Xiaomi MiMo-V2.6-Pro (2026-09-22)** ([[dailybrief-roundup-2026-09-22]], Latent Space): a new top open-weights model at **1T total / A42B active**, with a reported **~$3M training cost**. If the figure holds it is the cheapest credible frontier-adjacent training run the wiki has captured, and it pushes the open-weights floor — the precondition Alderson's thesis needs — down again. *(Benchmarks unclear; $3M unverified and exactly the kind of number that gets quoted without a basis — cf. the annualized-revenue problem above.)*
 - Track: independent GLM-vs-Opus benchmarks; whether frontier labs cut inference prices in response; open-weights adoption in production; whether compute spot-prices climb toward Dwarkesh's labor-anchored equilibrium; whether the routing/decision layer ([[stripe|Stripe/OpenRouter]]) captures the margin the model layer loses; whether post-training scaling (GLM 5.3 thesis) lowers the barrier to an open frontier peer; whether the neocloud convergence (Dylan Patel) culls the way the search-engine wave did.
 
 ## Key Papers / Posts

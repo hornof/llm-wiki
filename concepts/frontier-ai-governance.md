@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 ---
 
 ## Definition

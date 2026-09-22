@@ -2,10 +2,12 @@
 name: AI Engineering Skills
 type: concept
 maturity: emerging
-last_updated: 2026-08-25
+last_updated: 2026-09-22
 ---
 
 ## Definition
+
+- **a16z launches a $42M AI school (2026-09-22)** ([[dailybrief-roundup-2026-09-22]]): with **Anthropic, OpenAI, Google, Meta, NVIDIA, Anduril and Replit** participating. The brief's read is the one to keep — *"isn't really about education. It's a supply-chain play."* Read against [[ai-labor-market-impacts|Andrew Ng's curriculum-lag argument]] (a committee, a senate vote, then a year or two, against a market reshaping every few months): **this is what the capital does when it stops waiting for the institution.** Whether a vendor-funded pipeline produces engineers or customers is the open question. Also the first item the wiki has captured where those seven sit on the same side of anything. *(Announcement; curriculum, structure and admissions unstated.)*
 
 **AI Engineering Skills** are the capabilities every developer now needs to build software in the post-2022 way — codified most authoritatively by **[[andrew-ng|Andrew Ng]]'s "AI Engineering Skills Map"** ([[andrew-ng-ai-engineering-skills-map-2026-08-14]], 2026-08-14), synthesized from **10,000+ job postings**, dozens of structured hiring-manager/expert interviews, and surveys. Ng frames these as *skills*, not the *"AI Engineer" role* — the way "cloud skills" are needed by all developers though few hold a "Cloud Engineer" title: *"all developers — full-stack, data, DevOps, ML, and yes AI engineers — will need AI engineering skills."*
 

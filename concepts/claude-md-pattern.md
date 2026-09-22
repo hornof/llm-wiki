@@ -2,10 +2,17 @@
 name: CLAUDE.md Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 ---
 
 ## Definition
+
+> [!important] "Fill it with workflow, not facts" (Ras Mic, 2026-09-14)
+> The sharpest correction this page has received, and it lands the same week Claude Code shipped `AGENTS.md` support (below). [[rasmic-software-factory-isenberg-2026-09-14]]:
+>
+> *"Most people fill it with facts the agent already reads from the code base. He fills his with a workflow instead."*
+>
+> The instruction file's job is to supply **what the codebase cannot state** — the order of operations, the standards, the definition of done — not to restate what the agent can already read. Much of the wiki's own template stack is facts-shaped, so this is a testable claim against it. His factory encodes the workflow as skills: a *new feature* skill that opens a git worktree, a *code structure* skill that enforces service-layer architecture, a *prove* step, and a scored ship gate. See [[loop-engineering]].
 
 > [!update] Claude Code supports `AGENTS.md` alongside `CLAUDE.md` (2026-09-18)
 > Thariq Shihipar via [[simon-willison|Willison]] ([[dailybrief-roundup-2026-09-20]]): project-level instruction files without requiring a folder-level `CLAUDE.md`. Small feature, notable direction — **the vendor-specific instruction file gains a vendor-neutral sibling**. Same interoperability pressure the wiki tracked when `mattpocock/skills` and `bruin-data/dac` shipped for both Claude Code and Codex: the *content template* this page describes is proving portable across vendors even where the filename isn't. Worth watching whether the neutral name becomes the default and this page's subject becomes a dialect of it. → [[claude-code]], [[skill-md]]

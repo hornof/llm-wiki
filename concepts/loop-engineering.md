@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -139,6 +139,14 @@ A **STRUCTURALLY MAJOR canonical-corrective** to the prevailing Loop Engineering
 **The judgment calls inside the loop get their own model — [[jev|Jev]] (2026-09-20).** [[jev-typesafe-system-one-model-2026-09-18]] targets a cost this page has not named: an agent run *"can contain many calls that require judgment but no generated prose"* — choose a tool, judge a result, detect risk, decide whether the task is done, pick the next model. Each currently goes to a generative model that emits tokens sequentially for a one-word answer.
 
 Jev returns **typed answers with probabilities** instead, and the pattern it enables is the part relevant here: **act / confirm / escalate by confidence band, with thresholds in code** — *"a dashboard label may tolerate a weak prediction. A command that deletes data should require a much higher bar."* That is the [[#Push-back primitive — "loop with something that can say no"|push-back primitive]] with a dial rather than a switch, and it is the same instinct as [[croovies-loop-orchestrator-mission-note-2026-09-10|routing by task complexity]] applied per-decision rather than per-session. **Contingent on calibration**, which is named but unevidenced.
+
+**Evidence-driven testing — make the change observable, not just asserted (Ras Mic, 2026-09-14).** [[rasmic-software-factory-isenberg-2026-09-14]] puts a **"prove"** step between build and ship: the agent **records a before state and an after state as video, screenshots, or numbers**. The operator then **reviews the visual proof instead of the raw code**.
+
+This is the same move as the [[chrisjz-universe-atlas-fable-verification-2026-07-16|universe atlas's deterministic URLs]] — both close the gap between what a human perceives and what the agent can inspect — but generalised past graphics: any change that can be rendered as a before/after artifact becomes checkable without reading the diff. **The ship step then closes the loop with a score**: Greptile grades the PR and the agent loops back to build **until it earns 5/5**, which is a numeric gate rather than a human judgement call.
+
+Note the whole pipeline is **isolate → build → prove → ship**, with isolation done by **a fresh git worktree per feature branched from `origin/main`** so parallel agents cannot disturb each other — the same containment [[graph-engineering|worktree pattern]] this wiki tracks, here as step one of a standard workflow rather than a power-user trick. Claimed scale: **up to 15 features in parallel**.
+
+*(Self-reported; no defect-rate or throughput figures. Evidence-driven proof is not a change-failure rate — see [[developer-productivity-measurement]].)*
 
 **Pre-action verification — checking before the agent acts (arXiv 2609.11957, 2026-09-14).** *"Look Before You Leap: Pre-Action Verification for LLM Agents"* ([[dailybrief-roundup-2026-09-15]]) proposes **cheap deterministic checks run before an action executes**, to catch silent failures rather than detect them afterwards. Structurally this is the same move as [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies's plan-review-before-any-code-exists law]] — push the gate **upstream of generation** — now as a general agent-loop primitive rather than one operator's house rule. Complements the post-hoc verifier this section describes: McDonald's *"design the verifier"* asks whether the output was right; this asks whether the action should be attempted. *(arXiv preprint, not independently evaluated.)*
 
