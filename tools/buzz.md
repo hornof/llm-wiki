@@ -3,7 +3,7 @@ name: Buzz
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-07-31
+last_updated: 2026-09-23
 ---
 
 ## What It Is
@@ -18,6 +18,17 @@ last_updated: 2026-07-31
 - **2026-07-24/26 practitioner amplification** ([[graph-engineering-cluster-2026-07-26]]): @hot_town's hands-on review (*"Slack + OpenClaw + Herdr"* — agents as first-class citizens on **any** harness, choose models incl. local, agents delegate + run parallel in git worktrees) and [[greg-isenberg]]'s **shared-compute** thread. Early-adopter interest, still pre-metrics.
 - **38-min hands-on walkthrough** ([[greg-isenberg]], 2026-07-28, [[dailybrief-roundup-2026-07-29]]): a full setup/use-case tour — swap the model under any agent *while keeping all context*, **live audio "huddles"** with agents, *"get agents to build and deploy a real app (a full CRM) from one ask,"* a **context loop** feeding live app data back to the agents, and community **shared compute**. Deepest practitioner how-to captured; still framed as early ("who it's for right now, and what's still" rough).
 - **"First proper multiplayer agent harness" framing** (@jtwald, 2026-07-25, [[dailybrief-roundup-2026-07-27]]): *"Buzz is not a slack killer. It's much bigger. It's the first proper multiplayer agent harness. The network effects of who wins at that layer will decide where value accrues as models commoditize."* Reframes Buzz from a Slack competitor to a **new infrastructure layer** — the wiki's harness→loop→graph ladder ([[graph-engineering]]) applied at the *multiplayer/org* scale. Reply-thread receipts: Larry Velez (*"needed a bridge between two sets of agents and buzz may be it"*), @0xGuavaGuy (daily use since launch, forked to add agent-thread visibility). Sharpest pushback: *"why would a general harness win over a specific harness the company builds itself?"*
+
+## Practitioner reception — two months in (2026-09-22)
+
+The first user feedback on Buzz the wiki has captured, from replies to an amplification post ([[roundtablespace-buzz-reality-check-2026-09-22]]). **Mixed to negative:**
+
+- After two days: *"so many wierd glitches and the UX navigation for chat is giving me inception headaches. Will have to wait until it improve over time. Interesting project for sure!"*
+- After **two weeks** — the only reply reporting sustained use, and it ends in churn: *"Nice one but not mature unfortunately. Tested for 2 weeks then switched to Grok Bot."*
+- *"Self hosting needs steady power."* One line, and the structural constraint on the whole premise: what makes it free also makes it yours to keep running.
+- *"He should add long-term agent memory"* — the gap noticed first, and the one [[company-brain]] records as *"everyone builds the remembering part, nobody wants to own the forgetting part."*
+
+**What this does and does not show.** Three self-selected replies on a promotional post is not a sample, and two of the three are explicitly interested. But this page — and the several others citing Buzz for its architecture (cryptographic identity, agents as first-class members, signed event log) — **carried no evidence at all that anyone was using it.** Now there is a little, and it points at immaturity rather than adoption. *(No usage data, issue counts or repo activity checked.)*
 
 ## Key Concepts
 

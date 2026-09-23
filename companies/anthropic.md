@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-09-22
+last_updated: 2026-09-23
 ---
 
 ## What It Is
@@ -84,6 +84,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-09-22: Claude Opus 5.5 ships the same day as GPT-6 Sol/Luna — both labs cut prices 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]): the first frontier-on-frontier price war the wiki has captured. Lands one day after the [[dailybrief-roundup-2026-09-21|IPO delay to November at a ~$2T expected valuation]], which makes the timing worth noting — **cutting price by half into an IPO window is a competitive response, not a margin strategy**. Whether the cuts hold past the launch cycle is the test; see [[ai-margin-collapse]]. *(No per-token figures or effective dates captured; **Claude Opus 5.5** has no page yet — create-candidate once specs land.)*
 - **2026-09-22: China reportedly probes DeepSeek and Moonshot over data leaks *to* Anthropic** ([[dailybrief-roundup-2026-09-22]], Digg) — **the inverse of the claim on this page**. On 2026-09-10 Anthropic publicly detailed **distillation campaigns run against it** by Alibaba, Moonshot and DeepSeek. Now the same two labs are under investigation by their own government for leaking data **in the other direction**.
   > Both accounts cannot be the whole picture and **the wiki is not resolving them**. Candidates, none verified: two distinct flows; one data movement characterised oppositely by opposing jurisdictions; or positioning on one or both sides. The structural point is the durable one — *who took what from whom* between US and Chinese labs is now a contest between **regulators**, with each side's version arriving through its own press. Both dates recorded; neither preferred. → [[deepseek]], [[frontier-ai-governance]]
 

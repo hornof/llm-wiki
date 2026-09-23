@@ -2,10 +2,12 @@
 name: AI Engineering Skills
 type: concept
 maturity: emerging
-last_updated: 2026-09-22
+last_updated: 2026-09-23
 ---
 
 ## Definition
+
+> *Partner list updated 2026-09-23* ([[dailybrief-roundup-2026-09-23]]): the a16z school's founding partners are now named as **Anthropic, Anduril, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit and Stripe** — three more than the [[dailybrief-roundup-2026-09-22|09-22 capture]], and the additions change the read. **Coinbase, Palantir and Stripe are payments and defence-adjacent data companies, not labs or chipmakers**, which makes this less an AI-research pipeline than a general technology-employer one.
 
 - **a16z launches a $42M AI school (2026-09-22)** ([[dailybrief-roundup-2026-09-22]]): with **Anthropic, OpenAI, Google, Meta, NVIDIA, Anduril and Replit** participating. The brief's read is the one to keep — *"isn't really about education. It's a supply-chain play."* Read against [[ai-labor-market-impacts|Andrew Ng's curriculum-lag argument]] (a committee, a senate vote, then a year or two, against a market reshaping every few months): **this is what the capital does when it stops waiting for the institution.** Whether a vendor-funded pipeline produces engineers or customers is the open question. Also the first item the wiki has captured where those seven sit on the same side of anything. *(Announcement; curriculum, structure and admissions unstated.)*
 

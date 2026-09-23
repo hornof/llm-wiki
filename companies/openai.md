@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-09-21
+last_updated: 2026-09-23
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-09-22: GPT-6 Sol and GPT-6 Luna ship the same day as Claude Opus 5.5; both labs cut 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]): two new models in the GPT-6 line alongside [[gpt-6-astra|Astra]], and a simultaneous price cut of nearly half. Read against the [[gpt-6-astra|Astra pricing frame]] from three weeks ago — *"you're not paying for inference anymore, you're paying for solved problems"*, at ~2.5× per-token cost — **this is the opposite move on the same axis within a month.** Either the per-outcome framing did not hold commercially, or price is being used as a launch weapon independent of it. → [[ai-margin-collapse]] *(Sol and Luna have no pages — create-candidates once specs land.)*
 - **2026-09-21: SoftBank reportedly cut its position ~75%** ([[dailybrief-roundup-2026-09-21]], Digg): attributed to concerns over **debt-funded OpenAI stock purchases**, alongside an Anthropic IPO delay. A named investor reducing exposure is a thin but rare counter-signal against the [[#2026-09-17 — in early talks at $1.2T–$1.5T|$1.2–1.5T round talks]] recorded four days earlier. *(User-cited via Digg tail; not confirmed reporting — weak sourcing, recorded as a watch item rather than a fact.)*
 - **2026-09-17 — in early talks at $1.2T–$1.5T on ~$40B annualized revenue** ([[dailybrief-roundup-2026-09-17]], Digg): valuation *"nearly doubles from March"*; talks preliminary. The brief's arithmetic is a **~25-30× revenue multiple**, defensible for a monopoly-shaped business *"but it assumes the revenue sticks and the moat holds."*
   > **Tension partly resolved 2026-09-21** — see the note below; Anthropic's figure is an annualized pace, not bookings. Original framing kept for the progression:
