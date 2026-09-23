@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-22
+last_updated: 2026-09-23
 ---
 
 ## Definition
@@ -14,6 +14,16 @@ last_updated: 2026-09-22
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### A retrospective finding of harm — Pentagon on the Iran school strike (2026-09-23)
+
+Bloomberg: a **Pentagon report finds that overreliance on AI contributed to a missile strike on a school in Iran** ([[dailybrief-roundup-2026-09-23]]).
+
+**This is a category this page has not held.** Every artifact catalogued below is **prospective** — standards, codes of conduct, evaluation specs, a summit, one state executive order — and each asks what should be prevented. This is **retrospective, official, and about deaths**: a government finding, after the fact, that AI contributed to a lethal error.
+
+Two things follow. It is the first item here where the accountability mechanism is **an investigation rather than a pledge**. And it sits in the same week as a **federal investigation into Comma.ai** over five crashes — two official inquiries into real-world AI harm, against six voluntary vendor artifacts in a fortnight. **The governance that binds is arriving through incident investigation, not through standards bodies.**
+
+Recorded deliberately thin: **the wiki has the finding, not the report.** No mechanism, no system, no vendor named, no report text. Do not infer any of those from a headline.
 
 ### Posture produces artifacts — four in eight days (2026-09-14/15)
 

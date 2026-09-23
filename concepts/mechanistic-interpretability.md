@@ -2,10 +2,13 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-07-06
+last_updated: 2026-09-23
 ---
 
 ## Definition
+
+- **"I'm just an AI" is a deployment artifact, not self-knowledge (arXiv 2609.25021, 2026-09-23)** ([[dailybrief-roundup-2026-09-23]]): *"As a Language Model: Chat Template Switches LLM Self-Referential Voice"* finds the self-referential disclaimers are **artifacts of deployment configuration**, and the effect is **reproducible via activation steering**.
+  Deflationary in a useful way: a behaviour routinely read as evidence about what a model "knows about itself" turns out to be a function of the chat template. **Bears on every capability or limitation claim inferred from model self-report** — including the ones this wiki folds from practitioner threads. *(Preprint; not independently replicated.)*
 
 Mechanistic interpretability is the research program of understanding *what* language models compute internally and *how* they compute it — opening up the model's activations and circuits, not just observing input/output behavior. The goal is to map model behavior to internal mechanisms (features, circuits, attention patterns, activation patterns) that are causally responsible for the behavior.
 

@@ -3,8 +3,12 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-09-13
+last_updated: 2026-09-23
 ---
+
+> [!update] Line extended — GPT-6 Sol and GPT-6 Luna (2026-09-22)
+> Two more GPT-6 models shipped alongside Astra, the same day as [[claude-opus-5|Claude Opus 5.5]], with **both labs cutting 40–50%** ([[dailybrief-roundup-2026-09-23]]).
+> **Worth reading against this page's own pricing frame.** Astra launched three weeks earlier at ~2.5× per-token cost on the argument that *"you're not paying for inference anymore, you're paying for solved problems."* A 40–50% cut on the same line within a month is **the opposite move on the same axis** — either the per-outcome framing did not hold commercially, or price is being used as a launch weapon independently of it. *(Sol and Luna have no pages; no specs captured.)*
 
 ## What It Is
 

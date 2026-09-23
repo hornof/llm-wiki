@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-09-22
+last_updated: 2026-09-23
 ---
 
 ## Definition
@@ -50,6 +50,10 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 - **"Annualized revenue" confirmed as not-a-comparable-quantity (2026-09-21)** ([[dailybrief-roundup-2026-09-21]], Axios): Anthropic's reported **"$100B revenue pace" is an annualized run-rate, not booked sales** — an earlier investor forecast put that threshold at *year-end*. **This resolves the direction of yesterday's tension**, where [[openai|OpenAI's ~$40B claimed revenue]] against Anthropic's $65B annualized had the lower-valued lab reporting the larger figure. The page flagged that the two might not be measuring the same thing; they are not. **Every revenue multiple on this page should be read as run-rate-on-run-rate at best**, and cross-company comparisons treated as unreliable until the basis is stated.
 - **Alphabet's off-books guarantees, with figures (2026-09-21)** ([[dailybrief-roundup-2026-09-21]]): **$43.8B guaranteed in six months**, including **$27B of new data-centre lease guarantees**, with **under 2% reaching the balance sheet**. Puts numbers on [[dailybrief-roundup-2026-09-20|the ~$300B item]]. The brief's read: *"That's not accounting — that's a bet the AI arms race doesn't reverse before the leases mature."* → [[google]]
 - **A 1T open-weights model for ~$3M — Xiaomi MiMo-V2.6-Pro (2026-09-22)** ([[dailybrief-roundup-2026-09-22]], Latent Space): a new top open-weights model at **1T total / A42B active**, with a reported **~$3M training cost**. If the figure holds it is the cheapest credible frontier-adjacent training run the wiki has captured, and it pushes the open-weights floor — the precondition Alderson's thesis needs — down again. *(Benchmarks unclear; $3M unverified and exactly the kind of number that gets quoted without a basis — cf. the annualized-revenue problem above.)*
+- **FRONTIER PRICE WAR — Opus 5.5 and GPT-6 Sol/Luna ship the same day, both cut 40–50% (2026-09-22)** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]): the first frontier-on-frontier price event this page has captured.
+  > **This is the thesis arriving by a different route than predicted.** Alderson's mechanism was **open-weights parity forcing the frontier down**; the page has carried his own caveat that the collapse was *"argued, not yet observed in lab financials"* since July. What actually happened is **the two frontier labs cutting each other**, same day, by nearly half.
+  > The distinction is load-bearing and should not be smoothed over: a cut driven by a rival's launch is a **pricing decision, reversible**, while a commoditized floor is not. A price war proves the labs are willing to compete on price; it does not prove they cannot sustain margin. **Watch whether the cuts hold once the launch cycle passes** — that is the test that separates the two readings.
+  > Note the same month produced [[dailybrief-roundup-2026-09-21|Databricks raising Astra pricing ~60%]]. **Prices are moving hard in both directions at different layers of the stack**, which is not what a simple commoditization story predicts. *(No per-token figures, effective dates or tier detail captured; Willison's post not fetched.)*
 - Track: independent GLM-vs-Opus benchmarks; whether frontier labs cut inference prices in response; open-weights adoption in production; whether compute spot-prices climb toward Dwarkesh's labor-anchored equilibrium; whether the routing/decision layer ([[stripe|Stripe/OpenRouter]]) captures the margin the model layer loses; whether post-training scaling (GLM 5.3 thesis) lowers the barrier to an open frontier peer; whether the neocloud convergence (Dylan Patel) culls the way the search-engine wave did.
 
 ## Key Papers / Posts

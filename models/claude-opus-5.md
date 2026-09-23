@@ -3,8 +3,11 @@ name: Claude Opus 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-08-09
+last_updated: 2026-09-23
 ---
+
+> [!update] Successor shipped — Claude Opus 5.5 (2026-09-22)
+> **Claude Opus 5.5** launched the same day as OpenAI's GPT-6 Sol and Luna, with **both labs cutting prices 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]). No specs, benchmarks or pricing captured — **no page yet**; create on a second substantive surface. The price war itself is folded at [[ai-margin-collapse]].
 
 ## What It Is
 
