@@ -1,10 +1,12 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-08-08
+last_updated: 2026-09-24
 ---
 
 ## What This Is
+
+- **"Thinking got cheap, doing didn't" (2026-09-24)** ([[dailybrief-roundup-2026-09-24]], *Foundries vs Navigators*): a structural analysis of research-company economics that the brief summarises in one line worth keeping. It is the cleanest statement of the asymmetry underneath this page — **if cognition commoditizes and execution doesn't, value concentrates wherever the doing is**, which is the same conclusion [[domain-specific-harness]] reaches from the market side and this page reaches from the spend side. *(Essay not fetched; the framing is the contribution.)*
 
 The structural mismatch between **AI spend / executive expectation** and **shipped, retained, production-validated value** — observable across token-spend funnels, layoff-attribution narratives, productivity-paradox research, and practitioner hype-cycle reports. As of late May 2026 the thesis crystallized across three independent practitioner surfaces in a single week ([[sankar-token-spend-roi-gap-2026-05-25|Sankar]], [[levie-ceo-ai-psychosis-2026-05-23|Levie]], [[cyb3rops-four-stages-ai-coding-hype-2026-05-26|cyb3rops]]) and one mainstream-press synthesis ([[techcrunch-bort-ceo-ai-psychosis-2026-05-27|TechCrunch / Bort]]), with the Uber COO's *"harder to justify"* statement as the first wiki-captured public-incumbent CFO/COO-level admission.
 

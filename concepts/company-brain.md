@@ -2,12 +2,22 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-08-31
+last_updated: 2026-09-24
 ---
 
 ## Definition
 
 A **Company Brain** is "a living, permissioned model of how an organization remembers, reasons, and acts" — the working definition from [[ashwingop]] in [[ashwingop-company-brain-part-1]]. The phrase entered popular AI-startup vocabulary via Y Combinator's Summer 2026 RFS — specifically the entry by [[tom-blomfield]] in [[yc-summer-2026-rfs]] (§5), which described the gap as "domain knowledge scattered across people's heads, emails, Slack threads, tickets, and databases" and called for a system that **"turns it into an executable skills file for AI"** — a *living map of how a company works*, not company-wide search and not a chatbot over documents. A second YC partner, [[diana-hu]], named the same gap from a different angle in the same RFS (§16, "The AI Operating System for Companies"): "the best AI-native companies… have made their entire company queryable… every meeting recorded, every ticket tracked, every customer interaction captured, all legible to an intelligence layer that learns from it." Ashwin sharpens the framing: a Company Brain is not one thing because a brain is not one thing — it remembers, associates, predicts, reflects, and coordinates action. It must therefore have a **layered structure**.
+
+## Decoupled storage makes "dreaming" cheap ([[guillermo-rauch|Rauch]], 2026-09-23)
+
+This page records **pruning and forgetting** as the function everyone names and nobody owns — the Slite teardown's *"everyone builds the remembering part, nobody wants to own the forgetting part."* [[rauchg-agent-anatomy-drives-2026-09-23]] supplies an architectural reason why, and a fix.
+
+In Rauch's three-part anatomy (**Brain / Hands / Files**), storage is normally welded to the agent's machine — so consolidation can only happen while the agent is running, which makes it expensive and easy to skip. Detach the files and:
+
+> *"Imagine you want to run a memory consolidation cron job every night ('dreaming'). You can read/write to the files directly **without 'booting up' the agent's full computer**."*
+
+**Forgetting becomes a scheduled job against storage rather than a task the agent must be alive to perform.** That is a real answer to the gap, and it reframes it: the reason nobody owns pruning may be less about willingness than about the fact that, in a single-machine agent, there is no cheap place to put it. *(Vendor thread announcing Vercel Drives; no implementation or cost evidence.)*
 
 ## Why It Matters
 

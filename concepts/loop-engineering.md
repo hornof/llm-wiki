@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-22
+last_updated: 2026-09-24
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -147,6 +147,16 @@ This is the same move as the [[chrisjz-universe-atlas-fable-verification-2026-07
 Note the whole pipeline is **isolate → build → prove → ship**, with isolation done by **a fresh git worktree per feature branched from `origin/main`** so parallel agents cannot disturb each other — the same containment [[graph-engineering|worktree pattern]] this wiki tracks, here as step one of a standard workflow rather than a power-user trick. Claimed scale: **up to 15 features in parallel**.
 
 *(Self-reported; no defect-rate or throughput figures. Evidence-driven proof is not a change-failure rate — see [[developer-productivity-measurement]].)*
+
+**Decompose the agent — brain, hands, files ([[guillermo-rauch|Rauch]], 2026-09-23).** [[rauchg-agent-anatomy-drives-2026-09-23]] gives the clearest component model the wiki holds: **🧠 Brain** (model + harness as *logic*), **👐 Hands** (tools, computer, browser), **🗃️ Files** (memories, skills, repos) — named against Muse, Instinct, OpenClaw and Claude Code.
+
+His description of current practice is accurate and unflattering: *"The 'easy' way is to throw all these in 1 stateful computer (a Mac Mini)… you keep it running all day with `caffeinate`."* That is the shape of nearly every orchestrator receipt on this page. Decomposed, the harness gets a **durable event log** so it survives *"restarts, rollouts, crashes"*; the hands become a browser fleet plus a sandbox; and storage detaches so a **nightly memory-consolidation job ("dreaming") can run against the files without booting the agent** — see [[company-brain]].
+
+The strong claim, worth testing rather than accepting: *"you can't even run a secure agent otherwise."* Consistent with the incident record — all four [[ai-vulnerability-discovery|agent-autonomy incidents]] are an agent reaching further than intended, and a decomposed agent has enforceable boundaries where a single machine has none. **Vendor thread; no cost or security evidence published.**
+
+**Scale datapoint — ~950 agents, 21 hours (2026-09-24).** [[dailybrief-roundup-2026-09-24]]: Claude discovered a novel enzyme system via CRISPR-like repeats from a **21-hour search run by ~950 agents**. Against [[isenberg-allie-miller-ai-native-company-2026-08-12|Miller's 34]], croovies's 128 and Gas Town's 20-30, **this is a different regime by an order of magnitude** — and the brief describes neither the coordination nor the verification that made it work, which are the only two things this page would want to know. *(Unsourced figures; vendor-adjacent claim.)*
+
+**Evals as the missing craft ([[hamel-husain-evals-faq-guide-2026-09-23]], 2026-09-23).** [[hamel-husain|Husain]] consolidates 60+ hours of office hours into an **Evals FAQ**, indexed by problem rather than concept and written to be consumed by an agent as well as a person. This page has a great deal on *why* the verifier matters and comparatively little on **how to build one**; that is what this points at. Contents not fetched.
 
 **Pre-action verification — checking before the agent acts (arXiv 2609.11957, 2026-09-14).** *"Look Before You Leap: Pre-Action Verification for LLM Agents"* ([[dailybrief-roundup-2026-09-15]]) proposes **cheap deterministic checks run before an action executes**, to catch silent failures rather than detect them afterwards. Structurally this is the same move as [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies's plan-review-before-any-code-exists law]] — push the gate **upstream of generation** — now as a general agent-loop primitive rather than one operator's house rule. Complements the post-hoc verifier this section describes: McDonald's *"design the verifier"* asks whether the output was right; this asks whether the action should be attempted. *(arXiv preprint, not independently evaluated.)*
 

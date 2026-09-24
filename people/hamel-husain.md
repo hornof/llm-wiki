@@ -3,10 +3,12 @@ name: Hamel Husain
 type: person
 affiliation: Independent (ML engineer, educator)
 signal_sources: [twitter, blog]
-last_updated: 2026-07-26
+last_updated: 2026-09-24
 ---
 
 ## Who They Are
+
+- **Publishes a consolidated AI Evals FAQ (2026-09-23)** ([[hamel-husain-evals-faq-guide-2026-09-23]]): drawn from **60+ hours of office hours** from the evals course he and **Shreya Shankar** have taught to ~**5,000 engineers and PMs**, indexed **by problem rather than concept** — *"Humans: pick the row that sounds like you. Agents: point it at the post."* Maintained rather than one-off (15 FAQs added in a fortnight). The wiki holds a lot on *why* verification matters and little on **how to build an eval**; this is the most credentialed practitioner index of that craft it has captured. *(Contents not fetched.)*
 
 ML engineer and educator, a long-standing practitioner voice on evals, LLM tooling, and applied AI engineering. Surfaced into the wiki as the author who **coined the "graph engineering" framing**: on 2026-07-18, hours after [[peter-steinberger|Peter Steinberger]]'s *"Are we still talking loops or did we shift to graphs yet?"* question, Husain published **"Loop Engineering Is Dead. Enter Graph Engineering."** — the article that named the coordination-across-loops layer. See [[graph-engineering]].
 
