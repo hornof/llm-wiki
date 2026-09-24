@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-22
+last_updated: 2026-09-24
 ---
 
 ## What This Is
@@ -102,6 +102,18 @@ He also names the enterprise version as the same play: *"the forward-deployed en
 **Which is either the strongest answer on this page or a redefinition.** If the durable asset is a portable workflow rather than an integration, then Levels's absorption argument loses its target — a lab shipping "Claude Medical" does not eat your markdown. But it also concedes most of what the harness thesis claimed was defensible: the plumbing is commodity, and what remains is **written-down domain process**, which is closer to [[gregisenberg-ai-native-services-100b-guide-2026-09-20|Isenberg's "rulebook"]] than to a product.
 
 That convergence is worth noting on its own. Isenberg's rulebook (*"what 'correct' means in your niche and every way the AI gets it wrong"*) and Mic's factory (*"a workflow… packed into markdown files"*) were described on the same podcast six days apart, and they are the same asset seen from the market side and the engineering side.
+
+### Where the harness actually sits ([[guillermo-rauch|Rauch]], 2026-09-23)
+
+Every position above treats "harness" as one undifferentiated thing to be owned, absorbed, or made portable. [[rauchg-agent-anatomy-drives-2026-09-23]] cuts the agent along a different axis entirely:
+
+> 🧠 **Brain** → model, **harness (logic)** · 👐 **Hands** → tools, computer, browser · 🗃️ **Files** → memories, skills, repos
+
+**On this cut the harness is not the system — it is the control logic of one of three parts.** That reframes the whole argument. [[pieter-levels|Levels]] asks whether the labs absorb "the harness"; Rauch's answer would be that they might absorb the *Brain* while hands and files stay yours, or the reverse, and the question is malformed until you say which component you mean.
+
+It also gives the portability claim a testable shape. [[rasmic-software-factory-isenberg-2026-09-14|Mic's]] *"markdown files"* map cleanly onto **Files**, and his workflow-as-skills onto **Brain logic** — so "harness and model agnostic" turns out to mean *the Files layer travels, the Brain layer is rewritten per host.* Whether that is portability or partial portability is now answerable rather than rhetorical.
+
+*(Vendor thread launching Vercel Drives; taxonomy stands independently of the product.)*
 
 ## Open Objections
 

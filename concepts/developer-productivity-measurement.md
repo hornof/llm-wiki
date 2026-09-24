@@ -2,7 +2,7 @@
 name: Developer Productivity Measurement
 type: concept
 maturity: foundational
-last_updated: 2026-09-17
+last_updated: 2026-09-24
 ---
 
 ## Definition
@@ -57,6 +57,8 @@ This is the point of the page. Map what the wiki actually holds onto the four di
 The honest counter: the AI-coding claims are marketing posts, not measurement programs, and it is unreasonable to expect a change-failure-rate figure in a tweet. True — but the wiki should then treat them as marketing, and the absence is what this page is for.
 
 ## Open questions
+
+> **Two independent surfaces on evaluation craft in 24 hours (2026-09-23/24).** [[hamel-husain-evals-faq-guide-2026-09-23]] consolidates 60+ hours of office hours into an Evals FAQ indexed by problem; and research on **terminal-bench** ([[dailybrief-roundup-2026-09-24]]) works on distinguishing **genuinely hard** benchmark tasks from **broken** ones. The second is directly load-bearing for this wiki, which folds capability claims from benchmark numbers regularly — *"the model scored X"* means nothing if the task was broken. Both point at the same gap this page names: the discipline exists, and the September agentic-coding claims did not use it.
 
 - **Do the frameworks survive agentic coding at all?** *Diffs per engineer* assumes a human authoring diffs. When 80% of merged lines are attributable to a model, does the metric measure the engineer, the harness, or the model's verbosity?
 - **Does change failure rate become more or less useful?** It is the one dimension that does not care who wrote the code — arguably the most robust metric in the set under AI authorship, and the one nobody is publishing.

@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-09-23
+last_updated: 2026-09-24
 ---
 
 ## Definition
@@ -54,6 +54,8 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
   > **This is the thesis arriving by a different route than predicted.** Alderson's mechanism was **open-weights parity forcing the frontier down**; the page has carried his own caveat that the collapse was *"argued, not yet observed in lab financials"* since July. What actually happened is **the two frontier labs cutting each other**, same day, by nearly half.
   > The distinction is load-bearing and should not be smoothed over: a cut driven by a rival's launch is a **pricing decision, reversible**, while a commoditized floor is not. A price war proves the labs are willing to compete on price; it does not prove they cannot sustain margin. **Watch whether the cuts hold once the launch cycle passes** — that is the test that separates the two readings.
   > Note the same month produced [[dailybrief-roundup-2026-09-21|Databricks raising Astra pricing ~60%]]. **Prices are moving hard in both directions at different layers of the stack**, which is not what a simple commoditization story predicts. *(No per-token figures, effective dates or tier detail captured; Willison's post not fetched.)*
+- **The buildout hits a halt — Oracle invokes force majeure (2026-09-24)** ([[dailybrief-roundup-2026-09-24]]): Oracle declared **force majeure on a New Mexico AI data centre**, with an **8% stock drop**. The financing thread on this page has run one direction — [[dailybrief-roundup-2026-09-20|~$300B off-books]] → [[dailybrief-roundup-2026-09-21|Alphabet's $43.8B with under 2% on the balance sheet]] → now a macro estimate of a **$10.3 trillion buildout carrying hidden financing risk**. This is the first **stop** in it.
+  > **Force majeure is a specific instrument**: it is what you invoke when you *cannot perform*, not when you have changed your mind. That makes it a different signal from a strategy pivot, and it is the kind of event the off-balance-sheet structures above are least able to absorb quietly. **Cause not captured** — power, permits, supply or otherwise — and one site is not a trend. Watch for a second.
 - Track: independent GLM-vs-Opus benchmarks; whether frontier labs cut inference prices in response; open-weights adoption in production; whether compute spot-prices climb toward Dwarkesh's labor-anchored equilibrium; whether the routing/decision layer ([[stripe|Stripe/OpenRouter]]) captures the margin the model layer loses; whether post-training scaling (GLM 5.3 thesis) lowers the barrier to an open frontier peer; whether the neocloud convergence (Dylan Patel) culls the way the search-engine wave did.
 
 ## Key Papers / Posts
