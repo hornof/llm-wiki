@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-09-21
+last_updated: 2026-09-25
 ---
 
 ## What It Is
@@ -10,6 +10,9 @@ last_updated: 2026-09-21
 Meta (formerly Facebook) is a US technology company operating Facebook, Instagram, WhatsApp, Messenger, and Meta AI. Wiki-tracked primarily for its **AI deployment surface** (Meta Business Agent, Meta AI consumer-product across WhatsApp + Instagram) and the structurally-significant **cross-vendor agentic-exfiltration pattern** it has surfaced in.
 
 ## Recent Activity
+
+- **2026-09-25: a rave NYT review of Muse — four days after [[amazon]] blocked it** ([[raw-batch-roundup-2026-09-25]]): *"Two weeks in, I found Muse to be the most useful A.I. app I had ever used. One clarifying moment came after I **connected my credit cards to Muse** and asked it to track my spending in Google Sheets."*
+  > **Both facts are about the same feature.** An agent with payment authority acting across a user's accounts is what earned the review and what got it shut out of the largest retail platform. **What makes the agent useful to the user is exactly what makes it unwelcome to the platform** — the sharpest illustration the wiki has of the agent-as-customer conflict. *(NYT piece not fetched; quoted via an X post whose surrounding analysis is factually confused and was not folded — see the source page.)*
 
 - **2026-09-21: [[amazon]] blocks Muse from shopping on its site** ([[dailybrief-roundup-2026-09-21]]) — four days after launch. The **first real test of an agent holding spending authority**, and it failed at the largest retail surface. The [[dailybrief-roundup-2026-09-20|Muse launch note]] flagged that payments moved the agent-autonomy risk surface to money; this shows the *other* constraint — not safety, but **whose customer relationship it is**. A purchasing agent is only as capable as the platforms that let it through the door. *(Reported; no Meta response captured.)*
 

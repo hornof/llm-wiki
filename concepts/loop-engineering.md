@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-24
+last_updated: 2026-09-25
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -153,6 +153,8 @@ Note the whole pipeline is **isolate → build → prove → ship**, with isolat
 His description of current practice is accurate and unflattering: *"The 'easy' way is to throw all these in 1 stateful computer (a Mac Mini)… you keep it running all day with `caffeinate`."* That is the shape of nearly every orchestrator receipt on this page. Decomposed, the harness gets a **durable event log** so it survives *"restarts, rollouts, crashes"*; the hands become a browser fleet plus a sandbox; and storage detaches so a **nightly memory-consolidation job ("dreaming") can run against the files without booting the agent** — see [[company-brain]].
 
 The strong claim, worth testing rather than accepting: *"you can't even run a secure agent otherwise."* Consistent with the incident record — all four [[ai-vulnerability-discovery|agent-autonomy incidents]] are an agent reaching further than intended, and a decomposed agent has enforceable boundaries where a single machine has none. **Vendor thread; no cost or security evidence published.**
+
+**And the commodity version arrives two days later** ([[raw-batch-roundup-2026-09-25]]): [[svpino|Valdarrama]] demonstrates **managed agents** on DigitalOcean — *"resume a session from anywhere… fork a session into multiple agents… run parallel agents… reuse environments"* — across Claude Code, Codex, OpenCode and Hermes. Rauch made the architectural case for decomposition; a cloud vendor shipped the session-portability half of it as a preview feature in the same week. **Forking a running session is the operationally new primitive** — the orchestrator receipts on this page all start agents fresh.
 
 **Scale datapoint — ~950 agents, 21 hours (2026-09-24).** [[dailybrief-roundup-2026-09-24]]: Claude discovered a novel enzyme system via CRISPR-like repeats from a **21-hour search run by ~950 agents**. Against [[isenberg-allie-miller-ai-native-company-2026-08-12|Miller's 34]], croovies's 128 and Gas Town's 20-30, **this is a different regime by an order of magnitude** — and the brief describes neither the coordination nor the verification that made it work, which are the only two things this page would want to know. *(Unsourced figures; vendor-adjacent claim.)*
 

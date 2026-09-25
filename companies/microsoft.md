@@ -2,7 +2,7 @@
 name: Microsoft
 type: company
 status: active
-last_updated: 2026-09-16
+last_updated: 2026-09-25
 ---
 
 ## What It Is
@@ -10,6 +10,9 @@ last_updated: 2026-09-16
 **Microsoft Corp.** — canonical-multi-decade-pedigree canonical-technology-vendor + canonical-Azure-hyperscaler + canonical-largest-single-OpenAI-investor + canonical-Azure-OpenAI-exclusive-distribution-partner + canonical-Anthropic-Foundry-availability + canonical-co-founder-of-Microsoft-AI. First wiki entity surface **2026-07-03** following canonical-multi-lint canonical-pattern-watch canonical-Nadella + canonical-Frontier-Co + canonical-$2.5B canonical-AI-deployment-company canonical-Jul-2 canonical-net-new canonical-productization-cluster.
 
 ## Traction Signals
+
+- **2026-09-25: abandons the consumer chatbot race; consolidates into enterprise Copilot** ([[dailybrief-roundup-2026-09-25]]): retrenchment from consumer AI toward a single enterprise surface combining **chat, coding and Autopilot agents with org-local memory**. **The first clear withdrawal by a major vendor from a market it entered loudly.**
+  Read alongside [[dailybrief-roundup-2026-09-22|its Humanist AI Code of Conduct]] — Microsoft is simultaneously publishing **the most detailed governance text of any vendor** and **narrowing where it competes**. Those are consistent if the governance work is positioning for the enterprise buyer rather than the consumer one. *(Strategy reporting; no figures.)*
 
 - **2026-09-16: Suleyman — consciousness is not the foundation for AI rights** ([[dailybrief-roundup-2026-09-16]], via [[simon-willison|Willison]]): Microsoft AI's CEO pushes back on anthropomorphic AI ethics. The brief notes it *"adds no novel framework"*, and the useful part is the pairing: it is the philosophical companion to Microsoft's own **Humanist AI Code of Conduct** above, which likewise **prohibits consciousness claims**. Vendor position and vendor philosophy arriving in the same week, pointing the same way.
 

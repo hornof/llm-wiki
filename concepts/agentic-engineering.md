@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-22
+last_updated: 2026-09-25
 
 ---
 
@@ -118,6 +118,23 @@ The field already has the vocabulary for what is missing here, and the wiki now 
 **What the post does not contain is the part this page cares about**: no defect rate, no review-burden measure, no cost. The replies went straight there — *"you ship also 1000% more bugs"*, *"LOC isn't a metric"*, *"any stats on the cost?"* — and none were answered. A 25× CI increase has a bill.
 
 The honest reading: this is strong evidence that **the quality bar got expensive to hold, and that Anthropic paid rather than lowered it** (the engineering response was test-impact analysis, not fewer tests). It is not evidence that the bar held. See [[loop-engineering]] for the verification-scaling asymmetry.
+
+## "Coding agents make software engineering harder" (Willison, 2026-09-25)
+
+[[dailybrief-roundup-2026-09-25]]: [[simon-willison|Willison]] argues **agent tooling amplifies existing skill requirements rather than democratizing them.**
+
+This is the cleanest counter this page holds to the floor-raising story, and it makes **four independent surfaces now saying the same thing from different angles**:
+
+| Source | Form of the claim |
+|---|---|
+| [[ai-labor-market-impacts\|Ng]] | AI eats 30–40%; survivors *"built the 60–70% it can't touch"* — the remainder is harder |
+| The six-voice convergence below | *"five threads to keep the AI busy… more mentally exhausted than I can remember"* |
+| [[dailybrief-roundup-2026-09-22\|voxium]] | *"management sees shipping as unbottlenecked; teams don't"* |
+| **Willison** | agent tooling **amplifies** skill requirements |
+
+**That is the opposite of the democratization claim accompanying essentially every tool launch this wiki has captured.**
+
+**The dissent is same-week and first-person.** [[garrytan-capy-harness-4x-2026-09-23]]: [[garry-tan|Tan]] reports 4× on his own PRs *"with no increase in time in-editor"* — an explicit denial that the speedup is paid for in attention. Neither side is measured, and the disagreement is exactly what [[developer-productivity-measurement|a change-failure rate and a DXI would arbitrate]]. Until someone publishes one, this resolves by whose experience you find more representative.
 
 ## Related Concepts
 - [[vibe-coding]] — the floor-raising complement; entry-level

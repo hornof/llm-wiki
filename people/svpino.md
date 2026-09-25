@@ -3,10 +3,12 @@ name: Santiago Valdarrama (svpino)
 type: person
 affiliation: independent (AI/ML educator, content creator)
 signal_sources: [twitter, github]
-last_updated: 2026-05-16
+last_updated: 2026-09-25
 ---
 
 ## Who They Are
+
+- **Managed agents as portable sessions (2026-09-25)** ([[raw-batch-roundup-2026-09-25]]): running coding agents as managed cloud sessions gives *"resume a session from anywhere… fork a session into multiple agents… run parallel agents… reuse environments"* — demonstrated on DigitalOcean's Managed Agents (public preview) and noted as working across **Claude Code, Codex, OpenCode and Hermes**. The commodity-infrastructure version of the decomposition [[guillermo-rauch|Rauch]] argued for two days earlier: **detach the agent from one stateful machine and sessions become forkable, resumable and parallel.**
 
 Santiago Valdarrama (@svpino on X) is an independent AI/ML educator with sustained-reach practitioner content on X. First wiki capture via his 2026-05-15 X post on **HTML-over-Markdown for agents + introduction of [[tools/dac|bruin-data/dac]]**. Bio details beyond X presence not captured in this ingest batch; verify before external citation.
 

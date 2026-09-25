@@ -3,10 +3,13 @@ name: Garry Tan
 type: person
 affiliation: Y Combinator (President & CEO)
 signal_sources: [yc-rfs, twitter]
-last_updated: 2026-08-13
+last_updated: 2026-09-25
 ---
 
 ## Who They Are
+
+- **"A coding harness done right is syntactic sugar" — and 4× anyway (2026-09-23)** ([[garrytan-capy-harness-4x-2026-09-23]]): daily first-person use of **Capy** on his own GStack/GBrain PRs, *"at least 4x faster than… raw Codex/Claude Code via Conductor"*, crediting *"far far better parallelization, workflow, and automatic coordination."* Outcomes named include **better test coverage and bigger fixes**, not just speed.
+  **The self-argument is the contribution**: *"On the one hand you can say a coding harness done right is syntactic sugar. On the other hand, I have seen a real speedup… with no increase in time in-editor."* That is the deflationary case in its strongest form, made by an enthusiast against himself — and the *"no increase in time in-editor"* half is directly contradicted by the [[agentic-engineering|cognitive-load convergence]]. Extends his standing [[loop-engineering|"systems of record must become AI harnesses"]] position from prediction to practice. *(Unmeasured; YC's CEO naming a product publicly, with no YC–Capy relationship disclosed or checked.)*
 
 President and CEO of Y Combinator. Long-time YC presence (former YC partner, then founded Initialized Capital, returned to YC as president in 2023). Authored the "AI for Low-Pesticide Agriculture" entry in [[yc-summer-2026-rfs]] personally — a category centered on AI vision + cheap sensors + precision robotics + RNA/peptide biology converging to break the chemical-treadmill loop in modern agriculture.
 
