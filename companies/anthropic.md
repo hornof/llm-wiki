@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-09-24
+last_updated: 2026-09-25
 ---
 
 ## What It Is
@@ -84,6 +84,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-09-25: founders secure voting control ahead of the IPO** ([[dailybrief-roundup-2026-09-25]]): founder-led governance locked in before the [[dailybrief-roundup-2026-09-21|November float at a ~$2T expected valuation]]. The brief's framing is the right one — *"how independent AI companies stay independent post-liquidity."* **This is the structural counterpart to the safety posture the wiki has tracked all month**: [[dario-amodei|Amodei's]] pacing advocacy, the METR review, the bio-weapons enforcement and the Coxon resignation all describe a company choosing restraint, and **that choice is only durable if control survives the float.** Worth watching whether the structure is tested rather than admired. *(Reported; share-class mechanics and thresholds not captured.)*
 - **2026-09-24: ~950 agents, 21 hours, a novel enzyme system** ([[dailybrief-roundup-2026-09-24]]): Claude discovered a novel enzyme system via CRISPR-like repeats from a **21-hour search run by roughly 950 agents**. Two things at once — a concrete **AI-for-science** result alongside [[google-deepmind|AlphaGenome Atlas]], and **the largest agent-orchestration count the wiki has captured by an order of magnitude** (against Miller's 34, croovies's 128, Gas Town's 20-30). What coordination and verification look like at that scale is the interesting question and the brief answers neither — see [[loop-engineering]]. *(Headline-level; no paper, journal or verification captured, and the agent-count and duration figures are unsourced. Vendor-adjacent claim about a vendor's own model.)*
 - **2026-09-22: Claude Opus 5.5 ships the same day as GPT-6 Sol/Luna — both labs cut prices 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]): the first frontier-on-frontier price war the wiki has captured. Lands one day after the [[dailybrief-roundup-2026-09-21|IPO delay to November at a ~$2T expected valuation]], which makes the timing worth noting — **cutting price by half into an IPO window is a competitive response, not a margin strategy**. Whether the cuts hold past the launch cycle is the test; see [[ai-margin-collapse]]. *(No per-token figures or effective dates captured; **Claude Opus 5.5** has no page yet — create-candidate once specs land.)*
 - **2026-09-22: China reportedly probes DeepSeek and Moonshot over data leaks *to* Anthropic** ([[dailybrief-roundup-2026-09-22]], Digg) — **the inverse of the claim on this page**. On 2026-09-10 Anthropic publicly detailed **distillation campaigns run against it** by Alibaba, Moonshot and DeepSeek. Now the same two labs are under investigation by their own government for leaking data **in the other direction**.

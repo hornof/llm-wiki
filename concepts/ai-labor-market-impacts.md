@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-09-15
+last_updated: 2026-09-25
 ---
 
 ## Definition
@@ -50,6 +50,11 @@ For an AI engineering / VPE career:
 - **The young-worker finding is "just barely statistically significant"** in the Anthropic measure. Alternative interpretations: young workers staying in existing jobs, taking different jobs, returning to school. Survey mismeasurement also possible.
 - The Brynjolfsson et al. ADP-payroll cross-confirmation is what elevates the signal above noise — same direction, different data.
 - The Anthropic measure is anchored on Claude usage. Doesn't include OpenAI / Gemini usage, which would shift the exposure weights. Cross-lab usage-data fusion is the obvious next step.
+
+> [!important] Four independent surfaces now say agents make the work *harder* (2026-09-25)
+> [[simon-willison|Willison]] argues **coding agents amplify existing skill requirements rather than democratizing them** ([[dailybrief-roundup-2026-09-25]]). With [[andrew-ng|Ng's]] 30–40%/60–70% split below, the [[agentic-engineering|six-voice cognitive-load convergence]], and voxium's *"management sees shipping as unbottlenecked; teams don't"*, that is **four independent surfaces converging on the opposite of the democratization claim** that accompanied essentially every tool launch this wiki has captured.
+> The dissent is same-week and first-person — [[garry-tan|Tan]] reports 4× *"with no increase in time in-editor"* — and **neither side is measured.** See [[developer-productivity-measurement]] for what would settle it.
+> Small concrete instance the same day: **a tutoring company abandoned tutoring and told parents to use AI.** Service substitution, not augmentation.
 
 ## The population/workflow distinction, and the erosion of expertise proxies (Sep 2026)
 

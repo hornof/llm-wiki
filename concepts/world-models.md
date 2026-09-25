@@ -2,10 +2,12 @@
 name: World Models
 type: concept
 maturity: active-research
-last_updated: 2026-09-20
+last_updated: 2026-09-25
 ---
 
 ## Definition
+
+- **Runway: persistent, steerable video + audio in real time (2026-09-25)** ([[dailybrief-roundup-2026-09-25]]): persistent context and timed actions steering generated **video and audio simultaneously, in real time**. The brief's read is the useful one — the shift *"from isolated image/text generation to continuous, steerable simulation."* That is the capability this page's definition requires and has mostly lacked concrete instances of; pairs with [[simulation-scaling]]. *(Announcement-level; no evaluation captured.)*
 
 - **Opacity as competitive moat (2026-09-20)** ([[dailybrief-roundup-2026-09-20]], TechCrunch *"World model companies are keeping a lot of secrets"*): founders and data suppliers alike are quiet about what is actually shipping. Relevant to this page's epistemics as much as its content — much of what the wiki holds on world models is **vendor-stated capability with no external verification**, and this reports that the opacity is deliberate rather than incidental. Reason to weight independent evaluation heavily here and to treat unreplicated capability claims as marketing until shown otherwise. *(Secondary reporting; no specifics.)*
 AI systems that build internal representations of how the world works — learning to predict future states, reason about causality, and plan across time horizons — rather than systems that simply predict the next token in a sequence. The leading alternative architecture to LLMs for achieving general intelligence.

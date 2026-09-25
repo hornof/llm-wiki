@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-24
+last_updated: 2026-09-25
 ---
 
 ## What This Is
@@ -114,6 +114,20 @@ Every position above treats "harness" as one undifferentiated thing to be owned,
 It also gives the portability claim a testable shape. [[rasmic-software-factory-isenberg-2026-09-14|Mic's]] *"markdown files"* map cleanly onto **Files**, and his workflow-as-skills onto **Brain logic** — so "harness and model agnostic" turns out to mean *the Files layer travels, the Brain layer is rewritten per host.* Whether that is portability or partial portability is now answerable rather than rhetorical.
 
 *(Vendor thread launching Vercel Drives; taxonomy stands independently of the product.)*
+
+### Someone actually using one — Garry Tan, 4× (2026-09-23)
+
+[[garrytan-capy-harness-4x-2026-09-23]]. Every other position on this page is an argument about harnesses. This is **YC's CEO using one daily on his own PRs and reporting a multiple**: *"at least 4x faster than I was when just using raw Codex/Claude Code via Conductor"*, attributed to *"far far better parallelization, workflow, and automatic coordination."* The outcome list includes **better test coverage and bigger fixes**, not only speed — rare in this genre, though still without a number.
+
+**His self-skeptical post is the more valuable one**, and it supplies the deflationary case in its strongest form from someone with no incentive to make it:
+
+> *"On the one hand you can say a coding harness done right is **syntactic sugar**. On the other hand, I have seen a real speedup… **with no increase in time in-editor**."*
+
+*"Syntactic sugar"* is the serious version of *"is harness the new word for wrapper?"* — the question [[goodhartproof-yc-demo-day-domain-specific-harness-2026-09-11|nobody in the original YC thread answered]]. Tan poses it against himself and **declines to resolve it**, which is more honest than either side of this page has managed.
+
+**And "no increase in time in-editor" is a testable claim that the wiki already has evidence against.** The [[agentic-engineering|six-voice cognitive-load convergence]] says the opposite — *"we work in five threads to keep the AI busy… more mentally exhausted than I can remember in years"* — and [[dailybrief-roundup-2026-09-25|Willison]] argues the same week that coding agents make engineering *harder*. **Same question, first-person on both sides, opposite answers.** Neither is measured.
+
+*(Unmeasured 4×; no methodology or baseline period. YC's CEO naming a product publicly is a market event as well as a datapoint; no YC–Capy relationship disclosed in the thread and none checked.)*
 
 ## Open Objections
 
