@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-09-22
+last_updated: 2026-09-26
 ---
 
 ## Who They Are
@@ -11,6 +11,9 @@ last_updated: 2026-09-22
 Greg Isenberg is an **independent founder + investor** and host of **Startup Ideas Podcast** (`@startupideaspod`). **First wiki entity surface 2026-06-13** following 2nd substantive surface ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|Fable 5 ban + local-models pivot]]) extending [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08|Jun 8 AI-native masterclass with Theo Tabah]]. Distinctive practitioner-content register: **conversational + structural-framework framing** with strong operator-side discipline articulation. Crossovers with [[ashwingop|Ashwin Gopalan / Sentra]] AI-native organizational architecture + [[steipete-loops-engineering-vision-md-2026-06-07|Steinberger]] Loop Engineering register + [[whrrari-obsidian-claude-30-point-second-brain-2026-06-06|rari]] operator-side substrate-control disciplines.
 
 ## Their Current Focus
+
+- **The missing "escalate to human" button (2026-09-25)** ([[gregisenberg-escalate-to-human-button-2026-09-25]]): *"Every personal agent right now is fully AI. Muse, Instinct, all of them… there's the 1 thing a week that needs an actual person. Right now I'm the person."*
+  **The argument is one falsifiable line.** Meta tried this with **M** in 2015 and killed it in 2018 because *"humans did 90 and the AI did 10, so every user cost a fortune"* — and Isenberg's claim is simply *"that ratio is flipped now."* No evidence offered, but the failure mode is named and the test is obvious. It is also the **missing half of a pattern the wiki already holds**: [[jev]]'s confidence thresholds specify *low confidence → route to a human*, and **nobody operates that branch as a product**.
 
 - **2026-07-31: "biggest opportunities right now" startup-ideas list** ([[raw-batch-roundup-2026-07-31]]): his recurring founder-ideas register, several AI-shaped: (2) **agents that need to spend money** — *"they're getting virtual cards and budgets; someone builds the spend controls, fraud protection, receipts"* (an **agentic-commerce** infra bet); (3) **people drowning in AI output** — *"everyone generates infinite drafts now, the bottleneck moved to reviewing and choosing, build the judgment layer"* (the individual-scale version of the [[graph-engineering|reviewer/verifier]] problem + the week's "review is the bottleneck" thread); (5) **verifying humans** — deepfakes broke trust, *"every dating app, marketplace, and video call needs proof-of-human within 2 years."* Non-AI-native ones (loneliness/IRL, burnout economy, physical-world trades) are the anti-AI-saturation backlash plays.
 - **2026-07-24: Buzz shared-compute + cloud-parallel-agents thread** ([[graph-engineering-cluster-2026-07-26]]): two same-week takes. (1) On Jack Dorsey's [[buzz|Buzz]] — the under-discussed idea is **shared compute**: one person runs the machine + an open model (Gemma), the whole community shares it, solving "strongest open models need hardware most people won't buy alone." (2) On parallelism — a single local [[claude-code|Claude Code]] instance *"leaves 10x on the table"*; cloud VMs each run an isolated agent in its own git worktree so work never collides — practitioner corroboration of [[graph-engineering]]'s parallel-fan-out case (via his Startup Ideas Podcast).

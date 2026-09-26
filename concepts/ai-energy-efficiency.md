@@ -2,10 +2,13 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-09-24
+last_updated: 2026-09-26
 ---
 
 ## Definition
+
+- **A second halt in three days — Crusoe abandons a $1.25B turbine plan (2026-09-26)** ([[dailybrief-roundup-2026-09-26]]): Crusoe drops a **$1.25B plan for Boom turbines** at AI data centres, after [[dailybrief-roundup-2026-09-24|Oracle's force majeure]] on a New Mexico site. The brief: *"energy solutions aren't keeping pace with compute demand."*
+  **One halt is an event; two in three days at different companies, both on the power side, is the start of a pattern.** And it lands in the same week as the escape attempts catalogued above — orbit, stranded solar, grid coalitions. **The escapes and the failures are arriving together**, which is what a binding constraint looks like from the inside. *(Plan abandonment reported; cause not captured.)*
 
 - **Three escapes from the same constraint, and one failure to escape (2026-09-24)** ([[dailybrief-roundup-2026-09-24]]): **Google's Project Suncatcher** tests **TPUs in orbit** for cooling and survivability, while **Oracle invokes force majeure on a New Mexico data centre** (8% stock drop, cause unstated). Set alongside [[dailybrief-roundup-2026-09-16|Rune siting inference at solar farms]] and the [[dailybrief-roundup-2026-09-20|grid-capacity coalitions and local opposition]], the pattern is clear: **orbit, stranded generation, and grid coalitions are three different attempts to get out from under terrestrial power and cooling — and the Oracle halt is what it looks like when you cannot.** *(Suncatcher is a test; force majeure cause not captured.)*
 

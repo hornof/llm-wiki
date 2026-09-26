@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-24
+last_updated: 2026-09-26
 ---
 
 ## Definition
@@ -14,6 +14,16 @@ last_updated: 2026-09-24
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### A bilateral channel — the first mechanism neither side controls (2026-09-26)
+
+**The US and China agree to create an AI incident communication channel** ([[dailybrief-roundup-2026-09-26]]).
+
+**Every other item on this page is either vendor-voluntary or single-jurisdiction.** AEF-1, Microsoft's code of conduct, the reported standards body, the Dumfries House summit and OpenAI's standards post are all the former; the Newsom EO, the Pentagon finding and China's probe of [[deepseek]] and Moonshot are all the latter. This is neither — **an incident channel is shared infrastructure for a relationship neither party controls alone**, which is the first structure here with that property.
+
+Two observations. **You build an incident channel when you expect incidents** — the mechanism's existence is itself a statement about expected frequency. And it supplies what the [[dailybrief-roundup-2026-09-25|09-25 "US–China competition at a standstill"]] item lacked: that story was **not folded** for want of terms, and a named mechanism is a term.
+
+*(Agreement reported; scope, participants and trigger conditions not captured. An announced channel is not a used one — watch for a first invocation.)*
 
 ### A retrospective finding of harm — Pentagon on the Iran school strike (2026-09-23)
 

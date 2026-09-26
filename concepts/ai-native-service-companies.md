@@ -2,7 +2,7 @@
 name: AI-Native Service Companies
 type: concept
 maturity: emerging
-last_updated: 2026-09-20
+last_updated: 2026-09-26
 ---
 
 ## Definition
@@ -104,3 +104,9 @@ This is **compound-engineering accretion aimed at a market instead of a codebase
 > *"Most people building 'AI agencies' point the AI at production and leave everything else the way it was."*
 
 The overhead around the work — scoping calls, account management, manual QA — is what made agencies bad businesses. Collapsing it (intake→form, scope→menu, quality→rulebook, account management→dashboard) is the actual move, and matches the [[mardehaym-implementation-firm-vs-consultancy-2026-09-15|billable-day critique]] from five days earlier.
+
+## The consumer version of the review layer ([[gregisenberg-escalate-to-human-button-2026-09-25]], 2026-09-25)
+
+The firms on this page sell **the outcome, delivered mostly by agents with a small human review layer** — Isenberg's own eight pieces make the review layer step five. In [[gregisenberg-escalate-to-human-button-2026-09-25]] he asks for **that layer as a consumer button**: *"I'd pay real money for a button that hands the job to a human who finishes it and reports back."*
+
+Same architecture, different buyer. It suggests the AI-native-services shape is not specific to B2B — it is what you get whenever the last mile needs a person and the first 99% doesn't. The precedent he cites is the one to beat: Meta's **M** (2015-2018) failed at **90% human / 10% AI**, and his entire case is that the ratio has inverted. *(Unevidenced; a product wish, not a company.)*
