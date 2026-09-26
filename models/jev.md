@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-09-22
+last_updated: 2026-09-26
 ---
 
 ## What It Is
@@ -53,6 +53,9 @@ The most portable idea here, and it generalizes beyond this model:
 > *"The thresholds belong in code, where they can be reviewed and changed. A dashboard label may tolerate a weak prediction. A command that deletes data should require a much higher bar."*
 
 The worked example is the useful part: a ticket routed `billing` at **0.52** against `technical` at **0.46**, with overall confidence **0.18**. Billing "won" — and acting on it would be reckless. A single-label API would have returned `"billing"` and hidden that entirely.
+
+> **Nobody operates the low-confidence branch** ([[gregisenberg-escalate-to-human-button-2026-09-25]], 2026-09-25). [[greg-isenberg|Isenberg]] points out that *"every personal agent right now is fully AI — Muse, Instinct, all of them"*, and that none can hand a job to a person: *"there's the 1 thing a week that needs an actual person. Right now I'm the person."*
+> **The threshold pattern above specifies three branches and the industry ships two.** Act and escalate-to-a-stronger-model are built; route-to-a-human is specified and unimplemented. Isenberg's argument for why it is now viable is one line — Meta's **M** died in 2018 because *"humans did 90 and the AI did 10"*, and *"that ratio is flipped now"* — which is unevidenced but falsifiable, and names the exact failure mode a revival would have to beat.
 
 ## The TypeSafe position — "Build Prod, Not God"
 

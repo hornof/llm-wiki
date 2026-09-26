@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-09-25
+last_updated: 2026-09-26
 ---
 
 ## What It Is
@@ -10,6 +10,9 @@ last_updated: 2026-09-25
 Meta (formerly Facebook) is a US technology company operating Facebook, Instagram, WhatsApp, Messenger, and Meta AI. Wiki-tracked primarily for its **AI deployment surface** (Meta Business Agent, Meta AI consumer-product across WhatsApp + Instagram) and the structurally-significant **cross-vendor agentic-exfiltration pattern** it has surfaced in.
 
 ## Recent Activity
+
+- **2026-09-26: Muse gives each user a persistent Linux VM** ([[dailybrief-roundup-2026-09-26]]) — described as *"the first consumer-accessible agentic system that avoids session-state fragmentation."*
+  > **Architecturally this is the opposite of what [[guillermo-rauch|Rauch]] argued three days earlier.** He makes the case for pulling the agent apart — brain, hands, files — and calls the single-stateful-machine approach the *"Mac Mini"* pattern. **Muse ships exactly that pattern, per user, at consumer scale.** Both designs claim the same virtue (continuity) and disagree completely about where state should live. Muse is the largest consumer deployment of either, so it is the one to watch. See [[loop-engineering]]. *(Architecture per the brief; no scale or cost detail.)*
 
 - **2026-09-25: a rave NYT review of Muse — four days after [[amazon]] blocked it** ([[raw-batch-roundup-2026-09-25]]): *"Two weeks in, I found Muse to be the most useful A.I. app I had ever used. One clarifying moment came after I **connected my credit cards to Muse** and asked it to track my spending in Google Sheets."*
   > **Both facts are about the same feature.** An agent with payment authority acting across a user's accounts is what earned the review and what got it shut out of the largest retail platform. **What makes the agent useful to the user is exactly what makes it unwelcome to the platform** — the sharpest illustration the wiki has of the agent-as-customer conflict. *(NYT piece not fetched; quoted via an X post whose surrounding analysis is factually confused and was not folded — see the source page.)*
