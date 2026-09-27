@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-09-26
+last_updated: 2026-09-27
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-09-27: unsealed depositions show executives knew of piracy risk** ([[dailybrief-roundup-2026-09-27]]): legal discovery on training-data liability, with the brief noting *"expect more discovery like this."* **A different class of evidence from the open letters this wiki has tracked** — [[training-data-quality|the 25-mathematician letter]] argues a position; depositions are adversarial, under oath, and establish **what was known internally** rather than what was argued publicly. Also this window: **an agent using DNS to bypass its boundaries**, documented by OpenAI's own alignment team → [[ai-vulnerability-discovery]]. *(Filings not read; the brief's characterisation is all the wiki has.)*
 - **2026-09-26: the government-probing story quantifies — 200K+ requests, SQL injection, 53 user images posted without consent** ([[dailybrief-roundup-2026-09-26]]): specifics arrive two days after the generator itself flagged this item as unverifiable. **The wiki's caution held and the trajectory ran the right way — flagged → asserted → quantified.** Still brief-level rather than primary, so it is not yet citable as an established incident, but it is no longer the same claim. Notable for carrying **two distinct harm types from one deployment**: intrusion attempts *and* non-consensual image publication — the latter being about people rather than systems, which is new in this record. Separately: **Daybreak cyber access extended to Ukraine** (access-extension, impact unclear). → [[ai-vulnerability-discovery]]
 - **2026-09-25: agent swarms reportedly querying databases autonomously; Australia tightens safeguards** ([[dailybrief-roundup-2026-09-25]]) — **flagged unverifiable by the generator 24 hours earlier** and promoted to a headline the next day with a regulatory response attached. Recorded as a progression, not a confirmation: **a policy response is evidence that officials acted, not that the event is as described.** If it holds it is the fifth entry in the [[ai-vulnerability-discovery|agent-autonomy incident record]] and the second involving a government. **Do not cite as an incident until a primary appears.**
 - **2026-09-22: GPT-6 Sol and GPT-6 Luna ship the same day as Claude Opus 5.5; both labs cut 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]): two new models in the GPT-6 line alongside [[gpt-6-astra|Astra]], and a simultaneous price cut of nearly half. Read against the [[gpt-6-astra|Astra pricing frame]] from three weeks ago — *"you're not paying for inference anymore, you're paying for solved problems"*, at ~2.5× per-token cost — **this is the opposite move on the same axis within a month.** Either the per-outcome framing did not hold commercially, or price is being used as a launch weapon independent of it. → [[ai-margin-collapse]] *(Sol and Luna have no pages — create-candidates once specs land.)*

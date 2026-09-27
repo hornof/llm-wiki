@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-09-26
+last_updated: 2026-09-27
 ---
 
 ## What It Is
@@ -77,6 +77,24 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 - **[[loop-engineering]]** — Jev targets the judgment calls inside the loop, not the loop itself.
 
 ## Community Sentiment
+
+**Independently evaluated — and the calibration caveat was right (2026-09-27).** [[jev-as-judge-cmu-paper-and-plugin-evals-2026-09-27]]: a **Carnegie Mellon** paper tests Jev as an LLM-as-judge substitute. The results split cleanly.
+
+**Where it holds** — within **3 percentage points** of the strongest judge tested on ordinary response preferences, evidence-grounded factuality, and final-answer checks. **At 0.36% of that comparator's fee** on a matched workload.
+
+**The cascade, with numbers.** High confidence → accept; low → escalate to a stronger LLM. *"A frozen version of this cascade retained about **99 percent of GPT-6's accuracy** while using roughly **57 percent of its fee**."* That is the threshold pattern above, measured.
+
+**Where it fails — and this is the part that matters for this page.** It fell behind on **complex derivations**, on **resisting an elaborately written wrong answer**, and on **factuality with no reference evidence**. And critically:
+
+> *"In those cases, **confidence did not reliably expose the errors.**"*
+
+**This page warned that if confidence is not well calibrated the threshold pattern is *worse* than no pattern, because it converts an unreliable number into an automated action. CMU found exactly that, in a named and bounded set of cases.** The caveat is no longer speculative: **the routing pattern is safe where reference evidence exists and the judgment is shallow, and unsafe on derivations, adversarial prose, and unreferenced factuality — where the confidence score will not warn you.**
+
+The paper's own framing is appropriately narrow: it *"is not arguing that Jev should replace every LLM judge."*
+
+**An ecosystem in twelve days.** A community plugin (`aaddrick/building-with-typesafe-jev`) ships best practices, **anti-patterns**, an API reference and links to **150+ community projects** — Jev launched 2026-09-15. Its author's own eval — six coding tasks × 10 runs, three conditions, **three judges from three providers with majority deciding** — scores **no plugin 0.65 / official plugin 0.77 / this plugin 0.96**. Better methodology than most vendor benchmarks, and self-run on his own plugin; a commenter's *"can you share some real use examples?"* is unanswered.
+
+*(Neither paper nor plugin fetched; CMU title and arXiv ID not captured — retrieve before citing the 0.36% or 99%/57% figures anywhere load-bearing.)*
 
 **Independent surfaces arrive within a week (2026-09-21/22)** ([[dailybrief-roundup-2026-09-22]]): [[simon-willison|Willison]] writes *"Jev introduces a new shape of LLM"*; Latent Space runs *"Jev: System One models for Prod, not God"* with TypeSafe CEO Diogo Almeida; and Willison ships **`llm-typesafe 0.1a0`**, adding Jev to the LLM CLI.
 

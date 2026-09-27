@@ -2,10 +2,13 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-09-08
+last_updated: 2026-09-27
 ---
 
 ## Definition
+
+- **A community plugin that ships its own evals (2026-09-27)** ([[jev-as-judge-cmu-paper-and-plugin-evals-2026-09-27]]): `aaddrick/building-with-typesafe-jev` packages best practices, **anti-patterns**, an API reference and links to **150+ community projects** for working [[jev|Jev]] into a harness — and publishes a **cross-provider eval** of itself: six tasks × 10 runs × three conditions, judged by **Claude Opus, GPT-6 Sol and Kimi K3 with majority deciding**. Scores: **no plugin 0.65 / official plugin 0.77 / this plugin 0.96**.
+  **Notable for this page because the skill carries its own evidence.** Most SKILL.md-pattern artifacts assert usefulness; this one measures it, with better methodology than most vendor benchmarks — while being self-run on the author's own plugin, and beating the vendor's official plugin by 19 points, which is either a real docs gap or an overfit eval. *(Self-reported; a commenter's request for real usage examples is unanswered.)*
 
 **SKILL.md** is the file-based primitive for packaging a reusable capability — a named, described procedure (often with tools/scripts) that a coding agent loads on demand to perform a specific task end-to-end. Where [[claude-md-pattern|CLAUDE.md]] tells the agent *how to behave* in a project and OKF-style knowledge tells it *what it knows*, a SKILL.md tells it *how to do a specific job* — and crucially encodes the **verification** of that job so the agent can self-check its work.
 

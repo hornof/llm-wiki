@@ -1,10 +1,13 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-09-24
+last_updated: 2026-09-27
 ---
 
 ## What This Is
+
+- **The hardest number yet against "AI saves money" — $942M (2026-09-27)** ([[dailybrief-roundup-2026-09-27]]): insurers, citing **Blue Cross data**, attribute **$942M in additional healthcare costs** to AI. The brief: *"Data contradicts 'AI saves money' narrative."*
+  **This page is built on evidence of absent gain** — Uber's $1,500/month cap, the Berkeley meta-analysis, the NBER productivity paradox. **This is an attributed cost increase with a figure**, in the sector where the savings case has been argued hardest. Two readings, neither resolvable here: AI genuinely raised utilisation and spend, **or insurers have an interest in attributing cost growth to a novel cause.** Carried with both. *(Insurer-reported; attribution contested by construction; not independently verified.)*
 
 - **"Thinking got cheap, doing didn't" (2026-09-24)** ([[dailybrief-roundup-2026-09-24]], *Foundries vs Navigators*): a structural analysis of research-company economics that the brief summarises in one line worth keeping. It is the cleanest statement of the asymmetry underneath this page — **if cognition commoditizes and execution doesn't, value concentrates wherever the doing is**, which is the same conclusion [[domain-specific-harness]] reaches from the market side and this page reaches from the spend side. *(Essay not fetched; the framing is the contribution.)*
 

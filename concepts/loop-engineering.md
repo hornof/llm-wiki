@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-09-26
+last_updated: 2026-09-27
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -161,6 +161,10 @@ The strong claim, worth testing rather than accepting: *"you can't even run a se
 **Scale datapoint — ~950 agents, 21 hours (2026-09-24).** [[dailybrief-roundup-2026-09-24]]: Claude discovered a novel enzyme system via CRISPR-like repeats from a **21-hour search run by ~950 agents**. Against [[isenberg-allie-miller-ai-native-company-2026-08-12|Miller's 34]], croovies's 128 and Gas Town's 20-30, **this is a different regime by an order of magnitude** — and the brief describes neither the coordination nor the verification that made it work, which are the only two things this page would want to know. *(Unsourced figures; vendor-adjacent claim.)*
 
 **Evals as the missing craft ([[hamel-husain-evals-faq-guide-2026-09-23]], 2026-09-23).** [[hamel-husain|Husain]] consolidates 60+ hours of office hours into an **Evals FAQ**, indexed by problem rather than concept and written to be consumed by an agent as well as a person. This page has a great deal on *why* the verifier matters and comparatively little on **how to build one**; that is what this points at. Contents not fetched.
+
+**The confidence cascade, measured — and its blind spot (CMU, 2026-09-27).** [[jev-as-judge-cmu-paper-and-plugin-evals-2026-09-27]] puts numbers on the act/escalate/human pattern this page has been recommending: a frozen cascade using [[jev|Jev]] for the cheap judgments and escalating low-confidence cases to a stronger model **retained ~99% of GPT-6's accuracy at ~57% of its fee**, with the cheap judge running at **0.36%** of the strong judge's cost on matched work.
+
+**And it found where the pattern breaks.** On complex derivations, elaborately-argued wrong answers, and factuality without reference evidence, *"confidence did not reliably expose the errors."* **That is the failure mode that makes a threshold pattern dangerous rather than merely imperfect** — the gate does not know it is wrong, so low-confidence escalation never fires. **Verifier discipline requires knowing which judgments your confidence signal is calibrated for**, which is a stricter requirement than "have a verifier."
 
 **Pre-action verification — checking before the agent acts (arXiv 2609.11957, 2026-09-14).** *"Look Before You Leap: Pre-Action Verification for LLM Agents"* ([[dailybrief-roundup-2026-09-15]]) proposes **cheap deterministic checks run before an action executes**, to catch silent failures rather than detect them afterwards. Structurally this is the same move as [[croovies-loop-orchestrator-mission-note-2026-09-10|croovies's plan-review-before-any-code-exists law]] — push the gate **upstream of generation** — now as a general agent-loop primitive rather than one operator's house rule. Complements the post-hoc verifier this section describes: McDonald's *"design the verifier"* asks whether the output was right; this asks whether the action should be attempted. *(arXiv preprint, not independently evaluated.)*
 
