@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 ---
 
 ## What It Is
@@ -13,6 +13,9 @@ Meta (formerly Facebook) is a US technology company operating Facebook, Instagra
 
 - **2026-09-27: "Why I'm Building Muse" — a manifesto, and what it collides with** ([[alexandr-wang-why-im-building-muse-2026-09-26]]): Alexandr Wang's stated intent for Muse is *"a **second mind**… a general manager whose whole job is to find out what you want and make sure it happens"*, against a world that is *"a maze of forms and **gatekeepers** and schedules and obstacles."*
   > **No mechanism, no capability claim, no number** — folded as positioning, not evidence. It is worth keeping for the collision: the manifesto treats obstacles as friction to route around, and the product's first month produced **[[amazon|a gatekeeper that blocked it]]**, an NYT rave for tracking credit-card spending, and [[gregisenberg-escalate-to-human-button-2026-09-25|Isenberg's complaint]] that the general manager cannot escalate to a human. **Some of the maze turns out to be counterparties with their own interests.** *(Wang's role and affiliation deliberately not asserted — unverified here.)*
+
+- **~2026-09-25: Muse opens its connectors to third-party developers** ([[isenberg-muse-ai-connectors-app-store-2026-09-25]]) — [[greg-isenberg|Isenberg]] reads it as an **app-store moment**. **Discount the analogy, keep the fact.** What made the App Store a moment was distribution *plus* billing *plus* review; an open integration surface without a payment rail and a discovery mechanism is a plugin directory, and the industry has shipped several of those without the outcome.
+  > **The timing is the interesting part.** Meta is opening Muse's surface to outsiders **four days after [[amazon]] shut Muse out of its own**. Two large platforms moving in opposite directions on the same question — whether third-party agents may reach into a business's surface — inside one week. Meta's bet is that being the connected side wins; Amazon's is that the customer relationship is the asset. *(Per an interested commentator; no Meta announcement captured, and the episode date is approximate.)*
 
 - **2026-09-26: Muse gives each user a persistent Linux VM** ([[dailybrief-roundup-2026-09-26]]) — described as *"the first consumer-accessible agentic system that avoids session-state fragmentation."*
   > **Architecturally this is the opposite of what [[guillermo-rauch|Rauch]] argued three days earlier.** He makes the case for pulling the agent apart — brain, hands, files — and calls the single-stateful-machine approach the *"Mac Mini"* pattern. **Muse ships exactly that pattern, per user, at consumer scale.** Both designs claim the same virtue (continuity) and disagree completely about where state should live. Muse is the largest consumer deployment of either, so it is the one to watch. See [[loop-engineering]]. *(Architecture per the brief; no scale or cost detail.)*
