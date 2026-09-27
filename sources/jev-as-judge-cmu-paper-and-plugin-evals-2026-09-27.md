@@ -61,3 +61,12 @@ Two things follow. **150+ community projects means an ecosystem formed in twelve
 - **Neither paper nor plugin fetched directly.** The CMU findings come via Pachaar's thread; the plugin numbers are the author's own self-report on his own plugin, which is the obvious conflict.
 - **The plugin eval is self-designed and self-run**, but cross-provider judges with majority vote and 10 runs per task is stronger design than most claims this wiki folds. Recorded as well-designed *and* self-interested.
 - **CMU paper title and arXiv ID not captured** — worth retrieving before citing the 0.36% or 99%/57% figures anywhere load-bearing.
+
+## Superseded in part (2026-09-28)
+
+The CMU half of this page was folded **secondhand** from Pachaar's thread. The primary — **arXiv:2609.26550** — was fetched the next day and is at [[jev-as-a-judge-arxiv-2609-26550]]. Two corrections:
+
+1. **The confidence finding is close to reversed.** This page recorded *"confidence did not reliably expose the errors."* The abstract says *"on several benchmarks, JEV's gap to this comparator is concentrated in low-confidence decisions"* — the signal largely does flag where it errs, which is why the cascade works.
+2. **The "~57% of fee" figure is not in the paper.** The abstract says only *"at lower cost."*
+
+The named boundary — derivations and elaborately written wrong answers — is confirmed. **Cite the primary, not this page,** for anything load-bearing.

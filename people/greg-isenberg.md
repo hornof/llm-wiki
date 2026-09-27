@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-09-26
+last_updated: 2026-09-28
 ---
 
 ## Who They Are
@@ -44,6 +44,10 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 
 - **"Building a Software Factory that actually works" with Ras Mic (2026-09-14)** ([[rasmic-software-factory-isenberg-2026-09-14]]): the wiki's **first Isenberg video source with a full transcript**, and the most complete end-to-end agentic-delivery pipeline it holds — isolate / build / prove / ship. Isenberg's own contribution is the framing that makes it land: he maps the four steps onto a physical plant (custom order → station, assembly line, **quality control**, shipping), and Mic says he may rename his skills to match. See [[loop-engineering]] and [[domain-specific-harness]].
 - **Hosts the concrete AI-native-org receipts, not just the frameworks** ([[isenberg-allie-miller-ai-native-company-2026-08-12]], 2026-08-12): his *Startup Ideas Podcast* episode with **Allie K. Miller** is where the wiki's sharpest agent-org-chart datapoint came from — 34 agents, an AI chief of staff, six director-level agents, human three levels up. **Worth noting for sourcing:** all eight prior Isenberg sources here are X threads or an article; his podcast is a separate and denser channel that the wiki had not been capturing. See [[ai-native-organizations]].
+
+- **Three podcast episodes in eleven days, all at listing depth (2026-09-15 → 09-25).** The podcast channel flagged above is now the denser one, and it moves faster than the threads: **Remy Gaskell of Instinct** (09-15, [[isenberg-remy-gaskell-instinct-ai-2026-09-15]]) — an iMessage-native errand agent using **spend-limited virtual cards**; **Ryan Vogel on Jev** (09-18, [[isenberg-ryan-vogel-jev-is-here-2026-09-18]]) — **1,700 emails sorted for 18 cents**, three days after launch; **Muse AI Connectors** solo (~09-25, [[isenberg-muse-ai-connectors-app-store-2026-09-25]]) — Meta opening connectors read as an app-store moment. **No transcripts obtained for any of the three**; all folded from published episode descriptions.
+- **He interviewed Instinct's founder and then named its central flaw ten days later.** 09-15 is the founder conversation; 09-25 is *"Instinct is worth $10B and it never hands anything to a person."* Both are his, and **the critique is the better contribution** — it is the rare case of a host arguing against a product he had just platformed. Recorded here because it is a reason to weight his critiques above his enthusiasms.
+- **His own 2026-07-31 ideas list called the virtual-card mechanism before he interviewed someone shipping it**: *"agents that need to spend money — they're getting virtual cards and budgets."* Instinct is that, in production, eight weeks later.
 
 ## Where to Follow
 
