@@ -3,13 +3,14 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-08-26
+last_updated: 2026-09-29
 ---
 
 ## Who They Are
 Simon Willison is an independent software engineer, blogger, and tooling builder. Co-creator of Django (2003–2005), creator of Datasette (open-source data publishing platform), and one of the most consistently high-signal practitioner voices on LLM tooling and applied AI engineering. Maintains a daily-cadence blog at simonwillison.net that has become a primary source for many practitioners tracking real-world LLM tool behavior, prompt-injection issues, and model-release evaluations.
 
 ## Their Current Focus
+- **2026-09-27 — *"2026 in LLMs (so far)"*, WeAreDevelopers keynote** ([[dailybrief-roundup-2026-09-29]], annotated slides at simonwillison.net): his long-form synthesis of the year's arc. **Not fetched** — recorded as a pointer, since the wiki has folded roughly thirty Willison surfaces this year and a keynote that synthesizes them is a natural cross-check against the wiki's own reading of 2026. **The brief's own gloss is the brief's, not Willison's**, and it makes a claim worth testing against the primary: *"the actual shipping velocity has slowed since 2024… the year wasn't about breakthroughs; it was about productization and ops."* **If that is Willison's position it is a significant one and belongs on this page properly.** Fetch before citing.
 - **2026-06-30 to 2026-07-03 canonical-4-day canonical-6-substantive-surface canonical-recurring-author canonical-cadence-anchor-tier canonical-cluster**: Jun 30 canonical-Sonnet-5-breakdown ([[claude-sonnet-5-launch-2026-06-30]]) + Jul 2 canonical-Anthropic-USG-quoting ([[dept-of-commerce-lifts-export-controls-on-claude-2026-07-02]]) + Jul 2 canonical-DSPy-Datasette-Agent-SQL-prompts ([[dailybrief-roundup-2026-07-02-pt2]]) + Jul 2 canonical-llm-coding-agent-0.1a0 canonical-alpha-release ([[dailybrief-roundup-2026-07-03]]) + Jul 3 canonical-"Fable's judgement" canonical-anti-micromanage-testing canonical-directive ([[simon-willison-fables-judgement-anti-micromanage-testing-2026-07-03]]) + Jul 3 canonical-June-2026 canonical-sponsors-only-newsletter ([[dailybrief-roundup-2026-07-03]])
 - LLM-assisted programming with [[claude-code]] and similar agent harnesses
 - Practitioner-level evaluations of new model releases

@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 ---
 
 ## What It Is
@@ -36,6 +36,8 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 **OpenShell + Sentry on BlueField-4** ([[dailybrief-roundup-2026-09-28]]): OpenShell *"enforces access rules as AI agents work"*; Sentry *"adds independent monitoring."* The research the wiki recorded on **2026-09-10** — *"what we have learned at OpenShell applying formal methods to control AI agents"* — is a product eighteen days later.
 
 **Nvidia is now selling the control layer as well as the compute layer**, which is a notable position for a company whose revenue depends on agents running more, not less. **The commercial logic is straightforward and worth stating plainly: safety infrastructure that requires a BlueField-4 sells DPUs.** That does not make the product bad — separating enforcement from monitoring, and putting the boundary on a DPU outside the agent's reach, are both sound designs — but the hardware dependency is a business decision as much as a technical one. See [[loop-engineering]].
+
+**2026-09-29 — [[openai|OpenAI]] is privately working on the platform despite being publicly absent from it** ([[dailybrief-roundup-2026-09-29]], TechCrunch). **The absence was the story for a day and the presence is the more interesting one.** A lab participating in a competitor's safety-infrastructure effort while declining to appear on the launch list is a choice about attribution, not about engagement — and it means the industry-coordination reading of this launch is stronger than the public list suggested, while the *public* signal it sends is weaker. **Worth holding against the same week's [[frontier-ai-governance|governance]] entries**, where the question of whether voluntary coordination is real or performative keeps recurring: here it is apparently real and deliberately invisible. *(TechCrunch; no detail on what the private work involves or why the public absence.)*
 
 Pairs with the same week's [[gpt-6-astra|UK AISI measurement]]: **enforcement from a vendor, measurement from a government, in the same seven days.** *(Digg summary of a vendor launch; no technical detail, pricing or availability captured.)*
 

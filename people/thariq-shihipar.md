@@ -3,7 +3,7 @@ name: Thariq Shihipar
 type: person
 affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter]
-last_updated: 2026-07-26
+last_updated: 2026-09-29
 twitter: "@trq212"
 ---
 
@@ -12,6 +12,7 @@ twitter: "@trq212"
 Member of the [[claude-code]] team at [[anthropic]]. Author of "Using Claude Code: The Unreasonable Effectiveness of HTML" — a practitioner-grade post documenting how [[claude-code]] produces better, more interactive outputs when the user asks for HTML instead of Markdown. Surfaced into the wiki via [[simon-willison]]'s May 8 2026 amplification.
 
 ## Their Current Focus
+- **2026-09-29 — *"Claude Code's Next Era"* on Latent Space** ([[dailybrief-roundup-2026-09-29]]): Opus/Sonnet 5.5, **Mods, Plugins, Projects and Tag**. His **8th surface** and his second podcast appearance. **Listing depth only — episode not fetched**, and none of the four named features is described beyond its name. See [[claude-code]]. *(Feature list from a brief summary; how Mods relate to Skills or Plugins is unknown.)*
 
 - **2026-07-24 — Authored Anthropic's official "new rules of context engineering for Claude 5 generation models"** ([[thariq-anthropic-context-engineering-claude-5-rules-2026-07-24]]): headline result *"we removed over 80% of Claude Code's system prompt for models like Claude Opus 5 and Claude Fable 5 with no measurable loss on our coding evaluations."* Thesis: capable models need **less constraint, more judgment, progressive disclosure**. His **6th surface** — and his first *authored* (not merely amplified) vendor-canonical statement on context/harness design. Updates [[context-engineering]] and directly tempers the [[claude-md-pattern|CLAUDE.md exhaustive-rules]] lineage. *(Primary fetched.)*
 - **2026-07-21 — Cat & Thariq fireside (Claude Code team)** (via [[simon-willison]], [[dailybrief-roundup-2026-07-21]]): the Claude Code leads discuss **evals, the agent security model, and dogfooding Claude Code**. Brief's read: *"Claude Code's security model — what agents can and can't do — is the actual product surface now, not the capability itself"* — a design-tradeoff signal on how Anthropic ships coding tools. *(Primary not fetched.)*

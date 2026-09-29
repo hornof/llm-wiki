@@ -3,11 +3,13 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 ---
 
 > [!update] Line extended — GPT-6 Sol and GPT-6 Luna (2026-09-22)
 > Two more GPT-6 models shipped alongside Astra, the same day as [[claude-opus-5|Claude Opus 5.5]], with **both labs cutting 40–50%** ([[dailybrief-roundup-2026-09-23]]).
+> **Extended again — GPT-6.1 Sol (2026-09-29)**, pitched as *"near-Astra intelligence for a fifth of the price"* at **$0.10 per million cached input tokens** ([[dailybrief-roundup-2026-09-29]]). **Three price moves on this line in twenty-one days, all the same direction after the first.** Astra 09-08 at ~2.5× on a per-outcome argument; Sol and Luna 09-22 cutting 40–50%; Sol 6.1 on 09-29 claiming near-Astra capability at a fifth of Astra's price. **The clearest reading is that the per-outcome pricing frame below did not survive contact with a competitor**, and the wiki should stop treating it as this line's positioning. *(Vendor claim; "near-Astra" is not a benchmark and the uncached input rate is uncaptured.)*
+>
 > **Worth reading against this page's own pricing frame.** Astra launched three weeks earlier at ~2.5× per-token cost on the argument that *"you're not paying for inference anymore, you're paying for solved problems."* A 40–50% cut on the same line within a month is **the opposite move on the same axis** — either the per-outcome framing did not hold commercially, or price is being used as a launch weapon independently of it. *(Sol and Luna have no pages; no specs captured.)*
 
 ## What It Is
