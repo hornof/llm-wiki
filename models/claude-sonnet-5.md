@@ -3,13 +3,24 @@ name: Claude Sonnet 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-06-30
-dormant_since: 2026-09-20
+last_updated: 2026-09-28
 ---
 
 ## What It Is
 
 **Claude Sonnet 5** is Anthropic's canonical-most-agentic-Sonnet-yet, launched 2026-06-30 as canonical-default-on-Free-and-Pro tier (also canonical-available-to-Max + Team + Enterprise). Canonical-substantial-improvement-over-Sonnet-4.6 on canonical-reasoning + canonical-tool-use + canonical-coding + canonical-knowledge-work. **Canonical-performance-close-to-Opus-4.8-at-lower-prices canonical-positioning-anchor** = first wiki-captured canonical-Sonnet-tier canonical-approaches-Opus-tier-at-lower-cost canonical-pattern. **Canonical-1M-token-context-window canonical-anchor** + **canonical-January-2026 knowledge-cutoff** (per canonical-leaked-specs).
+
+## Sonnet 5.5 (2026-09-28)
+
+**A point release, reported at listing depth** ([[dailybrief-roundup-2026-09-28]], Digg): *"more than 30% faster than Sonnet 5 and costs up to 30% less per task in its testing, despite unchanged per-token pricing"*, with **new cyber safeguards**.
+
+**Read the pricing claim carefully.** Per-token pricing is unchanged, so *"30% less per task"* is not a discount — **it means fewer tokens to finish the same job.** Efficiency arriving as cost reduction without a price change is a distinct lever from the [[dailybrief-roundup-2026-09-23|40–50% headline cuts of 09-22]], and it is invisible to anyone comparing rate cards. See [[ai-margin-collapse]].
+
+**"Up to 30%" and "in its testing" are both load-bearing hedges.** This is the vendor's own measurement on an undisclosed task mix, relayed by an aggregator. No benchmark, no token counts, no task list.
+
+**The cyber safeguards are unexplained** and land the same week the UK AI Security Institute put a number on [[gpt-6-astra|GPT-6 Astra's]] supply-chain-attack rate (29.2% of simulated trials). Whether Anthropic's safeguards are a response to a measured capability or routine release hygiene is not captured. → [[ai-vulnerability-discovery]]
+
+**No page created for 5.5.** A point release described in one sentence does not clear the bar; it lives here until specs land. *(Note: **Claude Opus 5.5** remains a create-candidate from 09-22 for the same reason.)*
 
 ## Strengths & Weaknesses
 

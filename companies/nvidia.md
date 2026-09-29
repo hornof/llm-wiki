@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-09-13
+last_updated: 2026-09-28
 ---
 
 ## What It Is
@@ -30,6 +30,14 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 - **2026-08-27 — NVIDIA acquires Hugging Face for $13B** ([[dailybrief-roundup-2026-08-27]], AINews/Latent Space, *primary/terms not fetched*): NVIDIA buys the **open-source model + dataset distribution hub** ([[hugging-face]]) — the strongest instance yet of the **substrate-tier → application-tier vertical-integration** move the wiki first flagged with [[nvidia-nemotron-3-ultra-550b-2026-06-04|Nemotron 3 Ultra]]. NVIDIA now owns silicon (GPUs) *and* the primary neutral distribution surface for open weights that run on it. Reads two ways against the [[ai-margin-collapse]] thesis: (a) if inference commoditizes and the durable scarcity is compute + distribution, owning the open-weights hub is a defensive moat move; (b) governance risk — a CUDA-aligned owner of the ecosystem's neutral ground could tilt open-weights distribution toward its own stack. Pairs with the same-day [[ai-vulnerability-discovery|OpenAI HF-incident retro]] (labs learning failure modes from open-source infra). **Deal terms / close timeline / antitrust exposure pending.**
 - **2026-09-03 — acquisition officially confirmed at $12.9B** ([[dailybrief-roundup-2026-09-03]], TechCrunch "Nvidia confirms it will buy Hugging Face for $12.9 billion"): the above deal is now **official** with a precise figure ($12.9B, slightly below the AINews-reported ~$13B). Confirms NVIDIA's silicon + open-weights-distribution vertical integration; [[jack-clark|Jack Clark's Import AI 471]] ("Why Hugging Face worries me") runs the ecosystem-concentration critique the same day. **Close timeline / antitrust review pending.**
 - **2026-07-09 — "victim of the compute marketplace it created"** ([TechCrunch](https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/), via [[dailybrief-roundup-2026-07-09]]): counter-signal to the moat narrative — the commoditizing GPU/compute marketplace Nvidia enabled now works against it; **infrastructure/compute is no longer a durable moat play**. Pairs structurally with the [[ai-margin-collapse]] thesis (commoditization pressure moving up the stack from open-weight models to the compute layer). Primary not fetched.
+
+## Ships an Open Agent Safety Platform (2026-09-28)
+
+**OpenShell + Sentry on BlueField-4** ([[dailybrief-roundup-2026-09-28]]): OpenShell *"enforces access rules as AI agents work"*; Sentry *"adds independent monitoring."* The research the wiki recorded on **2026-09-10** — *"what we have learned at OpenShell applying formal methods to control AI agents"* — is a product eighteen days later.
+
+**Nvidia is now selling the control layer as well as the compute layer**, which is a notable position for a company whose revenue depends on agents running more, not less. **The commercial logic is straightforward and worth stating plainly: safety infrastructure that requires a BlueField-4 sells DPUs.** That does not make the product bad — separating enforcement from monitoring, and putting the boundary on a DPU outside the agent's reach, are both sound designs — but the hardware dependency is a business decision as much as a technical one. See [[loop-engineering]].
+
+Pairs with the same week's [[gpt-6-astra|UK AISI measurement]]: **enforcement from a vendor, measurement from a government, in the same seven days.** *(Digg summary of a vendor launch; no technical detail, pricing or availability captured.)*
 
 ## Management Notes
 

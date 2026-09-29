@@ -1,15 +1,19 @@
 ---
 name: Fei-Fei Li
 type: person
-affiliation: Stanford University; World Labs (founder)
+affiliation: AMD (EVP, announced 2026-09-28); World Labs (founder); Stanford University
 signal_sources: [twitter, blog, youtube, academic]
-last_updated: 2026-06-03
+last_updated: 2026-09-28
 ---
 
 ## Who They Are
 Chinese-born American computer scientist and professor at Stanford. Best known for creating ImageNet — the large-scale visual dataset that catalyzed the deep learning revolution in the 2010s. Co-director of Stanford HAI (Human-Centered AI Institute). Currently focused on World Labs, a startup developing "spatial intelligence" AI (3D physical world reasoning). Named Time 100 AI Most Influential People (2023) and one of Time's "Architects of AI" (2025).
 
 ## Their Current Focus
+
+**Joining AMD as EVP (announced 2026-09-28).** AMD is acquiring [[world-labs|World Labs]] for **$8.2B** and Li takes an EVP role ([[dailybrief-roundup-2026-09-28]], TechCrunch). **This is the largest role change on this page and the least explained** — no statement from Li captured, no scope for the EVP title, and no word on whether the Stanford affiliation or her governance advocacy continues. The move puts the researcher who built ImageNet inside a chip company, which is either the most natural place for a spatial-intelligence thesis or an acqui-hire with a title attached; the wiki cannot yet tell which. *(Single reported source; terms uncaptured.)*
+
+### Prior focus (as of 2026-06-03)
 World Labs (on partial leave from Stanford since Jan 2024): developing spatial intelligence AI — systems that can reason about and act within three-dimensional environments. Raised $230M (2024) and $1B (2026). Also advocating for science-based AI governance rather than "science-fiction" framing. World Labs listed on Forbes 2026 AI 50 — [[forbes-ai-50-2026]].
 
 ## Notable Takes

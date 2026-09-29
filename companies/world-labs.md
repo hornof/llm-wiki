@@ -1,9 +1,21 @@
 ---
 name: World Labs
 type: company
-status: active
-last_updated: 2026-06-03
+status: acquisition-announced-close-unconfirmed
+last_updated: 2026-09-28
 ---
+
+## Acquired by AMD for $8.2B (2026-09-28)
+
+**AMD is acquiring World Labs for $8.2 billion, and [[fei-fei-li|Fei-Fei Li]] joins AMD as EVP** ([[dailybrief-roundup-2026-09-28]], TechCrunch). This page had not been touched since 2026-06-03.
+
+**Why a chip company buys a spatial-intelligence lab is the question worth holding open.** The brief's own read — *"AMD saying we need to own the vision layer, not just the metal"* — is plausible and unsourced. Two other readings fit the same facts: an **acqui-hire of Li and her team** at a price the talent market now supports, or a bet that **spatial/world models are the workload that justifies AMD's next architecture** in the way transformers justified Nvidia's. The brief notes *"chip companies don't usually acquire for talent + direction"*, which is the interesting part and also an argument for the acqui-hire reading.
+
+**Against this page's own founding thesis**, the fit is real: Li argued spatial intelligence is *"complementary to language intelligence"* and requires grounding in the physical world — which is a hardware-adjacent claim in a way that LLM scaling is not.
+
+**What is not captured:** deal structure, cash-versus-stock, regulatory path, close date, whether World Labs continues as a product line or is absorbed, and what happens to its $1.23B of raised capital and its investors. **No AMD statement fetched; no Li statement fetched.** *(Single reported source; `status:` set to the descriptive `acquisition-announced-close-unconfirmed` per CLAUDE.md, matching [[hugging-face]] and [[anysphere]].)*
+
+**AMD has no wiki page.** One surface is not enough to create one, but a tier-1 chipmaker making an $8.2B AI acquisition and installing a named researcher as EVP is a strong create-candidate — and the wiki already tracks [[nvidia]] closely.
 
 ## What It Is
 

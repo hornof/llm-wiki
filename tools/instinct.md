@@ -20,6 +20,22 @@ The wiki referenced Instinct four times before holding a page for it — [[guill
 
 Three surfaces, two of them from the same commentator. **Real but thin**: no user counts, no revenue, no funding confirmed, and no independent evaluation.
 
+## Update — one day later (2026-09-28)
+
+**TechCrunch reports Instinct now has its own phone number and computer, has added AI concierge calling and friend coordination, and is facing competition from [[meta|Meta's]] Muse** ([[dailybrief-roundup-2026-09-28]], via Digg).
+
+**Three things change here.**
+
+**1. "Concierge calling" is not the escalation path — and the distinction matters.** [[greg-isenberg|Isenberg's]] critique is that Instinct *"never hands anything to a person."* An agent that places phone calls itself does not answer that; **it extends the agent's reach rather than adding a human.** If anything it sharpens the problem: the failure modes on this page were phone apps and complex checkout pages, i.e. surfaces the agent cannot drive. Calling routes around those by having the agent talk to a human *on the other side* — the merchant's staff absorb the work instead of the user's. **That is a real capability gain and a cost transfer, not an escalation mechanism.**
+
+**2. "Its own phone number and computer" is the [[guillermo-rauch|Rauch]] "Mac Mini" pattern.** He named Instinct as an exemplar in the Brain/Hands/Files decomposition on 09-23 and argued against exactly this shape — one persistent stateful machine per agent. Instinct now sits with [[meta|Muse's]] per-user Linux VM on the *opposite* side of his argument from where he cited it. **Two of the four systems in his own reference set have shipped the pattern he was arguing against.** See [[loop-engineering]].
+
+**3. Muse is now named as a direct competitor** in reporting rather than only in Isenberg's commentary. Instinct's bet was the thread, not the platform; the test is whether an iMessage-native agent holds against a platform that is simultaneously [[shopify|getting checkout access]] opened to it and opening its own connectors to developers.
+
+**Still unanswered, and now more pressing:** the **retained-email-copies-after-disconnection** concern below. An agent that also holds a phone number and places calls on the user's behalf widens the surface, and the wiki still has no retention statement.
+
+*(TechCrunch via an aggregator summary; no product detail, availability, pricing or limits captured. "Friend coordination" is unexplained and may or may not be the trusted-person network below.)*
+
 ## Key Concepts
 
 - **Messaging-native agent** — the agent lives in iMessage rather than owning a surface. No install, no new habit; the cost is that everything the agent can do must fit a text thread.
@@ -51,3 +67,4 @@ Three surfaces, two of them from the same commentator. **Real but thin**: no use
 - [[isenberg-remy-gaskell-instinct-ai-2026-09-15]] — founder interview; product, virtual cards, failure modes, retention concern. **Listing depth; no transcript.**
 - [[gregisenberg-escalate-to-human-button-2026-09-25]] — the missing-escalation critique and the unsourced $10B.
 - [[rauchg-agent-anatomy-drives-2026-09-23]] — Instinct as an exemplar in the Brain/Hands/Files decomposition.
+- [[dailybrief-roundup-2026-09-28]] — own phone number and computer, concierge calling, friend coordination, Muse as competitor.

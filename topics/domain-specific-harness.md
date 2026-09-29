@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-25
+last_updated: 2026-09-28
 ---
 
 ## What This Is
@@ -92,6 +92,20 @@ That partly dissolves the Isenberg-vs-Vernal disagreement recorded above. Vernal
 **The strongest specific claim** is that the durable asset is the **rulebook**: *"the written list of what 'correct' means in your niche and every way the AI gets it wrong,"* accumulated one mistake at a time. That is a concrete, inspectable answer to *what exactly is the domain knowledge* — a question this page has carried since it was filed without one.
 
 He also names the enterprise version as the same play: *"the forward-deployed engineer model… is a service used as the wedge into an enterprise. It's how the winners get in the door."* → [[forward-deployed-engineer]]
+
+### Buy the domain instead of learning it (Isenberg, 2026-09-26)
+
+Six days after the service wedge above, [[greg-isenberg|Isenberg]] proposed skipping the climb ([[gregisenberg-ai-roll-ups-5t-guide-2026-09-26]]): **acquire a firm that already holds the domain knowledge, and change how the work gets done.**
+
+**This is the most direct answer to [[pieter-levels|Levels's]] bear case that this page holds, and it does not come from a technical argument.** Levels's objection is that whatever the harness knows, a frontier lab can learn and absorb. The wedge above answered *"here is the rulebook they'd have to replicate"* — true, and replicable. **The roll-up answer is different in kind: the lab cannot buy the client list, the licences, or thirty years of a relationship.**
+
+> *"The client list took 30 years to build. The trust is personal. The licenses took exams and time. The knowledge of what 'correct' means in the niche lives in the heads of people who've done the work for decades."*
+
+**The moat moves from the harness to the book of business.** That is a real answer to Levels and it is also a retreat from this page's thesis — it concedes that the *software* layer is not where the durability lives, and relocates it to assets that are not software at all. **A domain-specific harness attached to an acquired client base is defensible. The harness alone, on this account, is not.**
+
+**What it can't escape.** Three of Isenberg's own six failure modes are about the acquired asset degrading — key people leaving, clients leaving with the owner, and *"automating trust away"* (*"the margin gains come from the back office. The value comes from the relationship"*). **The thing that makes the moat real is also the thing the automation threatens**, which is a sharper tension than anything in the build-it version. And the margin claim underneath it (5–10% → 30–40% EBITDA) is **entirely self-reported by firms raising capital**, which Isenberg states plainly himself.
+
+**Against Vernal's "own a buying center":** the roll-up is a way to own one by purchase rather than by product. Against **Ras Mic's harness-agnosticism** below: it agrees that the harness is not the asset, and disagrees about what is — Mic says the markdown files, Isenberg says the customers.
 
 ### "Harness and model agnostic" — the layer above the argument (Ras Mic, 2026-09-14)
 
