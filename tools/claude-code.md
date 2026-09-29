@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-08-20
+last_updated: 2026-09-29
 ---
 
 
@@ -83,6 +83,16 @@ Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. 
 6. **Under 500 lines**: Use progressive disclosure (sub-files loaded only when referenced)
 
 See [[writing-claude-code-skills]] for a full walkthrough.
+
+## "Claude Code's next era" — Mods, Plugins, Projects, Tag (2026-09-29)
+
+[[thariq-shihipar|Thariq Shihipar]] on Latent Space ([[dailybrief-roundup-2026-09-29]]): Opus/Sonnet 5.5 plus **Mods, Plugins, Projects and Tag**. The brief's read — *"Anthropic saying Claude Code isn't a toy editor, it's a platform… whoever owns the extension layer owns the next tier of AI dev velocity"* — is the brief's inference, not Shihipar's claim.
+
+**Recorded at listing depth. The episode was not fetched and none of the four features is described here beyond its name.** Projects and Tag are glossed by the brief as systematizing multi-file context; Mods as extensibility. **The wiki tracks [[skill-md|Skills]] and Plugins already; how Mods differ from either is unknown and is the first thing to establish.**
+
+**Worth pairing with the same week's [[anthropic-automating-eval-design-hillclimbing-2026-09-28|eval tooling]]**, which shipped as sub-commands inside a skill rather than as product surface. **Two different answers to "how does Claude Code get extended" landing in the same week** — one via named product primitives, one via a skill that can rewrite itself against a benchmark.
+
+*(Podcast, not fetched; no transcript. Feature list from a brief summary.)*
 
 ## Compared To
 - Cursor / Windsurf: IDE-based, better for interactive coding; Claude Code is terminal-native and better for agentic/autonomous tasks

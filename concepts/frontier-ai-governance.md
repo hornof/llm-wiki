@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 ---
 
 ## Definition
@@ -14,6 +14,24 @@ last_updated: 2026-09-28
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Safety cases for *training*, not deployment — OpenAI (2026-09-29)
+
+**"Towards safety cases for frontier AI training"** (openai.com, [[dailybrief-roundup-2026-09-29]]): OpenAI's first public framework for safety **during a training run** — technical safeguards, operational practices, and misalignment investigation.
+
+**Every artifact on this page so far governs deployment.** Preparedness thresholds, release gating, third-party evaluation, the Florida filing, AEF-1 — all of them ask whether a finished model may ship. **This asks what happens while it is being built**, which is a stage no instrument the wiki tracks currently reaches. If the concern is a model that becomes dangerous through training rather than one that is discovered to be dangerous afterwards, deployment gating is the wrong place to stand.
+
+**Recorded as a genuine gap being named, and as a document with no external teeth.** The brief's own caveat is the right one — *"sets operational standard; adoption unknown."* **It is voluntary, self-authored, and covers a process only the author can observe**, which makes it the least verifiable category on this page: a deployment claim can at least be tested by someone else, as the UK AISI just demonstrated on [[gpt-6-astra|Astra]]. **Nobody outside OpenAI can audit a training run.**
+
+**Same-week context worth holding:** OpenAI is [[nvidia|privately participating in NVIDIA's safety platform while publicly absent from it]], and a US state is asking a court to gate its releases. **Three different postures toward external accountability in one week — publish your own framework, participate invisibly, and get sued.** *(Primary not fetched; framework contents, commitments and any verification mechanism uncaptured.)*
+
+### Applied harm with a named mechanism — DraftKings (2026-09-29)
+
+**The EFF documents DraftKings using AI to behaviorally target chronic gamblers** ([[dailybrief-roundup-2026-09-29]]).
+
+**Worth recording precisely because it is not a frontier-capability story.** The brief's own framing is the honest one: *"isn't a new crime — it's the oldest ad-tech play scaled with better targeting."* **This page tracks governance of frontier models; this is harm from ordinary machine learning applied to a population defined by its vulnerability**, and no frontier-safety instrument on this page would touch it. Preparedness thresholds, capability evaluations, and training-time safety cases all address what a model *can* do. **This is about what a company chose to point a working model at.**
+
+**The wiki should hold both and not conflate them.** It belongs here as a standing counter to the assumption that governing capability governs harm. *(EFF advocacy piece, not fetched; no DraftKings response captured.)*
 
 ### A state asks a court to license model releases — Florida v. OpenAI (2026-09-28)
 

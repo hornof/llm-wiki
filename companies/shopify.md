@@ -2,7 +2,7 @@
 name: Shopify
 type: company
 status: public
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 ---
 
 ## What They Do
@@ -38,6 +38,12 @@ The wiki has now captured three large platforms answering the same question — 
 **What is not captured:** the authentication and fraud model, whether merchants opt in or out, what WebMCP actually authorizes at checkout, any spending-limit primitive (compare [[instinct|Instinct's]] spend-limited virtual cards), and whether payment processors have agreed. **The mechanism is the whole story here and the brief carries none of it.** *(Single reported source; no Shopify announcement fetched.)*
 
 **On WebMCP:** the wiki tracks [[mcp]] but has no `webmcp` page, and this is the second surface for the browser-side variant. Create-candidate once the spec relationship to MCP proper is clear.
+
+### One day later: Muse arrives (2026-09-29)
+
+**[[meta|Meta]] rolled out Muse for small businesses with Shopify among the named integrations** ([[dailybrief-roundup-2026-09-29]]), one day after checkout opened. **This is the first captured instance of the permissive side of the table above actually connecting** — an agent from one platform reaching into another that has just opened its door.
+
+**Whether these are the same pipe is not established.** A "Shopify integration" in an agent product could be the merchant-facing Admin API (read your own store's analytics), which is unremarkable, or the storefront/checkout path opened the previous day, which is the whole story. **Neither report says which, and the difference is the difference between a dashboard feature and an agent buying things.** Flagged as the thing to check.
 
 ## Why Track Them
 

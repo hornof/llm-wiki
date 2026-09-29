@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-09-27
+last_updated: 2026-09-29
 ---
 
 ## Definition
@@ -29,6 +29,16 @@ SKILL.md is the unit of **outer-loop memory** in [[loop-engineering|loop enginee
 - **Review/readability skills — composable, single-purpose, attributed (2026-09-03)** ([[raw-batch-roundup-2026-09-03]]): a **review-layer** skill cluster surfaces — **`/show-me`** (@dexhorthy / HumanLayer, *"a toolbox of nice ways to look at code"* — a style guide for showing diffs in PR descriptions, *not* a generator), [[matt-pocock|Pocock's]] **`/wait-what`** (verbosity/readability reduction), and composition in the wild (*"/grill-with-mocks = grill-me + show-me"*). Extends the primitive past *capability* and *planning* into **presentation/review** (how a human reads the agent's output) — and models the ecosystem norm of **attributed, single-purpose skills** rather than repackaged bundles. Create-candidate: `dexter-horthy` / `humanlayer/skills`.
 - **Cleanest beginner-definition (2026-08-17)** ([[raw-batch-roundup-2026-08-20]], r/claudeskills, +18): *"skills are just context and instructions… lazy ways to do repeated work so you don't have to retype everything to Claude every time."* Example given — a `/ship` skill bundling "update readme, marketing site, docs, de-vibe spot check, secrets scan" behind one word. The plain-language complement to the progressive-disclosure framing above.
 - **"A markdown file is an employee" — the labor framing (Garry Tan / YC, 2026-08-13)** ([[garry-tan-new-rules-for-founders-a16z-2026-08-13]]): the crispest one-line statement of SKILL.md-as-durable-labor from a top allocator — *"an employee that will do the job perfectly every time, as many times as you want."* Tan's build loop makes the self-improvement explicit: when the agent errs, *"the actual trace turns into a skill file that's perfect… anytime it screws up in a future case it's just a bug fix, and then it's there forever"* — the outer-loop-memory ratchet (encode-the-lesson-once) stated as an HR metaphor. His own instances: **G-Stack** (engineering QA loop skills), **G-Brain** (RAG memory). Frames a few-hundred skill files as the labor pool behind a *"$15M ARR, 2-3 people"* company.
+
+## A skill that improves itself against an eval (2026-09-28)
+
+**The `claude-api` skill shipped `build-eval` and `hillclimb` sub-commands** ([[anthropic-automating-eval-design-hillclimbing-2026-09-28]]) — and then **was used on itself**, going from **66% to ~88%** on an eval derived from its own documentation, over 24 rounds.
+
+**That self-application is the interesting part for this page.** The wiki's standing observation about SKILL.md artifacts is that **most carry no evidence they work** — noted on 09-27 when a community Jev plugin was folded here precisely because it was the rare one that did. **This is a vendor skill with a measured pass rate, a held-out split, and a published failure analysis**, which raises the bar for what a skill can be expected to show.
+
+**The most transferable finding is about skills specifically, not evals.** The stall-and-reflect round discovered that **the skill's content was present and correct, but Claude was writing older API shapes from its trained priors anyway.** The fix was not more content — it was **a table near the top of the skill mapping the forms the model remembers to the current ones** (fixed-budget thinking → adaptive thinking; old web-search/fetch tools → current). **A skill competes with the model's priors, and stating the correction explicitly beats stating the truth implicitly.** That is a concrete authoring rule this page did not have.
+
+It also found **ordering matters**: moving C# and Java warnings *above* their examples improved the score. *(Vendor's own skill, vendor's own eval, vendor's own models.)*
 
 ## Related Concepts
 

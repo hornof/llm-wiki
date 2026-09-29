@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 ---
 
 ## What It Is
@@ -101,6 +101,8 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 **An ecosystem in twelve days.** A community plugin (`aaddrick/building-with-typesafe-jev`) ships best practices, **anti-patterns**, an API reference and links to **150+ community projects** — Jev launched 2026-09-15. Its author's own eval — six coding tasks × 10 runs, three conditions, **three judges from three providers with majority deciding** — scores **no plugin 0.65 / official plugin 0.77 / this plugin 0.96**. Better methodology than most vendor benchmarks, and self-run on his own plugin; a commenter's *"can you share some real use examples?"* is unanswered.
 
 *(Plugin not fetched. The CMU paper is now sourced to the primary above; the plugin author's eval is still secondhand.)*
+
+**A second derivative, and this one addresses the right problem (2026-09-29).** **Jevstiller** — *"distill Jev into a local model, with a **disagreement bound**"* ([[dailybrief-roundup-2026-09-29]], Show HN). **Where `firelex/jeff` copies the interface, this one attacks the thing the interface cannot give you.** A distilled local model with a stated bound on how often it disagrees with the teacher is at least *making a claim that could be checked* — and the calibration caveat above says exactly that an uncalibrated confidence number makes the threshold pattern worse than no pattern. **A disagreement bound is not a calibration guarantee** — agreeing with Jev is not the same as being right, and the bound's tightness, the distribution it holds over, and whether it covers the low-confidence region are all uncaptured. **But it is the first Jev derivative to acknowledge that the number has to mean something.** *(Show HN listing; not fetched, no evals, no adoption.)*
 
 **An open-weights reimplementation in thirteen days (2026-09-28).** `firelex/jeff` — *"Jev-compatible 0.8B decision models, trained at home, ~30 ms"* ([[dailybrief-roundup-2026-09-28]]). **Jev launched 2026-09-15.** Three things worth noting and one worth resisting: the **interface is being cloned, not just the idea** ("Jev-compatible"), which is what happens to an API that is small enough to copy; **0.8B and home-trainable** puts the decision-layer model class within reach of an individual, unlike the frontier models it routes for; and **~30 ms** is faster than the 200 ms the vendor demo showed. What to resist: **this is a GitHub listing with no evals, no calibration evidence and no adoption.** The calibration caveat above applies far more sharply to a home-trained model than to a vendor's — RLCD is the entire product, and a reimplementation of the *interface* is not a reimplementation of the *training*. **A schema-compatible model with uncalibrated confidence is exactly the "worse than no pattern" case.**
 
