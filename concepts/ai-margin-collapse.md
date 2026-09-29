@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-09-24
+last_updated: 2026-09-28
 ---
 
 ## Definition
@@ -14,6 +14,10 @@ The thesis that LLM **inference margins** — not training — are where frontie
 It's the unit-economics lens for evaluating any AI-applied company you'd join or build: if inference is heading toward commodity pricing, business models that assume durable inference margin are exposed, and value shifts to the integration/product layer (the expensive part). Pairs with [[ai-roi-gap|the ROI-gap thesis]] (cheap inference + expensive integration labor) and sits at the opposite end of the pricing curve from [[claude-fable-5|Fable 5's pay-per-use premium]] — the market is simultaneously producing the most-expensive frontier tier and a near-free open-weights floor.
 
 ## Current State
+
+- **The first prospectus (2026-09-28)** ([[dailybrief-roundup-2026-09-28]], Reuters): [[anthropic|Anthropic]] files its IPO prospectus, reported as *"sweeping AI vision, surging costs."* **This page is built almost entirely on inference and argument — vendor pricing, third-party benchmarks, one practitioner's compute-cost model, and an annualized run-rate that needed a correction to stop being wrong. A prospectus is the first document in the record with legal consequences for being inaccurate.** It will either substantiate the central claim — that frontier inference economics are structurally worse than the SaaS comparison implies — or break it, and **until the S-1 itself is read the wiki cannot say which. Highest-value verification item on this page.** *(Reuters characterisation only; no cost figure, gross margin, burn rate or period captured.)*
+- **Efficiency as a hidden price cut — Claude Sonnet 5.5 (2026-09-28)**: *"more than 30% faster… costs up to 30% less per task… despite unchanged per-token pricing"* ([[claude-sonnet-5]]). **A lever this page has not been tracking.** Every price move recorded here is a rate-card move; this one is invisible on a rate card, because the saving comes from **spending fewer tokens on the same job**. If that generalizes, per-token comparisons systematically understate how fast effective cost is falling — and it means a lab can cut real prices without signalling a price war. *(Vendor's own testing, via an aggregator; "up to" is doing work.)*
+- **Modal raises $750M at a $15.75B valuation (2026-09-28)**: the inference-infrastructure layer continues to price like a winner. **Recorded as a data point, not as an argument.** The brief pairs it with Stripe/OpenRouter to claim consolidation, but **that acquisition was recorded here on 2026-08-17 and has now appeared in four consecutive briefs** — a $750M round at a $15.75B valuation is the net-new half. Speaks to this page's standing question of whether value accrues to the routing/decision layer.
 
 - **Trigger model**: [[glm-5-2]] from [[zhipu-ai|Z.ai / Zhipu]] at ~$4.40/MTok vs ~$25/MTok for Opus (<20% of retail), described as a "drop-in replacement" for many tasks.
 - **Still a projection**: Alderson's piece is Part 1 and forward-looking; the collapse is argued, not yet observed in lab financials. Counter-forces (vision, web search, latency, enterprise trust, tool-use reliability) still favor the closed frontier for now.

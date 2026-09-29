@@ -2,7 +2,7 @@
 name: AI-Native Service Companies
 type: concept
 maturity: emerging
-last_updated: 2026-09-26
+last_updated: 2026-09-28
 ---
 
 ## Definition
@@ -104,6 +104,46 @@ This is **compound-engineering accretion aimed at a market instead of a codebase
 > *"Most people building 'AI agencies' point the AI at production and leave everything else the way it was."*
 
 The overhead around the work — scoping calls, account management, manual QA — is what made agencies bad businesses. Collapsing it (intake→form, scope→menu, quality→rulebook, account management→dashboard) is the actual move, and matches the [[mardehaym-implementation-firm-vs-consultancy-2026-09-15|billable-day critique]] from five days earlier.
+
+## Buy instead of build — the roll-up inversion (Isenberg, 2026-09-26)
+
+Six days after the eight-pieces guide above, [[greg-isenberg|Isenberg]] published its **inverse** ([[gregisenberg-ai-roll-ups-5t-guide-2026-09-26]]): don't build the AI-native service firm, **buy an existing one and change how the work gets done.**
+
+> *"A startup has to earn the customer and then do the work. An acquisition already has the customer, so all you have to do is change the work."*
+
+**This is the sharpest argument against this page's own framing that the page holds**, and it comes from the person who wrote the framing. Everything above treats the AI-native service company as something you *assemble* — intake, engine, rulebook, review layer, distribution. The roll-up thesis says the hard pieces are **not assemblable at all**: the client list took 30 years, the licences took exams, the trust is personal, and *"the knowledge of what 'correct' means in the niche lives in the heads of people who've done the work for decades."*
+
+**And it answers the rulebook's bootstrap problem.** The rulebook is named below as the durable idea and *"you build this list one mistake at a time"* — which means a new firm has no rulebook precisely when it most needs one. An acquisition arrives with decades of resolved edge cases: *"every past engagement, every edge case, every mistake that got caught and fixed. That's the training material for your agents, and a startup has none of it."*
+
+### The margin claim, which is load-bearing and unproven
+
+**5–10% EBITDA → 30–40%.** Same clients, same invoices, 3–4× the profit. The whole thesis rests on this, and **every supporting figure is self-reported by a company that is raising money.** Isenberg says so himself, twice — on General Catalyst's numbers (*"self-reported, and none of these companies has been through a recession yet"*) and as his own failure mode #6 (*"Believing the headline numbers… Underwrite your deal on your own numbers"*). Credit for the disclosure; the guide is still built on the claim.
+
+**The receipts, with that caveat attached.** **Larson Gross** (accounting, ~200 staff, Thrive Holdings stake) — **7,000 tax returns processed, 31% average time saved, one 180-hour/year job down to 15**, agents running on **OpenAI's Codex**. **Crescendo** — 90% of frontline tickets resolved by AI, 4× traditional margins. **Long Lake** — 18 businesses, $100M EBITDA in under two years. **Dwelly** — problem resolution 50 days → 20. Capital behind it: **Thrive Holdings** ~50 accounting practices and $1B committed; **General Catalyst** $1.5B allocated, $750M+ deployed across 10+ companies.
+
+**Larson Gross is the most useful single datapoint on this page.** It is a named firm, a named tool, a volume, a percentage, and a before/after on one specific job — which is more specificity than any of the vendor claims the page carries. It remains a figure relayed by an interested party.
+
+### What the guide adds mechanically
+
+- **The automation map** — for each task in 20–50 real anonymized work samples: trigger, inputs, steps, output, human time, monthly frequency, **whether the output can be checked against a clear standard**, and what breaks if done wrong. Then **automate now / automate with human review / assist only / keep human**. *"Multiply volume by hours, and you know where the margin is before you've signed anything."* **This is the 2×2 below turned into a per-task instrument** — the verifiability axis applied inside a firm rather than across a market.
+- **Two prompts that build the rulebook**, which the 09-20 guide asserted without a method: **extraction by interview** (senior staff on common junior mistakes, clients needing special handling, pre-send checks, when they'd stop and ask — *"mark any rule that conflicts with another,"* nothing active until approved) and **extraction by diff** (compare each agent draft to the human-approved version, classify every change, propose a rule for anything recurring, and **add each approved rule as a test case using the original input and the accepted output**). **The second one closes the loop this page has been describing loosely: corrections become regression tests.** See [[loop-engineering]].
+- **Three files carry it**: `target-criteria.md`, `rules/`, `corrections-log.md`. *"If you set up nothing else, set up those."*
+- **Shadow mode as the integration protocol** — days 1–30, *"they do the work in parallel, a person does it the normal way, and you compare."* Days 31–60, **track minutes of human attention per job, weekly**, and *"the people who used to prepare now review."* **That metric is the review layer made measurable**, which this page has wanted and not had.
+- **The dashboard warning**: *"If margin goes up while client retention goes down, you're selling the asset to pay for the renovation."*
+
+### Deal structure, because the financing is part of the thesis
+
+**General Catalyst's**: ~60–70% cash at close, ~30% rolled into founder equity, *"so the person who built the relationships has a reason to stay."* **At individual scale**: SBA loan plus a seller note, where *"the seller note does the same job as GC's rollover equity."* **Both are retention mechanisms disguised as payment terms** — and they exist because failure mode #2 is *"the key people leave… I've seen this a lot, it's brutal."* The tacit knowledge the rulebook is trying to extract walks out the door on its own schedule.
+
+### Where the wiki should be sceptical
+
+**The illustrative math is a diagram, not a model** — buy at ~$800K, move margin 10% → 30%, *"worth about three times what you paid at the same multiple."* Labelled illustrative, and he adds *"the whole game is whether you can hold the margin."*
+
+**"Two years ago the output needed redoing. Now it needs checking"** is the premise underneath the whole guide, and it is asserted. It also sits awkwardly against the same month's evidence that [[loop-engineering|agents make the work harder]] in several measured settings.
+
+**Failure mode #4 is the real risk and he names it correctly**: *"The margin gains come from the back office. The value comes from the relationship. Make the relationship feel cheaper and you've lost the thing you paid for."*
+
+**Conflicts, all disclosed:** links his idea service, his design agency (*"the leading product design firm for AI"*), and his podcast. It is lead generation as well as a guide.
 
 ## The consumer version of the review layer ([[gregisenberg-escalate-to-human-button-2026-09-25]], 2026-09-25)
 

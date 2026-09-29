@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-26
+last_updated: 2026-09-28
 ---
 
 ## Definition
@@ -14,6 +14,26 @@ last_updated: 2026-09-26
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### A state asks a court to license model releases — Florida v. OpenAI (2026-09-28)
+
+**Florida has asked a court to block new [[openai|OpenAI]] model releases without third-party safety approval** ([[dailybrief-roundup-2026-09-28]]). The brief's own read is *"early and unlikely to stick"*, which is probably right and is not the reason to record it.
+
+**The reason is the mechanism.** Every instrument on this page is one of three things: **voluntary** (AEF-1, Microsoft's code, OpenAI's standards post, the Hassabis standards-body proposal), **executive** (the Newsom EO, China's probe of DeepSeek and Moonshot, the Pentagon finding), or **diplomatic** (the US–China incident channel). **This is the first attempt to make frontier releases contingent on prior third-party approval through a court** — a licensing regime obtained by litigation rather than legislation, in a jurisdiction that did not pass a statute to create it.
+
+**That shape is what makes it worth watching even if it fails.** A state does not need to win to establish that the question is justiciable, and the venue is a choice: a court order binds a specific company on a specific schedule, where a statute takes a session and an EO ends with an administration. **It is also the first governance action on this page directed at a single named lab rather than at a capability class or an industry.**
+
+**Against the month's arc:** the federal administration has *publicly rejected* new guardrails and met [[anthropic|Anthropic]] leadership on 09-27 with no readout. **Sub-federal actors moving while the federal position is declared hands-off is the pattern the Newsom EO started and this extends** — and litigation is the version of it that does not require a legislature.
+
+*(Digg summary; no filing, court, docket, legal theory or OpenAI response captured. Whether "third-party safety approval" names an existing body is unknown.)*
+
+### Hinton and lab leaders on an "intelligence explosion" (2026-09-28)
+
+A white paper from **AI leaders including Geoffrey Hinton** warns that **self-improving models could trigger an intelligence explosion** ([[dailybrief-roundup-2026-09-28]]). The brief calls it an *"incremental genre (safety warnings)"* and treats the **coordination signal among labs** as the content, which is the right weighting.
+
+**Recorded as a coordination artifact, not as an argument.** The wiki's standing test on this genre — applied to [[dailybrief-roundup-2026-09-15|the four artifacts of 09-14/15]] — is whether a statement carries a mechanism, a threshold, or a commitment. **This one, as summarized, carries none**; it is a warning with signatories. That is still information about who is willing to sign what, alongside [[dario-amodei|Amodei's]] pacing advocacy and the 100+ expert letter on AEF-1's insufficiency.
+
+**It lands in the same brief as Zhipu "starting an outer RSI loop"** (Import AI 474, contents not captured). **A warning about recursive self-improvement and a report of someone building one, in the same day's brief**, is the juxtaposition worth keeping — though the wiki has neither primary. *(Digg summary; paper, signatory list and claims not fetched.)*
 
 ### A bilateral channel — the first mechanism neither side controls (2026-09-26)
 

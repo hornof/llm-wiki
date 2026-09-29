@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-09-21
+last_updated: 2026-09-28
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -36,6 +36,18 @@ Three roles replace the traditional pyramid: ICs (specialists), DRIs (cross-cutt
 ## Note on "World Model" Terminology
 
 This concept uses "world model" to mean an AI-maintained operational picture of a company. This is distinct from [[world-models]] in the LeCun/ML sense (predictive models of physical reality using JEPA architecture). The terminology overlaps but the referents differ.
+
+## A prevalence number, at last — 22% of managers (2026-09-28)
+
+**22% of surveyed managers say their organizations have added AI agents to org charts** ([[dailybrief-roundup-2026-09-28]], Digg). *"Digital coworkers spread."*
+
+**This page has had no denominator until now.** Everything below is an existence proof — Miller's 34 agents, croovies's 128, Gas Town's 20–30, the ~950-agent enzyme run — each one a case study establishing that the pattern is *possible*. **None says how common it is**, and a page built entirely on the most aggressive operators will read the frontier as the norm. 22% is the first figure that speaks to prevalence.
+
+**Read it as a ceiling, not a floor.** *"Added AI agents to the org chart"* is self-reported by managers with an incentive to sound current, is not defined in the summary, and could cover anything from Miller's six director-level agents to putting a chatbot on a team page. **The gap between "an agent appears on our org chart" and "the org chart was redesigned around what AI can do" is the entire distinction this page opens with** — and a survey cannot tell them apart.
+
+**So the useful version is narrower:** roughly one manager in five now works somewhere that *represents* agents as organizational units. That is a statement about how firms describe themselves, which is a real leading indicator and not the same as structural change. **@FundyAnalysis's counter-take below is the thing to hold alongside it**: *"the org chart flattens before the AI is actually reliable enough to replace the layers you removed."* A rising share of org charts with agents on them is consistent with both the thesis and that failure mode.
+
+*(Digg summary; survey house, sample size, population, question wording and date all uncaptured. Do not cite the 22% without them.)*
 
 ## An agent org chart, three levels deep (Allie K. Miller, 2026-08-12)
 
