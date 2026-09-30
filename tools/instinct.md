@@ -3,7 +3,7 @@ name: Instinct
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-09-28
+last_updated: 2026-09-30
 ---
 
 ## What It Is
@@ -35,6 +35,14 @@ Three surfaces, two of them from the same commentator. **Real but thin**: no use
 **Still unanswered, and now more pressing:** the **retained-email-copies-after-disconnection** concern below. An agent that also holds a phone number and places calls on the user's behalf widens the surface, and the wiki still has no retention statement.
 
 *(TechCrunch via an aggregator summary; no product detail, availability, pricing or limits captured. "Friend coordination" is unexplained and may or may not be the trusted-person network below.)*
+
+## An incumbent ships the same shape (2026-09-30)
+
+**DoorDash launched an AI food-ordering agent inside Apple Messages** — US waitlist, orders placed by text, **checkout with saved payment methods** ([[dailybrief-roundup-2026-09-30]], Digg).
+
+**That is Instinct's product thesis, executed by a company that already owns the transaction.** Six days after this page was created on the argument that a messaging-native errand agent was a distinct bet, an incumbent shipped the messaging-native version of *its own* errand. **The difference is decisive on the exact axis this page flagged**: Instinct's stated failure modes are phone apps and complex checkout pages, and **DoorDash's agent never touches a checkout page** because it owns the checkout. Saved payment methods make the [[instinct|spend-limited virtual card]] unnecessary rather than better.
+
+**The generalisable point is narrower than "incumbents win."** A single-vertical agent inside a messaging app has no integration problem at all; Instinct's bet is that one agent doing *many* errands beats many agents doing one each. **That bet is now testable** — and it gets harder every time a vertical incumbent ships its own thread. *(Digg summary; no detail on scale, availability or whether it uses an agent framework at all.)*
 
 ## Key Concepts
 
