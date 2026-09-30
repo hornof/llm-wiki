@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-09-16
+last_updated: 2026-09-30
 ---
 
 ## What It Is
@@ -10,6 +10,11 @@ Google's primary AI research lab, formed from the merger of Google Brain and Dee
 
 ## Founding Thesis (2009)
 Combine deep learning (then newly published by Hinton) with reinforcement learning — two siloed academic fields. Bet on accelerated compute (GPUs; later TPUs). Original mission: "Step one: solve intelligence, i.e. build AGI. Step two: use it to solve everything else." — [[hassabis-deepmind-alphafold-agi]]
+
+## Two 2026-09-30 items
+
+- **Testing payments to publishers for AI Search / Gemini contributions** ([[dailybrief-roundup-2026-09-30]], Digg; pilot status unconfirmed). **Worth recording because it is the first instance the wiki holds of a lab proposing to *pay* for the content relationship rather than litigate or ignore it.** Everything else on the training-data question in this wiki is adversarial — the OpenAI depositions on piracy risk, the open letters, the scraping disputes. **A payment mechanism, if real, is a different resolution to the same conflict**, and it comes from the company with the most to lose from publishers exiting search. → [[training-data-quality]] *(Pilot unconfirmed; no rates, scope or participants.)*
+- **SynthID Bio — watermarking AI-generated proteins** while preserving function. Extends the SynthID provenance line from media into **biology**, where the downstream artifact is physical. Proof of concept. → [[frontier-ai-governance]]
 
 ## Traction Signals
 

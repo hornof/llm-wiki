@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 ---
 
 ## Definition
@@ -39,6 +39,14 @@ SKILL.md is the unit of **outer-loop memory** in [[loop-engineering|loop enginee
 **The most transferable finding is about skills specifically, not evals.** The stall-and-reflect round discovered that **the skill's content was present and correct, but Claude was writing older API shapes from its trained priors anyway.** The fix was not more content — it was **a table near the top of the skill mapping the forms the model remembers to the current ones** (fixed-budget thinking → adaptive thinking; old web-search/fetch tools → current). **A skill competes with the model's priors, and stating the correction explicitly beats stating the truth implicitly.** That is a concrete authoring rule this page did not have.
 
 It also found **ordering matters**: moving C# and Java warnings *above* their examples improved the score. *(Vendor's own skill, vendor's own eval, vendor's own models.)*
+
+## A third-party skill ecosystem, at workflow depth (2026-09-29)
+
+An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** — a skill for *"creating immersive, scroll-driven web stories"* — from **SenseNova's public skills repository** (`OpenSenseNova/SenseNova-Skills`), with prompts included.
+
+**Recorded for the ecosystem fact, not the skill.** This page has tracked Anthropic's `anthropics/skills` and community plugins around Claude Code; **a separate vendor publishing a documented skills library that practitioners write workflow guides for is a different signal** — the format is being adopted by parties with no stake in Anthropic's distribution. Two independent skill repositories with third-party workflow content around them is the shape of a format becoming a standard rather than a product feature.
+
+**Not evaluated.** No output inspected, no adoption figures, and a single Reddit workflow post is one person's practice. *(`_raw` drop, 2026-09-29.)*
 
 ## Related Concepts
 

@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 ---
 
 ## Definition
@@ -14,6 +14,22 @@ last_updated: 2026-09-29
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Measurement arrives from the labs themselves (2026-09-30)
+
+**[[anthropic|Anthropic's]] frontier red team published control-flow-hijack success rates — GLM-5.3 at 4%, [[claude-mythos|Claude Mythos]] at 6%, earlier models at zero** ([[dailybrief-roundup-2026-09-30]]).
+
+**Three days, three capability measurements, from three different kinds of actor**: a national safety institute on a competitor's model ([[gpt-6-astra|UK AISI, 29.2%]], 09-28), a vendor on its own remediation pipeline (OpenAI's Defense Factory, 09-29), and now **a lab publishing rates for its own model and a rival's side by side.**
+
+**That is a materially different governance picture than this page held a week ago.** The recurring complaint across the artifacts below is that voluntary commitments carry no thresholds and no measurements. **Numbers are now appearing anyway — not because an instrument required them, but because labs and institutes chose to publish.** Whether that survives the first time a number is commercially inconvenient is the test, and it is a real one: Anthropic published a rate on which **its own model scores higher than the competitor's**. → [[ai-vulnerability-discovery]]
+
+### Watermarking the output of AI biology — SynthID Bio (2026-09-30)
+
+DeepMind's **SynthID Bio** — watermarking **AI-generated proteins** while preserving function ([[dailybrief-roundup-2026-09-30]]). A proof of concept.
+
+**Every provenance mechanism this page tracks applies to text, images or audio — things people read.** This applies to a designed molecule, where the downstream artifact is physical and the reader is a wet lab. **If it works it is the first governance primitive on this page that reaches into the biological supply chain**, which is the domain where the frontier-risk arguments are most acute and the instruments thinnest. Lands the same week [[anthropic|Anthropic]] publicised an AI-discovered enzyme system.
+
+**Two obvious limits, neither addressed in the summary**: a watermark identifies provenance, it does not restrict capability — and an actor building something dangerous is the actor least likely to use a watermarking model. *(DeepMind blog; not fetched. No robustness, adoption or false-positive characteristics captured.)*
 
 ### Safety cases for *training*, not deployment — OpenAI (2026-09-29)
 

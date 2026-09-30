@@ -54,6 +54,16 @@ Per [[anthropic-mythos-project-glasswing-2026-05-22]] (Digg-surfaced, secondary-
 - **"Glasswing" naming** — glasswing butterflies have transparent wings; the name signals transparency-as-positioning despite the models themselves being non-public.
 - **Secondary-source caveat**: Digg framing not directly corroborated by Anthropic in the brief; treat as practitioner-content-secondary pending Anthropic-direct disclosure.
 
+## A published exploitation rate — and a competitor's alongside it (2026-09-30)
+
+[[anthropic|Anthropic's]] frontier red team reports **Mythos succeeding on 6% of control-flow hijacks**, with **GLM-5.3 at 4%**, and — the load-bearing part — *"earlier models were at zero"* ([[dailybrief-roundup-2026-09-30]], via [[simon-willison|Willison]]).
+
+**Two firsts on this page.** It is the first **numeric offensive-capability rate** the wiki holds for Mythos, where everything above is deployment posture and aggregate finding counts. And **it is a lab publishing a rate for a rival's model next to its own**, which no other disclosure on this page does.
+
+**The zero baseline is the finding, not the 6%.** A capability moving 0% → 6% is a threshold crossing; a low absolute rate on binary exploitation is not reassurance, because the risk model is attempts × success, and attempts are cheap. **Note also that Mythos scores above GLM-5.3** — Anthropic publishing its own model as the more capable exploiter is consistent with the Glasswing posture below (deploy it on defence because it is good at offence) and is worth reading as a deliberate disclosure rather than an accident.
+
+**Do not lean on the ordering.** 4% and 6% are close, and the wiki has no attempt counts, no error bars, no task construction, and no operational definition of success. *(Willison's summary; Anthropic primary not fetched.)* → [[ai-vulnerability-discovery]]
+
 ## Operational Data (Anthropic Institute, 2026-06-04)
 
 Per [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's *When AI builds itself* publication]], first wiki-captured first-party operational data on Mythos Preview:

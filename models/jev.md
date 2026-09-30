@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 ---
 
 ## What It Is
@@ -101,6 +101,12 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 **An ecosystem in twelve days.** A community plugin (`aaddrick/building-with-typesafe-jev`) ships best practices, **anti-patterns**, an API reference and links to **150+ community projects** — Jev launched 2026-09-15. Its author's own eval — six coding tasks × 10 runs, three conditions, **three judges from three providers with majority deciding** — scores **no plugin 0.65 / official plugin 0.77 / this plugin 0.96**. Better methodology than most vendor benchmarks, and self-run on his own plugin; a commenter's *"can you share some real use examples?"* is unanswered.
 
 *(Plugin not fetched. The CMU paper is now sourced to the primary above; the plugin author's eval is still secondhand.)*
+
+**OpenAI previews a Decisions API fourteen days after launch (2026-09-29).** At DevDay: an API that gives *"the Luna model a predefined set of options to choose from"* and responds *"in a fraction of a second"* ([[willison-openai-devday-2026-live-blog-2026-09-29]]). **[[simon-willison|Willison]], in the room, names it as the response**: *"sounds like their response to Jev, which came out of stealth less than two weeks ago."*
+
+**This is the most consequential thing to happen to this page since the model launched, and it cuts against the economics argument above.** Jev's case rests on being a purpose-built decision model that is 100×–200× cheaper than asking a frontier model to do the same job. **A constrained-choice endpoint on an existing frontier line does not have to win that comparison — it has to be close enough while already being in the buyer's account.** The wiki has watched this shape before: the value accrues to whoever holds the distribution, not whoever shipped first.
+
+**What is not known, and all of it matters:** pricing, latency against Jev's 200 ms, whether Luna returns a **distribution or a single label** (the entire basis of the confidence-threshold pattern below), and whether anything analogous to RLCD calibration applies. **A predefined set of options is a schema; it is not necessarily a calibrated probability**, and on this page that distinction is the product. *(Preview, per a live blog; no docs, pricing or specs fetched.)*
 
 **A second derivative, and this one addresses the right problem (2026-09-29).** **Jevstiller** — *"distill Jev into a local model, with a **disagreement bound**"* ([[dailybrief-roundup-2026-09-29]], Show HN). **Where `firelex/jeff` copies the interface, this one attacks the thing the interface cannot give you.** A distilled local model with a stated bound on how often it disagrees with the teacher is at least *making a claim that could be checked* — and the calibration caveat above says exactly that an uncalibrated confidence number makes the threshold pattern worse than no pattern. **A disagreement bound is not a calibration guarantee** — agreeing with Jev is not the same as being right, and the bound's tightness, the distribution it holds over, and whether it covers the low-confidence region are all uncaptured. **But it is the first Jev derivative to acknowledge that the number has to mean something.** *(Show HN listing; not fetched, no evals, no adoption.)*
 

@@ -3,11 +3,23 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 ---
 
 > [!update] Line extended — GPT-6 Sol and GPT-6 Luna (2026-09-22)
 > Two more GPT-6 models shipped alongside Astra, the same day as [[claude-opus-5|Claude Opus 5.5]], with **both labs cutting 40–50%** ([[dailybrief-roundup-2026-09-23]]).
+> **The Sol 6.1 pricing, exact (2026-09-30).** Read off the DevDay slide by [[simon-willison|Willison]] ([[willison-openai-devday-2026-live-blog-2026-09-29]]):
+>
+> | | GPT-6.1 Sol | GPT-6 Astra |
+> |---|---|---|
+> | Input | **$2.00** | $10.00 |
+> | Cached input | **$0.10** | $1.00 |
+> | Output | **$10.00** | $50.00 |
+>
+> **A uniform 5× cut on all three lines** — the *"fifth of the price"* claim is literal, not marketing rounding. **This is also the first complete price table the wiki holds for this line**, and it makes the 09-08 per-outcome framing below unmistakable as abandoned: Astra's $50 output is now five times what OpenAI charges for something it describes as near-Astra.
+>
+> **Also launched: Ultrafast** — 8× faster, up to 300 tokens/second, at **6× standard price** (*"you know what, it's worth it"* — Altman), available for Astra immediately and Sol 6.1 soon. **So the line now spans a 30× price range** between Sol 6.1 standard and Astra Ultrafast, on models pitched as comparably capable. → [[ai-margin-collapse]]
+
 > **Extended again — GPT-6.1 Sol (2026-09-29)**, pitched as *"near-Astra intelligence for a fifth of the price"* at **$0.10 per million cached input tokens** ([[dailybrief-roundup-2026-09-29]]). **Three price moves on this line in twenty-one days, all the same direction after the first.** Astra 09-08 at ~2.5× on a per-outcome argument; Sol and Luna 09-22 cutting 40–50%; Sol 6.1 on 09-29 claiming near-Astra capability at a fifth of Astra's price. **The clearest reading is that the per-outcome pricing frame below did not survive contact with a competitor**, and the wiki should stop treating it as this line's positioning. *(Vendor claim; "near-Astra" is not a benchmark and the uncached input rate is uncaptured.)*
 >
 > **Worth reading against this page's own pricing frame.** Astra launched three weeks earlier at ~2.5× per-token cost on the argument that *"you're not paying for inference anymore, you're paying for solved problems."* A 40–50% cut on the same line within a month is **the opposite move on the same axis** — either the per-outcome framing did not hold commercially, or price is being used as a launch weapon independently of it. *(Sol and Luna have no pages; no specs captured.)*
