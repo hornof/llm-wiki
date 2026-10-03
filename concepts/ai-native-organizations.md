@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-09-28
+last_updated: 2026-10-03
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -36,6 +36,14 @@ Three roles replace the traditional pyramid: ICs (specialists), DRIs (cross-cutt
 ## Note on "World Model" Terminology
 
 This concept uses "world model" to mean an AI-maintained operational picture of a company. This is distinct from [[world-models]] in the LeCun/ML sense (predictive models of physical reality using JEPA architecture). The terminology overlaps but the referents differ.
+
+## Airbnb, rebuilt from the inside (2026-10-02)
+
+**Ahmad Al-Dahle — formerly of [[meta|Meta's]] Llama effort — on *"Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience"*** (Latent Space, [[dailybrief-roundup-2026-10-02]]).
+
+**Recorded as a pointer, not a datapoint. The episode was not fetched** and the brief carries no mechanism, metric or org detail.
+
+**Why it is worth a line anyway:** this page's instantiation record is thin at the top end. It holds **operator accounts from startups** (Miller's 34 agents, croovies, Gas Town), **one incumbent re-platforming itself** ([[shopify]]), and **one survey**. **A large consumer incumbent with a named frontier-lab leader running the transformation is the third kind of evidence**, and it is the kind most likely to produce numbers a sceptic would accept. **Fetch before citing.**
 
 ## A prevalence number, at last — 22% of managers (2026-09-28)
 

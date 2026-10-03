@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-09-28
+last_updated: 2026-10-03
 ---
 
 ## Who They Are
@@ -52,6 +52,9 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 - **"$5T opportunity: AI Roll Ups" (2026-09-26)** ([[gregisenberg-ai-roll-ups-5t-guide-2026-09-26]]): **his own 09-20 services guide, inverted.** That one said build the AI-native service firm; this says **buy an existing one and change how the work gets done** — *"a startup has to earn the customer and then do the work. An acquisition already has the customer, so all you have to do is change the work."* Margin thesis: services firms at 5–10% EBITDA can run at 30–40%. Receipts: **Larson Gross** (7,000 tax returns, 31% average time saved, one 180-hour job down to 15, running on OpenAI's Codex), Crescendo (90% of frontline tickets), Long Lake ($100M EBITDA in under two years), Thrive Holdings (~50 practices, $1B committed), General Catalyst ($1.5B allocated). Detail at [[ai-native-service-companies]] and [[domain-specific-harness]].
 - **Two things on this guide are worth crediting and one worth discounting.** He **names the weakness of his own evidence twice** — *"they're self-reported, and none of these companies has been through a recession yet"*, and failure mode #6, *"Believing the headline numbers… Underwrite your deal on your own numbers."* That is unusual for a guide whose thesis depends on those numbers. And **the mechanisms are new, not just framing**: the automation map, the two rulebook-extraction prompts (with corrections becoming **test cases**), shadow mode, and *"keep the checkpoints until the correction rate earns their removal"* — see [[loop-engineering]]. **Discount the urgency and the illustrative math**: buy at $800K, margin 10% → 30%, worth 3× — he labels it illustrative, and it links his idea service, his design agency and his podcast.
 - **He has now published three substantial operator guides in seven days** (09-20 services, 09-26 roll-ups) alongside three podcast episodes (09-15, 09-18, ~09-25). **The cadence is itself the signal**: this is the most prolific week of his the wiki has captured, and the roll-up guide argues against the premise of the services guide six days earlier. Weight the mechanisms, not the conviction.
+
+- **"How to become a forward deployed engineer" (2026-10-01)** ([[gregisenberg-forward-deployed-engineer-masterclass-2026-10-01]]): a 53-minute episode with a working FDE, summarised in five rules on X. **His fourth substantial operator guide in twelve days**, and notable because **it corrects his own framework from six days earlier**: the FDE's four buckets are *delete it / automate with a rule / give to an agent / keep a human*, where his roll-up automation map had *automate now / automate with review / assist only / keep human* — **no "delete it," and the FDE says "a surprising amount ends up in the first bucket."** Also carries the best number: *"the real process is almost always 3x longer than the one on paper."* Detail at [[forward-deployed-engineer]]. **Discount the *"$1M+/year"* headline — unsourced, and the post promotes his own podcast.**
+- **The cadence is now the thing to manage when reading him.** 09-20 services guide, 09-26 roll-ups guide, three podcast episodes 09-15/18/25, and 10-01 FDE — **six substantial operator artifacts in sixteen days.** Two of them argue against each other's premises. **The mechanisms he surfaces are consistently better than the framing he wraps them in**; weight accordingly.
 
 ## Where to Follow
 

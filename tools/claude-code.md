@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-09-29
+last_updated: 2026-10-03
 ---
 
 
@@ -83,6 +83,30 @@ Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. 
 6. **Under 500 lines**: Use progressive disclosure (sub-files loaded only when referenced)
 
 See [[writing-claude-code-skills]] for a full walkthrough.
+
+## `/advisor` — a different model in the reviewer seat (2026-09-20)
+
+A practitioner configuration ([[raw-batch-roundup-2026-10-02]]) built on the shipped `/advisor` feature (`code.claude.com/docs/en/advisor`): **Opus 5.5 runs the main session and writes the code; Fable 5.1 is put "on call" as advisor, reads the whole session including every tool call, and speaks at exactly three moments.**
+
+| Trigger | The question |
+|---|---|
+| **Before a plan** | *"is this the right approach?"* |
+| **When the same error comes back** | *"am I digging in the wrong place?"* |
+| **Before "done"** | *"what did I miss?"* |
+
+> *"Fable 5.1 reviews. Opus 5.5 ships."*
+
+The posted tree: **Opus 5.5 on high** as main session; **explorer** (reads code), **worker** (edits and runs tests), **researcher** (pulls docs) — *"all three on medium"*; **Fable 5.1 on call as the advisor.**
+
+**Why this is worth recording as a pattern rather than a tip.** The wiki's standing position is that a reviewer should not be the model under test — Anthropic's own eval guidance says so explicitly ([[anthropic-automating-eval-design-hillclimbing-2026-09-28]]), and the wiki's reference example of it done properly was **cross-vendor** (Claude implements, Codex reviews). **`/advisor` makes a different-model reviewer a one-line setting**, which removes the practical objection: no second subscription, no second harness, no context handoff.
+
+**The trigger design is the better half.** Reviewing a diff catches bad code; **these three moments catch bad direction** — wrong approach before the work begins, wrong hypothesis during a repeated failure, premature completion at the end. **The middle one is the one humans reliably miss**: *"when the same error comes back, am I digging in the wrong place?"* is loop detection, not quality control.
+
+**Note the cost shape**: main on high, subagents on medium, the expensive reader invoked only at three points. **The advisor is affordable because it speaks rarely** — the same logic as a confidence cascade, applied to attention rather than tokens.
+
+The post's own extension downward: *"jev engineering is the same move one layer down: the forks that need no thinker (which file, which tool, retry or stop) go to [[jev|jev]] in under half a second, and the big model only sees the ones that split."*
+
+*(Single practitioner post, unmeasured — no indication of how often the advisor is right, or what it costs. The `/advisor` feature itself is vendor-shipped and documented. Not tested by the owner.)*
 
 ## "Claude Code's next era" — Mods, Plugins, Projects, Tag (2026-09-29)
 

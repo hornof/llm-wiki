@@ -2,7 +2,7 @@
 name: AI Engineering Skills
 type: concept
 maturity: emerging
-last_updated: 2026-09-23
+last_updated: 2026-10-03
 ---
 
 ## Definition
@@ -45,6 +45,20 @@ Ng flags **software-engineering fundamentals** (Skill #2) as the next deep-dive.
 - **Convergence check**: the map independently ratifies the wiki's spine — evals/verifiers ([[loop-engineering]]), context management ([[context-engineering]]), multi-agent orchestration ([[graph-engineering]]), spec-shaping + product sense ([[forward-deployed-engineer]] / [[engineering-leadership-ai-era]]). A rare case where a mainstream-authority taxonomy and the wiki's accreted threads line up 1:1.
 - **Skills-not-credential — CEO-tier corroboration (Tim Cook, 2026-08-21)** ([[raw-batch-roundup-2026-08-21]]): asked what Apple screens for, Cook names the two credentials most companies filter on first — a degree and coding — and rejects both: *"we hire people that code, people that don't… a lot of people that don't code on a daily basis."* He simultaneously calls coding *"the only global language we all share"* and a form of self-expression worth learning. The tension is the point: **coding as literacy, not as a hiring gate** — the same *skills-not-a-role/credential* framing as Ng's map, and a counterweight to reading the [[claude-certified-architect|certification]] wave as gatekeeping.
 - **LLM-foundations-as-baseline — Paul Graham (2026-08-24)** ([[dailybrief-roundup-2026-08-24]]): *"If I were 17, I'd learn how to build LLMs from scratch."* A credible-voice signal that **LLM fundamentals** — Skill #1's first sub-skill (tokenization/generation, when-to-trust-vs-fail, context tradeoffs) — is now the new *baseline* builder skill, not a specialist niche. No novel pedagogy; the signal is *who* is saying it and *how young* the recommended entry point is. Pairs with Cook's skills-not-credential framing as the *what-to-learn-first* companion to the *how-you're-hired* claim.
+
+## A lab puts $100M behind the supply constraint (2026-10-02)
+
+**[[anthropic|Anthropic's]] Claude Frontier Academy: $100M to train 10,000 engineers on enterprise AI** ([[dailybrief-roundup-2026-10-02]]). **~$10K per engineer.**
+
+**This page has argued the demand side; this is the first large supply-side commitment it holds.** Ng's four skills and the practitioner book-of-work taxonomy both describe *what* the market wants. **A frontier lab spending nine figures to manufacture that supply is evidence it believes the shortage is real and binding** — and the target is specifically **enterprise deployment**, not model research and not developer evangelism.
+
+**It converges with two independent diagnoses the wiki already holds.** [[tom-blomfield|Blomfield's]] Company Brain RFS: *"the biggest blocker to AI automation of companies is no longer the models, they just got so good so quickly. **Now the blocker is the domain knowledge.**"* And the [[forward-deployed-engineer]] thesis, where the scarce skill is explicitly deployment-into-a-business rather than model work. **Three parties — a lab, an accelerator and a job market — pointing at the same gap.**
+
+**Read the timing.** This lands two weeks after the IPO prospectus and a month before the reported roadshow. **A nine-figure spend on human capacity is also a claim to investors about what currently limits revenue**, which is a more candid statement than most vendor messaging about adoption.
+
+**Owner-relevant, and worth saying plainly: this is the role being subsidised.** The skills being funded are enterprise-deployment skills for someone with an engineering background — which is the transition this wiki exists to support.
+
+*(Announcement only. "Train 10,000 engineers" is undefined — a certification, a course, and a hiring pipeline are very different things — and curriculum, selection criteria, delivery model and timeline are all uncaptured. No evidence yet that any engineer has been trained.)*
 
 ## Related Concepts
 - [[agentic-engineering]] — "using coding agents" + "SWE fundamentals" are its skill substrate

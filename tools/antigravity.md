@@ -1,49 +1,31 @@
 ---
-name: Antigravity CLI
+name: Antigravity
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-06-29
-dormant_since: 2026-09-20
+last_updated: 2026-10-02
 ---
 
 ## What It Is
 
-**Antigravity CLI** is canonical-Google's canonical-coding-agent canonical-CLI-tier-cohort with canonical-Claude-Code + canonical-OpenAI-Codex + canonical-other-coding-agents. Wiki-tracked as **10+ source-page text-mentions canonical-most-overdue canonical-entity-page** (similar canonical-pattern to METR before Jun 26 lint). canonical-Antigravity-CLI canonical-Google-coding-agent canonical-product canonical-substantive-anchor via canonical-Jun-27 canonical-Google-Agents-CLI canonical-launch canonical-cross-compatibility canonical-anchor.
+**Google Antigravity** is Google's agent-first development platform — an **IDE and a CLI sharing one agent harness** ([docs](https://antigravity.google/docs/home/)), plus SDK and desktop surfaces. Google's entry in the coding-agent cohort alongside [[claude-code|Claude Code]] and [[codex|Codex]]. Per its own docs: parallel subagent execution across workspaces, async/scheduled tasks, artifact tracking and verification, MCP servers + custom skills, local execution with granular tool approval; runs on Gemini models.
 
 ## Traction Signals
 
-- **2026-06-27: canonical-Google-Agents-CLI canonical-launch canonical-cross-compatibility canonical-anchor** ([[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27]]) — canonical-Antigravity-CLI listed as canonical-cross-compatibility-target alongside Claude Code + Codex + any-coding-agent. *"Works seamlessly with: Antigravity CLI • Claude Code • Codex • and any other coding agent."*
-- **9+ prior canonical-substantive text-mentions** across multiple source pages (canonical-recurring-reference canonical-pattern).
-- **Canonical-Google canonical-multi-tier canonical-AI-product-strategy canonical-positioning**: Antigravity = canonical-Google canonical-coding-agent canonical-tier within canonical-Gemini Enterprise + canonical-Agent Runtime + canonical-ADK canonical-stack.
-
-## How to Use It
-
-- canonical-CLI-based canonical-coding-agent canonical-tier (verification-pending canonical-availability + canonical-pricing + canonical-installation-steps).
-- canonical-cross-compatibility with canonical-Google-Agents-CLI canonical-skill-injection canonical-pattern (canonical-shared canonical-skill-substrate via [[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27|google/agents-cli]]).
-
-## Key Concepts
-
-- **Canonical-Google canonical-coding-agent canonical-tier-cohort canonical-positioning** with canonical-Claude-Code + canonical-Codex (canonical-cross-compatibility canonical-pattern).
-- **Canonical-skill-injection canonical-substrate** via canonical-Google-Agents-CLI.
+- **2026-06-27** — listed as a cross-compatibility target in the [[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27|google/agents-cli launch]]: *"Works seamlessly with: Antigravity CLI • Claude Code • Codex • and any other coding agent."*
+- 9+ text mentions across wiki source pages before this page existed.
 
 ## Compared To
 
-- **Vs. [[claude-code|Claude Code]]**: canonical-Google canonical-coding-agent vs canonical-Anthropic canonical-coding-agent canonical-tier-cohort.
-- **Vs. [[codex|OpenAI Codex]]**: canonical-Google canonical-coding-agent vs canonical-OpenAI canonical-coding-agent canonical-tier-cohort.
-- **Vs. canonical-Cursor + canonical-other-coding-agents**: canonical-Google canonical-coding-agent canonical-positioning within canonical-3-vendor canonical-coding-agent canonical-cluster (Anthropic + OpenAI + Google).
+- **Vs. [[claude-code|Claude Code]] / [[codex|Codex]]**: same category; Antigravity leads with the IDE surface where the other two lead with terminal/CLI.
+
+## Unverified
+
+Pricing tiers, GA status, and adoption metrics — not checked beyond the official docs page (2026-10-02).
 
 ## Resources
 
-- [[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27]] — canonical-Jun-27 canonical-Google-Agents-CLI canonical-launch canonical-cross-compatibility canonical-anchor
-- [[google]] — paired canonical-Google canonical-vendor canonical-multi-tier canonical-AI-product-strategy
-- [[claude-code]] — paired canonical-coding-agent canonical-cohort
-- [[codex]] — paired canonical-coding-agent canonical-cohort
+- Official docs: https://antigravity.google/docs/home/
+- [[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27]] · [[google]] · [[claude-code]] · [[codex]]
 
-## Verification-Pending
-
-- canonical-Antigravity-CLI canonical-launch-date + canonical-availability-tier (canonical-public-preview vs canonical-GA?)
-- canonical-Antigravity canonical-vendor-attribution (canonical-Google-product or canonical-Google-incubated-3rd-party?)
-- canonical-Antigravity canonical-pricing + canonical-installation-steps
-- canonical-Antigravity canonical-feature-set vs canonical-Claude-Code + canonical-Codex canonical-comparison-matrix
-- canonical-antigravity.google canonical-domain canonical-substantive-content extraction
+> Page history: rewritten 2026-10-02 — the 2026-06-29 version was corrupted with "canonical-" filler from an automated pass.
