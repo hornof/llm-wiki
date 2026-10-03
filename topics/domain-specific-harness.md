@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-09-28
+last_updated: 2026-10-04
 ---
 
 ## What This Is
@@ -144,6 +144,18 @@ It also gives the portability claim a testable shape. [[rasmic-software-factory-
 **And "no increase in time in-editor" is a testable claim that the wiki already has evidence against.** The [[agentic-engineering|six-voice cognitive-load convergence]] says the opposite — *"we work in five threads to keep the AI busy… more mentally exhausted than I can remember in years"* — and [[dailybrief-roundup-2026-09-25|Willison]] argues the same week that coding agents make engineering *harder*. **Same question, first-person on both sides, opposite answers.** Neither is measured.
 
 *(Unmeasured 4×; no methodology or baseline period. YC's CEO naming a product publicly is a market event as well as a datapoint; no YC–Capy relationship disclosed in the thread and none checked.)*
+
+### The deflationary case gets an answer, and it is a price (backfill, 2026-08-15)
+
+[[garry-tan|Tan's]] *"a coding harness done right is syntactic sugar"* is recorded above as the strongest form of the deflationary case, posed by an enthusiast against himself and left unresolved. **[[undefinedki-how-to-design-an-agent-harness-2026-08-15]] resolves it in a direction neither side of that argument took.**
+
+> *"A harness earns its keep on work you couldn't hand off at all, and never on work where you were trying to save twenty minutes."*
+
+**With the number behind it: Anthropic's own harnessed run cost 6 hours and $200 against 20 minutes and $9 unharnessed — over 20×.** *"Over twenty times the price for a much better result, which is the trade nobody advertises."*
+
+**So the harness is neither sugar nor magic; it is a cost structure.** It buys the ability to *leave the work alone*, and it charges heavily for it. **That reframes this page's market question**: a domain-specific harness is defensible not because it is hard to build, but because the work it makes possible was previously **unhandoffable at any price** — which is a much narrower and more checkable claim than "the harness is where the value is."
+
+**It also supplies the engineering-layer detail this page deliberately delegated.** When `harness-engineering` was resolved into this page on 2026-09-12, the scope was set at the market/company-shape layer with the engineering practice left on [[loop-engineering]]. **The six decisions — stopping rule, tool menu, memory, crash survival, permissions, and who says it's done — are that practice, now in one place with figures attached.** Detail there.
 
 ## Open Objections
 

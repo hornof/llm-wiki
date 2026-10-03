@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-09-30
+last_updated: 2026-10-04
 ---
 
 ## Definition
@@ -47,6 +47,29 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** �
 **Recorded for the ecosystem fact, not the skill.** This page has tracked Anthropic's `anthropics/skills` and community plugins around Claude Code; **a separate vendor publishing a documented skills library that practitioners write workflow guides for is a different signal** — the format is being adopted by parties with no stake in Anthropic's distribution. Two independent skill repositories with third-party workflow content around them is the shape of a format becoming a standard rather than a product feature.
 
 **Not evaluated.** No output inspected, no adoption figures, and a single Reddit workflow post is one person's practice. *(`_raw` drop, 2026-09-29.)*
+
+## Anti-rationalization tables, and two packs converging on a gated lifecycle (2026-10-03)
+
+**[[addy-osmani|Addy Osmani]] — ex-Google, now on the [[claude-code|Claude Code]] team — published 25 skills** ([[addyosmani-agent-skills-repo-2026-10-03]]) across **Meta → Define → Plan → Build → Verify → Review → Ship**. Four stated principles, and one of them is new to this page:
+
+> **"Anti-rationalization.** Every skill includes a table of **common excuses agents use to skip steps** (e.g., 'I'll add tests later') **with documented counter-arguments.**"
+
+**That is a sharper model of the failure than this page has had.** The implicit assumption behind most skill authoring is that the agent *forgets* a step. **An anti-rationalization table assumes the agent will argue its way around the step** — and it is the authoring-side counterpart to the finding that [[undefinedki-how-to-design-an-agent-harness-2026-08-15|a rule in prose gets skimmed where a rule in a linter does not]]. **Where you cannot make the rule mechanical, pre-refute the excuse.**
+
+**"Process, not prose" names a distinction this page has been circling.** Its cleanest prior definition was *"skills are just context and instructions… lazy ways to do repeated work."* **That describes a macro.** Osmani's — *"workflows agents follow, not reference docs they read. Each has steps, checkpoints, and exit criteria"* — describes a different artifact, and it explains why skill quality varies so widely between packs. Joined by *"verification is non-negotiable… **'seems right' is never sufficient**"* and progressive disclosure.
+
+**Also useful: the `definition-of-done` versus acceptance-criteria split** — a project-wide standing bar every change clears is not the same object as a per-task criterion. This page had been conflating them.
+
+### Two independent packs, one shape
+
+| | Skills | Lifecycle | Accretion stage |
+|---|---|---|---|
+| **[[gstack]]** (Tan, YC) | 23 | Think → Plan → Build → Review → Test → Ship → **Reflect** | **`/retro`** |
+| **agent-skills** (Osmani, Anthropic) | 25 | Meta → Define → Plan → Build → Verify → Review → Ship | **none** |
+
+**A YC president and an Anthropic engineer independently shipping a seven-stage gated lifecycle is the strongest evidence this page holds that the shape is real rather than one person's taste.** The divergence is the interesting part: **gstack closes the loop and this pack does not.** Given that the accretion step is what [[loop-engineering]] identifies as the thing that makes a harness compound, **the absence is a gap in the newer pack rather than a simplification.**
+
+*(Repo README only — no skill content read, no installation, no evaluation. Adoption is a Trendshift badge. Osmani is an Anthropic employee publishing skills for Anthropic's product: not a conflict, not independent. Not tested by the owner.)*
 
 ## Related Concepts
 

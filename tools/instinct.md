@@ -3,7 +3,7 @@ name: Instinct
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-09-30
+last_updated: 2026-10-04
 ---
 
 ## What It Is
@@ -43,6 +43,18 @@ Three surfaces, two of them from the same commentator. **Real but thin**: no use
 **That is Instinct's product thesis, executed by a company that already owns the transaction.** Six days after this page was created on the argument that a messaging-native errand agent was a distinct bet, an incumbent shipped the messaging-native version of *its own* errand. **The difference is decisive on the exact axis this page flagged**: Instinct's stated failure modes are phone apps and complex checkout pages, and **DoorDash's agent never touches a checkout page** because it owns the checkout. Saved payment methods make the [[instinct|spend-limited virtual card]] unnecessary rather than better.
 
 **The generalisable point is narrower than "incumbents win."** A single-vertical agent inside a messaging app has no integration problem at all; Instinct's bet is that one agent doing *many* errands beats many agents doing one each. **That bet is now testable** — and it gets harder every time a vertical incumbent ships its own thread. *(Digg summary; no detail on scale, availability or whether it uses an agent framework at all.)*
+
+## The card networks arrive (2026-10-03)
+
+**Visa, Mastercard and Stripe are reportedly building safeguards for AI agents that spend users' money** ([[dailybrief-roundup-2026-10-03]], Digg).
+
+**This is the layer that resolves a question the wiki has watched four parties answer incompatibly.** In twelve days: [[meta|Amazon blocked]] Muse from shopping, Meta opened Muse's connectors, [[shopify|Shopify opened checkout]] to browser agents, and Instinct handed its agent a spend-limited virtual card. **Four positions, no shared mechanism — each party improvising a control at its own layer.**
+
+**The card networks are the only participants who can make one control work everywhere.** Instinct's virtual card is a good answer that only Instinct's users get; a network-level safeguard applies to every agent, every merchant and every wallet at once. **If this ships, the spend-limited card stops being Instinct's differentiator and becomes a primitive** — which is good for users and removes the most concrete thing this page credits the product with.
+
+**The open question is which control they build**, and the three candidates behave very differently: a **per-transaction limit** (what Instinct does), **agent identity and attestation** (the merchant knows a bot is paying, and can price or refuse it), or **reversibility** (agent-initiated charges get a longer dispute window). **The first bounds loss, the second settles the Amazon-versus-Shopify disagreement by making agent traffic identifiable, and the third shifts cost to merchants.** Nothing in the report says which.
+
+*(Digg summary of a report; "reportedly," no mechanism, timeline, or participant confirmation. No primary.)*
 
 ## Key Concepts
 

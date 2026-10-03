@@ -139,6 +139,20 @@ Extends the 3-tier stack with 2 new tiers from Jun 07/08 ingests:
 
 **First wiki-captured 5-tier canonical content-template stack** at frontier-vendor scale. Khairallah's Project 5 (Code) explicitly references CLAUDE.md content as a knowledge file, establishing **bidirectional reference between Claude Projects surface + Claude Code project-tier**.
 
+## Three findings that cut against the exhaustive-rules lineage (backfill, 2026-08-15)
+
+[[undefinedki-how-to-design-an-agent-harness-2026-08-15]] carries three results this page should absorb, and two of them argue against its own template stacks below.
+
+**1. Length defeats the file.** *"One instructions file, under a hundred lines. **A table of contents into a real docs folder, not an encyclopedia. Long instruction files get skimmed exactly like long emails.**"* With a receipt: **OpenAI keeps theirs to ~100 lines** and merged ~1,500 PRs in five months with three engineers. **This is the same direction as [[thariq-shihipar|Shihipar's]] finding that 80% of Claude Code's system prompt could be removed with no measurable loss** — and it is the second independent argument against the 3-tier and 5-tier content templates recorded below, which grew in the opposite direction.
+
+**2. Prose rules are optional to the model; linters are not.** *"Anything broken twice becomes a linter. Not a paragraph of prose asking nicely. **A rule that fails the build.**"* OpenAI *"enforce architectural rules by custom linters instead of writing them as prose the model can skip."* **The deletion condition matters as much as the addition rule**: *"delete it when a better model has made it pointless"* — which is the maintenance discipline a growing rules file never gets.
+
+**3. Compaction silently deletes your rules — and pinning fixes it completely.** *"Facts can be summarised away. **Rules cannot.**"* Measured: **policy-rule violations went 0% with the rule in full view → 30% after compaction → 59% on the worst model, and stayed at 0% wherever the rule survived summarising.** The prescribed fix is belt-and-braces: a file the agent re-reads after every reset **and** the same rules repeated in the system prompt.
+
+> **That third finding is the most consequential thing on this page.** A CLAUDE.md is only in force while it is in context. **An agent that has compacted once is operating under a summary of your rules, not your rules** — and the failure is invisible, because nothing announces the summarisation. **Separate facts from rules, and pin the rules.**
+
+*(Single-author and unreviewed by the essay's own admission for the compaction study; the ~100-line and linter claims are secondhand accounts of OpenAI practice. Directional.)*
+
 ## Key Papers / Posts
 
 - [[mnilax-claude-md-12-rules-2026-05-09]] — May 9 2026; 12-rule expansion, mistake-rate numbers, "what didn't work" negative results, mental-model framing.

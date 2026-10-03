@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-10-03
+last_updated: 2026-10-04
 ---
 
 > [!key-insight] 2026-06-30 canonical-mainstream-validation-milestone
@@ -96,6 +96,58 @@ Steinberger framing ([[steipete-loops-engineering-vision-md-2026-06-07]]):
 - **The cross-model reviewer becomes a setting (`/advisor`, 2026-09-20, [[raw-batch-roundup-2026-10-02]]).** This page has argued for a reviewer that is not the thing being reviewed, and the only clean instance it held was cross-vendor. **A different model reading the full session — every tool call included — and speaking at three fixed moments is that pattern inside one tool**: *before a plan* (is this the right approach?), *on a repeated error* (am I digging in the wrong place?), *before "done"* (what did I miss?). **The second trigger is loop detection rather than quality control**, and it is the failure this page describes most often and names least precisely — an agent confidently iterating inside a wrong frame. **The economics are the same as a confidence cascade applied to attention**: main session on high, subagents on medium, the expensive reader invoked only three times. *(Unmeasured practitioner configuration; the feature is vendor-shipped and documented.)*
 - **The highest-profile public instance — gstack ([[gstack]], paged by the owner 2026-10-01).** [[garry-tan|Tan's]] open-source software factory is **23 Claude Code skills implementing a Think → Plan → Build → Review → Test → Ship → Reflect loop** as slash commands (`/plan-eng-review`, `/design-review`, `/review`, `/qa`, `/ship`, `/canary`, `/retro`). **Four of the seven stages are gates, which is the thing to notice**: the roles-and-review-gates layer is where Tan locates the speedup, not the model. **`/retro` is the accretion step this page keeps identifying as the missing half** — the stage where a cycle's lessons become durable, the same slot [[gregisenberg-ai-roll-ups-5t-guide-2026-09-26|corrections-become-test-cases]] and the hillclimb's stall-and-reflect round occupy. **It is also the most directly inspectable artifact the page has**: MIT-licensed, readable, and the only harness here whose gate structure can be examined rather than inferred from an operator's account. *(Star count is the only adoption proxy and the README's figure is the author's and unverified; no independent practitioner receipts held.)*
 - **Multi-harness orchestration gets a popular artifact** — `getpaseo/paseo`, **19.2k stars** ([[dailybrief-roundup-2026-10-01]]): *"unified desktop and mobile interface for orchestrating multiple self-hosted coding agents from Claude Code, Codex, Copilot and others."* **The star count is the signal, not the tool.** This page has tracked the multi-agent-orchestration category through operator accounts (croovies's 128, Miller's 34, Gas Town) and vendor products; **19.2k stars on a harness-of-harnesses says the problem is widely felt enough to have a mainstream tool, and that practitioners are running several vendors' agents at once rather than standardising on one.** That cuts against every vendor's lock-in strategy and toward [[rasmic-software-factory-isenberg-2026-09-14|Ras Mic's harness-agnostic position]]. *(Repo listing only; not installed, no evaluation, and stars measure attention rather than use.)*
+
+## The systematic version — six decisions, with numbers (backfill, 2026-08-15)
+
+[[undefinedki-how-to-design-an-agent-harness-2026-08-15]] is **this page, written in one pass, seven weeks before it reached the wiki.** It decomposes the harness into six decisions — the loop and where it stops, the tool menu, what stays in memory, what survives a crash, what it may touch, and who says it's done — and attaches a figure to most of them. **The convergence is evidence the conclusions above are right; the seven-week gap is a sourcing failure.**
+
+**The framing to keep:** *"You already have one. The only question is whether anyone designed it."* And on vocabulary — *"people started calling this layer 'the harness' in early 2026. Before that it had no agreed name, **which is most of why it went unmanaged for so long.**"*
+
+### Three shapes, three receipts
+
+- **DoorDash as a platform**: each agent in a throwaway VM pre-booted with repos, tools and credentials; work as **YAML playbooks mixing agent steps with scripted steps**; **one gateway** handing out only the tools a playbook declared, logging every call. **130,000 automated tasks in a month, 25,000+ code reviews a week.**
+- **OpenAI as a repository**: no platform at all. Instructions file **~100 lines as a table of contents** into a docs folder, and **architectural rules enforced by custom linters instead of prose the model can skip.** **Three engineers, ~1,500 PRs in five months.**
+- **Anthropic as a role split**: spec-writer, implementer, and a third agent that **drives the finished app in a browser and grades it**, all communicating **only by writing files to each other.**
+
+### Three things genuinely new to this page
+
+**"Restart when it starts agreeing with you."** *"If the model has accepted five suggestions in a row without pushback, the session is done. Something wrong got in early and everything after treats it as established fact."* **This page has nothing like it.** It names context poisoning that *presents as cooperation* — invisible precisely because it feels like progress, and undetectable by any output check. **The cheapest loop-health signal recorded here.**
+
+**"Anything broken twice becomes a linter."** *"Not a paragraph of prose asking nicely. A rule that fails the build."* **This is the hardest form of the accretion rule above** — [[gregisenberg-ai-roll-ups-5t-guide-2026-09-26|corrections-become-test-cases]] is the same instinct, and OpenAI enforcing architecture by linter is the same instinct **with the escape hatch removed.** A rule that fails the build cannot be skimmed. Paired with the deletion condition, which matters: *"delete it when a better model has made it pointless."*
+
+**"Run every task three times and judge the worst run."** *"A 75% success rate per attempt means all three attempts pass only 42% of the time."* **That arithmetic quietly invalidates most single-run demonstrations this page has catalogued**, several of which were recorded without comment.
+
+### The measurements, and what they imply
+
+| Finding | Number |
+|---|---|
+| Published agent loops **stating what "finished" means** | **74%** of 50 audited — and only **32%** kept memory between runs |
+| Tools on disk rather than in-context (Anthropic) | **150,000 tokens → 2,000** |
+| Structured tool errors instead of *"invalid request"* (Siemens) | **+37–40 points** task completion, **~half the tokens per success** |
+| Policy-rule violations after compaction | **0% → 30% → 59%** (worst model); **pinning fixed it completely** |
+| Approval prompts humans approve | **93%** |
+| Prompts eliminated by proper sandboxing (Anthropic) | **−84%** |
+| Confident-wrong-answer failures caught by a human rather than a test | **~70%** |
+
+**The approval-prompt figure is the one to act on.** *"A prompt you always click through is not a security control, it's a delay you built for yourself."* 93% approval means the push-back primitive this page recommends **degrades into theatre unless the prompts are rare** — and the sandboxing counterpart is the fix: boundaries for everything, prompts only for what you would genuinely stop for. **Anthropic's −84% is the argument that makes it stick**: *"it isn't only safer, it's much less annoying."*
+
+**The context ceiling is a usable number**: on a million-token model, *"work up to 300,000 or 400,000 and then stop. Past that the failures stop looking like confusion and start looking like carelessness, the kind where it deletes a config file it should have left alone."*
+
+### The four files
+
+**SPEC.md** (*"you write it, the agent never edits it"*), **PLAN.md** (steps with executable acceptance criteria), **PROGRESS.md** (*"the file a fresh agent reads first"*), **DECISIONS.md** (append-only — *"without it a later session re-litigates a decision you already made two hours ago"*), plus a commit after every working change. **The SPEC ownership rule is the load-bearing one**: a spec the agent may edit is not a spec, it is a transcript. Compare [[claude-md-pattern]] and [[company-brain]].
+
+> *"If it isn't in a file, it doesn't exist."*
+
+### And the cost, stated as a trade
+
+**Anthropic's harnessed run: 6 hours and $200, against 20 minutes and $9 unharnessed.** *"Over twenty times the price for a much better result, **which is the trade nobody advertises.**"* The conclusion is the most useful sentence on the subject this page holds:
+
+> *"A harness earns its keep on work you couldn't hand off at all, and never on work where you were trying to save twenty minutes."*
+
+**This page carries a great many harness claims with no price attached.** That one has a price, and it argues against the harness for most of the tasks people reach for it.
+
+**Caveats carried from the source:** a pseudonymous long-form X post whose studies are mostly **unnamed and unlinked** — the fifty-loop audit, the Siemens figures, the 93% and the ~70% all arrive without references, and the essay flags only one of its own sources as unreviewed. **Directional, not citable.** The three org receipts are secondhand here too.
 
 ## Nvidia: "the harness, not the model, is the hero" — ARC-AGI-3 30%→100% (2026-08-21)
 The strongest empirical anchor yet for the harness-as-capability thesis ([[dailybrief-roundup-2026-08-22]], TechCrunch on Nvidia research): a **custom harness took Claude Opus 5 from 30% → 100% on ARC-AGI-3** (instruction-free 2D reasoning games where the model must figure out the rules like a human), **with no change to the model.** The two harness ingredients named: **memory management** + a **"supervisor" boss-like component** overseeing the worker loop. 30% had been the top *model-only* result; the harness closes the entire remaining gap. This is the loop/harness layer proving it is where long-horizon capability actually lives — a raw model becomes *"something that can act on its own"* through the harness, not the weights. Operationalizes this page's thesis and the [[graph-engineering|supervisor/reviewer-node]] pattern (the supervisor is a graph move inside a loop). **Create-candidate `harness-engineering`** — the "Agent Harness Engineering vs Loop vs Graph" distinction now has a landmark result to anchor it. *(Resolved 2026-09-12 as [[domain-specific-harness]], scoped to the **market/company-shape** layer; the engineering-practice layer stays on this page.)* *(TechCrunch on an Nvidia developer-blog result; benchmark-specific — ARC-AGI-3.)*

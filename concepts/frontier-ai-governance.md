@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-03
+last_updated: 2026-10-04
 ---
 
 ## Definition
@@ -14,6 +14,20 @@ last_updated: 2026-10-03
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Chamath's three board-level requirements (2026-10-03)
+
+From an All-In segment ([[dailybrief-roundup-2026-10-03]] batch): *"there's really three things that you're going to need in an age of super intelligence **so that boards are protected**"* —
+
+1. **End-to-end traceability**
+2. **Policy-to-risk mapping**
+3. **Auditable evidence**
+
+**Recorded because it is the first governance framing on this page aimed at a board rather than a regulator**, and because all three are **artifacts rather than commitments** — which is the property this page's standing test looks for and almost never finds. *"Auditable evidence"* in particular is the thing the voluntary frameworks below conspicuously lack.
+
+**It also lands against a specific finding from the same week.** The Grok Bot roster documents *"no queryable audit log yet"* and *"logs on the other side show your name"* ([[grok-bot-team-own-workflow-roster-2026-08-19]]) — **so end-to-end traceability and auditable evidence are not available from at least one major agent platform today.** A board asking for Chamath's three things would currently get none of them.
+
+**Discount the vocabulary and the speaker's position.** *"Age of super intelligence"* is the White House's week-old rebrand, adopted immediately by an investor with large AI positions, and the framing — *"so that boards are protected"* — is liability management rather than safety. **The three requirements are useful anyway, which is why they are here.** *(Podcast clip; no elaboration on how any of the three would be implemented.)*
 
 ### The White House renames the subject (2026-10-02)
 
