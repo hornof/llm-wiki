@@ -2,7 +2,7 @@
 name: Model-Rendered UI
 type: concept
 maturity: emerging
-last_updated: 2026-09-30
+last_updated: 2026-10-03
 ---
 
 ## Definition
@@ -74,6 +74,20 @@ A 100+ comment r/ClaudeAI thread ([[reddit-claude-beautiful-uis-vs-ai-slop-2026-
 **Discount `impeccable.style` accordingly**: one strong recommendation with me-toos, and the most substantive reply argues against it **from its own landing page** (*"5 buttons, 10 icons, text all over the place"*) while conceding the author *"seems to have some serious skill."* A name to watch, not an endorsement.
 
 *(Self-selected practitioner sentiment; no before/after anyone can inspect, and no definition of "beautiful.")*
+
+## Tooling arrives for the top consensus method, three days later (2026-10-01)
+
+**Pikspec** ([[raw-batch-roundup-2026-10-02]]) — a Chrome extension that clones any page into a working local copy: *"html, css, assets and the hover/interaction states"*, one click, zipped.
+
+**The author's rationale is the section above, restated by someone building for it**: *"when you start a new site with cursor or claude from a blank prompt, you get the same generic ai look every time. same spacing, same fonts, same cards. **if you start from a real page you like, the ai has actual layout, type scale and spacing to work from**, and you edit your way to your own thing instead of fighting slop from scratch."*
+
+**The wiki recorded "feed it references" as the top-ranked consensus method on 2026-09-28. Three days later there is a tool whose only job is to make that step one click.** That is the clearest confirmation available that the diagnosis was right — and it reinforces the observation that **every working method here removes a degree of freedom rather than supplying taste.**
+
+**The technical choice is the interesting part**: *"keeps the **computed styles and states** instead of the raw source."* Resolved values, not authored CSS — which is the form a model can actually use, since a spacing scale expressed through a chain of custom properties and media queries tells it nothing.
+
+**The copyright question is real and the author's caveat is not a defence.** *"Obviously don't ship someone else's site as your own. Use it as a reference and starting point, then make it yours"* is correct advice that does not change what the tool outputs, which is a working copy of a third party's design. **Recorded as a capability and an open legal question, not a recommendation.**
+
+*(Single self-promoting Reddit post; no adoption figures, not installed, not tested.)*
 
 ## Related Concepts
 - [[world-models]] — related idea: models that predict and generate environment state rather than tokens

@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-09-30
+last_updated: 2026-10-03
 ---
 
 ## What It Is
@@ -101,6 +101,22 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 **An ecosystem in twelve days.** A community plugin (`aaddrick/building-with-typesafe-jev`) ships best practices, **anti-patterns**, an API reference and links to **150+ community projects** — Jev launched 2026-09-15. Its author's own eval — six coding tasks × 10 runs, three conditions, **three judges from three providers with majority deciding** — scores **no plugin 0.65 / official plugin 0.77 / this plugin 0.96**. Better methodology than most vendor benchmarks, and self-run on his own plugin; a commenter's *"can you share some real use examples?"* is unanswered.
 
 *(Plugin not fetched. The CMU paper is now sourced to the primary above; the plugin author's eval is still secondhand.)*
+
+**The interface is now commodity, in eighteen days (2026-10-02).** Three independent implementations of Jev's shape have appeared since launch on 2026-09-15, and the third is the one that matters:
+
+| Date | What | Where it sits |
+|---|---|---|
+| 2026-09-28 | `firelex/jeff` — *"Jev-compatible 0.8B decision models, trained at home, ~30 ms"* | hobbyist reimplementation |
+| 2026-09-29 | **OpenAI's Decisions API** — Luna given *"a predefined set of options to choose from"* | incumbent with distribution |
+| 2026-10-02 | **`llama.cpp` `/v1/systemone`** — *"scores supplied options and returns probabilities **in a single forward pass** instead of generating text"* | **the default local runtime** |
+
+**The `llama.cpp` endpoint is the significant one and it is not about competition.** OpenAI's API is a competitor; a hobby clone is flattery. **`llama.cpp` adding a scoring endpoint makes the primitive available to anyone with any open-weights model and no API account at all** — and *"in a single forward pass"* is the whole trick, since it means the capability was never about a special model. **It is about not generating text.** Any model with a tokenizer can score a fixed option set; TypeSafe's contribution was noticing that this is a product.
+
+**That sharpens the question this page has been circling.** If the *interface* is a forward pass anyone can implement, then **Jev's defensible asset is RLCD calibration and nothing else** — the claim that the returned probability tracks accuracy. The page has said from the start that calibration is the entire product; **three reimplementations in under three weeks, none of which claims calibration, is the strongest available evidence that the page framed it correctly.**
+
+**And it raises the risk the page already named.** A schema-bound scorer with uncalibrated confidence is precisely the *worse-than-no-pattern* case, and the number of ways to get one has just gone from zero to three.
+
+**Latent Space on the speed of the response (2026-10-01, [[dailybrief-roundup-2026-10-01]]):** *"How OpenAI shipped its Jev competitor in 1 Week."* **Independent confirmation of the read this page made from Willison's live blog** — and the brief's own gloss is worth keeping: *"the hard part isn't the model, it's integration & ops."* **If a frontier lab can ship the interface in a week, first-mover advantage on the interface is worth about a week.**
 
 **OpenAI previews a Decisions API fourteen days after launch (2026-09-29).** At DevDay: an API that gives *"the Luna model a predefined set of options to choose from"* and responds *"in a fraction of a second"* ([[willison-openai-devday-2026-live-blog-2026-09-29]]). **[[simon-willison|Willison]], in the room, names it as the response**: *"sounds like their response to Jev, which came out of stealth less than two weeks ago."*
 

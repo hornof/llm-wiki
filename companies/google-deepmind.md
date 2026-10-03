@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-09-30
+last_updated: 2026-10-03
 ---
 
 ## What It Is
@@ -11,9 +11,18 @@ Google's primary AI research lab, formed from the merger of Google Brain and Dee
 ## Founding Thesis (2009)
 Combine deep learning (then newly published by Hinton) with reinforcement learning — two siloed academic fields. Bet on accelerated compute (GPUs; later TPUs). Original mission: "Step one: solve intelligence, i.e. build AGI. Step two: use it to solve everything else." — [[hassabis-deepmind-alphafold-agi]]
 
+## Gemini 4 Argon, and a structural gap in the wiki (2026-09-30)
+
+**"Gemini 4 Argon: our next era of frontier intelligence"** (deepmind.google), surfacing on both the 10-01 and 10-02 briefs ([[dailybrief-roundup-2026-10-01]]). **Announcement only — the post was not fetched, and no specs, benchmarks, pricing or availability are captured.** The brief's own caveat is the right one: *"claims need verification once independent evals land."*
+
+**The more useful observation is about this wiki, not the model.** It completes a **major-lab trifecta inside eight days** — GPT-6.1 Sol (09-29), [[claude-sonnet-5|Claude Sonnet 5.5]] (09-28), Gemini 4 Argon (09-30) — and **the wiki has a model page for every frontier and near-frontier line except this one.** `gpt-6-astra`, `claude-opus-5`, `claude-fable-5`, `glm-5-2`, `kimi-k3`, `qwen`, `muse-glimmer`, `jev`, `flux-3` and `inkling` all have pages. **Gemini has twelve mentions on this page and no page of its own.**
+
+**That is the highest-value create-candidate the wiki currently has** — and it is not a Gemini-4-Argon page, it is a `gemini` line page, since the gap predates this release by months. **Deliberately not created from a headline**: a model page built from a title and a URL would repeat the invented-title defect the 2026-09-12 lint found on `block-organizational-intelligence`. **Fetch the primary first.**
+
 ## Two 2026-09-30 items
 
 - **Testing payments to publishers for AI Search / Gemini contributions** ([[dailybrief-roundup-2026-09-30]], Digg; pilot status unconfirmed). **Worth recording because it is the first instance the wiki holds of a lab proposing to *pay* for the content relationship rather than litigate or ignore it.** Everything else on the training-data question in this wiki is adversarial — the OpenAI depositions on piracy risk, the open letters, the scraping disputes. **A payment mechanism, if real, is a different resolution to the same conflict**, and it comes from the company with the most to lose from publishers exiting search. → [[training-data-quality]] *(Pilot unconfirmed; no rates, scope or participants.)*
+- **Project Suncatcher — testing TPUs in orbit for solar-powered AI compute** ([[dailybrief-roundup-2026-10-01]], Digg). **Lands inside a pattern the wiki named a week ago**: the 09-26 entry recorded that *"the escapes and the failures are arriving together, which is what a binding constraint looks like from the inside"* — orbit, stranded solar and grid coalitions on one side, Crusoe's abandoned $1.25B turbine plan and Oracle's force majeure on the other. **This is the orbital escape with a named programme attached.** → [[ai-energy-efficiency]] *(Digg summary; no scale, timeline or cost — and orbital compute's two hard problems are heat rejection and launch mass, neither of which is addressed.)*
 - **SynthID Bio — watermarking AI-generated proteins** while preserving function. Extends the SynthID provenance line from media into **biology**, where the downstream artifact is physical. Proof of concept. → [[frontier-ai-governance]]
 
 ## Traction Signals

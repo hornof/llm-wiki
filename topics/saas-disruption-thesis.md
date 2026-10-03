@@ -146,6 +146,8 @@ This is direct empirical pressure on the thesis: an AI-native frontier-model com
 
 Consulting firms (PwC, Accenture) deploying Anthropic / OpenAI APIs directly are being undermined twice: (1) the lab is funding competing AI-native startups; (2) the lab uses SI deployment usage to drive its own model improvements. Chamath's pitch: a **control plane** that arbitrates token routing across model providers — 8090's *"Software Factory"* is the named productized version, with EY as the existence-proof global partnership.
 
+**The name 8090** is the pitch itself: launched Jan 2024 as a self-funded incubator — *"Tell us what enterprise software you use and my team and I will build you an 80% feature complete version at a 90% discount. We are using AI and offshoring to make this happen"* ([launch post](https://x.com/chamath/status/1745542094696145103)); restated Sep 2024 coming out of stealth as *"increase efficiency by 80%+ and cut costs by upwards of 90%, hence the name"* ([@8090solutions](https://x.com/chamath/status/1836623153310859691)).
+
 ### Caveats
 
 - Chamath has commercial interest (8090) in the framing.

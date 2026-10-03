@@ -45,6 +45,8 @@ This is the most load-bearing line in the cluster. It restates [[samuel-mcdonald
 
 Whitelaw's third company shape follows from the same logic: **building evaluation datasets to enable RLVR in new domains** (bio, drug development), betting on the math/coding breakout repeating where verification can be manufactured.
 
+**Evals = the golden set (owner, 2026-09-28).** Anthropic's [[anthropic-automating-eval-design-hillclimbing-2026-09-28|eval-design-and-hillclimbing post]] (clipped to _raw) productizes exactly what the owner had independently specified as the "golden set" in the Strata/AI Fund architecture: a versioned set of cases with known outcomes, a judge, and a promotion gate — every harness run names the set version it ran against. Same asset, two vocabularies: "eval" is the lab-side word, "golden set" the deployment-side one. If eval *design* itself gets automated, the scarce input shifts from writing evals to **owning the cases with known outcomes** — which is jessy's surface-area line above restated as a data-asset claim.
+
 ### "The AWS moment" — the platform layer gets rented (2026-09-10)
 
 Isenberg's reading of OpenAI's **Agents API** launch: *"everything that made agents hard to build is now something you rent instead of build… If your whole company is an agent platform, the thing you spent the last year building is now included for the price of tokens."* The AWS analogy is explicit — the hard part becomes a line item, and value moves up to whoever knows the job.

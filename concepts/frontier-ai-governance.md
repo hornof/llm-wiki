@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-09-30
+last_updated: 2026-10-03
 ---
 
 ## Definition
@@ -14,6 +14,28 @@ last_updated: 2026-09-30
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### The White House renames the subject (2026-10-02)
+
+**The administration convened major AI CEOs and rebranded "AI" as "super intelligence"** ([[dailybrief-roundup-2026-10-02]], TechCrunch), with [[dario-amodei|Amodei]] present.
+
+**Recorded as a rhetorical event with a governance consequence, which is the only thing it is.** No commitment, threshold, mechanism or document — it fails the wiki's standing test for this genre completely. **But the naming is not neutral.** *"AI"* is a technology category that regulators regulate by sector; *"super intelligence"* is a civilisational claim that invites either existential urgency or national-security framing, and **the administration that chose it has also publicly declined to impose guardrails.** Those two facts together point one way: **a vocabulary of overwhelming capability paired with a policy of non-intervention is an argument for racing, not for caution.**
+
+**Worth holding against the same week's other items** — Amodei in the room on 10-02, Anthropic leadership meeting Trump on 09-27 with no readout, and a US state asking a court to gate OpenAI releases on 09-28. **The federal posture is rhetorical escalation with regulatory retreat, and the sub-federal response is litigation.** *(TechCrunch video; no attendee list, readout or statement captured.)*
+
+### A nonprofit for open frontier research — Trillium Labs (2026-10-02)
+
+**Trillium Labs launches as a nonprofit for open frontier AI research**: open post-training recipes, **reward hacking**, and multi-agent systems ([[dailybrief-roundup-2026-10-02]], Digg).
+
+**The research agenda is the interesting part and it is unusually well-chosen.** *Open post-training recipes* targets the stage where the wiki's evidence says most behaviour is actually set — [[thariq-shihipar|Shihipar's]] finding that 80% of Claude Code's system prompt could be removed, the hillclimbing results, and the whole [[claude-md-pattern|rules-accrete-from-failures]] line all say the work happens after the weights freeze. **And reward hacking is the failure mode nobody publishing a safety framework has a measurement for.** The brief's gloss is fair: *"they're building tools to watch the parts of frontier AI that matter most and everyone's currently running blind on."*
+
+**Launch announcement, nothing more.** No team, funding, output, or governance structure captured; **a nonprofit with a good agenda and no artifacts is a create-candidate, not an entry.** *(Digg summary.)*
+
+### Three safety researchers leave OpenAI (2026-10-01)
+
+**WSJ via TechCrunch, reported in the [[dailybrief-roundup-2026-10-01|10-01 brief]].** No names, no reasons, no roles.
+
+**Recorded at minimum framing, and the wiki should resist the available narrative.** The convenient reading is safety-culture churn at a lab under pre-IPO pressure — but **three unnamed departures is not evidence of that**, and this page has already had to correct itself for over-reading posture as policy. **What is defensible: it is the third OpenAI governance-adjacent item in five days**, alongside the Florida filing and the training-time safety framework. **The pattern is worth counting. It is not yet worth interpreting.**
 
 ### Measurement arrives from the labs themselves (2026-09-30)
 

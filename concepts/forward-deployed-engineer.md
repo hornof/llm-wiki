@@ -51,6 +51,24 @@ Captured here as the **most substantial single-author FDE artifact surfaced to d
 
 *(Primary not fetched — captured from brief summaries. The specific patterns Ganesh names are verification-pending and worth a read-through given the owner's role lane.)*
 
+## A practitioner's five rules (2026-10-01)
+
+Five numbered takeaways from a 53-minute interview with a working FDE *"who does it all day long for Fortune 500 companies"*, via [[greg-isenberg|Isenberg]] ([[gregisenberg-forward-deployed-engineer-masterclass-2026-10-01]]). **The video was not watched; this is the X post's summary of it.**
+
+**1. Listen first, and expect the documented process to be wrong.** *"They interview the people doing the work and let agents quietly read the company's data for a few weeks. **The real process is almost always 3x longer than the one on paper.**"* **That 3× is the most useful number on this page** — it is the reason discovery cannot be done from a process document, and it gives a figure to something [[gregisenberg-ai-roll-ups-5t-guide-2026-09-26|the roll-up guide]] only asserted when it demanded 20–50 *real work samples*.
+
+**2. Four buckets, and the first one is "delete it."** *"They sort every step into four buckets: **delete it**, automate it with a simple rule, give it to an AI agent, or keep a human on it. **A surprising amount ends up in the first bucket.**"*
+
+> **This is a strictly better taxonomy than the wiki's existing one, and the difference is one bucket.** The roll-up automation map sorts tasks as *automate now / automate with human review / assist only / keep human* — four options, **none of which is "stop doing this."** A framework whose cheapest answer is still *automate it* cannot conclude the work shouldn't exist. **Both come from Isenberg's own channel six days apart, and this one is better.**
+
+**3. Build inside the tools the company already uses.** *"Nobody has to learn a new app. When a human needs to sign off, it's just a Slack message."* **Independently converges with three systems the wiki tracks** — [[river|Shopify's River]] (agents confined to public Slack channels), [[buzz|Block's Buzz]] (*"a feature branch becomes a channel"*), and Claude Tag. **Four parties, no coordination, same conclusion: the agent goes where the work already is, and the approval goes where the people already are.**
+
+**4. Cheapest model that does the job.** *"Most of this work doesn't need the most expensive AI."* **Corroborated with numbers elsewhere**: [[anthropic-automating-eval-design-hillclimbing-2026-09-28|Anthropic's hillclimb]] stepped *down* from Opus 4.8 high-effort to Sonnet 5 low-effort and reached **88.9% at a fifth of the cost.**
+
+**5. Measure before and after, then return at six months.** *"Come back 6 months later and prove it worked."* **This is the discipline the wiki's whole [[developer-productivity-measurement]] page exists because nobody practises.** Stated as routine FDE method, which if true makes FDE work better-evidenced than most of the agentic-coding claims the wiki catalogues.
+
+**What to discount.** *"Some forward deployed engineers are getting PAID $1M+/year"* is **unsourced** — no sample, no role definition, no employer. The post is promotion for Isenberg's own podcast, and the practitioner is credited only as a handle, with the Fortune 500 claims reaching the wiki secondhand. **The five rules are worth more than the salary figure, and the salary figure should not be repeated.**
+
 ## Related Concepts
 
 > [!note] FDE as a market wedge, not only a delivery model (2026-09-20)
