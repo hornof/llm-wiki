@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-10-03
+last_updated: 2026-10-04
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -36,6 +36,36 @@ Three roles replace the traditional pyramid: ICs (specialists), DRIs (cross-cutt
 ## Note on "World Model" Terminology
 
 This concept uses "world model" to mean an AI-maintained operational picture of a company. This is distinct from [[world-models]] in the LeCun/ML sense (predictive models of physical reality using JEPA architecture). The terminology overlaps but the referents differ.
+
+## "The hard part is training yourself to stop checking" (backfill, 2026-08-19)
+
+From the Grok Bot team's own roster ([[grok-bot-team-own-workflow-roster-2026-08-19]]):
+
+> *"When I first started, I was checking in on them every 15 minutes and **micromanaging the Bots to the point where they asked me why I kept asking so many questions.** Now I let it do its thing and it's just gotten better with time."*
+
+**This page's instantiations are all counts and architectures; this is the only account it holds of the supervision cost from the operator's side** — and it shows up in an unusual place, as **the agent complaining about being checked.**
+
+**Set against the [[agentic-engineering|cognitive-load convergence]], the two findings are the same cost measured at different points.** Six practitioners report exhaustion from keeping several agents busy; this reports exhaustion from *not trusting* them, resolved by learning to stop looking. **Neither is a capability limit. Both are the human's problem**, and this page has consistently recorded the org-chart changes while recording nothing about what supervising thirty-four agents feels like.
+
+**Treat the productivity claims around it as existence proofs, not measurements**: *"one working prototype a day and his entire input is typing 'yes'"*, and **74 assets shipped out of a tool with no API** — self-reported on launch day, with no quality measure or baseline. **The behavioural observation is the durable part.**
+
+## One company-wide agent, or ten specialists? (2026-10-03)
+
+**A named disagreement on the architecture question** ([[dailybrief-roundup-2026-10-03]], a16z podcast via Digg): **[[replit|Replit's]] Amjad Masad describes running one company-wide agent; OpenRouter's Alex Atallah argues for specialisation.**
+
+**This page has collected instantiations and has had no axis to sort them on. This is the axis.** Re-read the record against it and the counts stop being the interesting number:
+
+| Operator | Shape |
+|---|---|
+| **Masad / Replit** | **one** company-wide agent (and [[amasad-the-self-driving-company-2026-07-16|his own account]] describes it as *"an expanding system of agents"*, not one model — so "one agent" means **one entry point**, not one process) |
+| **Allie Miller** | **34 agents**, six director-level, a three-level org chart |
+| **croovies** | **128**, with a supervisor and a SQLite ticket table |
+| **Anthropic's harness** | **three** — spec, implement, browser-grade ([[undefinedki-how-to-design-an-agent-harness-2026-08-15]]) |
+| **gstack / agent-skills** | **23–25 skills on one agent** — specialisation as *roles*, not processes |
+
+**The last row is the resolution nobody in the podcast seems to have offered.** [[gstack]] and [[addyosmani-agent-skills-repo-2026-10-03|Osmani's pack]] both specialise heavily **without running multiple agents** — the roles are slash commands against a single session. **So "one agent or ten" conflates two decisions: how many entry points a human manages, and how many distinct roles the work is divided into.** You can have one of the first and twenty-five of the second, and both camps would call that agreement with them.
+
+*(Podcast summary via an aggregator; not fetched, and neither position's reasoning is captured.)*
 
 ## Airbnb, rebuilt from the inside (2026-10-02)
 

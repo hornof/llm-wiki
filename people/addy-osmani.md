@@ -14,6 +14,16 @@ Addy Osmani is an engineering leader in Google's Chrome / web-platform organizat
 
 - **Agent Harness Engineering** ([[addy-osmani-agent-harness-engineering-2026-04-19]], 2026-04-19): a comprehensive taxonomy of the agent *harness* under the equation **`Agent = Model + Harness`**. Introduces the **ratchet principle** (*"every line in a good `AGENTS.md` should be traceable back to a specific thing that went wrong"*) and **working-backwards-from-behavior**, plus an 8-layer harness model and the **Harness-as-a-Service** framing. Resurfaced in the [[dailybrief-roundup-2026-07-12|2026-07-12 Daily Brief]].
 
+## Ships his own workflow as 25 skills (2026-10-03)
+
+**[`addyosmani/agent-skills`](https://github.com/addyosmani/agent-skills)** ([[addyosmani-agent-skills-repo-2026-10-03]]) — *"production-grade engineering skills for AI coding agents"*, 25 of them across a seven-stage gated lifecycle. @undefinedKi's framing: *"an Anthropic engineer packed his whole engineering workflow into agent skills, so anyone can copy it."*
+
+**The contribution the wiki is keeping is the anti-rationalization table**: every skill carries *"a table of common excuses agents use to skip steps (e.g., 'I'll add tests later') with documented counter-arguments."* **That treats the agent as a party that will argue around a gate rather than one that forgets it** — a different and better model of the failure. See [[skill-md]].
+
+**Worth noting against his September surface.** His [[addyosmani-anthropic-80pct-code-ci-strain-2026-09-14|2026-09-14 post]] reported Anthropic at ~80% AI-written code with CI strain as the consequence — **a scaling problem.** This is him publishing the discipline layer that answers it: quality gates, evidence requirements, *"'seems right' is never sufficient."* **Same person, the problem then the proposed fix, three weeks apart.**
+
+*(Repo README only; no skill content read, no evaluation, not installed.)*
+
 ## Notable Takes
 
 - **"A decent model with a great harness beats a great model with a bad harness."** — the harness-primacy thesis, aligned with [[trq-dynamic-workflows-harness-2026-06-02|Thariq's "reliability comes from the harness, not the model"]].
