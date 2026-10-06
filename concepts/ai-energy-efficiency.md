@@ -2,7 +2,7 @@
 name: AI Energy Efficiency
 type: concept
 maturity: emerging
-last_updated: 2026-09-26
+last_updated: 2026-10-06
 ---
 
 ## Definition
@@ -71,6 +71,18 @@ Two supply-side signals landed together, both hitting the *cost* side of the met
 
 - **Memory prices up ~500% in 12 months** (Latent Space AINews) — framed as *"Moore's Law reversed to 2007 levels."* This is the acute-price-spike escalation of the memory-as-binding-constraint thesis: the [[dailybrief-roundup-2026-05-24|May signal]] was *cost-share* (memory ~67% of AI-chip BOM per Epoch AI, HBM cannibalizing DRAM/NAND fabs); this is *price*. It sharpens the **quadruple-convergence on memory-as-binding-constraint** — McMahon (energy-side), the KV-cache research wave (research-side), Epoch AI 67% BOM (cost-share-side), and now a 500% price spike (market-price-side). Direct input to any [[ai-margin-collapse|inference-margin]] model. *(AINews summary; primary not fetched.)*
 - **TerraPower nuclear reactor targets AI data centers** (TechCrunch) — a structural **power-supply** answer for compute density, the complement to the **natural-gas price-spike** (the grid-cost section below, 2026-08-14): if energized power is the scarce, ownable layer (Chamath's **LPS / "Land, Power, Shell"**, [[saas-disruption-thesis]]), nuclear is one route to securing it. Reinforces the *energy-is-the-binding-constraint* read from the supply direction. *(TechCrunch; deployment-timeline unverified.)*
+
+## A signed nuclear deal with a megawatt number — Google and Constellation (2026-10-06)
+
+**890 MW of nuclear capacity added to the PJM grid, plus Gemini Enterprise for grid operations** ([[dailybrief-roundup-2026-10-06]], Digg).
+
+**This page's nuclear entry until now was TerraPower *targeting* AI data centres with an unverified deployment timeline. This is a signed deal with a hyperscaler, a named grid operator, and a figure.** 890 MW is roughly a large single-reactor output and is the first capacity number the wiki holds attached to an actual agreement rather than an intention.
+
+**The second half is the part that is easy to skip and shouldn't be: Gemini Enterprise for grid operations.** Every energy entry on this page treats AI as the *load* — the thing consuming power and straining the grid. **This has Google selling AI into the operation of the grid it is simultaneously drawing from**, which is a different relationship: the consumer becomes a supplier of the control layer. **It is also the first instance the wiki holds of a frontier lab's product being deployed into critical infrastructure operations**, which belongs as much to [[frontier-ai-governance]] as to this page.
+
+**Against the week's other energy items the pattern from 2026-09-26 holds and sharpens**: escapes (orbit via [[google-deepmind|Project Suncatcher]], now nuclear) and failures (Crusoe's abandoned turbine plan, Oracle's force majeure) **continue arriving together, which is what a binding constraint looks like from the inside.** Both of this week's escapes are Google's.
+
+*(Digg summary; no cost, no timeline, no start date, and the brief itself notes "AI role in power-grid management not yet detailed." PJM is the largest US grid operator, which the summary does not say.)*
 
 ## Related Concepts
 

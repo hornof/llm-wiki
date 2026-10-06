@@ -2,7 +2,7 @@
 name: Mistral AI
 type: company
 status: active
-last_updated: 2026-09-16
+last_updated: 2026-10-06
 ---
 
 ## What It Is
@@ -10,6 +10,14 @@ last_updated: 2026-09-16
 - **2026-09-16: Mozilla partnership — Mistral models power Firefox's Smart Window AI beta** ([[dailybrief-roundup-2026-09-16]]), France and North America first, positioned on **privacy-first, multilingual** browsing. A distribution win that fits the sovereign/European positioning behind the €3B raise: an independent browser reaching for a non-American model provider is the same buyer logic as European governments doing so. → [[mozilla]] *(Beta; scope and terms undisclosed.)*
 
 Mistral AI is a French AI startup (founded 2023, Paris) that develops open-weight large language models. Its differentiation is twofold: open-source/open-weight model distribution, and a European identity that positions it as a non-American alternative for large corporations and government agencies. As of April 2026, it has raised $3.1B and is valued at approximately $14B.
+
+## Mistral Large 4 — 1T parameters, API now, weights on 2026-10-27
+
+**A 1-trillion-parameter multimodal model, live on the API today, with open weights promised for 2026-10-27** ([[dailybrief-roundup-2026-10-06]], TechCrunch), pitched as aiming *"to leapfrog closed and open rivals."*
+
+**The release shape is the interesting part, not the parameter count.** A **three-week gap between API availability and weight release** is a pattern the wiki has not recorded from any other open-weights lab: it captures the launch-window attention and the early API revenue, then opens the weights once the news cycle has passed. **Compare [[reflection-ai|Reflection's Beam]], announced open-weight the same day with no such staging**, and [[meta|Meta's Muse Glimmer]], which shipped Apache-2.0 at announcement. **If the date holds it is a new middle position between closed and open; if it slips, it was a closed launch with an open-weights press line attached.** The date is the thing to check.
+
+**1T parameters says little on its own** — no architecture, no activation sparsity (compare Aleph Alpha's Kolibri at *3.5B of 78B active per token*), no benchmarks, no pricing, and no indication whether the open weights are the same model as the API one. **"Leapfrog" is TechCrunch's word for Mistral's claim.** *(Two reports of the same announcement; the brief flags the Digg item as redundant with the TechCrunch one. Capability analysis pending, by the brief's own admission.)*
 
 ## Key Signals
 
