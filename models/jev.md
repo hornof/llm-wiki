@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-10-03
+last_updated: 2026-10-07
 ---
 
 ## What It Is
@@ -101,6 +101,14 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 **An ecosystem in twelve days.** A community plugin (`aaddrick/building-with-typesafe-jev`) ships best practices, **anti-patterns**, an API reference and links to **150+ community projects** — Jev launched 2026-09-15. Its author's own eval — six coding tasks × 10 runs, three conditions, **three judges from three providers with majority deciding** — scores **no plugin 0.65 / official plugin 0.77 / this plugin 0.96**. Better methodology than most vendor benchmarks, and self-run on his own plugin; a commenter's *"can you share some real use examples?"* is unanswered.
 
 *(Plugin not fetched. The CMU paper is now sourced to the primary above; the plugin author's eval is still secondhand.)*
+
+**The thesis is independently confirmed by a different vendor, nine days before Jev launched (backfill, 2026-09-06).** [[pachaar-llm-routing-can-cost-more-2026-09-06]] — by the same practitioner who wrote this page's explainer — reports **Katanemo's Arch-Router: 1.5B parameters fine-tuned for one job** (read a conversation, compare against route descriptions, emit JSON), which **beat Claude 3.7 Sonnet on routing accuracy while running 28× faster.** Its successor, **Plano-Orchestrator**, *"edges out GPT-5.1 and Claude Sonnet 4.5 on overall routing accuracy, with the widest margin on coding."*
+
+**This is Jev's argument, measured, on a named task, against named comparators — and it is the stronger version of it.** The reasoning given is the one that matters: *"routing needs no prose generation, no tool calls, no multi-step reasoning, so **the capability surface is small enough that a tiny model covers it completely.**"* **That is the same insight as the llama.cpp finding below — the capability was never about a special model, it is about not generating text.**
+
+**And it answers the double-inference objection this page has not addressed.** A classifier in front of every request is *"a fixed tax"* that can exceed the savings. Arch-Router avoids it by **running inside the proxy rather than as a billed API call**: *"the cost shows up as roughly 200ms of added latency, not as a second line on your invoice."* **Jev is sold as an API, which means Jev-as-router pays that tax and Arch-Router does not** — a structural disadvantage on the use case ([[ai-margin-collapse|model routing]]) this page names as its primary placement.
+
+*(Sponsored content for DigitalOcean; the Arch-Router and Plano comparisons are the sponsor's own benchmarks of its own models, shown as images not read in this ingest.)*
 
 **The interface is now commodity, in eighteen days (2026-10-02).** Three independent implementations of Jev's shape have appeared since launch on 2026-09-15, and the third is the one that matters:
 

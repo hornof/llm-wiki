@@ -18,6 +18,18 @@ last_updated: 2026-09-20
 
 Agent runtimes, tool-calling patterns, MCP. May 2026 work focused on the [[code-mode]] pattern reframing of the year-long MCP-vs-CLI debate.
 
+## "LLM Routing Can Cost More Than Not Routing" (2026-09-06)
+
+[[pachaar-llm-routing-can-cost-more-2026-09-06]] — a deep-dive arguing the routing pattern breaks in production, with the **prefix-cache** mechanism as the core finding: switching models mid-agent-loop destroys a cache worth **45–80% of input-token cost.** Folded to [[ai-margin-collapse]], [[loop-engineering]], [[kv-cache-optimization]] and [[jev]].
+
+**Two notes on him as a source, both of which this page should carry.**
+
+**He is the wiki's most useful technical explainer and he writes sponsored content.** This piece is paid placement for DigitalOcean's Inference Router, and the structure shows it — four failure modes, each answered by the sponsor's product. **The numbers divide cleanly and the wiki should keep splitting them that way**: RouteLLM (ICLR 2025) and the Uber figures are externally checkable; the Arch-Router and Plano benchmarks are the sponsor's own, on the sponsor's own models. **Mechanism sound, product claims marketing.**
+
+**He is also, separately, the source the wiki over-trusted once.** The 2026-09-27 CMU-on-Jev fold came from his thread and **overstated the paper's finding** — his rendering had confidence failing to expose errors where the abstract says the gap is *concentrated in low-confidence decisions* ([[jev-as-a-judge-arxiv-2609-26550]]). **That was a secondhand-fold failure rather than an error of his**, but it is the reason to fetch primaries behind his summaries. **Here he cites RouteLLM and an arXiv survey without links.**
+
+**Worth crediting:** he is also the source of the sharpest correction on the Jev record — *"Jev cannot break the declared output schema, but it can still be wrong"* — and this piece argues against a pattern he has elsewhere promoted. **He pushes back on his own material, which is rarer than it should be.**
+
 ## Notable Takes
 
 - **"MCP vs CLI was the wrong debate"** (May 2026): both sides survived but stopped being the runtime — they became the primitives the runtime composes. The actual story is [[code-mode]]. Concrete token-cost data: Playwright MCP = 13.7K, Chrome DevTools MCP = 18K, 5-server setup = 55K *before any work*, full schema-piping workflows hit 150K. The fix is for the model to write code that calls tools through a runtime — *"tool definitions belong in code, not in context."* — [[akshay-pachaar-mcp-vs-cli-2026-05-09]]
