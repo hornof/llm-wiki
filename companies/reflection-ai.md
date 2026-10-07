@@ -3,7 +3,7 @@ name: Reflection AI
 type: company
 focus: open-source frontier AI lab
 status: emerging
-last_updated: 2026-09-10
+last_updated: 2026-10-06
 ---
 
 ## What It Is
@@ -23,6 +23,14 @@ Founded by **Misha Laskin** and **Ioannis Antonoglou** (ex-DeepMind, Gemini). As
 - **Infrastructure-consolidation signal**: $5.4B+ commitment to a single substrate provider (SpaceX/Colossus 2) demonstrates the canonical-capital-concentration-shapes-who-can-train-frontier-models thesis.
 - **$2.1B raised; $8B valuation** — [[forbes-ai-50-2026]]; Forbes 2026 AI 50 inclusion (newcomer). Backed by Nvidia + Sequoia even as a **pre-product** company — rare.
 - Founded by DeepMind/Gemini veterans.
+
+## Beam — a 501B open-weight model (2026-10-06)
+
+**Reflection released *Beam*, a 501B-parameter open-weight model** ([[dailybrief-roundup-2026-10-06]], reflection.ai). **Detail is sparse and the brief says so**: *"worth checking if the architecture or training method carry novel signal."*
+
+**It lands the same day as [[mistral-ai|Mistral Large 4]] (1T, weights staged to 10-27), which makes the contrast the useful part.** Reflection announced open-weight *at release*; Mistral announced open-weight *in three weeks*. **For a lab whose entire positioning is open-source frontier AI — and which the wiki records leasing $5.4–6.3B of SpaceX compute at ~$150M/month through 2029 — shipping weights immediately is the consistent move**, and the one that costs most.
+
+**Nothing captured beyond the parameter count**: no architecture, no activation sparsity, no benchmarks, no licence. **501B open weights is a large release if the licence is permissive and unremarkable if it is not**, and the wiki does not know which. *(Vendor blog, not fetched.)*
 
 ## Investors
 

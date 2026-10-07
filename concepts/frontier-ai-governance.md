@@ -15,9 +15,9 @@ Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]],
 
 ## Current State
 
-### Chamath's three board-level requirements (2026-10-03)
+### Chamath's three board-level requirements (2026-10-02)
 
-From an All-In segment ([[dailybrief-roundup-2026-10-03]] batch): *"there's really three things that you're going to need in an age of super intelligence **so that boards are protected**"* —
+From an All-In segment (`_raw/Post by @theallinpod on X`, posted 2026-10-02; **two near-identical clips of the same segment are in `_raw` and were processed once**). *(Attribution corrected 2026-10-06 — the 2026-10-04 ingest cited this to `dailybrief-roundup-2026-10-03`, where it does not appear. It was a `_raw` drop, not a brief item.)* *"there's really three things that you're going to need in an age of super intelligence **so that boards are protected**"* —
 
 1. **End-to-end traceability**
 2. **Policy-to-risk mapping**
