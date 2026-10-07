@@ -2,7 +2,7 @@
 name: KV Cache Optimization
 type: concept
 maturity: active-research
-last_updated: 2026-09-21
+last_updated: 2026-10-07
 ---
 
 ## Definition
@@ -36,6 +36,21 @@ The wave has continued into a **5-paper convergence** in 4 weeks:
 - **Latent Cache Flow: Model-to-Model Communication Without Text** (arXiv:2605.22863, captured 2026-05-25 — [[dailybrief-research-roundup-2026-05-25]]) — extends KV-cache optimization to the **inter-model layer** for multi-agent systems. Single compression encoder works across architectures (vs prior C2C work requiring per-model-pair adapters). Pairs with [[semianalysis-agentic-coding-economics-2026-05-23|SemiAnalysis 5.13s median turn time]] — multi-agent handoffs pay a text-encoding-decoding tax on every transition; LCF eliminates that tax.
 
 **Wave-state at 5 papers**: head-wise budgeting (RateQuant + LKV) → information-theoretic analysis (TurboQuant-inspired) → hardware-adaptive latent attention (GQLA) → eviction-recovery via associative memory (Tensor Cache) → inter-model cache-to-cache communication (Latent Cache Flow). **The wave is now spanning intra-model + inter-model + hardware-adaptive surfaces simultaneously.**
+
+## The agent-loop economics of prefix caching (backfill, 2026-09-06)
+
+This page has tracked KV-cache work as a **systems and research** subject — memory, throughput, serving efficiency. [[pachaar-llm-routing-can-cost-more-2026-09-06]] supplies **the billing consequence**, which is where it matters to an operator:
+
+- **Cached input tokens bill at roughly 10% of the normal input rate.**
+- Every LLM API call is stateless, so *"agents resend the full conversation history on every call"*, and providers serve that with **prefix-based caching**.
+- **In a 15-turn coding session, *"around 90% of what you're sending is text the model already processed"*** — *"that's the ideal case for prefix caching. Nearly all of your input should be hitting the cache."*
+- **Model affinity is worth 45–80% of input-token cost** in that loop. Switching models mid-session means **zero cache hits and full price every turn** — *"all 50,000 tokens get recomputed at full input price."*
+
+**The general rule this implies is broader than routing, and the wiki should state it that way: in an agent loop the prefix is the asset, and anything that invalidates it costs 10× on what was discarded.** Model switching is the obvious case. **Context compaction, tool-set changes and system-prompt edits are the same operation** — and the first of those is recommended practice on [[loop-engineering]] for reliability reasons, which makes it a priced trade rather than a free one.
+
+**Also worth keeping as an operational fact:** *"provider latency varies by 2-3x through the day depending on load. **A model that's fastest at 2am is often the slowest at 2pm.**"*
+
+*(Sponsored content for a routing product; the 10% cache rate is a widely published provider figure, the 90%-prefix and 45–80% claims are the author's and unattributed.)*
 
 ## Key Papers / Posts
 
