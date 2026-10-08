@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-10-07
+last_updated: 2026-10-08
 ---
 
 ## Definition
@@ -14,6 +14,11 @@ The thesis that LLM **inference margins** — not training — are where frontie
 It's the unit-economics lens for evaluating any AI-applied company you'd join or build: if inference is heading toward commodity pricing, business models that assume durable inference margin are exposed, and value shifts to the integration/product layer (the expensive part). Pairs with [[ai-roi-gap|the ROI-gap thesis]] (cheap inference + expensive integration labor) and sits at the opposite end of the pricing curve from [[claude-fable-5|Fable 5's pay-per-use premium]] — the market is simultaneously producing the most-expensive frontier tier and a near-free open-weights floor.
 
 ## Current State
+
+- **Three OpenAI revenue figures in three weeks, and the page should stop treating them as a series (2026-10-08)** ([[dailybrief-roundup-2026-10-08]]): **~$40B annualized (09-17)**, **~$70B ARR (09-29)**, and now **revenue reportedly $20B below previous projections** (TechCrunch). **The 09-29 fold carried an explicit instruction not to compare that figure until its basis was stated. This is why.**
+  > **A projection miss is not a revenue measurement.** *"$20B less than projected"* is compatible with revenue having grown, and it describes **guidance discipline** rather than the business. The three figures measure three different things and none states its basis — **which is the same defect the Axios clarification fixed on [[anthropic|Anthropic's]] side, and OpenAI has no equivalent correction on record.**
+  > **Hardening this into a rule for the page: do not record an OpenAI revenue figure without its basis, and never compare two of them.** The wiki's caution was right twice now; it should stop being a caveat and become the policy. See [[openai]].
+- **A spend cap that must be opted into (2026-10-07)** ([[agent-teams-opus-55-course-2026-10-07]]): on the Claude Agent SDK, *"**the default is unlimited.** Set `max_budget_usd` before your first run."* **That is the mechanism behind every cost blow-up this page records** — [[pachaar-llm-routing-can-cost-more-2026-09-06|Uber's annual budget gone by April]], the executive at $1,200 in two hours, [[berriai-moyai-self-hosted-coding-agent-2026-10-07|$101,872 in 31 days]]. **None of those required anything to go wrong.** And the distinction that follows it is the one [[simon-willison|Willison's]] hard-caps argument needs: *"the elapsed-time budget **paces** the team. Your own timeout **stops** it."* **A budget that paces is not a budget that stops.**
 
 - **Routing can cost more than not routing — and the reason is the cache (backfill, 2026-09-06)** ([[pachaar-llm-routing-can-cost-more-2026-09-06]]). **This page has treated model routing as settled cost-control** on the strength of [[spotify-portal-model-routing-2026-09-04|Spotify Portal's 90% reduction]] and [[jev|Jev's]] routing case. **Pachaar supplies the counter-case, and it is specific to agent loops**: cached input tokens bill at ~**10%** of the normal rate, **~90% of a 15-turn coding session is text the model has already processed**, and **model affinity is worth 45–80% of input-token cost.** Re-deciding the route mid-session **destroys the prefix cache and bills every token at full price.** Two other things break with it: tool-calling format (the agent's parsing) and reasoning coherence. **The fix is session pinning** — route once on the first request, pin the rest.
   > **This makes the wiki's own best receipt an open question rather than a settled one.** If Portal re-decides per turn, the cache destruction should partly offset its 90%; so either **Portal pins sessions** and the wiki is missing the mechanism that makes the number work, or **the 90% was measured where prefix caching wasn't doing much.** The Spotify post was never deeply fetched — **that is now a specific, answerable question.**

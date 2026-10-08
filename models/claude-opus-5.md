@@ -7,7 +7,7 @@ last_updated: 2026-09-23
 ---
 
 > [!update] Successor shipped — Claude Opus 5.5 (2026-09-22)
-> **Claude Opus 5.5** launched the same day as OpenAI's GPT-6 Sol and Luna, with **both labs cutting prices 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]). No specs, benchmarks or pricing captured — **no page yet**; create on a second substantive surface. The price war itself is folded at [[ai-margin-collapse]].
+> **Claude Opus 5.5** launched the same day as OpenAI's GPT-6 Sol and Luna, with **both labs cutting prices 40–50%** ([[dailybrief-roundup-2026-09-23]], [[simon-willison|Willison]]). **Paged 2026-10-08 at [[claude-opus-5-5]]**, on a second substantive surface per the instruction left here — though the specs there are relayed secondhand and Anthropic's prompting guide is still unfetched. The price war itself is folded at [[ai-margin-collapse]].
 
 ## What It Is
 

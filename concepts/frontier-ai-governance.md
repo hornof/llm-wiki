@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-04
+last_updated: 2026-10-08
 ---
 
 ## Definition
@@ -14,6 +14,26 @@ last_updated: 2026-10-04
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Labs move into critical infrastructure — two in three days (2026-10-06/08)
+
+**[[google-deepmind|Google]] sells Gemini Enterprise into PJM grid operations (10-06); [[anthropic|Anthropic]] stands up a Critical Infrastructure Defense Program and a Cyber Mission (10-08)** ([[dailybrief-roundup-2026-10-08]]).
+
+**Stated plainly because it is the kind of thing this page exists to notice: two frontier labs moved into the operation and defence of critical infrastructure inside three days, and no instrument on this page reaches either move.** Preparedness thresholds, release gating, third-party evaluation, the Florida filing, AEF-1 and OpenAI's training-time framework all govern **what a model may do**. **None governs where it may be deployed**, and grid operations and infrastructure defence are exactly where deployment context dominates model capability.
+
+**The Anthropic move is consistent with its own disclosures and worth crediting as such.** Eight days ago it published control-flow-hijack rates showing **its own model as the more capable exploiter** at 6%. **A lab that publishes its model's offensive capability and then stands up infrastructure defence is running the Glasswing posture at institutional scale** — deploy it on defence precisely because it is good at offence. *(Digg summaries; no programme detail, scope, partners or funding for either.)*
+
+### An alignment index from a company that just raised at $3.1B (2026-10-08)
+
+**[[arena|Arena]] closed a $200M Series B at $3.1B and launched an Alignment Index** ([[dailybrief-roundup-2026-10-08]]).
+
+**The structure is the thing to watch, not the index.** This page's recurring complaint is that voluntary frameworks carry no measurements. **An index is a measurement — produced by a venture-funded company whose valuation depends on the category it is measuring.** That is not disqualifying; [[metr|METR]] and the UK AISI both evaluate models they have relationships with. **But it is a different incentive from a national institute's**, and the wiki should record the index's methodology and funding model before citing any of its scores. *(Announcement; no methodology, no first results.)*
+
+### The detection half of provenance ships — SynthID Detector (2026-10-07)
+
+**Google launched SynthID Detector globally** ([[dailybrief-roundup-2026-10-07]]), eight days after SynthID Bio.
+
+**Watermarking without detection is a claim; watermarking with a public detector is a mechanism.** This page has recorded provenance schemes as proofs of concept — **a globally available detector is the first one an outsider can actually use**, which is what makes a provenance claim checkable rather than asserted. **The two limits named for SynthID Bio still apply**: a detector identifies provenance, it does not restrict capability, and **an actor building something harmful is the least likely to use a watermarking model.** *(Digg/announcement level; no accuracy, false-positive rate or coverage captured — and for a detector those are the only numbers that matter.)*
 
 ### Chamath's three board-level requirements (2026-10-02)
 
