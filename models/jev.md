@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-10-07
+last_updated: 2026-10-08
 ---
 
 ## What It Is
@@ -109,6 +109,8 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 **And it answers the double-inference objection this page has not addressed.** A classifier in front of every request is *"a fixed tax"* that can exceed the savings. Arch-Router avoids it by **running inside the proxy rather than as a billed API call**: *"the cost shows up as roughly 200ms of added latency, not as a second line on your invoice."* **Jev is sold as an API, which means Jev-as-router pays that tax and Arch-Router does not** — a structural disadvantage on the use case ([[ai-margin-collapse|model routing]]) this page names as its primary placement.
 
 *(Sponsored content for DigitalOcean; the Arch-Router and Plano comparisons are the sponsor's own benchmarks of its own models, shown as images not read in this ingest.)*
+
+**The competitor shipped, with third-party tooling, in eight days (2026-10-07).** OpenAI's Decisions API — previewed at DevDay on 09-29 — is live, and [[simon-willison|Willison]] has published **`llm-openai-decisions 0.1a0`** against it ([[dailybrief-roundup-2026-10-07]]). **Preview to shipped endpoint to third-party plugin in eight days** is faster than this page's own ecosystem formed, and it resolves the open question from the 09-29 fold in the less favourable direction: **the incumbent is not experimenting.** What is still unanswered is the one that matters — **whether the endpoint returns a distribution or a label**, which is the entire basis of the confidence-threshold pattern below. *(Plugin listing via the brief; neither the API docs nor the plugin were fetched.)*
 
 **The interface is now commodity, in eighteen days (2026-10-02).** Three independent implementations of Jev's shape have appeared since launch on 2026-09-15, and the third is the one that matters:
 

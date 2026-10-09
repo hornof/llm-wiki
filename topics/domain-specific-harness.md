@@ -1,7 +1,7 @@
 ---
 name: Domain-Specific Harness
 type: topic
-last_updated: 2026-10-04
+last_updated: 2026-10-08
 ---
 
 ## What This Is
@@ -156,6 +156,24 @@ It also gives the portability claim a testable shape. [[rasmic-software-factory-
 **So the harness is neither sugar nor magic; it is a cost structure.** It buys the ability to *leave the work alone*, and it charges heavily for it. **That reframes this page's market question**: a domain-specific harness is defensible not because it is hard to build, but because the work it makes possible was previously **unhandoffable at any price** — which is a much narrower and more checkable claim than "the harness is where the value is."
 
 **It also supplies the engineering-layer detail this page deliberately delegated.** When `harness-engineering` was resolved into this page on 2026-09-12, the scope was set at the market/company-shape layer with the engineering practice left on [[loop-engineering]]. **The six decisions — stopping rule, tool menu, memory, crash survival, permissions, and who says it's done — are that practice, now in one place with figures attached.** Detail there.
+
+### The strongest deflationary case yet — DHH and dax (2026-10-06)
+
+[[garry-tan|Tan's]] *"syntactic sugar"* is recorded above as the deflationary case's strongest form. **It has been superseded** ([[dhh-no-magic-sauce-harness-setup-2026-10-06]]).
+
+> **DHH:** *"People keep asking me for my setup. It's really just **any harness, multiple agents concurrently, barely any skills, and using adversarial reviews**. **There's no magic sauce (or source!). The models are great out of the box.**"*
+
+> **dax (@thdxr):** *"a weird inversion with LLMs is **the models improve faster than the tinkerers**. when i see people with custom workflows and setups **they're all addressing problems that don't exist anymore.**"*
+
+**dax's version is the sharper claim and the falsifiable one.** It is not *"harnesses add little"* — it is **"harness work depreciates faster than you can do it,"** which if true makes the accretion thesis a treadmill rather than a moat.
+
+**But look at what DHH keeps, because it is the most useful thing in the exchange.** He drops skills and custom workflows and keeps exactly **three** things: **a terminal substrate** ([[herdr|Herdr]], which he confirms using daily across multiple machines), **concurrency**, and **adversarial review**. **Those are precisely the three components of this wiki's harness record that have independent evidence behind them** — session durability, parallelism, and a reviewer that is not the thing being reviewed. **A skeptic's minimal stack converging on exactly the evidenced components is a stronger endorsement of those three than any enthusiast's list.**
+
+**So the disagreement is narrower than it looks, and it is not about harnesses.** It is about **skills and codified workflow** — the [[gstack]] / [[addyosmani-agent-skills-repo-2026-10-03|agent-skills]] / [[skill-md]] lineage. **Tan says a few hundred skill files are the labor pool; DHH says "barely any skills" and ships.** Both report working systems, neither has a measurement. **This page should carry that as an open empirical disagreement between two practitioners who both deliver, not as a resolved question.**
+
+**And dax's claim comes with its own test**: if custom workflows address problems that no longer exist, **the deletion condition matters as much as the accretion rule** — which is what [[undefinedki-how-to-design-an-agent-harness-2026-08-15|the harness essay]] says (*"delete it when a better model has made it pointless"*) and what almost nobody does. **The failure mode dax names is a rules file nobody prunes**, and the wiki's own [[claude-md-pattern|template-stack history]] is an instance of it.
+
+*(Two X posts and a reply; no measurement of anything. DHH is a career skeptic of industry orthodoxy, which makes the position consistent but not independent of his priors — and "the models are great out of the box" is what someone with a decade of Rails conventions already in their repos would experience.)*
 
 ## Open Objections
 

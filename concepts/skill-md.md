@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-10-04
+last_updated: 2026-10-08
 ---
 
 ## Definition
@@ -70,6 +70,18 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** �
 **A YC president and an Anthropic engineer independently shipping a seven-stage gated lifecycle is the strongest evidence this page holds that the shape is real rather than one person's taste.** The divergence is the interesting part: **gstack closes the loop and this pack does not.** Given that the accretion step is what [[loop-engineering]] identifies as the thing that makes a harness compound, **the absence is a gap in the newer pack rather than a simplification.**
 
 *(Repo README only — no skill content read, no installation, no evaluation. Adoption is a Trendshift badge. Osmani is an Anthropic employee publishing skills for Anthropic's product: not a conflict, not independent. Not tested by the owner.)*
+
+## The dissent this page has lacked — "barely any skills" (2026-10-06)
+
+**This page has collected skill packs, authoring principles and adoption signals, and no serious argument against the premise.** [[dhh-no-magic-sauce-harness-setup-2026-10-06]] supplies one, from a practitioner who ships:
+
+> **DHH:** *"It's really just any harness, multiple agents concurrently, **barely any skills**, and using adversarial reviews. **There's no magic sauce.** The models are great out of the box."*
+
+> **dax:** *"when i see people with custom workflows and setups **they're all addressing problems that don't exist anymore.**"*
+
+**The disagreement is specific and it is with this page, not with harnesses generally.** DHH keeps a terminal substrate, concurrency and adversarial review — **he drops the skills.** [[gstack|Tan]] holds that *"a markdown file is an employee"* and that a few hundred skill files are the labor pool behind a *"$15M ARR, 2-3 people"* company. **Two practitioners with working systems, opposite conclusions about this page's subject, and no measurement on either side.**
+
+**Record it as open, and note what would settle it.** The skill thesis predicts that **codified workflow outperforms a strong model used plainly, and that the advantage grows as skills accumulate.** dax predicts the opposite — that it **decays as models improve**, because the skills encode workarounds for problems that get fixed upstream. **The deletion condition is where the two theories diverge observably**: a skill library that needs regular pruning is evidence for dax; one whose entries keep earning their place is evidence for Tan. **Nobody in the wiki's record reports pruning.** [[gstack|gstack's]] `/retro` and [[addyosmani-agent-skills-repo-2026-10-03|Osmani's pack]] both add; neither documents removal.
 
 ## Related Concepts
 
