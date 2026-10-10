@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-10-08
+last_updated: 2026-10-10
 ---
 
 ## Definition
@@ -14,6 +14,10 @@ The thesis that LLM **inference margins** — not training — are where frontie
 It's the unit-economics lens for evaluating any AI-applied company you'd join or build: if inference is heading toward commodity pricing, business models that assume durable inference margin are exposed, and value shifts to the integration/product layer (the expensive part). Pairs with [[ai-roi-gap|the ROI-gap thesis]] (cheap inference + expensive integration labor) and sits at the opposite end of the pricing curve from [[claude-fable-5|Fable 5's pay-per-use premium]] — the market is simultaneously producing the most-expensive frontier tier and a near-free open-weights floor.
 
 ## Current State
+
+- **The decision layer gets priced: TypeSafe raises $870M at $7.5B, twenty-four days after [[jev|Jev]] left stealth (2026-10-09/10)** ([[dailybrief-roundup-2026-10-09]]). **This page's thesis is that value migrates to the routing/decision layer — and this is the layer being priced, which is the closest thing to confirmation it has had.** It follows [[stripe|Stripe's]] $7B for OpenRouter and Modal's $15.75B.
+  > **But read what is being priced against what is demonstrated.** In the same twenty-four days the *interface* became commodity four times over — a hobby clone, OpenAI's shipped Decisions API, `llama.cpp` scoring options in a single forward pass, and a **1.5B router beating Claude 3.7 Sonnet while running inside a proxy rather than as a billed call.** **So $7.5B is not a bet on the decision layer being valuable; it is a bet that *calibration* is the moat** — the one thing no reimplementation claims, and the one thing the wiki has recorded as unevidenced since day one. **Both halves of that belong on the record.**
+- **TypeSafe AI has no company page** — two surfaces (launch, funding) plus a third-party valuation report. **Create-candidate, and $870M makes it a strong one.**
 
 - **Three OpenAI revenue figures in three weeks, and the page should stop treating them as a series (2026-10-08)** ([[dailybrief-roundup-2026-10-08]]): **~$40B annualized (09-17)**, **~$70B ARR (09-29)**, and now **revenue reportedly $20B below previous projections** (TechCrunch). **The 09-29 fold carried an explicit instruction not to compare that figure until its basis was stated. This is why.**
   > **A projection miss is not a revenue measurement.** *"$20B less than projected"* is compatible with revenue having grown, and it describes **guidance discipline** rather than the business. The three figures measure three different things and none states its basis — **which is the same defect the Axios clarification fixed on [[anthropic|Anthropic's]] side, and OpenAI has no equivalent correction on record.**

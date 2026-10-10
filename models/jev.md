@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-10-08
+last_updated: 2026-10-10
 ---
 
 ## What It Is
@@ -109,6 +109,14 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 **And it answers the double-inference objection this page has not addressed.** A classifier in front of every request is *"a fixed tax"* that can exceed the savings. Arch-Router avoids it by **running inside the proxy rather than as a billed API call**: *"the cost shows up as roughly 200ms of added latency, not as a second line on your invoice."* **Jev is sold as an API, which means Jev-as-router pays that tax and Arch-Router does not** — a structural disadvantage on the use case ([[ai-margin-collapse|model routing]]) this page names as its primary placement.
 
 *(Sponsored content for DigitalOcean; the Arch-Router and Plano comparisons are the sponsor's own benchmarks of its own models, shown as images not read in this ingest.)*
+
+**TypeSafe raises $870M at $7.5B — twenty-four days after launch (2026-10-09/10).** ([[dailybrief-roundup-2026-10-09]], TechCrunch and typesafe.ai). **Jev left stealth on 2026-09-15.**
+
+**What the market is pricing, stated plainly: $7.5B for a model whose single load-bearing claim this page has recorded as unevidenced since the day it was created.** Calibration is the product — RLCD is named, and **no reliability diagram or held-out calibration data has been captured in three and a half weeks.** The only external measurement is CMU's, which is **suggestive in Jev's favour and explicitly partial** (*"on several benchmarks"*, [[jev-as-a-judge-arxiv-2609-26550]]).
+
+**And it is being priced into a window where the interface stopped being scarce.** In the same twenty-four days: a hobby clone, **OpenAI's Decisions API shipped with third-party tooling**, **`llama.cpp` scoring options in a single forward pass**, and **Katanemo's 1.5B Arch-Router beating Claude 3.7 Sonnet at routing while running inside a proxy rather than as a billed call.** **The valuation is a bet that calibration is the moat.** That may well be right — it is the one thing none of the four reimplementations claims — **but the wiki should record that the bet is on the unevidenced part, not on the demonstrated part.**
+
+**TypeSafe AI still has no company page.** Two surfaces now (launch, funding round) and a third-party valuation report; **create-candidate, and the $870M makes it a strong one.** *(TechCrunch plus the company's own announcement; no investors, terms, or revenue captured, and "non-text AI model" is TechCrunch's framing.)*
 
 **The competitor shipped, with third-party tooling, in eight days (2026-10-07).** OpenAI's Decisions API — previewed at DevDay on 09-29 — is live, and [[simon-willison|Willison]] has published **`llm-openai-decisions 0.1a0`** against it ([[dailybrief-roundup-2026-10-07]]). **Preview to shipped endpoint to third-party plugin in eight days** is faster than this page's own ecosystem formed, and it resolves the open question from the 09-29 fold in the less favourable direction: **the incumbent is not experimenting.** What is still unanswered is the one that matters — **whether the endpoint returns a distribution or a label**, which is the entire basis of the confidence-threshold pattern below. *(Plugin listing via the brief; neither the API docs nor the plugin were fetched.)*
 

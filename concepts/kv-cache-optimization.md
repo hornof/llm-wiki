@@ -2,7 +2,7 @@
 name: KV Cache Optimization
 type: concept
 maturity: active-research
-last_updated: 2026-10-07
+last_updated: 2026-10-10
 ---
 
 ## Definition
@@ -51,6 +51,18 @@ This page has tracked KV-cache work as a **systems and research** subject — me
 **Also worth keeping as an operational fact:** *"provider latency varies by 2-3x through the day depending on load. **A model that's fastest at 2am is often the slowest at 2pm.**"*
 
 *(Sponsored content for a routing product; the 10% cache rate is a widely published provider figure, the 90%-prefix and 45–80% claims are the author's and unattributed.)*
+
+## Routing telemetry as a privacy channel (2026-10-09)
+
+**"When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry"** (arXiv 2610.10616, [[dailybrief-roundup-2026-10-09]]).
+
+The claim: **which experts a mixture-of-experts model routes a request to leaks whether a given record was in its training data.** So **monitoring, debugging and auditing a deployed MoE model expose what they were added to protect.**
+
+**Recorded here because this page's subject is serving-layer state, and this is an attack on the observability of that state** — adjacent to the prefix-cache economics above, and pointing the same way: **the mechanisms that make inference efficient and inspectable also make it legible to an attacker.** It also lands the same week that [[pachaar-llm-routing-can-cost-more-2026-09-06|routing moves into proxies and gateways]] that record every decision — **the more routing becomes infrastructure, the more of this telemetry exists.**
+
+**And it cuts against a recommendation the wiki makes everywhere.** *"Log every turn to a file you can read afterward"*, DoorDash's gateway logging every call, Chamath's *"auditable evidence"* — **one class of telemetry is now itself an attack surface**, which nothing in the record anticipated.
+
+*(arXiv preprint; abstract not fetched. No attack success rate, threat model or affected models captured — and for a membership-inference result the success rate is the entire finding.)*
 
 ## Key Papers / Posts
 
