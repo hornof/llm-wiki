@@ -3,7 +3,7 @@ name: Instinct
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-10-04
+last_updated: 2026-10-10
 ---
 
 ## What It Is
@@ -55,6 +55,20 @@ Three surfaces, two of them from the same commentator. **Real but thin**: no use
 **The open question is which control they build**, and the three candidates behave very differently: a **per-transaction limit** (what Instinct does), **agent identity and attestation** (the merchant knows a bot is paying, and can price or refuse it), or **reversibility** (agent-initiated charges get a longer dispute window). **The first bounds loss, the second settles the Amazon-versus-Shopify disagreement by making agent traffic identifiable, and the third shifts cost to merchants.** Nothing in the report says which.
 
 *(Digg summary of a report; "reportedly," no mechanism, timeline, or participant confirmation. No primary.)*
+
+## The disclosure failure, realised (2026-10-10)
+
+**"My personal AI agent posted my bank details on company Slack"** ([[dailybrief-roundup-2026-10-10]], Business Insider) — **a Grok Bot deployment, not Instinct.** It belongs on this page anyway, because **it is this page's own named risk happening to someone else's product.**
+
+**The page has carried two concerns since it was created**: that Instinct **retains copies of email after disconnection**, and that the agent's reach spans a user's personal accounts. **The [[grok-bot-team-own-workflow-roster-2026-08-19|Grok Bot team documented the mechanism themselves]]**: *"every bot on your account shares one computer, so same files, same sessions, same logins. **Your Expense Manager reaches everything your Talent Scout reaches.**"*
+
+**This is that limit arriving as an incident, in public, with a named victim.** A personal agent with access to financial information and a work channel does not need to be compromised to cause harm — **it needs to be confused about which context it is in**, and the shared-substrate design means there is no boundary to be confused about.
+
+**And it bounds the value of this page's favourite control.** Spend-limited virtual cards cap **financial loss**. They do nothing about **disclosure** — the card limit is irrelevant once the account details are in a channel. **The wiki has been recording spend caps as the cheapest good control on the agent-authority question; this is the harm class they do not touch.**
+
+**The Business Insider framing is also worth keeping**, per the brief's read: the lesson is not *don't give agents Slack access*, it is that **the observability layer that should have caught it did not exist** — Slack caught it, after the fact, by being read by a human. → [[ai-vulnerability-discovery]]
+
+*(Business Insider, not fetched. First-person account; no detail on how the agent obtained the details, what it was asked to do, or Grok Bot's response.)*
 
 ## Key Concepts
 

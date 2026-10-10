@@ -25,6 +25,16 @@ last_updated: 2026-09-25
 - **2026-06-06: canonical-Nando-de-Freitas canonical-Microsoft-AI canonical-VP canonical-unified-causal-agent-training canonical-research-methodology** ([[nando-de-freitas-unified-causal-agent-training-2026-06-06]]) — canonical-Microsoft-AI canonical-research-methodology-layer canonical-3-vector canonical-Microsoft-AI-leadership canonical-positioning cluster.
 - **2026-06-05: canonical-Nadella canonical-Microsoft-Scout canonical-addictive-AI-agent-proposal canonical-rejection** ([[dailybrief-roundup-2026-06-05]]) — canonical-Microsoft-side canonical-AI-product-discipline canonical-rejection canonical-event.
 
+## Execution Containers (Mxc) 1.0.0 — containment for agents (2026-10-07)
+
+**"Policy-driven containment for AI agents"** ([[dailybrief-roundup-2026-10-10]], Windows developer blog).
+
+**Third agent-containment product in twelve days**, after [[nvidia|NVIDIA's OpenShell + Sentry]] on BlueField-4 and alongside [[anthropic|Anthropic]] cutting its own internal evals off the live internet. **The convergence is the story — the industry's answer to agent control is becoming containment rather than alignment** ([[loop-engineering]]).
+
+**Microsoft's is the one that changes reach, and that is a distribution argument rather than a technical one.** OpenShell requires a DPU, which puts it in data centres. **An execution container shipped in Windows lands on enterprise developer machines** — which is precisely where the agents holding SSH keys, VPN sessions and logged-in CLIs actually run, and the threat the harness essay describes (*"it needs one poisoned web page in its context"*). **Whoever owns the developer OS owns the agent sandbox by default.**
+
+*(Vendor blog, not fetched; no policy language, performance cost, availability or adoption captured. Version 1.0.0 is the first release.)*
+
 ## Key Products (relevant to this wiki)
 
 - **Frontier Co.** — canonical-Jul-2-named-company canonical-enterprise-AI-capability-builder canonical-productization of canonical-Frontier-ecosystem-thesis
