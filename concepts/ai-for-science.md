@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-09-30
+last_updated: 2026-10-11
 ---
 
 ## Definition
@@ -47,6 +47,20 @@ Topos joined **Eli Lilly's TuneLab** (2026-06-30): federated access to models tr
 **An incumbent operating a federated platform where seed-stage startups both consume and feed its proprietary-data models is a structure the wiki has not recorded anywhere.** It answers the [[company-brain|proprietary-data-as-moat]] question by **pooling rather than hoarding** — the data stays the moat, but access is traded for more data. **Whether regulated-industry incumbents elsewhere copy that shape is a better question than anything about this particular startup**, and it is the thing to watch. *(Per Topos's own site; TuneLab's terms, participant list and what "federated" means operationally are all uncaptured.)*
 
 **Context, same week**: [[anthropic|Anthropic's]] AI-discovered enzyme system, DeepMind's **SynthID Bio** protein watermarking ([[frontier-ai-governance]]), and the [[fda-accelerated-ai-pathway-pilot-2026-05-26|FDA AI-evidence pathway]]. **Tooling, provenance and a regulatory route are accumulating around generative biology at roughly the same time** — which is the pattern, rather than any single entrant.
+
+## Physical AI is where the capital went — ~$48B in ten months (2026-10-11)
+
+**Robotics and physical AI companies raised roughly $48B in 2026 through October** ([[dailybrief-roundup-2026-10-11]], Digg).
+
+**The brief's framing is the part worth keeping, and it is a claim about where advantage sits:**
+
+> *"**Training-data infrastructure (robot gyms, factory recordings) is now the constraint, not model access.**"*
+
+**That is the same structural claim this page records for biology, arrived at independently in a different domain.** [[topos-bio-redefining-druggable-space-2026-09-30|Topos Bio]] matters because conformational ensembles are data nobody has; **Eli Lilly's TuneLab matters because decades of ADMET data are the asset being traded.** Robot gyms and factory recordings are the same shape — **proprietary physical-world data as the scarce input, with the model freely available.**
+
+**It also reframes two items the wiki recorded separately.** [[world-labs|AMD's $8.2B for World Labs]] and the [[dailybrief-roundup-2026-10-11|Standard Bots]] account of *"learning factory tasks from demonstrations with real-world correction loops"* are both bets on this constraint rather than on model capability — **and $48B says they are not outliers.**
+
+**Treat the figure as directional.** It is a Digg summary of a report, with **no source, no definition of "physical AI," and no breakdown** — a category that can include humanoid robotics, industrial automation, autonomous vehicles and chip-adjacent hardware will produce whatever total the definition allows. *(No primary; the wiki has one number and the framing around it.)*
 
 ## Simulations as New Science
 Hassabis argues AI-powered simulations could unlock entirely new sciences for emergent-system domains (economics, social science) by enabling repeatable controlled experiments that are impossible in the real world. Economics, for example, can't run "interest rates +0.5%" a thousand times; accurate simulators could change this.

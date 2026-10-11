@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-10
+last_updated: 2026-10-11
 ---
 
 ## Definition
@@ -14,6 +14,16 @@ last_updated: 2026-10-10
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### "An emergency brake" — the rhetoric catches up to the product (2026-10-10)
+
+**[[satya-nadella|Nadella]] says AI models need an *"emergency brake"*** ([[dailybrief-roundup-2026-10-11]], TechCrunch).
+
+**By this page's standing test it carries nothing** — no threshold, no mechanism, no commitment, and *"emergency brake"* is undefined across three very different readings (per-model, per-deployment, regulatory). **What makes it worth recording is that Microsoft shipped the mechanism first.** Execution Containers 1.0.0 landed **2026-10-07**; the brake rhetoric arrived **10-10**.
+
+**That inverts the pattern this page mostly documents.** The usual sequence is a statement of principle with no implementation — AEF-1, the voluntary codes, the Hinton letter, OpenAI's training-time framework. **Here the implementation preceded the principle by three days, which makes it more credible as engineering and less useful as governance**: a containment product is a commercial position, and **the party providing the containment layer sets the policy surface by default.**
+
+**Set against the same week's record, the division of labour is now explicit.** Labs produced the admission (Anthropic, 10-09) and the national-interest commitments (10-08). **Platform vendors produced the controls** — Microsoft in Windows, NVIDIA on BlueField-4. **No instrument on this page produced anything.** See [[loop-engineering]].
 
 ### The week the control problem became an incident record (2026-10-09/10)
 
