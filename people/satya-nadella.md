@@ -3,7 +3,7 @@ name: Satya Nadella
 type: person
 affiliation: Microsoft (CEO + Chairman)
 signal_sources: [twitter, blog, conference]
-last_updated: 2026-07-30
+last_updated: 2026-10-11
 ---
 
 ## Who They Are
@@ -22,6 +22,18 @@ Satya Nadella is the **CEO + Chairman of [[microsoft|Microsoft]]** (since 2014; 
 - **Human capital + token capital + learning loop** canonical 2-component firm-capital framework → canonical-Jul-2 canonical-refined "learning loop in which human capital and token capital compound" canonical-single-sentence canonical-thesis-statement
 - **AI-product-discipline public-positioning** ([[dailybrief-roundup-2026-06-05|Scout-rejection event]]) — Microsoft-side AI-product-discipline rejection of addictive-AI-agent-proposal
 - **Microsoft AI leadership 3-vector positioning**: Nadella product-discipline + de Freitas research-methodology + Nadella ecosystem-strategy
+
+## "AI models need an emergency brake" (2026-10-10)
+
+([[dailybrief-roundup-2026-10-11]], TechCrunch.) The brief's caveat is fair — *"what 'trust architecture' and 'brake' actually mean is unclear; the framing is the signal"* — **but the timing makes it more than framing.**
+
+**Read the week it lands in.** Microsoft shipped **Execution Containers 1.0.0**, *"policy-driven containment for AI agents"*, on **2026-10-07**. [[anthropic|Anthropic]] conceded it *"can't reliably control its AI agents"* and cut its internal evals off the live internet on **2026-10-09**. **Nadella called for an emergency brake on 10-10.** Those are not three independent events; **they are a product, an admission, and an executive framing, in four days.**
+
+**And the ordering matters for how to read it.** Microsoft shipped the containment primitive *first* and the rhetoric *second* — which is the reverse of the pattern [[frontier-ai-governance]] mostly records, where a statement of principle arrives with no mechanism attached. **Nadella is describing something his own company already sells**, which makes the call for a brake simultaneously more credible as engineering and less credible as governance.
+
+**Against his own standing position on this page**, the *"frontier ecosystem, not frontier model"* thesis is about Microsoft winning by owning the layer everyone else builds on. **An emergency brake is that thesis applied to safety: whoever provides the containment layer sets the policy surface**, and Execution Containers put that layer in Windows rather than in a lab's alignment work. See [[loop-engineering]] on containment becoming the de facto regime.
+
+*(TechCrunch, not fetched; no definition of "emergency brake," no mechanism, no indication whether he means per-model, per-deployment or regulatory.)*
 
 ## Notable Takes
 
