@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-10-11
+last_updated: 2026-10-14
 ---
 
 ## Definition
@@ -47,6 +47,11 @@ Topos joined **Eli Lilly's TuneLab** (2026-06-30): federated access to models tr
 **An incumbent operating a federated platform where seed-stage startups both consume and feed its proprietary-data models is a structure the wiki has not recorded anywhere.** It answers the [[company-brain|proprietary-data-as-moat]] question by **pooling rather than hoarding** — the data stays the moat, but access is traded for more data. **Whether regulated-industry incumbents elsewhere copy that shape is a better question than anything about this particular startup**, and it is the thing to watch. *(Per Topos's own site; TuneLab's terms, participant list and what "federated" means operationally are all uncaptured.)*
 
 **Context, same week**: [[anthropic|Anthropic's]] AI-discovered enzyme system, DeepMind's **SynthID Bio** protein watermarking ([[frontier-ai-governance]]), and the [[fda-accelerated-ai-pathway-pilot-2026-05-26|FDA AI-evidence pathway]]. **Tooling, provenance and a regulatory route are accumulating around generative biology at roughly the same time** — which is the pattern, rather than any single entrant.
+
+## Two 2026-10-14 items
+
+- **Dyna-2 — general-purpose physical agents with hour-long autonomy, via World Action Models** ([[dailybrief-roundup-2026-10-14]], Jason Ma of Dyna Robotics on Latent Space). **Recorded as a pointer; episode not fetched.** The brief names the right constraint: *"the shift from 'can it do the task' to **'can it do it unsupervised for real wall-clock time'** is the actual hard problem."* **That is the same metric OpenAI published at DevDay** (8–16-hour tasks at zero interventions, 10% → 35% between January and July) — **and the robotics version is harder won, because a failed hour costs a damaged part rather than a reverted commit.** See [[loop-engineering]].
+- **Leash Bio — "Lab-in-the-Loop at Compute Speed," a DEL workflow** ([[dailybrief-roundup-2026-10-14]]). **DNA-encoded library screening with a model in the loop is the closed-loop version of what this page mostly records as one-directional** — [[anthropic|Anthropic's]] enzyme discovery and [[topos-bio-redefining-druggable-space-2026-09-30|Topos's]] ensembles both end at a prediction. ***"Lab-in-the-loop"* means the wet-lab result feeds the next round**, which is the accretion structure [[loop-engineering]] identifies as what makes a system compound. **Nothing captured beyond the title**; no cycle time, hit rate or scale. **Fetch item** — a measured biology loop would be the strongest evidence on this page.
 
 ## Physical AI is where the capital went — ~$48B in ten months (2026-10-11)
 

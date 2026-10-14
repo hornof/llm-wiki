@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-10-10
+last_updated: 2026-10-14
 ---
 
 ## Definition
@@ -14,6 +14,12 @@ The thesis that LLM **inference margins** — not training — are where frontie
 It's the unit-economics lens for evaluating any AI-applied company you'd join or build: if inference is heading toward commodity pricing, business models that assume durable inference margin are exposed, and value shifts to the integration/product layer (the expensive part). Pairs with [[ai-roi-gap|the ROI-gap thesis]] (cheap inference + expensive integration labor) and sits at the opposite end of the pricing curve from [[claude-fable-5|Fable 5's pay-per-use premium]] — the market is simultaneously producing the most-expensive frontier tier and a near-free open-weights floor.
 
 ## Current State
+
+- **Banks are trying to offload the AI data-centre debt they just underwrote (2026-10-14)** ([[dailybrief-roundup-2026-10-14]], Startup Fortune). **This is the financing dimension of a constraint pattern this page has been assembling from the physical side, and it is the first instance where the stress shows up in capital markets rather than in power or silicon.**
+  > **The brief's reading of the mechanism is the one worth keeping**: *"banks fronted $100B+ in AI datacenter debt assuming the revenue story held. Now they're selling the paper at a loss — which means **either the collateral (utilization, unit econ) is weaker than modeled, or rates moved before the cash could show up.**"* **Those are different diagnoses with the same symptom, and the wiki cannot distinguish them** — but note that **the first one is this page's thesis** and the second is ordinary interest-rate risk with nothing to do with AI.
+  > **Set it against the same brief's other item and the tension is the finding: ASML orders signal sustained capex demand.** **Equipment orders strong, financing stressed** — which is what you would see if the build-out continues on balance sheets that can carry it while the marginal, debt-financed capacity cannot. **That is a different and more specific claim than "the bubble is deflating,"** and it is checkable: watch whether hyperscaler capex holds while independent data-centre developers stall.
+  > **Lands in the pattern recorded on 2026-09-26** — *"the escapes and the failures are arriving together, which is what a binding constraint looks like from the inside."* Orbit, nuclear and grid coalitions on one side; **Crusoe's abandoned $1.25B turbine plan, Oracle's force majeure, and now debt syndication at a loss on the other.** → [[ai-energy-efficiency]] *(A startup-media summary with no figures, no banks named beyond an image caption, and no primary. The "$100B+" is the brief's framing, not the article's as captured.)*
+- **Perplexity: $750M ARR at ~$20B valuation (2026-10-14)** — a **~27× revenue multiple**, against the ~25–30× this page recorded for [[openai|OpenAI]] in September and called *"defensible for a monopoly-shaped business, but it assumes the revenue sticks and the moat holds."* **Perplexity is not monopoly-shaped**, which makes the same multiple a stronger claim about growth. *(Newsletter item; no basis for the ARR figure, and this page's standing rule now applies — do not compare it to another company's revenue figure without both bases.)*
 
 - **The decision layer gets priced: TypeSafe raises $870M at $7.5B, twenty-four days after [[jev|Jev]] left stealth (2026-10-09/10)** ([[dailybrief-roundup-2026-10-09]]). **This page's thesis is that value migrates to the routing/decision layer — and this is the layer being priced, which is the closest thing to confirmation it has had.** It follows [[stripe|Stripe's]] $7B for OpenRouter and Modal's $15.75B.
   > **But read what is being priced against what is demonstrated.** In the same twenty-four days the *interface* became commodity four times over — a hobby clone, OpenAI's shipped Decisions API, `llama.cpp` scoring options in a single forward pass, and a **1.5B router beating Claude 3.7 Sonnet while running inside a proxy rather than as a billed call.** **So $7.5B is not a bet on the decision layer being valuable; it is a bet that *calibration* is the moat** — the one thing no reimplementation claims, and the one thing the wiki has recorded as unevidenced since day one. **Both halves of that belong on the record.**
