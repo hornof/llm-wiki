@@ -4,6 +4,7 @@ type: source
 medium: article
 url:
 ingested: 2026-07-31
+local_source: "_raw/ (batch; individual drops listed in the body)"
 ---
 
 ## Summary

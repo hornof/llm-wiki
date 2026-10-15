@@ -3,7 +3,7 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-07-28
+last_updated: 2026-10-15
 ---
 
 ## What It Is
@@ -29,6 +29,18 @@ last_updated: 2026-07-28
 Launch (2026-07-16). Read as an **open-weight scaling inflection** feeding the [[ai-margin-collapse]] thesis — *"expect margin compression across the mid-market LLM API stack"* ([[dailybrief-roundup-2026-07-17|brief]]). Willison's grounding note: past the point where parameter count alone signals capability; benchmark *design* matters more as hype peaks.
 
 - **2026-07-25 — UK AISI / CAISI preliminary cyber-capability assessment** ([[dailybrief-roundup-2026-07-25]], NIST): a safety-body pre-deployment evaluation of K3's *cyber* attack surface — the kind of independent held-out testing [[frontier-ai-governance|Hassabis's SRO]] proposed, now happening ad hoc on a specific open model. Also the model named in [[us-treasury-china-ai-sanctions-threat-2026-07-21|Bessent's sanctions-threat]] framing → K3 sits at the center of the open-weights governance/geopolitics debate.
+
+## A cabinet secretary alleges distillation (2026-10-03)
+
+**Refreshed at the 2026-10-15 lint, which flagged this page as behind.**
+
+**Treasury Secretary Bessent calls *"industrial distillation"* "a nice word for stealing" and claims *"Kimi says it is Claude"*** ([[dailybrief-roundup-2026-10-03]], Axios via Digg).
+
+**The wiki's position, and it is deliberately unflattering to the claim: the quotable line is the least probative part.** A model self-identifying as another model is **weak evidence of distillation and strong evidence of training-data contamination** — the open web is full of Claude transcripts, and any model that ingested them will claim to be Claude without anyone having distilled anything. **It is a self-report from a system with no privileged access to its own provenance.**
+
+**What the allegation does establish is where this page sits in a four-stage escalation** the wiki has tracked on [[ai-margin-collapse]]: mechanism (reasoning-trace replay, 2026-08-13) → **named actors** ([[anthropic|Anthropic]] accusing [[alibaba|Alibaba]], [[moonshot-ai|Moonshot]] and [[deepseek|DeepSeek]], 2026-09-10) → countermeasure ([[openai|OpenAI]] disrupting a campaign, 2026-10-01) → **trade policy.** **Moonshot AI is named at stage two and Kimi at stage four**, which makes this model a specific instance of a US trade-policy argument rather than only a capability datapoint.
+
+**No technical substantiation was offered or captured** — no weight analysis, no output comparison, no methodology. **A political statement naming a model is a fact about the politics.** → [[frontier-ai-governance]]
 
 ## Resources
 - [[kimi-k3-largest-open-model-2026-07-16]] — launch + Willison analysis (fetched primary)

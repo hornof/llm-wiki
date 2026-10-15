@@ -3,7 +3,7 @@ title: "Daily Brief roundup — 2026-10-02"
 type: source
 medium: article
 ingested: 2026-10-03
-local_source: "Daily Briefs/2026-10-02.md"
+local_source: "Daily Briefs/archive/2026-10/2026-10-02.md"
 ---
 
 ## Summary

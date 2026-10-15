@@ -3,6 +3,7 @@ title: "Daily Brief roundup 2026-07-03 — Zhao 'From Approximation to Emergence
 type: source
 medium: article
 ingested: 2026-07-03
+local_source: "Daily Briefs/archive/2026-07/2026-07-03.md"
 ---
 
 ## Summary

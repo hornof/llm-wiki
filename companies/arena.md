@@ -1,52 +1,55 @@
 ---
 name: Arena (Arena AI)
 type: company
-focus: canonical-AI-leaderboard canonical-evaluation-infrastructure canonical-unicorn-tier
+focus: AI leaderboard and evaluation infrastructure
 status: gaining-traction
-last_updated: 2026-06-29
+last_updated: 2026-10-15
 ---
 
 ## What It Is
 
-**Arena (Arena AI)** is the canonical-AI-leaderboard canonical-evaluation-infrastructure canonical-business — canonical-evolved from canonical-LMSys-Chatbot-Arena canonical-research-tool to canonical-$100M-business canonical-unicorn-trajectory in canonical-<1-year. Wiki-tracked as **STRUCTURALLY MAJOR canonical-evaluation-infrastructure-as-unicorn-tier canonical-validation** + canonical-7-vendor canonical-AI-evaluation canonical-discipline canonical-cluster member (with METR + Gray Swan + Epoch AI + Sophont Medmarks + Karpathy-evals-gap + Anthropic Public Record).
+**Arena (Arena AI)** turned the **LMSys Chatbot Arena** — a research leaderboard — into a business, reaching a **$100M valuation in under a year.**
+
+**The wiki tracks it as the clearest instance of evaluation infrastructure becoming a venture-scale category**, alongside METR, Gray Swan, Epoch AI, Sophont Medmarks and Anthropic's Public Record. **The thesis it tests is whether neutral evaluation is defensible as a business** — and that is the question its later funding makes sharper rather than settles.
 
 ## Traction Signals
 
-- **2026-06-29: STRUCTURALLY MAJOR canonical-$100M-business canonical-anchor** ([[arena-100m-evaluation-infrastructure-2026-06-29]]) — canonical-Arena-AI-leaderboard hits canonical-$100M-valuation in canonical-<1-year canonical-growth-anchor; canonical-neutral-evaluation-tools canonical-defensibility canonical-validation.
-- **3 prior canonical-substantive text-mentions** as canonical-AI-leaderboard canonical-recurring-reference canonical-pattern (canonical-Arena-leaderboard canonical-anchor across multiple source pages).
-- **Canonical-LMSys-evolution canonical-corporate-tier**: canonical-evolved-from canonical-research-tool-to canonical-business canonical-pattern (verification-pending canonical-LMSys-to-Arena-AI canonical-corporate-detail).
-
-## Key People
-
-- Verification-pending canonical-Arena canonical-leadership canonical-roster + canonical-founders.
-- Verification-pending canonical-LMSys-canonical-research-team canonical-corporate-evolution canonical-transition.
+- **2026-10-08: a $200M Series B at $3.1B, and the launch of an Alignment Index** ([[dailybrief-roundup-2026-10-08]]). **A 31× valuation increase in roughly fifteen months.**
+  > **The Alignment Index is the part [[frontier-ai-governance]] cares about, and the structure deserves saying plainly.** That page's recurring complaint is that voluntary frameworks carry no measurements. **An index is a measurement — produced by a venture-funded company whose valuation depends on the category it is measuring.** Not disqualifying: METR and the UK AISI both evaluate models they have relationships with. **But it is a different incentive from a non-profit's or a national institute's**, and the wiki should capture the index's methodology and funding model before citing any of its scores.
+- **2026-06-29: a $100M business in under a year** ([[arena-100m-evaluation-infrastructure-2026-06-29]]) — the growth anchor, and the first validation that **neutral evaluation tooling has defensible commercial value.**
+- **Three prior substantive mentions** as a recurring leaderboard reference across source pages before this page existed.
+- **Evolved from LMSys**, a research tool, to a corporate entity. *(The corporate transition detail is uncaptured.)*
 
 ## How to Use It
 
-- canonical-leaderboard canonical-public-access: canonical-AI-model canonical-head-to-head canonical-evaluation.
-- canonical-enterprise-tier canonical-API-access (verification-pending canonical-pricing canonical-detail).
-- canonical-leaderboard canonical-methodology + canonical-judging-criteria (verification-pending canonical-canonical-Elo-rating vs canonical-LLM-as-judge canonical-detail).
+- **The public leaderboard** — head-to-head model evaluation, free to read.
+- **Enterprise and API access** *(pricing uncaptured).*
+- **The Alignment Index** (announced 2026-10-08, no results captured).
+
+**What the wiki does not know and should**: whether rankings come from **Elo over human preference votes, LLM-as-judge, or something else.** That decides how much any Arena number is worth — and it bears directly on the finding from [[anthropic-automating-eval-design-hillclimbing-2026-09-28|Anthropic's eval guidance]] that *"you pick the judge model, and it should not be the model you are testing."*
 
 ## Compared To
 
-- **Vs. [[metr|METR]]**: Arena canonical-business-tier canonical-leaderboard vs METR canonical-mission-driven canonical-evaluation-organization canonical-pattern.
-- **Vs. [[gray-swan|Gray Swan]]**: Arena canonical-leaderboard-evaluation vs Gray Swan canonical-red-teaming canonical-discipline (canonical-2-tier canonical-evaluation-business canonical-cluster).
-- **Vs. canonical-Epoch-AI MirrorCode + canonical-Sophont-Medmarks**: Arena canonical-general-AI-leaderboard vs canonical-domain-specific-evaluation-tools canonical-cohort.
+- **[[metr|METR]]** — a mission-driven evaluation organisation against Arena's commercial one. **METR rejected a frontier launch's results** ([[gpt-5-6|GPT-5.6]], 2026-06-26); **the open question for Arena is whether a venture-funded evaluator can do the same thing to a customer.**
+- **[[gray-swan|Gray Swan]]** — red-teaming rather than leaderboard evaluation; the two together make a two-tier evaluation-business cohort.
+- **Epoch AI (MirrorCode), Sophont Medmarks** — domain-specific evaluation against Arena's general-purpose leaderboard.
+- **The UK AI Security Institute** — the national-institute comparison, and the one now partly funded by [[nvidia|NVIDIA]] compute ([[dailybrief-roundup-2026-10-14]]). **Every evaluator the wiki tracks now has a funding relationship worth disclosing.**
 
 ## Resources
 
-- [[arena-100m-evaluation-infrastructure-2026-06-29]] — Jun 29 STRUCTURALLY MAJOR canonical-$100M-business canonical-anchor (4th substantive surface)
-- [[metr]] — paired canonical-AI-evaluation canonical-organization canonical-cohort
-- [[gray-swan]] — paired canonical-AI-security-firm canonical-cohort
-- [[anthropic-public-record]] — paired canonical-AI-safety-and-transparency canonical-discipline cluster
-- [[gpt-5-6-launch-3-event-cluster-2026-06-26]] — paired canonical-METR-benchmark-rejection canonical-cluster
-- [[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27]] — paired canonical-Karpathy-89%-observability-vs-52%-evals canonical-quantitative-anchor (canonical-evaluation-gap-driver canonical-validates canonical-Arena business thesis)
+- [[arena-100m-evaluation-infrastructure-2026-06-29]] — the $100M anchor
+- [[dailybrief-roundup-2026-10-08]] — the Series B and the Alignment Index
+- [[metr]] · [[gray-swan]] · [[anthropic-public-record]] · [[frontier-ai-governance]]
+- [[gpt-5-6-launch-3-event-cluster-2026-06-26]] — METR's rejection, the comparison case for evaluator independence
 
-## Verification-Pending
+## Verification-pending
 
-- TechCrunch primary article deep-content
-- Arena canonical-corporate-history (canonical-LMSys-to-Arena-AI canonical-evolution canonical-detail)
-- Arena canonical-leadership canonical-roster + canonical-founders + canonical-funding-history + canonical-investors
-- Arena canonical-revenue-model + canonical-pricing-tier (canonical-free-tier vs canonical-enterprise vs canonical-API-access)
-- Arena canonical-leaderboard canonical-methodology (canonical-Elo-rating vs canonical-LLM-as-judge vs canonical-other)
-- Canonical-3-prior-substantive-surfaces canonical-attribution-detail
+- **Leaderboard methodology** — Elo over human votes, LLM-as-judge, or other. **The single most load-bearing unknown on this page.**
+- **The Alignment Index's methodology and funding model**, before any score from it is cited.
+- Leadership roster, founders, investors, full funding history.
+- Revenue model and pricing tiers.
+- The LMSys-to-Arena-AI corporate transition.
+- TechCrunch primary for the $100M story.
+
+> [!note] Rewritten 2026-10-15
+> The 2026-06-29 version carried **24 instances of `canonical-` filler** from an automated pass, including in the `focus:` frontmatter field. Content preserved, prose rewritten, and the 2026-10-08 Series B and Alignment Index added — the page was four months stale on a company that had raised at 31× in the interim. See lint rule 7.

@@ -3,6 +3,7 @@ title: "Daily Brief roundup 2026-07-02 pt2 — Microsoft $2.5B AI-deployment-co 
 type: source
 medium: article
 ingested: 2026-07-02
+local_source: "Daily Briefs/archive/2026-07/2026-07-02.md"
 ---
 
 ## Summary

@@ -3,7 +3,7 @@ name: AlphaFold
 type: tool
 category: platform
 status: mainstream
-last_updated: 2026-07-28
+last_updated: 2026-10-15
 ---
 
 ## What It Is
@@ -24,6 +24,18 @@ AlphaFold predictions are accessible via the EMBL-EBI AlphaFold database (alphaf
 - **Protein folding**: The process by which a linear amino acid sequence folds into a specific 3D structure that determines protein function.
 - **Binding site**: The region on a protein's surface that a drug compound must target.
 - **In silico exploration**: Running drug candidate simulations computationally rather than in a wet lab — AlphaFold enables this for the structural step.
+
+## The formulation's boundary — two surfaces, Sept–Oct 2026
+
+**Refreshed at the 2026-10-15 lint, which flagged this page as genuinely behind rather than dormant.** Two surfaces in six weeks say the same thing from different directions: **AlphaFold solved a problem, and the page should be clearer about which one.**
+
+**1. Intrinsically disordered proteins fall outside the formulation** ([[topos-bio-redefining-druggable-space-2026-09-30]], 2026-09-30). AlphaFold and its successors **predict a structure.** A large and largely undrugged fraction of the proteome **does not have one** — it occupies a conformational ensemble rather than a fold. That is not a failure of the model; **it is a question the model's output type cannot express**, and it is where [[topos-bio-redefining-druggable-space-2026-09-30|a startup is building]] and where [[ai-for-science]] now records the remaining commercial room.
+
+**2. *"Why AlphaFold didn't solve protein folding"*** ([[dailybrief-roundup-2026-10-09]]). **Title only — the piece was not fetched, and it is the highest-value verification item on this page.** If the argument is the disorder/ensemble one above, this page needs one sentence of qualification. **If it argues something stronger — that the folding problem is open even for ordered proteins — then `status: mainstream` and [[ai-for-science|that page's "shipped; Nobel Prize 2024"]] row are both overstating a solved problem**, and the correction is substantial.
+
+**What the page should hold in the meantime, stated carefully:** AlphaFold's achievement is real, Nobel-recognised, and **about single-structure prediction for proteins that have a single structure.** The wiki has been treating *"structure prediction"* and *"protein folding"* as the same problem, and **two independent 2026 surfaces say they are not.**
+
+*(Neither surface fetched in full: the Topos page is the company's own marketing, and the 10-09 item is a headline. **This section records a boundary, not a refutation** — and the status field is deliberately left at `mainstream`, since nothing captured disputes what AlphaFold does, only what it covers.)*
 
 ## Compared To
 - **Traditional methods (X-ray crystallography, cryo-EM)**: Accurate but slow (months to years per structure), expensive, not scalable.

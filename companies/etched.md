@@ -1,59 +1,53 @@
 ---
 name: Etched
 type: company
-focus: canonical-specialized-inference-silicon; canonical-LLM-attention-in-silicon canonical-architectural-bet
+focus: specialised inference silicon; LLM attention hardcoded into hardware
 status: gaining-traction
-last_updated: 2026-07-23
+last_updated: 2026-10-15
 ---
 
 ## What It Is
 
-**Etched** is a canonical-specialized-inference-silicon canonical-vendor that **hardcodes LLM attention into silicon** as canonical-architectural-bet. Exits canonical-stealth 2026-06-30 with **$800M canonical-funding-raised + $5B canonical-valuation + $1B canonical-signed-contracts**. Canonical-counter-positioning to canonical-Nvidia canonical-general-purpose-GPU canonical-incumbent. Wiki-tracked as **STRUCTURALLY MAJOR canonical-Nvidia-competitor canonical-revenue-generating canonical-validation at $1B-tier**. canonical-AI-silicon canonical-1-week canonical-cluster member (with canonical-OpenAI-Jalapeño + canonical-Qualcomm-Modular + canonical-South-Korean-$550B-RAMageddon + canonical-4-vendor canonical-custom-silicon canonical-cohort).
+**Etched** builds specialised inference silicon that **hardcodes LLM attention into the chip.** It left stealth on **2026-06-30** with **$800M raised, a $5B valuation and $1B in signed contracts** — then **roughly doubled to $10.3B three weeks later.**
+
+**The whole company is one architectural bet, and it is unusually legible**: that the transformer stays dominant long enough for fixed-function attention hardware to pay back. **Against [[nvidia|Nvidia's]] general-purpose GPU, that is a counter-position rather than a competing product** — Etched is faster if the architecture holds and worthless if it does not.
+
+It arrived inside a **one-week AI-silicon cluster** alongside OpenAI's Jalapeño, Qualcomm–Modular, and the South Korean $550B memory build-out.
 
 ## Traction Signals
 
 - **2026-07-23: raises at $10.3B valuation** ([[dailybrief-roundup-2026-07-23]], TechCrunch): *"defies skeptics"* — roughly **2× the $5B valuation from 3 weeks earlier** (Jun 30), from big-name investors, on the inference-acceleration thesis. Etched's *"no GPUs required"* claims *"need scrutiny"* (unverified) but the round signals strong investor appetite for the inference-bottleneck bet. *(Primary not fetched.)*
-- **2026-06-30: STRUCTURALLY MAJOR canonical-launch canonical-event** ([[etched-llm-attention-silicon-5b-valuation-2026-06-30]]) — $800M funding + $5B valuation + $1B signed-contracts; canonical-revenue-generating canonical-validation at canonical-Nvidia-competitor canonical-tier.
-- **Canonical-LLM-attention-in-silicon canonical-architectural-bet canonical-positioning** = canonical-transformer-architecture-5-year-dominance canonical-bet canonical-anchor.
-- **Daily Brief canonical-direct-voice canonical-thesis**: *"Hardcoding attention in silicon sounds like the obvious move, but it only works if you're willing to bet the company on one transformer architecture staying dominant for 5+ years. Etched just made that bet explicit — and $1B in contracts suggests the market thinks they're right."*
-
-## Key People
-
-- Verification-pending canonical-Etched canonical-founders + canonical-leadership canonical-roster.
-
-## How to Use It
-
-- canonical-specialized-LLM-inference canonical-silicon canonical-tier (verification-pending canonical-Sohu-chip canonical-name + canonical-deployment-substrate + canonical-pricing-tier).
-- canonical-Nvidia-competitor canonical-positioning for canonical-AI-inference-workload canonical-supply-side canonical-disruption.
+- **2026-06-30: left stealth** ([[etched-llm-attention-silicon-5b-valuation-2026-06-30]]) — $800M raised, $5B valuation, **$1B in signed contracts.** The contracts are the load-bearing part: **revenue-generating validation at Nvidia-competitor scale**, not a research claim.
+- **The Daily Brief's read at the time remains the sharpest framing the wiki holds:** *"Hardcoding attention in silicon sounds like the obvious move, but **it only works if you're willing to bet the company on one transformer architecture staying dominant for 5+ years.** Etched just made that bet explicit — and $1B in contracts suggests the market thinks they're right."*
 
 ## Key Concepts
 
-- **Canonical-LLM-attention-in-silicon canonical-architectural-bet**: canonical-hardcode canonical-transformer-attention-mechanism in canonical-silicon canonical-substrate (vs canonical-general-purpose-GPU canonical-Nvidia-incumbent canonical-pattern).
-- **Canonical-transformer-architecture-5-year-dominance canonical-bet**: canonical-architectural-bet canonical-only-works-if-transformer-stays-dominant canonical-5+-year-anchor.
-- **Canonical-specialized-inference-silicon canonical-positioning** = canonical-counter-positioning to canonical-Nvidia-general-purpose-GPU canonical-incumbent canonical-pattern.
+- **Attention in silicon** — the transformer's attention mechanism implemented as fixed hardware rather than executed on a general-purpose GPU.
+- **The five-year architecture bet** — the design only pays back if transformers remain the dominant shape. **This is the risk, stated plainly, and it is the company's own framing rather than a critic's.**
 
 ## Compared To
 
-- **Vs. [[nvidia|Nvidia]]**: canonical-specialized-LLM-attention-silicon vs canonical-general-purpose-GPU canonical-incumbent.
-- **Vs. [[unconventional-ai|Unconventional AI]]**: canonical-2-vendor canonical-specialized-silicon canonical-architectural-bet canonical-cluster (Etched canonical-attention-in-silicon + Unconventional AI canonical-1000×-energy-co-design).
-- **Vs. canonical-OpenAI-Jalapeño + canonical-Google-TPU + canonical-Apple-Silicon + canonical-SpaceX-Colossus-2 canonical-4-vendor canonical-custom-silicon cohort**: Etched canonical-specialized-LLM-attention-tier vs canonical-hyperscaler-tier canonical-custom-silicon canonical-pattern.
-- **Vs. canonical-Cerebras + canonical-Groq + canonical-SambaNova**: canonical-specialized-AI-silicon canonical-vendor-cohort (verification-pending canonical-Etched-architectural-distinguishing-features vs canonical-cohort).
+- **[[nvidia|Nvidia]]** — specialised attention silicon against the general-purpose incumbent. **The clearest counter-position in the wiki's hardware record.**
+- **[[unconventional-ai|Unconventional AI]]** — the other specialised-silicon architectural bet the wiki tracks (theirs is 1000× energy co-design). **Two companies betting the firm on different fixed choices.**
+- **OpenAI Jalapeño, Google TPU, Apple Silicon, [[colossus-2|SpaceX Colossus-2]]** — the hyperscaler custom-silicon cohort. **Etched is the only one of these selling to everyone rather than to itself**, which is a different business even where the chips are comparable.
+- **Cerebras, Groq, SambaNova** — the specialised-AI-silicon vendor cohort. **What architecturally distinguishes Etched from these is not captured** and is the most useful open question on this page.
+
+## Verification-pending
+
+- **What distinguishes Etched from Cerebras, Groq and SambaNova.** Without this the counter-positioning claim above is a story rather than an analysis.
+- **The *"no GPUs required"* claim** — flagged as needing scrutiny when the $10.3B round was reported, and never scrutinised here.
+- Founders and leadership roster.
+- Customer roster and signed-contract deal sizes — **the $1B is the strongest number on this page and nothing behind it is captured.**
+- Chip architecture and specifications (the **Sohu** name appears in reporting; unconfirmed here).
+- Funding history before the stealth exit; deployment timeline and availability.
 
 ## Resources
 
-- [[etched-llm-attention-silicon-5b-valuation-2026-06-30]] — STRUCTURALLY MAJOR Jun 30 canonical-launch canonical-substantive-anchor
-- [[silicon-vertical-integration-2026-06-24-openai-jalapeno-qualcomm-modular-cluster]] — paired canonical-AI-silicon canonical-cluster
-- [[nvidia]] — paired canonical-direct-counter-positioning (general-purpose vs specialized)
-- [[unconventional-ai]] — paired canonical-specialized-silicon canonical-architectural-bet cluster
-- [[concepts/ai-energy-efficiency]] — paired canonical-AI-silicon canonical-discourse
-- [[concepts/kv-cache-optimization]] — paired canonical-AI-inference-optimization canonical-discourse
-- [[dailybrief-roundup-2026-06-29]] — paired canonical-South-Korean-$550B-RAMageddon canonical-AI-compute-infrastructure canonical-cluster
+- [[etched-llm-attention-silicon-5b-valuation-2026-06-30]] — the stealth exit, and this page's substantive source
+- [[dailybrief-roundup-2026-07-23]] — the $10.3B round
+- [[silicon-vertical-integration-2026-06-24-openai-jalapeno-qualcomm-modular-cluster]] — the one-week silicon cluster
+- [[dailybrief-roundup-2026-06-29]] — the South Korean memory build-out
+- [[nvidia]] · [[unconventional-ai]] · [[ai-energy-efficiency]] · [[kv-cache-optimization]]
 
-## Verification-Pending
-
-- Etched canonical-founders + canonical-leadership canonical-roster
-- Etched canonical-customer-roster + canonical-signed-contract canonical-deal-sizes
-- Etched canonical-architectural-detail (canonical-Sohu canonical-chip canonical-name + canonical-specifications)
-- Etched canonical-funding-history + canonical-prior-rounds (canonical-pre-stealth-exit canonical-funding-trajectory)
-- Etched canonical-deployment-timeline + canonical-availability-tier
-- canonical-specialized-AI-silicon canonical-vendor-cohort canonical-positioning canonical-detail (vs Cerebras + Groq + SambaNova canonical-comparison)
+> [!note] Rewritten 2026-10-15
+> The 2026-07-23 version carried **28 instances of `canonical-` filler** from an automated pass, including in the `focus:` frontmatter field. Content preserved and the 2026-07-23 round entry kept verbatim; prose rewritten and two path-form wikilinks corrected to slug-form. See lint rule 7.

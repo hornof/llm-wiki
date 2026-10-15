@@ -2,110 +2,124 @@
 name: Open Knowledge Format (OKF)
 type: concept
 maturity: emerging
-last_updated: 2026-07-01
+last_updated: 2026-10-15
 ---
 
-> [!key-insight] canonical-Karpathy-LLM-Wiki-Pattern canonical-standardization at canonical-Google-Cloud-vendor-tier
-> **[[google-okf-open-knowledge-format-launch-2026-06-12|Google Cloud OKF spec (Jun 12 2026)]]** standardizes the canonical-Karpathy-LLM-Wiki-Pattern at canonical-vendor-neutral canonical-open-specification tier (Apache 2.0). **Canonical-both-Karpathy-and-OKF canonical-reserve-index.md-and-log.md canonical-filenames** for canonical-same-purposes — canonical-agreement-not-accidental. Canonical-directly-actionable-for canonical-this-wiki: canonical-OKF-format-conventions consideration + canonical-okf-skills-plugin install + canonical-3-answer-mental-model canonical-CLAUDE.md-integration.
+> [!key-insight] Google Cloud standardised the LLM Wiki pattern — and reserved the same two filenames
+> **[[google-okf-open-knowledge-format-launch-2026-06-12|Google Cloud's OKF spec]]** (2026-06-12, Apache 2.0) takes [[andrej-karpathy|Karpathy's]] [[llm-wiki-pattern|LLM Wiki pattern]] and publishes it as a vendor-neutral open specification. **Both reserve `index.md` and `log.md`, for the same purposes** — which is the detail that makes the convergence hard to read as coincidence. **Directly actionable for this wiki**: whether to adopt OKF's frontmatter conventions, whether to install the `okf-skills` plugin, and whether the three-answer mental model below belongs in `CLAUDE.md`.
 
 ## Definition
 
-**Open Knowledge Format (OKF)** is a canonical-vendor-neutral canonical-open-specification (Apache 2.0) canonical-published-by-Google-Cloud on **2026-06-12** for representing canonical-agent-memory as a canonical-directory of canonical-markdown files with canonical-YAML-frontmatter. **Canonical-format-not-platform** design-philosophy — canonical-no-proprietary-account + canonical-no-SDK + canonical-no-central-registry. **Canonical-value-scales-with-adoption-breadth canonical-not-vendor-lock-in** (canonical-similar-to canonical-git + canonical-markdown + canonical-JSON canonical-design-philosophy).
+**Open Knowledge Format (OKF)** is an **Apache 2.0 open specification published by Google Cloud on 2026-06-12** for representing agent memory as **a directory of markdown files with YAML frontmatter.**
+
+Its design philosophy is **"format, not platform"**: no proprietary account, no SDK, no central registry. **The stated bet is that value scales with how widely the format is adopted rather than with lock-in** — the same argument made for git, markdown and JSON.
 
 ## Why It Matters
 
-**Canonical-canonical-agent-memory-problem canonical-standardization canonical-anchor**: OKF fills the canonical-specific-gap of *"what does the team know about this system?"* (canonical-3-answer-mental-model: CLAUDE.md=behave / OKF=knows / MCP=calls).
+**It fills a specific gap: *"what does the team know about this system?"*** — a question neither of the adjacent conventions answers. The spec's own framing is a three-way split:
 
-**Canonical-3-design-principles canonical-articulation**:
+| Convention | Answers |
+|---|---|
+| **CLAUDE.md** | *how should the agent behave?* |
+| **OKF** | *what does the team know about this system?* |
+| **MCP** | *what live tools can the agent call right now?* |
 
-1. **Canonical-minimally-opinionated**: only `type` frontmatter field required; canonical-producer-choice for canonical-types canonical-existence (Service, Dataset, Metric, Decision, Runbook).
-2. **Canonical-producer-and-consumer-independence**: canonical-same-format canonical-works-at-both-ends (canonical-human-authors + canonical-BigQuery-pipelines + canonical-LLM-generated + canonical-wiki-exports → canonical-AI-agents + canonical-HTML-visualizers + canonical-search-indexes + canonical-other-agents/tools).
-3. **Canonical-format-not-platform**: canonical-no-SDK canonical-required; canonical-value-scales-with-adoption-breadth.
+**That taxonomy is the most useful thing in the spec**, and it is why the key-insight above flags it for `CLAUDE.md` integration — this wiki currently answers the first and third questions implicitly and the second one by accident.
+
+### Three design principles
+
+1. **Minimally opinionated** — only the `type` frontmatter field is required. Which types exist is the producer's choice; the spec suggests Service, Dataset, Metric, Decision, Runbook.
+2. **Producer and consumer independence** — the same format works at both ends. Authors can be humans, BigQuery pipelines, LLMs or wiki exports; consumers can be AI agents, HTML visualisers, search indexes or other tools.
+3. **Format, not platform** — no SDK required.
 
 ## Current State
 
-### Canonical-directory-is-a-knowledge-graph canonical-pattern
+### The directory *is* the knowledge graph
 
-- **Canonical-file-path = canonical-concept-identity**.
-- **Canonical-2-reserved-files across every bundle**:
-  - `index.md` = canonical-progressive-disclosure canonical-entry-point.
-  - `log.md` = canonical-ISO-dated canonical-change-history canonical-newest-first.
-- **Canonical-concepts-link-to-each-other-with-standard-markdown-links** = canonical-directory-becomes-a-graph.
-- **Canonical-any-tool-that-can-follow-a-markdown-link canonical-can-traverse-this-graph**.
+- **A file's path is the concept's identity.**
+- **Two reserved files in every bundle**: `index.md` is the progressive-disclosure entry point; `log.md` is an ISO-dated change history, newest first.
+- **Concepts link to each other with ordinary markdown links**, which makes the directory a graph — and means **any tool that can follow a markdown link can traverse it.**
 
-### Canonical-shipped-artifacts (canonical-Google-Cloud canonical-alongside-spec)
+### What Google Cloud shipped alongside the spec
 
-1. **Canonical-BigQuery enrichment agent**: canonical-walks-BigQuery-dataset + canonical-drafts-OKF-concept-docs canonical-2nd-LLM-pass canonical-enriches-with-citations-schemas-join-paths.
-2. **Canonical-static-HTML-visualizer**: canonical-turns-any-OKF-bundle-into-interactive-graph-view; canonical-single-self-contained-HTML-file.
-3. **Canonical-3-sample-bundles-on-GitHub**: GA4 e-commerce + Stack Overflow + Bitcoin canonical-public-BigQuery-datasets.
+1. **A BigQuery enrichment agent** — walks a dataset, drafts OKF concept docs, then a second LLM pass enriches them with citations, schemas and join paths.
+2. **A static HTML visualiser** — turns any OKF bundle into an interactive graph view as a single self-contained file.
+3. **Three sample bundles on GitHub** — GA4 e-commerce, Stack Overflow and Bitcoin, all from public BigQuery datasets.
 
-### Canonical-okf-skills-plugin (canonical-scaccogatto canonical-marketplace-vendor)
+### The `okf-skills` plugin (third-party, `scaccogatto`)
 
-- `/okf:okf` — canonical-produce-and-maintain-bundles
-- `/okf:validate` — canonical-conformance-checks
-- `/okf:visualize` — canonical-generate-interactive-graph
-- Canonical-installation: `npx skills add scaccogatto/okf-skills` (canonical-cross-agent canonical-Claude-Code + Cursor + Codex + 20+).
+| Command | Does |
+|---|---|
+| `/okf:okf` | produce and maintain bundles |
+| `/okf:validate` | conformance checks |
+| `/okf:visualize` | generate the interactive graph |
 
-## OKF vs Related Patterns
+Install: `npx skills add scaccogatto/okf-skills`. Works across Claude Code, Cursor, Codex and 20+ other agents.
+
+## OKF vs related patterns
 
 | Tool | Purpose | Scope |
 |---|---|---|
 | CLAUDE.md | How the agent behaves | Per-project, one agent |
 | AGENTS.md | Repo instructions | Per-repo, tool-specific |
-| **[[llm-wiki-pattern\|Karpathy LLM Wiki Pattern]]** | **Agent-maintained notes** | **Pattern, not a spec** |
+| **[[llm-wiki-pattern\|Karpathy LLM Wiki Pattern]]** | **Agent-maintained notes** | **A pattern, not a spec** |
 | MCP | Live tool access | Runtime connections |
 | **OKF** | **What the team knows** | **Cross-project, any agent** |
 
-### Canonical-3-answer canonical-mental-model
+## The Karpathy connection, layer by layer
 
-- **CLAUDE.md** answers: *how should the agent behave?*
-- **OKF** answers: *what does the team know about this system?*
-- **MCP** answers: *what live tools can the agent call right now?*
+[[andrej-karpathy|Karpathy's]] LLM Wiki gist (5,000+ stars) maps onto OKF in three layers:
 
-## Canonical-Karpathy-connection canonical-3-layer-mapping
+| Karpathy | OKF |
+|---|---|
+| **Raw sources, immutable** | external datasets, docs and APIs — OKF bundles are the *compiled* layer |
+| **Wiki, LLM-maintained** | the OKF bundle itself (`*.md` plus frontmatter; OKF adds `type`, `resource`, `tags`, `timestamp`) |
+| **Schema in CLAUDE.md** | producer/consumer conventions plus `okf/SPEC.md` — **an org-wide spec replacing per-vault bespoke rules** |
 
-Canonical-[[andrej-karpathy|Karpathy]] canonical-vibe-coding + canonical-agentic-engineering canonical-thesis + canonical-LLM-wiki-gist canonical-5000+-stars canonical-pattern canonical-3-layer canonical-mapping-to-OKF:
+**Both reserve `index.md` and `log.md` for the same purposes.** Two independent designs arriving at the same two filenames is the strongest evidence the wiki holds that this is a real pattern rather than one person's taste.
 
-- **Canonical-Karpathy-raw-sources-immutable** → canonical-external-datasets + docs + APIs (canonical-OKF-bundles-are-compiled-layer)
-- **Canonical-Karpathy-wiki-LLM-maintained** → canonical-OKF-bundle (`*.md` + frontmatter; canonical-OKF-adds type/resource/tags/timestamp)
-- **Canonical-Karpathy-schema-CLAUDE.md** → canonical-producer/consumer-conventions + canonical-okf/SPEC.md (canonical-org-wide-spec canonical-replaces canonical-per-vault-bespoke-rules)
+## How the pattern accumulated validation
 
-**Canonical-both-Karpathy-and-OKF canonical-reserve-index.md-and-log.md canonical-agreement-not-accidental** — canonical-convergence canonical-not-accidental canonical-articulation.
+Six surfaces, in order:
 
-## Canonical-LLM-Wiki-Pattern canonical-validation-cluster canonical-6-tier-extension
-
-- (1) Canonical-Karpathy canonical-primary (Medium + gist canonical-foundational)
-- (2) Canonical-Reddit canonical-practitioner canonical-weekend-build canonical-early-validation
-- (3) Canonical-Hornof canonical-this-wiki canonical-owner-built canonical-dogfooding-instance
-- (4) Canonical-Moysei canonical-articulation Jun 23 = canonical-practitioner-amplifier canonical-tier
-- (5) Canonical-4-voice canonical-comment-thread canonical-amplification-cluster
-- (6) **Canonical-Google canonical-OKF canonical-open-standard canonical-vendor-tier canonical-2026-06-12 canonical-standardization canonical-milestone-event** ← canonical-canonical-culmination-arc
+1. **Karpathy's primary** — the Medium post and gist.
+2. **A Reddit practitioner's weekend build** — earliest independent instance.
+3. **This wiki** — the owner's own dogfooding instance.
+4. **Moysei's articulation** (2026-06-23) — practitioner amplification.
+5. **A four-voice comment thread** around it.
+6. **Google Cloud's OKF spec** (2026-06-12) — **a vendor publishing it as an open standard**, which is where a pattern becomes infrastructure.
 
 ## When to Use OKF
 
-**Canonical-right-choice canonical-when**:
+**A good fit when:**
 
-- Canonical-you-re-explain-the-same-things-to-every-new-agent-session
-- Canonical-your-knowledge-spans-multiple-projects-or-teams
-- Canonical-you-want-your-project-docs-to-be-versionable
-- Canonical-you-re-building-on-Google-Cloud-BigQuery
-- Canonical-you-want-a-knowledge-graph-not-a-flat-wiki
+- You re-explain the same things to every new agent session.
+- Your knowledge spans multiple projects or teams.
+- You want project docs to be versionable.
+- You are building on Google Cloud and BigQuery.
+- You want a knowledge graph rather than a flat wiki.
 
-**Canonical-NOT-right-choice canonical-when**:
+**The wrong tool when:**
 
-- Canonical-you-need-real-time-data → use MCP instead
-- Canonical-you-need-to-encode-behavioral-rules → use CLAUDE.md
-- Canonical-your-project-is-small-and-single-session → CLAUDE.md is enough
+- You need real-time data — **use MCP.**
+- You need to encode behavioural rules — **use CLAUDE.md.**
+- The project is small and single-session — **CLAUDE.md is enough.**
 
 ## Related Concepts
 
-- [[concepts/llm-wiki-pattern]] — canonical-Karpathy-pattern canonical-parent-concept (OKF canonical-standardizes)
-- [[concepts/company-brain]] — canonical-organizational-tier canonical-context-layer
-- [[karpathy-llm-wiki-overview]] — canonical-Karpathy-Medium canonical-primary-source
-- [[karpathy-llm-wiki-gist]] — canonical-Karpathy-gist canonical-primary-source
+- [[llm-wiki-pattern]] — the parent pattern OKF standardises
+- [[company-brain]] — the organisational-scale version of the same context layer
+- [[karpathy-llm-wiki-overview]], [[karpathy-llm-wiki-gist]] — Karpathy's primaries
 
 ## Resources
 
-- [[google-okf-open-knowledge-format-launch-2026-06-12]] — canonical-primary source (Akhilvallala Medium canonical-primary-explainer)
-- Verification-pending canonical-Google-Cloud canonical-official-blog-post canonical-URL + canonical-GitHub-repo
-- Verification-pending canonical-3-sample-bundles-on-GitHub canonical-URLs (GA4 + Stack Overflow + Bitcoin)
+- [[google-okf-open-knowledge-format-launch-2026-06-12]] — the primary source held (an Akhilvallala Medium explainer)
+
+## Verification-pending
+
+- **Google Cloud's official blog post and the GitHub repo** — the wiki has a third-party explainer, not the spec itself.
+- URLs for the three sample bundles (GA4, Stack Overflow, Bitcoin).
+- **Whether this wiki should adopt OKF conventions**, which is the actionable question and has been open since 2026-06-12.
+
+> [!note] Rewritten 2026-10-15
+> The 2026-07-01 version carried **46 instances of `canonical-` filler** from an automated pass — the worst in the corpus, measured at the 2026-10-15 lint. Content preserved, prose rewritten; two path-form wikilinks (`[[concepts/llm-wiki-pattern]]`, `[[concepts/company-brain]]`) corrected to slug-form per `CLAUDE.md` conventions. See lint rule 7.

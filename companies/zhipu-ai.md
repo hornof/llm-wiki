@@ -1,6 +1,7 @@
 ---
 name: Z.ai / Zhipu AI
 type: company
+status: active
 last_updated: 2026-07-06
 ---
 

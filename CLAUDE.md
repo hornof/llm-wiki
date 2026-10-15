@@ -348,7 +348,20 @@ When asked to lint or health-check the wiki:
 4. Check that every `tools/` page has a non-empty Traction Signals section.
 5. Flag any contradictions found across pages (e.g., tool listed as `emerging` in one place and `mainstream` in another).
 6. Scan `_raw/` for files not referenced by any `sources/` page — flag as unprocessed drops or deletable empties.
-7. Produce a lint report and ask the owner which issues to fix.
+7. **Scan entity pages for machine-artifact prose.** Grep for `canonical-` and other automated-pass filler. Report the count and the worst offenders by occurrence.
+
+   **Why this rule exists:** a page can pass every structural check above — valid links, fresh dates, complete frontmatter, non-empty sections — **and still be unreadable.** On 2026-10-02 the owner rewrote `tools/antigravity.md`, leaving the note *"the 2026-06-29 version was corrupted with 'canonical-' filler from an automated pass."* Measured at the 2026-10-15 lint: **74 entity pages affected**, worst `concepts/okf.md` at 46 occurrences. **Two lints reported it as an aside and no rule detected it**, because it is not a link, a date, a gap or an empty section. **This is the only rule that asks whether the prose is prose.**
+
+   **Do not fix it with find-and-replace.** The filler is woven into sentences (*"canonical-Google canonical-coding-agent canonical-CLI-tier-cohort"*), so a mechanical substitution leaves broken grammar. **Each page needs rewriting against its own sources**, which makes this a scoped project rather than an ingest side-effect — fix the worst offenders per pass and report the remaining count.
+
+   **The same test generalises.** Any phrase repeated across pages that reads as a template rather than a sentence — `STRUCTURALLY MAJOR`, `canonical-anchor-tier`, `N-surface convergence` used without naming the surfaces — is the same defect in a milder form. Report what you find; do not invent new vocabulary to replace it.
+8. Produce a lint report and ask the owner which issues to fix.
+
+### Lint tooling notes
+
+**Strip code spans before extracting wikilinks.** The 2026-10-15 lint reported 3 dangling links on entity pages; all three were false positives — `[[wikilink]]` and `[[Page Name]]` inside backtick spans on `tools/obsidian.md` (documentation of the syntax), and `[[cursor]]` inside `companies/anysphere.md`'s merge note. **Every earlier lint that counted dangling links over-reported, including the "4 dangling targets on entity pages" figure from 2026-10-03, which was never real.** Remove fenced blocks (` ```…``` `) and inline spans (`` `…` ``) first.
+
+**`local_source:` makes the rule-3a exemption machine-visible.** As of 2026-10-15 all 89 URL-less `sources/` pages carry it, so rule 3a needs no content heuristic. **Rolled-off briefs live at `Daily Briefs/archive/YYYY-MM/YYYY-MM-DD.md`** — point `local_source` there, not at the live directory, or the path dangles once the brief rolls off.
 
 ---
 

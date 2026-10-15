@@ -4,6 +4,7 @@ type: model
 provider: Meta
 status: available
 last_updated: 2026-08-12
+dormant_since: 2026-10-15
 ---
 
 ## What It Is

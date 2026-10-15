@@ -4,10 +4,11 @@ type: source
 medium: article
 url:
 ingested: 2026-07-26
+local_source: "_raw/ (batch; individual drops listed in the body)"
 ---
 
 > [!note] Roundup — no URL by design (checked 2026-09-21)
-> A `_raw` batch roundup (see title), so it is a cross-reference index into other source pages and correctly has no URL. It escaped the lint's roundup exemption only because its **slug does not start with `raw-batch-`**. Exemption rule widened to match on content rather than slug prefix — see `CLAUDE.md` rule 3a.
+> A `_raw` batch roundup (see title), so it is a cross-reference index into other source pages and correctly has no URL. It escaped the lint's roundup exemption only because its **slug does not start with `raw-batch-`**. Exemption rule widened to match on content rather than slug prefix — see `CLAUDE.md` rule 3a. **And as of the 2026-10-15 lint the exemption is machine-visible**: `local_source:` is now set here and on 67 other roundups, so the rule no longer needs a content heuristic to clear them.
 
 ## Summary
 

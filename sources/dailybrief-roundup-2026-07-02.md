@@ -3,6 +3,7 @@ title: "Daily roundup 2026-07-02 — Fable 5 prompt catalog + 2 r/mcp threads + 
 type: source
 medium: article
 ingested: 2026-07-02
+local_source: "Daily Briefs/archive/2026-07/2026-07-02.md"
 ---
 
 ## Summary

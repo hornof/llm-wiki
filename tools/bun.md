@@ -4,6 +4,7 @@ type: tool
 category: framework
 status: gaining-traction
 last_updated: 2026-08-12
+dormant_since: 2026-10-15
 ---
 
 ## What It Is
