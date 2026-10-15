@@ -2,7 +2,7 @@
 name: Code Mode
 type: concept
 maturity: emerging
-last_updated: 2026-05-09
+last_updated: 2026-10-15
 ---
 
 ## Definition
@@ -70,6 +70,41 @@ These numbers explain why "load every tool upfront" was always a bad idea — an
 - **Cloudflare extended it** to a 2,500-endpoint API compression case study (May 2026, [[cloudflare-stripe-projects-agents-2026-05]] surfaces Cloudflare's Code Mode MCP server in the Stripe Projects launch).
 - **MCP is not dying** despite the reframe: 300M MCP SDK downloads as of May 2026, **up from 100M at the start of the year** — 3× in 5 months. MCP is a primitive Code Mode composes, not a competitor.
 - Practitioner-side framing now widely circulating ([[akshay-pachaar-mcp-vs-cli-2026-05-09]], May 9 2026) — the rule is *"tool definitions belong in code, not in context."*
+
+## The pattern got measured — 150,000 tokens to 2,000 (2026-08 → 2026-10)
+
+**This page was last updated 2026-05-09 and has carried the pattern as an argument. It now has figures.**
+
+### The compression claim, quantified by the pattern's own author
+
+[[undefinedki-how-to-design-an-agent-harness-2026-08-15|The harness essay]] states the problem exactly as this page does, and attaches a number:
+
+> *"**Stop loading every tool up front.** If you have several MCP servers connected, **every one of their tool descriptions gets stuffed into context on every single turn**, whether or not the task needs them. The fix is to **put the tools on disk as files and let the agent open only the ones it needs.** Anthropic published a worked version of this: **150,000 tokens down to 2,000.**"*
+
+**That is a 75× reduction, and it is Code Mode restated as a harness decision rather than a runtime pattern.** The 13.7K-tokens-for-Playwright figure recorded below was the cost of *one* server; **150K is what a realistic multi-server setup costs before the task starts.**
+
+### Two tool-interface findings this page should own
+
+The same source supplies two results that belong here because they are about **the tool boundary**, which is Code Mode's subject:
+
+- **Rewrite what your errors say.** *"Most tools fail with a sentence written for a human: 'invalid request.' That tells the model nothing, so it guesses, and usually guesses wrong. Return structure instead: which field was wrong, what a valid value looks like, and what to try next."* **Siemens measured a 37–40 point jump in task completion at roughly half the tokens per success.** **The largest single-change improvement from tool design the wiki holds** — and it is only available once tools are code you control rather than descriptions you ship.
+- **Cut the menu.** *"Anything you haven't seen it use in a month, remove. **Two tools with confusingly similar names cost you more than a missing tool does.**"* Plus: *"how you name and group them measurably changes behaviour. **Prefixes and suffixes are not cosmetic.**"*
+
+### A cost argument for Code Mode that nobody in this thread has made
+
+**Putting tools in code has a prefix-cache benefit on top of the context benefit, and it follows from a finding on a different page.** [[pachaar-llm-routing-can-cost-more-2026-09-06|Prefix caching]] bills cached input at **~10% of the normal rate**, and in a long agent session **~90% of what you send is already-processed text.** **Anything that invalidates the prefix costs 10× on what was discarded — and a changing tool set is exactly that.**
+
+> **If tool descriptions live in context, every connect or disconnect rewrites the prefix and voids the cache. If they live on disk and the agent imports what it needs, the prefix is stable and the import is a tool call inside it.** Neither source connects these, and it is the strongest economic argument for the pattern the wiki can assemble: **Code Mode does not just shrink the context, it stops churning it.** See [[kv-cache-optimization]].
+
+### WebMCP — the browser-side variant, arguing the same case against Computer Use
+
+**[[shopify|Shopify opened checkout to WebMCP browser agents]]** (2026-09-28), and at DevDay a session argued **WebMCP is *"much more efficient than using Computer Use"*** ([[willison-openai-devday-2026-live-blog-2026-09-29]]).
+
+**That is this page's argument transposed: a declared, typed interface beats driving a UI by pixels**, the same way imported tool modules beat stuffed descriptions. **The wiki has no `webmcp` page** — two surfaces now, and it has been a create-candidate since 2026-09-28. **Blocked on the same thing as always: no primary describing how WebMCP relates to MCP proper.**
+
+### And the reframe held
+
+**"MCP is not dying"** is confirmed rather than merely asserted: **MCP is now the substrate several 2026 patterns compose over** — WebMCP for browsers, Claude Artifacts reading MCPs, and `/okf:*` skills shipping as MCP-adjacent commands. **Nothing in five months has positioned Code Mode as an MCP competitor**, which is what this page predicted.
 
 ## Why This Matters for the Wiki
 
