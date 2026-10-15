@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-03
+last_updated: 2026-10-15
 ---
 
 
@@ -83,6 +83,26 @@ Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. 
 6. **Under 500 lines**: Use progressive disclosure (sub-files loaded only when referenced)
 
 See [[writing-claude-code-skills]] for a full walkthrough.
+
+## `opusplan` — tiering by phase, as a documented flag (2026-10-15)
+
+`claude --model opusplan` ([[raw-batch-roundup-2026-10-15]]): **Opus in Plan Mode, Sonnet on execution.** The poster's emphasis is worth keeping — *"**that behavior is documented — not a prompt hack.**"*
+
+| Tier | Job |
+|---|---|
+| **Opus** | investigate, weigh tradeoffs, design the change |
+| **Sonnet** | implement the approved plan |
+| **Haiku subagents** | repository searches, test runs, docs lookups |
+
+**Honest about the boundary**: the flag handles the first two; **the Haiku workers are configuration you write**, with `model: haiku` and their own tool restrictions — *"`search`: read-only. `tests`: does not edit source files. `docs`: no file edits."* **That is least privilege inside a harness**, which is the [[agent-teams-opus-55-course-2026-10-07|"every tool a role does not need is a mistake it can now make"]] principle in a config file.
+
+**This is the third model-tiering pattern the wiki holds in three weeks and the only one that is a vendor flag.** [[raw-batch-roundup-2026-10-02|`/advisor`]] tiers by *role* (a different model reviews); [[pachaar-llm-routing-can-cost-more-2026-09-06|infrastructure routing]] tiers by *request*; **`opusplan` tiers by *phase*.**
+
+**And phase is the granularity that avoids the cache problem** — which neither source notices. Switching models mid-session destroys the prefix cache, worth **45–80% of input-token cost**. **A plan→implement boundary is already a context boundary**, so `opusplan` switches at the one moment the cache was going to be invalidated anyway. **Better-designed switch than per-request routing, for a reason unrelated to capability.**
+
+**The three re-plan triggers are the transferable part**, and the third is the wiki's recurring finding: *"1. Before a new feature. 2. Before a design decision with meaningful tradeoffs. **3. When the first attempted bug fix fails.** The point is to reconsider the approach before generating another pile of edits."* **That is [[undefinedki-how-to-design-an-agent-harness-2026-08-15|the stall-and-reflect round]] and the `/advisor` middle trigger, from a third direction — three independent sources now say a repeated failure means change frame, not try harder.**
+
+*(Single practitioner post, no measurement. **The claim easiest to check and least examined: whether Sonnet implementing an Opus plan is as good as Opus implementing it.** The flag is verifiable; its value is not demonstrated. Not tested by the owner.)*
 
 ## `/advisor` — a different model in the reviewer seat (2026-09-20)
 

@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-09-13
+last_updated: 2026-10-15
 ---
 
 ## What It Is
@@ -53,6 +53,20 @@ Per [[anthropic-mythos-project-glasswing-2026-05-22]] (Digg-surfaced, secondary-
 - **US + allied government deployment plan** is the load-bearing forward signal; operationally validates the [[antonleicht-frontier-ai-access-cut-off-2026-05-13|Leicht selective-deployment thesis]] from Anthropic's own side.
 - **"Glasswing" naming** — glasswing butterflies have transparent wings; the name signals transparency-as-positioning despite the models themselves being non-public.
 - **Secondary-source caveat**: Digg framing not directly corroborated by Anthropic in the brief; treat as practitioner-content-secondary pending Anthropic-direct disclosure.
+
+## A named counterparty staffs 1,000 contractors against its output (2026-10-15)
+
+**Bank of America hired 1,000 contractors to patch software flaws exposed by Mythos** ([[dailybrief-roundup-2026-10-15]], Digg).
+
+**This is the first external, named consequence of Mythos the wiki holds.** Everything above is Anthropic describing its own programme — the Glasswing deployment, the >10,000 findings, the selective-deployment pattern, the exploitation rate. **This is a systemically important institution acting on the output**, which is a different evidence class entirely.
+
+**It makes the Glasswing framing below concrete.** [[dario-amodei|Amodei's]] claim was that *"the bottleneck in cyber defense has already shifted from finding vulnerabilities to patching them fast enough."* **One bank, 1,000 contractors, one tool's findings.** That is the bottleneck, staffed.
+
+**And it is the strongest available argument for the selective-deployment pattern this page documents.** Mythos is restricted-access, scores **above GLM-5.3 on control-flow hijacks (6% vs 4%)**, and is deployed on defence precisely because it is good at offence. **A four-figure remediation programme at a named bank is what that posture produces when it works** — and the wiki should note it produces *work for the defender*, not a fix.
+
+**What is missing is the part that decides how good the result is**: no finding count, no deduplication rate, and no validation figure. **[[willison-openai-devday-2026-live-blog-2026-09-29|OpenAI reported 36% of its own security discoveries were duplicates]]** — if BofA's queue looks similar, a substantial share of those contractors is triaging noise. See [[ai-vulnerability-discovery]].
+
+*(Digg summary; no primary, no BofA statement, no timeframe, and no indication whether 1,000 is incremental or reallocated headcount.)*
 
 ## A published exploitation rate — and a competitor's alongside it (2026-09-30)
 
