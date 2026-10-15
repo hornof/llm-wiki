@@ -2,7 +2,7 @@
 name: Vibe Coding
 type: concept
 maturity: emerging
-last_updated: 2026-05-06
+last_updated: 2026-10-15
 ---
 
 ## Definition
@@ -42,6 +42,48 @@ A May 2026 r/AIAgentsInAction popularization names the failure modes that kill v
 3. **Context collapses.** Long sessions degrade; the agent loses track of earlier decisions, code contradicts itself, the developer never catches it.
 
 The accumulated cost of all three is **cognitive debt** — the price of poor agent management, lost context, and unreliable behavior. — [[reddit-karpathy-moved-on-from-vibe-coding]]
+
+## Five months on: all three failure modes acquired evidence (2026-05 → 2026-10)
+
+**The three failure modes above were a May 2026 prediction. Each one has since been measured, named, or given a countermeasure** — which makes this the rare case where a page's own framework can be scored rather than restated.
+
+### 1. "Security holes compound" — confirmed, with the cost landing on the defender
+
+The May estimate was *"an agent writing 1,000 PRs/week at a 1% vulnerability rate ships ~10 new vulnerabilities per week."* **The order of magnitude turned out right and the economics turned out worse.**
+
+- **DoorDash runs 25,000+ agent code reviews a week** ([[undefinedki-how-to-design-an-agent-harness-2026-08-15]]) — so the thousand-PR scenario is now an understatement of real volume at one company.
+- **[[claude-mythos|Mythos]] findings sent Bank of America to 1,000 contractors** ([[dailybrief-roundup-2026-10-15]]). **The discovery is cheap and the remediation is not.**
+- **36% of OpenAI's own security discoveries were duplicates** ([[willison-openai-devday-2026-live-blog-2026-09-29]]) — so a meaningful share of that queue is triage rather than fixing.
+
+**The countermeasure also exists now, and it is not "read the diffs."** `codex-security patch` opens PRs at a **1% rollback rate**, credited to a `verify-fix` step that **replays the original attack**. **That works because the finding arrives with a reproduction** — which is precisely what vibe-coded work does *not* produce for its own defects. See [[ai-vulnerability-discovery]].
+
+### 2. "Architecture rots" — now has a name, a diagnosis and a tool
+
+**The failure mode is called *architectural drift*, and the diagnosis is observability rather than capability** ([[raw-batch-roundup-2026-10-14]]):
+
+> *"With agents doing most of the coding, we need a way to judge the architectural trade-offs they are introducing with each change — however **models are not great at surfacing what architectural changes they have made, especially at scale.**"*
+
+**That is sharper than "nobody can explain why the codebase is shaped the way it is."** The reason nobody can explain it is that **each individual change passes review while the aggregate effect is invisible** — no gate on [[loop-engineering]] catches locally-correct code that degrades structure. The response is determinism: **architecture diagrams built from the actual control-flow graph, so the artifact can be diffed** where a model's summary cannot.
+
+**And the best answer in that thread is the one this page should carry**: *"AI tends to generate much better output when the AI can **ingest an architecture decision record**. A good ADR explains the **goal and reasoning**."* **An append-only decision log is `DECISIONS.md` from the [[undefinedki-how-to-design-an-agent-harness-2026-08-15|four files]], arrived at independently by the architecture community** — and it is the direct antidote to *"no reasoning to follow because no reasoning happened."*
+
+### 3. "Context collapses" — measured, and worse than described
+
+**This is the failure mode that has gained the most, and the numbers are specific:**
+
+| Finding | Figure |
+|---|---|
+| **Policy-rule violations after context compaction** | **0% with the rule in view → 30% after compaction → 59% on the worst model** |
+| Where the rule survived summarising | **violations stayed at 0%** |
+| Usable context before quality degrades, on a 1M-token model | **~300–400K**, past which *"failures stop looking like confusion and start looking like carelessness"* |
+
+> **The compaction finding is the mechanism behind "the agent loses track of earlier decisions."** It is not drift — **the rules are deleted and replaced by a summary of the rules, and nothing announces it.** A session that has compacted once is operating under a paraphrase. **Pinning fixed it completely**, which makes this the one failure mode on this page with a clean fix: separate facts from rules, and re-read the rules after every reset.
+
+**And one behavioural signal this page lacked entirely**: *"**Restart when it starts agreeing with you.** If the model has accepted five suggestions in a row without pushback, the session is done. Something wrong got in early and everything after treats it as established fact."* **Context collapse that presents as cooperation is invisible precisely because it feels like progress.**
+
+### What this does to the two-mode framing
+
+**It survives, and the boundary is now describable in one sentence.** The failure modes are not about code quality — **all three are about the absence of a durable artifact**: no reproduction for the defect, no decision record for the architecture, no pinned rule surviving compaction. **[[agentic-engineering]] is vibe coding plus artifacts that outlive the session**, and every countermeasure above is a file: a replayable test, an ADR, a pinned rule file. **The [[undefinedki-how-to-design-an-agent-harness-2026-08-15|harness essay's]] rule is the compressed form — *"if it isn't in a file, it doesn't exist."***
 
 ## Propagation Signal (May 2026)
 Karpathy's vibe-coding/agentic-engineering distinction is propagating into practitioner subreddits within ~5 weeks of the AI Ascent talk. But comments on the r/AIAgentsInAction popularization show a sharp split: the *concepts* are spreading, but AI-formatted summaries are getting rejected as "slop" — practitioner antibodies against LLM-written advice posts even when the framing they carry is sound. The signal is two-sided: distinction is catching on; second-hand explainers are not. — [[reddit-karpathy-moved-on-from-vibe-coding]]

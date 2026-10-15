@@ -3,7 +3,7 @@ name: Ashwin Gopalan
 type: person
 affiliation: Sentra (founder)
 signal_sources: [twitter, blog]
-last_updated: 2026-05-09
+last_updated: 2026-10-15
 ---
 
 ## Who They Are
@@ -47,6 +47,45 @@ Building Sentra. Positioning the "Company Brain" thesis as a sharper alternative
 - **"Model-as-brain is like RAM-as-permanent-storage"** (May 9, 2026): coinage that names the architectural mistake of treating the LLM as the durable substrate. *"It works until the lights go off, the context changes, or someone needs to inspect why the answer changed."* Reasoning and state must be separated — the LLM reasons; the Company Brain holds the structured, inspectable, versioned, permissioned state. — [[ashwingop-systems-of-record-2026-05-09]]
 - **"System of intelligence" as currently framed (Alteryx, Intuit) is too weak** (May 9, 2026): an insight layer that sits on top of systems of record preserves the old center of gravity. The strong version maintains a living, structured representation of company reality with multiple ontologies reading from one substrate — what Ashwin calls Company Brain. — [[ashwingop-systems-of-record-2026-05-09]]
 - **The uncomfortable question for incumbent SaaS** (May 9, 2026): "whether the same record structure is still the right center of gravity when AI can understand the work directly." The CRM field, the ticket, and the dashboard all become less central if a Company Brain already knows the customer state, the decision history, and the strategy/execution gap. Systems of record do not disappear — they become sources and places where actions land — but they stop being where intelligence lives. — [[ashwingop-systems-of-record-2026-05-09]]
+
+## Five months on: the three-layer model got extended, and his unsolved problem got answered (2026-08 → 2026-10)
+
+**This page was last updated 2026-05-09 and is cited by four pages updated in the past three weeks.** Flagged by the 2026-10-15 lint, which found the staleness rule had never covered the resurfacing pattern concepts and framings actually follow.
+
+### A fourth layer, from a cross-implementation survey
+
+**Femke Plantinga's teardown of nine-plus company brains** ([[femke-plantinga-company-brain-teardown-2026-08-27]], 2026-08-27) is the first field map of the category — and **it extends his three-layer model rather than competing with it.** Every system surveyed does the same four things:
+
+> **getting signals · remembering · dreaming & pruning · speaking & searching**
+
+**Three of those map cleanly onto his layers** (signals and remembering → factual memory; speaking and searching → action coordination; the context graph sits underneath all of them). **The fourth does not: *pruning*.** His model specifies what a brain must hold and says nothing about what it must drop — **and the survey promotes forgetting to a first-class function.**
+
+**The pull-quote from that thread is the sharpest statement of the gap:**
+
+> *"**Everyone builds the remembering part, nobody wants to own the forgetting part.**"*
+
+### Which answers the problem this page recorded as unsolved
+
+**The memory-curation problem was named here and left open** — auto-append produces bloat and degradation, manual curation is discipline-bound. **Two implementations now attack it directly:**
+
+- **Letta** (MemGPT lineage) — the agent decides what to keep, **and a second agent tidies memory in the background.** **Pruning as a dedicated role rather than a discipline**, which is the only version of the fix that does not depend on someone remembering to do it.
+- **Zep / Graphiti** — a bi-temporal knowledge graph, *"a knowledge graph with a clock in it"*: **a changed fact gets an end-date instead of being overwritten**, so you can ask *"what was true last March."*
+
+> **Zep is the more interesting one for this page, because it implements his own requirement.** His *"companies forget in strange ways"* take is specifically about losing **the argument behind a decision, the counterfactuals, the dissenting view that turned out to be right.** **An end-date instead of an overwrite is exactly the data structure that preserves a superseded view as a superseded view** rather than deleting it. **His framing asked for it; this builds it.**
+
+### The markdown-brain instances, and their ceiling
+
+His *"factual memory ≠ central repository"* take — *"that is how knowledge bases die, people do not work in repositories"* — is **confirmed by which implementations actually exist.** The dominant archetype in the survey is **git-repo-as-substrate**: [[andrej-karpathy|Karpathy's]] [[llm-wiki-pattern|LLM Wiki]], **[[gstack|Garry Tan's gbrain]]** (email and calendar → git, nightly re-link and staleness flag), and **Gorgias Cortex** (12,000 markdown nodes, where *"nightly, the questions it got wrong become PRs that fix it"*).
+
+**[[company-brain]] records the boundary, and it is the right one**: markdown brains are *"directionally right"* and **bounded by the single-owner regime** — one owner, one trust boundary, one final arbiter. *"A markdown file can hold information. It does not, by itself, decide who can see it, which ontology applies, whether it is stale, or what happens when two agents update related state at the same time."* **That is the argument for Sentra stated as a limit of the alternative.**
+
+### And the thesis reached CEO vocabulary
+
+**[[satya-nadella|Nadella]], 2026-07-02**: *"help create a frontier ecosystem where every organization can turn its **knowledge, workflows, and judgment** into its own AI systems that continuously improve."*
+
+**That is his three-layer decomposition in a CEO's launch copy** — knowledge (factual memory), workflows (action coordination), judgment (the context graph). **Worth recording not as validation but as a dating marker**: the framing moved from a founder's X thread in April to a hyperscaler's product thesis in July. **Google's [[okf|OKF]] spec did the same thing for the markdown variant**, standardising it as an open specification and reserving the same `index.md` and `log.md` filenames the pattern already used.
+
+*(All of the above is secondary: the Plantinga survey is vendor-authored by Slite with a self-selected "9+", and Letta and Zep are named in it rather than evaluated. **No Sentra product detail, funding, or customer evidence has been captured since May** — which is the real gap on this page and not something the wiki can close without a primary.)*
 
 ## Where to Follow
 
