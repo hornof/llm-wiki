@@ -4,6 +4,7 @@ type: source
 medium: article
 url:
 ingested: 2026-08-25
+local_source: "Daily Briefs/archive/2026-08/2026-08-24.md"
 ---
 
 ## Summary

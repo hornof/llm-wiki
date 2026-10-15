@@ -4,6 +4,7 @@ type: tool
 category: platform
 status: emerging
 last_updated: 2026-08-04
+dormant_since: 2026-10-15
 ---
 
 ## What It Is

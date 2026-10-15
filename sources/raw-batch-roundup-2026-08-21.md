@@ -4,6 +4,7 @@ type: source
 medium: twitter-thread
 url:
 ingested: 2026-08-21
+local_source: "_raw/ (batch; individual drops listed in the body)"
 ---
 
 ## Summary

@@ -4,6 +4,7 @@ type: source
 medium: reddit-post
 url:
 ingested: 2026-08-20
+local_source: "_raw/ (batch; individual drops listed in the body)"
 ---
 
 ## Summary

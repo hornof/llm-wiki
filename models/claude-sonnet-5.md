@@ -3,12 +3,16 @@ name: Claude Sonnet 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-09-28
+last_updated: 2026-10-15
 ---
 
 ## What It Is
 
-**Claude Sonnet 5** is Anthropic's canonical-most-agentic-Sonnet-yet, launched 2026-06-30 as canonical-default-on-Free-and-Pro tier (also canonical-available-to-Max + Team + Enterprise). Canonical-substantial-improvement-over-Sonnet-4.6 on canonical-reasoning + canonical-tool-use + canonical-coding + canonical-knowledge-work. **Canonical-performance-close-to-Opus-4.8-at-lower-prices canonical-positioning-anchor** = first wiki-captured canonical-Sonnet-tier canonical-approaches-Opus-tier-at-lower-cost canonical-pattern. **Canonical-1M-token-context-window canonical-anchor** + **canonical-January-2026 knowledge-cutoff** (per canonical-leaked-specs).
+**Claude Sonnet 5** launched **2026-06-30** as Anthropic's **default model on the Free and Pro tiers** (also available to Max, Team and Enterprise). Anthropic's own framing is *"our most agentic Sonnet yet"*, with substantial gains over Sonnet 4.6 on reasoning, tool use, coding and knowledge work.
+
+**The positioning claim is the one that mattered: performance close to Opus 4.8 at lower prices.** That is the first instance the wiki captured of **a Sonnet-tier model approaching the Opus tier at a Sonnet-tier cost** — a pattern that has since repeated across the whole market and now has its own page at [[ai-margin-collapse]].
+
+**A 1M-token context window** and a **January 2026 knowledge cutoff** are both from leaked specs rather than official confirmation.
 
 ## Sonnet 5.5 (2026-09-28)
 
@@ -24,47 +28,49 @@ last_updated: 2026-09-28
 
 ## Strengths & Weaknesses
 
-**Canonical-strengths** (per Anthropic canonical-direct-voice + early-access-partner canonical-feedback):
+**Strengths**, per Anthropic and early-access partners:
 
-- **Canonical-most-agentic-Sonnet-yet canonical-positioning**: canonical-plans + canonical-uses-tools (canonical-browsers + canonical-terminals canonical-explicitly-named) + canonical-runs-autonomously-at-larger-model-level-from-months-ago.
-- **Canonical-checks-its-own-output-without-being-asked canonical-self-verification feature** = canonical-verifier-discipline canonical-vendor-tier canonical-implementation.
-- canonical-finishes-complex-tasks-where-previous-Sonnets-stopped-short canonical-anchor.
-- canonical-agentic-work-at-attractive-price-point canonical-anchor.
+- **The most agentic Sonnet to that point** — it plans, uses tools (browsers and terminals are named explicitly), and runs autonomously at a level previously seen only in larger models.
+- **It checks its own output without being asked.** That is **self-verification shipped as a model feature rather than built in the harness**, which is why this page is cross-referenced from [[loop-engineering]] — the verifier discipline that page argues for, implemented one layer down.
+- It finishes complex tasks where previous Sonnets stopped short.
+- Agentic work at an attractive price point.
 
-**Canonical-weaknesses**: verification-pending canonical-benchmark-results canonical-vs-Sonnet-4.6 + canonical-vs-Opus-4.8 canonical-comparison.
+**Weaknesses**: none measured. **No benchmark results against Sonnet 4.6 or Opus 4.8 were ever captured** — the entire strengths list above is vendor and partner testimony.
 
 ## When to Use It
 
-- **Canonical-default canonical-tier**: canonical-default on Free + Pro = canonical-most-Claude-users canonical-direct-substrate.
-- **Canonical-agentic-workflows**: canonical-plans + canonical-tools-use (browsers + terminals) + canonical-autonomous-execution canonical-use-cases.
-- **Canonical-Loop-Engineering canonical-substrate**: canonical-self-verification feature canonical-aligns with canonical-Loop-Engineering canonical-verifier-discipline canonical-cluster.
-- **Canonical-introductory-pricing-through-August-31 canonical-promotional-anchor** (canonical-discounted canonical-rates verification-pending).
+- **As the default.** It is the default on Free and Pro, so it is the substrate most Claude users are actually on.
+- **For agentic work** — planning, tool use against browsers and terminals, autonomous execution.
+- **Where self-verification matters.** The built-in output-checking makes it the natural substrate for the [[loop-engineering|verifier-discipline]] patterns the wiki tracks.
 
 ## Community Sentiment
 
-- **Anthropic canonical-direct-voice canonical-launch-positioning**: *"our most agentic Sonnet yet"* (canonical-Anthropic canonical-X-tweet 2026-06-30).
-- **Early-access-partner canonical-feedback**: *"finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its agentic work at an attractive price point."*
+Anthropic at launch: *"our most agentic Sonnet yet"* (2026-06-30).
+
+An early-access partner: *"finishes complex tasks where previous Sonnets stopped short, **checks its own output without being asked**, and does all its agentic work at an attractive price point."*
+
+**Thin, and all of it from the launch window.** No independent evaluation was captured then or since.
 
 ## Compared To
 
-- **Vs. [[claude-fable-5|Claude Fable 5]]**: canonical-default-tier (Sonnet 5) vs canonical-flagship-tier (Fable 5; canonical-Mythos-class).
-- **Vs. canonical-Claude-Opus-4.8**: canonical-performance-close-to-Opus-4.8-at-lower-prices canonical-positioning-anchor (canonical-tier-approaching canonical-cost-advantage canonical-pattern).
-- **Vs. [[gpt-5-6|GPT-5.6]] (OpenAI)**: canonical-2-vendor canonical-1-week canonical-frontier-model-launch canonical-cluster (Anthropic Sonnet 5 Jun 30 + OpenAI GPT-5.6 Sol+Terra+Luna Jun 26); canonical-Anthropic canonical-2-tier (default + flagship) vs canonical-OpenAI canonical-3-tier (Sol + Terra + Luna) canonical-launch-strategies.
+- **[[claude-fable-5|Claude Fable 5]]** — the flagship tier to this model's default tier.
+- **Claude Opus 4.8** — the comparison the launch positioning rested on: *close performance at lower prices.* **Never benchmarked here.**
+- **[[gpt-5-6|GPT-5.6]]** — launched four days earlier (2026-06-26), making a **two-vendor frontier launch cluster inside one week.** The strategies differed: Anthropic shipped **two tiers** (default plus flagship), OpenAI **three** (Sol, Terra, Luna).
 
 ## Resources
 
-- [[claude-sonnet-5-launch-2026-06-30]] — STRUCTURALLY MAJOR Jun 30 canonical-launch canonical-substantive-anchor
-- [[claude-mythos]] — paired canonical-Anthropic-model-family canonical-cluster
-- [[claude-fable-5]] — paired canonical-Anthropic-flagship canonical-cohort
-- [[gpt-5-6]] — paired canonical-2-vendor canonical-1-week canonical-frontier-model-launch canonical-cluster
-- [[anthropic]] — paired canonical-vendor canonical-launch-source
-- [[claude-code]] — paired canonical-coding-agent canonical-target-substrate
-- [[concepts/loop-engineering]] — paired canonical-self-verification canonical-vendor-tier canonical-implementation
+- [[claude-sonnet-5-launch-2026-06-30]] — the launch, and the substantive source for this page
+- [[claude-fable-5]], [[claude-mythos]], [[claude-opus-5-5]] — the rest of the family
+- [[gpt-5-6]] — the same-week competing launch
+- [[anthropic]] · [[claude-code]] · [[loop-engineering]]
 
-## Verification-Pending
+## Verification-pending
 
-- Anthropic canonical-Sonnet-5 canonical-pricing-tier canonical-specific-anchor (canonical-input + canonical-output canonical-per-token canonical-introductory + canonical-post-Aug-31 canonical-rates)
-- Sonnet 5 canonical-benchmark-results canonical-vs-Sonnet-4.6 + canonical-vs-Opus-4.8
-- Canonical-1M-token-context-window canonical-leak canonical-source-corroboration (canonical-leaked-vs-canonical-officially-confirmed)
-- Canonical-early-access-partners canonical-roster + canonical-specific-customer-testimonials
-- Canonical-Sonnet-5 canonical-self-verification canonical-mechanism canonical-detail (canonical-built-in vs canonical-prompted)
+- **Pricing** — per-token input and output rates, introductory and post-2026-08-31.
+- **Benchmarks against Sonnet 4.6 and Opus 4.8.** The page's central positioning claim has never been checked.
+- **The 1M context window and January 2026 cutoff** are leaked, not confirmed.
+- **How the self-verification works** — built into the model, or prompted by the harness? This is the most interesting open question here, because the answer decides whether it belongs on [[loop-engineering]] as a model property or a harness one.
+- Early-access partner roster.
+
+> [!note] Rewritten 2026-10-15
+> The 2026-09-28 version carried **28 instances of `canonical-` filler** from an automated pass. Content preserved, prose rewritten; one path-form wikilink (`[[concepts/loop-engineering]]`) corrected to slug-form. See lint rule 7.

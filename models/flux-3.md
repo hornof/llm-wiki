@@ -4,6 +4,7 @@ type: model
 provider: Black Forest Labs
 status: available
 last_updated: 2026-07-25
+dormant_since: 2026-10-15
 ---
 
 ## What It Is
