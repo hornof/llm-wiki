@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-06-07
+last_updated: 2026-10-15
 ---
 
 ## Definition
@@ -100,6 +100,34 @@ Pairs with [[anthropic-self-service-data-analytics-2026-06-03|Anthropic skill-di
 Pairs structurally with [[import-ai-456-clark-rsi-radical-optionality-2026-05-11|Anton Korinek's RSI growth-regime modeling]] (surfaced via Jack Clark's Import AI 456). Korinek bracketed the **upside** of RSI as an economic-growth-regime shift; Clark's [[import-ai-459-clark-oversight-protein-extinction-2026-06-01|Import AI 459 extinction-risk-pricing]] bracketed the **downside**; this Anthropic Institute publication supplies the **first-party-evidence anchor** for the middle of the framework. **3-leg complete framework**: upside-economic-modeling (Korinek) + downside-risk-pricing (Clark) + first-party-evidence-anchor (Favaro + Clark Institute publication).
 
 Notable: same Clark author on the Korinek surfacing (Import AI 456) + extinction-risk-pricing surfacing (Import AI 459) + RSI position paper (this). **Anthropic Institute is operating as Clark's first-party-data-publication surface in parallel with Import AI as his curation surface.**
+
+## Four months on: RSI stopped being a thesis and started being a line item (2026-09/10)
+
+**This page was last updated 2026-06-04 and the surrounding argument has moved.** Flagged by the 2026-10-15 lint, which found concept pages had never been staleness-checked at all.
+
+**The change is in kind, not degree. In June this page recorded RSI as a forecasting question** — three scenarios, a slowdown mechanism, skeptics on time and multiplicity bottlenecks. **Since September it has been showing up as something a named party is reportedly doing:**
+
+- **"Zhipu starts an outer RSI loop"** — Import AI 474, running in the briefs from 2026-09-28 ([[dailybrief-roundup-2026-09-28]]). **The phrase *outer* loop is the load-bearing part**: it describes improvement at the harness and training-pipeline layer, which is the only layer where anyone has actually demonstrated it. **Contents never captured; the wiki has a headline.**
+- **AI leaders including Hinton warn self-improving models could trigger an "intelligence explosion"** (white paper, 2026-09-28). **Recorded on [[frontier-ai-governance]] as a coordination artifact rather than an argument** — it carries signatories and no mechanism, threshold or commitment.
+- **Import AI 476** returns to RSI directly (2026-10-14). Also uncaptured.
+- **Noam Brown on agent swarms and RSI** (Dwarkesh, 2026-09-20) — second appearance, still an unpaged create-candidate.
+
+> **The juxtaposition worth keeping, because it arrived in a single day's brief**: a warning about recursive self-improvement and a report of a named lab building one, on 2026-09-28. **The wiki holds neither primary.**
+
+### What the wiki can actually evidence, and it is the outer loop
+
+**Nothing in the record shows a model improving its own weights. Two things show systems improving their own surrounding machinery, which is this page's "outer loop" and the only version with receipts:**
+
+- **A model improved its own harness.** OpenAI at DevDay: *"our models helped optimize the harness we use for Computer Use"*, yielding **a 2× latency win shipped to all users** ([[willison-openai-devday-2026-live-blog-2026-09-29]]).
+- **A skill improved itself against its own eval.** Anthropic's `claude-api` skill went **66% → ~88% over 24 rounds** of hillclimbing on an eval derived from its own documentation ([[anthropic-automating-eval-design-hillclimbing-2026-09-28]]) — **and the most interesting round made no edit at all**, sorting failures by cause and finding that the *grader* was wrong.
+
+**Both are improvement loops with a human-defined objective and a held-out test.** That is the distinction this page should now draw sharply: **the demonstrated systems improve a harness against a fixed target; the forecast systems improve themselves against an open one.** The gap between those is not a matter of scale.
+
+### And the skeptics' bottlenecks have held
+
+The June section below records Jeffries and LeCun on **time** and **multiplicity** bottlenecks. **Nothing since has dislodged either, and one 2026 finding sharpens the time one**: OpenAI's own figures put **8–16-hour tasks at zero human interventions at 35%, up from 10% in six months** ([[willison-openai-devday-2026-live-blog-2026-09-29]]). **Real progress — and 65% of long tasks still needed a person.** A loop that needs a human two times in three is not self-improving.
+
+*(Every item in this section is a headline or a vendor claim. Import AI 474 and 476 were never fetched; the Hinton paper was not fetched; the Zhipu claim has no primary. **This section records that the discourse moved, not that the capability arrived.**)*
 
 ## Related Concepts
 

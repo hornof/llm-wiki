@@ -2,7 +2,7 @@
 name: End of Finetuning
 type: concept
 maturity: emerging
-last_updated: 2026-06-07
+last_updated: 2026-10-15
 ---
 
 ## Definition
@@ -41,6 +41,31 @@ If the default abstraction layer for "make the model behave the way I want" move
 [[nando-de-freitas-unified-causal-agent-training-2026-06-06|Microsoft VP of AI Nando de Freitas]] proposes **replacing the SFT + RLHF pipeline with unified continual interactive causal agent training**. **First wiki-captured senior-vendor proposal that operationally extends the end-of-finetuning thesis** — if SFT+RLHF collapses into single causal-agent learning loop, the *"top 1% still RLFT"* exception narrows further.
 
 Pairs with [[anthropic-self-service-data-analytics-2026-06-03|Anthropic data-analytics skill-discipline]] + [[nvidia-nemotron-3-ultra-550b-2026-06-04|NVIDIA multi-teacher distillation]] as the **3-vendor 4-day post-training-methodology debate cluster**. Pattern: post-training methodology is now load-bearing competitive surface — each vendor stakes out a distinct framing of how to move past pipeline-fragmented SFT+RLHF.
+
+## Four months on: the thesis holds for applications and broke for one narrow class (2026-09/10)
+
+**Last updated 2026-06-07; flagged by the 2026-10-15 lint, which found concept pages had never been staleness-checked.** The verdict since is mostly favourable to this page, with one clean exception.
+
+### Confirmed, from the demand side
+
+**The enterprise-ask taxonomy the wiki holds ranks fine-tuning ninth of ten** — practitioner demand corroborating the thesis from the buy side rather than the build side. **Nothing in September or October reversed that**, and the dominant 2026 patterns are all prompt-, harness- and eval-layer: `CLAUDE.md` rules, skills, hillclimbing against an eval, model tiering by phase. **None of them touches weights.**
+
+**And the canonical alternative got productised.** [[anthropic-automating-eval-design-hillclimbing-2026-09-28|Anthropic shipped `build-eval` and `hillclimb`]] as skill sub-commands: *"improve your application against it, one change at a time, with a held-out set of examples to catch overfitting."* **That is the replacement for fine-tuning stated as a tool** — iterate the prompt, the skill, the tool descriptions, the model choice and the effort level, against a measured objective. **The surfaces it tiers over are explicitly "text, such as prompts and skills"**, chosen because they are *"easy to change and revert."*
+
+### The exception: tiny models fine-tuned for one mechanical task
+
+**One class of fine-tuning not only survived but beat frontier models on its own task:**
+
+| System | What | Result |
+|---|---|---|
+| **Arch-Router** (Katanemo) | **1.5B, fine-tuned for one job**: read a conversation, compare against route descriptions, emit JSON | **beat Claude 3.7 Sonnet on routing accuracy, 28× faster** ([[pachaar-llm-routing-can-cost-more-2026-09-06]]) |
+| **[[jev\|Jev]]** (TypeSafe) | a decision model trained with RLCD so confidence tracks accuracy | within **3 points** of a frontier judge at **0.36% of the fee** ([[jev-as-a-judge-arxiv-2609-26550]]) |
+
+**The stated reason is the useful part, and it is not "fine-tuning is back":** *"routing needs no prose generation, no tool calls, no multi-step reasoning, so **the capability surface is small enough that a tiny model covers it completely.**"*
+
+> **So the refinement this page needs: fine-tuning stopped being the default tool for *applications* and remains the right tool for *primitives*.** If the task has an enumerable answer set and needs no generation, a purpose-trained small model wins on cost and latency by two orders of magnitude. **If the task needs language, the prompt-and-eval stack wins.** The line is not domain or data volume — **it is whether the output space is small enough to specify.**
+
+**And the counter-evidence for the exception is already in the record:** the interface was reimplemented four times in three weeks (a hobby clone, OpenAI's Decisions API, `llama.cpp` scoring options in a single forward pass, Arch-Router), **and only the training is hard to copy.** Which is exactly what this page would predict: **the fine-tuning is the moat precisely because the surface is narrow.** See [[jev]] and [[ai-margin-collapse]].
 
 ## Open Questions / Caveats
 
