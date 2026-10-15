@@ -3,9 +3,14 @@ name: Claude Opus 4.7
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-07-10
+last_updated: 2026-10-15
 dormant_since: 2026-09-20
 ---
+
+> [!update] Three generations behind — added 2026-10-15
+> **The line since this page was written**: [[claude-opus-4-8|Opus 4.8]] (2026-05-28) → [[claude-opus-5|Opus 5]] → **[[claude-opus-5-5|Opus 5.5]]** (2026-09-22). **The note below remains accurate on deprecation status and is three generations out of date on what to actually use.**
+>
+> Added at the 2026-10-15 lint, which found three model pages carrying no successor pointer. **For current recommendations start at [[claude-opus-5-5]].**
 
 > [!note] Lint refresh — 2026-07-10 (superseded as default, but still Active)
 > Reviewed during the 2026-07-10 lint against Anthropic's primary [model-deprecations page](https://platform.claude.com/docs/en/about-claude/model-deprecations):
