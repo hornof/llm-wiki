@@ -3,9 +3,18 @@ name: Claude Opus 4.8
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-07-06
+last_updated: 2026-10-15
 dormant_since: 2026-09-20
 ---
+
+> [!update] Superseded twice — Opus 5 (2026-09) and Opus 5.5 (2026-09-22)
+> **Added at the 2026-10-15 lint, which found that three model pages were generations behind with no successor pointer at all.** This page is cited by **eight pages updated in the past three weeks**, so a reader arriving from any of them had no way to tell two newer models exist.
+>
+> **The line since**: [[claude-opus-5|Opus 5]], then **[[claude-opus-5-5|Opus 5.5]]** on **2026-09-22** — launched the same day as OpenAI's GPT-6 Sol and Luna, **with both labs cutting prices 40–50%** in the wiki's first recorded frontier-on-frontier price war.
+>
+> **Two figures make 4.8 a cost comparison rather than a recommendation.** Opus 5.5 is **~40% cheaper than Opus 5** on typical workloads; and measured directly against this model, [[anthropic-automating-eval-design-hillclimbing-2026-09-28|Anthropic's own hillclimbing example]] moved a support benchmark **from Opus 4.8 at high effort (74.4% accuracy, 4.6¢/ticket) to Opus 5.5 at low effort (87.8%, 1.9¢)** — *"less than half the starting cost"*, partly because **5.5's input and output tokens cost 20% less and its cache reads 60% less.**
+>
+> **`status: available` is retained deliberately**: Anthropic's deprecation page listed the 4.x line as Active with no migration mandate, and nothing captured since contradicts that. **Available is not recommended.**
 
 ## What It Is
 

@@ -3,7 +3,7 @@ name: Andrej Karpathy
 type: person
 affiliation: Anthropic (research group lead, May 2026); Eureka Labs (founder — status post-Anthropic-move unclear)
 signal_sources: [twitter, blog, github, youtube]
-last_updated: 2026-07-27
+last_updated: 2026-10-15
 ---
 
 ## Who They Are
@@ -15,6 +15,11 @@ Building AI education tools at Eureka Labs. Actively vibe-coding and agentic eng
 ## Notable Takes
 - **LLM Wiki pattern**: Raw sources should be "compiled" into a structured wiki — "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase." — [[karpathy-llm-wiki-gist]]
 - **On wiki maintenance**: "Humans abandon wikis because maintenance burden grows faster than value." — [[karpathy-llm-wiki-gist]]
+  > **A vendor turned this into an open standard, and this page was silent on it until the 2026-10-15 lint.** **Google Cloud published [[okf|OKF (Open Knowledge Format)]]** on **2026-06-12** (Apache 2.0): agent memory as a directory of markdown files with YAML frontmatter, *"format, not platform"* — no SDK, no account, no central registry.
+  > **The detail that makes it hard to read as coincidence: OKF reserves `index.md` and `log.md`, for the same purposes the LLM Wiki gist uses them.** Two independent designs arriving at the same two filenames.
+  > **It also supplies the piece his framing leaves implicit.** His schema lives in a per-vault `CLAUDE.md` that *"is co-evolved by you and the LLM over time"*; **OKF replaces that with an org-wide `SPEC.md` plus producer/consumer conventions** — the same pattern with the schema hoisted out of the vault. **And it answers the maintenance-burden line above with tooling rather than discipline**: a BigQuery enrichment agent that drafts concept docs, and a static HTML visualiser that renders any bundle as a graph.
+  > **Where the pattern hits its ceiling is recorded at [[company-brain]]**: markdown brains are *"directionally right"* and **bounded by the single-owner regime** — one owner, one trust boundary, one final arbiter. *"A markdown file can hold information. It does not, by itself, decide who can see it, which ontology applies, whether it is stale, or what happens when two agents update related state at the same time."*
+  > **Instances in the wild**: **[[gstack|Garry Tan's gbrain]]** (email and calendar → git, nightly re-link and staleness flag), **Gorgias Cortex** (**12,000 markdown nodes**, where *"nightly, the questions it got wrong become PRs that fix it"*), and this wiki. *(Per [[femke-plantinga-company-brain-teardown-2026-08-27]], a vendor-authored survey.)*
 - **On schema**: CLAUDE.md is co-evolved by you and the LLM over time — not defined once and frozen — [[karpathy-llm-wiki-gist]]
 - **Software 2.0**: Neural networks are a new kind of software where you specify behavior through data rather than code — predates current LLM wave but predicted its direction
 - **Software 3.0**: "What is the piece of text to copy paste to your agent? That's the programming paradigm." Prompting is programming; the LLM is an interpreter; the context window is your lever. — [[karpathy-vibe-coding-agentic-engineering]]
