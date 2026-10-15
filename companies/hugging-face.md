@@ -1,14 +1,16 @@
 ---
 name: Hugging Face
 type: company
-focus: canonical-open-source-AI-platform canonical-foundation-tier
+focus: open-source AI platform; model and dataset distribution
 status: acquisition-announced-close-unconfirmed
 last_updated: 2026-10-15
 ---
 
 ## What It Is
 
-**Hugging Face** is a canonical-open-source-AI-platform canonical-foundation-tier vendor, founded by **Clément Delangue** (canonical-CEO-direct-voice). Wiki-tracked primarily for canonical-$100M-annual-run-rate canonical-revenue-anchor + canonical-97%-free-user canonical-business-model-data-point (canonical-3% canonical-paid-conversion-rate). **3+ canonical-substantive surfaces** including Jun 25 canonical-$100M-ARR canonical-CEO-direct-voice canonical-anchor.
+**Hugging Face** is the open-source AI platform most of the ecosystem distributes through — model hub, datasets hub, Spaces — founded by **Clément Delangue**.
+
+**The business-model numbers are what the wiki tracks it for, and they are unusual**: a **$100M annual run rate** on a user base that is **97% free**, i.e. a **3% paid conversion rate.** That is a distribution business whose economics look nothing like the labs it distributes for — and it is the context for why a $12.9B acquisition price reads as paying for the ecosystem position rather than the revenue.
 
 ## Traction Signals
 
@@ -22,33 +24,33 @@ last_updated: 2026-10-15
 > **This is the [[anysphere]] trap, and this page is the one still exposed to it.** Anysphere carried *"close unconfirmed"* for **five weeks after the merger actually closed on 2026-08-14** — the wiki only caught it at lint. **The NVIDIA close is now six weeks past confirmation with no close date captured**, and the wiki has no way to check without fetching. **Highest-value verification item on this page**: did the acquisition close, and when? Until then the field is accurate-by-default rather than accurate-by-evidence, which is exactly how the anysphere error happened.
 
 - **2026-09-10: Open Alignment team — Thomas Wolf calls for "100x more transparency and research"** ([[dailybrief-roundup-2026-09-10-neutral]], via Digg): Hugging Face is **staffing a dedicated team for open-model safety and alignment, including cybersecurity**. Notable for its timing on two fronts: it lands mid-[[nvidia|NVIDIA]]-acquisition (below), and in the same window as the [[ai-vulnerability-discovery|OpenAI agent-swarm HF breach]] that put HF's security posture under scrutiny — i.e. the open-weights hub building its own safety function rather than inheriting one from an acquirer. Partial answer to [[jack-clark|Jack Clark's]] *"Why Hugging Face worries me"* ecosystem-concentration argument. Open question: whether decentralized alignment research can match frontier-lab safety programs at scale. *(Secondary reporting; team size, scope and leadership unnamed — verification-pending.)*
-- **2026-09-03: canonical-DEAL-CONFIRMED-AT-$12.9B — "Nvidia confirms it will buy Hugging Face for $12.9 billion"** ([[dailybrief-roundup-2026-09-03]], TechCrunch): the [[nvidia|NVIDIA]] acquisition (talks 08-24 → AINews-reported 08-27, below) is now **officially confirmed** with a precise figure: **$12.9B**. Same-day, [[jack-clark|Jack Clark]]'s [[jack-clark|Import AI 471]] runs *"Why Hugging Face worries me"* on the ecosystem-concentration fallout, and the [[ai-vulnerability-discovery|OpenAI agent-swarm HF breach]] (Ajeya Cotra) puts HF's security posture under scrutiny in the same window. The open governance question (neutral hub vs CUDA-tilt) is unchanged and now live. **Close-timeline / antitrust exposure still pending.**
-- **2026-08-27: canonical-ACQUISITION-CONFIRMED — NVIDIA buys Hugging Face for $13B** ([[dailybrief-roundup-2026-08-27]], AINews/Latent Space, *primary/terms not fetched*): the acquirer for the 08-24 *"$13B talks"* (below) is **[[nvidia|NVIDIA]]**. The compute-substrate vendor acquires the canonical-open-source-model-and-dataset canonical-distribution-hub — the sharpest canonical-instance of NVIDIA's **canonical-substrate-tier → canonical-application-tier canonical-vertical-integration** move (cf. [[nvidia-nemotron-3-ultra-550b-2026-06-04|Nemotron]] open-weights). Canonical-open-question: does NVIDIA keep HF **canonical-neutral/decentralized** or pull it toward canonical-CUDA/proprietary-stack canonical-lock-in. Routes into [[ai-margin-collapse]] (the compute layer consolidating the open-weights *distribution* surface, not just the silicon). Lands same-day as [[ai-vulnerability-discovery|OpenAI's HF-security-incident retro]] — the AINews pairing reads as *"incumbent labs now learning failure modes from open-source infra."* **Deal terms/close-timeline canonical-verification-pending.**
-- **2026-08-24: STRUCTURALLY MAJOR canonical-$13B canonical-acquisition-talks canonical-signal** ([[dailybrief-roundup-2026-08-24]], TechCrunch, *primary not fetched; reported talks not closed*): Hugging Face **reportedly in talks to be acquired for $13B** — the largest canonical-ecosystem-layer canonical-M&A signal wiki-captured. Daily Brief read: *"a $13B offer means the acquirer sees open-source model distribution as **infrastructure, not a moat-breakable feature**"*; founder hesitation framed as a **community-vs-exit** tension (*"the real value isn't the models — it's the community lock-in and dataset velocity"*). Prices the [[hugging-face|$100M-ARR / ~half-the-Fortune-500]] penetration anchors at a canonical-13B-infrastructure-multiple and extends the [[ai-margin-collapse|open-weights-as-infrastructure]] thread. **Acquirer unnamed; deal not closed — canonical-verification-pending.**
+- **2026-09-03: the deal is confirmed at $12.9B — "Nvidia confirms it will buy Hugging Face for $12.9 billion"** ([[dailybrief-roundup-2026-09-03]], TechCrunch): the [[nvidia|NVIDIA]] acquisition (talks 08-24 → AINews-reported 08-27, below) is now **officially confirmed** with a precise figure: **$12.9B**. Same-day, [[jack-clark|Jack Clark]]'s [[jack-clark|Import AI 471]] runs *"Why Hugging Face worries me"* on the ecosystem-concentration fallout, and the [[ai-vulnerability-discovery|OpenAI agent-swarm HF breach]] (Ajeya Cotra) puts HF's security posture under scrutiny in the same window. The open governance question (neutral hub vs CUDA-tilt) is unchanged and now live. **Close-timeline / antitrust exposure still pending.**
+- **2026-08-27: acquisition confirmed — NVIDIA buys Hugging Face for $13B** ([[dailybrief-roundup-2026-08-27]], AINews/Latent Space, *primary/terms not fetched*): the acquirer for the 08-24 *"$13B talks"* (below) is **[[nvidia|NVIDIA]]**. The compute-substrate vendor acquires the open-source model and dataset distribution hub — **the sharpest instance of NVIDIA moving from the substrate tier into the application tier** (cf. [[nvidia-nemotron-3-ultra-550b-2026-06-04|Nemotron]] open-weights). Open question: does NVIDIA keep HF **neutral and decentralised** or pull it toward a CUDA-proprietary stack lock-in. Routes into [[ai-margin-collapse]] (the compute layer consolidating the open-weights *distribution* surface, not just the silicon). Lands same-day as [[ai-vulnerability-discovery|OpenAI's HF-security-incident retro]] — the AINews pairing reads as *"incumbent labs now learning failure modes from open-source infra."* **Deal terms/close-timeline verification-pending.**
+- **2026-08-24: reported $13B acquisition talks** ([[dailybrief-roundup-2026-08-24]], TechCrunch, *primary not fetched; reported talks not closed*): Hugging Face **reportedly in talks to be acquired for $13B** — the largest ecosystem-layer M&A signal the wiki had captured. Daily Brief read: *"a $13B offer means the acquirer sees open-source model distribution as **infrastructure, not a moat-breakable feature**"*; founder hesitation framed as a **community-vs-exit** tension (*"the real value isn't the models — it's the community lock-in and dataset velocity"*). Prices the [[hugging-face|$100M-ARR / ~half-the-Fortune-500]] penetration anchors at a $13B infrastructure multiple and extends the [[ai-margin-collapse|open-weights-as-infrastructure]] thread. **Acquirer unnamed; deal not closed — verification-pending.**
 - **2026-07-09/11: Delangue "open source AI matters more than ever" — half the Fortune 500 on HF models** ([[dailybrief-roundup-2026-07-11]], TechCrunch podcast, *primary not fetched*): Clément Delangue reiterates open-source momentum, claiming **~half of the Fortune 500 use Hugging Face models**. Enterprise-penetration data point extending the [[dailybrief-roundup-2026-06-25|Jun-25 $100M-ARR / 97%-free-user]] business-model anchor; pairs with the [[ai-margin-collapse|open-weights ecosystem]] thread.
-- **2026-06-25: canonical-$100M-ARR + 97%-free-user canonical-business-model-data-point** ([[dailybrief-roundup-2026-06-25]]) — Clément Delangue canonical-CEO-direct-voice 1st substantive surface; first wiki-captured Hugging Face canonical-revenue canonical-anchor.
-- **2+ prior canonical-substantive surfaces** as canonical-open-source-AI-platform canonical-foundation-tier reference (model-hub + datasets-hub canonical-substrate canonical-anchor across multiple practitioner walkthroughs).
+- **2026-06-25: $100M ARR on a 97%-free user base** ([[dailybrief-roundup-2026-06-25]]) — Delangue's own figures, and the first Hugging Face revenue anchor the wiki held. **The 3% conversion rate is the number worth remembering**: it is what makes the later $12.9B price a bet on position rather than on earnings.
+- **Two or more earlier surfaces** as the recurring model-hub and datasets-hub reference across practitioner walkthroughs.
 
 ## Key People
 
-- **Clément Delangue** — canonical-CEO + canonical-co-founder; canonical-direct-voice on Jun 25 canonical-$100M-ARR canonical-anchor. Verification-pending canonical-bio + canonical-prior-affiliations.
+- **Clément Delangue** — CEO and co-founder; the source of the Jun 25 revenue figures. *(Bio and prior affiliations uncaptured.)*
 
 ## How to Use It
 
-- canonical-model-hub canonical-substrate (canonical-open-weights canonical-model canonical-distribution-tier).
-- canonical-datasets-hub canonical-substrate.
-- canonical-Hugging-Face-Spaces canonical-hosting-tier.
-- canonical-Hugging-Face-Pro canonical-paid-tier (3% canonical-conversion-rate per Jun 25 canonical-data-point).
+- **Model hub** — the open-weights distribution layer.
+- **Datasets hub.**
+- **Spaces** — hosting for demos and apps.
+- **Pro** — the paid tier, converting 3% of users per the Jun 25 figures.
 
 ## Compared To
 
-- **Vs. [[allenai|Ai2/Allen Institute]]** canonical-fully-open-source-frontier-research canonical-positioning: Hugging Face canonical-canonical-distribution-platform canonical-positioning vs Ai2 canonical-research-creator canonical-positioning.
-- **Vs. canonical-Chinese-open-source-AI canonical-cluster** ([[z-ai|Z.ai]] + Alibaba-NLP + DeepSeek): Hugging Face canonical-Western canonical-distribution-platform canonical-substrate for canonical-Chinese-open-weights canonical-models.
-- **Vs. [[github]]**: Hugging Face canonical-AI-model-and-dataset canonical-distribution vs GitHub canonical-code-and-collaboration canonical-distribution.
+- **[[allenai|Ai2 / Allen Institute]]** — fully-open-source frontier *research* against Hugging Face's *distribution*. **Creator versus platform**, which is the distinction that makes the NVIDIA acquisition matter: buying the platform reaches every creator at once.
+- **The Chinese open-weights cluster** ([[z-ai|Z.ai]], Alibaba-NLP, [[deepseek|DeepSeek]]) — **Hugging Face is the Western distribution channel for models built outside the West**, which is the fact that gives [[jack-clark|Jack Clark's]] ecosystem-concentration worry its force.
+- **[[github]]** — models and datasets against code and collaboration. The structural analogy the $12.9B price implicitly invokes.
 
 ## Resources
 
-- [[dailybrief-roundup-2026-06-25]] — Jun 25 canonical-$100M-ARR + 97%-free-user canonical-anchor + Clément Delangue canonical-CEO-direct-voice 1st substantive surface
-- [[allenai]] — paired canonical-open-source-AI canonical-vendor canonical-cluster
-- [[z-ai]] — paired canonical-Chinese-open-source-AI canonical-vendor (canonical-distribution-substrate cohort)
-- [[alibaba]] — paired canonical-open-source-research-tier canonical-cohort (Alibaba-NLP)
+- [[dailybrief-roundup-2026-06-25]] — the $100M ARR and 97%-free-user figures, from Delangue
+- [[allenai]] — the open-source research counterpart
+- [[z-ai]] — a major publisher of models distributed through HF
+- [[alibaba]] — Alibaba-NLP, same cohort
