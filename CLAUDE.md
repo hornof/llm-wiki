@@ -348,7 +348,12 @@ When asked to lint or health-check the wiki:
 4. Check that every `tools/` page has a non-empty Traction Signals section.
 5. Flag any contradictions found across pages (e.g., tool listed as `emerging` in one place and `mainstream` in another).
 6. Scan `_raw/` for files not referenced by any `sources/` page — flag as unprocessed drops or deletable empties.
-7. **Scan entity pages for machine-artifact prose.** Grep for `canonical-` and other automated-pass filler. Report the count and the worst offenders by occurrence.
+7. **Scan for machine-artifact prose.** Grep for `canonical-` and other automated-pass filler. Report the count and the worst offenders by occurrence.
+
+   **Scan `index.md` too, and rank by readership rather than by raw count.** Two scoping errors were made the first time this rule ran (2026-10-15):
+
+   - **`index.md` was never scanned**, because the sweep covered only entity directories. It held **406 instances — more than any entity page** — in the file a reader or agent opens *first*. **Include `index.md` and `log.md`; exclude `meta/` (lint reports and log archives are a historical record, ~5,700 instances, and rewriting them would falsify what past passes actually said).**
+   - **Ranking by raw count sent the first batch to the wrong pages.** Rank by **instances × inbound links**: `concepts/loop-engineering` had 42 instances and **405 inbound** (impact 17,010) while `companies/microsoft` had **127** instances and 22 inbound (2,794). Neither of the two highest-impact pages appeared in a worst-ten-by-count list.
 
    **Why this rule exists:** a page can pass every structural check above — valid links, fresh dates, complete frontmatter, non-empty sections — **and still be unreadable.** On 2026-10-02 the owner rewrote `tools/antigravity.md`, leaving the note *"the 2026-06-29 version was corrupted with 'canonical-' filler from an automated pass."* Measured at the 2026-10-15 lint: **74 entity pages affected**, worst `concepts/okf.md` at 46 occurrences. **Two lints reported it as an aside and no rule detected it**, because it is not a link, a date, a gap or an empty section. **This is the only rule that asks whether the prose is prose.**
 
@@ -360,6 +365,8 @@ When asked to lint or health-check the wiki:
 ### Lint tooling notes
 
 **Strip code spans before extracting wikilinks.** The 2026-10-15 lint reported 3 dangling links on entity pages; all three were false positives — `[[wikilink]]` and `[[Page Name]]` inside backtick spans on `tools/obsidian.md` (documentation of the syntax), and `[[cursor]]` inside `companies/anysphere.md`'s merge note. **Every earlier lint that counted dangling links over-reported, including the "4 dangling targets on entity pages" figure from 2026-10-03, which was never real.** Remove fenced blocks (` ```…``` `) and inline spans (`` `…` ``) first.
+
+**A mechanical transform is acceptable on `index.md` and nowhere else — and only if you then read every changed line.** `index.md` entries are bulleted noun phrases rather than flowing prose, so stripping the prefix and converting internal hyphens to spaces mostly works. It still produced artifacts that had to be fixed by hand: *"Google multi tier AI product strategy"*, *"3 tier model family"*, *"6 substantive surface 4 day cluster"*, *"300 agent playbook"*. **The transform saves time; it does not remove the obligation to read the result.**
 
 **`local_source:` makes the rule-3a exemption machine-visible.** As of 2026-10-15 all 89 URL-less `sources/` pages carry it, so rule 3a needs no content heuristic. **Rolled-off briefs live at `Daily Briefs/archive/YYYY-MM/YYYY-MM-DD.md`** — point `local_source` there, not at the live directory, or the path dangles once the brief rolls off.
 
