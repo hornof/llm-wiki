@@ -2,7 +2,7 @@
 name: AI-Native Organizations
 type: concept
 maturity: emerging
-last_updated: 2026-10-04
+last_updated: 2026-10-14
 ---
 
 > [!key-insight] Paul Graham foundational framing (2026-05-30)
@@ -48,6 +48,18 @@ From the Grok Bot team's own roster ([[grok-bot-team-own-workflow-roster-2026-08
 **Set against the [[agentic-engineering|cognitive-load convergence]], the two findings are the same cost measured at different points.** Six practitioners report exhaustion from keeping several agents busy; this reports exhaustion from *not trusting* them, resolved by learning to stop looking. **Neither is a capability limit. Both are the human's problem**, and this page has consistently recorded the org-chart changes while recording nothing about what supervising thirty-four agents feels like.
 
 **Treat the productivity claims around it as existence proofs, not measurements**: *"one working prototype a day and his entire input is typing 'yes'"*, and **74 assets shipped out of a tool with no API** — self-reported on launch day, with no quality measure or baseline. **The behavioural observation is the durable part.**
+
+## Meta constrains team size deliberately (Alexandr Wang, 2026-10-11)
+
+Relayed secondhand ([[raw-batch-roundup-2026-10-14]], @MarioNawfal): Wang credits **Musk** with the lesson that *"you don't necessarily need thousands of engineers to move fast. You need **a small group of exceptionally talented people, very little hierarchy, and the freedom to get things done**"* — and brought it to Zuckerberg, *"who embraced it as a central part of their approach to AI."*
+
+**The substance is the oldest idea in software management and this page should say so.** Small teams, flat hierarchy, autonomy — this is Brooks, the two-pizza rule, and every engineering-org essay since 1975. ***"At some point, adding more people stops making you faster"* was true before transformers.** **What would be new is evidence that AI changes the optimal team size**, which is exactly this page's subject and exactly what the item does not provide.
+
+**Where it earns a line: [[meta|Meta]] is the largest-resource counterexample available.** An organisation with effectively unlimited headcount **choosing** to constrain team size is a stronger datapoint than a startup doing it from necessity — and it sits against this page's own instantiations, which are mostly small companies reporting that agents let them stay small. **Meta is not staying small; it is deliberately not scaling the AI org with its means.**
+
+**It also confirms Wang's title**, which the wiki declined to assert on 2026-09-27 when his Muse manifesto was folded (*"role/affiliation deliberately not asserted; unverified here"*). **Thin confirmation** — a Nawfal summary is not a primary — but a second surface pointing the same way.
+
+*(Third-party relay of a secondhand attribution; no venue, no numbers, no team sizes.)*
 
 ## One company-wide agent, or ten specialists? (2026-10-03)
 

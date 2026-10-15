@@ -3,7 +3,7 @@ name: Garry Tan
 type: person
 affiliation: Y Combinator (President & CEO)
 signal_sources: [yc-rfs, twitter]
-last_updated: 2026-09-25
+last_updated: 2026-10-14
 ---
 
 ## Who They Are
@@ -18,6 +18,10 @@ President and CEO of Y Combinator. Long-time YC presence (former YC partner, the
 Running YC. Public-facing leadership signal-posting on AI, startup ecosystem, and the YC RFS. Internal "G-Brain" concept (referenced by [[tom-blomfield]] in the Company Brain RFS) suggests Garry is also actively workshopping the personal/organizational-memory pattern at YC scale.
 
 - **2026-08-12/13 — "The New Rules for Founders" (a16z, full transcript)** ([[garry-tan-new-rules-for-founders-a16z-2026-08-13]]; clip: [[raw-batch-roundup-2026-08-12-a16z]]): Tan's AI-era-founder thesis. **"400× yourself"** — the experienced 35-45yo *"who's been around the block… suddenly there's 400 of those people, you can outperform an entire department of any Mag 7"* (exemplar [[peter-steinberger]]); receipt: *"zero to $15M ARR in 4 months, 2-3 people, a few hundred skill files."* **"A markdown file is an employee"** — skillify every repeated task into markdown+code+tests+cron (his G-Brain / Garyslist / G-Stack builds). **Token-max to "live in 2028 today"** — run [[openclaw|OpenClaw]]/Hermes at full effort (~$50-100K/yr). **"AI erases the API line"** (vs Venkatesh Rao's above/below); **agents as the middle-management layer**; the **"harness wars"** (predicts 2027); and the *"everything is slower than you think"* white pill. The constructive inverse of the CTO/VPE-squeeze — see [[engineering-leadership-ai-era]], [[ai-native-organizations]].
+
+- **"Be profitable and run your company with maximal agentic loops" (2026-10-12)** ([[raw-batch-roundup-2026-10-14]]): *"You don't need to sell more of your co anymore. **$10M profit per year reinvested is like an annual Series A, no dilution.** The best startups do this now. No whinging about the Series A/B crunch. You don't need saving."* **YC's president arguing founders do not need outside capital, which is notable given the job.**
+  > **It is the financial completion of his own [[gstack|skills-as-labor]] thesis**: *"a markdown file is an employee"* plus *"400× yourself"* means headcount — **the thing a Series A mostly buys** — stops being the constraint, so the round becomes optional. **The arithmetic is doing more work than it admits**: $10M of profit is the cash a round provides and none of the rest — signalling, hiring pull, customer confidence, and **the ability to spend ahead of revenue**, which is the point of venture capital. A profitable company reinvesting $10M has $10M; a company that raises it **has not yet had to earn it.**
+  > **And it only applies to businesses that can be profitable early** — conspicuously not the class carrying the frontier-model spend this wiki documents. **Against [[pachaar-llm-routing-can-cost-more-2026-09-06|Uber's annual AI budget vanishing by April]] and [[berriai-moyai-self-hosted-coding-agent-2026-10-07|$101,872 in 31 days]], "maximal agentic loops" has a cost structure he does not price here.** *(X post; no companies named, no evidence for "the best startups do this now.")*
 
 ## Notable Takes
 

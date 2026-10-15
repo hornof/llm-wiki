@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-11
+last_updated: 2026-10-14
 ---
 
 ## Definition
@@ -14,6 +14,18 @@ last_updated: 2026-10-11
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### A vendor funds the institute that measures its customers' models (2026-10-14)
+
+**[[nvidia|NVIDIA]] pledges $250M in computing for UK AI safety research** ([[dailybrief-roundup-2026-10-14]]).
+
+**The recipient is the interesting part.** The UK AI Security Institute is the body this page records as **the first third-party to publish a capability rate on a named production model** — [[gpt-6-astra|GPT-6 Astra at 29.2%]] on simulated supply-chain attacks. **NVIDIA now funds its compute.**
+
+**That is a real contribution and a real conflict, and both belong on the record.** Safety evaluation is compute-bound, and $250M of it buys measurements that would not otherwise exist. **It also means the institute whose independence is the source of its value now depends on a vendor whose revenue comes from the labs it evaluates.** The pattern is familiar from [[arena|Arena's]] venture-funded Alignment Index — **but a national institute taking vendor compute is a sharper version**, because its authority rests specifically on not being industry.
+
+**Note what it completes.** In sixteen days NVIDIA has shipped **the enforcement layer** (OpenShell + Sentry), and now **funded the measurement layer.** On 09-30 this page recorded *"enforcement from a vendor, measurement from a government, in the same seven days"* as a healthy division. **That division is now partly collapsed**, and the collapsing party is the one selling the hardware both layers run on.
+
+*(Brief headline only; no terms, duration, governance arrangement, or whether the compute is earmarked. No AISI statement captured, and whether this touches evaluation work or unrelated research is exactly the thing that would settle how much it matters.)*
 
 ### "An emergency brake" — the rhetoric catches up to the product (2026-10-10)
 
