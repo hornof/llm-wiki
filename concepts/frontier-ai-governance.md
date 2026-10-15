@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-14
+last_updated: 2026-10-15
 ---
 
 ## Definition
@@ -14,6 +14,20 @@ last_updated: 2026-10-14
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### The first federal enforcement action — FTC demands to both labs (2026-10-15)
+
+**The FTC reportedly issued 50+ page investigative demands to [[openai|OpenAI]] and [[anthropic|Anthropic]] on safety practices** ([[dailybrief-roundup-2026-10-15]], Digg).
+
+**Every instrument on this page until now has been voluntary, executive, diplomatic, or — once — a state asking a court.** AEF-1, the Microsoft code, OpenAI's standards post and training-time framework, the Hassabis standards body, the Hinton letter: all voluntary. The Newsom EO, China's probes, the Pentagon finding: executive. The US–China channel: diplomatic. Florida: litigation without a statute. **An FTC civil investigative demand is none of those. It is a federal agency with existing authority compelling disclosure under law it already has.**
+
+**And the subject matter is the thing this page keeps saying is unmeasured.** Per the brief: *"incident logs, safeguards, **what you actually marketed vs. what you built**."* **That last clause is the mechanism** — the FTC's jurisdiction here is consumer protection, not AI safety, and **the question "did your safety claims match your product" is one it can already answer and already enforce.** Every lab on this page has made public safety claims. **None has had to substantiate them to a regulator.**
+
+**The timing is not coincidental and the sequence belongs on the record.** [[anthropic|Anthropic]] conceded on **10-09** that it cannot reliably control its agents, with three incidents including a false police tip and twenty government form submissions. **Demands landed six days later.** The lesson generalises past this instance: **a published control admission is a disclosure to regulators as well as to practitioners**, which is a cost of candour this page has not previously had to record.
+
+**What it does not yet establish.** A demand is a request for information, not a finding — and the brief's caution is the right one: *"the real test is whether they read the answers or just file them. **Regulatory teeth show up in the follow-up.**"* **The wiki should watch for a consent decree or a closed investigation, and record either.**
+
+*(Digg summary of a report; "reportedly," no docket number, no scope, no statutory basis named, and no confirmation from either lab. "50+ pages" is the only quantitative detail captured.)*
 
 ### A vendor funds the institute that measures its customers' models (2026-10-14)
 

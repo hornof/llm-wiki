@@ -2,7 +2,7 @@
 name: Model-Rendered UI
 type: concept
 maturity: emerging
-last_updated: 2026-10-03
+last_updated: 2026-10-15
 ---
 
 ## Definition
@@ -88,6 +88,18 @@ A 100+ comment r/ClaudeAI thread ([[reddit-claude-beautiful-uis-vs-ai-slop-2026-
 **The copyright question is real and the author's caveat is not a defence.** *"Obviously don't ship someone else's site as your own. Use it as a reference and starting point, then make it yours"* is correct advice that does not change what the tool outputs, which is a working copy of a third party's design. **Recorded as a capability and an open legal question, not a recommendation.**
 
 *(Single self-promoting Reddit post; no adoption figures, not installed, not tested.)*
+
+## Generate-then-commit versus generate-at-runtime (2026-10-10)
+
+A "shapeshifting software" proposal ([[raw-batch-roundup-2026-10-15]]) — applications that rearrange their own UI and workflows from natural-language instruction — **surfaces a distinction this page has been eliding.**
+
+**Everything on this page is the model generating an interface. It has not separated *when*.** [[claude-code|Claude Code]] producing HTML, Adobe's self-assembling websites and the [[reddit-claude-beautiful-uis-vs-ai-slop-2026-09-28|screenshot-critique loop]] are all **generate, then commit** — the artifact lands in a repository and a human can diff it. **Runtime adaptivity is generate-at-runtime: the interface changes in the running system, for one tenant, with no diff.**
+
+**The room's objection is that the second has lost its reason to exist, and the argument is from AI capability rather than against it:** *"Rewriting a codebase is now much faster than 3 years ago thanks to AI, **so why add that extra abstraction layer of doing it at the deployment site if you can directly manipulate the code itself.**"* **The adaptive layer buys immediacy and pays with the diff, the review, the version history and the revert.**
+
+**Which makes the useful version of this page's subject narrower and more defensible**: the model is good at *producing* interfaces and the value of that depends on the output being **inspectable before it ships.** A generated UI you can read is an asset; one that mutates in production is a configuration change nobody reviewed.
+
+**Prior art the room named and the wiki holds nothing on**: *"malleable software"*, generative UI as a research line, and **Smalltalk's runtime-modifiable image** — *"the whole system open for modification at runtime, but with AI as the interface instead of needing to know the language."* **Fetch items.**
 
 ## Related Concepts
 - [[world-models]] — related idea: models that predict and generate environment state rather than tokens
