@@ -3,7 +3,7 @@ name: Claude for Financial Services
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-07-06
+last_updated: 2026-10-15
 dormant_since: 2026-09-20
 ---
 
@@ -41,9 +41,9 @@ The agent set spans investment banking, equity research, accounting, audit, and 
 - **First-day enumeration by third-party amplifiers** — the launch was indexed by name within hours by accounts including @JoshKale (analyst-pyramid framing) and across the Anthropic-product-tracker community ([[joshkale-anthropic-finance-agents-2026-05]] comments tracking which "Claude verticals" have shipped: Code ✅ Cowork ✅ Design ✅ Finance ✅).
 - **Productization signal** — Anthropic is shipping pre-wired agent templates with connectors and subagents, not just guidance docs. Implies internal tooling for vertical agent assembly that may generalize to the next three rumored verticals (healthcare, legal, life sciences).
 - **Calibration from practitioner skepticism** ([[joshkale-anthropic-finance-agents-2026-05]] comments): @pritambasu_'s *"We are still very far from from having great Financial AI. Nowhere close to where coding is"* — useful baseline. Financial-vertical agents are at an earlier maturity than [[claude-code]] in coding, but the launch productizes them at coding's distribution surface.
-- **2026-07-02 canonical-Anthropic canonical-USG-conflict canonical-resolution canonical-DoC-lifts-export-controls-on-Claude canonical-regulatory-friction-removed** ([[dept-of-commerce-lifts-export-controls-on-claude-2026-07-02]]) — canonical-Anthropic canonical-Claude-Financial-Services canonical-regulatory-tail-risk canonical-reduction canonical-milestone. canonical-Claude-Financial-Services canonical-deployment canonical-scope canonical-broader-post-DoC-lift canonical-anchor.
-- **2026-07-02 canonical-Salesforce-through-Claude canonical-4-mention canonical-1-day canonical-agent-target canonical-mainstream-adoption-signal** — canonical-r/mcp canonical-apps-through-Claude canonical-2-Salesforce-mention ([[dailybrief-roundup-2026-07-02]]) + canonical-Salesforce-20-year-Apex canonical-legacy-refactor canonical-Fable-5-success-case ([[fable-good-enough-existential-swe-thread-2026-07-02]]) + canonical-Anthropic canonical-Claude-Financial-Services canonical-adjacent = canonical-first-wiki-captured canonical-Salesforce canonical-through-Claude canonical-agent-target canonical-mainstream-adoption-signal canonical-adjacent-to canonical-Claude-Financial-Services canonical-enterprise-integration-tier.
-- **2026-07-01 canonical-Cursor canonical-FDE canonical-enterprise-deployment canonical-Latent-Space canonical-Jul-1-canonical-real-world-validation** ([[dailybrief-roundup-2026-07-01]]) — canonical-Ng-FDE-vs-AI-Engineer canonical-thesis canonical-real-world-validation canonical-adjacent-to canonical-Claude-Financial-Services canonical-enterprise-tier canonical-deployment canonical-tier canonical-anchor.
+- **2026-07-02 — the Commerce Department lifts export controls on Claude** ([[dept-of-commerce-lifts-export-controls-on-claude-2026-07-02]]). **Regulatory tail risk removed for this product specifically**: a vertical offering sold into banks is the deployment most exposed to export restrictions on the underlying model, so the lift widens the addressable scope rather than just the headline.
+- **2026-07-02 — Salesforce appears through Claude four times in one day** — two Salesforce mentions in the r/mcp apps-through-Claude thread ([[dailybrief-roundup-2026-07-02]]), plus a **20-year Apex legacy refactor** credited to Fable 5 ([[fable-good-enough-existential-swe-thread-2026-07-02]]). **The first mainstream-adoption signal the wiki captured for Salesforce as an agent target**, and it matters here because **the enterprise systems this product has to reach are the same ones practitioners are already reaching through Claude directly.**
+- **2026-07-01 — Cursor's forward-deployed-engineer enterprise motion** ([[dailybrief-roundup-2026-07-01]], Latent Space). **Real-world validation of the [[andrew-ng|Ng]] FDE-versus-AI-engineer thesis**, and the adjacent deployment pattern for anything sold into regulated enterprises — including this one. See [[forward-deployed-engineer]].
 
 ## How to Use It
 
