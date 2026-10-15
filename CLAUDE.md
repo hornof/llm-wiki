@@ -320,7 +320,12 @@ When asked a question about the wiki:
 When asked to lint or health-check the wiki:
 
 1. Scan for orphan pages (no inbound wikilinks).
-2. Scan for stale `last_updated` dates (>60 days) on tool/model pages — **but split them before reporting.** A page is only *stale* if the wiki has fallen behind; if the entity simply hasn't done anything, the old date is honest.
+2. Scan for stale `last_updated` dates (>60 days) on **tool, model, concept and topic** pages — **but split them before reporting, and use the right resurfacing test for the page type.**
+
+   **Concepts and topics were outside this rule until 2026-10-15, and the omission hid a real defect**: `concepts/verifiability-and-jagged-intelligence` was **153 days old with 118 inbound links**, while being actively cited by six pages updated in the preceding week.
+
+   **The source-mention test does not work for concepts.** A company resurfaces by appearing in the news; **a concept resurfaces by being used.** Zero source mentions in 45 days read as dormant while the page was load-bearing in current reasoning. **For `concepts/` and `topics/`, the test is: is it cited by pages that were themselves recently updated?** If several pages updated this week link to it, the concept is live no matter what the briefs said.
+ A page is only *stale* if the wiki has fallen behind; if the entity simply hasn't done anything, the old date is honest.
 
    Test: does the entity appear in any `sources/` page from the **last 45 days**? If **no** → **dormant**, add `dormant_since: YYYY-MM-DD` to its frontmatter and exclude it from the stale count. If **yes** → genuinely **behind**; flag for refresh.
 
