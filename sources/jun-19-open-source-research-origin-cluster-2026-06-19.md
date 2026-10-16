@@ -134,7 +134,7 @@ Pairs structurally with:
 
 ## Pages Updated
 
-- [[slime]] / [[zhipu-ai]] / [[thudm]] — new entity-page candidates (single-source defer; Chinese-open-source RL-scaling-framework canonical-tier extension)
+- [[slime]] / [[z-ai]] / [[thudm]] — new entity-page candidates (single-source defer; Chinese-open-source RL-scaling-framework canonical-tier extension)
 - [[z-ai]] — extends canonical-Chinese-open-source-vendor positioning to RL-scaling-framework-tier (Zhipu AI = closely-affiliated canonical-vendor)
 - [[deerflow-bytedance-ai-employee-launch-2026-06-18]] — paired 3-tier 4-vendor canonical-Chinese-open-source-AI multi-tier canonical-cluster
 - [[chinese-openweights-political-ai-jun-18-cluster-2026-06-18]] — 2-day canonical-Chinese-open-source-vendor multi-tier canonical-extension cluster

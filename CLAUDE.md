@@ -352,6 +352,8 @@ When asked to lint or health-check the wiki:
 
    **`status: available` is not the check.** A two-generations-old model can be legitimately `available` (Anthropic's deprecation page listed the 4.x line as Active with no migration mandate). **Available is not recommended, and the page has to say which it means.**
 
+   **Check the provider's company page too, not only `models/`.** Found 2026-10-16: `companies/anthropic` Products called **Opus 4.7 the "current Opus generation"** five months and four releases later, and `companies/openai` Key Products listed **"GPT-4o / GPT-4 family: flagship LLMs"** with the GPT-6 line already paged. Both sit in the most-linked company pages in the wiki. **A company page's product list is written once at page creation and then only appended to through Traction Signals**, so it freezes at whatever was current then. Grep each lab's product section for model names and compare against its newest `models/` page.
+
 3. Check that every `sources/` page lists at least one updated entity page. **Exempt by design**: `dailybrief-roundup-*` and `raw-batch-roundup-*` (cross-reference indexes into other source pages), and any source whose page explicitly records *why* it updated nothing — e.g. an image-only clipping with untranscribed content. A source that honestly documents having no entity value is correctly authored, not a defect. *(Rule relaxed 2026-09-20; the strict version produced 4 false positives out of 8 flags.)*
 3a. **Check every `sources/` page whose `medium` implies a URL actually has one** (`article`, `twitter-thread`, `reddit-post`, `podcast-episode`, `video`, `paper`, `github-repo`). An unsourced page cited as a primary is worse than a missing page.
 
