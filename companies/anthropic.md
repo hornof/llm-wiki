@@ -55,9 +55,20 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 
 ## Products
 
-- **Claude** — frontier AI assistant (Opus, Sonnet, Haiku tiers, plus the **Mythos** preview line announced May 2026)
-- **Claude Opus 4.7** (GA 2026-04-16; foregrounded at Code w/ Claude 2026 on 2026-05-06) — current Opus generation; same pricing as Opus 4.6 ($5/$25 per M tokens) with 3× production tasks on Rakuten-SWE-Bench, 70% vs. 58% on CursorBench, 21% fewer document-reasoning errors. Ships with [[claude-design]] visual capability built in, plus three new developer-facing primitives: `xhigh` effort level, **task budgets** (public beta), and the **`/ultrareview`** slash command — [[claude-opus-4-7]], [[anthropic-opus-4-7-launch-2026-04-16]], [[willison-code-w-claude-2026]]
-- **Claude Mythos** (preview, surfaced 2026-05) — preview-access model used in Mozilla's Firefox security partnership and Anthropic's Natural Language Autoencoders research; not yet GA. Naming breaks the Opus/Sonnet/Haiku scheme; positioning vs. Opus tier not yet clarified — [[claude-mythos]], [[willison-firefox-claude-mythos-2026-05]]
+- **Claude**: frontier AI assistant. **Model lineup as of 2026-10-16**, newest first, from the wiki's model pages (corrected 2026-10-16; this section had described Opus 4.7 as current for five months):
+
+  | Model | Launched | Role |
+  |---|---|---|
+  | [[claude-opus-5-5\|Opus 5.5]] | 2026-09-22 | current flagship |
+  | [[claude-opus-5\|Opus 5]] | 2026-07-24 | previous Opus; Fable-class capability at Opus pricing |
+  | [[claude-sonnet-5\|Sonnet 5]] | 2026-06-30 | default on Free and Pro |
+  | [[claude-fable-5\|Fable 5]] | 2026-06-09 | first public Mythos-class model |
+  | [[claude-mythos\|Mythos 5]] | restricted | deployed via Glasswing and partners; not public |
+  | [[claude-opus-4-8\|Opus 4.8]] | 2026-05-28 | superseded |
+  | [[claude-opus-4-7\|Opus 4.7]] | 2026-04-16 | superseded; detail below kept as the May 2026 record |
+
+- **Claude Opus 4.7** (GA 2026-04-16; foregrounded at Code w/ Claude 2026 on 2026-05-06). **Superseded**: it was the current Opus generation in May 2026, succeeded by Opus 4.8 on 2026-05-28. Same pricing as Opus 4.6 ($5/$25 per M tokens) with 3× production tasks on Rakuten-SWE-Bench, 70% vs. 58% on CursorBench, 21% fewer document-reasoning errors. Ships with [[claude-design]] visual capability built in, plus three new developer-facing primitives: `xhigh` effort level, **task budgets** (public beta), and the **`/ultrareview`** slash command — [[claude-opus-4-7]], [[anthropic-opus-4-7-launch-2026-04-16]], [[willison-code-w-claude-2026]]
+- **Claude Mythos** (preview, surfaced 2026-05): preview-access model used in Mozilla's Firefox security partnership and Anthropic's Natural Language Autoencoders research. **Positioning resolved 2026-06-09**: Mythos 5 is the restricted tier and [[claude-fable-5|Fable 5]] its public Mythos-class counterpart, both above Opus. Still not publicly available — [[claude-mythos]], [[willison-firefox-claude-mythos-2026-05]]
 - **Claude Code** — agentic coding CLI; see [[claude-code]]
 - **Claude Agent SDK** (announced 2026-05-06) — developer-accessible SDK powering both IDE and Desktop hosts; consolidates the developer surface previously split across product-specific harnesses — [[claude-agent-sdk]]
 - **Anthropic API** — developer access to Claude models
