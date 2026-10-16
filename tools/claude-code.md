@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 
@@ -83,6 +83,31 @@ Skills live at `~/.claude/skills/<name>/SKILL.md` and are invoked as `/<name>`. 
 6. **Under 500 lines**: Use progressive disclosure (sub-files loaded only when referenced)
 
 See [[writing-claude-code-skills]] for a full walkthrough.
+
+## Code Review goes GA, and the team publishes how it reviews (2026-10-15)
+
+**Code Review is generally available on Team and Enterprise** ([[claudedevs-code-review-ga-2026-10-15]]), five months after it was announced as one of the six Code w/ Claude surfaces on 2026-05-06. Admins pick repos and a level (**Quick / Standard / Deep**), and it runs on every new PR with no developer setup. The vendor claims ~3× faster than the research preview. Max plans are excluded, and the top reply complains about exactly that.
+
+**The same day, the team published the process behind it** ([[claude-code-team-code-review-2026-10-15]]), and that post is the more useful of the two. Claude writes ~90% of Claude Code. Merged PRs more than doubled June→September while the revert share fell by 40%+. The stated objective is to minimise human review time *subject to* revert and incident rates not rising. That makes it an optimisation with a guardrail, not a policy that "humans review everything."
+
+| Risk | Example | Human approvals |
+|---|---|---|
+| Low | docs, copy, flagged additive changes | 0 once checks are green |
+| Medium | ordinary product changes, caching, auto-updater, system prompts | 1 |
+| High | highest-risk paths | 2 |
+
+Four rules from the post are worth copying into any team's review policy:
+
+- **The change sets the tier, not the author.**
+- **An agent's approval never counts as a person's**, and **the person who prompted the agent counts as a required reviewer.** That closes the obvious loophole of "my agent wrote it, so I can approve it."
+- **Recurring findings get fixed at the source** in `CLAUDE.md`, skills or lint rules, with a code-owner-written `REVIEW.md` per area.
+- **Past bug-causing PRs become a daily eval set** that every reviewer change is scored against. That is the [[anthropic-automating-eval-design-hillclimbing-2026-09-28|grader-design]] discipline applied to the reviewer itself.
+
+**The convergence finding connects to an outside case that arrived the same day.** About 59% of what the reviewer kept flagging was code that predated the PR, so each round surfaced a few more old bugs and one PR ran 50+ rounds overnight. Anthropic's fixes were a three-round cap, diff-only re-review, flagging bug classes rather than instances, and a `Pre-existing` tag. **[[postgres-19-delayed-llm-review-2026-10-16|PostgreSQL 19]] slipped six to eight weeks and reverted 8–10 features partly because LLM review surfaced "a list of forty defect reports," each a small fix.** That is the same phenomenon without those controls: a reviewer that is good at finding latent bugs turns its output into a triage queue, and the queue rather than the defect sets the schedule. Neither source cites the other. → [[ai-vulnerability-discovery#Finding is cheap, triage is the schedule — Postgres 19 (2026-10-16)|the bottleneck-shift thread]]
+
+**It also fits the reviewer-seat thread.** [[#`/advisor` — a different model in the reviewer seat (2026-09-20)|`/advisor`]] puts a different model in the reviewer seat. This post puts **several agents plus a voting group** there, and only posts findings with enough agreement. That is ensemble review with a precision filter. The companion [[anthropic-redesigning-source-control-2026-10-13|source-control post]] says the remaining weakness is the one this design leaves open: adversarial review works but can be *"myopic,"* so engineers had to steer Claude away from over-engineering against hypothetical concerns.
+
+*(Vendor posts about Anthropic's own process, with internal unaudited figures and no measurement windows on the before/after numbers. The GA speed claim is unbenchmarked. Not tried by the owner.)*
 
 ## `opusplan` — tiering by phase, as a documented flag (2026-10-15)
 
@@ -201,6 +226,9 @@ By June 2026 the practitioner-content register elevates above harness-engineerin
 **19-hour `/goal` receipt** (Ray Amjad via [[bcherny-5-tips-opus-autonomous-2026-06-05]]): *"I just had a goal running for 19 hours which verified almost 300 user flows with Chrome."* Cherny endorses (*"Nice!"*).
 
 ## Resources
+- [[claude-code-team-code-review-2026-10-15]] — how the Claude Code team reviews: seven layers, risk-tiered human approval, incidents-as-evals, review convergence 2.08→1.32 rounds (2026-10-15)
+- [[claudedevs-code-review-ga-2026-10-15]] — Code Review GA on Team/Enterprise; Quick/Standard/Deep per repo; ~3× faster than preview (vendor claim) (2026-10-15)
+- [[anthropic-redesigning-source-control-2026-10-13]] — Scion/Antique replace Git and PRs in Anthropic's monorepo; 2,500 → 30,000+ changes/day May→Sep (2026-10-13)
 - [[mvanhorn-wtf-is-a-loop-2026-06-07]] — Mike Van Horn's *WTF Is a Loop?* synthesis essay; 5-stage Loop Engineering lineage (ReAct → AutoGPT → ralph → /goal → orchestration loops); Cherny WorkOS Acquired Unplugged "I write loops now" framing; IDE-deleted-in-November + 259-PRs receipts; Steve Yegge Gas Town surface; roborev; Uber $1500/person/tool/month cap; Gartner ~17% deployment; 3 production hard stops (June 2026)
 - [[bcherny-5-tips-opus-autonomous-2026-06-05]] — Boris Cherny's 5-tip canonical recipe for running Opus autonomously hours/days; context-rot counter-claim; `/usage` slash-command surfacing; 19-hour `/goal` receipt (Ray Amjad); 5-archetype workload taxonomy
 - [[steipete-loops-engineering-vision-md-2026-06-07]] — Peter Steinberger Loops Engineering coinage + VISION.md primitive disclosure (June 2026)
