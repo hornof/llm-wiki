@@ -243,7 +243,7 @@
 - [[google]] — 3rd US-frontier-AI organization (alongside Anthropic + OpenAI); Google DeepMind + Google Cloud + Gemini + DiffusionGemma; substrate-tier 2-vector diversification strategy (Intel-foundry upstream + SpaceX-compute downstream); Shane Legg 4-pathway AGI framework + Hassabis AGI 2030 ± 1 voices (June 2026)
 - [[intel]] — US-headquartered semiconductor + foundry; 18A node = US-onshoring foundry alternative to TSMC dominance; Google 3M+ TPU procurement commit for 2028 + Nvidia 18A testing validation 2-customer same-week cluster (June 2026)
 - [[pleias]] — European AI lab; Pierre-Carl Langlais CTO; first wiki-captured EU-AI-substrate voice; counter-frames compute-centric EU-AI-policy ("training-skill + ecosystem deficiencies, not compute") (June 2026)
-- [[z-ai]] — Chinese open-weights AI vendor; GLM-5.2 (753B MoE, MIT-licensed open weights); Q1 2027 Chinese-Fable-class prediction-challenge accepted (June 2026)
+- [[z-ai]] — Z.ai (Zhipu AI); Chinese open-weights GLM family; GLM-5.2 (753B MoE, MIT licence) triggered the margin-collapse thesis; GLM-5.3 within two points of Mythos on Anthropic's exploitation test (merged with zhipu-ai 2026-10-16)
 - [[anthropic-public-record]] — Anthropic structural-transparency-disclosure initiative; Jun 12 first-results publication; 4 substantive surfaces across a 4-vendor, 3-week vendor-side AI-control and transparency cluster (June 2026)
 - [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
 - [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
@@ -253,7 +253,6 @@
 - [[github]] — Microsoft subsidiary; Copilot operator + dev-platform-side response to agentic-coding-driven velocity-vs-review mismatch (Daigle)
 - [[microsoft]] — long-established technology vendor + Azure hyperscaler + largest single OpenAI investor + Anthropic Foundry availability + Microsoft AI division; Jul 2 Frontier Co named company launch + $2.5B AI deployment company commitment (4 vendor AI deployment infrastructure parallel strategy cluster with Amazon + OpenAI + Anthropic); Nadella Frontier ecosystem not just frontier model CEO tier strategic thesis + de Freitas Microsoft AI VP research methodology layer (June-July 2026)
 - [[google-deepmind]] — Google's primary AI lab; AlphaFold, Gemini, Math Olympiad gold
-- [[zhipu-ai]] — Z.ai / Zhipu; Chinese lab behind the open-weights GLM family; GLM 5.2 is the first credible open-weights peer to Opus/GPT and the face of open-weights inference-margin pressure (July 2026)
 - [[ineffable-intelligence]] — David Silver's RL-from-self-play lab; $1.1B seed (largest in EU history); London
 - [[isomorphic-labs]] — DeepMind drug-discovery spin-out; AlphaFold 3 lineage applied to therapeutics
 - [[luma-ai]] — multimodal AGI lab; Dream Machine, Uni-1, Luma Agents; $900M Series C; generative unified latent space
