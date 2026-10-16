@@ -3,7 +3,7 @@ name: Reflection AI
 type: company
 focus: open-source frontier AI lab
 status: emerging
-last_updated: 2026-10-06
+last_updated: 2026-10-16
 ---
 
 ## What It Is
@@ -31,6 +31,8 @@ Founded by **Misha Laskin** and **Ioannis Antonoglou** (ex-DeepMind, Gemini). As
 **It lands the same day as [[mistral-ai|Mistral Large 4]] (1T, weights staged to 10-27), which makes the contrast the useful part.** Reflection announced open-weight *at release*; Mistral announced open-weight *in three weeks*. **For a lab whose entire positioning is open-source frontier AI — and which the wiki records leasing $5.4–6.3B of SpaceX compute at ~$150M/month through 2029 — shipping weights immediately is the consistent move**, and the one that costs most.
 
 **Nothing captured beyond the parameter count**: no architecture, no activation sparsity, no benchmarks, no licence. **501B open weights is a large release if the licence is permissive and unremarkable if it is not**, and the wiki does not know which. *(Vendor blog, not fetched.)*
+
+> **Licence question resolved 2026-10-16** ([[dailybrief-roundup-2026-10-16]], Digg): **Beam is available across platforms under Apache 2.0 open weights**, and Reflection says it is also releasing **the tokenizer and Mirror CLI, the open-source harness it used to train Beam.** By this section's own test, a permissive licence makes Beam a large release. **The harness is the more unusual part.** Labs that ship open weights do not usually ship the agent harness used in training. That is the training-time half of the [[domain-specific-harness|harness]] question, which the wiki usually sees only from the inference side. The repo is [`reflection-oss/mirror`](https://github.com/reflection-oss/mirror): a terminal coding agent that reads and edits files, runs commands, and runs parallel tasks in separate worktrees, at **15★ on 2026-10-16** (brief's repo list). It is new, so the star count says nothing yet. *(Digg summary plus the brief's repo entry. Architecture and benchmarks are still uncaptured.)*
 
 ## Investors
 
