@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 ## Definition
@@ -14,6 +14,14 @@ last_updated: 2026-10-15
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### China drafts export controls on 23 AI technologies (2026-10-16)
+
+**China proposed export controls on AI models and chip designs, covering 23 technologies including agents and compute clusters** ([[dailybrief-roundup-2026-10-16]], Digg). **This is the first outbound control from the Chinese side the wiki records.** Until now the page held China as the subject of controls (US chip restrictions) or as a party to coordination (the [[#A bilateral channel — the first mechanism neither side controls (2026-09-26)|09-26 incident channel]]). **A draft export regime is a third posture: China treating its own AI stack as strategic goods.**
+
+**The interesting part is "agents."** Chip and model-weight controls have precedent. **An export control on agent technology has to define what an agent is**, and no instrument on this page has tried. If the final text carries a definition, it will be the first regulatory one the wiki holds from any jurisdiction. → [[reflection-ai]] (the US lab whose positioning is "American open frontier" against Chinese open weights)
+
+*(Digg summary of a draft. No list of the 23 technologies, no thresholds, no timeline, and a draft is not an enacted rule.)*
 
 ### The first federal enforcement action — FTC demands to both labs (2026-10-15)
 

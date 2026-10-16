@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 ## What It Is
@@ -95,6 +95,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-10-13: Anthropic replaced Git for its monorepo with an in-house centralized system (Scion) and replaced PRs with its own review system (Antique)** ([[anthropic-redesigning-source-control-2026-10-13]], via [[simon-willison|Willison]]). The volume is the reason: **~2,500 merged changes/day in May, 30,000+/day in September**, peaking at 30,401 on 2026-09-09. That is ~25M CI checkouts/day against a ~100 GB history, or 600+ PB/day of traffic if fetched naively with Git. A seven-person team migrated in five months. **No offline support, because "the heaviest user is Claude, and Claude is always online."** The agent, not the human, is the user the system was designed for.
+  > **A 12× rise in merged changes in four months, measured by the lab's own infrastructure**, is a harder number than any productivity claim the wiki has so far recorded from a lab's marketing. **It measures throughput, not output.** The companion [[claude-code-team-code-review-2026-10-15|code-review post]] supplies the quality side for one team: Claude Code's merged PRs more than doubled June→September while the revert share fell 40%+. Willison attributes the curve to Fable/Mythos-class models and labels that a guess, since internal availability predates the public release dates on his chart. → [[claude-code]] *(Willison's summary; the Anthropic primary was not fetched.)*
+- **2026-06 (reported 2026-10-16): Anthropic was assigned the highest junk credit rating in June** ([[dailybrief-roundup-2026-10-16]], **FT**, headline only). Recorded for its position against the rest of this section. The wiki holds a $965B Series H, a $16.8bn quarter and an IPO filing, and **a sub-investment-grade rating sits alongside all three.** That is not a contradiction. A credit rating prices debt service and cash-flow risk, not growth, and it is the first outside signal the wiki holds on the **burn rate** that the 2026-09-28 step-5a note lists among the six economics items still uncaptured. *(FT headline via the brief. No agency named, no instrument, no rationale captured. "Highest junk" means the top sub-investment-grade notch, i.e. one step below investment grade.)*
 - **2026-10-15: quarterly revenue up nearly 50% to $16.8bn, told to investors ahead of the IPO** ([[dailybrief-roundup-2026-10-15]], via [[simon-willison|Willison]]). **This is the first revenue figure the wiki holds for Anthropic with a stated period attached**, and the period is the thing that has been missing from every prior number.
   > **It is internally consistent with the record, which is worth stating because so little else has been.** $16.8bn *quarterly* annualises to roughly **$67bn** — close to the **$65bn annualized** the wiki recorded on 2026-08-17 and consistent with the **~$100bn run-rate pace** the Axios clarification described as annualized rather than booked. **A quarterly figure is a different and better object than a run-rate**, because it is a realised period rather than an extrapolation. **Nearly 50% quarter-on-quarter growth is the claim to check**, and the prospectus is where it would be checkable.
   > **Still not from the prospectus.** This is what the company *tells investors*, surfaced by a third party — **and the six economics items flagged on 2026-09-28 as jointly answerable by the filing remain uncaptured**: gross margin, inference cost, burn rate, customer concentration, and the basis for the revenue figures. **Eighteen days after the filing became public, the wiki has executive compensation and a growth rate.** → [[ai-margin-collapse]] *(Willison surfacing an investor communication; no filing citation, no margin, no cost line, and "nearly 50%" has no stated comparison quarter.)*
@@ -215,6 +218,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - 2026-05-28 (PDF published May 6, blog May 14, X-amplifier surge May 27): **The Founder's Playbook — Building an AI-native startup.** 36-page guide mapping Idea / MVP / Launch / Scale stages to AI-native versions with goals, exit criteria, common failure modes, and AI-powered exercises. **Product matrix** for when to use Chat vs Cowork vs Claude Code per stage — first wiki-captured Anthropic-canonical product-matrix. Founder stories from Ambral, Anything, Carta Healthcare, HumanLayer, Vulcan Technologies, others. Cross-cuts the [[ai-roi-gap]] thesis (PMF-vs-hype measurement framework = anti-pattern detector). Pairs with Partner Network + CCA as **three-stack Anthropic-canonical builder enablement**. — [[anthropic-founders-playbook-2026-05]]
 
 ## Resources
+- [[anthropic-redesigning-source-control-2026-10-13]] — Scion (centralized VCS) and Antique (review) replace Git/PRs; 2,500 → 30,000+ changes/day May→Sep 2026
+- [[claude-code-team-code-review-2026-10-15]] — Claude Code team's review process: risk-tiered approvals, incidents-as-evals, convergence fixes
 
 - [[anthropic-constitutional-ai-research]] — CAI research page (Dec 2022)
 - [[anthropic-claudes-constitution]] — Claude's model spec (CC0)
