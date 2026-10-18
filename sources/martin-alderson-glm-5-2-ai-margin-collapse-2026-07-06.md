@@ -8,7 +8,7 @@ ingested: 2026-07-06
 
 ## Summary
 
-Martin Alderson argues that frontier labs run a business model where expensive training is amortized across high-margin inference, and that open-weights models like **GLM 5.2** (from [[zhipu-ai|Z.ai / Zhipu]]) threaten to collapse that inference margin by delivering near-Opus quality at a fraction of the price with near-zero switching cost. Surfaced as a lead headline in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]].
+Martin Alderson argues that frontier labs run a business model where expensive training is amortized across high-margin inference, and that open-weights models like **GLM 5.2** (from [[z-ai|Z.ai / Zhipu]]) threaten to collapse that inference margin by delivering near-Opus quality at a fraction of the price with near-zero switching cost. Surfaced as a lead headline in the [[dailybrief-roundup-2026-07-06|2026-07-06 Daily Brief]].
 
 ## Key Claims / Takeaways
 
@@ -30,5 +30,5 @@ Martin Alderson argues that frontier labs run a business model where expensive t
 
 - [[ai-margin-collapse]] (new)
 - [[glm-5-2]] (new)
-- [[zhipu-ai]] (new)
+- [[z-ai]] (new)
 - [[dailybrief-roundup-2026-07-06]]

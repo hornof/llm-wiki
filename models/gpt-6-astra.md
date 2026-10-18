@@ -3,11 +3,11 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-09-30
+last_updated: 2026-10-16
 ---
 
 > [!update] Line extended — GPT-6 Sol and GPT-6 Luna (2026-09-22)
-> Two more GPT-6 models shipped alongside Astra, the same day as [[claude-opus-5|Claude Opus 5.5]], with **both labs cutting 40–50%** ([[dailybrief-roundup-2026-09-23]]).
+> Two more GPT-6 models shipped alongside Astra, the same day as [[claude-opus-5-5|Claude Opus 5.5]], with **both labs cutting 40–50%** ([[dailybrief-roundup-2026-09-23]]).
 > **The Sol 6.1 pricing, exact (2026-09-30).** Read off the DevDay slide by [[simon-willison|Willison]] ([[willison-openai-devday-2026-live-blog-2026-09-29]]):
 >
 > | | GPT-6.1 Sol | GPT-6 Astra |

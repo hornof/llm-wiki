@@ -10,7 +10,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 
 ## Key Products
 - **ChatGPT**: consumer AI assistant; largest user base in AI applications. **Free tier now ad-supported (May 2026)** — see Traction Signals.
-- **GPT-4o / GPT-4 family**: flagship LLMs
+- **Frontier models, as of 2026-10-16** (corrected 2026-10-16; this line had read "GPT-4o / GPT-4 family: flagship LLMs"): the **GPT-6 line** is current. [[gpt-6-astra|GPT-6 Astra]] (2026-09-08) is the flagship, joined by GPT-6 Sol and Luna (2026-09-22) and **GPT-6.1 Sol** (2026-09-29, "near-Astra intelligence for a fifth of the price"). It superseded [[gpt-5-6|GPT-5.6]] (Sol / Terra / Luna, GA 2026-07). **Watch the tier names**: the GPT-6 line reuses "Sol" and "Luna" from 5.6 for different models. GPT-4o and the GPT-4 family are legacy.
 - **GPT-Image-2**: image generation model (launched April 2026) — [[gpt-image-2]]
 - **OpenAI API**: developer platform; includes Assistants API, Batch API, Files API
 - **Realtime voice API** (May 2026): single-pass voice models with **reasoning + translation** built in; transcription + understanding + generation in one model pass — [[openai-realtime-voice-api-2026-05-08]] (primary not yet ingested, secondary-source synopsis)
