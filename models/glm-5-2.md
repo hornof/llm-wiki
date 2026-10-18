@@ -11,7 +11,7 @@ last_updated: 2026-09-13
 
 ## What It Is
 
-**GLM 5.2** is an open-weights frontier-class model from [[zhipu-ai|Z.ai / Zhipu]], served through providers such as Fireworks. Per Martin Alderson it is "the first model that reaches the bar of a genuine open weights competitor to Opus and GPT" — the first open-weights release credible enough to be a drop-in replacement for closed frontier models on many tasks. See [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]].
+**GLM 5.2** is an open-weights frontier-class model from [[z-ai|Z.ai / Zhipu]], served through providers such as Fireworks. Per Martin Alderson it is "the first model that reaches the bar of a genuine open weights competitor to Opus and GPT" — the first open-weights release credible enough to be a drop-in replacement for closed frontier models on many tasks. See [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]].
 
 ## Strengths & Weaknesses
 
@@ -38,5 +38,5 @@ Cost-sensitive, text-only workloads where "good enough vs Opus" holds and latenc
 ## Resources
 
 - [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]] — pricing, quality impression, margin-collapse thesis.
-- [[zhipu-ai]] — the maker.
+- [[z-ai]] — the maker.
 - [[ai-margin-collapse]] — the economic thesis GLM 5.2 anchors.

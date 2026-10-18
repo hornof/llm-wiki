@@ -14,7 +14,7 @@ Roll-up of the `Daily Briefs/2026-07-06.md` brief. The three lead headlines and 
 ## Focused source pages spun off from this brief
 
 - [[anthropic-global-workspace-language-models-2026-07-06]] — Anthropic "global workspace" / J-space mechanistic research → [[global-workspace]] (new)
-- [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]] — GLM 5.2 and inference margin collapse → [[ai-margin-collapse]], [[glm-5-2]], [[zhipu-ai]] (new)
+- [[martin-alderson-glm-5-2-ai-margin-collapse-2026-07-06]] — GLM 5.2 and inference margin collapse → [[ai-margin-collapse]], [[glm-5-2]], [[z-ai]] (new)
 - [[anthropic-redeploying-fable-5-jailbreak-severity-framework-2026-06-30]] — Fable 5 global return + multi-vendor jailbreak severity framework → [[jailbreak-severity-framework]] (new)
 - [[alberta-government-claude-cybersecurity-2026-07-06]] — Anthropic applied-government case study
 - [[simon-willison-sqlite-utils-fable-149-2026-07-05]] — Willison ships sqlite-utils 4.0rc2 via Fable for $149.25
@@ -38,5 +38,5 @@ Roll-up of the `Daily Briefs/2026-07-06.md` brief. The three lead headlines and 
 
 ## Pages Updated
 
-- [[global-workspace]], [[ai-margin-collapse]], [[glm-5-2]], [[zhipu-ai]], [[jailbreak-severity-framework]], [[armin-ronacher]], [[claude-science]] (new)
+- [[global-workspace]], [[ai-margin-collapse]], [[glm-5-2]], [[z-ai]], [[jailbreak-severity-framework]], [[armin-ronacher]], [[claude-science]] (new)
 - [[claude-fable-5]], [[claude-opus-4-8]], [[simon-willison]], [[jack-clark]], [[mechanistic-interpretability]], [[model-rendered-ui]], [[loop-engineering]], [[anthropic]] (updated)
