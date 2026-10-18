@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-09-25
+last_updated: 2026-10-18
 
 ---
 
@@ -19,6 +19,18 @@ Karpathy asserts the speedup from skilled agentic engineering is well beyond 10x
 **Spec-clarity is the newly load-bearing skill (2026-07-30, [[raw-batch-roundup-2026-07-30-pt2]])**: Dax Raad (@thdxr) argues the leverage is now total — *"you now have the ability to play with every possible solution… refactor everything when you think of better patterns; if you're not producing the best software of your life right now something is wrong."* Ben Dickson names the corresponding skill shift: engineers *"used to start with vaguely defined goals and gradually crystallize"* the problem while exploring; AI coding agents instead require **clearly defining problems, goals, and all requirements up front** — front-loaded specification, not exploratory crystallization. This is the same behavioral pivot the [[claude-md-pattern]] and [[context-engineering|progressive-disclosure]] threads describe, restated as the individual-engineer skill: the bottleneck moves from *writing* to *specifying + judging*.
 
 **Counter-nuance — the spec is disposable ([[matt-pocock|Matt Pocock]], "grill-driven development", 2026-08-01, [[raw-batch-roundup-2026-08-02]])**: Pocock pushes back on lumping his skills under *spec-driven development* (SDD). In his approach the specs are *"intended to be deleted immediately — not kept around, or treated as source code."* The spec is *"just a projection of the decisions made during grilling"* — the value is the **interrogation** (the model grilling you into clarity), not the artifact it emits. He proposes **"grill-driven development (GDD)"** for it (vs. Birgitta Boeckeler's "spec-first," which she still files under SDD). The sharpening: front-loaded clarity matters (Dax/Dickson), but the durable asset is the *decisions*, not a persisted spec document — consistent with the [[claude-md-pattern|"keep it lean, structure over prose"]] discipline (don't hoard the spec as a long living rulebook).
+
+## What the setups that last have in common (r/AI_Agents, 2026-10-17)
+
+A poster collected **51 agent setups people say they kept running** ([[reddit-51-agent-setups-2026-10-17]]) and listed what most share: **narrow jobs; drafts instead of sends and PRs instead of merges; handoffs in a file; a different agent reviewing the work; monitors that stay quiet below a threshold.** Named examples include Boris Tane's plan loop (Claude Code writes `research.md` and `plan.md`, which he annotates up to six times before any code) and a `changes.log` shared by Claude Code and Codex, where each agent reads the last entry before starting.
+
+The list matches what Anthropic published two days earlier about its own review process ([[claude-code-team-code-review-2026-10-15]]): a different checker per failure type, not one human gate. **The comments are more useful than the post, because they show where the file handoff breaks:**
+
+- **An append-only log protects history, not actions.** One commenter runs six agents on a shared file. Two jobs overlapped twice and *"both answered the same person."* The suggested fix is to claim the work atomically before acting and record completion separately.
+- **Treat every log entry as a claim.** Another commenter's reviewer agent checks the running system, *"never the other agent's 'done'."*
+- **Separate the news channel from the record.** The shared file carries only recent news; anything that must last goes into each agent's own playbook.
+
+*(Practitioner reports on Reddit, not measured. The poster runs the directory the post promotes, and other commenters called some replies AI-written. The email setup's 3.5-hour-to-30-minute figure is self-reported.)*
 
 ## A software factory, end to end (Ras Mic, 2026-09-14)
 
@@ -263,6 +275,7 @@ A widely-shared X thread ([[raw-batch-roundup-2026-08-21]], @choopyplug1 relayin
 If the code is disposable and the **prompts + threat-model + interface-rules are the durable artifacts**, this is the endpoint of the [[skill-md|"a markdown file is an employee"]] (Garry Tan) and [[john-kim|compound-engineering]] threads: *"he banned his team from coding."* *(Second-hand X thread promoting an article; the engineer's surname is withheld — a vivid directional datapoint, not a verified case study.)*
 
 ## Resources
+- [[reddit-51-agent-setups-2026-10-17]] — 51 practitioner setups and the shared-log failure modes in the comments (2026-10-17)
 - [[karpathy-vibe-coding-agentic-engineering]] — PRIMARY SOURCE: Karpathy introduces and distinguishes this framing at AI Ascent 2026
 - [[reddit-karpathy-moved-on-from-vibe-coding]] — third-party practitioner popularization (May 2026); adds 4-step workflow, three failure modes, and "cognitive debt" coinage
 - [[benln-x-karpathy-agentic-engineering-2026-05]] — X comment thread (May 2026); practitioner reactions: cost-of-being-wrong economics, term adoption as hiring vocabulary, organizational harness 7-point framework

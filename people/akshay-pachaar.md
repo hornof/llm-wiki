@@ -3,7 +3,7 @@ name: Akshay Pachaar
 type: person
 affiliation: Independent (AI/ML educator)
 signal_sources: [twitter]
-last_updated: 2026-09-20
+last_updated: 2026-10-18
 ---
 
 ## Who They Are
@@ -34,6 +34,7 @@ Agent runtimes, tool-calling patterns, MCP. May 2026 work focused on the [[code-
 
 - **"MCP vs CLI was the wrong debate"** (May 2026): both sides survived but stopped being the runtime — they became the primitives the runtime composes. The actual story is [[code-mode]]. Concrete token-cost data: Playwright MCP = 13.7K, Chrome DevTools MCP = 18K, 5-server setup = 55K *before any work*, full schema-piping workflows hit 150K. The fix is for the model to write code that calls tools through a runtime — *"tool definitions belong in code, not in context."* — [[akshay-pachaar-mcp-vs-cli-2026-05-09]]
 - **300M MCP SDK downloads, up from 100M at the start of 2026** (May 2026) — surfaced the Anthropic-stated traction number to argue MCP is not dying despite the Code-Mode reframe; it's the primitive Code Mode composes. — [[akshay-pachaar-mcp-vs-cli-2026-05-09]]
+- **Harness² — the harness rewrites itself per task, with no grader** (2026-10-18): surfaced Google Research's Harness² and paired it with his June Opik piece, framing both as the harness improving after deployment rather than being designed once. → [[akshay-pachaar-harness2-google-2026-10-18]], [[loop-engineering]]
 
 ## Where to Follow
 
