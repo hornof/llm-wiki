@@ -2,7 +2,7 @@
 name: Replit
 type: company
 status: active
-last_updated: 2026-09-30
+last_updated: 2026-10-17
 ---
 
 ## What It Is
@@ -15,6 +15,8 @@ last_updated: 2026-09-30
 - **"People don't feel like they've been automated. They feel like they've been promoted."** — the widely-quoted employee framing of the shift.
 - Cited by John Sviokla (Forbes) as the clearest public example of a **4th-stage "Emergent Intelligence"** firm (his RISE adoption model) — intelligence living in the *connective tissue* of the firm, not individual tools.
 - *(Self-published telemetry from an AI-coding-platform frontier case — directionally strong, not independently audited.)*
+
+- **2026-10-17: #2 on Design Arena's Slides Arena (Elo 1279)** ([[raw-batch-roundup-2026-10-17]], @DesignArena). It was the highest-rated slides builder under 8 minutes and ~24% faster than #1 (Playyy), ahead of Gamma 5, Manus 1.6 and Claude Opus 4.6. **Read the comparison set before the rank**: the Anthropic entry is **Opus 4.6, a model several releases old**, not [[claude-cowork|Claude Slides]], which shipped in beta in September. The best reply asks the useful follow-up: change one number in the source spreadsheet and see whether every dependent chart and sentence updates. That tests whether a deck can be maintained, which a preference vote cannot. *(Arena's own announcement; preference Elo, sample size not given.)*
 
 ## The primary, obtained (backfill, 2026-09-30)
 

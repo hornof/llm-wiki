@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 ## Definition
@@ -14,6 +14,18 @@ last_updated: 2026-10-16
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### Evaluators inside the building — Anthropic's three tiers (2026-10-15)
+
+**[[anthropic|Anthropic]] embedded a six-person [[metr|METR]] team with employee-like access and published a three-tier framework for outside evaluators** ([[anthropic-update-on-independent-evaluators-2026-10-15]]). Tier 1 is scoped investigations with Anthropic approving publication. Tier 2 lets evaluators publish without approval, subject to category redactions. Tier 3 is the METR arrangement: internal tools "roughly on par" with Anthropic's own risk teams, and **no veto on publication**. SecureBio reviews the chem/bio chapter of the Risk Report, Accenture and Faculty are pursuing a broader evaluation partnership, and [[hugging-face|Hugging Face]] is in early talks.
+
+**Against this page's standing test (does it carry a mechanism, a threshold, or a commitment?), it carries a mechanism.** The tier definitions say who controls publication at each level, and that is the variable that decides whether outside evaluation constrains anything. **No-veto publication at Tier 3 is the strongest publication right this page records any lab granting an evaluator.**
+
+**The independence problem it does not solve is the one recorded on 10-14, below.** That day NVIDIA funded the UK institute that measures its customers' models. **Here the evaluator sits inside the lab's offices on the lab's hardware, and the post does not say who pays METR.** Embedding buys access; whether it costs independence depends on funding the post omits.
+
+**One partner is also a customer under cost pressure.** The same day's brief reports that **Accenture** limits centrally funded Claude use to **$29 a month** per employee ([[dailybrief-roundup-2026-10-17]], 404 Media via Digg). **The firm named as a prospective Anthropic evaluation partner is, by that report, one of the customers rationing its product.** This is not a conflict of interest in itself, but it is a commercial relationship running in both directions inside an arrangement described as independent.
+
+**A gap the post exposes.** Anthropic frames the programme as following its signature on **the White House Accord on Super Intelligence**, in which companies pledged to work with independent auditors or evaluators. **The wiki has no record of that Accord**: not its date, signatories or text. A White House instrument with a named evaluator commitment belongs at the top of this page's instrument list, and the wiki missed it. **Fetch item.** *(Anthropic post describing its own arrangement; no METR statement. The Accord is known here only through Anthropic's reference to it.)*
 
 ### China drafts export controls on 23 AI technologies (2026-10-16)
 

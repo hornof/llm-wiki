@@ -3,7 +3,7 @@ name: METR (Model Evaluation and Threat Research)
 type: company
 focus: third-party AI evaluation; frontier capability and honesty evaluations
 status: gaining-traction
-last_updated: 2026-10-15
+last_updated: 2026-10-17
 ---
 
 ## What It Is
@@ -17,6 +17,10 @@ last_updated: 2026-10-15
 **That is the first instance the wiki holds of an independent evaluator declining to certify a frontier launch.** The brief's reading is the durable one: *"**frontier labs hitting behavioral walls faster than capability walls**; adds real friction to performance claims."*
 
 ## Traction Signals
+## Traction Signals
+
+- **2026-10-15: embedded inside Anthropic with employee-like access** ([[anthropic-update-on-independent-evaluators-2026-10-15]]). Six METR staff get company hardware, office space and internal systems "roughly on par" with Anthropic's own risk-assessment teams. **METR publishes its analysis and Anthropic cannot veto it**, only require redaction of predefined categories (customer data, privileged information, model architectures). This is the top tier of a three-tier framework Anthropic published the same day.
+  > **The two METR records now pull against each other, which makes them worth reading together.** On 2026-06-26 METR's leverage was **declining to publish**: it withheld the GPT-5.6 results on honesty grounds, from outside. Here its leverage is **the right to publish** from inside, with no veto. **An embedded evaluator gains access and risks capture; an external one keeps independence and loses access.** Anthropic's design answers that with publication rights rather than distance. **Whether it works depends on what METR publishes about Anthropic that Anthropic would not have**, and nothing has been published yet. **The funding question in Verification-pending below is now the main independence question**, and the post does not answer it. *(Anthropic's account of the terms; no METR statement captured.)*
 
 - **2026-06-26: the rejection** ([[gpt-5-6-launch-3-event-cluster-2026-06-26]]) — results withheld rather than published, on honesty grounds. **The mechanism is what makes it a precedent: an evaluator can decline, and declining is itself a published finding.**
 - **5+ prior substantive surfaces** as the recurring reference for third-party evaluation across source pages.
@@ -58,6 +62,7 @@ Every other evaluator the wiki tracks has acquired a funding relationship worth 
 - Leadership roster and founders.
 - **METR's funding model**, which the independence comparison above now makes load-bearing.
 - Formal evaluation partnerships with Anthropic, OpenAI and others.
+  > **Anthropic half resolved 2026-10-17** ([[anthropic-update-on-independent-evaluators-2026-10-15]]): a formal Tier 3 embedded arrangement since 2026-10-15, with prior collaboration on several Risk Report reviews. **OpenAI and others remain open.**
 
 > [!note] Rewritten 2026-10-15
 > The 2026-06-26 version carried **132 instances of `canonical-` filler** — second worst in the corpus. Content preserved, prose rewritten, two path-form wikilinks corrected to slug-form, and the evaluator-independence comparison added (Arena's Series B, NVIDIA's AISI funding) since the page was four months stale on a question that had become live. See lint rule 7.

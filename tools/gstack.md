@@ -3,7 +3,7 @@ name: gstack
 type: tool
 category: software-factory
 status: emerging
-last_updated: 2026-10-01
+last_updated: 2026-10-17
 ---
 
 ## What It Is
@@ -15,6 +15,9 @@ README claims (his numbers, unverified): **135K+ GitHub stars** (as of 2026-10-0
 ## gbrain
 
 Companion but separate project ([github.com/garrytan/gbrain](https://github.com/garrytan/gbrain)): a **memory layer for agents** — *"Give the agent you already use a memory you control."* Stores explicit facts with sources, supports corrections, keyword + semantic retrieval, runs locally (PGLite) or on Postgres, exposed via CLI or MCP. gstack integrates it optionally (`/setup-gbrain`, `/sync-gbrain`) and falls back to grep-based search without it.
+
+
+**2026-10-16: launched as a product, "GBrain Tools", on Product Hunt** ([[raw-batch-roundup-2026-10-17]], @gbrainio), billed as *"Garry Tan's AI memory, tools, & skills for any harness."* The pitch adds two things to the memory layer above: **saving time "each time you try a new AI"** (one memory carried across harnesses) and **"visibility into how AI is using your apps."** The second is an audit claim the memory-layer description did not make. The replies are launch-day engagement, not usage reports. *(Launch post; the linked video and thread were not captured.)*
 
 ## Who's Using It
 

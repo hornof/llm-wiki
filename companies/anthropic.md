@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 ## What It Is
@@ -84,6 +84,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+## Traction Signals
+- **2026-10-15: METR embedded with employee-like access, under a published three-tier evaluator framework** ([[anthropic-update-on-independent-evaluators-2026-10-15]]). METR can publish without an Anthropic veto. SecureBio, Accenture/Faculty and Hugging Face are at lower tiers. → [[frontier-ai-governance]], [[metr]]. **Read it beside 10-15's FTC demand**: the same week a regulator asked what Anthropic's safety claims rest on, Anthropic published an arrangement that lets an outsider check them. *(Anthropic's account; no funding terms disclosed.)*
+- **2026-10-17 (reported): Accenture caps centrally funded Claude use at $29/month per employee**, with overage charged to projects or teams ([[dailybrief-roundup-2026-10-17]], 404 Media via Digg). **The first per-seat spending cap the wiki records from a named enterprise customer.** It is also the demand-side counterpart to the $16.8bn quarter: enterprise adoption metered by budget owners, not left open. Accenture is also named the same week as a prospective evaluation partner. → [[ai-margin-collapse]] *(Single report via aggregator; no Accenture statement, and no indication of how many employees exceed the cap.)*
 - **2026-10-13: Anthropic replaced Git for its monorepo with an in-house centralized system (Scion) and replaced PRs with its own review system (Antique)** ([[anthropic-redesigning-source-control-2026-10-13]], via [[simon-willison|Willison]]). The volume is the reason: **~2,500 merged changes/day in May, 30,000+/day in September**, peaking at 30,401 on 2026-09-09. That is ~25M CI checkouts/day against a ~100 GB history, or 600+ PB/day of traffic if fetched naively with Git. A seven-person team migrated in five months. **No offline support, because "the heaviest user is Claude, and Claude is always online."** The agent, not the human, is the user the system was designed for.
   > **A 12× rise in merged changes in four months, measured by the lab's own infrastructure**, is a harder number than any productivity claim the wiki has so far recorded from a lab's marketing. **It measures throughput, not output.** The companion [[claude-code-team-code-review-2026-10-15|code-review post]] supplies the quality side for one team: Claude Code's merged PRs more than doubled June→September while the revert share fell 40%+. Willison attributes the curve to Fable/Mythos-class models and labels that a guess, since internal availability predates the public release dates on his chart. → [[claude-code]] *(Willison's summary; the Anthropic primary was not fetched.)*
 - **2026-06 (reported 2026-10-16): Anthropic was assigned the highest junk credit rating in June** ([[dailybrief-roundup-2026-10-16]], **FT**, headline only). Recorded for its position against the rest of this section. The wiki holds a $965B Series H, a $16.8bn quarter and an IPO filing, and **a sub-investment-grade rating sits alongside all three.** That is not a contradiction. A credit rating prices debt service and cash-flow risk, not growth, and it is the first outside signal the wiki holds on the **burn rate** that the 2026-09-28 step-5a note lists among the six economics items still uncaptured. *(FT headline via the brief. No agency named, no instrument, no rationale captured. "Highest junk" means the top sub-investment-grade notch, i.e. one step below investment grade.)*
