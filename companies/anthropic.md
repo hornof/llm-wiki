@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-17
+last_updated: 2026-10-18
 ---
 
 ## What It Is
@@ -95,7 +95,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
-## Traction Signals
+- **2026-10-18: 5% of shares committed to a "public benefit fund"**, plus 2% more for every 50% rise in company value ([[anthropic-public-benefit-fund-2026-10-18]], TechCrunch). The fund is a wholly owned entity inside Anthropic. Named uses are large nonprofit donations, direct distributions to specific populations, and AI's effect on jobs. Structure and governance come "in the coming months."
+  > **Read it beside the 2026-09-25 voting-control entry below.** The founders locked in control ahead of the float, and a month later a block of equity is set aside for outside benefit. Whether the fund is a counterweight to that control or sits under it depends on who directs it, and that is exactly the part not yet disclosed. A fund wholly owned by the company is, on its face, controlled by the company. The 2%-per-50% clause also means the fund grows as the valuation does, which ties the giving to the IPO outcome. *(TechCrunch brief only; Anthropic's own announcement not fetched. No dollar value given; at the reported ~$2T expected IPO valuation, 5% would be about $100bn, but that is my arithmetic on a reported figure, not a stated number.)*
 - **2026-10-15: METR embedded with employee-like access, under a published three-tier evaluator framework** ([[anthropic-update-on-independent-evaluators-2026-10-15]]). METR can publish without an Anthropic veto. SecureBio, Accenture/Faculty and Hugging Face are at lower tiers. → [[frontier-ai-governance]], [[metr]]. **Read it beside 10-15's FTC demand**: the same week a regulator asked what Anthropic's safety claims rest on, Anthropic published an arrangement that lets an outsider check them. *(Anthropic's account; no funding terms disclosed.)*
 - **2026-10-17 (reported): Accenture caps centrally funded Claude use at $29/month per employee**, with overage charged to projects or teams ([[dailybrief-roundup-2026-10-17]], 404 Media via Digg). **The first per-seat spending cap the wiki records from a named enterprise customer.** It is also the demand-side counterpart to the $16.8bn quarter: enterprise adoption metered by budget owners, not left open. Accenture is also named the same week as a prospective evaluation partner. → [[ai-margin-collapse]] *(Single report via aggregator; no Accenture statement, and no indication of how many employees exceed the cap.)*
 - **2026-10-13: Anthropic replaced Git for its monorepo with an in-house centralized system (Scion) and replaced PRs with its own review system (Antique)** ([[anthropic-redesigning-source-control-2026-10-13]], via [[simon-willison|Willison]]). The volume is the reason: **~2,500 merged changes/day in May, 30,000+/day in September**, peaking at 30,401 on 2026-09-09. That is ~25M CI checkouts/day against a ~100 GB history, or 600+ PB/day of traffic if fetched naively with Git. A seven-person team migrated in five months. **No offline support, because "the heaviest user is Claude, and Claude is always online."** The agent, not the human, is the user the system was designed for.

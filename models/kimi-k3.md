@@ -3,7 +3,7 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-10-15
+last_updated: 2026-10-18
 ---
 
 ## What It Is
@@ -42,7 +42,14 @@ Launch (2026-07-16). Read as an **open-weight scaling inflection** feeding the [
 
 **No technical substantiation was offered or captured** — no weight analysis, no output comparison, no methodology. **A political statement naming a model is a fact about the politics.** → [[frontier-ai-governance]]
 
+## What it takes to serve it fast (2026-10-16)
+
+An [[nvidia|NVIDIA]] engineer's vLLM post ([[vllm-kimi-k3-decode-gb300-2026-10-16]]) fuses most of K3's per-layer decode into custom kernels: **13 kernels and about 69 µs per layer, down from 23 and 130 µs.** Reported speedups over stock vLLM are **1.62–1.88× on 16 GB300 GPUs and 1.31–1.58× on 8**, with batch-1 decode at 256 and 193 tok/s. With speculative decoding, batch 1 reaches 842 tok/s against 488, but that uses a synthetic acceptance length.
+
+**The useful fact for a buyer is the hardware line, not the speedup.** The tuned path targets **8 or 16 GB300s in one NVLink domain.** "Open weights" makes K3 possible to self-host; it does not make it cheap, and the [[#When to Use It|on-prem case above]] has to be costed against a rack, not a server. *(Vendor-engineer benchmark; NVIDIA sells the GPUs. Not yet independently reproduced. The code is in vLLM PR #61867; whether it is on by default is not stated.)*
+
 ## Resources
+- [[vllm-kimi-k3-decode-gb300-2026-10-16]] — NVIDIA/vLLM decode optimisation on GB300
 - [[kimi-k3-largest-open-model-2026-07-16]] — launch + Willison analysis (fetched primary)
 - [Willison — "Kimi K3, and what we can still learn from the pelican benchmark"](https://simonwillison.net/2026/Jul/16/kimi-k3/)
 - [[moonshot-ai]] — maker; [[ai-margin-collapse]] — the open-weights-cost thesis

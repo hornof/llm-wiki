@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-10-15
+last_updated: 2026-10-18
 ---
 
 > [!key-insight] 2026-06-30 — the term reaches mainstream AI education
@@ -533,6 +533,14 @@ Also contributes an **8-layer harness model** (Filesystem&Git · Bash&Code · Sa
 
 The register moved up a layer within ~six weeks. On 2026-07-18 [[peter-steinberger|Steinberger]] posted *"Are we still talking loops or did we shift to graphs yet?"*; hours later [[hamel-husain|Hamel Husain]] published *"Loop Engineering Is Dead. Enter Graph Engineering."* — see [[graph-engineering]] (anchored on [[akshay-pachaar]]'s explainer). The load-bearing reconciliation: **a single loop is just a one-node graph with a self-edge; graphs don't replace loops, they coordinate many of them.** Loop engineering remains the layer where the individual cycle is engineered (brakes, completion check, critic); graph engineering is the coordination layer above it (nodes/edges/state, routing, parallel fan-out). *"A graph of weak loops is just distributed failure."* Not a repudiation — an extension, and (per the practitioners themselves) *"the word may not survive the year; the design question will."*
 
+### The harness edits itself, without a grader — Google's Harness² (2026-10-18)
+
+[[akshay-pachaar|Pachaar]] surfaced **Harness²** ([[akshay-pachaar-harness2-google-2026-10-18]]), a Google Research repo (Apache 2.0, about 6.1k stars, arXiv:2610.14224). It is the loop applied to the harness instead of the task. For each task the agent proposes edits to its own system prompt, guardrails, memory, tool guidance, subagents, skills, scripts and plugins; runs several candidate versions; and keeps a harness built from comparing how the runs behaved. Adopted harnesses and the lessons that held up are saved and become the starting point for the next task. The weights stay fixed.
+
+**What is new against this page's record is the missing grader.** The June [[akshay-pachaar-opik-self-repairing-harness-2026-06-08|Opik self-repair loop]] started from a failing trace and ended in a regression test, so it had a failure signal to work from. Harness² claims to need no correct answer at all and to learn from differences between runs. Every loop on this page so far has depended on [[steipete-loops-engineering-vision-md-2026-06-07|"something that can say no"]]; this one replaces that with comparison.
+
+> **My reading, not the README's:** comparing runs against each other without ground truth can reward the harness that produces the most consistent runs rather than the most correct ones. The reported gains are on graded benchmarks (up to +11.5 on WorkBuddy-Bench, +4.5 on JobBench, +11.8 pp on LAB partial pass), so the benchmarks do the grading the method itself skips. Whether the gains hold on tasks where nobody scores the result is the open question. *(README figures are self-reported "up to" numbers; paper not read. Models tested: Gemini 3.5 Flash and GLM-5.)*
+
 ## Key Papers / Posts
 
 - **ReAct paper** (2022): [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) — academic origin of the reason-act-observe-repeat loop
@@ -553,6 +561,7 @@ The register moved up a layer within ~six weeks. On 2026-07-18 [[peter-steinberg
 
 ## Verification-pending
 
+- Whether Harness²'s grader-free gains (2026-10-18) hold on ungraded tasks — read arXiv:2610.14224
 - Whether *"fleets that design your loops"* (Steinberger 2026-09 prediction) materializes
 - Primary source for Van Horn's *"~4% of all public commits on GitHub"* Claude-Code-share figure
 - Primary source for Uber $1500/person/tool/month cap (Van Horn cites without link)
