@@ -2,7 +2,7 @@
 name: Z.ai (Zhipu AI)
 type: company
 status: active
-last_updated: 2026-10-16
+last_updated: 2026-10-20
 ---
 
 > [!note] Merged page
@@ -28,6 +28,8 @@ last_updated: 2026-10-16
 - **2026-08-20: GLM-5.3 surfaced by Jie Tang with a "death of params" thesis**: parameter count stopped being the frontier, and post-training is the new scaling axis ([[dailybrief-roundup-2026-08-20]], Latent Space AINews). No `glm-5-3` page yet; noted on [[glm-5-2]].
 - **2026-09-28: Import AI 474 headline "Zhipu starts an outer RSI loop"** ([[dailybrief-roundup-2026-09-28]]). Contents not captured. Recorded because recursive self-improvement claims from a lab are worth a fetch.
 - **2026-09-30: Anthropic's frontier red team publishes control-flow-hijack success rates: GLM-5.3 at 4%, [[claude-mythos|Claude Mythos]] at 6%, "earlier models were at zero"** ([[dailybrief-roundup-2026-09-30]], via Willison). → [[ai-vulnerability-discovery]]. **This is the strongest outside measurement the wiki holds of a Z.ai model.** It places an openly downloadable model within two points of Anthropic's restricted, most offensively capable model on one exploitation task. That is the "safety gap" from August expressed as a number.
+
+- **2026-10-19 (reported): four founders worked on a 2018–2021 project co-funded by CGTRI**, an institute Britain's MI5 alleges has "very strong ties" to Chinese intelligence ([[bloomberg-zai-founders-cgtri-project-2026-10-19]], Bloomberg via Digg). The participants were Li Juanzi (who led it), Tang Jie, Xu Bin and CEO Zhang Peng. The project built social-media analysis and relationship-mapping tools, including a knowledge base of "China-related key persons." **Bloomberg says it is unclear what the founders knew, and the MI5 alert did not name Z.ai.** It was reported the same day the DHS DeepSeek order became public, so the two will sit side by side in any argument about buying Chinese models. → [[frontier-ai-governance]] *(No response from Z.ai; China's UK embassy calls the MI5 claims baseless.)*
 
 ## Products
 

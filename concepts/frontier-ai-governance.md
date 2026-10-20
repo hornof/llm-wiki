@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-19
+last_updated: 2026-10-20
 ---
 
 ## Definition
@@ -21,7 +21,7 @@ Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]],
 
 **This turns the 10-10 "emergency brake" into a mechanism, and it answers the question that section left open.** The brake is not in the model and not in regulation. It sits in a monitoring layer the enterprise runs, sold by a platform vendor. **It also restates the [[#Evaluators inside the building — Anthropic's three tiers (2026-10-15)|evaluator question]] for deployment:** an evaluator inside the lab checks the model before release, while Microsoft's argument is that after release the customer can't rely on the lab at all. TechCrunch's "self-serving" label is fair: Microsoft holds stakes in both OpenAI and Anthropic and sells the control layer. That doesn't make the argument wrong.
 
-**The same day, the state acted on origin rather than behaviour.** DHS's order removing [[deepseek|DeepSeek]] from federal civilian systems became public ([[dhs-deepseek-federal-removal-2026-10-19]]). It is dated 2026-07-24 and covers third-party products built on DeepSeek. Microsoft distrusts every model regardless of origin; DHS distrusts one because of its origin. **Those are different control theories, and a federal buyer now has to satisfy both.** A Pentagon official also said export controls are possible if AI companies don't cooperate ([[dailybrief-roundup-2026-10-19]], Digg headline; no official or companies named).
+**The same day, the state acted on origin rather than behaviour.** DHS's order removing [[deepseek|DeepSeek]] from federal civilian systems became public ([[dhs-deepseek-federal-removal-2026-10-19]]). It covers third-party products built on DeepSeek. *(Issue date contested: RuntimeWire says 07-24, TechCrunch gives 10-20, the Federal Register publication date. See [[deepseek]].)* Microsoft distrusts every model regardless of origin; DHS distrusts one because of its origin. **Those are different control theories, and a federal buyer now has to satisfy both.** A Pentagon official also said export controls are possible if AI companies don't cooperate ([[dailybrief-roundup-2026-10-19]], Digg headline; no official or companies named).
 
 *(TechCrunch fetched; Nadella's blog post is private and quoted only. DHS order via WSJ/RuntimeWire summary.)*
 
