@@ -3,7 +3,7 @@ name: Guillermo Rauch
 type: person
 affiliation: CEO, Vercel; creator of Next.js and Socket.io
 signal_sources: [twitter]
-last_updated: 2026-09-24
+last_updated: 2026-10-19
 ---
 
 ## Who They Are
@@ -19,6 +19,7 @@ Paged 2026-09-24 on a second substantive surface. Flagged as a borderline create
 - **Decompose or you cannot secure it**: *"Breaking apart the agent into these independent parts not only optimizes costs in a big way, it also massively improves security and auditability. I'd argue you can't even run a secure agent otherwise!"* Self-serving — he sells the components — and consistent with the [[ai-vulnerability-discovery|four agent-autonomy incidents]], every one of which is an agent reaching further than intended.
 - **The honest description of current practice**: *"The 'easy' way is to throw all these in 1 stateful computer (a Mac Mini)… you keep it running all day with `caffeinate`."* An accurate and unflattering portrait of the orchestrator setups this wiki has captured.
 - **Storage decoupling enables "dreaming"** — a nightly memory-consolidation cron that reads and writes files *"without booting up the agent's full computer."* Lands directly on the gap [[company-brain]] names: everyone builds the remembering part, nobody owns the forgetting part.
+- **Open models carry ~80% of AI Gateway tokens; 60% of Vercel deployments are agentic** (2026-10-16, [[sourcery-vercel-rauch-interview-2026-10-16|Sourcery interview]]), up from mostly proprietary and from 3% at the start of 2026. The token figure is gateway volume only. The agentic figure has no stated definition, and as the section below says, he sells the platform both numbers describe. → [[ai-margin-collapse]]
 
 ## How to Read Him
 

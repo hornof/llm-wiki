@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-10-18
+last_updated: 2026-10-19
 ---
 
 ## Definition
@@ -15,6 +15,9 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 
 ## Current State
 
+- **Open models carry ~80% of tokens through Vercel's AI Gateway (2026-10-16)** ([[sourcery-vercel-rauch-interview-2026-10-16]], [[guillermo-rauch|Rauch]] interview), up from mostly proprietary at the start of 2026. A single-day record of 78.4% was posted in September.
+  > **This is the "open-weights adoption in production" item on this page's Track line, and the first number for it.** Read the scope narrowly: it is token volume through one gateway, not all inference Vercel customers run. Gateway users are developers who chose a multi-model router, so the population leans towards price-sensitive routing, and token share is not spend share. A cheap model doing high-volume work can carry most of the tokens while a frontier model carries most of the bill. **It still shows that, for a large developer population, open models are now the default for volume.** *(CEO interview, no stated period or method. Vercel publishes anonymised gateway data under CC; not fetched.)*
+- **One lab, one neocloud, ~$90B (2026-10-19)** ([[nscale-anthropic-second-monarch-2026-10-19]]): Nscale is reportedly in talks for a second ~$45B Anthropic deal on top of August's. → [[anthropic]] *(Talks, unverified.)*
 - **A consumer AI app goes bankrupt, and the buyer wants the staff (2026-10-18)** ([[disney-character-ai-workforce-2026-10-18]], TechCrunch). Character.AI filed for bankruptcy the week of 10-13. Disney is the stalking-horse bidder at **$20 million for some assets** and has offered jobs to **at least 60 employees with about $60 million a year in compensation.** The filing blames high costs and litigation and regulatory exposure despite a "large and engaged user base."
   > **The first bankruptcy this page records for a well-known consumer AI app**, and the cost side is named in the filing. **A large user base did not cover the cost of serving it.** That is the consumer version of the problem this page tracks for labs. The asset price is a third of one year's payroll for the people Disney is hiring, so the team is the thing being bought. The litigation part is not a margin story, and the filing gives no split between the two causes. *(TechCrunch brief on a court filing; filing not read.)*
 - **More financing strain: CoreWeave bonds reportedly at distressed levels; Microsoft pulls a UK Nscale project (2026-10-18)** ([[dailybrief-roundup-2026-10-18]], Digg). **Four days after the bank-debt entry below**, this puts the stress on a named neocloud's own debt. Nscale is also the counterparty in [[anthropic|Anthropic's]] $45B compute deal of 2026-08-26. Which Nscale project Microsoft pulled, and whether the Anthropic deal is affected, is not stated. *(Aggregator headline and one line; no bond prices, no project named.)*

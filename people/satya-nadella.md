@@ -3,7 +3,7 @@ name: Satya Nadella
 type: person
 affiliation: Microsoft (CEO + Chairman)
 signal_sources: [twitter, blog, conference]
-last_updated: 2026-10-15
+last_updated: 2026-10-19
 ---
 
 ## Who They Are
@@ -34,6 +34,8 @@ Satya Nadella is the **CEO + Chairman of [[microsoft|Microsoft]]** (since 2014; 
 **Against his own standing position on this page**, the *"frontier ecosystem, not frontier model"* thesis is about Microsoft winning by owning the layer everyone else builds on. **An emergency brake is that thesis applied to safety: whoever provides the containment layer sets the policy surface**, and Execution Containers put that layer in Windows rather than in a lab's alignment work. See [[loop-engineering]] on containment becoming the de facto regime.
 
 *(TechCrunch, not fetched; no definition of "emergency brake," no mechanism, no indication whether he means per-model, per-deployment or regulatory.)*
+
+> **Step 5a, 2026-10-19 — partly answered.** TechCrunch quotes a private Nadella blog post from earlier in October: enterprises need systems **not controlled by the AI labs** to watch and control the agents those labs' products launch, because *"we need to separate the supply of intelligence from the authority over it"* ([[microsoft-agents-insider-threats-2026-10-19]]). Whether that is the post behind the 10-10 story isn't stated. If it is, the brake is **per-deployment, run by the customer**, not per-model or regulatory, and Microsoft's Guardian Agents launch the same week is the product. Still not captured: any threshold for when the brake fires.
 
 ## Notable Takes
 
@@ -70,7 +72,7 @@ Satya Nadella is the **CEO + Chairman of [[microsoft|Microsoft]]** (since 2014; 
 
 ## Verification-pending
 
-- Microsoft-side product / service announcements implementing the frontier-ecosystem-thesis
+- Microsoft-side product / service announcements implementing the frontier-ecosystem-thesis — *partly resolved 2026-10-19: Execution Containers (10-07) and Guardian Agents (10-19) are the containment side of it; see [[microsoft]].*
 - Microsoft-Anthropic relationship trajectory post-Jun-13-export-control event
 - Microsoft-OpenAI relationship trajectory post-OpenAI-multi-state-AG-investigation event
 - Microsoft Phi / Copilot open-weight strategy positioning during open-weight-vendor-capacity-acceleration cluster

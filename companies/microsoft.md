@@ -2,7 +2,7 @@
 name: Microsoft
 type: company
 status: active
-last_updated: 2026-10-15
+last_updated: 2026-10-19
 ---
 
 ## What It Is
@@ -11,13 +11,14 @@ last_updated: 2026-10-15
 
 ## Traction Signals
 
+- **2026-10-19: Guardian Agents — "frontier models, regardless of their origin, cannot be trusted"** ([[microsoft-agents-insider-threats-2026-10-19]], TechCrunch). Agent monitoring within Project Perception, Defender detection of 60 agent types brought in by employees, task-scoped permissions and human approval for risky actions. Microsoft is also an inaugural member of NVIDIA's Open Agent Safety Platform, which can stop agents at the hardware level. **The third containment move in twelve days**, after [[#Execution Containers (Mxc) 1.0.0 — containment for agents (2026-10-07)|Execution Containers]] (10-07) and Nadella's "emergency brake" (10-10). → [[frontier-ai-governance]]
+
 - **2026-09-25: abandons the consumer chatbot race; consolidates into enterprise Copilot** ([[dailybrief-roundup-2026-09-25]]): retrenchment from consumer AI toward a single enterprise surface combining **chat, coding and Autopilot agents with org-local memory**. **The first clear withdrawal by a major vendor from a market it entered loudly.**
   Read alongside [[dailybrief-roundup-2026-09-22|its Humanist AI Code of Conduct]] — Microsoft is simultaneously publishing **the most detailed governance text of any vendor** and **narrowing where it competes**. Those are consistent if the governance work is positioning for the enterprise buyer rather than the consumer one. *(Strategy reporting; no figures.)*
 
 - **2026-09-16: Suleyman — consciousness is not the foundation for AI rights** ([[dailybrief-roundup-2026-09-16]], via [[simon-willison|Willison]]): Microsoft AI's CEO pushes back on anthropomorphic AI ethics. The brief notes it *"adds no novel framework"*, and the useful part is the pairing: it is the philosophical companion to Microsoft's own **Humanist AI Code of Conduct** above, which likewise **prohibits consciousness claims**. Vendor position and vendor philosophy arriving in the same week, pointing the same way.
 
 - **2026-09-15: draft "Humanist AI Code of Conduct"** ([[dailybrief-roundup-2026-09-15]], The Verge/Digg): a **37-page draft** released for public feedback, on the principle that *"people matter more than AI."* Stated principles — models remain **subordinate to humans**, under meaningful human control, and **never resist shutdown or correction**; **autonomous cyberattacks prohibited**; **consciousness claims prohibited**. Lands the same week as AEF-1 and the reported inter-lab standards body, making Microsoft the **fourth vendor** to publish a governance artifact in eight days, and the one with the most concrete published text. See [[frontier-ai-governance]] for why the cluster matters and what it does not establish. *(37-page draft not fetched; principles from the summary. Draft, voluntary, non-binding.)*
-## Traction Signals
 
 - **2026-07-02: Frontier Co. launches as a named company** ([[satya-nadella-frontier-co-launch-2026-07-02]]) — [[satya-nadella|Nadella]] that morning: *"our new **Frontier Co.**, our ambition is to help every enterprise build its own AI capability, and to help create a frontier ecosystem where every organization can turn its knowledge, workflows, and judgment into its own AI systems that continuously improve."* **The productised form of his [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Jun 14 frontier-ecosystem thesis]]**, eighteen days later.
 - **2026-07-02: $2.5B committed to AI deployment** ([[dailybrief-roundup-2026-07-02-pt2]]) — **the same-day financial follow-up to the morning's announcement.** Fourth vendor to commit to AI-deployment infrastructure in parallel: Amazon, OpenAI, Anthropic, Microsoft.
