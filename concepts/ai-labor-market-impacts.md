@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-09-25
+last_updated: 2026-10-20
 ---
 
 ## Definition
@@ -55,6 +55,12 @@ For an AI engineering / VPE career:
 > [[simon-willison|Willison]] argues **coding agents amplify existing skill requirements rather than democratizing them** ([[dailybrief-roundup-2026-09-25]]). With [[andrew-ng|Ng's]] 30–40%/60–70% split below, the [[agentic-engineering|six-voice cognitive-load convergence]], and voxium's *"management sees shipping as unbottlenecked; teams don't"*, that is **four independent surfaces converging on the opposite of the democratization claim** that accompanied essentially every tool launch this wiki has captured.
 > The dissent is same-week and first-person — [[garry-tan|Tan]] reports 4× *"with no increase in time in-editor"* — and **neither side is measured.** See [[developer-productivity-measurement]] for what would settle it.
 > Small concrete instance the same day: **a tutoring company abandoned tutoring and told parents to use AI.** Service substitution, not augmentation.
+
+## "The puzzle was the job" — an obituary for programming (2026-10-19)
+
+Jeremy Scheff, via [[simon-willison|Willison]] ([[scheff-obituary-for-programming-2026-10-19]]): programming paid because employers needed people to solve problems they couldn't, and *"the trickier the puzzle, the more you got paid."* Coding agents take the puzzle. Willison's reply splits the loss by what people enjoyed: for builders, *"LLMs are the gift that keeps on giving"*; for people who loved the puzzles, *"the loss is very real."*
+
+**This page mostly measures exposure and employment. Scheff's point is about pay and bargaining power, which the exposure numbers don't capture.** His line *"we set the strategy, we made the timeline, we defined what was and was not possible"* describes leverage that came from being the only people who could do the work. That fits the [[#The population/workflow distinction, and the erosion of expertise proxies (Sep 2026)|erosion of expertise proxies]] below: when the hard part can be bought from a model, the scarce skill moves to judging the output, which is [[aaron-levie|Levie's]] point in the [[dailybrief-roundup-2026-10-18|10-18 brief]]. *(Essay read through Willison's quotes only.)*
 
 ## The population/workflow distinction, and the erosion of expertise proxies (Sep 2026)
 
