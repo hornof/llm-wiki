@@ -14,7 +14,7 @@ Cross-reference index for `Daily Briefs/2026-10-21.md`. Five of the seventeen it
 
 - **Anthropic's S-1, leaked to the WSJ: $80.7B H1 net loss on $16.3B revenue; $450B–$750B in compute commitments** (TechCrunch, Digg) → [[anthropic-s1-leak-h1-loss-compute-2026-10-20]] → [[anthropic]], [[ai-margin-collapse]].
   - **The brief's draft is not used.** It calls the commitments a *"single vendor lock-in."* The filing names AWS, Google, Microsoft and self-leased capacity. It also reads the loss as operating, when part of it is financing-related accounting.
-- **LiteLLM 1.107.0 on PyPI carried a credential stealer and backdoor for about two hours** (SafeDep) → [[litellm-pypi-compromise-2026-10-21]] → [[ai-vulnerability-discovery]].
+- **LiteLLM 1.107.0 on PyPI carried a credential stealer and backdoor for about two hours** (SafeDep) → [[litellm-pypi-compromise-2026-10-21]] → [[ai-vulnerability-discovery]], [[litellm]] (new page).
   - **Draft not used:** *"third supply-chain hit … after Requests, Hugging Face model cards."* The wiki holds no Requests compromise and the article cites none.
 - **DeepSeek: 155T tokens/day and $38 per accelerator-hour; margin and payback estimates by others** (Latent Space AINews) → [[latent-space-deepseek-inference-economics-2026-10-21]] → [[deepseek]], [[ai-margin-collapse]].
   - **Draft not used:** that the numbers *"only make sense"* on domestic silicon. DeepSeek didn't disclose the hardware.
@@ -41,4 +41,4 @@ Scheff's "obituary for programming" via Willison (second; [[scheff-obituary-for-
 
 ## Pages Updated
 
-- [[anthropic]], [[ai-margin-collapse]], [[ai-vulnerability-discovery]], [[deepseek]], [[frontier-ai-governance]], [[spacex]]
+- [[anthropic]], [[ai-margin-collapse]], [[ai-vulnerability-discovery]], [[litellm]], [[deepseek]], [[frontier-ai-governance]], [[spacex]]
