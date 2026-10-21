@@ -2,7 +2,7 @@
 name: AGI (Artificial General Intelligence)
 type: concept
 maturity: active-research
-last_updated: 2026-04-29
+last_updated: 2026-10-21
 ---
 
 ## Definition
@@ -26,6 +26,13 @@ AGI is the long-term target of most major AI labs. The definition you use shapes
 Current systems are capable of gold medal performance at the International Math Olympiad and yet "still fall apart on relatively simple math problems if you frame the question a different way." — [[thread-milkroadai-hassabis-agi]]
 
 Hassabis describes the present as "the agent era" — a meaningful step toward AGI, but distinct from it. His framing: build an "incredibly intelligent and useful and precise tool" first; cross to questions of agency and consciousness as a second step.
+
+**August–October 2026 (refreshed 2026-10-21).** The term is now being contested by governments as well as labs:
+
+- **The US government renames the subject.** An executive order of 2026-09-29 directs agencies to say "super intelligence" instead of "artificial intelligence" and to draft a legal definition of "Super Intelligence" within 60 days. The same day, six labs signed a voluntary safety pledge under that name ([[white-house-accord-on-super-intelligence-2026-09-29]]). **A statutory definition would be the first one with legal force**, which makes the 60-day draft worth watching. See [[frontier-ai-governance]].
+- **DeepMind sets up an institute for AGI's societal impact** with Hassabis, Shane Legg and James Manyika (2026-09-16, [[dailybrief-roundup-2026-09-16]]). The brief found it vague on agenda.
+- **A researcher resigns over "self-improving superintelligence."** Jacob Coxon left Anthropic around 2026-09-10, saying both Anthropic and OpenAI were racing toward it without adequate mitigation ([[dailybrief-roundup-2026-09-10-neutral]]). See [[recursive-self-improvement]].
+- **Jaggedness, measured from the harness side.** Nvidia took Claude Opus 5 from 30% to 100% on ARC-AGI-3 with a custom harness and no model change ([[dailybrief-roundup-2026-08-22]]). How much of a "general intelligence" score belongs to the model, and how much to the scaffolding around it, is now an open measurement question. See [[loop-engineering]].
 
 ## Timeline Signals
 - **Hassabis**: 2030 explicitly; "I've been pretty consistent about that." DeepMind's founding in 2009 was pitched as a "20 year mission"; he says the field is "basically exactly on track." — [[hassabis-deepmind-alphafold-agi]]

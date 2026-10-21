@@ -3,7 +3,7 @@ name: Claude Design
 type: tool
 category: other
 status: gaining-traction
-last_updated: 2026-08-20
+last_updated: 2026-10-21
 ---
 
 > [!update] Lint refresh — 2026-07-15
@@ -27,6 +27,8 @@ Anthropic's visual design capability — confirmed at **Code w/ Claude 2026** (M
 - Adjacent thematically to Naval Ravikant's SaaS-disruption thesis ([[naval-ravikant-saas-is-next]]) — single-tool collapse of a multi-vendor design-and-launch stack is exactly the "pure software is uninvestable" pattern Naval predicts
 - 2026-05-06 — **Anthropic primary-source confirmation**: Claude Design ships as a built-in capability of [[claude-opus-4-7]] at Code w/ Claude 2026; positioned as a model-native capability rather than a separate harness. This is the confirmation the April page flagged as a gap — [[willison-code-w-claude-2026]]
 - 2026-07-06 — **plan-artifact-first workflow signal**: Dan Fein (@dfeinition) uses Claude Design to generate low-fidelity UI mockup animations *before* building a feature — *"Create a plan and a low-fidelity artifact showing how the UI will look… keep them in sync as we iterate"* — moving iteration from code to plan (*"much easier to edit a blueprint than a house"*). Positions Claude Design as a front-of-build prototyping surface, not just a standalone deliverable tool. See [[dan-fein-plan-artifact-first-2026-07-06]]. Related community watch-note from the same cluster: the **"Taste" skill** (`tasteskill.dev`), pitched as an anti-AI-slop design-quality layer for [[claude-fable-5|Fable 5]] (Meng To / Miles Deutscher, Jul 3) — single-cluster mention, creator unconfirmed, no page yet.
+
+- **2026-10-17 (unconfirmed): a commenter says the legacy Claude Design tool is retiring** and enterprise users must re-learn it ([[raw-batch-roundup-2026-10-17]]). One comment in a raw drop, no Anthropic statement. Recorded so a later confirmation or denial has somewhere to land.
 
 ## How to Use It
 

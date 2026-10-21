@@ -2,6 +2,7 @@
 name: Forbes AI 50 2026 Snapshot
 type: topic
 last_updated: 2026-04-29
+dormant_since: 2026-10-21
 ---
 
 ## What This Is

@@ -3,7 +3,7 @@ name: gstack
 type: tool
 category: software-factory
 status: emerging
-last_updated: 2026-10-17
+last_updated: 2026-10-21
 ---
 
 ## What It Is
@@ -19,7 +19,11 @@ Companion but separate project ([github.com/garrytan/gbrain](https://github.com/
 
 **2026-10-16: launched as a product, "GBrain Tools", on Product Hunt** ([[raw-batch-roundup-2026-10-17]], @gbrainio), billed as *"Garry Tan's AI memory, tools, & skills for any harness."* The pitch adds two things to the memory layer above: **saving time "each time you try a new AI"** (one memory carried across harnesses) and **"visibility into how AI is using your apps."** The second is an audit claim the memory-layer description did not make. The replies are launch-day engagement, not usage reports. *(Launch post; the linked video and thread were not captured.)*
 
-## Who's Using It
+## Traction Signals
+
+- **GitHub, 2026-10-21:** ~137.2k stars on `garrytan/gstack` (`gh api`), up from the README's 135K+ on 2026-10-01.
+- **2026-10-16:** the companion GBrain launched as a product on Product Hunt (see gbrain above).
+- **Cited as the reference point for two October positions:** Osmani's 25-skill pack is read against it ([[addyosmani-agent-skills-repo-2026-10-03]]), and DHH's "barely any skills" setup against it ([[dhh-no-magic-sauce-harness-setup-2026-10-06]]).
 
 - **Tan himself, daily** — the [[garrytan-capy-harness-4x-2026-09-23|Capy 4× post]] is about his own GStack/GBrain PRs.
 - Star count is the main adoption proxy; third-party explainers exist (Augment Code, Epsilla, Vectorize) but the wiki holds no independent practitioner receipts yet.

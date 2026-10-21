@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-09-29
+last_updated: 2026-10-21
 ---
 
 ## What It Is
@@ -20,6 +20,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-10-21: an OpenShell blueprint for agent boundaries** ([[dailybrief-roundup-2026-10-21]], Digg). It pairs the open-source OpenShell runtime with Vera computing, with BlueField-4 monitoring as an optional safeguard. It's the reference-design version of the 2026-09-28 product below. *(One-line aggregator summary.)*
 - **2026-09-03/13 — "Nvidia is the central bank of AI"** (The Economist interactive briefing, surfaced in both the 09-12 and 09-13 briefs — [[dailybrief-roundup-2026-09-13]]): a structural framing of Nvidia's position — not merely the dominant supplier but the institution that effectively **sets the terms of credit** for everyone building on AI, since access to compute determines who can attempt what. The 09-13 brief is appropriately cool: *"structural but no new data."* The framing is the contribution, and it is the macro counterpart to the wiki's [[ai-margin-collapse|compute-consolidation]] thread ([[dylan-patel|Dylan Patel's]] *"everything's a neocloud"* and the 2028 two-lab projection) plus the [[hugging-face|Hugging Face acquisition]] — a central bank that also bought the exchange. *(Analysis piece; no new figures.)*
 - $5 trillion market cap crossed April 2026 — [[post-aakashgupta-jensen-huang-management]]
 - H100/H200 demand consistently outpaces supply; waitlists measured in quarters [unsourced]

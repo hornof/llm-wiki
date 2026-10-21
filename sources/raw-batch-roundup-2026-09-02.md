@@ -3,6 +3,7 @@ title: "Raw-batch roundup — 2026-09-02 (@claudeskills101 vector-DB anatomy; @M
 type: source
 medium: twitter-thread
 url:
+local_source: "_raw/Post by @claudeskills101 on X.md; _raw/Post by @Mahaximus_ on X.md"
 ingested: 2026-09-03
 ---
 

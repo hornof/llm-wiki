@@ -2,7 +2,7 @@
 title: "DoorDash company-brain signal: new engineer recovers PM decision context via AI (Aakash Gupta on X)"
 type: source
 medium: twitter-thread
-url: ""
+url: https://x.com/aakashgupta/status/2053504608564314362
 ingested: 2026-05-12
 ---
 

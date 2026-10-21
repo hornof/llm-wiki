@@ -3,6 +3,7 @@ name: Vibe Physics
 type: concept
 maturity: emerging
 last_updated: 2026-05-06
+dormant_since: 2026-10-21
 ---
 
 ## Definition

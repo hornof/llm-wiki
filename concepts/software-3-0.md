@@ -2,7 +2,7 @@
 name: Software 3.0
 type: concept
 maturity: emerging
-last_updated: 2026-05-06
+last_updated: 2026-10-21
 ---
 
 ## Definition
@@ -25,6 +25,11 @@ Actively shaping how practitioners think about product design and system archite
 **Canonical example (Karpathy)**: Building MenuGen — a full-stack app to OCR a restaurant menu and generate food images — then discovering the Software 3.0 version is a single prompt to Gemini with NanoBANANA overlay. The app was spurious; the paradigm made it obsolete.
 
 **OpenClaw example**: The installer for OpenClaw is not a shell script — it is a block of text to paste to your agent. The agent reads the environment intelligently and debugs in a loop, which is more powerful than any shell script targeting multiple platforms.
+
+**Since May (refreshed 2026-10-21).** Karpathy joined [[anthropic]] on 2026-05-19 to lead a research group ([[karpathy-joins-anthropic-2026-05-19]]); this page's framing comes from his AI Ascent talk before that move. Two later items mark the edges of the thesis:
+
+- **Not every call should be a prompt.** TypeSafe's Jev is a "System One" decision model that returns typed answers with probabilities instead of text, because *"language generation is the wrong interface when code already knows the possible answers"* ([[jev-typesafe-system-one-model-2026-09-18]]). That's a Software 2.0 artifact sitting inside 3.0 systems, for the many small judgments where a generated paragraph is the wrong output.
+- **What the engineer loses.** Jeremy Scheff's "obituary for programming" ([[scheff-obituary-for-programming-2026-10-19]]) is the cost side of "the engineer specifies intent": the puzzle-solving that drew people to the job is the part that moved to the model. See [[ai-labor-market-impacts]].
 
 ## Implications for Founders and Builders
 1. Don't ask "how do I speed up what exists?" — ask "what new things are now possible that weren't before?"

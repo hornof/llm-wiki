@@ -2,6 +2,7 @@
 name: Doing Great Work
 type: topic
 last_updated: 2026-04-25
+dormant_since: 2026-10-21
 ---
 
 ## What This Is

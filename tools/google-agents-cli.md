@@ -3,12 +3,18 @@ name: Google Agents CLI (google/agents-cli)
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-02
+last_updated: 2026-10-21
 ---
 
 ## What It Is
 
 **google/agents-cli** is Google's CLI + 7 bundled skills that turn **any coding assistant** into an expert at creating, evaluating, and deploying AI agents on Google Cloud. Launched 2026-06-27 ([[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27]]). One install injects the skills into every coding agent at once — [[antigravity|Antigravity]], [[claude-code|Claude Code]], [[codex|Codex]], or any other.
+
+## Traction Signals
+
+- **GitHub, 2026-10-21:** ~6.1k stars on `google/agents-cli` (`gh api`).
+- **Cited as the coding-agent-side counterpart to Anthropic's hosted Managed Agents** (2026-06-30, [[claude-managed-agents-updates-2026-06-30]]), and as one of three June sources converging on a loops + memory + harness + evals stack ([[movez-ex-google-engineer-ai-agent-loops-harness-evals-2026-06-29]]).
+- No practitioner reports of use yet. Adoption figures are listed under Unverified below.
 
 ## How to Use It
 

@@ -2,7 +2,7 @@
 name: Context Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-07-29
+last_updated: 2026-10-21
 ---
 
 ## Definition
@@ -60,6 +60,10 @@ Crucially, it does **not** claim context replaces prompting — they're compleme
 
 ### The "8x" claim (caveat)
 The framing source ([[noisyb0y1-context-engineering-8x-2026-07-04]]) asserts *"Anthropic engineers merge 8x more code per day than a year ago… the model didn't change; what changed is what Claude sees before it starts."* **This 8x figure and the "Anthropic's own research says so" attribution are author-asserted in a promotional practitioner thread, not traced to a specific Anthropic publication here** — treat the number as illustrative, not a verified benchmark. The *underlying discipline* (7 components, 3-layer stack, AGENTS.md, memory files, MCP) is well-grounded in ideas the wiki already tracks; the 8x is the hook.
+
+**August–September 2026 (refreshed 2026-10-21).**
+- **The term may be a stage, not a destination.** One practitioner reads prompt engineering → context engineering → harness/loop/graph engineering as successive names for a moving abstraction boundary that collapses into "product" once it settles ([[businessbarista-harness-engineering-product-2026-08-24]]). The wiki's own pages track that move: much of what this page describes is now discussed under [[loop-engineering]] and [[skill-md]].
+- **Still the throughline of hands-on advice.** John Kim's 50 Claude Code tips organise around *"context is king, keep it fresh and condensed"* ([[john-kim-50-claude-code-tips-2026]]). [[andrew-ng|Andrew Ng]] lists grounding and context among the core AI engineering skills ([[andrew-ng-ai-engineering-skills-building-deploying-2026-08-21]]).
 
 ## Key Papers / Posts
 - [[noisyb0y1-context-engineering-8x-2026-07-04]] — practitioner synthesis: "context is the operating system for AI"; 7 components + 3-layer stack + AGENTS.md + memory + MCP (8x claim caveated)

@@ -2,7 +2,7 @@
 name: Engineering Leadership in the AI Era
 type: concept
 maturity: emerging
-last_updated: 2026-08-13
+last_updated: 2026-10-21
 ---
 
 ## Definition
@@ -40,6 +40,12 @@ The flip side of the leadership squeeze: the role the AI industry is *scrambling
 ### The counterpoint threads the wiki already tracks
 - **IC-side role shift** ([[andrej-karpathy]]): the individual-contributor job moves to *"taste, judgment, spec ownership"* — the "bookends" of deciding-what and judging-quality ([[greg-isenberg|Isenberg]]'s *"AI eats the middle"*). The leadership-side squeeze here is the management-tier counterpart.
 - **Org rebuild** ([[ai-native-organizations]]): *"everyone is a manager now"* + middle-management thinning. If AI collapses the information-routing rationale for hierarchy, the mid-tier eng-leadership role is exactly what gets compressed.
+
+**June–October 2026 (refreshed 2026-10-21).** Three items bear directly on engineering-leadership work:
+
+- **Roles reorganised by product stage, not function.** [[boris-cherny|Boris Cherny]] (Claude Code) proposes five archetypes: Prototyper, Builder, Sweeper, Grower and Maintainer. They cut across engineering, product, design and data science, and team mix follows product stage ([[bcherny-5-archetype-future-roles-2026-06-28]]). For an engineering leader this is a staffing model: pre-PMF teams are Prototyper + Builder + Sweeper, mature ones lean on Sweeper, Grower and Maintainer.
+- **AI spend becomes a per-engineer budget line.** Accenture reportedly caps centrally funded Claude use at **$29/month per employee** ([[dailybrief-roundup-2026-10-17]]). Cognition reportedly ties engineers' AI spending limits to **efficiency grades** ([[dailybrief-roundup-2026-10-18]]). Both are headline-level reports, but they put a new metric on the leader's desk: tokens per engineer, judged against output.
+- **The morale cost.** Jeremy Scheff's "obituary for programming" ([[scheff-obituary-for-programming-2026-10-19]]) says the intellectual puzzle was the job's reward, and it's the part agents now take. A retention problem for the leaders of people who chose the work for that reason. See [[ai-labor-market-impacts]].
 
 ## Key Papers / Posts
 - [[gergely-orosz-eng-leadership-exodus-2026-07-27]] — the anchor observation (CTO/VPE burnout + fractional/founder exodus)

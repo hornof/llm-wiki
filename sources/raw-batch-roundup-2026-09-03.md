@@ -3,6 +3,7 @@ title: "Raw-batch roundup — 2026-09-03 (@minchoi Fable 5.1 examples; @mattpoco
 type: source
 medium: twitter-thread
 url:
+local_source: "_raw/Post by @minchoi on X 3.md; _raw/Post by @mattpocockuk on X 2.md"
 ingested: 2026-09-08
 ---
 

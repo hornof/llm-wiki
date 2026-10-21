@@ -3,6 +3,7 @@ name: Interaction Models
 type: concept
 maturity: emerging
 last_updated: 2026-05-13
+dormant_since: 2026-10-21
 ---
 
 ## Definition

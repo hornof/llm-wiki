@@ -4,6 +4,7 @@ type: tool
 category: cli
 status: gaining-traction
 last_updated: 2026-08-18
+dormant_since: 2026-10-21
 ---
 
 ## What It Is
