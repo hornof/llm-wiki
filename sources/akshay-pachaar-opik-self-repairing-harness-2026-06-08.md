@@ -8,7 +8,7 @@ ingested: 2026-06-09
 
 ## Summary
 
-[[akshay-pachaar|Akshay Pachaar]] publishes (2026-06-08 X) **Your Agent Harness Should Repair Itself** — substantive practitioner-content guide on **[[opik|Opik]]** (open-source agent observability + self-repair platform from Comet ML). **First wiki-captured Opik surface** + **2nd substantive Akshay Pachaar wiki surface** (extends [[akshay-pachaar|prior Code Mode reframer surface]]). Articulates **4-layer self-repairing agent-harness stack** (Tracing + Ollie code-fix agent + Test Suites + Agent Sandbox) — closes the **"trace → root cause → diff → approve → rerun → regression locked"** loop. Pairs structurally with [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn "the loop is not the magic; the feedback inside it is"]] + [[steipete-loops-engineering-vision-md-2026-06-07|Mo "loop needs something that can say no"]] + [[mit-ai-coding-elasticity-substitution-rohanpaul-2026-06-07|Chen Avnery "verification tax"]] at the **harness-self-repair-as-load-bearing-discipline** layer. **First wiki-captured "observability ends at the trace" critique** + **first wiki-captured "every failing trace becomes a regression test" canonical framing**.
+[[akshay-pachaar|Akshay Pachaar]] publishes (2026-06-08 X) **Your Agent Harness Should Repair Itself** — substantive practitioner-content guide on **Opik** (open-source agent observability + self-repair platform from Comet ML). **First wiki-captured Opik surface** + **2nd substantive Akshay Pachaar wiki surface** (extends [[akshay-pachaar|prior Code Mode reframer surface]]). Articulates **4-layer self-repairing agent-harness stack** (Tracing + Ollie code-fix agent + Test Suites + Agent Sandbox) — closes the **"trace → root cause → diff → approve → rerun → regression locked"** loop. Pairs structurally with [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn "the loop is not the magic; the feedback inside it is"]] + [[steipete-loops-engineering-vision-md-2026-06-07|Mo "loop needs something that can say no"]] + [[mit-ai-coding-elasticity-substitution-rohanpaul-2026-06-07|Chen Avnery "verification tax"]] at the **harness-self-repair-as-load-bearing-discipline** layer. **First wiki-captured "observability ends at the trace" critique** + **first wiki-captured "every failing trace becomes a regression test" canonical framing**.
 
 ## Key Claims / Takeaways
 
@@ -95,7 +95,7 @@ LLM-as-a-judge backed. **First wiki-captured plain-English-assertion test-suite 
 ## Pages Updated
 
 - [[akshay-pachaar]] — 2nd substantive surface confirmed (Opik 4-layer-stack walkthrough); previous Code Mode reframer surface extended; entity page significantly enriched
-- [[opik]] — new entity page (open-source agent-observability platform; Comet ML; 19.3K+ stars; 4-layer stack)
+- ~~opik — new entity page~~ *(Correction 2026-10-21: no `tools/opik` page was created. The 2026-06-09 lint deferred it because this post was the only source, and that is still true. The link was removed so it no longer points at a page that doesn't exist.)*
 - [[loop-engineering]] — harness-self-repair primitive added as load-bearing discipline
 - [[topics/ai-roi-gap]] — Opik / Ollie self-repair primitive noted as practitioner-side answer to verification-tax layer
 
