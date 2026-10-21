@@ -35,9 +35,8 @@ Victor Taelin is an **independent open-source creator** best known pre-AI for **
 
 *Contact details are not tracked as open questions (lint 2026-09-21) — a missing X handle is a lookup, not research debt. Removed rather than carried.*
 
-- Taelin's specific stated affiliation (independent / HVM-funded / consulting?)
-- Taelin's broader practitioner-content register voice beyond the 2 wiki-captured surfaces — does he publish on blog / Substack / X regularly?
 - Whether Taelin's GPT-5.5 hardcoding-incident has been corroborated by other practitioners or remains single-source
 - Whether Taelin's Fable 5 / Mythos 5 benchmark-skepticism includes specific benchmarks dismissed (or general framing only)
-- Anthropic-side response to Taelin's Fable 5 benchmark-skepticism (pattern-watch)
-- Whether HVM project has direct AI-coding-tool integration angle worth wiki-tracking
+
+*(2026-10-21 backlog triage: 4 items removed. Bio and watch items; the two substantive questions (corroboration, which benchmarks) stay.)*
+

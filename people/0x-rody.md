@@ -3,7 +3,7 @@ name: rody (@0x_rody)
 type: person
 affiliation: independent; Telegram channel `t.me/zodchixquant` (shared with @zodchii — distinct people, see note)
 signal_sources: [twitter, telegram]
-last_updated: 2026-09-20
+last_updated: 2026-10-21
 ---
 
 > [!note] Same person as [[zodchii]]? — resolved 2026-09-20 (lint)
@@ -40,9 +40,7 @@ rody (@0x_rody on X) is an independent practitioner-content register voice publi
 
 *Contact details are not tracked as open questions (lint 2026-09-21) — a missing X handle is a lookup, not research debt. Removed rather than carried.*
 
-- Whether 0x_rody = [[zodchii]] (same person two X handles) — shared Telegram channel `t.me/zodchixquant` is the load-bearing evidence; pattern-watch for verification
-- If distinct from zodchii: co-collaborator relationship + how the channel is jointly operated
-- Whether 0x_rody is the *"Anthropic engineer"* attribution zodchii applied in May 31 amplification (per [[zodchii]] Notable Takes section) — verification-pending
-- "Anthropic main manager" identity in the 26-min talk 0x_rody references — likely [[cat-wu|Cat Wu]] but not confirmed
-- Specific Anthropic-internal talk venue + date
-- Whether 0x_rody publishes on additional surfaces (Substack? YouTube? blog?)
+- Whether 0x_rody = [[zodchii]] (same person two X handles) — shared Telegram channel `t.me/zodchixquant` is the load-bearing evidence; pattern-watch for verification *(**Resolved 2026-10-21:** answered on this page's own note: distinct people who share the `t.me/zodchixquant` channel. The question sat open below the answer.)*
+
+*(2026-10-21 backlog triage: 5 items removed. Bio and attribution questions about a content creator; low value under CLAUDE.md rule 2a.)*
+

@@ -55,10 +55,9 @@ Patrick and John Collison, co-founders. **Leadership roster otherwise uncaptured
 
 - **OpenRouter deal terms and close date** — reported via AINews; primary never fetched, and the $7B figure anchors an argument on [[ai-margin-collapse]].
 - **Which agent-spending safeguard Stripe is building** — a per-transaction limit, agent attestation, and extended reversibility behave very differently, and the 2026-10-14 report says only that work exists.
-- Stripe's funding history and private valuation; pre-IPO status.
-- Stripe Projects launch date and feature set; OpenUSD launch date and Stripe's own statement.
-- Full AI investment portfolio beyond Anthropic and Intercept.
-- Leadership roster; the Collison direct voice.
 
 > [!note] Rewritten 2026-10-15
 > The 2026-06-30 version carried **28 instances of `canonical-` filler** from an automated pass, including in the `focus:` frontmatter field. Content preserved and the 2026-08-17 OpenRouter entry kept verbatim; prose rewritten and the four 2026-10 surfaces added. See lint rule 7.
+
+*(2026-10-21 backlog triage: 4 items removed. Profile facts; the OpenRouter terms and the agent-spending safeguard are what the wiki's arguments rest on.)*
+

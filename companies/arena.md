@@ -46,10 +46,10 @@ last_updated: 2026-10-15
 
 - **Leaderboard methodology** — Elo over human votes, LLM-as-judge, or other. **The single most load-bearing unknown on this page.**
 - **The Alignment Index's methodology and funding model**, before any score from it is cited.
-- Leadership roster, founders, investors, full funding history.
-- Revenue model and pricing tiers.
-- The LMSys-to-Arena-AI corporate transition.
 - TechCrunch primary for the $100M story.
 
 > [!note] Rewritten 2026-10-15
 > The 2026-06-29 version carried **24 instances of `canonical-` filler** from an automated pass, including in the `focus:` frontmatter field. Content preserved, prose rewritten, and the 2026-10-08 Series B and Alignment Index added — the page was four months stale on a company that had raised at 31× in the interim. See lint rule 7.
+
+*(2026-10-21 backlog triage: 3 items removed. Corporate-profile facts; the methodology questions are the ones the wiki cites against.)*
+

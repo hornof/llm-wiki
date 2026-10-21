@@ -3,7 +3,7 @@ name: METR (Model Evaluation and Threat Research)
 type: company
 focus: third-party AI evaluation; frontier capability and honesty evaluations
 status: gaining-traction
-last_updated: 2026-10-17
+last_updated: 2026-10-21
 ---
 
 ## What It Is
@@ -57,10 +57,12 @@ Every other evaluator the wiki tracks has acquired a funding relationship worth 
 
 - **The honesty suite's name and composition.** The 55.4% figure is cited on several pages and the wiki cannot say what it measures.
 - **Whether the GPT-5.6 rejection was ever resolved** — the wiki recorded the rejection and never the aftermath. **Most consequential open item here.**
-- Leadership roster and founders.
 - **METR's funding model**, which the independence comparison above now makes load-bearing.
-- Formal evaluation partnerships with Anthropic, OpenAI and others.
+- Formal evaluation partnerships with Anthropic, OpenAI and others. *(**Resolved 2026-10-21:** partly. Anthropic's 2026-10-15 framework embeds METR with employee-like access and no publication veto ([[anthropic-update-on-independent-evaluators-2026-10-15]]). OpenAI and others are still uncaptured.)*
   > **Anthropic half resolved 2026-10-17** ([[anthropic-update-on-independent-evaluators-2026-10-15]]): a formal Tier 3 embedded arrangement since 2026-10-15, with prior collaboration on several Risk Report reviews. **OpenAI and others remain open.**
 
 > [!note] Rewritten 2026-10-15
 > The 2026-06-26 version carried **132 instances of `canonical-` filler** — second worst in the corpus. Content preserved, prose rewritten, two path-form wikilinks corrected to slug-form, and the evaluator-independence comparison added (Arena's Series B, NVIDIA's AISI funding) since the page was four months stale on a question that had become live. See lint rule 7.
+
+*(2026-10-21 backlog triage: 1 item removed. Profile fact.)*
+

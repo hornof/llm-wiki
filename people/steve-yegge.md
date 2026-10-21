@@ -3,7 +3,7 @@ name: Steve Yegge
 type: person
 affiliation: Independent / author of Gas Town (pre-AI: Google, Grab, Sourcegraph)
 signal_sources: [github, blog]
-last_updated: 2026-09-17
+last_updated: 2026-10-21
 ---
 
 ## Who They Are
@@ -15,7 +15,7 @@ Steve Yegge is a veteran software engineer (Amazon, Google, Grab, Sourcegraph) a
 **Gas Town** ([github.com/gastownhall/gastown](https://github.com/gastownhall/gastown); launched January 2026): open-source multi-agent Claude Code orchestration project.
 
 > [!warning] Reported shut down (2026-09-17, unconfirmed)
-> Latent Space's *"Reality checks"* round-up reports Yegge shutting Gas Town down ([[dailybrief-roundup-2026-09-17]]); the surfacing brief hedges with *"if confirmed"* and reads it as *"execution risk in big bets."* **Not confirmed here** — the primary was not fetched and the repo was not checked. Recorded because this page and [[loop-engineering]] both carry Gas Town as his headline contribution and as the wiki's strongest open-source multi-agent-orchestration example. If true, it says something about the **maintenance cost** of running 20-30 coordinated agents, not about whether the architecture works. **Verify before citing it as live.**
+> Latent Space's *"Reality checks"* round-up reports Yegge shutting Gas Town down ([[dailybrief-roundup-2026-09-17]]); the surfacing brief hedges with *"if confirmed"* and reads it as *"execution risk in big bets."* **Not confirmed here** — the primary was not fetched and the repo was not checked. *(2026-10-21: repo checked — not archived, one commit since 09-17. See Verification-pending.)* Recorded because this page and [[loop-engineering]] both carry Gas Town as his headline contribution and as the wiki's strongest open-source multi-agent-orchestration example. If true, it says something about the **maintenance cost** of running 20-30 coordinated agents, not about whether the architecture works. **Verify before citing it as live.**
 
 Per [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn]]: *"twenty to thirty Claude Code instances coordinated by a Mayor agent, with patrol agents that run continuous loops and state stored in git so work survives a crash. That is the continuous orchestration loop that oversees other threads Trash Panda was reaching for, shipped and open source."*
 
@@ -43,6 +43,7 @@ Per [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn]]: *"twenty to thirty Claude Co
 
 ## Verification-pending
 
-- Gas Town repo current state (commit activity, license, contributor count)
-- Yegge's currently-stated affiliation (independent vs employed)
-- Yegge's broader 2026 AI-coding-side voice presence beyond Gas Town
+- Gas Town repo current state (commit activity, license, contributor count) *(**Resolved 2026-10-21:** checked via `gh api`: `gastownhall/gastown` is MIT, ~18.5k stars, **not archived**, and has **one commit since 2026-09-17** (a 10-20 Go build fix by another contributor). That fits a project wound down rather than deleted. It neither confirms nor rules out the reported shutdown.)*
+
+*(2026-10-21 backlog triage: 2 items removed. Bio questions; rule 2a.)*
+

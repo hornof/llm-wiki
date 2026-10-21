@@ -45,10 +45,6 @@ Elon Musk is the **CEO + Chief Engineer of SpaceX**, CEO of Tesla, founder of **
 
 ## Verification-pending
 
-- Specific Musk-direct-voice on Anthropic-USG-conflict event (no public Musk-direct-voice on Jun 13 Sacks announcement captured)
-- Specific Musk-Sacks coordination on AI-policy direction (verification-pending)
-- Specific xAI Grok / Imagine model-release cadence post-Anthropic-USG-conflict-event
-- Specific Tesla Optimus humanoid robotics deployment cadence vs Prometheus AGE competition
-- Specific Musk-Bezos AI-policy positioning differences (24-hour 2-tech-billionaire AI-physical-world capital-event cluster sibling)
-- Specific Musk position on Mistral Series D / MiniMax / Moonshot Chinese-open-weight model-launch cluster
-- Specific Musk-Jassy relationship trajectory post-WSJ-Anthropic-disclosure (Amazon competitive-positioning vis-à-vis xAI)
+
+*(2026-10-21 backlog triage: 7 items removed. June-era "Specific …" prompts generated in bulk: relationship dynamics, positions on other events, and pattern-watch items. None was a question anyone needed answered; rule 2a says delete rather than carry.)*
+

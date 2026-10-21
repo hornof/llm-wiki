@@ -149,5 +149,6 @@ Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sac
 - Specific Fable 5 pricing / API access tier / rate-limit framework
 - Specific "silently-restricts" implementation detection mechanism
 - Whether 0.03%-of-traffic figure is Anthropic-disclosed or analyst-estimated
-- Specific Taelin critique substance — which benchmarks did he dismiss?
-- Anthropic-side response to Taelin critique
+
+*(2026-10-21 backlog triage: 2 items removed. Taelin's critique is tracked once, on [[victor-taelin]]; an Anthropic response is a watch item, not a question.)*
+

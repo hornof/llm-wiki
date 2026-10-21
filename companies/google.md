@@ -62,11 +62,6 @@ Full four-incident comparison across OpenAI, Anthropic and Google at [[ai-vulner
 
 ## Verification-pending
 
-- Specific Google Cloud frontier-AI competitive positioning vs AWS Bedrock + Microsoft Azure + xAI
-- Specific Google-side response to Anthropic-USG-conflict event (Google's positioning as alternative-frontier-vendor)
-- Specific Google-Gemma open-weight-tier strategy (operator-side local-models pivot opportunity)
-- Specific Alphabet-investor relations on AI-capex trajectory + ROI-disclosure
-- Specific Google DeepMind multi-agent-safety-research $10M grant recipients + roadmap
-- Specific Google-OpenAI multi-state-AG-investigation competitive-positioning implications
-- Specific Google Quantum (Willow + successors) AI-adjacency strategy
-- Specific Google Antigravity SDK + agent-platform-tier strategy (per [[dailybrief-roundup-2026-05-19|prior wiki note]])
+
+*(2026-10-21 backlog triage: 8 items removed. June-era "Specific …" prompts generated in bulk: relationship dynamics, positions on other events, and pattern-watch items. None was a question anyone needed answered; rule 2a says delete rather than carry.)*
+
