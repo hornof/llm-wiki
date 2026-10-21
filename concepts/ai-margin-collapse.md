@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-10-19
+last_updated: 2026-10-21
 ---
 
 ## Definition
@@ -15,6 +15,8 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 
 ## Current State
 
+- **A lab's fixed cost base, from its own filing (2026-10-20)** ([[anthropic-s1-leak-h1-loss-compute-2026-10-20]]): Anthropic's leaked S-1 shows about **$450B of cloud agreements over seven to ten years, mostly noncancelable**, against **$16.3B of H1 revenue**, with total compute plans of $600B–$750B. **This is the first committed-cost figure this page holds from a filing rather than a press report.** It moves the risk the page tracks. Commoditised inference cuts price; a decade of noncancelable capacity fixes cost. A lab with both falling prices and fixed capacity costs is squeezed from two sides. → [[anthropic]] *(The $80.7B H1 net loss includes financing-related accounting adjustments, so it is not an operating figure. Leaked, not public.)*
+- **An open lab's serving margin, estimated (2026-10-21)** ([[latent-space-deepseek-inference-economics-2026-10-21]]): DeepSeek reports **155T tokens/day** and **$38 revenue per accelerator-hour off-peak**. Most analyst estimates put the margin at **roughly 74–87%** at $5–10 all-in per card-hour; one goes as high as 96%. **The open-weights side of this page now has a revenue-per-hardware number,** and it says serving open models at scale can be very profitable for the serving lab even at low prices. The catches: the 96% cache-hit rate does a lot of the work, the hardware behind the revenue is undisclosed, and the cost estimates omit storage, networking, idle time and staff. → [[deepseek]] *(First-party figures; margins are third-party estimates; the brief's "$22M/day" and "81-day payback" are Latent Space's arithmetic.)*
 - **Open models carry ~80% of tokens through Vercel's AI Gateway (2026-10-16)** ([[sourcery-vercel-rauch-interview-2026-10-16]], [[guillermo-rauch|Rauch]] interview), up from mostly proprietary at the start of 2026. A single-day record of 78.4% was posted in September.
   > **This is the "open-weights adoption in production" item on this page's Track line, and the first number for it.** Read the scope narrowly: it is token volume through one gateway, not all inference Vercel customers run. Gateway users are developers who chose a multi-model router, so the population leans towards price-sensitive routing, and token share is not spend share. A cheap model doing high-volume work can carry most of the tokens while a frontier model carries most of the bill. **It still shows that, for a large developer population, open models are now the default for volume.** *(CEO interview, no stated period or method. Vercel publishes anonymised gateway data under CC; not fetched.)*
 - **One lab, one neocloud, ~$90B (2026-10-19)** ([[nscale-anthropic-second-monarch-2026-10-19]]): Nscale is reportedly in talks for a second ~$45B Anthropic deal on top of August's. → [[anthropic]] *(Talks, unverified.)*
