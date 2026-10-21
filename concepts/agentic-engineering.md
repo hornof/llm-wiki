@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-10-18
+last_updated: 2026-10-21
 
 ---
 
@@ -53,7 +53,7 @@ The section below records OSS projects shifting to "agent software factories" as
 
 [[croovies-loop-orchestrator-mission-note-2026-09-10]] is the clearest practitioner artifact the wiki holds of Karpathy's *"preserving the quality bar"* expressed as **enforceable rules on an agent fleet** rather than as intent. Four are worth naming as agentic-engineering primitives:
 
-- **Plan review before code exists.** Non-trivial features must produce a plan doc *with no feature code*, which a **rival vendor's model** ([[openai|Codex]]) reviews for design/architecture/reuse/risk before building starts — *in addition to* the per-PR review. Pushes the quality gate **upstream of generation**, where the discipline's usual failure is catching bad architecture at review time when it is expensive to undo.
+- **Plan review before code exists.** Non-trivial features must produce a plan doc *with no feature code*, which a **rival vendor's model** ([[codex|Codex]]) reviews for design/architecture/reuse/risk before building starts — *in addition to* the per-PR review. Pushes the quality gate **upstream of generation**, where the discipline's usual failure is catching bad architecture at review time when it is expensive to undo.
 - **Cross-vendor adversarial review as a purchased good.** A second vendor's subscription bought *"just for adversarial reviews"* — self-review by the same model family treated as structurally insufficient. The [[loop-engineering|push-back primitive]] with money behind it.
 - **Review strictly before human QA, never after.** No work reaches the human until automated review has run and all findings are resolved; *"the ONLY legitimate re-QA loop is when [the human's] own QA feedback requires changes."* A direct answer to the [[john-kim|review-as-bottleneck]] problem: protect the scarce human step by making it the last one.
 - **Rules accrete from failures.** *"When your agent does something you don't like — add a law to guide the working style"* — [[claude-md-pattern|compound engineering]] pointed at the supervisor's conduct rather than the codebase.

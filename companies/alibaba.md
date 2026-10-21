@@ -3,7 +3,7 @@ name: Alibaba
 type: company
 focus: Chinese tech conglomerate; canonical-2-tier-positioning (open-source-research-tier + canonical-IP-dispute-counterparty)
 status: gaining-traction
-last_updated: 2026-06-25
+last_updated: 2026-10-21
 ---
 
 ## What It Is
@@ -25,6 +25,7 @@ last_updated: 2026-06-25
 
 - **Alibaba-NLP DeepResearch** (canonical-open-source canonical-30B-MoE canonical-long-horizon canonical-agentic-research-tier).
 - **Qwen canonical-open-weights canonical-vendor** (verification-pending canonical-Alibaba-Qwen-team canonical-relationship — separate canonical-vendor vs canonical-Alibaba-NLP-cohort).
+  *(**Resolved 2026-10-21, duplicate-page scan:** [[qwen]] describes Qwen as Alibaba's own open-weights model family, so it is not a separate vendor. Its coverage lives on [[qwen]]; this page had no link to it.)*
 
 ## Compared To
 

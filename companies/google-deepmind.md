@@ -2,11 +2,11 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-10-03
+last_updated: 2026-10-21
 ---
 
 ## What It Is
-Google's primary AI research lab, formed from the merger of Google Brain and DeepMind. Led by CEO Demis Hassabis. Responsible for AlphaGo, AlphaFold, Gemini models, and systems that won gold medals at the International Math Olympiad. Takes a neuroscience-informed approach to AI research. Founded as DeepMind in 2009 by Hassabis and colleagues; acquired by Google; merged with Google Brain to form current entity.
+Google's primary AI research lab, formed from the merger of Google Brain and DeepMind. Led by CEO Demis Hassabis. Responsible for AlphaGo, AlphaFold, Gemini models, and systems that won gold medals at the International Math Olympiad. Takes a neuroscience-informed approach to AI research. Founded as DeepMind in 2009 by Hassabis and colleagues; acquired by Google; merged with Google Brain to form current entity. Parent-company coverage (Gemini Enterprise sales, Google Cloud, compute deals, search regulation) lives on [[google]].
 
 ## Founding Thesis (2009)
 Combine deep learning (then newly published by Hinton) with reinforcement learning — two siloed academic fields. Bet on accelerated compute (GPUs; later TPUs). Original mission: "Step one: solve intelligence, i.e. build AGI. Step two: use it to solve everything else." — [[hassabis-deepmind-alphafold-agi]]

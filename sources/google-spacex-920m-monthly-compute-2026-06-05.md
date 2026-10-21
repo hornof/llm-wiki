@@ -8,7 +8,7 @@ ingested: 2026-06-06
 
 ## Summary
 
-**TechCrunch reports [[google-deepmind|Google]] will pay [[spacex|SpaceX]] $920M/month for compute** (~$11B/year). **First wiki-captured concrete-dollar Google → SpaceX compute-as-a-service deal**. Pairs structurally with the [[dailybrief-roundup-2026-06-04|Goldman Sachs $322B SpaceX AI revenue forecast]] (Jun 04) as **concrete operational validation of the substrate-tier compute-as-a-service revenue trajectory**. Brief insightful framing: *"Google's own datacenters hit a wall."* **First wiki-captured frontier-hyperscaler admission that owned-infrastructure cannot keep up with AI demand**.
+**TechCrunch reports [[google|Google]] will pay [[spacex|SpaceX]] $920M/month for compute** (~$11B/year). **First wiki-captured concrete-dollar Google → SpaceX compute-as-a-service deal**. Pairs structurally with the [[dailybrief-roundup-2026-06-04|Goldman Sachs $322B SpaceX AI revenue forecast]] (Jun 04) as **concrete operational validation of the substrate-tier compute-as-a-service revenue trajectory**. Brief insightful framing: *"Google's own datacenters hit a wall."* **First wiki-captured frontier-hyperscaler admission that owned-infrastructure cannot keep up with AI demand**.
 
 ## Key Claims / Takeaways
 
