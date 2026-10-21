@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-20
+last_updated: 2026-10-21
 ---
 
 ## Definition
@@ -14,6 +14,12 @@ last_updated: 2026-10-20
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### A lab drafts the law — and the court, not the agency, holds the brake (2026-10-16/20)
+
+Anthropic's draft federal bill ([[anthropic-federal-safety-bill-draft-2026-10-20]], Politico 10-16, TechCrunch 10-20) sets a threshold of a *"foreseeable, imminent risk"* of more than 50 deaths or $1B in damage, from a bioweapon, a model *"evading its developer's controls,"* or a cyberattack. Evaluators registered with Commerce do the testing and have 72 hours to report. Commerce then asks a D.C. judge to stop the release. **The bill would also forbid any federal agency from halting a model on its own.**
+
+**Read it against the three sections below.** The 10-15 evaluator tiers were a lab picking its own checker. The 10-15 FTC demand was the first federal action the lab didn't choose. This draft turns the first into law, with lab-paid evaluators kept (TechCrunch questions how payment stays independent of results), and puts a court between the FTC's kind of authority and a release. **It is a real brake with a narrow trigger, and it ends regulators' unilateral discretion.** Whether that is a fair trade depends on how often a 72-hour, court-ordered stop would be fast enough; for agentic hacking, which TechCrunch calls the more current risk, the threshold barely applies. *(Draft only; covered models not specified; not introduced in Congress.)*
 
 ### "Frontier models cannot be trusted" — and the state acts on origin (2026-10-19)
 
