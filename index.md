@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Tools & Frameworks
+- [[litellm]] — BerriAI's open-source gateway for 100+ LLM providers (SDK and proxy); ~61.7k stars; 1.107.0 compromised on PyPI 2026-10-21
 - [[goose]] — Block's agent coding harness; AI-native tooling dogfooded internally since early 2024
 - [[mojo]] — Modular's MLIR-based Python-superset systems language for AI infra; open-sourced Apache-2 (2026-08), ~3yr post-announcement
 - [[buzz]] — Block's open-source (Apache-2.0, Nostr) workspace where people + agents are equal cryptographically-identified members; "one context" over Slack+GitHub (Jul 2026)
