@@ -8,7 +8,7 @@ ingested: 2026-06-04
 
 ## Summary
 
-[[simon-willison|Willison]] (2026-06-04) surfaces a 404 Media report by **Emanuel Maiberg** documenting an **internal messaging shift at [[google-deepmind|Google]] around criticism of AI products**. **First wiki-captured frontier-vendor internal-comms-control event around AI-product-readiness criticism.** Lands same-day as [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's RSI publication]] — *2 distinct frontier-lab internal-positioning events* on the same day, with opposite framings: Anthropic publishes its productivity data openly; Google reportedly tightens internal-comms control on AI-product-readiness criticism.
+[[simon-willison|Willison]] (2026-06-04) surfaces a 404 Media report by **Emanuel Maiberg** documenting an **internal messaging shift at [[google|Google]] around criticism of AI products**. **First wiki-captured frontier-vendor internal-comms-control event around AI-product-readiness criticism.** Lands same-day as [[anthropic-institute-when-ai-builds-itself-2026-06-04|the Anthropic Institute's RSI publication]] — *2 distinct frontier-lab internal-positioning events* on the same day, with opposite framings: Anthropic publishes its productivity data openly; Google reportedly tightens internal-comms control on AI-product-readiness criticism.
 
 ## Key Claims / Takeaways
 
@@ -31,7 +31,7 @@ Same-day publication pairing with opposite framings:
 | Lab | Same-day move | Direction |
 |---|---|---|
 | [[anthropic]] | Publishes [[anthropic-institute-when-ai-builds-itself-2026-06-04|first-party productivity data + RSI position paper + verifiable-slowdown commitment]] | **Open** — invites external scrutiny |
-| [[google-deepmind|Google]] | Internal-comms shift on AI-product-readiness criticism (per 404 Media) | **Closed** — restricts internal scrutiny |
+| [[google|Google]] | Internal-comms shift on AI-product-readiness criticism (per 404 Media) | **Closed** — restricts internal scrutiny |
 
 **First wiki-captured same-day frontier-lab internal-positioning contrast** (Anthropic openness vs Google closure). Pattern-watch is whether Google publishes a counter-framing or whether the 404 Media report stands.
 

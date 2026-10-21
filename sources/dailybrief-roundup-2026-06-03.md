@@ -44,7 +44,7 @@ University of Toronto researchers demonstrate a **self-replicating AI worm targe
 
 ### UK regulator requires Google AI Search opt-out for publishers — globally rolling
 
-UK regulators require [[google-deepmind|Google]] to offer **AI Search opt-out for publishers, rolling globally** ([techcrunch.com/2026/06/03/](https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/)). Brief framing: *"early regulatory opt-out mechanism with global rollout. Sets precedent for content-owner control."*
+UK regulators require [[google|Google]] to offer **AI Search opt-out for publishers, rolling globally** ([techcrunch.com/2026/06/03/](https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/)). Brief framing: *"early regulatory opt-out mechanism with global rollout. Sets precedent for content-owner control."*
 
 **First wiki-captured globally-rolling AI-Search-opt-out regulation**. Pairs with [[trump-narrower-ai-eo-2026-06-02|Trump narrower AI EO]] same-week framing: *UK regulator imposing opt-out globally* + *US federal EO going voluntary* = **first wiki-captured concrete regulatory-divergence-by-jurisdiction event** for AI policy. **Pairs structurally with [[openai-federal-ai-safety-framework-2026-06-03|OpenAI's federal-preemption blueprint]]**: OpenAI's argument that state-by-state regulation is *incompatible with frontier AI pace* gets immediate empirical pressure-test from UK-side jurisdiction asserting itself globally on AI Search.
 

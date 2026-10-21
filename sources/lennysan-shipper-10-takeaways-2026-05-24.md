@@ -72,7 +72,7 @@ All three are intentionally contrarian; each maps to a takeaway below.
 - [[ai-native-organizations]] — super-agent-in-Slack centralized-maintenance framing is alternative to decomposed-per-employee agents; worth contrasting with [[sairahul1-solo-founder-13-agent-playbook-2026-05-15]] and [[svpino-subagent-pilled-2026-05-15]].
 - [[shopify]] — River + Viktor named as production super-agent examples.
 - [[river]] — Shopify's super-agent surface; cross-confirmed by Shipper.
-- [[claude-code]] / [[openai|Codex]] / [[claude-cowork]] — three surfaces framed as future-of-work substrate; Lenny's own framing that they will likely merge.
+- [[claude-code]] / [[codex|Codex]] / [[claude-cowork]] — three surfaces framed as future-of-work substrate; Lenny's own framing that they will likely merge.
 - [[jeff-clarke-dell-ai-native-imperatives-2026-05-19]] — "every action needs a receipt" provenance framing cross-confirmed by Skaltek comment.
 - [[ai-labor-market-impacts]] — "AI job apocalypse not happening / ride the models" framing.
 - [[deedydas-sf-ai-wealth-divide-2026-05-15]] — adjacent "ride the wave" framing from a different cultural angle.

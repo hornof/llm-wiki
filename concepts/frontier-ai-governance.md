@@ -97,7 +97,7 @@ Anthropic's draft federal bill ([[anthropic-federal-safety-bill-draft-2026-10-20
 
 ### Labs move into critical infrastructure — two in three days (2026-10-06/08)
 
-**[[google-deepmind|Google]] sells Gemini Enterprise into PJM grid operations (10-06); [[anthropic|Anthropic]] stands up a Critical Infrastructure Defense Program and a Cyber Mission (10-08)** ([[dailybrief-roundup-2026-10-08]]).
+**[[google|Google]] sells Gemini Enterprise into PJM grid operations (10-06); [[anthropic|Anthropic]] stands up a Critical Infrastructure Defense Program and a Cyber Mission (10-08)** ([[dailybrief-roundup-2026-10-08]]).
 
 **Stated plainly because it is the kind of thing this page exists to notice: two frontier labs moved into the operation and defence of critical infrastructure inside three days, and no instrument on this page reaches either move.** Preparedness thresholds, release gating, third-party evaluation, the Florida filing, AEF-1 and OpenAI's training-time framework all govern **what a model may do**. **None governs where it may be deployed**, and grid operations and infrastructure defence are exactly where deployment context dominates model capability.
 

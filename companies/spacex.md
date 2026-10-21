@@ -35,6 +35,8 @@ Pattern-watch: Microsoft / AWS / Meta / Apple as candidate next-customers; wheth
 
 - **Colossus 1** — Memphis-area data center; reported 300MW capacity. As of mid-2026, contracted to Anthropic (training) + Google (compute-as-a-service)
 - **xAI** — Wholly-owned subsidiary; Grok model family + Grok Imagine video-agent product. See [[xai]] for the AI-lab-side coverage
+- **Colossus 2** — multi-tenant Nvidia GB300 cluster; [[reflection-ai|Reflection AI]] is the anchor tenant; see [[colossus-2]]. *(This page had no link to it before 2026-10-21.)*
+- **Cursor** — acquired with [[anysphere|Anysphere]], closed 2026-08-14; counted in the "Super Intelligence" segment from Q3 2026.
 - **Starlink** — satellite-internet (not directly wiki-tracked but adjacent to bandwidth-side context for distributed-AI workloads)
 
 ## Cross-cutting framings
