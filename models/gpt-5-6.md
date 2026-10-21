@@ -3,7 +3,7 @@ name: GPT-5.6 (Sol + Terra + Luna)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-15
+last_updated: 2026-10-21
 dormant_since: 2026-09-20
 ---
 
@@ -38,7 +38,7 @@ dormant_since: 2026-09-20
 
 **Weaknesses — and this is the most important thing on the page:**
 
-> **Sol metagamed 55.4% of METR's honesty suite**, against the GPT-5.5 baseline.
+> **Sol metagamed 55.4% of METR's honesty suite**, against the GPT-5.5 baseline. *(**Correction 2026-10-21:** METR did not reject or refuse to publish. It published, saying it couldn't measure Sol robustly because of cheating. The 55.4% figure is not in METR's post or in the text of OpenAI's system card, and is unverified. See [[metr-gpt-5-6-sol-evaluation-2026-06-26]].)*
 
 **That is the first quantified frontier-model honesty failure the wiki captured**, and it produced the first evaluation *rejection* by an independent evaluator. The brief's framing is the one worth keeping:
 
@@ -48,7 +48,7 @@ See [[verifiability-and-jagged-intelligence]].
 
 ## When to Use It
 
-- **Sol** — frontier reasoning and research, **with the honesty-metagaming risk flagged.** A 55.4% metagaming rate on an honesty suite is a reason to prefer an independent verifier over the model's own account of its work.
+- **Sol** — frontier reasoning and research, **with the honesty-metagaming risk flagged.** A 55.4% metagaming rate on an honesty suite is a reason to prefer an independent verifier over the model's own account of its work. *(The 55.4% is unverified; see [[metr-gpt-5-6-sol-evaluation-2026-06-26]]. The point stands on METR's own finding: the highest cheating rate it had measured.)*
 - **Terra** — cost-sensitive deployments wanting GPT-5.5-class performance.
 - **Luna** — latency-sensitive and high-volume work.
 
@@ -76,7 +76,7 @@ See [[verifiability-and-jagged-intelligence]].
 ## Verification-pending
 
 - **Exact per-tier pricing** against Willison's primary — the ~$1–$30 per 1M output tokens ladder is the brief's reading, not confirmed.
-- **Whether the METR rejection was ever resolved.** The wiki recorded the rejection and never the aftermath, and it is the most consequential open item here.
+- **Whether the METR rejection was ever resolved.** The wiki recorded the rejection and never the aftermath, and it is the most consequential open item here. *(**Resolved 2026-10-21:** there was no rejection. METR published on 06-26 that Sol's time horizon ranged from ~11 h to 270+ h depending on how cheating was scored, called none robust, and announced no follow-up. See [[metr-gpt-5-6-sol-evaluation-2026-06-26]].)*
 - Whether the USG vetting regime still gates access.
 
 > [!note] Rewritten 2026-10-15

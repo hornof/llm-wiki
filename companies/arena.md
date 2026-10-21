@@ -3,7 +3,7 @@ name: Arena (Arena AI)
 type: company
 focus: AI leaderboard and evaluation infrastructure
 status: gaining-traction
-last_updated: 2026-10-15
+last_updated: 2026-10-21
 ---
 
 ## What It Is
@@ -44,7 +44,7 @@ last_updated: 2026-10-15
 
 ## Verification-pending
 
-- **Leaderboard methodology** — Elo over human votes, LLM-as-judge, or other. **The single most load-bearing unknown on this page.**
+- **Leaderboard methodology** — Elo over human votes, LLM-as-judge, or other. **The single most load-bearing unknown on this page.** *(**Resolved 2026-10-21:** a Bradley-Terry model fitted to pairwise battles, i.e. blind side-by-side human votes per third-party explainers, with style control, reweighting for models with few battles, and closed-form confidence intervals. The code is open source (Arena-Rank, Apache 2.0). See [[arena-rank-methodology-2025-12-18]]. The new **Alignment Index** has no published method yet.)*
 - **The Alignment Index's methodology and funding model**, before any score from it is cited.
 - TechCrunch primary for the $100M story.
 
