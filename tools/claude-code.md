@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-16
+last_updated: 2026-10-21
 ---
 
 
@@ -164,6 +164,7 @@ The post's own extension downward: *"jev engineering is the same move one layer 
 *(Podcast, not fetched; no transcript. Feature list from a brief summary.)*
 
 ## Compared To
+- **Open Tag vs Claude Tag** (2026-06-26): CopilotKit's Atai Barkai launched Open Tag as *"a better, open-source Claude Tag"* that works *"with any model, any agent harness,"* on Slack and Teams, built on the AG-UI protocol ([[open-tag-vs-claude-tag-vendor-vs-open-source-cluster-2026-06-26]]). It is the open counterpart to Anthropic's team-facing Claude Code surface.
 - Cursor / Windsurf: IDE-based, better for interactive coding; Claude Code is terminal-native and better for agentic/autonomous tasks
 - ChatGPT / Claude.ai: web interfaces without persistent filesystem access
 

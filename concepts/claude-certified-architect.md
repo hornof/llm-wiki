@@ -3,6 +3,7 @@ name: Claude Certified Architect
 type: concept
 maturity: emerging
 last_updated: 2026-08-20
+dormant_since: 2026-10-21
 ---
 
 ## Definition

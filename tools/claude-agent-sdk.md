@@ -3,8 +3,7 @@ name: Claude Agent SDK
 type: tool
 category: api
 status: emerging
-last_updated: 2026-07-08
-dormant_since: 2026-09-20
+last_updated: 2026-10-21
 ---
 
 ## What It Is
@@ -16,6 +15,12 @@ The **Claude Agent SDK** is [[anthropic]]'s developer-accessible SDK powering bo
 - 2026-05-06: announced at Code w/ Claude 2026 alongside the Claude Code Desktop App, Claude Code Routines, Multi-agent Orchestration, and Claude Opus 4.7 — all framed as a unified developer + production stack.
 - First-party SDK positioning is novel for Anthropic at this surface — previous developer access was via the [[anthropic]] API plus product-specific harnesses; the Agent SDK is positioned as the layer underneath all of them.
 - 2026-06-30: **Managed Agents platform updates** ([[claude-managed-agents-updates-2026-06-30]]) — a production-hardening batch on the hosted agent-session surface: streaming session event deltas, **per-session agent overrides** (start from a stored agent, override model / system prompt / tools / `mcp_servers` / skills for one session), new webhook event types, reverse pagination, **credential injection scoping**, and a new **Managed Agents Observability** tab in Console (session-level input/output token + tool-usage metrics). Signals the managed surface is being built out for multi-session, multi-tenant production use, not just launched.
+
+- **2026-10-07: two new uses, ending the dormant flag set on 2026-09-20.**
+  - An 11-step course builds agent teams on the SDK, around Anthropic's Opus 5.5 guidance that a team given an elapsed-time budget matched a single agent's quality and finished sooner ([[agent-teams-opus-55-course-2026-10-07]]).
+  - BerriAI's Moyai coding agent uses the native Claude Agent SDK, with prompt caching, as its default harness, one of six selectable harnesses ([[berriai-moyai-self-hosted-coding-agent-2026-10-07]]).
+
+  *(Practitioner course relaying an unfetched Anthropic guide; vendor README.)*
 
 ## Managed Agents
 

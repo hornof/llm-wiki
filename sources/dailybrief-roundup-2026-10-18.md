@@ -37,6 +37,8 @@ Anthropic $16.8bn quarter (fourth), Modal $1B ARR (fourth), the Claude Code revi
 - The $16.8bn draft compares the run rate to *"Intel's 2025 revenue."* No source for that comparison.
 - The Modal draft says *"a 3x on both metrics"* in five months. The wiki holds no Modal figures from five months ago to check that against. It only has $15.75B on 2026-09-28 and $16B on 10-15 ([[ai-margin-collapse]]). The brief's own "why it matters" line says "3x usage," not 3x valuation.
 
+Same-day `_raw` drops: [[raw-batch-roundup-2026-10-18]].
+
 ## Pages Updated
 
 - [[anthropic]], [[ai-margin-collapse]], [[kimi-k3]], [[cognition]], [[loop-engineering]], [[agentic-engineering]], [[akshay-pachaar]]

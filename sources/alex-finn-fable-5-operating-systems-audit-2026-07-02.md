@@ -35,6 +35,8 @@ ingested: 2026-07-02
 
 ## Pages Updated
 
+- [[claude-fable-5]] — folded at the 2026-10-21 lint; this page had listed only [[index]], and no entity page cited it
+
 - [[index]] — Recent ingests entry
 - [[log]] — ingest entry
 

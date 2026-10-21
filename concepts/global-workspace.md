@@ -3,6 +3,7 @@ name: Global Workspace (in language models)
 type: concept
 maturity: active-research
 last_updated: 2026-07-06
+dormant_since: 2026-10-21
 ---
 
 ## Definition

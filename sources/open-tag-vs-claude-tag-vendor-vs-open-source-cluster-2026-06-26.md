@@ -75,6 +75,8 @@ ingested: 2026-06-26
 
 ## Pages Updated
 
+- [[claude-code]] — folded at the 2026-10-21 lint; this page had listed only [[index]], and no entity page cited it
+
 - [[index]] — Recent ingests entry added
 
 ## Resources

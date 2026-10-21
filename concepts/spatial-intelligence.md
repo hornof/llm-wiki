@@ -3,6 +3,7 @@ name: Spatial Intelligence
 type: concept
 maturity: active-research
 last_updated: 2026-04-29
+dormant_since: 2026-10-21
 ---
 
 ## Definition

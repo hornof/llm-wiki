@@ -38,6 +38,8 @@ Cross-reference index for `Daily Briefs/2026-10-20.md`. The lead item, the DHS D
 
 DHS DeepSeek (second, with new detail above), Import AI 477 (second), DeepMind antimicrobial peptides (fifth), OpenAI Itaú (third), DeepMind–Singapore scam detection (second).
 
+Same-day `_raw` drops: [[raw-batch-roundup-2026-10-20]].
+
 ## Pages Updated
 
 - [[deepseek]], [[frontier-ai-governance]], [[ai-vulnerability-discovery]], [[prompt-injection]], [[z-ai]], [[ai-labor-market-impacts]]

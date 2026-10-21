@@ -1,9 +1,12 @@
 ---
 name: xAI
 type: company
-status: active
-last_updated: 2026-08-13
+status: acquired (SpaceX, 2025)
+last_updated: 2026-10-21
 ---
+
+> [!note] Status (2026-10-21)
+> Changed from `active` to `acquired (SpaceX, 2025)` to match [[anysphere]], which SpaceX also bought. The page body already said xAI was acquired; the frontmatter hadn't followed. The schema has no acquisition value, so this uses the descriptive form noted in CLAUDE.md's Status Fields section.
 
 ## What It Is
 
