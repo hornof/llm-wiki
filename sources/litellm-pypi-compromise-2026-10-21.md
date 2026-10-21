@@ -24,3 +24,4 @@ SafeDep's analysis (2026-10-21) of a malicious LiteLLM release. LiteLLM is Berri
 ## Pages Updated
 
 - [[ai-vulnerability-discovery]]: new section
+- [[litellm]]: new tool page
