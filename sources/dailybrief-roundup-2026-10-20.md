@@ -14,6 +14,7 @@ Cross-reference index for `Daily Briefs/2026-10-20.md`. The lead item, the DHS D
 
 - **DHS DeepSeek order, published in the Federal Register** (TechCrunch; Federal Register 2026-21447) → [[deepseek]], with a correction note on [[dhs-deepseek-federal-removal-2026-10-19]] and [[frontier-ai-governance]].
   - **The contradiction:** RuntimeWire (via Digg) dated the order 2026-07-24 and said the 60-day exception window had closed. TechCrunch gives 10-20, which is the Federal Register publication date, and says agencies *can* request exceptions. The Federal Register metadata has no signing date, and the full text was blocked when I tried to fetch it. Both dates are recorded; yesterday's "ran three months unseen" reading is withdrawn as unsettled.
+  - **Resolved 2026-10-21:** the signed order (Federal Register appendix) gives July 24, 2026 as its original release date, with exceptions due within 60 days. RuntimeWire was right. See [[deepseek]].
   - New in TechCrunch: a September CISA report accused DeepSeek and five other Chinese labs of large-scale distillation. The wiki hadn't recorded it.
   - **The brief's draft is not used.** It says the order exposes "where DeepSeek got baked into US infrastructure." Nothing in the order or the coverage says where DeepSeek is deployed.
 - **Abliterated models can carry backdoors** (ProjectDiscovery) → [[projectdiscovery-abliterated-model-backdoors-2026-10-06]] → [[ai-vulnerability-discovery]].
