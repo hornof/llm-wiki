@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-10-18
+last_updated: 2026-10-21
 ---
 
 > [!key-insight] 2026-06-30 — the term reaches mainstream AI education
@@ -564,6 +564,7 @@ The register moved up a layer within ~six weeks. On 2026-07-18 [[peter-steinberg
 - Whether Harness²'s grader-free gains (2026-10-18) hold on ungraded tasks — read arXiv:2610.14224
 - Whether *"fleets that design your loops"* (Steinberger 2026-09 prediction) materializes
 - Primary source for Van Horn's *"~4% of all public commits on GitHub"* Claude-Code-share figure
-- Primary source for Uber $1500/person/tool/month cap (Van Horn cites without link)
-- Gartner Hype Cycle agentic-AI Peak-of-Inflated-Expectations citation primary
-- Cherny *"context rot isn't a thing with 4.8 imo"* test methodology — what was the test
+- Primary source for Uber $1500/person/tool/month cap (Van Horn cites without link) *(**Resolved 2026-10-21:** the report is [[uber-ai-tool-cap-1500-2026-06-03]], Willison-surfaced. It describes a **per-employee** AI-tool cap of $1,500/month, not per tool, so Van Horn's "per person per tool" wording overstates it.)*
+
+*(2026-10-21 backlog triage: 2 items removed. A citation chase for an analyst chart, and one person's informal test.)*
+

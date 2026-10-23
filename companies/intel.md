@@ -38,12 +38,6 @@ last_updated: 2026-06-13
 
 ## Verification-pending
 
-- Specific Intel 18A yield + timeline risk-profile post-Google + Nvidia validation events
-- Specific Intel-Nvidia testing-scope (design-validation only or production-intent?)
-- Specific Intel 18A capacity-commitment to Google (dedicated fab? shared capacity?)
-- Specific Intel-Anthropic / Intel-OpenAI / Intel-xAI / Intel-Microsoft procurement-announcement timeline
-- Specific Intel 18A competitive positioning vs TSMC N2 / N3 (2027-2028 timeline)
-- Specific Intel Foundry Services (IFS) vs Intel-internal-product-line positioning
-- Specific CHIPS Act funding allocation to Intel post-2026
-- Specific Intel investor relations narrative on AI-substrate-tier strategic positioning
-- Specific Intel-Trump-administration relationship via CHIPS Act + export-control regulatory-substrate
+
+*(2026-10-21 backlog triage: 9 items removed. June-era "Specific …" prompts generated in bulk: relationship dynamics, positions on other events, and pattern-watch items. None was a question anyone needed answered; rule 2a says delete rather than carry.)*
+

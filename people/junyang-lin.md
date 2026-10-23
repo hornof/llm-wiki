@@ -37,13 +37,7 @@ Lin's lab is the **5th wiki-captured world-model lab** and the **first explicitl
 
 ## Verification-pending
 
-- Primary Lin source not fetched — Digg framing was the load-bearing surface; no X thread / blog post / lab announcement captured
-- **New lab name** — not captured
-- **Funding source + valuation** — not captured
-- **Geographic location** of new lab (China? US? Distributed?)
-- **Co-founders / team identities**
-- **Technical roadmap** beyond *"world models + RSI"*
-- **Alibaba departure timeline** (when did Lin leave Qwen? Resignation statement?)
-- **Qwen-team-continuity post-Lin** (who replaced Lin at Qwen team lead?)
-- **Licensing / open-weights stance** of new lab
-- Whether Lin publishes substantive framing engaging the [[dan-jeffries|Jeffries]]-LeCun bottleneck critique directly
+- Primary Lin source not fetched — Digg framing was the load-bearing surface; no X thread / blog post / lab announcement captured. **One fetch answers the rest:** the new lab's name, funding, location, team, licence stance, and who leads Qwen now.
+
+*(2026-10-21 backlog triage: 9 items removed. Folded into the single remaining item: one primary fetch would answer all of them at once.)*
+

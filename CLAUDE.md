@@ -400,6 +400,7 @@ Where a descriptive value is used, say so in a note on the page. **The status fi
 
 - **Retention**: current + prior calendar month stay in `log.md`. Older months roll to `meta/log-archive/YYYY-MM.md`.
 - **Rollover**: when `log.md` exceeds ~150 KB or carries more than two months, move the oldest complete month's entry blocks (an entry line plus any continuation lines that follow it) into `meta/log-archive/YYYY-MM.md`, preserving text verbatim. Verify by comparing the multiset of non-empty lines before and after — it must be identical.
+- **Retention wins over size (owner decision, 2026-10-21).** When the size trigger and the two-month retention rule conflict, keep both months. On 2026-10-21 `log.md` was 379 KB holding only September and October, and the fix is **shorter entries, not an early rollover.** The bloat came from entry length, about 6 KB per entry. Aim for one line of a few hundred characters per entry.
 - **Ordering**: entries are sorted by date within each file. The log drifted out of order before 2026-09-13 (56 misordered entries across five months), which is one reason date-based dedup greps were unreliable; keep it sorted.
 - **Dedup depends on this** — see Ingest step 0. Any grep for prior processing must cover `log.md` *and* `meta/log-archive/`.
 - **Entry length**: prose entries have grown to multi-kilobyte paragraphs. That is what drove `log.md` to 1.0 MB by 2026-09-13. Keep new entries to the facts a future dedup or audit needs: sources, pages touched, judgment calls, verification caveats.

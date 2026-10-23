@@ -43,11 +43,6 @@ David Sacks is the **Trump Administration White House AI & Crypto Czar** (appoin
 
 ## Verification-pending
 
-- Specific Sacks formal WH-AI-Czar appointment date + role-specific powers
-- Specific Sacks-Anthropic-Dario direct-communication channel + timeline pre-Jun-13-thread
-- Specific "trusted partner" identity (DoW? Specific defense-contractor? Multi-agency?)
-- Specific Sacks-USG decision-making cohort (NSC AI Subcommittee? CFIUS? CIA / NSA?)
-- Specific Anthropic-side direct response to Sacks's thread
-- Specific Sacks position on competing frontier-AI-labs (OpenAI / xAI / Google) similar export-control trigger-conditions
-- Specific Sacks future All-In-Podcast / press-circuit coverage of Anthropic-conflict
-- Specific Sacks-Musk-Bezos relationship dynamics affecting AI-policy direction
+
+*(2026-10-21 backlog triage: 8 items removed. June-era "Specific …" prompts generated in bulk: relationship dynamics, positions on other events, and pattern-watch items. None was a question anyone needed answered; rule 2a says delete rather than carry.)*
+
