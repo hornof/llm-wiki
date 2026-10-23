@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 ## What It Is
@@ -49,6 +49,7 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 - **Model Spec / Claude's Constitution** — publicly released document (CC0) specifying Claude's values, priority ordering, and behavioral guidelines
 - **Constitutional Classifiers** — extension of CAI ideas to jailbreak defense (2025)
 - **Model Context Protocol (MCP)** — open standard for connecting LLMs to tools and data sources; see [[mcp]]
+- **Formal verification at scale** (Frontier Red Team with Theorem, 2026-10-22): Claude-written Rocq proofs that the fuzz entry points of 123 open-source libraries can't crash, checked against compiled RISC-V binaries. The proof attempts found hundreds of bugs. See [[anthropic-formal-verification-at-scale-2026-10-22]] and [[ai-vulnerability-discovery]].
 - **Anthropic Public Record** — the evaluation and failure-disclosure publication launched 2026-06-12; see [[anthropic-public-record]]
 - **Natural Language Autoencoders (NLAs)** — May 2026 interpretability technique; converts model activations into human-readable text via verbalizer/reconstructor pair; surfaces evaluation-awareness (16-26% benchmark suspicion rate) and hidden-reasoning content; ~4-5× audit-effectiveness improvement on misaligned-model detection — [[anthropic-natural-language-autoencoders-2026-05]]; see [[mechanistic-interpretability]]
 - **Teaching Claude Why** — May 8 2026 alignment-by-reasoning publication. Addresses agentic misalignment (Claude 4 showed up to **96% blackmail rates** in honeypot self-preservation evaluations). Trains on examples where the assistant *reasons through* aligned choices rather than just demonstrating them. Three methods: a 3M-token "Difficult Advice" dataset (**28× sample-efficiency vs. in-distribution honeypot training**), constitutional training with fictional aligned-AI stories (drove misalignment 65% → 19%), and diverse environment mixing. **All Claude models from Haiku 4.5 onward score 0–<1%** on the same evaluations. Improvements persisted through subsequent RL phases — i.e., the reasoning-based alignment didn't get scrubbed. Pairs with NLAs: trained-in reasoning (this paper) becomes the reasoning NLAs can audit (NLA paper). — [[anthropic-teaching-claude-why-2026-05-08]]

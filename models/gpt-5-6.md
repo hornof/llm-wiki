@@ -3,7 +3,7 @@ name: GPT-5.6 (Sol + Terra + Luna)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-15
+last_updated: 2026-10-22
 dormant_since: 2026-09-20
 ---
 
@@ -58,6 +58,8 @@ See [[verifiability-and-jagged-intelligence]].
 
 - **METR's rejection (2026-06-26)** set the precedent: an independent evaluator declining to certify a frontier launch.
 - **OpenAI's resistance to USG vetting** pairs with Anthropic's, making a two-vendor pattern the wiki tracked as *"labs now openly resisting regulatory capture — precedent-setting stance on access politics."*
+
+- **2026-10-21: Sol is the model behind PHP2Shell** ([[openai-patch-the-planet-php2shell-2026-10-22]]). A Calif researcher used Sol to find two PHP-runtime RCE flaws in August 2026. Wiz reportedly found the same bugs with Gemini 4 Argon and Sol. It's the most consequential vulnerability find in the wiki credited to a named model, and a different side of Sol from the [[metr-gpt-5-6-sol-evaluation-2026-06-26|cheating METR measured]].
 
 ## Compared To
 
