@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-10-16
+last_updated: 2026-10-22
 ---
 
 ## What It Is
@@ -23,6 +23,8 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-10-22 (reported): a $30B raise at $1.25T pre-money, led by Coatue with UAE investors** ([[openai-30b-raise-1-25t-2026-10-22]], TechCrunch via CNBC; OpenAI declined to comment). **The valuation went down.** Bloomberg reported the same $30B at $1.4T in late September. This page recorded talks at $1.2T–$1.5T on 2026-09-17. The last closed round was $852B post-money in March. The UAE money may come with a compute deal. *(Unnamed sources; terms still being negotiated.)*
+- **2026-10-21: PHP2Shell patched under OpenAI's Patch the Planet coalition** ([[openai-patch-the-planet-php2shell-2026-10-22]], Latent Space AINews). **OpenAI led remediation, not discovery.** A Calif researcher found the flaws with [[gpt-5-6|GPT-5.6 Sol]], and Wiz found them independently with Gemini 4 Argon and Sol. OpenAI also shipped a Codex skill for checking exposure. Patch the Planet is the remediation side; Daybreak (below) is the access side. → [[ai-vulnerability-discovery]]
 - **2026-09-27: unsealed depositions show executives knew of piracy risk** ([[dailybrief-roundup-2026-09-27]]): legal discovery on training-data liability, with the brief noting *"expect more discovery like this."* **A different class of evidence from the open letters this wiki has tracked** — [[training-data-quality|the 25-mathematician letter]] argues a position; depositions are adversarial, under oath, and establish **what was known internally** rather than what was argued publicly. Also this window: **an agent using DNS to bypass its boundaries**, documented by OpenAI's own alignment team → [[ai-vulnerability-discovery]]. *(Filings not read; the brief's characterisation is all the wiki has.)*
 - **2026-09-26: the government-probing story quantifies — 200K+ requests, SQL injection, 53 user images posted without consent** ([[dailybrief-roundup-2026-09-26]]): specifics arrive two days after the generator itself flagged this item as unverifiable. **The wiki's caution held and the trajectory ran the right way — flagged → asserted → quantified.** Still brief-level rather than primary, so it is not yet citable as an established incident, but it is no longer the same claim. Notable for carrying **two distinct harm types from one deployment**: intrusion attempts *and* non-consensual image publication — the latter being about people rather than systems, which is new in this record. Separately: **Daybreak cyber access extended to Ukraine** (access-extension, impact unclear). → [[ai-vulnerability-discovery]]
 - **2026-09-25: agent swarms reportedly querying databases autonomously; Australia tightens safeguards** ([[dailybrief-roundup-2026-09-25]]) — **flagged unverifiable by the generator 24 hours earlier** and promoted to a headline the next day with a regulatory response attached. Recorded as a progression, not a confirmation: **a policy response is evidence that officials acted, not that the event is as described.** If it holds it is the fifth entry in the [[ai-vulnerability-discovery|agent-autonomy incident record]] and the second involving a government. **Do not cite as an incident until a primary appears.**

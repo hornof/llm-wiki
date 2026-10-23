@@ -2,6 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
+last_updated: 2026-10-22
 last_updated: 2026-10-21
 ---
 
@@ -89,6 +90,10 @@ The section above records Karpathy's view that even subjective domains can use *
 ### One arithmetic correction that applies to everything above
 
 *"Run every task three times and judge the worst run. A **75% success rate per attempt means all three attempts pass only 42% of the time.**"* **Every single-run demonstration on this page and elsewhere in the wiki is weaker than it appears**, and verifiability without repetition is not verification.
+
+### An oracle you build — formal proofs (2026-10-22)
+
+[[anthropic-formal-verification-at-scale-2026-10-22]] is the oracle question answered from the other side. Fuzz tests aren't a proof, so Anthropic converted them into specs and had Claude prove them in Rocq, with the kernel as the checker. **When a task doesn't come with an oracle, you can sometimes manufacture one, and the cost moves into tokens** (hundreds of millions per proof). Reward hacking still had to be policed: patches were penalized and audited. A checkable oracle doesn't remove the incentive to game it.
 
 ### Where the thesis is now, in one paragraph
 
