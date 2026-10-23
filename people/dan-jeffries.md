@@ -44,7 +44,5 @@ Anchors the **RSI-skepticism corner** of the 4-leg bracketed-trajectory framewor
 
 *Contact details are not tracked as open questions (lint 2026-09-21) — a missing X handle is a lookup, not research debt. Removed rather than carried.*
 
-- **Specific Anthropic-side response** to the critique (Marina Favaro / Jack Clark / Holden Karnofsky) — pattern-watch
-- **Specific LeCun-side longer-form articulation** of the critique — LeCun's reply is X-only; no LeCun blog post or paper directly addressing Jeffries's frame
-- **Quantitative bottleneck estimates** — Jeffries's frame is qualitative; no specific time-constants or multiplicity-thresholds quantified
-- Whether the Polanyi-tacit-dimension / Wolfram-computational-irreducibility framings introduced by @01Singularity01 in the same thread become a wiki-tracked alternative-framework
+*(2026-10-21 backlog triage: 4 items removed. Watch items and responses that may never come; nothing here is checkable.)*
+

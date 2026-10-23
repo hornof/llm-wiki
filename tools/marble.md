@@ -46,11 +46,10 @@ Per [[feifei-li-world-models-functional-taxonomy-2026-06-03|the 3-category taxon
 
 ## Open Questions
 
-- **Sim-to-real fidelity**: how does Marble's collision-mesh output compare to hand-authored physics-engine assets when fed to robot-control or autonomous-vehicle training loops?
-- **Multi-physics scope**: does Marble handle rigid bodies + deformable objects + fluids + cloth, or single-domain rigid-only?
-- **Generative-simulator-risk** (per the essay): *"AI-generated geometry can look correct while containing self-intersections or wrong scale that produce nonsensical physics"* — how does Marble validate or constrain output geometry?
-- **Pricing / availability**: is Marble in private preview, public preview, or GA? Pricing band?
-- **Integration partners**: does Marble plug into NVIDIA Omniverse / Unity / Unreal / Blender as a content-generation primitive, or remain a self-contained World Labs surface?
+
+- Re-check pricing, availability and physics scope if Marble resurfaces.
+
+*(2026-10-21 backlog triage: 5 items removed. Product-detail questions on a dormant tool; they belong in a fresh ingest if Marble resurfaces, not in a standing backlog.)*
 
 ## Resources
 

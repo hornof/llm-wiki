@@ -36,10 +36,10 @@ It arrived inside a **one-week AI-silicon cluster** alongside OpenAI's Jalapeño
 
 - **What distinguishes Etched from Cerebras, Groq and SambaNova.** Without this the counter-positioning claim above is a story rather than an analysis.
 - **The *"no GPUs required"* claim** — flagged as needing scrutiny when the $10.3B round was reported, and never scrutinised here.
-- Founders and leadership roster.
 - Customer roster and signed-contract deal sizes — **the $1B is the strongest number on this page and nothing behind it is captured.**
 - Chip architecture and specifications (the **Sohu** name appears in reporting; unconfirmed here).
-- Funding history before the stealth exit; deployment timeline and availability.
+
+*(2026-10-21 backlog triage: 2 items removed. Profile facts with no argument resting on them.)*
 
 ## Resources
 

@@ -118,8 +118,10 @@ Six surfaces, in order:
 ## Verification-pending
 
 - **Google Cloud's official blog post and the GitHub repo** — the wiki has a third-party explainer, not the spec itself.
-- URLs for the three sample bundles (GA4, Stack Overflow, Bitcoin).
 - **Whether this wiki should adopt OKF conventions**, which is the actionable question and has been open since 2026-06-12.
 
 > [!note] Rewritten 2026-10-15
 > The 2026-07-01 version carried **46 instances of `canonical-` filler** from an automated pass — the worst in the corpus, measured at the 2026-10-15 lint. Content preserved, prose rewritten; two path-form wikilinks (`[[concepts/llm-wiki-pattern]]`, `[[concepts/company-brain]]`) corrected to slug-form per `CLAUDE.md` conventions. See lint rule 7.
+
+*(2026-10-21 backlog triage: 1 item removed. Low value; the spec itself is the open item.)*
+

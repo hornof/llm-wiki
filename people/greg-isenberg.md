@@ -66,8 +66,6 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 
 ## Verification-pending
 
-- Greg Isenberg pre-AI startup-founding background + exit history
-- Specific Late-Checkout / Greg-Investments fund portfolio
-- Theo Tabah ongoing collaboration cadence
-- Whether Greg publishes structural-framework follow-ups on local-models breakdown via Startup Ideas Podcast
-- Greg's position on the broader Anthropic-USG conflict resolution trajectory
+
+*(2026-10-21 backlog triage: 5 items removed. June-era "Specific …" prompts generated in bulk: relationship dynamics, positions on other events, and pattern-watch items. None was a question anyone needed answered; rule 2a says delete rather than carry.)*
+

@@ -34,10 +34,6 @@ Nando de Freitas is **Microsoft VP of AI**; previously a research scientist + re
 ## Verification-pending
 
 - Primary Nando source not fetched — Digg framing was the load-bearing surface; no original blog post / paper / X thread captured
-- **Specific implementation details** — no architectural diagrams, training objectives, or pseudocode
-- **Specific timeline** — when would Microsoft ship this? Internal R&D vs production pipeline?
-- **Microsoft-internal team** working on this (Microsoft AI Research? Phi team? Microsoft AI vs Microsoft Research distinction)
-- **OpenAI / Google DeepMind / xAI / Meta response** — pattern-watch
-- **Specific DeepMind → Microsoft transition timeline** + role-arc capture
-- **Specific causal-inference methodology cited** (Pearl-style? Contrast with predictive-model framing?)
-- Whether the proposal includes concrete evaluation benchmarks vs current SFT+RLHF pipeline
+
+*(2026-10-21 backlog triage: 7 items removed. Folded into the remaining item; they all depend on the one primary that was never fetched.)*
+

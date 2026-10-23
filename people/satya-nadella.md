@@ -73,10 +73,6 @@ Satya Nadella is the **CEO + Chairman of [[microsoft|Microsoft]]** (since 2014; 
 ## Verification-pending
 
 - Microsoft-side product / service announcements implementing the frontier-ecosystem-thesis — *partly resolved 2026-10-19: Execution Containers (10-07) and Guardian Agents (10-19) are the containment side of it; see [[microsoft]].*
-- Microsoft-Anthropic relationship trajectory post-Jun-13-export-control event
-- Microsoft-OpenAI relationship trajectory post-OpenAI-multi-state-AG-investigation event
-- Microsoft Phi / Copilot open-weight strategy positioning during open-weight-vendor-capacity-acceleration cluster
-- Nadella-Bezos / Nadella-Jassy public-positioning differences on AI strategy
-- Nadella position on EU AI Act / global AI regulation framework
-- Nadella position on Mythos / Fable 5 export-control event-cluster
-- Nadella Hit Refresh / Microsoft-vision-2026 strategic-document positioning
+
+*(2026-10-21 backlog triage: 7 items removed. June-era bulk prompts about positions and relationships; rule 2a.)*
+

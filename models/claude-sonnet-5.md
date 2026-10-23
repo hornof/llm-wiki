@@ -70,7 +70,9 @@ An early-access partner: *"finishes complex tasks where previous Sonnets stopped
 - **Benchmarks against Sonnet 4.6 and Opus 4.8.** The page's central positioning claim has never been checked.
 - **The 1M context window and January 2026 cutoff** are leaked, not confirmed.
 - **How the self-verification works** — built into the model, or prompted by the harness? This is the most interesting open question here, because the answer decides whether it belongs on [[loop-engineering]] as a model property or a harness one.
-- Early-access partner roster.
 
 > [!note] Rewritten 2026-10-15
 > The 2026-09-28 version carried **28 instances of `canonical-` filler** from an automated pass. Content preserved, prose rewritten; one path-form wikilink (`[[concepts/loop-engineering]]`) corrected to slug-form. See lint rule 7.
+
+*(2026-10-21 backlog triage: 1 item removed. A partner roster has no use on this page.)*
+
