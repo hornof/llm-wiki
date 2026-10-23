@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-10-08
+last_updated: 2026-10-23
 ---
 
 ## Definition
@@ -82,6 +82,12 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** �
 **The disagreement is specific and it is with this page, not with harnesses generally.** DHH keeps a terminal substrate, concurrency and adversarial review — **he drops the skills.** [[gstack|Tan]] holds that *"a markdown file is an employee"* and that a few hundred skill files are the labor pool behind a *"$15M ARR, 2-3 people"* company. **Two practitioners with working systems, opposite conclusions about this page's subject, and no measurement on either side.**
 
 **Record it as open, and note what would settle it.** The skill thesis predicts that **codified workflow outperforms a strong model used plainly, and that the advantage grows as skills accumulate.** dax predicts the opposite — that it **decays as models improve**, because the skills encode workarounds for problems that get fixed upstream. **The deletion condition is where the two theories diverge observably**: a skill library that needs regular pruning is evidence for dax; one whose entries keep earning their place is evidence for Tan. **Nobody in the wiki's record reports pruning.** [[gstack|gstack's]] `/retro` and [[addyosmani-agent-skills-repo-2026-10-03|Osmani's pack]] both add; neither documents removal.
+
+## The standard goes to a foundation (2026-10-22)
+
+[[anthropic-agent-skills-to-aaif-2026-10-22]]: Anthropic donated the Agent Skills standard, along with its name, logo, GitHub org and agentskills.io, to the Linux Foundation's **Agentic AI Foundation**, where [[mcp|MCP]] and [[goose]] already sit. Lead maintainers are David Soria Parra and Mahesh Murag. Planned work: versioned releases, a proposal process, and **security guidance for skill authors and installers**, which is the gap the [[ai-vulnerability-discovery|supply-chain thread]] keeps pointing at. Adoption per Anthropic: 70+ platforms (ChatGPT, Cursor, GitHub Copilot, VS Code), 1M published skills, ~280M installs.
+
+**Read it beside the 10-06 dissent above.** 280M installs counts distribution, not use. It doesn't answer whether most installed skills get invoked.
 
 ## Related Concepts
 
