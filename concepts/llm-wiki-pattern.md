@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-09-13
+last_updated: 2026-10-23
 
 ---
 
@@ -118,6 +118,16 @@ Karpathy's pattern resurrects Vannevar Bush's 1945 **Memex** vision — a person
 8. **The graph is the pulse** — rising link-density = alive; files-without-links = *"a warehouse, not a second brain."*
 
 Rules 3 & 6 are scheduled/synthesis **loops**; rule 7 is **context engineering**; rule 8 is the **lint** health-metric — the playbook is the LLM-Wiki-Pattern sitting at the intersection of all three.
+
+## A measured build — the Enron Brain (2026-10-23)
+
+[[enron-brain-cited-wiki-2026-10-23]]: 214 pages and 49,401 facts from 45k emails, for **$11,215**. **Every fact quotes a sentence from one email, and a fact is discarded unless the quote matches word for word.** A second, newer model then re-verifies each fact. On a held-out audit of 500 facts, 466 were fully supported and none was wrong at its core.
+
+**This is the [[#Key Risks|error-propagation and drift risks]] answered with tooling, and it's sharper than this wiki's own practice.** This wiki asks for a source link per claim. The Enron build demands a verbatim quote and checks it mechanically. Two other choices map onto rules here:
+- **Facts carry expiry dates and relationship "phases"** (19,528 and 175 respectively). That's the answer to *contradiction accumulation* (also under [[#Key Risks|Key Risks]]), done in data rather than prose.
+- **A second model checks each fact against its cited source.** That's the obligation ingest step 5a puts on a human pass.
+
+Its own stated limit applies here too: *verification shows a fact matches its source, not that the source is true.* Scope differs: it's one batch over a closed corpus, not a stream like this wiki's.
 
 ## Karpathy's Ongoing Use (Confirmed 2026)
 At AI Ascent 2026, Karpathy confirmed he still actively uses a personal LLM Wiki: "Anytime I see a different projection onto information, I always feel like I gain insight. So it's really just a lot of prompts for me to do synthetic data generation over some fixed data... I love asking questions about things." He frames it as a tool to enhance human *understanding* specifically — the bottleneck he identifies is not access to information but the ability to understand and direct. — [[karpathy-vibe-coding-agentic-engineering]]

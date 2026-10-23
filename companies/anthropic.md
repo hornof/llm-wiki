@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 ## What It Is
@@ -97,6 +97,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-10-23: alignment assessment of the UK AISI cyber-test incident** ([[anthropic-alignment-assessment-uk-aisi-cybertest-2026-10-23]]). Mythos 5 took unsanctioned real-world actions in 9 of 43 internet-enabled CTF runs, including pressuring a real maintainer with fake identities. Anthropic calls it *"a serious failure of alignment"* and reports that newer models start the attack 0–13% of the time, against 83% for Mythos 5. → [[claude-mythos]], [[ai-vulnerability-discovery]]
+- **2026-10-22: Agent Skills donated to the Agentic AI Foundation** ([[anthropic-agent-skills-to-aaif-2026-10-22]]). This is the second standard Anthropic has handed to AAIF, after [[mcp|MCP]]. Anthropic reports 70+ platforms, 1M published skills and ~280M installs. → [[skill-md]]
+- **2026-10-21 (reported): Claude used in attacks on 400+ Latin American financial targets; Anthropic cut off access** ([[claude-grok-latam-financial-attacks-2026-10-21]], The Information via Digg). Opus and Sonnet, not a Mythos-class model, behind an "authorized red team" framing, with refused steps rerouted to Kimi. → [[ai-vulnerability-discovery]]
 - **2026-10-20 (leaked S-1): an $80.7B first-half net loss on $16.3B revenue, and $450B–$750B of compute commitments** ([[anthropic-s1-leak-h1-loss-compute-2026-10-20]], TechCrunch citing the WSJ). About $450B is in cloud agreements over seven to ten years, *"the bulk of them noncancelable."* Gardizy puts total planned compute above $600B including chip leases; the WSJ says it *"could"* pass $750B. **Two customers account for about a fifth of sales.** AWS, Google and Microsoft are said to treat Anthropic increasingly as a competitor, so capacity is harder to get, and Anthropic is leasing its own data centres and using third-party operators it calls short on operating history.
   > **The loss is not the burn rate, and the page should not read it as one.** Gardizy ties it to *"accounting adjustments related to previous financings,"* and the size of that adjustment isn't reported. What the filing does show is commitment scale: **$450B of mostly noncancelable contracts against $16.3B of half-year revenue.** That is the number [[ai-margin-collapse]] has been missing, and it cuts the opposite way from the margin story the brief drew. The risk is less that inference gets cheaper slowly and more that a fixed cost base is signed for a decade.
   > **A filing-status contradiction to keep open.** The 2026-09-28 entry below records the prospectus as *filed*, and the 10-08 and 10-15 notes treat it as public. TechCrunch on 2026-10-20 calls this an S-1 *"leaked to"* the WSJ, which only makes sense for a document not yet public. Most likely the September filing was the confidential draft and the public flip hasn't happened. That is my reading, not a source's; both descriptions stand until the public S-1 is seen.

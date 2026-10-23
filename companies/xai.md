@@ -2,7 +2,7 @@
 name: xAI
 type: company
 status: acquired (SpaceX, 2025)
-last_updated: 2026-10-21
+last_updated: 2026-10-23
 ---
 
 > [!note] Status (2026-10-21)
@@ -20,6 +20,7 @@ xAI is Elon Musk's AI company, builder of the Grok model family and operator of 
 
 ## Traction Signals
 
+- **2026-10-21 (reported): Grok used for reconnaissance in an attack harness against 400+ Latin American financial targets** ([[claude-grok-latam-financial-attacks-2026-10-21]], The Information via Digg). Grok surveyed targets and hunted secrets while Claude ran intrusions. No xAI response was reported. → [[ai-vulnerability-discovery]]
 - **2026-08-13 — Grok 4.6 + "Grok @Bot" AI-teammate** ([[dailybrief-roundup-2026-08-13]], Latent Space "SpaceXAI Grok 4.6 and Grok @Bot"): a new Grok model version + **Grok @Bot**, an AI-teammate entrant in the same [[buzz|multiplayer-harness]] / agent-as-team-member category as Buzz, [[qm|QM]], and Shopify's [[river|River]]. *(Announcement; differentiation details light.)*
 - **2026-07-15 — open-sourced `grok-build`** ([xai-org/grok-build](https://github.com/xai-org/grok-build); via [[simon-willison]], [[dailybrief-roundup-2026-07-16]]): a **Rust TUI harness** for fullscreen, mouse-driven, extensible coding agents — xAI's entry into the coding-agent-harness space alongside [[claude-code]] / [[codex]] / [[slate]] / [[vorflux]]. Willison flagged a **trust/consent failure**: the grok CLI *"bulk-uploads directories without consent"* — a design smell that mirrors broader AI-dev-tooling trust issues. *(Create-candidate `tools/grok-build` if adoption appears.)*
 - 2025: acquired by SpaceX, removing xAI from independent-AI-company indices like the Forbes AI 50 — [[forbes-ai-50-2026]].
