@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-10-20
+last_updated: 2026-10-25
 ---
 
 ## Definition
@@ -283,7 +283,13 @@ First wiki-captured concrete labor-policy commitment from a frontier-model provi
 
 Pairs with [[ai-roi-gap#Economist-Side Modeling Layer (METR / Cunningham vs Greenblatt, May 29 2026)|the ROI-gap economist-side section]] which captures the parallel debate at the demand-side altitude.
 
-## Related Concepts
+## The creative sector — 200k jobs, cause unproven (Apricitas, 2026-09-27)
+
+[[apricitas-ai-fall-of-creative-class-2026-09-27]]: US media, film and arts employment is down more than 200k in four years, with movie and TV down about a third. Only the 2001 and 2008 recessions match it. **Politano doesn't attribute a share to AI.** He calls that "extremely difficult" and lists consolidation, offshoring and the shift to social-media creators as rival causes. His evidence is a pattern: digital arts are shrinking while in-person entertainment grows.
+
+**What it adds to this page is a sector-level boundary, not a measurement.** He names tech as the other place where AI-driven loss "has shown up", and says displacement elsewhere has been "relatively minor". That agrees with the narrow, occupation-specific signal this page already tracks, and it argues against the economy-wide story. His AI-use comparison (32% in arts vs a 62% all-industry average) mixes in personal use. A reader points to a work-only series at 42%.
+
+
 
 - [[agentic-engineering]] — the professional discipline of working with agents at the high-leverage end of the exposure curve.
 - [[saas-disruption-thesis]] — the labor-market mirror image is the SaaS-vendor-disruption thesis (the same workflows that displace workers also displace incumbent SaaS).
