@@ -26,7 +26,7 @@ Cross-reference index for `Daily Briefs/2026-10-24.md`. Five of the twenty items
 
 - **91% of 1,300 Anthropic employees reportedly expect a Nobel-level AI breakthrough by 2030; Wall Street "far less convinced"** (The Information, paywalled, via Digg). The 91% figure comes from one X post, not The Information's text, and there's no methodology. Not folded until there's a primary.
 - **Willison's "Quick Study" photo-to-painting tool** (simonwillison.net). Not fetched. The brief's draft names Opus 5.5 without a source.
-- **Apricitas: 200k media, film and arts jobs lost — how much is AI?** Not fetched. A candidate for [[ai-labor-market-impacts]] if read.
+- **Apricitas: 200k media, film and arts jobs lost — how much is AI?** Read 2026-10-25 at the owner's request → [[apricitas-ai-fall-of-creative-class-2026-09-27]] → [[ai-labor-market-impacts]]. Published 2026-09-27, so the brief surfaced it four weeks late.
 - **arXiv:2610.29162**, "Why is AI generated language so hard to understand?" Abstract per the brief only.
 - **Digg extras:** Utopai $60M at $1B; Gemini Notebook Connected App (off by default in the EEA); Block's Dessa full-duplex speech model; RTX Remix 1.6.
 - **Repos:** `Zagitta/gpu-unlock` (831 stars; kernel module unlocking full BF16/FP16 rates on consumer Ampere); `anima-research/ecosystem-overview` (multi-agent cognition stack). The rest are off-topic.
