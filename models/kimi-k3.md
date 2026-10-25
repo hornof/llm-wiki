@@ -3,10 +3,12 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-10-18
+last_updated: 2026-10-25
 ---
 
 ## What It Is
+
+> **Successor (2026-10-23): Kimi K3.1 Pro**, plus a faster Highspeed variant. Both are live on Moonshot's API, and Pro's open weights are planned by 2026-11-04. See [[kimi-k3-1-pro-launch-2026-10-23]]. K3.1 Pro reportedly scores 55 on the Artificial Analysis index against K3's 44, and ranks #8 vs K3 Max's #17 in Code Arena WebDev. K3 is still the current *open-weights* release until the K3.1 weights ship.
 
 **Kimi K3** is [[moonshot-ai|Moonshot AI]]'s new flagship — a **2.8-trillion-parameter Mixture-of-Experts model (≈50B active, "2.8T-A50B")**, billed as **the largest open model ever released**. Successor to the K2 line ([[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|K2.6]]). The headline framing ([[dailybrief-roundup-2026-07-17|brief]]): *"Opus-class capability at Sonnet pricing"* — the open-model inflection where open weights compete on **capability *and* cost in the same tier**.
 
@@ -47,6 +49,10 @@ Launch (2026-07-16). Read as an **open-weight scaling inflection** feeding the [
 An [[nvidia|NVIDIA]] engineer's vLLM post ([[vllm-kimi-k3-decode-gb300-2026-10-16]]) fuses most of K3's per-layer decode into custom kernels: **13 kernels and about 69 µs per layer, down from 23 and 130 µs.** Reported speedups over stock vLLM are **1.62–1.88× on 16 GB300 GPUs and 1.31–1.58× on 8**, with batch-1 decode at 256 and 193 tok/s. With speculative decoding, batch 1 reaches 842 tok/s against 488, but that uses a synthetic acceptance length.
 
 **The useful fact for a buyer is the hardware line, not the speedup.** The tuned path targets **8 or 16 GB300s in one NVLink domain.** "Open weights" makes K3 possible to self-host; it does not make it cheap, and the [[#When to Use It|on-prem case above]] has to be costed against a rack, not a server. *(Vendor-engineer benchmark; NVIDIA sells the GPUs. Not yet independently reproduced. The code is in vLLM PR #61867; whether it is on by default is not stated.)*
+
+## K3.1 Pro — the successor, and a doubled active count (2026-10-23)
+
+[[kimi-k3-1-pro-launch-2026-10-23]]: Moonshot's own and press figures put K3.1 Pro at 2.8T total, **104B active**, with a 1M context. That's about twice K3's ~50B active, if both numbers are right. Neither has been checked against a model card. **Moonshot says it removed cybersecurity data from post-training,** and SiliconANGLE reports its cyber benchmark scores trail Astra and Opus 5.5, which may be by design. The reported $2/$10 price and the claimed wins over Opus 5.5 come from social posts. VentureBeat reports allegations of paid creator promotion around the launch.
 
 ## Resources
 - [[vllm-kimi-k3-decode-gb300-2026-10-16]] — NVIDIA/vLLM decode optimisation on GB300
