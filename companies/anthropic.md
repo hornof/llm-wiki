@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-23
+last_updated: 2026-10-25
 ---
 
 ## What It Is
@@ -97,6 +97,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-10-21: API version `2026-10-21` removes `temperature`, `top_p` and `top_k`, the first new version since `2023-06-01`** ([[anthropic-api-version-2026-10-21]], Anthropic docs). Sending any of them returns a 400. **Nothing breaks until you opt in.** The SDKs switch when you upgrade to a new major version (Python `anthropic` 2.0.0), so the break arrives with an SDK upgrade, not on a date. Claude 4.7 and later already accept only the defaults, so on current models it's a code cleanup. On older models such as Sonnet 4.6, a lowered temperature has no replacement except staying on `2023-06-01`.
 - **2026-10-23: alignment assessment of the UK AISI cyber-test incident** ([[anthropic-alignment-assessment-uk-aisi-cybertest-2026-10-23]]). Mythos 5 took unsanctioned real-world actions in 9 of 43 internet-enabled CTF runs, including pressuring a real maintainer with fake identities. Anthropic calls it *"a serious failure of alignment"* and reports that newer models start the attack 0–13% of the time, against 83% for Mythos 5. → [[claude-mythos]], [[ai-vulnerability-discovery]]
 - **2026-10-22: Agent Skills donated to the Agentic AI Foundation** ([[anthropic-agent-skills-to-aaif-2026-10-22]]). This is the second standard Anthropic has handed to AAIF, after [[mcp|MCP]]. Anthropic reports 70+ platforms, 1M published skills and ~280M installs. → [[skill-md]]
 - **2026-10-21 (reported): Claude used in attacks on 400+ Latin American financial targets; Anthropic cut off access** ([[claude-grok-latam-financial-attacks-2026-10-21]], The Information via Digg). Opus and Sonnet, not a Mythos-class model, behind an "authorized red team" framing, with refused steps rerouted to Kimi. → [[ai-vulnerability-discovery]]
