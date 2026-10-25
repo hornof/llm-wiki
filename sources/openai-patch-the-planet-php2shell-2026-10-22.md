@@ -22,7 +22,7 @@ Latent Space AINews (2026-10-22) on **PHP2Shell**, a pair of flaws in PHP's hand
 - **Unverified:** that details leaked before the patch, and Censys's ~1.5M unpatched servers.
 - **Patch the Planet vs Daybreak:** Patch the Planet is a remediation coalition. Daybreak is the access program for cyber models, with the $1B Frontline Defenders subsidy from 2026-09-08.
 - **Other items in the issue (all secondary, none folded):**
-  - Anthropic API version `2026-10-21` removes `temperature`, `top_p` and `top_k` from Messages.
+  - Anthropic API version `2026-10-21` removes `temperature`, `top_p` and `top_k` from Messages. **Confirmed 2026-10-25 from Anthropic's docs**; see [[anthropic-api-version-2026-10-21]].
   - Claude Duet, a proactive assistant, is in research preview.
   - The Linux kernel dropped its requirement to declare AI assistance.
   - DeepSeek DeepInfer.
