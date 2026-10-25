@@ -1,7 +1,7 @@
 ---
 name: AI ROI Gap
 type: topic
-last_updated: 2026-09-27
+last_updated: 2026-10-25
 ---
 
 ## What This Is
@@ -399,6 +399,10 @@ In comments to [[0xchromium-claude-cowork-workflows-guide-2026-06-04|0xchromium'
 > *"Most AI workflows fail because they automate tasks, not outcomes. The real value comes when the system can filter, prioritize, and deliver only what actually needs human attention."*
 
 **Pattern**: the gap-thesis applies to workflow design as well as code-generation — workflows that automate task-completion-volume without filtering for attention-allocation-quality reproduce the AI-ROI-gap at the operator side. Pairs with the *verification tax* framing (MIT/Avnery) at the workflow-design-quality layer: both Avnery and Vexo independently arrive at *the load-bearing primitive is attention-allocation / verification gate, not throughput*.
+
+## A capital allocator's macro read — "decided in the S&P 493" (Apollo, 2026-10-24)
+
+[[apollo-slok-no-ai-payoff-outside-tech-2026-10-24]]: Torsten Slok (Apollo) finds revenue per worker and profit margins **rising for the Mag 7 and flat for the S&P 493**, with no sign yet of AI in total factor productivity. AI spend is concentrated in a few firms, and token spend is circular. **This is the gap this page tracks, stated at index level by a large investor.** The numbers are only in charts, and the note doesn't separate low adoption from adoption that hasn't paid off yet. That distinction is the [[#Falsifiable Tests|falsifiable test]] still unrun.
 
 ## Tracking
 
