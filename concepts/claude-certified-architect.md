@@ -2,8 +2,7 @@
 name: Claude Certified Architect
 type: concept
 maturity: emerging
-last_updated: 2026-08-20
-dormant_since: 2026-10-21
+last_updated: 2026-10-26
 ---
 
 ## Definition
@@ -27,6 +26,16 @@ The same thread carries a well-upvoted skeptic subthread: multiple-choice IT cer
 The Foundations cert codifies what Anthropic considers the production-grade competencies for building Claude applications. The published domain weights are a leading indicator of where Anthropic believes the practitioner skill gap is — and a forcing function for organizations building on Claude to standardize on patterns Anthropic endorses. For an AI engineer, the exam blueprint doubles as a curriculum for the technical surface Anthropic is committing to long-term: agentic orchestration, MCP-based tool design, [[claude-code]] workflows, structured-output prompt engineering, and context/reliability discipline.
 
 ## Current State
+
+### The program as of 2026-10-25 (third-party listing, unverified)
+A practice-exam vendor ([[raw-batch-roundup-2026-10-26]], aicertificates.study) lists **four live Claude certifications** with exam fees, which fills in the "4 certifications" reported in August:
+- **CCAO-F**, Claude Certified Associate — Foundations: the non-technical track, $99.
+- **CCDV-F**, Claude Certified Developer — Foundations: API, agents, tools and MCP, $125.
+- **CCAR-F**, Claude Certified Architect — Foundations: agent loops, MCP design, Claude Code configuration, $125.
+- **CCAR-P**, Claude Certified Architect — Professional: architecture, evaluation and governance, $175.
+- **A fifth, Developer — Professional, is announced for later this year** with no exam guide yet.
+
+The names, fees and the fifth exam come from a vendor selling $39 practice sets, not from Anthropic. Check them against Anthropic's own certification page before you book.
 
 ### Anthropic-confirmed (primary source)
 - Launched 2026-03-12 — [[anthropic-claude-partner-network]]

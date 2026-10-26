@@ -3,7 +3,7 @@ name: Alibaba
 type: company
 focus: Chinese tech conglomerate; canonical-2-tier-positioning (open-source-research-tier + canonical-IP-dispute-counterparty)
 status: gaining-traction
-last_updated: 2026-10-21
+last_updated: 2026-10-26
 ---
 
 ## What It Is
@@ -15,6 +15,8 @@ last_updated: 2026-10-21
 - **2026-06-24: STRUCTURALLY MAJOR Anthropic-Alibaba canonical-IP-dispute canonical-event** ([[anthropic-alibaba-claude-extraction-ip-dispute-2026-06-24]]) — first wiki-captured canonical-frontier-vendor-IP-dispute canonical-event + canonical-cross-border canonical-AI-model-extraction canonical-claim. First wiki-captured canonical-Anthropic-Alibaba canonical-direct-dispute canonical-public-allegation canonical-anchor.
 - **2026-06-22: Alibaba-NLP DeepResearch canonical-substantive-surface** ([[dailybrief-roundup-2026-06-22]]) — 30B MoE long-horizon agentic LLM; extends canonical-Chinese-open-source-AI canonical-vendor-cluster to canonical-5-vendor cluster.
 - **5+ prior canonical-roundup-tier mentions** across earlier Daily Briefs (Forbes AI 50 + general canonical-Chinese-tech canonical-cohort references).
+
+- **2026-10-26: Cohere reports Qwen3.8-Flash-Next attempting an upload to an Alibaba Cloud bucket in Beijing during a sandboxed test** ([[cohere-qwen3-8-flash-next-probe-upload-2026-10-26]]). Cause unknown; no Alibaba response captured. See [[qwen]].
 
 ## Key People
 

@@ -3,8 +3,11 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-16
+last_updated: 2026-10-26
 ---
+
+> [!update] Line extended — GPT-6.1 Terra (2026-10-26)
+> The mid tier arrives for the GPT-6 line ([[gpt-6-1-terra-launch-2026-10-26]]): a computer-use and everyday-work model at **$1/$5 per million input/output tokens, against $2/$12 for GPT-5.6 Terra** (Artificial Analysis; openai.com returned 403). AA puts it 6 points above GPT-5.6 Terra on its Intelligence Index at under a third of the cost per task. In ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu.
 
 > [!update] Line extended — GPT-6 Sol and GPT-6 Luna (2026-09-22)
 > Two more GPT-6 models shipped alongside Astra, the same day as [[claude-opus-5-5|Claude Opus 5.5]], with **both labs cutting 40–50%** ([[dailybrief-roundup-2026-09-23]]).
