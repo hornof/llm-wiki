@@ -3,9 +3,7 @@ name: GPT-5.6 (Sol + Terra + Luna)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-22
-last_updated: 2026-10-21
-dormant_since: 2026-09-20
+last_updated: 2026-10-26
 ---
 
 > [!update] Superseded by the GPT-6 line — added 2026-10-15
@@ -14,6 +12,8 @@ dormant_since: 2026-09-20
 > **Pricing moved three times in twenty-one days on the GPT-6 line** — Astra at ~2.5× on a per-outcome argument, Sol and Luna cutting 40–50%, then GPT-6.1 Sol at a literal fifth of Astra's rate ($2.00/$0.10/$10.00 against $10.00/$1.00/$50.00). **The three-tier pricing ladder recorded below is superseded.** See [[ai-margin-collapse]].
 >
 > *(This pointer was missing when I updated the page earlier on 2026-10-15 — found by the same lint pass that caught it on the two Opus pages.)*
+>
+> **Terra has a successor too (2026-10-26):** GPT-6.1 Terra at $1/$5 per million tokens, half GPT-5.6 Terra's $2/$12, and higher on Artificial Analysis's index ([[gpt-6-1-terra-launch-2026-10-26]]). **Don't pick GPT-5.6 Terra for new work.**
 
 > [!update] 2026-07-11 — General availability
 > Per the [2026-07-11 Daily Brief](../Daily%20Briefs/2026-07-11.md) citing [Simon Willison's 2026-07-09 write-up](https://simonwillison.net/2026/Jul/9/gpt-5-6/) (**primary not fetched**), the **Sol / Terra / Luna family reached general availability**, converting the Jun-26 limited-preview "GA-in-weeks" roadmap into a shipped product. The brief anchors a **three-tier pricing ladder of ~$1–$30 per 1M output tokens** across Luna (cheap/fast) → Terra (balanced) → Sol (flagship) — a competitive cost baseline against the [[claude-fable-5|Fable 5]] / [[claude-sonnet-5|Sonnet 5]] / [[claude-opus-4-8|Opus 4.8]] cohort. *(Exact per-tier prices to be confirmed against the primary.)* See [[dailybrief-roundup-2026-07-11]].

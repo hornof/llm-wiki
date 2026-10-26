@@ -2,7 +2,7 @@
 name: Replit
 type: company
 status: active
-last_updated: 2026-10-17
+last_updated: 2026-10-26
 ---
 
 ## What It Is
@@ -17,6 +17,7 @@ last_updated: 2026-10-17
 - *(Self-published telemetry from an AI-coding-platform frontier case — directionally strong, not independently audited.)*
 
 - **2026-10-17: #2 on Design Arena's Slides Arena (Elo 1279)** ([[raw-batch-roundup-2026-10-17]], @DesignArena). It was the highest-rated slides builder under 8 minutes and ~24% faster than #1 (Playyy), ahead of Gamma 5, Manus 1.6 and Claude Opus 4.6. **Read the comparison set before the rank**: the Anthropic entry is **Opus 4.6, a model several releases old**, not [[claude-cowork|Claude Slides]], which shipped in beta in September. The best reply asks the useful follow-up: change one number in the source spreadsheet and see whether every dependent chart and sentence updates. That tests whether a deck can be maintained, which a preference vote cannot. *(Arena's own announcement; preference Elo, sample size not given.)*
+- **2026-10-26 (reported): most AI spend moved from Anthropic to OpenAI** ([[replit-openai-discount-switch-2026-10-26]], TNW citing The Information). OpenAI offered 30%+ off on a contract worth over $100M a year; Anthropic wouldn't extend its discount without a bigger commitment. Masad: *"It was a decision based on both cost, partnership, and performance"*, and users can still choose Claude. TNW hasn't verified the figures.
 
 ## The primary, obtained (backfill, 2026-09-30)
 
