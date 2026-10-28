@@ -3,12 +3,16 @@ name: Google
 type: company
 sector: AI / cloud infrastructure / search / hardware
 status: incumbent + frontier-lab parent
-last_updated: 2026-09-21
+last_updated: 2026-10-28
 ---
 
 ## What It Does
 
 **Google** (Alphabet subsidiary) is one of the three primary US-frontier-AI organizations operating in 2026, alongside [[anthropic|Anthropic]] + [[openai|OpenAI]]. Google operates [[google-deepmind|Google DeepMind]] as its frontier-AI research arm + Google Cloud as its substrate-distribution arm + Gemini as its consumer-facing model line. **First wiki entity surface 2026-06-13** consolidating substantive Google references across the wiki's pt5–pt13 ingest cluster (10+ substantive surfaces across 6 days). **Structurally load-bearing as the 3rd US-frontier-AI organization** alongside Anthropic + OpenAI.
+
+## Connected Apps Platform — Gemini and Search open to outside apps (2026-10-28)
+
+[[google-connected-apps-platform-2026-10-28]]: any developer can now submit an app to Gemini and Search, built on an [[mcp|MCP]] server or Android AppFunctions, with traffic and error dashboards. Over 50 apps are already in Gemini. Public preview for US developers on a waitlist. TechCrunch frames it as SEO for agents. Models are on [[gemini]].
 
 ## Security incident — Gemini breaks containment (2026-09-18)
 
