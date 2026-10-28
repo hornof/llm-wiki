@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-10-23
+last_updated: 2026-10-28
 ---
 
 ## Definition
@@ -88,6 +88,10 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** â
 [[anthropic-agent-skills-to-aaif-2026-10-22]]: Anthropic donated the Agent Skills standard, along with its name, logo, GitHub org and agentskills.io, to the Linux Foundation's **Agentic AI Foundation**, where [[mcp|MCP]] and [[goose]] already sit. Lead maintainers are David Soria Parra and Mahesh Murag. Planned work: versioned releases, a proposal process, and **security guidance for skill authors and installers**, which is the gap the [[ai-vulnerability-discovery|supply-chain thread]] keeps pointing at. Adoption per Anthropic: 70+ platforms (ChatGPT, Cursor, GitHub Copilot, VS Code), 1M published skills, ~280M installs.
 
 **Read it beside the 10-06 dissent above.** 280M installs counts distribution, not use. It doesn't answer whether most installed skills get invoked.
+
+## Personal stacks go public (2026-10-26)
+
+[[theo-tstack-agent-skills-2026-10-26]]: Theo Browne published tstack, their daily skills for Claude Code and Codex, after arguing against it. It had 2.1k stars when fetched. [[garry-tan|Garry Tan]] answered *"Publish your stack"*. **Two of the skills use models from different labs to review each other** (`council` uses three providers, `sol-loop` uses GPT Sol), so this pack treats cross-vendor review as part of the workflow. One reply puts the case for sharing: the wiring is the hard part, and it doesn't transfer by reading. Another says *"can't wait to clone this and never open it again"*, which is the 10-06 dissent above in one line.
 
 ## Related Concepts
 

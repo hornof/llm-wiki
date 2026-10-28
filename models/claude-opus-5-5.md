@@ -3,7 +3,7 @@ name: Claude Opus 5.5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-10-08
+last_updated: 2026-10-28
 ---
 
 ## What It Is
@@ -34,6 +34,8 @@ Practitioner use in the wild: [[garrytan-capy-harness-4x-2026-09-23|Tan running 
 ## Community Sentiment
 
 **Thin.** The launch was overshadowed by its own price cut and by GPT-6 Sol landing the same day; the wiki's 09-23 entry read the simultaneity as *"the first frontier-on-frontier price war"* and folded the pricing rather than the model. **Six weeks on there is still no independent evaluation in the record.**
+
+**2026-10-27, Latent Space with the Claude Platform leads** ([[latent-space-opus-5-5-brain-hands-2026-10-27]]): still no independent evaluation. Two platform points are useful. Preserving thinking blocks across turns, a guard against distillation, can break existing harnesses. And Managed Agents keeps the session and harness apart from the code sandbox, so a crashed sandbox doesn't end the session and no credential sits where generated code runs. Latent Space calls Opus 5.5 the *"generally accepted #1"* LLM. That's the host's view, not a measurement.
 
 ## Resources
 

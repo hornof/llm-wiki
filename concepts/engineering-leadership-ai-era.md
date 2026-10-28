@@ -2,7 +2,7 @@
 name: Engineering Leadership in the AI Era
 type: concept
 maturity: emerging
-last_updated: 2026-10-21
+last_updated: 2026-10-28
 ---
 
 ## Definition
@@ -41,14 +41,16 @@ The flip side of the leadership squeeze: the role the AI industry is *scrambling
 - **IC-side role shift** ([[andrej-karpathy]]): the individual-contributor job moves to *"taste, judgment, spec ownership"* — the "bookends" of deciding-what and judging-quality ([[greg-isenberg|Isenberg]]'s *"AI eats the middle"*). The leadership-side squeeze here is the management-tier counterpart.
 - **Org rebuild** ([[ai-native-organizations]]): *"everyone is a manager now"* + middle-management thinning. If AI collapses the information-routing rationale for hierarchy, the mid-tier eng-leadership role is exactly what gets compressed.
 
-**June–October 2026 (refreshed 2026-10-21).** Three items bear directly on engineering-leadership work:
+**June–October 2026 (refreshed 2026-10-28).** Four items bear directly on engineering-leadership work:
 
 - **Roles reorganised by product stage, not function.** [[boris-cherny|Boris Cherny]] (Claude Code) proposes five archetypes: Prototyper, Builder, Sweeper, Grower and Maintainer. They cut across engineering, product, design and data science, and team mix follows product stage ([[bcherny-5-archetype-future-roles-2026-06-28]]). For an engineering leader this is a staffing model: pre-PMF teams are Prototyper + Builder + Sweeper, mature ones lean on Sweeper, Grower and Maintainer.
 - **AI spend becomes a per-engineer budget line.** Accenture reportedly caps centrally funded Claude use at **$29/month per employee** ([[dailybrief-roundup-2026-10-17]]). Cognition reportedly ties engineers' AI spending limits to **efficiency grades** ([[dailybrief-roundup-2026-10-18]]). Both are headline-level reports, but they put a new metric on the leader's desk: tokens per engineer, judged against output.
 - **The morale cost.** Jeremy Scheff's "obituary for programming" ([[scheff-obituary-for-programming-2026-10-19]]) says the intellectual puzzle was the job's reward, and it's the part agents now take. A retention problem for the leaders of people who chose the work for that reason. See [[ai-labor-market-impacts]].
+- **Hiring without the coding interview.** [[felix-rieseberg-coding-interview-dead-2026-10-27|Felix Rieseberg]], who leads engineering for Claude.ai, Cowork and Claude Code Desktop, dropped the coding interview from their loops in October 2026: Claude is better at the test than the candidates, and their best builders succeed regardless of how they score. They haven't settled on a replacement and for now look for small prototypes in portfolios. One manager's practice, not Anthropic policy: a candidate replied that Anthropic gave them a take-home test the week before. **For a hiring leader, the question this leaves is what to test instead.** Their advice to juniors (build a working prototype of one ambitious idea, because execution is cheap now) is the IC-side version of the stage-based staffing in the first item.
 
 ## Key Papers / Posts
 - [[gergely-orosz-eng-leadership-exodus-2026-07-27]] — the anchor observation (CTO/VPE burnout + fractional/founder exodus)
+- [[felix-rieseberg-coding-interview-dead-2026-10-27]] — an Anthropic EM drops the coding interview (2026-10-27)
 
 ## Related Concepts
 - [[ai-native-organizations]] — the org-structure side (middle-management thinning, "everyone is a manager now")
