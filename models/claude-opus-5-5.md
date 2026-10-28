@@ -37,6 +37,8 @@ Practitioner use in the wild: [[garrytan-capy-harness-4x-2026-09-23|Tan running 
 
 **2026-10-27, Latent Space with the Claude Platform leads** ([[latent-space-opus-5-5-brain-hands-2026-10-27]]): still no independent evaluation. Two platform points are useful. Preserving thinking blocks across turns, a guard against distillation, can break existing harnesses. And Managed Agents keeps the session and harness apart from the code sandbox, so a crashed sandbox doesn't end the session and no credential sits where generated code runs. Latent Space calls Opus 5.5 the *"generally accepted #1"* LLM. That's the host's view, not a measurement.
 
+**2026-10-28, the first independent hands-on comparison** ([[willison-vibe-game-development-2026-10-28]]). [[simon-willison]] vibe-coded four browser games with Opus 5.5 and enjoys playing them. Their claim is about game design: the model makes games that are fun. Given the same prompts, GPT-6 Pro built an RPG that *"looks great"* but doesn't play *"nearly as well"*. Their read is that GPT-6 Astra's *"sense of fun doesn’t match that of Opus 5.5"*. **One practitioner's informal test, not a benchmark**, but it's the first named, non-vendor assessment on this page. Step 5a: the line above saying there was still no independent evaluation after six weeks is now partly answered, qualitatively only.
+
 ## Resources
 
 - [[dailybrief-roundup-2026-09-23]] — launch, alongside GPT-6 Sol/Luna and the 40–50% cuts

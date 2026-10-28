@@ -2,7 +2,7 @@
 name: Context Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-10-21
+last_updated: 2026-10-28
 ---
 
 ## Definition
@@ -64,6 +64,8 @@ The framing source ([[noisyb0y1-context-engineering-8x-2026-07-04]]) asserts *"A
 **August–September 2026 (refreshed 2026-10-21).**
 - **The term may be a stage, not a destination.** One practitioner reads prompt engineering → context engineering → harness/loop/graph engineering as successive names for a moving abstraction boundary that collapses into "product" once it settles ([[businessbarista-harness-engineering-product-2026-08-24]]). The wiki's own pages track that move: much of what this page describes is now discussed under [[loop-engineering]] and [[skill-md]].
 - **Still the throughline of hands-on advice.** John Kim's 50 Claude Code tips organise around *"context is king, keep it fresh and condensed"* ([[john-kim-50-claude-code-tips-2026]]). [[andrew-ng|Andrew Ng]] lists grounding and context among the core AI engineering skills ([[andrew-ng-ai-engineering-skills-building-deploying-2026-08-21]]).
+
+- **Output compression as a tool, at scale** (2026-10-28, [[caveman-agent-token-compression-2026-10-28]]): `caveman`, a local proxy and skill that makes agents answer tersely and compresses input context, had 116k GitHub stars at fetch. The wiki first noted it on 07-08 as one of three token-saving plugins. Its README claims 33.2% fewer input tokens per session. Unverified, but the star count shows how much people want to cut tokens.
 
 ## Key Papers / Posts
 - [[noisyb0y1-context-engineering-8x-2026-07-04]] — practitioner synthesis: "context is the operating system for AI"; 7 components + 3-layer stack + AGENTS.md + memory + MCP (8x claim caveated)

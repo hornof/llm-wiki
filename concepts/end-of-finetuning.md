@@ -2,7 +2,7 @@
 name: End of Finetuning
 type: concept
 maturity: emerging
-last_updated: 2026-10-15
+last_updated: 2026-10-28
 ---
 
 ## Definition
@@ -66,6 +66,10 @@ Pairs with [[anthropic-self-service-data-analytics-2026-06-03|Anthropic data-ana
 > **So the refinement this page needs: fine-tuning stopped being the default tool for *applications* and remains the right tool for *primitives*.** If the task has an enumerable answer set and needs no generation, a purpose-trained small model wins on cost and latency by two orders of magnitude. **If the task needs language, the prompt-and-eval stack wins.** The line is not domain or data volume — **it is whether the output space is small enough to specify.**
 
 **And the counter-evidence for the exception is already in the record:** the interface was reimplemented four times in three weeks (a hobby clone, OpenAI's Decisions API, `llama.cpp` scoring options in a single forward pass, Arch-Router), **and only the training is hard to copy.** Which is exactly what this page would predict: **the fine-tuning is the moat precisely because the surface is narrow.** See [[jev]] and [[ai-margin-collapse]].
+
+## Weight updates after deployment, from a frontier lab — Google's Sleep framework (2026-10-27)
+
+[[google-sleep-continual-learning-2026-10-27]]: Google Research proposes a wake/sleep cycle. Between sessions the model writes what it learned into reserved Mixture-of-Experts blocks, then fine-tunes on its own best practice examples. The post reports near-zero forgetting on unseen languages and scaling to 10M tokens on BABILong. **This is the May "continual learning at the agent layer" signal above, now from a frontier lab and in the weights.** The page's thesis is that applications stop fine-tuning. Sleep doesn't contradict that: the fine-tuning here is automated and done by the model on itself, not by the application team. If it works in production, the thesis holds for teams while models keep updating. Research post only; not a product.
 
 ## Open Questions / Caveats
 
