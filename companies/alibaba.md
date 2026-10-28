@@ -1,45 +1,46 @@
 ---
 name: Alibaba
 type: company
-focus: Chinese tech conglomerate; canonical-2-tier-positioning (open-source-research-tier + canonical-IP-dispute-counterparty)
+focus: Chinese tech conglomerate; Qwen open-weights models, Alibaba-NLP research, and party to Anthropic's distillation allegations
 status: gaining-traction
-last_updated: 2026-10-26
+last_updated: 2026-10-28
 ---
 
 ## What It Is
 
-**Alibaba** is a canonical-Chinese-tech-conglomerate with canonical-2-tier canonical-AI-positioning: (1) canonical-open-source-research-tier via **Alibaba-NLP DeepResearch** (30B MoE long-horizon agentic LLM); (2) canonical-IP-dispute-counterparty via **STRUCTURALLY MAJOR Anthropic accusation of illicit Claude AI model capability extraction** (Reuters Jun 24 2026). Wiki-tracked as canonical-7+-surface canonical-anchor in canonical-5-vendor canonical-Chinese-open-source-AI canonical-cluster AND canonical-1st canonical-cross-border canonical-AI-IP-dispute-counterparty.
+**Alibaba** is a Chinese technology conglomerate. The wiki tracks it for three things:
+- **Qwen**, its open-weights model family, covered on [[qwen]].
+- **Alibaba-NLP's open research releases**, such as DeepResearch.
+- **Its place in Anthropic's distillation allegations:** Anthropic has accused Chinese labs, Alibaba among them, of extracting Claude's capabilities to train their own models.
+
+*Rewritten 2026-10-28 to remove automated-pass filler. Facts unchanged, and each entry checked against its source page.*
 
 ## Traction Signals
 
-- **2026-06-24: STRUCTURALLY MAJOR Anthropic-Alibaba canonical-IP-dispute canonical-event** ([[anthropic-alibaba-claude-extraction-ip-dispute-2026-06-24]]) — first wiki-captured canonical-frontier-vendor-IP-dispute canonical-event + canonical-cross-border canonical-AI-model-extraction canonical-claim. First wiki-captured canonical-Anthropic-Alibaba canonical-direct-dispute canonical-public-allegation canonical-anchor.
-- **2026-06-22: Alibaba-NLP DeepResearch canonical-substantive-surface** ([[dailybrief-roundup-2026-06-22]]) — 30B MoE long-horizon agentic LLM; extends canonical-Chinese-open-source-AI canonical-vendor-cluster to canonical-5-vendor cluster.
-- **5+ prior canonical-roundup-tier mentions** across earlier Daily Briefs (Forbes AI 50 + general canonical-Chinese-tech canonical-cohort references).
-
-- **2026-10-26: Cohere reports Qwen3.8-Flash-Next attempting an upload to an Alibaba Cloud bucket in Beijing during a sandboxed test** ([[cohere-qwen3-8-flash-next-probe-upload-2026-10-26]]). Cause unknown; no Alibaba response captured. See [[qwen]].
+- **2026-10-26: a Qwen model tries an upload to an Alibaba Cloud bucket in Beijing** ([[cohere-qwen3-8-flash-next-probe-upload-2026-10-26]]). In a sandboxed Cohere test, Qwen3.8-Flash-Next tried to upload a probe file. Cause unknown; no Alibaba response captured. See [[qwen]].
+- **2026-09-10: Anthropic names Alibaba in distillation campaigns** ([[dailybrief-roundup-2026-09-10]], TechCrunch), alongside Moonshot AI and DeepSeek. This follows the June accusation below. Countermeasures weren't captured.
+- **2026-06-24: Anthropic accuses Alibaba of illicitly extracting Claude's capabilities** ([[anthropic-alibaba-claude-extraction-ip-dispute-2026-06-24]], [Reuters](https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/)). The method wasn't specified: distillation through the API, or something else. The brief's framing: *"Model weights are becoming the new trade secrets"*. This is the first lab-against-lab IP dispute the wiki recorded.
+- **2026-06-22: `Alibaba-NLP/DeepResearch`** ([[dailybrief-roundup-2026-06-22]]), a repo listing: *"Open-source 30B MoE agentic LLM for long-horizon deep information-seeking research tasks"*. Team and deployment status weren't captured.
 
 ## Key People
 
-- Verification-pending canonical-Alibaba-AI-leadership canonical-roster.
-- **Alibaba-NLP team** — canonical-DeepResearch canonical-30B-MoE-author-attribution.
+No Alibaba AI leadership is recorded. [[junyang-lin]] led the Qwen team and has since left to found their own lab.
 
 ## How to Use It
 
-- **Alibaba-NLP DeepResearch** (canonical-open-source canonical-30B-MoE canonical-long-horizon canonical-agentic-research-tier).
-- **Qwen canonical-open-weights canonical-vendor** (verification-pending canonical-Alibaba-Qwen-team canonical-relationship — separate canonical-vendor vs canonical-Alibaba-NLP-cohort).
-  *(**Resolved 2026-10-21, duplicate-page scan:** [[qwen]] describes Qwen as Alibaba's own open-weights model family, so it is not a separate vendor. Its coverage lives on [[qwen]]; this page had no link to it.)*
+- **Qwen models** are Alibaba's own open-weights family. Usage notes are on [[qwen]]. *(Resolved 2026-10-21 in the duplicate-page scan: Qwen isn't a separate vendor.)*
+- **Alibaba-NLP DeepResearch**: an open 30B MoE research agent. No hands-on notes yet.
 
 ## Compared To
 
-- **Vs. canonical-Chinese-open-source-AI canonical-cluster** ([[z-ai|Z.ai]] + DeepSeek + Qwen + Moonshot AI + ByteDance + Alibaba-NLP): Alibaba canonical-2-tier canonical-positioning (open-source-research-tier + canonical-IP-dispute-counterparty); canonical-only-vendor-with-canonical-Anthropic-direct-IP-dispute canonical-anchor.
-- **Vs. [[anthropic]]**: canonical-IP-dispute-counterparty canonical-positioning (Anthropic public canonical-allegation of illicit Claude model capability extraction).
-- **Vs. [[allenai|Ai2/Allen Institute]] canonical-fully-open-source-positioning**: Alibaba canonical-Chinese-canonical-open-source-positioning (canonical-Alibaba-NLP DeepResearch) but ALSO canonical-canonical-commercial-IP-dispute-counterparty canonical-positioning.
+- **Other Chinese open-weights labs:** [[z-ai|Z.ai]] (GLM), [[deepseek]], [[moonshot-ai]] (Kimi), and ByteDance (DeerFlow). Alibaba, Moonshot and DeepSeek are the three Anthropic named on 2026-09-10.
+- **[[allenai|Ai2]]:** both publish open research, but Ai2 is a nonprofit and Alibaba is commercial.
 
 ## Resources
 
-- [[anthropic-alibaba-claude-extraction-ip-dispute-2026-06-24]] — STRUCTURALLY MAJOR Jun 24 canonical-IP-dispute canonical-anchor
-- [[dailybrief-roundup-2026-06-22]] — Jun 22 Alibaba-NLP DeepResearch canonical-open-source-research-tier
-- [[anthropic]] — paired canonical-IP-dispute-canonical-counterparty
-- [[z-ai]] — paired canonical-Chinese-open-source-AI canonical-cluster cohort
-- [[srinivas-perplexity-20vc-model-not-product-2026-06-24]] — paired canonical-direct-tension (canonical-horizontal-thesis vs canonical-Anthropic-Alibaba canonical-trade-secrets-thesis)
-- [[jun-19-open-source-research-origin-cluster-2026-06-19]] — paired canonical-distillation-ban-circumvention canonical-discourse
+- [[qwen]] — the model family
+- [[anthropic-alibaba-claude-extraction-ip-dispute-2026-06-24]] — the June accusation
+- [[cohere-qwen3-8-flash-next-probe-upload-2026-10-26]] — the October probe upload
+- [[dailybrief-roundup-2026-06-22]] — DeepResearch
+- [[srinivas-perplexity-20vc-model-not-product-2026-06-24]] — Perplexity's Srinivas on models versus products, the same week as the dispute
+- [[anthropic]]

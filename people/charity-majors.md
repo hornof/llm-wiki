@@ -8,7 +8,7 @@ last_updated: 2026-06-18
 
 ## Who They Are
 
-**Charity Majors** is co-founder and CTO of **Honeycomb** (observability platform) and a canonical engineering-discipline + observability-tier voice. Wiki-tracked primarily for her **canonical-AI-skeptic-tier articulations** in [[topics/ai-roi-gap|the AI-ROI-gap discourse]] + **engineering-discipline-from-observability-perspective canonical-framings**. Recurring Willison-amplified voice across multi-week brief-roundup cadence (Jun 5 + Jun 6 + Jun 7 + Jun 17 substantive surfaces). **8 substantive surfaces** across multi-week cadence validates entity-page threshold past multi-lint carry-over.
+**Charity Majors** is co-founder and CTO of **Honeycomb** (observability platform) and a canonical engineering-discipline + observability-tier voice. Wiki-tracked primarily for her **canonical-AI-skeptic-tier articulations** in [[ai-roi-gap|the AI-ROI-gap discourse]] + **engineering-discipline-from-observability-perspective canonical-framings**. Recurring Willison-amplified voice across multi-week brief-roundup cadence (Jun 5 + Jun 6 + Jun 7 + Jun 17 substantive surfaces). **8 substantive surfaces** across multi-week cadence validates entity-page threshold past multi-lint carry-over.
 
 ## Their Current Focus
 
@@ -18,15 +18,15 @@ last_updated: 2026-06-18
 
 ## Notable Takes
 
-- **"Code from scarce/precious to disposable/regenerable" canonical-economics-shift framing** (2026-06-17 via Willison) — first wiki-captured canonical-direct-voice articulation of code-economics canonical-shift framing at engineering-discipline-tier. **Engineering discipline matters differently** = canonical-discipline-shift framing. Pairs structurally with [[topics/ai-roi-gap|AI-ROI-gap topic]] at the **engineering-discipline-from-observability-perspective AI-skepticism canonical-voice** layer.
+- **"Code from scarce/precious to disposable/regenerable" canonical-economics-shift framing** (2026-06-17 via Willison) — first wiki-captured canonical-direct-voice articulation of code-economics canonical-shift framing at engineering-discipline-tier. **Engineering discipline matters differently** = canonical-discipline-shift framing. Pairs structurally with [[ai-roi-gap|AI-ROI-gap topic]] at the **engineering-discipline-from-observability-perspective AI-skepticism canonical-voice** layer.
 - **AI-enthusiasts-vs-skeptics canonical-positioning** ([[willison-charity-majors-enthusiasts-skeptics-2026-06-04]]) — canonical Charity Majors-direct-voice articulation within AI-enthusiasts-vs-skeptics canonical-discourse + AI-ROI-gap canonical-discourse.
 - **(Implied via Honeycomb canonical-observability)**: canonical-observability-substrate-as-load-bearing-engineering-discipline framing — pairs structurally with [[samueljmcd-loop-engineering-verifier-bottleneck-2026-06-15|McDonald "instrument the gate before you scale the loop"]] at the **canonical-observability + canonical-verifier-discipline convergence** layer.
 
 ## Wiki-tracked surfaces (8 substantive surfaces)
 
 - [[willison-charity-majors-enthusiasts-skeptics-2026-06-04]] — dedicated source page; AI-enthusiasts-vs-skeptics canonical-positioning
-- [[topics/ai-roi-gap]] — AI-ROI-gap topic context
-- [[people/simon-willison|Simon Willison]] — Willison continuous-amplification canonical-cadence
+- [[ai-roi-gap]] — AI-ROI-gap topic context
+- [[simon-willison|Simon Willison]] — Willison continuous-amplification canonical-cadence
 - [[levie-nadella-cognitive-loop-thread-2026-06-14]] — paired-Levie thread context
 - [[dailybrief-roundup-2026-06-05]], [[dailybrief-roundup-2026-06-06]], [[dailybrief-roundup-2026-06-07]] — multi-day re-promotion cluster
 - [[dailybrief-roundup-2026-06-18]] — Jun 17 substantive "code economics flipped by AI" canonical-direct-voice articulation

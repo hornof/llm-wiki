@@ -57,6 +57,6 @@ Bundled examples in `examples/`: `basic-yaml`, `basic-tsx`, `semantic-yaml`, `se
 
 - [bruin-data/dac on GitHub](https://github.com/bruin-data/dac) — primary repository
 - [[svpino-bruin-dac-markdown-doomed-2026-05-15]] — practitioner-surfacing source
-- [[people/svpino]] — surfacer
+- [[svpino]] — surfacer
 - [[willison-html-effectiveness-2026-05]] / [[karpathy-html-output-taxonomy-2026-05-08]] — broader HTML-over-Markdown thread
 - [[model-rendered-ui]] — long-arc framing for HTML-as-output substrate

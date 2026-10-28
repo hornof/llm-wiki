@@ -41,6 +41,6 @@ Distinct people, distinct canonical-content-domains. Slug-case-normalization can
 
 - [[movez-ex-google-engineer-ai-agent-loops-harness-evals-2026-06-29]] — Jun 29 canonical-5-step canonical-self-improvement-loop + canonical-4-component canonical-stack (2nd substantive surface)
 - [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — Jun 18 canonical-300-agent canonical-playbook (1st substantive surface)
-- [[concepts/loop-engineering]] — canonical-Loop-Engineering canonical-15-voice canonical-cluster (Movez at canonical-practitioner-amplifier-tier)
+- [[loop-engineering]] — canonical-Loop-Engineering canonical-15-voice canonical-cluster (Movez at canonical-practitioner-amplifier-tier)
 - [[0xcodez]] — paired canonical-Loop-Engineering canonical-practitioner-cohort
 - [[moysei-karpathy-llm-wiki-pattern-amplification-2026-06-23]] — canonical-disambiguation (DIFFERENT person @0xMoysei)

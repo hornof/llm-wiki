@@ -39,4 +39,4 @@ last_updated: 2026-07-12
 - [[anatolikopadze-ai-agents-what-they-are-how-to-build-2026-06-08]] — Jun 8 AI Agents comprehensive guide (3rd substantive surface, canonical-recurring-author cadence-validation-milestone)
 - [[anatolikopadze-loops-explained-2nd-surface-2026-06-21]] — Jun 20 Loops explained (2nd substantive surface)
 - [[practitioner-claude-settings-features-cluster-2026-06-20]] — May 22 Claude Can Do All of This (1st substantive surface)
-- [[concepts/loop-engineering]] — 5-stage canonical-loop-articulation + 3-pillar canonical-discipline extension
+- [[loop-engineering]] — 5-stage canonical-loop-articulation + 3-pillar canonical-discipline extension

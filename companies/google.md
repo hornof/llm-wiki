@@ -10,6 +10,8 @@ last_updated: 2026-10-28
 
 **Google** (Alphabet subsidiary) is one of the three primary US-frontier-AI organizations operating in 2026, alongside [[anthropic|Anthropic]] + [[openai|OpenAI]]. Google operates [[google-deepmind|Google DeepMind]] as its frontier-AI research arm + Google Cloud as its substrate-distribution arm + Gemini as its consumer-facing model line. **First wiki entity surface 2026-06-13** consolidating substantive Google references across the wiki's pt5–pt13 ingest cluster (10+ substantive surfaces across 6 days). **Structurally load-bearing as the 3rd US-frontier-AI organization** alongside Anthropic + OpenAI.
 
+**Current frontier models (2026-10-28):** Gemini 4 Argon, generally available since 2026-10-13, and Gemini 4 Carbon, announced 2026-10-28 and released to cyber defenders first. See [[gemini]].
+
 ## Connected Apps Platform — Gemini and Search open to outside apps (2026-10-28)
 
 [[google-connected-apps-platform-2026-10-28]]: any developer can now submit an app to Gemini and Search, built on an [[mcp|MCP]] server or Android AppFunctions, with traffic and error dashboards. Over 50 apps are already in Gemini. Public preview for US developers on a waitlist. TechCrunch frames it as SEO for agents. Models are on [[gemini]].
@@ -52,7 +54,7 @@ Full four-incident comparison across OpenAI, Anthropic and Google at [[ai-vulner
 - **[[demis-hassabis]]** — DeepMind CEO; AGI 2030 ± 1 framing
 - **[[shane-legg]]** — DeepMind co-founder; 4-pathway AGI → superintelligence framework
 - **[[spacex]]** — Google compute-rental customer ($920M/mo)
-- **[[companies/intel]]** — Google foundry-rental customer (3M+ TPUs for 2028)
+- **[[intel]]** — Google foundry-rental customer (3M+ TPUs for 2028)
 - **[[isomorphic-labs]]** — Alphabet-subsidiary drug-discovery spin-out (Hassabis-led)
 - **[[alphafold]]** — DeepMind / Isomorphic Labs protein-structure prediction system
 - **Pattern-watch on Google open-weight-vendor positioning** (per [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|community comment-thread call for "supercharged Gemma"]])

@@ -38,7 +38,7 @@ Anchors the **RSI-skepticism corner** of the 4-leg bracketed-trajectory framewor
 
 - X: [@Dan_Jeffries1](https://x.com/Dan_Jeffries1)
 - Wiki sources: [[dan-jeffries-rsi-time-multiplicity-critique-2026-06-04]]
-- Related concepts: [[concepts/recursive-self-improvement]], [[concepts/verifiability-and-jagged-intelligence]]
+- Related concepts: [[recursive-self-improvement]], [[verifiability-and-jagged-intelligence]]
 
 ## Verification-pending
 

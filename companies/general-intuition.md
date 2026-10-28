@@ -43,4 +43,4 @@ last_updated: 2026-08-25
 - [[reflection-ai]] — paired canonical-non-mainstream-canonical-frontier-lab canonical-1-week-2-funding-event canonical-cluster
 - [[david-silver]] — paired canonical-game-trained-agent canonical-historical-precedent
 - [[demis-hassabis]] — paired canonical-game-trained-agent canonical-historical-precedent
-- [[concepts/spatial-intelligence]] — paired canonical-non-LLM-tier canonical-real-world-agent-discourse
+- [[spatial-intelligence]] — paired canonical-non-LLM-tier canonical-real-world-agent-discourse
