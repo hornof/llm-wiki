@@ -2,7 +2,7 @@
 name: World Models
 type: concept
 maturity: active-research
-last_updated: 2026-09-25
+last_updated: 2026-10-28
 ---
 
 ## Definition
@@ -109,6 +109,7 @@ Multiple labs at active-research stage with diverging architectures:
 - **LeCun/JEPA**: theoretical and early-experimental; I-JEPA and V-JEPA released by Meta FAIR; not yet at general intelligence scale
 - **Fei-Fei/World Labs**: Marble prototype demonstrated; focused on 3D spatial reasoning
 - **Luma/Uni-1**: Uni-1 shipped March 2026; deployed in production (Dream Machine, Luma Agents); outscores Google/OpenAI on reasoning benchmarks at 30% lower cost
+- **Google DeepMind/Genie 4** (2026-10-27, [[deepmind-genie-4-world-model-2026-10-27]]): a real-time interactive simulator, steered by keyboard and text, with sound and dialogue generated along with the scene. It's in the **Renderer** category in the taxonomy above (Genie 3 is already listed there), now with Gemini models steering the scene for coherence. Research preview only. DeepMind's own limits: object permanence drifts in long sessions, and long-term consistency is unsolved. No resolution, frame rate or session length published.
 
 ## Terminology Note
 

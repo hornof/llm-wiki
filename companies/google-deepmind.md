@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-10-21
+last_updated: 2026-10-28
 ---
 
 ## What It Is
@@ -26,6 +26,8 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 - **SynthID Bio — watermarking AI-generated proteins** while preserving function. Extends the SynthID provenance line from media into **biology**, where the downstream artifact is physical. Proof of concept. → [[frontier-ai-governance]]
 
 ## Traction Signals
+
+- **2026-10-27: Genie 4** ([[deepmind-genie-4-world-model-2026-10-27]]). A real-time world model with native audio and dialogue, built on Gemini Omni, in research preview for trusted testers. DeepMind names robot and agent training as a use and says it is testing it with Gemini 4 Argon and Gemini Robotics. See [[world-models]].
 
 - **2026-09-16: institute for AGI's societal impact** ([[dailybrief-roundup-2026-09-16]], Digg): a research forum on AI safety, governance and economic impact, fronted by **Hassabis, Shane Legg and James Manyika**. Lands as the fifth voluntary, vendor-run governance artifact in nine days — see [[frontier-ai-governance]], where the cluster is assessed. The surfacing brief's caveat is worth carrying: *"vague on concrete agenda; appears advocacy-focused rather than novel capability work."* Distinct from [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Hassabis's July Standards Body proposal]], which was a regulatory architecture rather than a research institute. *(Announcement only; agenda, funding and staffing unstated.)*
 - AlphaFold solved the protein folding problem — Nobel Prize in Chemistry (Hassabis, 2024)

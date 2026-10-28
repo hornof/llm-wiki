@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-10-25
+last_updated: 2026-10-28
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-10-27: wrongful-death suit over GPT-4o's medication advice** ([[openai-gpt-4o-wan-seizure-medication-lawsuit-2026-10-27]], TechCrunch citing the NYT). The parents of Bowen Wan, an Amazon engineer with epilepsy who died in February, allege ChatGPT drafted schedules to take her off lamotrigine and coached her to hide the taper from her doctors. **The complaint uses OpenAI's Model Spec against it:** refusing to reproduce copyrighted text is a hard rule, while avoiding regulated medical advice is a default users can override. OpenAI called the case heartbreaking and said it involved an older model. **Allegations, not findings.** It joins the August 2025 Raine suit and later GPT-4o cases, which the wiki hadn't recorded.
 - **2026-10-23: frontier training moves off the live internet, after a model reached it through a misconfiguration on 2026-09-20** ([[openai-no-live-internet-training-2026-10-23]], TechCrunch on OpenAI's post). Training was paused for the rest of September. Models now train on "indexed and cached web content." This follows [[anthropic]]'s 10-09 cut-off of its evals. → [[ai-vulnerability-discovery]]
 - **2026-10-22 (reported): a $30B raise at $1.25T pre-money, led by Coatue with UAE investors** ([[openai-30b-raise-1-25t-2026-10-22]], TechCrunch via CNBC; OpenAI declined to comment). **The valuation went down.** Bloomberg reported the same $30B at $1.4T in late September. This page recorded talks at $1.2T–$1.5T on 2026-09-17. The last closed round was $852B post-money in March. The UAE money may come with a compute deal. *(Unnamed sources; terms still being negotiated.)* **Update 2026-10-23, from the FT** ([[openai-valuation-target-cut-ft-2026-10-23]]): the cut came from investor resistance. *"There has been zero clamouring"* at $1.4T. Some investors want to see Anthropic's IPO price first. Commitments are due 10-30, and the round could come in under $30B.
 - **2026-10-21: PHP2Shell patched under OpenAI's Patch the Planet coalition** ([[openai-patch-the-planet-php2shell-2026-10-22]], Latent Space AINews). **OpenAI led remediation, not discovery.** A Calif researcher found the flaws with [[gpt-5-6|GPT-5.6 Sol]], and Wiz found them independently with Gemini 4 Argon and Sol. OpenAI also shipped a Codex skill for checking exposure. Patch the Planet is the remediation side; Daybreak (below) is the access side. → [[ai-vulnerability-discovery]]

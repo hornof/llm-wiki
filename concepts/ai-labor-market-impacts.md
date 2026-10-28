@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-10-25
+last_updated: 2026-10-28
 ---
 
 ## Definition
@@ -61,6 +61,8 @@ For an AI engineering / VPE career:
 Jeremy Scheff, via [[simon-willison|Willison]] ([[scheff-obituary-for-programming-2026-10-19]]): programming paid because employers needed people to solve problems they couldn't, and *"the trickier the puzzle, the more you got paid."* Coding agents take the puzzle. Willison's reply splits the loss by what people enjoyed: for builders, *"LLMs are the gift that keeps on giving"*; for people who loved the puzzles, *"the loss is very real."*
 
 **This page mostly measures exposure and employment. Scheff's point is about pay and bargaining power, which the exposure numbers don't capture.** His line *"we set the strategy, we made the timeline, we defined what was and was not possible"* describes leverage that came from being the only people who could do the work. That fits the [[#The population/workflow distinction, and the erosion of expertise proxies (Sep 2026)|erosion of expertise proxies]] below: when the hard part can be bought from a model, the scarce skill moves to judging the output, which is [[aaron-levie|Levie's]] point in the [[dailybrief-roundup-2026-10-18|10-18 brief]]. *(Essay read through Willison's quotes only.)*
+
+**A hiring-side counterpart (2026-10-27):** [[felix-rieseberg-coding-interview-dead-2026-10-27|Rieseberg]] argues the opposite of the usual junior-jobs worry. If execution is cheap, years of framework knowledge matter less, and newcomers can *"fly past"* better coders. It's one manager's observation. See [[engineering-leadership-ai-era]].
 
 ## The population/workflow distinction, and the erosion of expertise proxies (Sep 2026)
 

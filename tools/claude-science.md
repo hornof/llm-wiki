@@ -3,8 +3,7 @@ name: Claude Science
 type: tool
 category: platform
 status: emerging
-last_updated: 2026-07-06
-dormant_since: 2026-09-20
+last_updated: 2026-10-28
 ---
 
 ## What It Is
@@ -13,7 +12,8 @@ dormant_since: 2026-09-20
 
 ## Traction Signals
 
-- Vendor-announced product launch; no independent adoption signals or concrete case studies captured yet (2026-07-06) — status held at `emerging`.
+- Vendor-announced product launch; no independent adoption signals captured (2026-07-06). Status held at `emerging`.
+- **2026-10-27: the first case studies, though mostly not run in Claude Science** ([[anthropic-drug-development-early-progress-2026-10-27]]). Anthropic's drug-development update reports six partner programs. The named tools are Claude Code and Claude connected to partners' own systems; Claude Science is mentioned as the workbench Anthropic has *"rolled out"* alongside credits for life scientists. So the post is evidence for Claude in drug development, not yet for this product.
 - Part of Anthropic's vertical-app push alongside [[claude-financial-services]] and the [[alberta-government-claude-cybersecurity-2026-07-06|Alberta government security case study]].
 - Open-source analogue to watch: **synthetic-sciences/openscience** (AI-agent workbench running full literature→experiment→write-up loops), flagged in the same brief.
 
