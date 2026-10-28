@@ -47,6 +47,7 @@
 - [[herdr]] — the runtime coding agents run on: a background server owning real terminals so sessions survive the lid closing; **working/blocked/idle pane-state detection**, agent-native socket API, 22 agents detected out of the box, multi-machine over SSH; DHH confirms daily use (Oct 2026)
 
 ## Models & Providers
+- [[gemini]] — Google's frontier line: Gemini 4 Argon (GA 2026-10-13, 1M tokens) and Carbon (2026-10-28, cyber defenders first); Google-reported numbers only
 - [[gpt-6-astra]] — OpenAI's GPT-6 flagship (codename "Astra", launched 2026-09-08); claimed SOTA computer-use + coding; ~2.5× token cost but cheaper per task; first frontier flagship gated through a dangerous-capability (critical-cyber) governance process
 - [[kimi-k3]] — Moonshot's 2.8T-A50B MoE, "largest open model ever" (weights promised 2026-07-27); Opus-class-ish at Sonnet pricing; open-weight scaling inflection
 - [[muse-glimmer]] — Meta's 30B Apache-2.0 agentic open-weights model (Aug 2026); a permissive-license shift re-entering the open-weights race
