@@ -297,7 +297,7 @@ When given a new source:
      - **Title:** does the clip's `title:` (lowercased, punctuation stripped) appear in a source page's `title:`? Skip generic titles such as `Post by @handle on X`.
      - **URL anywhere:** does the clip's `source:` URL appear anywhere in a source page, not only in its `url:` field? Source pages often mention the thread URL in the summary.
 
-     A hit means the content is probably already ingested. Read the source page to confirm. Delete the clip only if it adds no text, such as a title-and-description stub. Otherwise skip it and leave it in place. *First run, 2026-10-30:* the checks caught the Rieseberg blog clip, whose X-post twin had been ingested under a different URL. Across all of `_raw` they matched about 150 clips to existing source pages, and the eight checked by eye were genuine matches.
+     A hit means the content is probably already ingested. Read the source page to confirm. Delete the clip only if it adds no text, such as a title-and-description stub. Otherwise skip it and leave it in place. *First run, 2026-10-30:* the title check matched the Rieseberg blog clip to its source page on its own, without help from the URL. That clip came in after the X post linking to it had been ingested. Across all of `_raw` they matched about 150 clips to existing source pages, and the eight checked by eye were genuine matches.
 
    *First pass, 2026-10-30: 28 copies removed out of 543 files, and 5 near-duplicate pairs kept because their replies differ.*
 1. Save the raw content to `_raw/<slug>.<ext>`.
