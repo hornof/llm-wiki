@@ -2,7 +2,7 @@
 name: Moonshot AI
 type: company
 status: active
-last_updated: 2026-10-25
+last_updated: 2026-10-29
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-10-25
 Chinese AI lab, maker of the **Kimi** model family (the wiki's canonical anchor is **Kimi K2.6**), one of the Chinese open-weights frontier vendors tracked alongside [[z-ai|Z.ai]] ([[glm-5-2|GLM-5.2]]), [[deepseek|DeepSeek]], and [[qwen|Qwen]] ([[alibaba|Alibaba]]).
 
 ## Recent Activity
+
+- **2026-10-28 (reported) — Kimi K3.1 Pro trained heavily on GPT-6 Astra outputs** ([[deepseek-moonshot-astra-distillation-2026-10-28]], The Information via Reuters). Moonshot didn't respond. → [[kimi-k3]]
 
 - **2026-10-23 — Kimi K3.1 Pro and Highspeed** ([[kimi-k3-1-pro-launch-2026-10-23]]): 2.8T total / 104B active, 1M context, live on the API; open weights planned by 11-04. Moonshot removed cybersecurity data from post-training. Benchmarks are mostly social-sourced. → [[kimi-k3]]
 - **2026-10-21 (reported) — Kimi in an attack harness** ([[claude-grok-latam-financial-attacks-2026-10-21]]): steps Claude refused were rerouted to Kimi. → [[ai-vulnerability-discovery]]

@@ -2,7 +2,7 @@
 name: Vibe Coding
 type: concept
 maturity: emerging
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 ## Definition
@@ -88,6 +88,8 @@ The May estimate was *"an agent writing 1,000 PRs/week at a 1% vulnerability rat
 ## Games cross the line Willison drew for code (2026-10-28)
 
 [[willison-vibe-game-development-2026-10-28]]: [[simon-willison]] calls October 2026 an inflection point for vibe-coding games, matching their November 2025 call for coding agents. They built four browser games with Claude Opus 5.5 without reading the code, one of them in a single prompt. **Their criterion is whether the game is fun to play, not whether it runs.** Fun is a quality bar that tests can't check, so this is a domain where vibe coding works because the human checks the result by playing it. That fits the two-mode framing above, where the durable artifact here is the playable game. Their note on where effort goes now: *"The new challenge is coming up with concepts"*.
+
+**The next day, a whole studio run this way** ([[willison-spawn-autonomous-game-dev-2026-10-29]]). Spawn's agents change live code and ship hourly, and about 60% of their work starts from production errors and bug reports. Willison's caveat holds for this too: it works for a game, where a broken change costs little and rolls back in 30 seconds.
 
 ## Propagation Signal (May 2026)
 Karpathy's vibe-coding/agentic-engineering distinction is propagating into practitioner subreddits within ~5 weeks of the AI Ascent talk. But comments on the r/AIAgentsInAction popularization show a sharp split: the *concepts* are spreading, but AI-formatted summaries are getting rejected as "slop" — practitioner antibodies against LLM-written advice posts even when the framing they carry is sound. The signal is two-sided: distinction is catching on; second-hand explainers are not. — [[reddit-karpathy-moved-on-from-vibe-coding]]

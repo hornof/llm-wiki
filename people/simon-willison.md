@@ -3,13 +3,14 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 ## Who They Are
 Simon Willison is an independent software engineer, blogger, and tooling builder. Co-creator of Django (2003–2005), creator of Datasette (open-source data publishing platform), and one of the most consistently high-signal practitioner voices on LLM tooling and applied AI engineering. Maintains a daily-cadence blog at simonwillison.net that has become a primary source for many practitioners tracking real-world LLM tool behavior, prompt-injection issues, and model-release evaluations.
 
 ## Their Current Focus
+- **2026-10-29 — Spawn, a game built by a swarm of Fable agents** ([[willison-spawn-autonomous-game-dev-2026-10-29]]): a link post on Jacob Sansbury's essay. Hourly autonomous deploys, an hour without a ship treated as a SEV-0, $3M a month in tokens. Willison doubts the approach works where failures cost more, and sees games as the place to test what coding agents can do.
 - **2026-10-28 — vibe-coded games** ([[willison-vibe-game-development-2026-10-28]]): four browser games built with Claude Opus 5.5 without reading the code, and the claim that Opus 5.5 now gets game design right where GPT-6 Astra doesn't yet. Battle Drones, their RTS, is Apache 2.0 and has already been forked.
 - **2026-09-27 — *"2026 in LLMs (so far)"*, WeAreDevelopers keynote** ([[dailybrief-roundup-2026-09-29]], annotated slides at simonwillison.net): his long-form synthesis of the year's arc. **Not fetched** — recorded as a pointer, since the wiki has folded roughly thirty Willison surfaces this year and a keynote that synthesizes them is a natural cross-check against the wiki's own reading of 2026. **The brief's own gloss is the brief's, not Willison's**, and it makes a claim worth testing against the primary: *"the actual shipping velocity has slowed since 2024… the year wasn't about breakthroughs; it was about productization and ops."* **If that is Willison's position it is a significant one and belongs on this page properly.** Fetch before citing.
 - **Six substantive surfaces in four days (2026-06-30 → 07-03)** — the clearest instance of the publishing cadence that makes him the wiki's most-cited single voice: a **Sonnet 5 breakdown** (Jun 30, [[claude-sonnet-5-launch-2026-06-30]]), **quoting Anthropic on the USG export controls** (Jul 2, [[dept-of-commerce-lifts-export-controls-on-claude-2026-07-02]]), **DSPy applied to the Datasette Agent's SQL prompts** (Jul 2, [[dailybrief-roundup-2026-07-02-pt2]]), the **`llm-coding-agent 0.1a0` alpha** (Jul 2, [[dailybrief-roundup-2026-07-03]]), the **"Fable's judgement" testing directive** (Jul 3, [[simon-willison-fables-judgement-anti-micromanage-testing-2026-07-03]]), and his **June 2026 sponsors-only newsletter** (Jul 3, [[dailybrief-roundup-2026-07-03]]).

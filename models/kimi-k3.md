@@ -3,7 +3,7 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-10-25
+last_updated: 2026-10-29
 ---
 
 ## What It Is
@@ -33,6 +33,8 @@ Launch (2026-07-16). Read as an **open-weight scaling inflection** feeding the [
 - **2026-07-25 — UK AISI / CAISI preliminary cyber-capability assessment** ([[dailybrief-roundup-2026-07-25]], NIST): a safety-body pre-deployment evaluation of K3's *cyber* attack surface — the kind of independent held-out testing [[frontier-ai-governance|Hassabis's SRO]] proposed, now happening ad hoc on a specific open model. Also the model named in [[us-treasury-china-ai-sanctions-threat-2026-07-21|Bessent's sanctions-threat]] framing → K3 sits at the center of the open-weights governance/geopolitics debate.
 
 ## A cabinet secretary alleges distillation (2026-10-03)
+
+**Update 2026-10-28:** The Information reports that Kimi K3.1 Pro relied heavily on GPT-6 Astra outputs ([[deepseek-moonshot-astra-distillation-2026-10-28]], via Reuters). This is a report from unnamed sources, not a finding. Moonshot didn't respond.
 
 **Refreshed at the 2026-10-15 lint, which flagged this page as behind.**
 

@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 ## What It Is
@@ -97,6 +97,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-10-28 (reported): "Customer B", 34.5% of SpaceX's Q3 revenue** ([[spacex-anthropic-customer-b-2026-10-28]], Digg citing Techmeme and Bloomberg). Bloomberg says Anthropic is the unnamed customer in a SpaceX filing, ahead of the US government. A $3B-a-month figure circulates only on X; the S-1's own number is about $3.1B a month once all capacity is delivered. See [[spacex]].
+- **2026-10-28 (reported): Chinese labs move to distilling GPT-6 Astra** ([[deepseek-moonshot-astra-distillation-2026-10-28]], Reuters via Digg). Anthropic told Reuters its safeguards cut data harvested in distillation attacks by about 90–99%. The reporting doesn't show that this pushed DeepSeek or Moonshot to Astra.
 - **2026-10-27: six drug-development partnerships, and a drug program of its own** ([[anthropic-drug-development-early-progress-2026-10-27]]). Partners: BigHat, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines and The Column Group. Generate's Claude-designed CAR T component was about 70% shorter and performed better in lab tests. Enveda's document review caught every issue human reviewers found, plus seven more. Anthropic also bought Mithril Medicine, a one-person muscular dystrophy company, and says human trials could start as soon as late 2028. **All partner-reported, and the post says the work is mostly preclinical.** See [[claude-science]].
 - **2026-10-27 (reported): $63B to finance Broadcom gear that Anthropic will lease** ([[anthropic-broadcom-63b-lease-financing-2026-10-27]], Digg citing Reuters and WSJ). BofA, Citi and Morgan Stanley lead the senior debt and Blackstone the second lien. A special-purpose vehicle owns the equipment, and deliveries start in 2027. Broadcom gives senior lenders residual value support, and per the WSJ it accepted higher rates after some banks considered pulling out. **The brief credited this to Amazon; Amazon isn't in it.** It's the same lease model as [[spacex]]'s Apollo deal the day before.
 - **2026-10-27: who controls the board, and who gains most from the IPO** ([[anthropic-ipo-governance-amazon-stake-2026-10-27]], TechCrunch ×2).
