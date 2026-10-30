@@ -35,4 +35,4 @@ last_updated: 2026-06-26
 - [[claude-financial-services]] — paired canonical-vertical-AI canonical-Anthropic-canonical-product canonical-cohort
 - [[ai-for-science]] — paired canonical-medical-AI canonical-discipline-tier
 - [[metr]] — paired canonical-AI-evaluation canonical-organization canonical-cohort (canonical-general-evaluation canonical-tier vs canonical-clinical-readiness canonical-evaluation canonical-tier)
-- [[concepts/verifiability-and-jagged-intelligence]] — paired canonical-AI-domain-specific canonical-failure-discourse
+- [[verifiability-and-jagged-intelligence]] — paired canonical-AI-domain-specific canonical-failure-discourse

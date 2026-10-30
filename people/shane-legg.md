@@ -12,7 +12,7 @@ Shane Legg is **co-founder and Chief AGI Scientist of Google DeepMind**. Co-foun
 
 ## Their Current Focus
 
-- **2026-06-12: 4-pathway AGI/superintelligence framework** — Legg articulates **canonical 4-pathway framework** for AGI / superintelligence development trajectories. **First wiki-captured Legg-direct-voice substantive surface** ([[shane-legg-four-pathways-agi-superintelligence-2026-06-12]]). Pairs structurally with [[concepts/recursive-self-improvement|RSI Anthropic-Institute framework]] + [[concepts/agi|AGI Hassabis Einstein-test framework]] at the **multi-lab AGI-pathway-discourse canonical-anchor** layer.
+- **2026-06-12: 4-pathway AGI/superintelligence framework** — Legg articulates **canonical 4-pathway framework** for AGI / superintelligence development trajectories. **First wiki-captured Legg-direct-voice substantive surface** ([[shane-legg-four-pathways-agi-superintelligence-2026-06-12]]). Pairs structurally with [[recursive-self-improvement|RSI Anthropic-Institute framework]] + [[agi|AGI Hassabis Einstein-test framework]] at the **multi-lab AGI-pathway-discourse canonical-anchor** layer.
 - **2026-06-12: Karpathy loopcraft canonical-reference** — Karpathy's loopcraft / stacking-loops framing cites Legg's 4-pathway framework as foundational. — [[karpathy-loopcraft-stacking-loops-2026-06-12]]
 - **DeepMind multi-agent safety positioning**: Legg structurally-attached to DeepMind's [[google-deepmind|June $10M multi-agent safety research commitment]] (canonical lab-side AGI-safety-investment signal).
 
@@ -27,7 +27,7 @@ Shane Legg is **co-founder and Chief AGI Scientist of Google DeepMind**. Co-foun
 - [[karpathy-loopcraft-stacking-loops-2026-06-12]] — Karpathy citation of Legg framework
 - [[0xcodez-fable-5-14-step-self-improving-agent-2026-06-11]] — practitioner-tier RSI surface cross-reference
 - [[dailybrief-roundup-2026-06-12]] — brief surfacing the 4-pathway framework
-- [[companies/google]] — Google DeepMind organizational anchor
+- [[google]] — Google DeepMind organizational anchor
 
 ## Where to Follow
 

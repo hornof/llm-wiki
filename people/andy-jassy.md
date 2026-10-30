@@ -27,8 +27,8 @@ Andy Jassy is **CEO of Amazon** (since 2021; succeeded Jeff Bezos). Previously f
 
 - [[wsj-amazon-jassy-anthropic-crackdown-2026-06-13]] — primary Jun 13 disclosure (Amazon CEO direct-USG-Anthropic-crackdown actor)
 - [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13]] — trusted-partner-identity resolved (Amazon = Jassy)
-- [[models/claude-fable-5]] — Jun 13 export-control event source
-- [[people/satya-nadella]] — Anthropic-USG-conflict cluster cross-reference
+- [[claude-fable-5]] — Jun 13 export-control event source
+- [[satya-nadella]] — Anthropic-USG-conflict cluster cross-reference
 
 ## Where to Follow
 

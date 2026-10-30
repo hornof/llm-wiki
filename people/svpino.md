@@ -10,12 +10,12 @@ last_updated: 2026-09-25
 
 - **Managed agents as portable sessions (2026-09-25)** ([[raw-batch-roundup-2026-09-25]]): running coding agents as managed cloud sessions gives *"resume a session from anywhere… fork a session into multiple agents… run parallel agents… reuse environments"* — demonstrated on DigitalOcean's Managed Agents (public preview) and noted as working across **Claude Code, Codex, OpenCode and Hermes**. The commodity-infrastructure version of the decomposition [[guillermo-rauch|Rauch]] argued for two days earlier: **detach the agent from one stateful machine and sessions become forkable, resumable and parallel.**
 
-Santiago Valdarrama (@svpino on X) is an independent AI/ML educator with sustained-reach practitioner content on X. First wiki capture via his 2026-05-15 X post on **HTML-over-Markdown for agents + introduction of [[tools/dac|bruin-data/dac]]**. Bio details beyond X presence not captured in this ingest batch; verify before external citation.
+Santiago Valdarrama (@svpino on X) is an independent AI/ML educator with sustained-reach practitioner content on X. First wiki capture via his 2026-05-15 X post on **HTML-over-Markdown for agents + introduction of [[dac|bruin-data/dac]]**. Bio details beyond X presence not captured in this ingest batch; verify before external citation.
 
 ## Their Current Focus
 
 - **HTML-over-Markdown thesis for agents** — pragmatic version: HTML wins on rendering substrate, but is too verbose for humans; let agents *generate* HTML from a denser YAML/TSX input.
-- **Tooling for agent-friendly data infrastructure** — surfacing [[tools/dac|bruin-data/dac]] as an existence proof of the HTML-as-output / YAML-as-input pattern.
+- **Tooling for agent-friendly data infrastructure** — surfacing [[dac|bruin-data/dac]] as an existence proof of the HTML-as-output / YAML-as-input pattern.
 
 ## Notable Takes
 

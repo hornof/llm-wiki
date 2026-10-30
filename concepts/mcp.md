@@ -1,7 +1,7 @@
 ---
 name: Model Context Protocol (MCP)
 type: concept
-maturity: active-research
+maturity: foundational
 last_updated: 2026-10-28
 ---
 
@@ -12,6 +12,15 @@ MCP (Model Context Protocol) is Anthropic's open standard for connecting LLMs to
 MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool access into each LLM application, MCP lets you plug any data source or capability into any MCP-compatible model. This is the practical infrastructure layer under the "agents that take autonomous actions" vision.
 
 ## Current State
+
+**Where it stands (refreshed 2026-10-28).** MCP is no longer one vendor's protocol, and the recent evidence is about who adopts it rather than how it works.
+
+- **Governed outside Anthropic.** MCP sits in the Linux Foundation's Agentic AI Foundation, which Anthropic co-founded with Block and OpenAI. Agent Skills followed it there on 2026-10-22, alongside Block's [[goose]] ([[anthropic-agent-skills-to-aaif-2026-10-22]]). The two standards Claude's tooling is built on are now both foundation-held. *(The wiki doesn't record the date of the MCP donation itself.)*
+- **Other platforms now route through it.** Google's Connected Apps Platform takes third-party apps into Gemini and Search through MCP servers (2026-10-28, [[google-connected-apps-platform-2026-10-28]]). Shopify opened checkout to WebMCP browser agents (2026-09-28, [[dailybrief-roundup-2026-09-28]]). At OpenAI's DevDay a session argued WebMCP is *"much more efficient than using Computer Use"* ([[willison-openai-devday-2026-live-blog-2026-09-29]]). **WebMCP**, the in-browser variant, has no definition in the wiki yet.
+- **Harness advice has settled on "MCP for interfaces, not upfront loading."** Build tools *"as MCP tools for interoperability"* ([[omarsar0-should-you-build-a-harness-2026-09-12]]), but don't put every tool description in context every turn. Anthropic's worked example went from 150,000 tokens to 2,000 ([[undefinedki-how-to-design-an-agent-harness-2026-08-15]]; see [[code-mode]]).
+- **Maturity raised to `foundational`** in this refresh: 300M SDK downloads (May), Anthropic, OpenAI and Block behind the governing foundation, and Google using it as a distribution channel. The question has moved from "will it be adopted" to how it's governed and secured.
+
+**Earlier entries, newest first:**
 - **"The future of SaaS is apps that agents can use" — MCP as runtime contract (Lovable CTO, 2026-08-26)** ([[dailybrief-roundup-2026-08-26]], Latent Space): a SaaS-vendor-side thesis that apps should expose **MCP-enabled "capabilities"** so agents can call their *primitives* without the app knowing which agent will call them — *"not 'can agents use my UI' but 'can agents use my primitives.'"* Lovable frames its own shift from **builder-tool → capability-server** as the winning shape. First wiki capture of a SaaS vendor explicitly re-architecting around MCP as an *inversion of the product surface* (the API/primitive layer, not the UI, becomes the product). The SaaS-vendor complement to [[ai-native-organizations|Garry Tan's "systems of record become AI harnesses"]] and the [[businessbarista-enterprise-ai-asks-2026-08-25|enterprise "MCP Gateway" ask]]. *(Vendor framing.)*
 - **Stateless MCP (MCP 2.0 spec shift, 2026-07-31)** ([[dailybrief-roundup-2026-07-31]], [[simon-willison|Willison]]): the spec moves toward **stateless, composable context servers** — a tool server no longer needs persistent backend session state, so servers become easier to host, chain, and embed. Willison is shipping `mcp-explorer` + `datasette-mcp` on it. Practitioner read: this is the wedge for plugging Claude into existing ops/data infrastructure without standing up stateful backends — *"a licensing model for how AI agents talk to existing infrastructure,"* not just a protocol tidy-up. (Owner-relevant for a Build-Lab MCP-server roadmap.)
 - Launched by Anthropic as an open standard (not proprietary)
@@ -31,6 +40,8 @@ MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool
 - **Google makes MCP the way into Gemini and Search** (2026-10-28, [[google-connected-apps-platform-2026-10-28]]): the Connected Apps Platform takes third-party apps through *"a cloud-hosted MCP (Model Context Protocol) server or Android MCP"*. A distribution channel for MCP servers, run by the largest search engine.
 
 ## Key Papers / Posts
+- [[anthropic-agent-skills-to-aaif-2026-10-22]] — Skills join MCP at the Agentic AI Foundation (2026-10-22)
+- [[google-connected-apps-platform-2026-10-28]] — Google uses MCP as the way into Gemini and Search
 - [[github-hornof-profile]] — `learn-agentic-ai` repo (forked by owner) covers MCP alongside OpenAI Agents SDK, A2A, Knowledge Graphs, Dapr
 - [[reddit-3-things-claude-output-quality]] — community tip: use `context-mode` to prevent MCP token bloat
 - [[anthropic-claude-partner-network]] — Anthropic announcement (March 2026); MCP integration codified as a Claude Certified Architect exam domain

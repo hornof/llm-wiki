@@ -1,37 +1,40 @@
 ---
 name: Allen Institute for AI (Ai2)
 type: company
-focus: open-source AI research nonprofit; OLMo/TMax/Tülu canonical-open-source-stack
+focus: open-source AI research nonprofit (OLMo models and tooling)
 status: gaining-traction
-last_updated: 2026-06-23
+last_updated: 2026-10-28
 ---
 
 ## What It Is
 
-**Allen Institute for AI (Ai2 / AllenAI)** is a Seattle-based open-source AI research nonprofit founded by the late Paul Allen, publishing canonical OLMo + TMax + Tülu canonical-fully-open-source canonical-stack. Wiki-tracked primarily for canonical-fully-open-source-frontier-research canonical-positioning (full training-data + canonical-checkpoint + canonical-code release) — distinct from canonical-open-weights-only canonical-positioning of Meta + Mistral cohort. Multi-lint 3-cycle carry-over entity-creation deferred until Jun 23 3rd canonical-surface (Finbarr Timbers Anthropic-interview canonical-direct-voice anchor confirming canonical-Ai2 affiliation).
+**Allen Institute for AI (Ai2, also AllenAI)** is a Seattle nonprofit that does open-source AI research. Paul Allen founded it. It's known for releasing open models along with their training data and code, not just the weights, which sets it apart from open-weights labs like Meta and Mistral. *[unsourced: no ingested source covers Ai2's founding or release policy. The only direct evidence in the wiki is the `olmo-eval` repo below.]*
+
+The wiki created this page on 2026-06-23 after three June surfaces mentioned Ai2.
+
+*Rewritten 2026-10-28 to remove automated-pass filler. The 06-12 entry was corrected against its source: it was a repo listing, not a Lambert post.*
 
 ## Traction Signals
 
-- **2026-06-22: Finbarr Timbers (Ai2) canonical-Anthropic-9-round-interview-advice canonical-direct-voice** ([[dailybrief-roundup-2026-06-22]]) — first wiki-captured canonical-Ai2 canonical-direct-voice canonical-substantive-surface; "secure other job offers before applying to top-choice labs" canonical-practitioner-advice. Concrete canonical-Ai2-affiliation anchor.
-- **2026-06-22: Weijia Shi + Nathan Lambert release TMax open-source canonical-terminal-agent suite** ([[dailybrief-roundup-2026-06-22]]) — leads on Terminal-Bench; open models 2B–27B parameters. First wiki-captured canonical-Ai2 canonical-multi-author canonical-release.
-- **2026-06-19: Nathan Lambert canonical-Ai2 canonical-direct-voice** ([[dailybrief-roundup-2026-06-19]]) — canonical-direct-voice canonical-surface on canonical-open-source-frontier-research positioning.
-- **2026-06-12: Nathan Lambert canonical-Ai2 canonical-direct-voice** ([[dailybrief-roundup-2026-06-12]]) — first canonical-Ai2 canonical-direct-voice canonical-substantive-surface; canonical-open-source-research-discipline canonical-articulation.
+- **2026-06-22: TMax, an open-source terminal-agent suite** ([[dailybrief-roundup-2026-06-22]]). Released by Weijia Shi and Nathan Lambert, it reportedly leads on Terminal-Bench, and *"It features open models from 2B to 27B parameters."* Brief-level only: the leaderboard position wasn't checked.
+- **2026-06-22: Finbarr Timbers (Ai2) on hiring at top labs** ([[dailybrief-roundup-2026-06-22]]). After an anecdote about a nine-round Anthropic interview, Timbers advises getting other offers before applying to your top-choice lab. The original post wasn't fetched.
+- **2026-06-19: Nathan Lambert argues for open-source AI** ([[jun-19-open-source-research-origin-cluster-2026-06-19]]). The brief headline: *"AI2's Nathan Lambert argues that restricting open-source AI threatens American values, transparency, and innovation"*.
+- **2026-06-12: `allenai/olmo-eval`** ([[dailybrief-roundup-2026-06-12]]), a repo listing: a workbench for evaluating language models with composable tasks and agent harnesses.
 
 ## Key People
 
-- **[[nathan-lambert]]** — canonical-Ai2 canonical-direct-voice; canonical-post-training canonical-research lead; canonical-Interconnects-newsletter canonical-author.
-- **Finbarr Timbers** — canonical-Ai2 canonical-engineer; canonical-Anthropic-9-round-interview-advice canonical-direct-voice (Jun 22 canonical-surface).
-- **Weijia Shi** — canonical-TMax co-author; canonical-Ai2 canonical-researcher.
+- **[[nathan-lambert]]**: post-training researcher and editor of the Interconnects newsletter. **Affiliation conflict:** [[nathan-lambert]] records that Lambert left Ai2 in early June 2026, but the 06-19 and 06-22 briefs still call them "AI2's". Treat the June items above as possibly post-departure work, and check before citing Lambert as Ai2 staff.
+- **Finbarr Timbers**: Ai2 engineer, per the 06-22 brief.
+- **Weijia Shi**: TMax co-author.
 
 ## Compared To
 
-- **Vs. [[meta|Meta FAIR]]**: Ai2 publishes full training-data + canonical-checkpoint + canonical-code (canonical-fully-open-source canonical-positioning) while Meta FAIR ships canonical-open-weights canonical-positioning only.
-- **Vs. [[mistral-ai|Mistral]]**: Ai2 canonical-nonprofit canonical-research-positioning vs. Mistral canonical-commercial canonical-frontier-lab canonical-positioning.
-- **Vs. [[google-deepmind|DeepMind]] / [[openai]] / [[anthropic]]**: Ai2 canonical-fully-open-source-frontier-research canonical-positioning vs. closed-frontier-lab cohort.
+- **[[meta|Meta FAIR]] and [[mistral-ai|Mistral]]** release open weights. Ai2's distinguishing claim is releasing data and code as well *[unsourced, as above]*. Mistral is also commercial, and Ai2 is a nonprofit.
+- **[[google-deepmind|DeepMind]], [[openai]] and [[anthropic]]** are closed frontier labs.
 
 ## Resources
 
-- [[dailybrief-roundup-2026-06-22]] — Jun 22 Finbarr Timbers Anthropic-interview-advice + TMax canonical-release canonical-surfaces
-- [[dailybrief-roundup-2026-06-19]] — Jun 19 Nathan Lambert canonical-direct-voice canonical-surface
-- [[dailybrief-roundup-2026-06-12]] — Jun 12 Nathan Lambert canonical-direct-voice canonical-surface
-- [[nathan-lambert]] — canonical-Ai2 canonical-direct-voice (canonical-paired-entity)
+- [[dailybrief-roundup-2026-06-22]] — TMax; Finbarr Timbers
+- [[jun-19-open-source-research-origin-cluster-2026-06-19]] — Lambert's open-source argument
+- [[dailybrief-roundup-2026-06-12]] — `olmo-eval`
+- [[nathan-lambert]]

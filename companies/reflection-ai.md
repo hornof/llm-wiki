@@ -8,7 +8,7 @@ last_updated: 2026-10-16
 
 ## What It Is
 
-**Reflection AI** (a.k.a. "Reflection") is a Brooklyn-based open-source frontier AI lab (founded 2024), explicitly positioned as an **American alternative to Chinese open-source models like DeepSeek**. Founded by **Misha Laskin** and **Ioannis Antonoglou** — both former [[google-deepmind|Google DeepMind]] researchers who led early work on the Gemini model family. Raised **$2.1B at an $8B valuation** (Forbes 2026 AI 50), and is a **STRUCTURALLY MAJOR canonical-SpaceX-anchor-customer** for [[tools/colossus-2|Colossus 2]] under a multi-year **$5.4B–$6.3B** canonical-compute-commitment ($150M/month through 2029). First wiki-captured canonical 4-day Jun 19 → Jun 22 SpaceX-Colossus-2-Reflection-AI canonical-infrastructure-consolidation cluster anchor.
+**Reflection AI** (a.k.a. "Reflection") is a Brooklyn-based open-source frontier AI lab (founded 2024), explicitly positioned as an **American alternative to Chinese open-source models like DeepSeek**. Founded by **Misha Laskin** and **Ioannis Antonoglou** — both former [[google-deepmind|Google DeepMind]] researchers who led early work on the Gemini model family. Raised **$2.1B at an $8B valuation** (Forbes 2026 AI 50), and is a **STRUCTURALLY MAJOR canonical-SpaceX-anchor-customer** for [[colossus-2|Colossus 2]] under a multi-year **$5.4B–$6.3B** canonical-compute-commitment ($150M/month through 2029). First wiki-captured canonical 4-day Jun 19 → Jun 22 SpaceX-Colossus-2-Reflection-AI canonical-infrastructure-consolidation cluster anchor.
 
 *(Page merged 2026-09-10 from the former `reflection` + `reflection-ai` split — same company.)*
 
@@ -53,6 +53,6 @@ Reflection's founding rationale is explicitly tied to promoting an **American al
 - [[dailybrief-roundup-2026-06-22]] — Jun 22 SpaceX $5.4B compute deal canonical-anchor
 - [[forbes-ai-50-2026]] — AI 50 coverage with founding story ($2.1B/$8B)
 - [[ai-50-2026-snapshot]] — open-source as geopolitical play framing
-- [[tools/colossus-2]] — canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning
+- [[colossus-2]] — canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning
 - [[nvidia]] / [[sequoia-capital]] — investors
 - [[spacex]] — Colossus-2 substrate provider

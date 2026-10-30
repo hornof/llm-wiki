@@ -39,4 +39,4 @@ Cross-reference index for `Daily Briefs/2026-10-27.md`. Seven items are folded. 
 
 ## Pages Updated
 
-- See the source pages above.
+- See the source pages above. The same day's `_raw` drops are in [[raw-batch-roundup-2026-10-28]].

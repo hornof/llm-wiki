@@ -36,4 +36,4 @@ last_updated: 2026-06-23
 - [[0xcodez-dynamic-workflows-6-patterns-14-steps-2026-06-21]] — Jun 21 Dynamic Workflows canonical-guide (3rd substantive surface)
 - [[0xcodez-14-step-loop-engineering-roadmap-2026-06-20]] — Jun 20 14-step Loop Engineering canonical-roadmap (2nd substantive surface)
 - [[0xcodez-fable-5-14-step-self-improving-agent-2026-06-11]] — Jun 11 Fable 5 14-step (1st substantive surface)
-- [[concepts/loop-engineering]] — 13-voice canonical Loop Engineering canonical-cluster (0xCodez canonical-voice-tier)
+- [[loop-engineering]] — 13-voice canonical Loop Engineering canonical-cluster (0xCodez canonical-voice-tier)

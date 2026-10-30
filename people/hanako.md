@@ -29,7 +29,7 @@ last_updated: 2026-06-20
 
 - [[hanakoxbt-claude-loops-while-you-sleep-2026-06-13]] — Jun 13 dedicated source; 5-canonical-discipline-articulations
 - [[practitioner-cluster-hanako-2nd-surface-sairahul1-6-concepts-2026-06-19]] — Jun 19 2nd substantive surface (prompt-self-update + Nick Mayhew "ideal candidate profile" canonical-pattern)
-- [[concepts/loop-engineering]] — Hanako practitioner-tier canonical-voice in 12-voice Loop-Engineering canonical-cluster
+- [[loop-engineering]] — Hanako practitioner-tier canonical-voice in 12-voice Loop-Engineering canonical-cluster
 - [[boris-cherny]] — paired canonical Cherny-behavioral-reference cadence (*"few thousand agents working overnight"* + *"runs most of it from his phone"* + *"hasn't written a line of code this year"*)
 
 ## Where to Follow

@@ -5,7 +5,7 @@ status: acquisition-announced-close-unconfirmed
 last_updated: 2026-09-28
 ---
 
-## Acquired by AMD for $8.2B (2026-09-28)
+## AMD to acquire for $8.2B (announced 2026-09-28)
 
 **AMD is acquiring World Labs for $8.2 billion, and [[fei-fei-li|Fei-Fei Li]] joins AMD as EVP** ([[dailybrief-roundup-2026-09-28]], TechCrunch). This page had not been touched since 2026-06-03.
 

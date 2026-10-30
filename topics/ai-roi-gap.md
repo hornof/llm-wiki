@@ -370,7 +370,7 @@ The structural-skeptic case: every new technology wave produces an executive-vs-
 
 > *"That 0.25 elasticity is the verification tax in one number. Writing code got cheap; proving it's correct, connected, and safe to ship didn't. The bottleneck was never generation — it's the review step humans still own. Faster commits pile up against the same gate."*
 
-**First wiki-captured "verification tax" canonical naming** for the AI-output-shipping-gap. Operationalizes [[concepts/verifiability-and-jagged-intelligence|Karpathy verifiability framing]] at the AI-coding-output economic-cost layer.
+**First wiki-captured "verification tax" canonical naming** for the AI-output-shipping-gap. Operationalizes [[verifiability-and-jagged-intelligence|Karpathy verifiability framing]] at the AI-coding-output economic-cost layer.
 
 **8-surface ROI-gap convergence now articulated** (extends 7-surface convergence by adding MIT/FT/Avnery):
 

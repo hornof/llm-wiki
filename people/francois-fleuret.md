@@ -29,5 +29,5 @@ last_updated: 2026-06-23
 
 - [[dailybrief-roundup-2026-06-21]] — Jun 21 LLMs-probability-density-of-innovation canonical-theory
 - [[dailybrief-roundup-2026-06-20]] — Jun 20 speculative-decoding canonical-debate + kache counter
-- [[concepts/verifiability-and-jagged-intelligence]] — paired canonical-frontier-LLM-novelty canonical-discourse context
+- [[verifiability-and-jagged-intelligence]] — paired canonical-frontier-LLM-novelty canonical-discourse context
 - [[dwarkesh-sample-efficiency-black-hole-2026-06-08]] — paired Dwarkesh sample-efficiency context

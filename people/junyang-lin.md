@@ -18,7 +18,7 @@ Junyang Lin is the **former Alibaba Qwen team lead** who, as of June 2026, found
 - **RSI** makes AI systems *capable of compounding* their own improvement
 - **Coupled together**: RSI-with-world-models is *supervisable* in a way that pure RSI is not
 
-Lin's thesis positions him as a **structural-bridge voice** between the world-models cluster ([[concepts/world-models|world-models concept]]; [[ami-labs|LeCun's AMI]] JEPA; [[world-labs|Fei-Fei Li's World Labs]] / Marble; [[luma-ai|Amit Jain's Luma]] / Uni-1; [[ineffable-intelligence|David Silver's Ineffable Intelligence]]) and the RSI cluster ([[concepts/recursive-self-improvement|RSI concept]]; [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute publication]]).
+Lin's thesis positions him as a **structural-bridge voice** between the world-models cluster ([[world-models|world-models concept]]; [[ami-labs|LeCun's AMI]] JEPA; [[world-labs|Fei-Fei Li's World Labs]] / Marble; [[luma-ai|Amit Jain's Luma]] / Uni-1; [[ineffable-intelligence|David Silver's Ineffable Intelligence]]) and the RSI cluster ([[recursive-self-improvement|RSI concept]]; [[anthropic-institute-when-ai-builds-itself-2026-06-04|Anthropic Institute publication]]).
 
 Lin's lab is the **5th wiki-captured world-model lab** and the **first explicitly framed at the world-models + RSI intersection**.
 
@@ -33,7 +33,7 @@ Lin's lab is the **5th wiki-captured world-model lab** and the **first explicitl
 ## Where to Follow
 
 - Wiki sources: [[junyang-lin-new-lab-world-models-rsi-2026-06-06]]
-- Related concepts: [[concepts/world-models]], [[concepts/recursive-self-improvement]], [[concepts/end-of-finetuning]]
+- Related concepts: [[world-models]], [[recursive-self-improvement]], [[end-of-finetuning]]
 
 ## Verification-pending
 
