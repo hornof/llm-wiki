@@ -285,6 +285,16 @@ When given a new source:
    ```
 
    **Do not trust `_raw` mtimes as a recency signal** — iCloud sync rewrites them, so already-processed files routinely surface as "new." *(Both failure modes hit on 2026-09-21: five drops looked net-new and unprocessed; all five were already ingested.)*
+
+   **Remove duplicate clips (owner decision, 2026-10-30).** The owner clips freely rather than checking first, so the same page often lands in `_raw` two or more times (Web Clipper adds ` 1`, ` 2` to the filename). At each ingest:
+   - Group `_raw` files by their `source:` URL; for files with no `source:`, by identical body text.
+   - Ingest each page once.
+   - Delete an extra copy only if its body (everything after the frontmatter) is identical to, or wholly contained in, the copy kept. Differences that are only relative timestamps ("44m"), video-player times or page chrome count as identical. A clip whose URL is already the `url:` of a source page, and which adds no text to it, is also a duplicate.
+   - **Keep a copy that holds anything the other lacks**, typically a different set of replies, and mention it to the owner instead.
+   - Prefer keeping the file a `sources/` page names in `local_source:` or "saved as". If a deleted copy is named there, note the removal on that page.
+   - Move deleted copies to `~/.Trash/` rather than `rm`, since `_raw` isn't in git. List them in the PR body.
+
+   *First pass, 2026-10-30: 28 copies removed out of 543 files, and 5 near-duplicate pairs kept because their replies differ.*
 1. Save the raw content to `_raw/<slug>.<ext>`.
 2. Create or update `sources/<slug>.md`.
 3. Identify all entity references: tools, models, concepts, people, companies.
