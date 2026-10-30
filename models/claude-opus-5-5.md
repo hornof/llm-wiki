@@ -3,7 +3,7 @@ name: Claude Opus 5.5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 ## What It Is
@@ -32,6 +32,7 @@ last_updated: 2026-10-28
 Practitioner use in the wild: [[garrytan-capy-harness-4x-2026-09-23|Tan running Capy on Opus 5.5 PRs]], and the [[raw-batch-roundup-2026-10-02|`/advisor` tree]] putting Opus 5.5 on the main session at high effort with Fable 5.1 as the reviewer.
 
 ## Community Sentiment
+- **2026-10-29 — not enough for Spawn's autonomy** ([[willison-spawn-autonomous-game-dev-2026-10-29]]): Spawn's team says Opus 5.5 *"doesn't quite hack it"* for their fully autonomous setup, where Fable 5.1 does. The day before, Willison had found Opus 5.5 good at game design ([[willison-vibe-game-development-2026-10-28]]). Those are different jobs.
 
 **Thin.** The launch was overshadowed by its own price cut and by GPT-6 Sol landing the same day; the wiki's 09-23 entry read the simultaneity as *"the first frontier-on-frontier price war"* and folded the pricing rather than the model. **Six weeks on there is still no independent evaluation in the record.**
 

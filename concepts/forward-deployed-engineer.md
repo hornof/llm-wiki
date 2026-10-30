@@ -2,7 +2,7 @@
 name: Forward-Deployed Engineer (FDE)
 type: concept
 maturity: emerging
-last_updated: 2026-09-20
+last_updated: 2026-10-29
 ---
 
 ## Definition
@@ -68,6 +68,10 @@ Five numbered takeaways from a 53-minute interview with a working FDE *"who does
 **5. Measure before and after, then return at six months.** *"Come back 6 months later and prove it worked."* **This is the discipline the wiki's whole [[developer-productivity-measurement]] page exists because nobody practises.** Stated as routine FDE method, which if true makes FDE work better-evidenced than most of the agentic-coding claims the wiki catalogues.
 
 **What to discount.** *"Some forward deployed engineers are getting PAID $1M+/year"* is **unsourced** — no sample, no role definition, no employer. The post is promotion for Isenberg's own podcast, and the practitioner is credited only as a handle, with the Fortune 500 claims reaching the wiki secondhand. **The five rules are worth more than the salary figure, and the salary figure should not be repeated.**
+
+## A holding company as the deployment channel (2026-10-29)
+
+OpenAI supplies forward-deployed engineers to Thrive Holdings' 75-plus companies, and Thrive has just bought ADT for $15.3B in enterprise value ([[thrive-holdings-adt-2026-10-29]]). Here the FDE works inside companies a partner owns, rather than at a customer. No results are reported yet.
 
 ## Related Concepts
 

@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-10-19
+last_updated: 2026-10-29
 ---
 
 ## Who They Are
@@ -13,6 +13,8 @@ last_updated: 2026-10-19
 Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor of **Import AI**, a weekly Substack newsletter that has been one of the most-cited AI-policy + research-synthesis newsletters since 2017 (predates Anthropic). Clark's beat is the **intersection of AI capability and policy**: he reads heavily on the technical side and translates the implications for regulators, economists, and lab leadership. The Import AI archive functions as a structured weekly log of research and policy news, with Clark's editorial framing on what each item *means*.
 
 ## Their Current Focus
+
+- **Import AI 478 (2026-10-26)** ([[import-ai-478-clark-math-alignment-2026-10-26]]): Resolution autoformalized resolution of singularities in about a week with an orchestrator agent working from a 112-page plan, at an estimated $135,000 in tokens and about 600K lines of Lean. Clark's argument is that math tools like this can help alignment.
 
 - **"The Singularity has begun" — the IMF Per Jacobsson lecture (Import AI 477, 2026-10-17/19)** ([[import-ai-477-clark-imf-singularity-2026-10-19]]). Clark tells the IMF that AI has started advancing frontier science, sometimes on its own. Evidence: AI at or above most software engineers; AI helping propose solutions on Navier–Stokes and Erdős problems; Humanity's Last Exam at 67.7% ([[claude-opus-5-5|Opus 5.5]]); FrontierMath at 94%; [[gpt-6-astra|GPT-6-Astra]] at 98% on TheoPhysEval after experts found errors in their own answer key. His asks: power and data centres, physical labs to test discoveries, faster lab-to-clinic paths, oversight rules for AI-run AI research, and pacing.
   > **Two things to hold together.** The policy list is concrete and mostly about the physical bottleneck (labs, robotics, clinical paths), which matches what this wiki has recorded: [[ai-vulnerability-discovery|finding is cheap, testing and triage are the schedule]]. But this is an Anthropic co-founder telling a finance audience the singularity has begun, about three weeks before the company's reported IPO roadshow, and citing Anthropic's own modelling of US GDP. **The benchmark figures are checkable; the framing is advocacy.** *(Newsletter reprint of the speech; video not watched. Benchmark figures are Clark's and were not checked against the model pages, which don't record HLE or FrontierMath.)*

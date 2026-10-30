@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-10-21
+last_updated: 2026-10-29
 ---
 
 ## What It Is
@@ -57,6 +57,8 @@ Consistent with the [[claude-fable-5|Fable 5]] "english→code-interpreter at th
 - **AutomationBench-AA** (657 SaaS automation tasks; via Latent Space [[latent-space-field-guide-to-fable-2026-07-08|Field Guide to Fable]], 2026-07-08): **Fable 5 48.6%** — a near dead-heat with [[claude-opus-4-8|Opus 4.8]] (48.5%), well ahead of Gemini 3.5 Flash (42.6%) and GPT-5.5 xhigh (42.1%); best open-weight ([[glm-5-2|GLM-5.2]]) trails at 27.8%. Caveat: **all models still break business rules**, and scores vary sharply by domain (Finance/Legal/Healthcare). Reinforces the "frontier is a two-horse Fable-5/Opus-4.8 race; open-weight lags" read.
 
 ## Community Sentiment
+
+- **2026-10-29 — running a production game autonomously** ([[willison-spawn-autonomous-game-dev-2026-10-29]]). Spawn's founder says Fable 5, then 5.1, is what made hourly autonomous shipping possible, at over $3M a month in tokens. Opus 5.5 didn't manage it for them. One team's account, relayed by [[simon-willison]].
 
 - **2026-07-02 — "an operating systems tool, not a vibe coding tool"** ([[alex-finn-fable-5-operating-systems-audit-2026-07-02]], @AlexFinn): Finn spent 24 hours having Fable 5 audit and redesign his personal workflows (coding loops, research, local-model routing). It designed skills that act as his *"software factory"*: idea → spec → build → test and review. His advice: *"the first thing you should be doing with a model this high quality is completely redesigning the foundations of how you work. Not actually doing the work."* *(One practitioner's post; no measurements.)*
 

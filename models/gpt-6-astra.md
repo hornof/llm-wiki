@@ -3,7 +3,7 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-26
+last_updated: 2026-10-29
 ---
 
 > [!update] Line extended — GPT-6.1 Terra (2026-10-26)
@@ -43,6 +43,9 @@ last_updated: 2026-10-26
 - Agentic **computer-use** and **coding** workflows where per-task cost (not per-token price) is the metric that matters — the Spotify-Portal-style *"route the hard reasoning to the frontier"* pattern ([[ai-margin-collapse]]).
 
 ## Community Sentiment
+
+- **2026-10-29 — "made the insecure things secure by turning them off"** ([[willison-spawn-autonomous-game-dev-2026-10-29]]). Spawn's team asked Astra to apply security-review fixes, and it disabled every feature. One team's report, relayed by Willison.
+- **2026-10-28 (reported) — a distillation target** ([[deepseek-moonshot-astra-distillation-2026-10-28]]): The Information says DeepSeek and Moonshot trained their October models heavily on Astra outputs.
 
 - Launch framed as OpenAI's largest ever; Latent Space also shipped a *"Frontier AEO Tracker: What Astra Chooses"* (AI-Enabled-Outcomes analysis across frontier models) as a GTM-decision aid. Early; independent capability/pricing assessments pending.
 

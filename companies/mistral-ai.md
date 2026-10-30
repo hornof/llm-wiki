@@ -2,7 +2,7 @@
 name: Mistral AI
 type: company
 status: active
-last_updated: 2026-10-06
+last_updated: 2026-10-29
 ---
 
 ## What It Is
@@ -18,6 +18,8 @@ Mistral AI is a French AI startup (founded 2023, Paris) that develops open-weigh
 **The release shape is the interesting part, not the parameter count.** A **three-week gap between API availability and weight release** is a pattern the wiki has not recorded from any other open-weights lab: it captures the launch-window attention and the early API revenue, then opens the weights once the news cycle has passed. **Compare [[reflection-ai|Reflection's Beam]], announced open-weight the same day with no such staging**, and [[meta|Meta's Muse Glimmer]], which shipped Apache-2.0 at announcement. **If the date holds it is a new middle position between closed and open; if it slips, it was a closed launch with an open-weights press line attached.** The date is the thing to check.
 
 **1T parameters says little on its own** — no architecture, no activation sparsity (compare Aleph Alpha's Kolibri at *3.5B of 78B active per token*), no benchmarks, no pricing, and no indication whether the open weights are the same model as the API one. **"Leapfrog" is TechCrunch's word for Mistral's claim.** *(Two reports of the same announcement; the brief flags the Digg item as redundant with the TechCrunch one. Capability analysis pending, by the brief's own admission.)*
+
+**Resolved 2026-10-29: the weights shipped, about two days late, as "Le Chonk"** ([[mistral-le-chonk-open-weights-2026-10-29]], Digg on Mistral's X post, WIRED and Techmeme). Techmeme says Le Chonk is Mistral Large 4. Mistral claims #1 among open models on Cognition's FrontierCode and state-of-the-art cyber defense, tested by CrowdStrike, Cloudflare, Rubrik and Zscaler, with no numbers given. Weights are on Hugging Face. **So the staged release held**, with a short slip. Still unstated: whether the open weights match the API model.
 
 ## Key Signals
 
