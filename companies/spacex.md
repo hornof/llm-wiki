@@ -2,7 +2,7 @@
 name: SpaceX
 type: company
 status: active
-last_updated: 2026-10-29
+last_updated: 2026-10-31
 ---
 
 ## What It Is
@@ -21,6 +21,7 @@ Space-launch + satellite-internet company founded by [[elon-musk|Elon Musk]] in 
 - **2026-10-21: Q3 revenue $14.58B, up 161%; the AI segment, "Super Intelligence," is now the largest** ([[spacex-q3-2026-super-intelligence-segment-2026-10-21]], CNBC/FT via Digg). AI brought in **$7.56B** (from $813M a year earlier) against Starlink's $5.25B, and turned a $431M operating profit from a $1.7B loss. The Verge credits cloud agreements, the [[anysphere|Cursor]] acquisition and Grok adoption. **More than $16.4B of $19.6B in Q3 capex went to AI.** This is the first reported quarter the wiki holds since Cursor closed on 08-14, and the first in which compute selling and AI products outweigh the business SpaceX is named for. *(Secondhand figures, no filing cited; the segment's scope isn't defined, and the segments don't sum to the total.)*
 - **2026-10-26: a $40B GPU lease from Apollo, and Anthropic's S-1 sizes its side of the compute deal** ([[spacex-apollo-40b-gpu-lease-2026-10-26]], TechCrunch on a SpaceX filing). An Apollo entity buys Vera Rubin GPUs and leases them to SpaceX for about five years, starting H1 2027. The CFO claims *"less than one-year payback periods"* (no method given). The same day Anthropic disclosed up to **$120.5B of spend with SpaceXAI into 2029**, about $3.1B a month once all capacity is delivered ([[anthropic-s1-public-filing-2026-10-26]]). That is the first figure for this relationship from the customer's own filing.
 - **2026-10-28 (reported): Anthropic is "Customer B", 34.5% of Q3 revenue** ([[spacex-anthropic-customer-b-2026-10-28]], Digg citing Bloomberg). The filing names no customer; Bloomberg made the identification. That makes Anthropic a bigger customer than the US government.
+- **2026-10-31: Musk's plan for Gun Range and Spam** ([[musk-gun-range-spam-clusters-2026-10-31]], an X post via Digg). About 220,000 GB300s for training at Gun Range, targeted for the end of November, and about 200,000 for inference at Spam in December. Plans and targets, not installed hardware. → [[xai]]
 - **2026-06-07 (VERIFICATION-CRITICAL)**: **SpaceX → Cursor acquisition rumor** via [[linas-cursor-revenue-per-employee-spacex-acquisition-rumor-2026-06-07|Linas Beliūnas casual X comment-thread aside]] *"I guess that's why SpaceX decided to acquire them..."* (responding to Blake Norton's reaction to Cursor's *"$60B valuation + revenue-per-employee exceeds Goldman + Google + Apple combined"* framing). **First wiki-captured SpaceX → Cursor acquisition-rumor signal** — **treat as speculative/unverified** until mainstream-press corroboration. If confirmed, would extend the SpaceX vertical-integration thesis from substrate-tier (Colossus 1) + AI-lab-tier (xAI Grok / Imagine) to **AI-coding-tools-tier (Cursor)** — completing 3-tier SpaceX AI-stack vertical integration. Pattern-watch.
 
 ## Why The Wiki Tracks SpaceX
