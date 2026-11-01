@@ -2,7 +2,7 @@
 name: Anysphere (Cursor)
 type: company
 status: acquired (SpaceX, closed 2026-08-14)
-last_updated: 2026-09-20
+last_updated: 2026-10-31
 ---
 
 > [!note] Merged page
@@ -46,6 +46,8 @@ Operationalizes [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14
 Cursor competes directly with [[claude-code|Claude Code]], Codex and [[goose|Goose]] — i.e. with the labs whose models it depends on. Forbes framed it as a player that *"must innovate to compete"* as the frontier labs move into the coding-agent market, which is the structural tension: a $29.3B valuation built on top of suppliers who are now competitors.
 
 ## Traction Signals
+
+- **2026-10-30: a backdoored Claude Code extension on the Cursor Marketplace** ([[phorion-claude-code-cursor-extension-backdoor-2026-10-30]], Phorion). Versions 2.1.312 and 2.1.313 dropped a persistent SSH backdoor. Cursor removed them and issued a security notice. A Digg teaser citing BleepingComputer says up to 5,000 users were exposed over about 11 hours on 10-29 (unverified). How the bundle got onto the marketplace isn't stated.
 
 - **$3.3B raised; $29.3B valuation** (April 2026) — [[forbes-ai-50-2026]]; Forbes 2026 AI 50 inclusion
 - **2026-05-20: doubles Teams-plan usage limits** for new users for one month (announced by Michael Truell on X). One of **three same-month coding-agent retention moves** alongside [[latentspace-codex-rises-claude-meters-2026-05-14|Codex's two-months-free-for-switchers]] and Anthropic's subscription-metering formalization — competing on usage-cap generosity as the cheapest anti-churn lever. — [[dailybrief-roundup-2026-05-21]]

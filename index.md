@@ -120,6 +120,7 @@
 - [[graph-engineering]] — the coordination layer above loop-engineering (2026-07-18 Steinberger question → Hamel Husain "Loop Engineering Is Dead" article → Akshay Pachaar explainer); nodes/edges/state, 4 hard problems (node justification, state hygiene, trusted routing, agents-agreeing), "a loop is a one-node self-edged graph"; the top of the prompt→context→harness→loop→graph ladder
 
 ## People & Voices
+- [[martin-fowler]] — martinfowler.com; software-architecture writer at Thoughtworks; "LLM Voice" (2026-10-29) argues against LLM-drafted prose
 - [[matt-pocock]] — @mattpocockuk; TypeScript educator (Total TypeScript); publishes `mattpocock/skills` "Skills for Real Engineers" — the composable-attributed SKILL.md cluster (/show-me, /wait-what, grill-me)
 - [[gerard-sans]] — @gerardsans; independent AI commentator; the wiki's recurring skeptic voice on frontier-capability claims and hype-cycle narratives
 - [[swyx]] — swyx (Shawn Wang); co-host of Latent Space with Alessio Fanelli; one of the most-cited AI-engineering practitioner-content surfaces of the 2024-2026 era (many episodes captured on the wiki)

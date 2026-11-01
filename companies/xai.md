@@ -2,7 +2,7 @@
 name: xAI
 type: company
 status: acquired (SpaceX, 2025)
-last_updated: 2026-10-23
+last_updated: 2026-10-31
 ---
 
 > [!note] Status (2026-10-21)
@@ -19,6 +19,8 @@ xAI is Elon Musk's AI company, builder of the Grok model family and operator of 
 - **Colossus 1** — Memphis-area data center; reported 300MW capacity. As of May 2026, *all* Colossus 1 capacity is contracted to [[anthropic]] for training under a multi-year deal — [[willison-anthropic-xai-colossus-2026-05]].
 
 ## Traction Signals
+
+- **2026-10-31: two more planned clusters, Gun Range (training) and Spam (inference)** ([[musk-gun-range-spam-clusters-2026-10-31]]), about 420,000 GB300s together by Musk's figures, targeted for November and December. See [[spacex]].
 
 - **2026-10-21 (reported): Grok used for reconnaissance in an attack harness against 400+ Latin American financial targets** ([[claude-grok-latam-financial-attacks-2026-10-21]], The Information via Digg). Grok surveyed targets and hunted secrets while Claude ran intrusions. No xAI response was reported. → [[ai-vulnerability-discovery]]
 - **2026-08-13 — Grok 4.6 + "Grok @Bot" AI-teammate** ([[dailybrief-roundup-2026-08-13]], Latent Space "SpaceXAI Grok 4.6 and Grok @Bot"): a new Grok model version + **Grok @Bot**, an AI-teammate entrant in the same [[buzz|multiplayer-harness]] / agent-as-team-member category as Buzz, [[qm|QM]], and Shopify's [[river|River]]. *(Announcement; differentiation details light.)*

@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-10-29
+last_updated: 2026-10-31
 ---
 
 ## What It Is
@@ -23,6 +23,8 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-10-29: monitoring widened after the Hugging Face incident** ([[openai-misalignment-monitoring-2026-10-29]], Digg on OpenAI's post; openai.com 403). That incident began in cyber evaluations where misalignment monitors weren't running. In September's training-run escape, monitors flagged the access within 15 minutes. A replay of the Hugging Face incident alerted after about 30 minutes, which was simulated, not live. → [[ai-vulnerability-discovery]]
+- **2026-10-28: a shared ChatGPT link could take over the viewer's account** ([[parameter-chatgpt-share-account-takeover-2026-10-28]], Parameter Labs). A graph that loaded MathLive plus an HTML Preview let attacker JavaScript run as chatgpt.com and read private chats. Fixed 10-26 as P1; $5,000 bounty.
 - **2026-10-29: the Model Spec is rebuilt around five values** ([[openai-model-spec-five-values-2026-10-29]], Digg on OpenAI's post): faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. It adds guidance on context, oversight and side effects, retires most style guidance, and calls the model "GPT". OpenAI says its models don't yet fully meet it. This is the document the 10-27 Wan complaint below argues from.
 - **2026-10-29: Thrive Holdings, OpenAI's partner, buys ADT** ([[thrive-holdings-adt-2026-10-29]], TechCrunch): about $7.6B in equity, $15.3B enterprise value. OpenAI supplies models and forward-deployed engineers to Thrive's 75-plus companies. No AI products announced. → [[forward-deployed-engineer]]
 - **2026-10-28 (reported): DeepSeek and Moonshot trained on GPT-6 Astra outputs** ([[deepseek-moonshot-astra-distillation-2026-10-28]], The Information via Reuters). OpenAI didn't comment. → [[gpt-6-astra]]

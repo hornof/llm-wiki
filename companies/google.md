@@ -3,7 +3,7 @@ name: Google
 type: company
 sector: AI / cloud infrastructure / search / hardware
 status: incumbent + frontier-lab parent
-last_updated: 2026-10-28
+last_updated: 2026-10-31
 ---
 
 ## What It Does
@@ -11,6 +11,10 @@ last_updated: 2026-10-28
 **Google** (Alphabet subsidiary) is one of the three primary US-frontier-AI organizations operating in 2026, alongside [[anthropic|Anthropic]] + [[openai|OpenAI]]. Google operates [[google-deepmind|Google DeepMind]] as its frontier-AI research arm + Google Cloud as its substrate-distribution arm + Gemini as its consumer-facing model line. **First wiki entity surface 2026-06-13** consolidating substantive Google references across the wiki's pt5–pt13 ingest cluster (10+ substantive surfaces across 6 days). **Structurally load-bearing as the 3rd US-frontier-AI organization** alongside Anthropic + OpenAI.
 
 **Current frontier models (2026-10-28):** Gemini 4 Argon, generally available since 2026-10-13, and Gemini 4 Carbon, announced 2026-10-28 and released to cyber defenders first. See [[gemini]].
+
+## AI Mode earns less than Search, and the stock falls (2026-10-30)
+
+On the earnings call, chief business officer Philipp Schindler said strong growth in AI Mode queries *"had an impact because of the lower monetization we were seeing in AI Mode"* ([[google-ai-mode-search-revenue-stock-drop-2026-10-30]], AINews). The stock fell about 15%, roughly $500B of market value, per AINews's headline. **That $500B is market value, not lost revenue**, despite the daily brief's wording. Google doesn't report AI Mode separately.
 
 ## Connected Apps Platform — Gemini and Search open to outside apps (2026-10-28)
 

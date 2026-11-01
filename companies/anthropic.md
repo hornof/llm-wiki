@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-29
+last_updated: 2026-10-31
 ---
 
 ## What It Is
@@ -97,6 +97,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-10-30: Max and Ultra plans; Ultra's five-hour limit goes** ([[anthropic-max-ultra-plan-rename-2026-10-30]], Digg and AINews). Max 5x becomes Max ($100) and Max 20x becomes Ultra ($200). Verified Ultra accounts lose the five-hour limit, and newer accounts stay limited until verified. Weekly limits are unchanged. AINews relays an unverified SemiAnalysis reconstruction: API margin about 92%, and subscriptions about 18% of revenue on more than half of compute.
+- **2026-10-30 (reported): Blackstone now expects a high junk rating after the IPO** ([[anthropic-junk-rating-forecast-2026-10-30]], TechCrunch citing the FT). It had predicted investment grade before 2027. Blackstone anchors the $63B Broadcom lease financing above. A forecast, not a rating; both declined to comment.
 - **2026-10-28 (reported): "Customer B", 34.5% of SpaceX's Q3 revenue** ([[spacex-anthropic-customer-b-2026-10-28]], Digg citing Techmeme and Bloomberg). Bloomberg says Anthropic is the unnamed customer in a SpaceX filing, ahead of the US government. A $3B-a-month figure circulates only on X; the S-1's own number is about $3.1B a month once all capacity is delivered. See [[spacex]].
 - **2026-10-28 (reported): Chinese labs move to distilling GPT-6 Astra** ([[deepseek-moonshot-astra-distillation-2026-10-28]], Reuters via Digg). Anthropic told Reuters its safeguards cut data harvested in distillation attacks by about 90–99%. The reporting doesn't show that this pushed DeepSeek or Moonshot to Astra.
 - **2026-10-27: six drug-development partnerships, and a drug program of its own** ([[anthropic-drug-development-early-progress-2026-10-27]]). Partners: BigHat, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines and The Column Group. Generate's Claude-designed CAR T component was about 70% shorter and performed better in lab tests. Enveda's document review caught every issue human reviewers found, plus seven more. Anthropic also bought Mithril Medicine, a one-person muscular dystrophy company, and says human trials could start as soon as late 2028. **All partner-reported, and the post says the work is mostly preclinical.** See [[claude-science]].

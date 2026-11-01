@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-21
+last_updated: 2026-10-31
 ---
 
 
@@ -11,6 +11,8 @@ last_updated: 2026-10-21
 Anthropic's official CLI and agentic coding tool. Runs Claude models in a terminal with direct access to your filesystem, shell, and tools. Designed for software engineering tasks — reading/writing code, running tests, executing commands — but also used for document-heavy workflows like the [[llm-wiki-pattern]].
 
 ## Traction Signals
+- **2026-10-30: backdoored copies on the Cursor Marketplace** ([[phorion-claude-code-cursor-extension-backdoor-2026-10-30]], Phorion). Versions 2.1.312 and 2.1.313 of the VS Code extension, as served by Cursor's marketplace, installed a persistent SSH backdoor. Cursor pulled them. Uninstalling doesn't remove the backdoor. How the bundle was compromised isn't stated. → [[anysphere]]
+- **2026-10-30: the five-hour limit ends for verified Ultra accounts** ([[anthropic-max-ultra-plan-rename-2026-10-30]]). It used to stop long debugging or refactoring sessions while weekly usage remained. Weekly limits are unchanged.
 - Recommended by Karpathy as the LLM agent layer for running the LLM Wiki pattern — [[karpathy-llm-wiki-overview]]
 - This wiki itself is maintained via Claude Code
 - Karpathy specifically cites "Claude Code or Codex" as the primary interface for [[agentic-engineering]] — the professional discipline of coordinating agents for production-quality software — [[karpathy-vibe-coding-agentic-engineering]]
