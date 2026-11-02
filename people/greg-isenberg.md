@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-10-15
+last_updated: 2026-11-02
 ---
 
 ## Who They Are
@@ -11,6 +11,8 @@ last_updated: 2026-10-15
 Greg Isenberg is an **independent founder + investor** and host of **Startup Ideas Podcast** (`@startupideaspod`). **First wiki entity surface 2026-06-13** following 2nd substantive surface ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|Fable 5 ban + local-models pivot]]) extending [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08|Jun 8 AI-native masterclass with Theo Tabah]]. Distinctive practitioner-content register: **conversational + structural-framework framing** with strong operator-side discipline articulation. Crossovers with [[ashwingop|Ashwin Gopalan / Sentra]] AI-native organizational architecture + [[steipete-loops-engineering-vision-md-2026-06-07|Steinberger]] Loop Engineering register + [[whrrari-obsidian-claude-30-point-second-brain-2026-06-06|rari]] operator-side substrate-control disciplines.
 
 ## Their Current Focus
+
+- **2026-11-01: Opus 5.5 and would-be video creators** ([[gregisenberg-opus-5-5-video-creators-2026-11-01]]): a two-sentence prediction that millions will start making videos within two years without editing skills. No workflow given. The replies mostly say editing was never the bottleneck; having something worth filming was.
 
 - **The missing "escalate to human" button (2026-09-25)** ([[gregisenberg-escalate-to-human-button-2026-09-25]]): *"Every personal agent right now is fully AI. Muse, Instinct, all of them… there's the 1 thing a week that needs an actual person. Right now I'm the person."*
   **The argument is one falsifiable line.** Meta tried this with **M** in 2015 and killed it in 2018 because *"humans did 90 and the AI did 10, so every user cost a fortune"* — and Isenberg's claim is simply *"that ratio is flipped now."* No evidence offered, but the failure mode is named and the test is obvious. It is also the **missing half of a pattern the wiki already holds**: [[jev]]'s confidence thresholds specify *low confidence → route to a human*, and **nobody operates that branch as a product**.

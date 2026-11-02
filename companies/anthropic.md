@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-10-31
+last_updated: 2026-11-02
 ---
 
 ## What It Is
@@ -97,6 +97,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-01 (reported): internal Claude use, priced at retail, passed employee pay in April** ([[anthropic-internal-ai-use-exceeds-pay-2026-11-01]], Business Insider citing the IPO filing). The comparison excludes stock awards and isn't cash spent. Internal use grew more than 250-fold from January to September, and Claude wrote more than 90% of the code added in September. The S-1's statements stop at June 30, so where the September figures come from is unchecked.
 - **2026-10-30: Max and Ultra plans; Ultra's five-hour limit goes** ([[anthropic-max-ultra-plan-rename-2026-10-30]], Digg and AINews). Max 5x becomes Max ($100) and Max 20x becomes Ultra ($200). Verified Ultra accounts lose the five-hour limit, and newer accounts stay limited until verified. Weekly limits are unchanged. AINews relays an unverified SemiAnalysis reconstruction: API margin about 92%, and subscriptions about 18% of revenue on more than half of compute.
 - **2026-10-30 (reported): Blackstone now expects a high junk rating after the IPO** ([[anthropic-junk-rating-forecast-2026-10-30]], TechCrunch citing the FT). It had predicted investment grade before 2027. Blackstone anchors the $63B Broadcom lease financing above. A forecast, not a rating; both declined to comment.
 - **2026-10-28 (reported): "Customer B", 34.5% of SpaceX's Q3 revenue** ([[spacex-anthropic-customer-b-2026-10-28]], Digg citing Techmeme and Bloomberg). Bloomberg says Anthropic is the unnamed customer in a SpaceX filing, ahead of the US government. A $3B-a-month figure circulates only on X; the S-1's own number is about $3.1B a month once all capacity is delivered. See [[spacex]].

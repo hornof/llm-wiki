@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-10-21
+last_updated: 2026-11-02
 ---
 
 ## Definition
@@ -14,6 +14,10 @@ last_updated: 2026-10-21
 Per [[hassabis-frontier-ai-framework-standards-body-2026-07-14|Demis Hassabis]], AGI is *"probably only a few short years away"* while *"advances on the frontier are outpacing our understanding of the technology"* and the field is *"locked in an extremely intense, multilayered commercial and geopolitical race."* Governance determines whether accelerating capability (cyber, bio, and *"increasingly agentic, recursively self-improving systems"*) is deployed with adequate safeguards. The stance most frontier voices converge on: **"cautious optimism"** — proceed, but build the testing/oversight infrastructure in the *"precious window before AGI arrives."*
 
 ## Current State
+
+### The rename reaches a federal survey — Census Bureau, Executive Order 14434 (2026-10-19, read 2026-11-02)
+
+The Census Bureau's business survey now asks about *"Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI)"*, starting with the 2026-10-19 collection, because of Executive Order 14434 ([[willison-census-btos-super-intelligence-2026-11-02]]). This is the [[#The White House renames the subject (2026-10-02)|10-02 rename]] turning into an official instrument, and the first case in the wiki of it changing how the government measures adoption. Whether the new word changes how businesses answer is open; the first results under it were due the week of 2026-11-02. *(The executive order's text wasn't read.)*
 
 ### A lab drafts the law — and the court, not the agency, holds the brake (2026-10-16/20)
 
