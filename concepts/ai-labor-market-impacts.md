@@ -2,7 +2,7 @@
 name: AI Labor Market Impacts
 type: concept
 maturity: active-research
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 ---
 
 ## Definition
@@ -55,6 +55,10 @@ For an AI engineering / VPE career:
 > [[simon-willison|Willison]] argues **coding agents amplify existing skill requirements rather than democratizing them** ([[dailybrief-roundup-2026-09-25]]). With [[andrew-ng|Ng's]] 30–40%/60–70% split below, the [[agentic-engineering|six-voice cognitive-load convergence]], and voxium's *"management sees shipping as unbottlenecked; teams don't"*, that is **four independent surfaces converging on the opposite of the democratization claim** that accompanied essentially every tool launch this wiki has captured.
 > The dissent is same-week and first-person — [[garry-tan|Tan]] reports 4× *"with no increase in time in-editor"* — and **neither side is measured.** See [[developer-productivity-measurement]] for what would settle it.
 > Small concrete instance the same day: **a tutoring company abandoned tutoring and told parents to use AI.** Service substitution, not augmentation.
+
+## Large-company AI adoption: about 40%, on a changed question (Census BTOS, 2026-11-02)
+
+[[simon-willison|Willison]] re-ran the Census Bureau chart that in 2025 seemed to show large-company adoption falling ([[willison-census-btos-super-intelligence-2026-11-02]]). Companies with 250+ employees said yes about 12% of the time in September 2025, about 30% by February 2026 and about 40% by October 2026. **The first jump is mostly the question**: it changed in November 2025 from AI *"in producing goods or services"* to AI *"in any of its business functions"*, so only the February-to-October rise is like for like. The survey now says "Super Intelligence" instead of "AI", which may break the series again (see [[frontier-ai-governance]]).
 
 ## "The puzzle was the job" — an obituary for programming (2026-10-19)
 

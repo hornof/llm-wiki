@@ -3,7 +3,7 @@ name: Gemini
 type: model
 provider: Google DeepMind
 status: available
-last_updated: 2026-10-28
+last_updated: 2026-11-02
 ---
 
 > **Status note:** `available` refers to Gemini 4 Argon, which has been generally available since 2026-10-13. **Gemini 4 Carbon** (2026-10-28) is restricted: cyber defenders first, then trusted partners in the Fairwind Program, with no public date yet. The status field doesn't fit that, the same gap as [[claude-mythos]].
@@ -52,6 +52,7 @@ Google's frontier model line, built by [[google-deepmind]]. This page covers the
 - Pick these for long-context work (1M tokens) and security tasks. For other work there's no independent evidence yet; compare on your own tasks.
 
 ## Community Sentiment
+- **2026-11-02: GDPx** ([[semianalysis-gdpx-benchmark-2026-11-02]], Digg on SemiAnalysis). A new agent benchmark whose best model scores 12%. SemiAnalysis says safety classifiers pull down Opus 5.5 and GPT-6 Astra in cyber, biology and alignment tasks. Sundar Pichai praised its headroom and pointed to Carbon's cost line without a figure. Which model leads wasn't in Digg's text.
 
 **Nothing independent yet.** Digg's summary of the Carbon launch called the figures *"Google’s characterizations, not independently established results"* ([[google-gemini-4-carbon-2026-10-28]]). Gemini's agent incident on 2026-09-18 is recorded on [[google]].
 
