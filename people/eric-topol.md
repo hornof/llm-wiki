@@ -1,38 +1,40 @@
 ---
 name: Eric Topol
 type: person
-affiliation: Scripps Research Translational Institute (canonical-Director + canonical-Founder)
+affiliation: Scripps Research
 signal_sources: [twitter, blog]
-last_updated: 2026-06-26
+last_updated: 2026-11-03
 ---
 
 ## Who They Are
 
-**Eric Topol** is canonical-Director + canonical-Founder of Scripps Research Translational Institute and canonical-medical-AI canonical-recognized-author canonical-thought-leadership canonical-anchor. Author of *Deep Medicine* + *Topol Review* canonical-medical-AI canonical-publications. Wiki-tracked primarily for canonical-clinical-AI-failure canonical-direct-voice canonical-evaluation canonical-tier (Jun 26 canonical-3-model canonical-evaluation canonical-anchor). **Canonical-pedigree-exception entity-page** (1 substantive surface but canonical-Scripps-Research + canonical-medical-AI canonical-recognized-author canonical-pedigree justifies entity-page creation per canonical-domain-recognized-author canonical-exception to strict-2-surface threshold).
+**Eric Topol** is at Scripps Research and writes about AI in medicine. The wiki tracks them for one thing: tests of whether frontier models are ready for clinical use, and their answer so far has been no. They're the wiki's only clinical voice on model evaluation.
+
+The page was created from a single brief headline on 2026-06-26, which is below the usual two-surface bar. The reason given was Topol's standing in medical AI. A second headline followed the next day.
+
+*(Rewritten 2026-11-03 to remove automated-pass filler. Both signals below are Digg headlines from the Daily Brief; neither underlying post or paper was fetched.)*
 
 ## Their Current Focus
 
-- **2026-06-26: STRUCTURALLY MAJOR canonical-clinical-AI-failure canonical-direct-voice canonical-3-model canonical-evaluation** ([[dailybrief-roundup-2026-06-26]]) — canonical-direct-voice canonical-thesis-statement: GPT-5 + Claude 3.5 + Gemini 2.5 Pro fail canonical-clinical-readiness. Canonical-3-model canonical-failure-modes: canonical-shortcut-behaviors + canonical-hallucinations. First wiki-captured canonical-clinical-AI canonical-failure-evaluation canonical-3-model canonical-anchor at canonical-medical-AI canonical-discipline-tier.
-- **Canonical-Scripps-Research canonical-Translational-Institute canonical-Director-role** canonical-positioning.
+- **2026-06-27: GPT-5.5 Pro scores 79/100 on a medical benchmark and is still below the bar for clinical use** ([[dailybrief-roundup-2026-06-27]]). The same item notes Sophont's Medmarks v1.0, a tool for automating medical evaluations. The benchmark and the deployment threshold aren't named in the headline.
+- **2026-06-26: GPT-5, Claude 3.5 and Gemini 2.5 Pro fail clinical readiness** ([[dailybrief-roundup-2026-06-26]]). The failures named are shortcut behaviors and hallucinations.
 
 ## Notable Takes
 
-- **Canonical-direct-voice canonical-clinical-AI-failure canonical-thesis** (Jun 26): GPT-5 + Claude 3.5 + Gemini 2.5 Pro fail canonical-clinical-readiness.
-- **Canonical-3-model canonical-failure-modes canonical-articulation**: canonical-shortcut-behaviors + canonical-hallucinations = first wiki-captured canonical-named canonical-clinical-AI canonical-failure-pattern canonical-vocabulary.
-- **Canonical-medical-AI canonical-evaluation canonical-discipline canonical-anchor**: canonical-clinical-readiness as canonical-domain-specific canonical-evaluation-tier (vs canonical-general-purpose canonical-benchmarks).
+- **General benchmarks don't settle clinical readiness.** Both signals make the same point from different sides: models that score well still fall short of a deployment threshold specific to medicine. This sits next to [[metr]]'s general evaluations and the wiki's notes on jagged capability ([[verifiability-and-jagged-intelligence]]).
+- **The failure modes are shortcuts and hallucination** (06-26), not lack of knowledge.
 
 ## Where to Follow
 
-- Scripps Research Translational Institute canonical-affiliation
-- Verification-pending X canonical-handle + canonical-personal-blog + canonical-Substack canonical-tier
-- *Deep Medicine* canonical-book canonical-citation
-- *Topol Review* canonical-NHS-commissioned canonical-AI-and-healthcare canonical-review
+- Scripps Research
+- Books: *Deep Medicine*; the NHS-commissioned *Topol Review* on AI in healthcare [unsourced: no ingested source names these]
 
 ## Resources
 
-- [[dailybrief-roundup-2026-06-26]] — Jun 26 STRUCTURALLY MAJOR canonical-clinical-AI-failure canonical-direct-voice canonical-3-model canonical-evaluation (1st substantive surface)
-- [[abridge]] — paired canonical-clinical-AI canonical-vertical-vendor canonical-cohort
-- [[claude-financial-services]] — paired canonical-vertical-AI canonical-Anthropic-canonical-product canonical-cohort
-- [[ai-for-science]] — paired canonical-medical-AI canonical-discipline-tier
-- [[metr]] — paired canonical-AI-evaluation canonical-organization canonical-cohort (canonical-general-evaluation canonical-tier vs canonical-clinical-readiness canonical-evaluation canonical-tier)
-- [[verifiability-and-jagged-intelligence]] — paired canonical-AI-domain-specific canonical-failure-discourse
+- [[dailybrief-roundup-2026-06-26]] — three models fail clinical readiness
+- [[dailybrief-roundup-2026-06-27]] — GPT-5.5 Pro at 79/100, still below threshold; Sophont Medmarks v1.0
+- [[arena-100m-evaluation-infrastructure-2026-06-29]] — groups Topol's result with that week's other evaluation news
+- [[abridge]] — clinical AI vendor
+- [[ai-for-science]] — medical AI more broadly
+- [[metr]] — general-purpose model evaluation
+- [[verifiability-and-jagged-intelligence]] — why strong scores and domain failures coexist

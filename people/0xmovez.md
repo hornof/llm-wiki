@@ -1,46 +1,39 @@
 ---
 name: Movez (@0xMovez)
 type: person
-affiliation: independent (canonical-Loop-Engineering canonical-practitioner-amplifier-tier voice)
+affiliation: independent
 signal_sources: [twitter, substack]
-last_updated: 2026-06-29
+last_updated: 2026-11-03
 ---
 
 ## Who They Are
 
-**Movez (@0xMovez)** is an independent canonical-Loop-Engineering canonical-practitioner-amplifier-tier voice publishing canonical-self-improving-agent + canonical-agent-loops + canonical-harness + canonical-evals canonical-articulations on X + Substack. Wiki-tracked as **2-substantive-surface canonical-voice-tier** (Jun 18 + Jun 29 = 11-day canonical-recurring-author canonical-cadence). **Canonical-slug-case-normalization canonical-resolution-anchor**: multi-lint canonical-`[[0xmovez]]` typo finally has canonical-2-surface canonical-substantive-cluster justifying canonical-entity-page-creation at this lint. **Canonical-DIFFERENT-person from @0xMoysei** (canonical-LLM-Wiki-Pattern-amplifier Jun 28; see canonical-disambiguation below).
+**Movez (@0xMovez)** posts on X and Substack about self-improving agents, agent loops, harnesses and evals. The wiki has two of their posts, from 2026-06-18 and 2026-06-29, and files them under [[loop-engineering]]. Background unknown.
+
+*(Rewritten 2026-11-03 to remove automated-pass filler. Quotes checked against the source pages.)*
+
+**Not the same person as @0xMoysei**, who posted about Karpathy's LLM-wiki pattern on 2026-06-23 ([[moysei-karpathy-llm-wiki-pattern-amplification-2026-06-23]]). Earlier lints confused the two handles.
 
 ## Their Current Focus
 
-- **2026-06-29: canonical-AI-agent-loops + canonical-harness + canonical-evals canonical-stack-articulation** ([[movez-ex-google-engineer-ai-agent-loops-harness-evals-2026-06-29]]) — canonical-5-step canonical-self-improvement-loop ("trace every run → judge it with an LLM → diagnose → fix → ship") + canonical-4-component canonical-stack ("loops + memory + harness + evals") + canonical-ex-Google-engineer canonical-20-min canonical-video amplification.
-- **2026-06-18: canonical-300-agent canonical-Kimi-K2.6 + Opus 4.8 canonical-self-improving-loop canonical-playbook** ([[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]]) — canonical-300-parallel-agents-x-4000-coordinated-steps canonical-scale-anchor; canonical-operator-tier-RSI canonical-proof-point; canonical-20-min-run-1 → canonical-30-sec-run-50 canonical-cost-collapse anchor.
+- **2026-06-29: the loop, the harness and evals** ([[movez-ex-google-engineer-ai-agent-loops-harness-evals-2026-06-29]]). Promotes a 20-minute video by an ex-Google engineer and states a five-step loop: *"trace every run → judge it with an LLM → diagnose → fix → ship"*. The post quotes [[0xcodez|0xCodez's]] 14-step roadmap.
+- **2026-06-18: a 300-agent swarm on Kimi K2.6, checked by Opus 4.8** ([[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]]). A ten-step playbook, originally published 2026-04-22. Kimi K2.6 runs up to 300 parallel sub-agents across 4,000 coordinated steps, and Opus 4.8 verifies the output. The 4,000 steps are a budget for the whole swarm, so about 13 per agent.
 
 ## Notable Takes
 
-- **Canonical-5-step canonical-self-improvement-loop canonical-articulation** (Jun 29): *"trace every run → judge it with an LLM → diagnose → fix → ship. That loop is how agents self-improve over time."* — pairs with canonical-3-author canonical-5-component-loop canonical-pattern-convergence cluster (AnatoliKopadze canonical-5-stage DISCOVER+PLAN+EXECUTE+VERIFY+ITERATE + Raytar canonical-5-beat Find+Do+Check+Remember+Go-again).
-- **Canonical-"loops + memory + harness + evals" canonical-4-component canonical-stack-statement** (Jun 29) at canonical-Movez-tier.
-- **Canonical-300-agent canonical-Kimi-K2.6 + Opus 4.8 canonical-split-architecture canonical-playbook** (Jun 18): canonical-engine-and-closer canonical-2-model canonical-architecture for canonical-self-improving-loop.
-- **Canonical-20-min-run-1 → canonical-30-sec-run-50 canonical-cost-collapse anchor** (Jun 18) = first wiki-captured canonical-operator-tier-RSI canonical-cost-trajectory canonical-quantitative-anchor.
-- **Pairs structurally with [[0xcodez|0xCodez]] canonical-Loop-Engineering canonical-practitioner-cohort** via canonical-self-quote canonical-cross-author canonical-amplification.
+- **Split the worker from the checker** (06-18): *"The engine learns. The closer keeps it honest."* A cheap model does the work and a stronger one verifies it.
+- **Save the workflow once, replay it cheaply** (06-18): *"20 minutes on run one. 30 seconds on run fifty."* The speedup comes from saving the workflow as a Skill after the first run. It's the author's own figure.
+- **The stack** (06-29): *"Agent loops + memory + harness + evals - thats the stack."*
+- **A reply worth keeping** (06-29, adelbucetta): *"that loop is just the surface, there's the dark matter of agent judgment calls that nobody talks about."*
 
 ## Where to Follow
 
 - X: [@0xMovez](https://x.com/0xMovez)
-- Substack (verification-pending canonical-URL)
-
-## Canonical-Disambiguation
-
-**@0xMovez NEQ @0xMoysei**:
-
-- **@0xMovez** = canonical-Loop-Engineering canonical-practitioner-amplifier (Jun 18 + Jun 29; this entity-page)
-- **@0xMoysei** = canonical-LLM-Wiki-Pattern canonical-amplifier (Jun 23 X post about Karpathy + Obsidian; see [[moysei-karpathy-llm-wiki-pattern-amplification-2026-06-23]])
-
-Distinct people, distinct canonical-content-domains. Slug-case-normalization canonical-resolution: this page = `people/0xmovez.md` (canonical-handle-form).
 
 ## Resources
 
-- [[movez-ex-google-engineer-ai-agent-loops-harness-evals-2026-06-29]] — Jun 29 canonical-5-step canonical-self-improvement-loop + canonical-4-component canonical-stack (2nd substantive surface)
-- [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — Jun 18 canonical-300-agent canonical-playbook (1st substantive surface)
-- [[loop-engineering]] — canonical-Loop-Engineering canonical-15-voice canonical-cluster (Movez at canonical-practitioner-amplifier-tier)
-- [[0xcodez]] — paired canonical-Loop-Engineering canonical-practitioner-cohort
-- [[moysei-karpathy-llm-wiki-pattern-amplification-2026-06-23]] — canonical-disambiguation (DIFFERENT person @0xMoysei)
+- [[movez-ex-google-engineer-ai-agent-loops-harness-evals-2026-06-29]] — five-step loop and the four-part stack
+- [[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18]] — the 300-agent playbook
+- [[loop-engineering]] — the concept these posts feed
+- [[0xcodez]] — the roadmap quoted on 06-29
+- [[moysei-karpathy-llm-wiki-pattern-amplification-2026-06-23]] — the other handle, for disambiguation
