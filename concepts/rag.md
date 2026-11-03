@@ -3,6 +3,7 @@ name: RAG (Retrieval-Augmented Generation)
 type: concept
 maturity: mainstream
 last_updated: 2026-09-03
+dormant_since: 2026-11-03
 ---
 
 ## Definition

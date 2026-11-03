@@ -40,3 +40,5 @@ Cross-reference index for `Daily Briefs/2026-10-26.md`. Six new items are folded
 ## Pages Updated
 
 - See the source pages above.
+
+Previous roundup: [[dailybrief-roundup-2026-10-25]].

@@ -34,3 +34,5 @@ Cross-reference index for `Daily Briefs/2026-11-03.md`. Three items are folded. 
 ## Pages Updated
 
 Cross-reference index; entity updates are listed on each source page above.
+
+Previous roundup: [[dailybrief-roundup-2026-11-02]].

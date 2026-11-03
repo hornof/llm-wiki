@@ -4,6 +4,7 @@ type: tool
 category: library
 status: emerging
 last_updated: 2026-08-31
+dormant_since: 2026-11-03
 ---
 
 ## What It Is

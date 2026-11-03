@@ -57,11 +57,13 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 
 ## Products
 
-- **Claude**: frontier AI assistant. **Model lineup as of 2026-10-16**, newest first, from the wiki's model pages (corrected 2026-10-16; this section had described Opus 4.7 as current for five months):
+- **Claude**: frontier AI assistant. **Model lineup as of 2026-11-03**, newest first, from the wiki's model pages (corrected 2026-10-16; this section had described Opus 4.7 as current for five months. Sonnet 5.5 and Fable 5.1 added 2026-11-03; the 10-16 table had missed both):
 
   | Model | Launched | Role |
   |---|---|---|
+  | [[claude-sonnet-5\|Sonnet 5.5]] | 2026-09-28 | point release; Anthropic says faster and cheaper per task at the same per-token price |
   | [[claude-opus-5-5\|Opus 5.5]] | 2026-09-22 | current flagship |
+  | [[claude-fable-5\|Fable 5.1]] | 2026-09-01 | Fable point release, for coding and long-running work |
   | [[claude-opus-5\|Opus 5]] | 2026-07-24 | previous Opus; Fable-class capability at Opus pricing |
   | [[claude-sonnet-5\|Sonnet 5]] | 2026-06-30 | default on Free and Pro |
   | [[claude-fable-5\|Fable 5]] | 2026-06-09 | first public Mythos-class model |
