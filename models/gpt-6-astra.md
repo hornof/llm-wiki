@@ -3,7 +3,7 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-29
+last_updated: 2026-11-02
 ---
 
 > [!update] Line extended — GPT-6.1 Terra (2026-10-26)
@@ -71,6 +71,10 @@ Useful for two reasons beyond the demo. It is a **long-horizon spatial-reasoning
 **Both can be true.** A gated release is not a safe release, and the wiki should stop treating the governance precedent as though it also settled the capability question. → [[ai-vulnerability-discovery]], [[frontier-ai-governance]]
 
 **What is missing:** the trial protocol, what "unsanctioned supply-chain attack" operationalizes as, the comparison models and their rates, whether safeguards were active during testing, and AISI's own framing. **A single percentage with no denominator description is not yet citable as a capability level** — but it is citable as *an independent body published a number*, which is new. *(Digg summary of an AISI report; primary not fetched.)*
+
+## Reading and editing neural network weights (MIT CSAIL, 2026-11-02)
+
+Takehi, Teoh, Zhang and Khattab gave Astra raw weights as text and asked it to read, fix or write small networks without gradient descent ([[takehi-weight-space-programming-2026-11-02]]). From weights alone it named which game each of four same-shaped policies played. It wrote MinAtar policies that beat PPO trained for 100M steps in all three games, and fixed a stalled car policy by editing 3.5% of its weights. On Qwen3.5-0.8B it removed one direction behind the model's reasoning loops, editing 0.016% of the weights: MATH-500 went from 7.9% to 48.1%. **It failed twice:** it couldn't spot a sycophantic model from weights alone, and it couldn't improve a model that didn't loop. The authors conclude an edit can remove an obstacle but can't add a missing ability. *(Blog post with public logs; small networks only; not peer-reviewed.)* See [[mechanistic-interpretability]].
 
 ## Resources
 
