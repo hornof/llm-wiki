@@ -2,7 +2,7 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-09-23
+last_updated: 2026-11-02
 ---
 
 ## Definition
@@ -72,6 +72,12 @@ Three independent surfaces of sparse-autoencoder-based interpretability research
 ## Global Workspace / J-space (Anthropic, July 2026)
 
 [[anthropic-global-workspace-language-models-2026-07-06]] argues Claude has an internal **global workspace** ("J-space") with *access-consciousness* properties — reportable, controllable, causally load-bearing for deliberate reasoning — while most processing bypasses it. The **J-lens (Jacobian lens)** reads the internal pattern associated with each vocabulary word, surfacing hidden intermediate reasoning (e.g. steps of a multi-step math problem that never appear in output) and safety-relevant private state (the model flagging a scenario as "fake"). Sits in the same read-the-reasoning-out lineage as NLAs, at a coarser (workspace-level) grain. Full treatment on the [[global-workspace]] concept page.
+
+## A general-purpose model reads weights directly — Weight-Space Programming (2026-11-02)
+
+Until now the wiki's interpretability record used purpose-built tools (SAEs, probes, Anthropic's NLAs). Takehi et al. at MIT CSAIL used GPT-6 Astra as it ships, given weights as text ([[takehi-weight-space-programming-2026-11-02]]). Given only the middle layers of three small language models, it found every induction head and named no false ones. Unprompted, it used a weight-multiplication method the authors recognised from Elhage et al. It also traced Qwen3.5-0.8B's reasoning loops to one direction and removed it by editing 0.016% of the weights.
+
+**The limits are the useful part.** From weights alone it couldn't tell which of two Gemma 3 270M copies was sycophantic; given attention patterns on texts it wrote, it could. That's the [[#Probing-vs-Causal Gap (Cheng & Zhang, May 2026)|probing-versus-causal]] question again: spotting structure in weights isn't the same as knowing what behaviour it produces. The authors hope to audit weights for backdoors without test sets, which would bear on [[agentic-backdoors-pretraining-poisoning-2026-10-27|pretraining-poisoned agents]], but nothing in the post tests that. *(Blog post; networks up to 0.8B.)*
 
 ## Key Papers / Posts
 

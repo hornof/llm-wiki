@@ -3,7 +3,7 @@ name: Qwen
 type: model
 provider: Alibaba
 status: available
-last_updated: 2026-10-26
+last_updated: 2026-11-02
 ---
 
 ## What It Is
@@ -21,6 +21,7 @@ last_updated: 2026-10-26
 - Cost-sensitive or self-hosted workloads where an open-weight model is "good enough" and switching cost matters — the demand-side of the margin-collapse dynamic.
 
 ## Community Sentiment
+- **2026-11-02: Qwen3.5-0.8B's thinking loops, fixed by a weight edit** ([[takehi-weight-space-programming-2026-11-02]]). Qwen's own model card warns the model is prone to loops; in this test 85 of its first 96 practice answers ran to the 32,768-token limit. GPT-6 Astra removed one direction in two MLP layers (0.016% of weights), and MATH-500 rose from 7.9% to 48.1%. The edited model is on Hugging Face.
 
 - Referenced across the June 2026 Chinese-open-weights clusters ([[chinese-openweights-political-ai-jun-18-cluster-2026-06-18]], [[jun-19-open-source-research-origin-cluster-2026-06-19]]) and the local-models-vs-Fable-5 debate ([[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13]]).
 - **Qwen 3.8 27B released (2026-08-14)** ([[dailybrief-roundup-2026-08-14]], via HuggingFace/Willison): a new **dense 27B** open-weights model billed as *"the best local dense model yet"* (FP8 checkpoint). Lands the same fortnight as Meta's [[muse-glimmer|Muse Glimmer]] (Apache-2.0) and DeepSeek-V4-Flash — a steady cadence of capable local-inference open-weights that keeps the [[ai-margin-collapse|open-weight-parity]] / [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|local-models-as-insurance]] thread live. *(Routine release; per-token/benchmark specifics light in the brief.)*
