@@ -2,7 +2,7 @@
 name: Forward-Deployed Engineer (FDE)
 type: concept
 maturity: emerging
-last_updated: 2026-10-29
+last_updated: 2026-11-03
 ---
 
 ## Definition
@@ -72,6 +72,10 @@ Five numbered takeaways from a 53-minute interview with a working FDE *"who does
 ## A holding company as the deployment channel (2026-10-29)
 
 OpenAI supplies forward-deployed engineers to Thrive Holdings' 75-plus companies, and Thrive has just bought ADT for $15.3B in enterprise value ([[thrive-holdings-adt-2026-10-29]]). Here the FDE works inside companies a partner owns, rather than at a customer. No results are reported yet.
+
+## Legal engineers next to FDEs — Legora (2026-11-02)
+
+Legora's CTO Jacob Lauritzen on Latent Space ([[legora-lauritzen-legal-agents-2026-11-02]]). Legora can't see its agent's traces, since the data belongs to law firms' clients, so three engineers and three lawyers build simulated customer environments to test in. Legora has 100 engineers, after a slide arguing 20 would be enough forever, and 100 legal engineers; the episode covers how the legal-engineer and FDE roles split. A citation eval went from 70% to 99% after one model release with no change on Legora's side, which is the case for keeping evals running between releases. *(Episode notes only; transcript not read.)*
 
 ## Related Concepts
 
