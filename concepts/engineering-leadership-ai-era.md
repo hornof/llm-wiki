@@ -2,7 +2,7 @@
 name: Engineering Leadership in the AI Era
 type: concept
 maturity: emerging
-last_updated: 2026-10-28
+last_updated: 2026-11-03
 ---
 
 ## Definition
@@ -47,6 +47,7 @@ The flip side of the leadership squeeze: the role the AI industry is *scrambling
 - **AI spend becomes a per-engineer budget line.** Accenture reportedly caps centrally funded Claude use at **$29/month per employee** ([[dailybrief-roundup-2026-10-17]]). Cognition reportedly ties engineers' AI spending limits to **efficiency grades** ([[dailybrief-roundup-2026-10-18]]). Both are headline-level reports, but they put a new metric on the leader's desk: tokens per engineer, judged against output.
 - **The morale cost.** Jeremy Scheff's "obituary for programming" ([[scheff-obituary-for-programming-2026-10-19]]) says the intellectual puzzle was the job's reward, and it's the part agents now take. A retention problem for the leaders of people who chose the work for that reason. See [[ai-labor-market-impacts]].
 - **Hiring without the coding interview.** [[felix-rieseberg-coding-interview-dead-2026-10-27|Felix Rieseberg]], who leads engineering for Claude.ai, Cowork and Claude Code Desktop, dropped the coding interview from their loops in October 2026: Claude is better at the test than the candidates, and their best builders succeed regardless of how they score. They haven't settled on a replacement and for now look for small prototypes in portfolios. One manager's practice, not Anthropic policy: a candidate replied that Anthropic gave them a take-home test the week before. **For a hiring leader, the question this leaves is what to test instead.** Their advice to juniors (build a working prototype of one ambitious idea, because execution is cheap now) is the IC-side version of the stage-based staffing in the first item.
+  - **One answer to "what instead" (2026-11-02, Reddit):** a hiring manager in the r/Anthropic thread on Rieseberg's essay proposes a feature added to an existing codebase with AI, with the session logs shared, plus questions about the candidate's own skills and when they retire one ([[reddit-rieseberg-show-me-what-youve-built-2026-11-02]]). The unanswered objection: people whose work is all proprietary can't show it.
 
 ## Key Papers / Posts
 - [[gergely-orosz-eng-leadership-exodus-2026-07-27]] — the anchor observation (CTO/VPE burnout + fractional/founder exodus)

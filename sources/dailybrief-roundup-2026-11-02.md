@@ -8,7 +8,7 @@ local_source: "Daily Briefs/2026-11-02.md"
 
 ## Summary
 
-Cross-reference index for `Daily Briefs/2026-11-02.md`. There was no brief for 2026-11-01. Six items are folded; most headlines repeat earlier ingests. The headline *"commits $895B to compute"* isn't sourced: Anthropic's S-1 announcement has no figure, and the wiki's S-1 pages give $450B–$750B of commitments ([[anthropic-s1-leak-h1-loss-compute-2026-10-20]]). The $500B Google line repeats the error corrected on 10-31. The brief's draft posts aren't used.
+Cross-reference index for `Daily Briefs/2026-11-02.md`. There was no brief for 2026-11-01. Six items are folded; most headlines repeat earlier ingests. The headline *"commits $895B to compute"* isn't sourced: Anthropic's S-1 announcement has no figure, and the wiki's S-1 pages give $450B–$750B of commitments ([[anthropic-s1-leak-h1-loss-compute-2026-10-20]]). *(**Corrected 2026-11-03:** the figure is real. It's from the amended S-1 filed 2026-11-02, which lists $895.4B of commitments; see [[anthropic-amended-s1-895b-commitments-2026-11-02]]. The brief was right and this page was wrong.)* The $500B Google line repeats the error corrected on 10-31. The brief's draft posts aren't used.
 
 ## Folded
 
