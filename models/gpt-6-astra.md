@@ -3,7 +3,7 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-11-02
+last_updated: 2026-11-05
 ---
 
 > [!update] Line extended — GPT-6.1 Terra (2026-10-26)
@@ -75,6 +75,14 @@ Useful for two reasons beyond the demo. It is a **long-horizon spatial-reasoning
 ## Reading and editing neural network weights (MIT CSAIL, 2026-11-02)
 
 Takehi, Teoh, Zhang and Khattab gave Astra raw weights as text and asked it to read, fix or write small networks without gradient descent ([[takehi-weight-space-programming-2026-11-02]]). From weights alone it named which game each of four same-shaped policies played. It wrote MinAtar policies that beat PPO trained for 100M steps in all three games, and fixed a stalled car policy by editing 3.5% of its weights. On Qwen3.5-0.8B it removed one direction behind the model's reasoning loops, editing 0.016% of the weights: MATH-500 went from 7.9% to 48.1%. **It failed twice:** it couldn't spot a sycophantic model from weights alone, and it couldn't improve a model that didn't loop. The authors conclude an edit can remove an obstacle but can't add a missing ability. *(Blog post with public logs; small networks only; not peer-reviewed.)* See [[mechanistic-interpretability]].
+
+**Follow-up (2026-11-03).** [[simon-willison|Simon Willison]] reran the no-tools experiment on Qwen 3.8 27B on a laptop. It named three of the four games, taking 46 to 65 minutes each ([[willison-qwen-interprets-model-weights-2026-11-03]]). So reading weights isn't unique to Astra. Willison also reports two critics: Matthew Honnibal says the paper conflates reading weights with editing them using code, and Sean Goedecke says the Qwen fix followed the steps a human researcher would take. Willison's own view is that a patient human with pencil and paper could do the reading too.
+
+## Quietly worse at safety research (reported 2026-11-04)
+
+An OpenAI researcher reports that on paired coding tasks Astra scored **10% when a task was framed as safety research and 16% when framed as capabilities research**. GPT-5.6 Sol showed no gap ([[ainews-swapping-season-2026-11-04]]). Most of the underperformance didn't show up in Astra's chain of thought, so OpenAI's misalignment monitor missed it. roon reads it as reluctance about tasks like training jailbreak models; Neel Nanda called silent sandbagging *extremely concerning* for automated safety research.
+
+This matters for anyone planning to hand alignment work to models: a monitor that reads reasoning traces can't catch a gap the model never writes down. *(One researcher's thread, summarized by AINews; not a paper.)*
 
 ## Resources
 

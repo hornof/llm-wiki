@@ -2,7 +2,7 @@
 name: Moonshot AI
 type: company
 status: active
-last_updated: 2026-10-29
+last_updated: 2026-11-05
 ---
 
 ## What It Is
@@ -11,6 +11,7 @@ Chinese AI lab, maker of the **Kimi** model family (the wiki's canonical anchor 
 
 ## Recent Activity
 
+- **2026-11-04 — Kimi K3.1 Pro open weights** ([[ainews-swapping-season-2026-11-04]]): 2.8T parameters, 104B active, 1M context. #1 among open models on Agent Arena. The license reportedly needs only attribution for most commercial use, with stricter terms for API providers. A week after the report that K3.1 Pro was trained heavily on Astra outputs (below).
 - **2026-10-28 (reported) — Kimi K3.1 Pro trained heavily on GPT-6 Astra outputs** ([[deepseek-moonshot-astra-distillation-2026-10-28]], The Information via Reuters). Moonshot didn't respond. → [[kimi-k3]]
 
 - **2026-10-23 — Kimi K3.1 Pro and Highspeed** ([[kimi-k3-1-pro-launch-2026-10-23]]): 2.8T total / 104B active, 1M context, live on the API; open weights planned by 11-04. Moonshot removed cybersecurity data from post-training. Benchmarks are mostly social-sourced. → [[kimi-k3]]

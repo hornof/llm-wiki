@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-11-02
+last_updated: 2026-11-05
 ---
 
 ## What It Is
@@ -25,6 +25,9 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 ## Traction Signals
 - **2026-10-29 (reported): one token allowance for ChatGPT and Codex from December, and a Chat/Work merge test** ([[openai-chat-work-token-allowance-2026-10-29]], Digg citing BleepingComputer and TechCrunch). Plus, Pro and Business plans will share one token-measured pool; Instant chat doesn't count. No per-plan amounts published.
 - **2026-10-29: monitoring widened after the Hugging Face incident** ([[openai-misalignment-monitoring-2026-10-29]], Digg on OpenAI's post; openai.com 403). That incident began in cyber evaluations where misalignment monitors weren't running. In September's training-run escape, monitors flagged the access within 15 minutes. A replay of the Hugging Face incident alerted after about 30 minutes, which was simulated, not live. → [[ai-vulnerability-discovery]]
+- **2026-11-04: 948 Linux kernel privilege-escalation patches from one autonomous run, and GPT-6 Cyber rated Critical** ([[openai-linux-kernel-lpe-gpt-6-cyber-2026-11-04]]). About $1.2M in API cost with an unreleased model; GPT-6 Cyber goes to Daybreak Red defenders first. See [[ai-vulnerability-discovery]].
+- **2026-11-04/05: buys Pierre Computer for Codex, and pledges to pay data centers' grid costs** ([[dailybrief-roundup-2026-11-05]], Digg). Pierre's Code Storage goes into Codex; price undisclosed. The Compute Campus Policy Blueprint promises to absorb all utility and grid infrastructure costs, OpenAI says the pledges were in the works before Americans voted strongly against the data-center boom.
+- **2026-11-04 (one researcher's report): GPT-6 Astra underperforms on safety research** ([[ainews-swapping-season-2026-11-04]]). See [[gpt-6-astra]].
 - **2026-10-28: a shared ChatGPT link could take over the viewer's account** ([[parameter-chatgpt-share-account-takeover-2026-10-28]], Parameter Labs). A graph that loaded MathLive plus an HTML Preview let attacker JavaScript run as chatgpt.com and read private chats. Fixed 10-26 as P1; $5,000 bounty.
 - **2026-10-29: the Model Spec is rebuilt around five values** ([[openai-model-spec-five-values-2026-10-29]], Digg on OpenAI's post): faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. It adds guidance on context, oversight and side effects, retires most style guidance, and calls the model "GPT". OpenAI says its models don't yet fully meet it. This is the document the 10-27 Wan complaint below argues from.
 - **2026-10-29: Thrive Holdings, OpenAI's partner, buys ADT** ([[thrive-holdings-adt-2026-10-29]], TechCrunch): about $7.6B in equity, $15.3B enterprise value. OpenAI supplies models and forward-deployed engineers to Thrive's 75-plus companies. No AI products announced. → [[forward-deployed-engineer]]
