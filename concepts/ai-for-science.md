@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-10-14
+last_updated: 2026-11-05
 ---
 
 ## Definition
@@ -31,6 +31,13 @@ Google DeepMind is the most prominent institution pursuing AI for science at sca
 A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT-5.x) are used in iterative dialogue to *derive novel theoretical results*. [[alex-lupsasca]] (OpenAI Science) documented GPT-5.2 deriving novel gluon-amplitude and graviton results that had stumped expert humans for over a year. This is a categorically different mode than AlphaFold-style application: model produces *frontier theoretical conjectures*, not interpolation on a well-defined problem. — [[latent-space-lupsasca-vibe-physics-2026-05]]
 
 **AI-assisted cryptanalysis as a research *methodology* (2026-07-28/30)** ([[dailybrief-roundup-2026-07-30]], via [[simon-willison|Willison]]): Anthropic researchers prompted **Claude to discover mathematical weaknesses** in the post-quantum signature scheme **HAWK** and in **weakened AES variants**, then **published the prompts**. The load-bearing signal is *methodological, not the flaws themselves* (**practical impact ≈ zero** — real-world crypto isn't broken): it demonstrates a new mode of **AI-as-research-accelerant** — prompt-engineering a model to hunt for attack surfaces in a formal domain, with the prompt chain as the reproducible artifact. Extends the vibe-physics pattern (novel research-grade findings) from theoretical physics to **cryptanalysis/security**; a datapoint for Jack Clark's *"automation reaching too-hard-to-automate work"* thread ([[jack-clark]]).
+
+## Agents that hand the arithmetic to checked tools (2026-11-05)
+
+Two releases the same day share a design: the model plans and searches, and something deterministic checks the result.
+
+- **Drug design.** DeepMind's Cheminformatics Skills for [[antigravity]] let an agent pull compounds from papers, run matched molecular pair analysis, train potency models and propose new molecules with synthesis routes ([[deepmind-antigravity-cheminformatics-2026-11-05]]). RDKit does every calculation, because a single wrong atom describes a different compound. DeepMind says one design iteration drops from days to about an hour. No compound has been made or tested.
+- **Mathematics.** Axiom Math's agents formalized the Stacks Project, about 7,654 pages of algebraic geometry, into roughly 16 million lines of Lean that a proof checker accepts ([[axiom-stacks-project-formalized-2026-11-05]]). The pitch is against a flood of unchecked AI math: OpenAI alone released 719 manuscripts claiming solutions last month. A Lean proof still has to state the right theorem, and the article doesn't say how that was checked.
 
 ## The gap in the dominant formulation — intrinsically disordered proteins (2026-09-30)
 

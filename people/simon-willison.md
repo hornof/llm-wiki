@@ -3,13 +3,14 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-11-02
+last_updated: 2026-11-05
 ---
 
 ## Who They Are
 Simon Willison is an independent software engineer, blogger, and tooling builder. Co-creator of Django (2003–2005), creator of Datasette (open-source data publishing platform), and one of the most consistently high-signal practitioner voices on LLM tooling and applied AI engineering. Maintains a daily-cadence blog at simonwillison.net that has become a primary source for many practitioners tracking real-world LLM tool behavior, prompt-injection issues, and model-release evaluations.
 
 ## Their Current Focus
+- **2026-11-03 — Qwen 3.8 27B reads model weights** ([[willison-qwen-interprets-model-weights-2026-11-03]]): reran the weight-space paper's no-tools experiment on a laptop model, which got three of four games. They separate the paper's two claims and push back on the commentary: *"I'm not ready to declare that the age of source code is over"*. Same day: Datasette Agent 0.5a0 adds a chat panel beside Datasette pages.
 - **2026-11-02 — the Census Bureau's AI-adoption numbers** ([[willison-census-btos-super-intelligence-2026-11-02]]): redid a year-old chart with GPT-6 Astra, found large-company adoption around 40% on a reworded question, and found the survey now says "Super Intelligence" under Executive Order 14434. They call the new wording absurd.
 - **2026-10-29 — Spawn, a game built by a swarm of Fable agents** ([[willison-spawn-autonomous-game-dev-2026-10-29]]): a link post on Jacob Sansbury's essay. Hourly autonomous deploys, an hour without a ship treated as a SEV-0, $3M a month in tokens. Willison doubts the approach works where failures cost more, and sees games as the place to test what coding agents can do.
 - **2026-10-28 — vibe-coded games** ([[willison-vibe-game-development-2026-10-28]]): four browser games built with Claude Opus 5.5 without reading the code, and the claim that Opus 5.5 now gets game design right where GPT-6 Astra doesn't yet. Battle Drones, their RTS, is Apache 2.0 and has already been forked.

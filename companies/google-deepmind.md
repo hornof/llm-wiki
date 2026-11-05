@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-11-02
+last_updated: 2026-11-05
 ---
 
 ## What It Is
@@ -29,6 +29,7 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 
 ## Traction Signals
 
+- **2026-11-05: Cheminformatics Skills for Antigravity** ([[deepmind-antigravity-cheminformatics-2026-11-05]]). See [[ai-for-science]].
 - **2026-10-31: PlanAssist goes to 12 more English councils** ([[deepmind-planassist-uk-planning-2026-10-31]]). Gemini-based drafting of householder planning assessments, built with the UK government, Google Cloud and Faculty. DeepMind's pilot figures: officer time cut by up to 58%, and more than 70% of drafted reports approved with no edits. Officers keep the decision. Next is a 12-month beta on live applications.
 
 - **2026-10-28: Gemini 4 Carbon** ([[google-gemini-4-carbon-2026-10-28]]). Two weeks after Argon's general release. Google leads with cyber (SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%, all without guardrails) and runs of several days on engineering tasks. Same introductory price as Argon. Access goes to cyber defenders first, and there's no public date. See [[gemini]].

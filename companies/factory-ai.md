@@ -2,7 +2,7 @@
 name: Factory AI
 type: company
 status: active
-last_updated: 2026-09-17
+last_updated: 2026-11-05
 ---
 
 ## What It Is
@@ -13,6 +13,7 @@ last_updated: 2026-09-17
 
 ## Traction Signals
 
+- **2026-11-04: acquiring HumanLayer** ([[ainews-swapping-season-2026-11-04]]). HumanLayer is Dexter Horthy's company; the wiki met it through the `/show-me` review skill [[matt-pocock|Matt Pocock]] shared ([[raw-batch-roundup-2026-09-03]]). Terms not given.
 - **Product surface**: **Droid** agents automate the coding→testing→deployment pipeline; a **Factory Desktop App** with **Design Mode** (2026-07-28) lets Droid build artifacts like `.pptx` slide decks previewable in-browser and editable by natural-language instruction (*"highlight the L3+ bars in orange"*) — the [[karpathy-html-output-taxonomy-2026-05-08|render-the-output]] pattern applied to presentations.
 - **Positioning**: markets the full *"Software Factory"* dashboard framing (live pipeline, automations, throughput, validations, merged PRs, incident telemetry) — a dev-org control plane, not just an IDE assistant. Competes with [[claude-code]], [[codex]], and [[anysphere|Cursor]] in the coding-agent market, but pitched at the **org/pipeline** level.
 - **Open Secure AI Alliance** (2026-07-28): Factory joined the NVIDIA-backed alliance to *"build and share open tools for securing AI systems"* — an agent-security posture signal (pairs with the [[prompt-injection]] threat surface).

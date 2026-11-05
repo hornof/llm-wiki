@@ -3,12 +3,12 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-10-29
+last_updated: 2026-11-05
 ---
 
 ## What It Is
 
-> **Successor (2026-10-23): Kimi K3.1 Pro**, plus a faster Highspeed variant. Both are live on Moonshot's API, and Pro's open weights are planned by 2026-11-04. See [[kimi-k3-1-pro-launch-2026-10-23]]. K3.1 Pro reportedly scores 55 on the Artificial Analysis index against K3's 44, and ranks #8 vs K3 Max's #17 in Code Arena WebDev. K3 is still the current *open-weights* release until the K3.1 weights ship.
+> **Successor (2026-10-23): Kimi K3.1 Pro**, plus a faster Highspeed variant. Both are live on Moonshot's API, and Pro's open weights are planned by 2026-11-04. **Resolved 2026-11-05: the K3.1 Pro weights shipped** (2.8T total, 104B active; [[ainews-swapping-season-2026-11-04]]). See [[kimi-k3-1-pro-launch-2026-10-23]]. K3.1 Pro reportedly scores 55 on the Artificial Analysis index against K3's 44, and ranks #8 vs K3 Max's #17 in Code Arena WebDev. K3 was the current *open-weights* release until then.
 
 **Kimi K3** is [[moonshot-ai|Moonshot AI]]'s new flagship — a **2.8-trillion-parameter Mixture-of-Experts model (≈50B active, "2.8T-A50B")**, billed as **the largest open model ever released**. Successor to the K2 line ([[movez-kimi-opus-300-agent-self-improving-loop-2026-06-18|K2.6]]). The headline framing ([[dailybrief-roundup-2026-07-17|brief]]): *"Opus-class capability at Sonnet pricing"* — the open-model inflection where open weights compete on **capability *and* cost in the same tier**.
 

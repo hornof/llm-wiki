@@ -2,7 +2,7 @@
 name: Meta
 type: company
 status: active
-last_updated: 2026-10-14
+last_updated: 2026-11-05
 ---
 
 ## What It Is
@@ -11,6 +11,7 @@ Meta (formerly Facebook) is a US technology company operating Facebook, Instagra
 
 ## Recent Activity
 
+- **2026-11-04: buys Conductor** ([[dailybrief-roundup-2026-11-05]], Digg; [[ainews-swapping-season-2026-11-04]]). Conductor runs several coding agents in parallel, and AINews calls it the pioneer of the form factor everyone copied this year. The team joins Meta Superintelligence Labs. Its cloud service goes read-only on November 13 and shuts down on November 20, so current users need to move.
 - **2026-09-27: "Why I'm Building Muse" — a manifesto, and what it collides with** ([[alexandr-wang-why-im-building-muse-2026-09-26]]): Alexandr Wang's stated intent for Muse is *"a **second mind**… a general manager whose whole job is to find out what you want and make sure it happens"*, against a world that is *"a maze of forms and **gatekeepers** and schedules and obstacles."*
   > **No mechanism, no capability claim, no number** — folded as positioning, not evidence. It is worth keeping for the collision: the manifesto treats obstacles as friction to route around, and the product's first month produced **[[amazon|a gatekeeper that blocked it]]**, an NYT rave for tracking credit-card spending, and [[gregisenberg-escalate-to-human-button-2026-09-25|Isenberg's complaint]] that the general manager cannot escalate to a human. **Some of the maze turns out to be counterparties with their own interests.** *(Wang's role and affiliation deliberately not asserted — unverified here.)*
 

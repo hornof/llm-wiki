@@ -3,7 +3,7 @@ name: Antigravity
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-02
+last_updated: 2026-11-05
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ last_updated: 2026-10-02
 
 ## Traction Signals
 
+- **2026-11-05 — Cheminformatics Skills from Google DeepMind** ([[deepmind-antigravity-cheminformatics-2026-11-05]]): turns Antigravity into a drug-design workbench. The model plans and reasons; RDKit does every molecular calculation. DeepMind's walkthrough goes from literature search to proposed molecules with synthesis routes in about an hour.
 - **2026-06-27** — listed as a cross-compatibility target in the [[google-agents-cli-launch-akshay-pachaar-walkthrough-2026-06-27|google/agents-cli launch]]: *"Works seamlessly with: Antigravity CLI • Claude Code • Codex • and any other coding agent."*
 - 9+ text mentions across wiki source pages before this page existed.
 
