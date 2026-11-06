@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-11-03
+last_updated: 2026-11-06
 ---
 
 ## What It Is
@@ -99,6 +99,9 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-05: METR's assessment — AI R&D about twice as fast, most key evidence redacted** ([[metr-anthropic-ai-rd-acceleration-2026-11-05]]). METR estimates Anthropic is improving its models on well-specified tasks at roughly double its 2024–25 rate, mostly from its own AI use. Anthropic redacted most of the evidence METR found most informative and cut the compute-allocation check from the contract midway. → [[metr]], [[recursive-self-improvement]].
+- **2026-11-06 (reported): AI spending stalls on Ramp, and the IPO valuation falls** ([[ramp-ai-spending-stalls-2026-11-06]], TechCrunch). Token spend grew 1.5% across August and September while usage rose. TechCrunch says Anthropic's filing put the cost of its Fable 5.1 and Opus 5.5 price cuts at about $600M of revenue growth, and reports Bloomberg's valuation estimate falling from $2T to $1.2–1.3T.
+- **2026-11-05: Personal Finance in Claude** ([[dailybrief-roundup-2026-11-06]], Digg). Users connect bank and card accounts through Plaid, read-only, and ask about their spending.
 - **2026-11-02: amended S-1 — $895.4B of commitments, Q3 revenue near $17B, back to an operating loss** ([[anthropic-amended-s1-895b-commitments-2026-11-02]], Digg citing CNBC, Yahoo Finance and CoinDesk). Nearly all the commitments are compute and infrastructure, and they're future obligations: $447.5B before the end of 2030, the rest through 2045, and $69.8B due within twelve months. Q3 revenue grew about 47% on Q2, against 144% the quarter before, and higher costs ended Q2's operating profit. The $447.5B through 2030 lines up with the leak's ~$450B of cloud deals; the new total adds the years to 2045. *(Amended filing not read.)*
 - **2026-11-01 (reported): internal Claude use, priced at retail, passed employee pay in April** ([[anthropic-internal-ai-use-exceeds-pay-2026-11-01]], Business Insider citing the IPO filing). The comparison excludes stock awards and isn't cash spent. Internal use grew more than 250-fold from January to September, and Claude wrote more than 90% of the code added in September. The S-1's statements stop at June 30, so where the September figures come from is unchecked.
 - **2026-10-30: Max and Ultra plans; Ultra's five-hour limit goes** ([[anthropic-max-ultra-plan-rename-2026-10-30]], Digg and AINews). Max 5x becomes Max ($100) and Max 20x becomes Ultra ($200). Verified Ultra accounts lose the five-hour limit, and newer accounts stay limited until verified. Weekly limits are unchanged. AINews relays an unverified SemiAnalysis reconstruction: API margin about 92%, and subscriptions about 18% of revenue on more than half of compute.

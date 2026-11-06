@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-10-15
+last_updated: 2026-11-06
 ---
 
 ## Definition
@@ -129,6 +129,19 @@ The June section below records Jeffries and LeCun on **time** and **multiplicity
 
 *(Every item in this section is a headline or a vendor claim. Import AI 474 and 476 were never fetched; the Hinton paper was not fetched; the Zhipu claim has no primary. **This section records that the discourse moved, not that the capability arrived.**)*
 
+## The first outside measurement: METR at Anthropic (2026-11-05)
+
+**The section above said nothing in the record showed the loop at the lab level. METR has now measured it from inside one lab** ([[metr-anthropic-ai-rd-acceleration-2026-11-05]]). Its conclusions:
+
+- Anthropic is probably improving its models on well-specified tasks at **about twice** its March 2024–October 2025 rate, and METR *"would not be surprised"* if it were 1.3x or 3x. The benchmark figure is 1.9x (95% CI 1.5–2.8x).
+- **Not from more training compute**, and perhaps 80% from Anthropic's use of AI in its own research.
+- **Mostly AI as an assistant**, not autonomous research, though staff report "signs of life".
+- **No bottleneck found for the next 12 months**, hence a *"significant risk"* of faster acceleration.
+
+**How this fits the outer-loop distinction above.** It is still humans directing research with AI help, not a model improving its own weights. But it is the first evidence that the outer loop changes the lab's overall rate, not just a harness or a skill.
+
+**Read it with its limits.** Anthropic redacted most of the evidence METR found most informative, so the public is taking METR's judgment on trust. The measure is a benchmark index, which METR says could overstate progress on tasks that are hard to grade. And the skeptics' bottleneck argument isn't refuted, only unconfirmed: METR's view of the bottlenecks *"changed several times"*.
+
 ## Related Concepts
 
 - [[ai-labor-market-impacts]] — the Timeline-Calibration Hexangle includes the trajectory anchors that RSI accelerates or stalls
@@ -140,6 +153,7 @@ The June section below records Jeffries and LeCun on **time** and **multiplicity
 
 ## Resources
 
+- [[metr-anthropic-ai-rd-acceleration-2026-11-05]] — METR's assessment: Anthropic's AI R&D roughly 2x faster, mostly from AI use
 - [[anthropic-institute-when-ai-builds-itself-2026-06-04]] — Anthropic Institute primary publication on RSI; first-party-data-laden
 - [[import-ai-456-clark-rsi-radical-optionality-2026-05-11]] — Korinek RSI growth-regime modeling (upside-economic-bracketing)
 - [[import-ai-459-clark-oversight-protein-extinction-2026-06-01]] — Clark extinction-risk-pricing (downside-risk-bracketing)

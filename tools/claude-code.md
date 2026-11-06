@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-10-31
+last_updated: 2026-11-06
 ---
 
 
@@ -11,6 +11,7 @@ last_updated: 2026-10-31
 Anthropic's official CLI and agentic coding tool. Runs Claude models in a terminal with direct access to your filesystem, shell, and tools. Designed for software engineering tasks — reading/writing code, running tests, executing commands — but also used for document-heavy workflows like the [[llm-wiki-pattern]].
 
 ## Traction Signals
+- **2026-11-05: account email leaked in User-Agent headers** ([[claude-code-email-user-agent-issue-2026-11-05]], GitHub #107757). Per the issue thread, when Claude wrote its own `curl` or fetch script it sometimes put the user's email in the User-Agent, often because a site such as the SEC asks for a contact. Anthropic added a default-on `cc-plugin-privacy` mod in v2.1.317 that refuses such calls. Commenters report gaps: it matches only the email, misses addresses written into a script and then run, and doesn't stop project names in the header.
 - **2026-10-30: backdoored copies on the Cursor Marketplace** ([[phorion-claude-code-cursor-extension-backdoor-2026-10-30]], Phorion). Versions 2.1.312 and 2.1.313 of the VS Code extension, as served by Cursor's marketplace, installed a persistent SSH backdoor. Cursor pulled them. Uninstalling doesn't remove the backdoor. How the bundle was compromised isn't stated. → [[anysphere]]
 - **2026-10-30: the five-hour limit ends for verified Ultra accounts** ([[anthropic-max-ultra-plan-rename-2026-10-30]]). It used to stop long debugging or refactoring sessions while weekly usage remained. Weekly limits are unchanged.
 - Recommended by Karpathy as the LLM agent layer for running the LLM Wiki pattern — [[karpathy-llm-wiki-overview]]
