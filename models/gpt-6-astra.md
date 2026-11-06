@@ -3,7 +3,7 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 > [!update] Line extended — GPT-6.1 Terra (2026-10-26)
@@ -36,6 +36,7 @@ last_updated: 2026-11-05
 - **Claimed SOTA on computer-use and coding** (AINews headline) — positions Astra at the top of the agentic-tooling + coding-agent surface where [[claude-code]] / [[claude-fable-5|Fable]] and [[gpt-5-6|GPT-5.6]] compete.
 - **Unit-economics flip**: **~2.5× token cost** vs the prior generation, but **cheaper *per task*** — the framing being *"you're not paying for inference anymore, you're paying for solved problems"* (see [[ai-margin-collapse]]). Higher per-token price, fewer tokens/steps to a correct outcome.
 - **Cyber capability is the safety-gating axis** — the Preparedness process that slowed it (08-08) is the reason its launch is a governance precedent; pairs with OpenAI's [[openai|Daybreak / Daybreak for Frontline Defenders]] access-controlled cyber programs.
+- **Best model at social deduction** (Dwarkesh, 2026-11-05): top of his Blood on the Clocktower benchmark, about 430 Elo above Opus 4.6. Its edge is skepticism on the honest side, weighing each claim against the whole game ([[dwarkesh-clocktower-benchmark-2026-11-05]]).
 - *Benchmarks, context window, pricing ladder, and modality details not yet captured — headline-level only (AINews). Verify before external citation.*
 
 ## When to Use It

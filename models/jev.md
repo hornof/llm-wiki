@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-10-10
+last_updated: 2026-11-06
 ---
 
 ## What It Is
@@ -79,6 +79,8 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 - **[[loop-engineering]]** — Jev targets the judgment calls inside the loop, not the loop itself.
 
 ## Community Sentiment
+
+**Showing up in spend data (2026-11-06).** Ramp's economist Ara Kharazian says Jev is *"increasingly among the top performers on Ramp"*, and names it as one reason AI spend is flat while usage rises: shift cheap yes/no calls to Jev and *"your already cheap stuff gets even cheaper"* ([[ramp-ai-spending-stalls-2026-11-06]]). **First adoption signal from outside the TypeSafe and research circle.** *(One economist's remark in TechCrunch; no Jev spend figure given.)*
 
 **Independently evaluated — and the primary corrects this page (2026-09-28).** A **Carnegie Mellon** paper tests Jev as an LLM-as-judge substitute: **arXiv:2609.26550**, *"JEV-as-a-Judge: Accept When Confident, Escalate When Unsure"*, Yubo Li, Yidi Miao, Ramayya Krishnan and Rema Padman, submitted **2026-09-22** ([[jev-as-a-judge-arxiv-2609-26550]]). The wiki first folded this **secondhand** on 2026-09-27 from a practitioner thread ([[jev-as-judge-cmu-paper-and-plugin-evals-2026-09-27]]) and **overstated the failure**; the abstract, fetched 2026-09-28, is the version to trust.
 
