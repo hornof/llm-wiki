@@ -67,6 +67,7 @@
 - [[claude-opus-5-5]] — Anthropic's current flagship (launched 2026-09-22 into the frontier price war); claimed 66.4% on Terminal-Bench 4.0 vs 55.8% for the larger Fable 5.1, ~40% cheaper than Opus 5, effort as a per-role dial and a documented elapsed-time budget for agent teams — **all specs relayed secondhand; prompting guide not fetched**
 
 ## Concepts & Techniques
+- [[data-constrained-scaling]] — scaling laws for fixed data and many epochs; Q Labs prescribes ~7,000× Chinchilla's parameters at 10^29 FLOPs (extrapolated)
 - [[ai-native-service-companies]] — company category from Gustaf Alstromer's YC Summer 2026 RFS: sell the *outcome of a service done*, not the software tool used to do it; value capture moves off the seat/licence
 - [[developer-productivity-measurement]] — DORA → SPACE → DevEx → DX Core 4 lineage; the counterbalancing rule (throughput metrics must never stand alone) and why September 2026's agentic-coding claims supply Speed abundantly while Quality and Impact are empty
 - [[autoresearch]] — autonomous iterative research-loop pattern: search → fetch → synthesize → file into a knowledge base, running to a depth criterion rather than a single answer
@@ -236,6 +237,7 @@
 - [[john-langford]] — ML researcher (hunch.net); founding leader of Microsoft Research's AI Frontiers, which he says was dissolved into scaling-only Microsoft AI in 2026
 
 ## Companies & Labs
+- [[fal]] — generative-media inference (image, video, audio, 3D); $1.65B Series E+F (2026-11-03); two reporting levels, coding agents 3–4× engineering speed (founder claims)
 - [[a16z]] — Andreessen Horowitz; major AI-infra VC + open-weights-coalition co-lead + a16z-podcast platform; under DOJ antitrust probe (Clayton Act §8, 2026-08)
 - [[amazon]] — AWS + Anthropic's primary compute/capital partner; part of the 4-vendor compute cluster; CEO Andy Jassy (stub, created 2026-08-12)
 - [[anthropic]] — AI safety company; Constitutional AI, Claude models, MCP, Claude Code
