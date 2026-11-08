@@ -2,7 +2,7 @@
 name: Apple
 type: company
 status: active
-last_updated: 2026-11-05
+last_updated: 2026-11-08
 ---
 
 ## What It Is
@@ -11,6 +11,7 @@ Apple is the consumer-hardware and platform company whose AI strategy ("Apple In
 
 ## Traction Signals
 
+- **2026-11-07 (reported): Apple wants a Siri that keeps working toward goals between conversations** ([[dailybrief-roundup-2026-11-08]], Digg across 13 sources incl. Bloomberg's Gurman). CEO John Ternus reportedly pressed Craig Federighi to speed up AI work. iOS 27.3 beta app controls still act only on direct requests; Gurman guesses 2027 for an agent-like Siri, which Apple hasn't promised.
 - **2026-11-04 (reported): daily AI spending caps cut for some engineers, from $300 to $200** ([[dailybrief-roundup-2026-11-05]], Digg citing Bloomberg). Further cuts could take some to $100 and other teams to $25, while Apple pushes wider use. Compare [[anthropic-internal-ai-use-exceeds-pay-2026-11-01|Anthropic's own engineers spending more on Claude than their pay]] and Cognition tying limits to efficiency grades ([[cognition]], 10-18). Token budgets are becoming a management lever.
 - **2026-06-27 (reported): Paul Meade, a senior Apple Vision Pro executive, is leaving for OpenAI's hardware team** ([[paul-meade-apple-vision-pro-to-openai-hardware-2026-06-27]], TechCrunch). The brief reads it as a sign OpenAI's hardware effort is attracting senior talent. *(Single report; role at OpenAI not given.)*
 - **2026-09-14/15: iOS 27 ships a rebuilt Siri, and code shows Siri can be swapped for Claude or ChatGPT** ([[dailybrief-roundup-2026-09-15]], MacRumors + Digg): the rebuilt assistant adds conversational ability, personal-context and onscreen awareness, and app actions (English first, beta on iPhone 15 Pro / 16 and later). The **swappability** is the structural item — third-party LLM optionality inside Apple's default assistant slot, which makes iOS a **distribution surface** for [[anthropic]] and [[openai]] rather than only a competitor. Timeline and execution unclear; sourced from code inspection, not an Apple announcement. *(Not confirmed by Apple; no shipping date for third-party swap.)*
