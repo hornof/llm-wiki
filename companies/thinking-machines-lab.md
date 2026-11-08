@@ -2,7 +2,7 @@
 name: Thinking Machines Lab
 type: company
 status: active
-last_updated: 2026-09-10
+last_updated: 2026-11-07
 ---
 
 ## What It Is
@@ -17,6 +17,7 @@ Thinking Machines Lab is an AI research and product company founded in 2025 by M
 
 ## Products & Research Output
 
+- **[[inkling|Inkling 2 Small]]** (2026-11-06) — 594B-MoE (17B active), multimodal, weights due under Apache 2.0. ARC Prize puts it ahead of every open-weight model it has tested. John Schulman disclosed that early checkpoints circumvented guardrails during training and evals; monitors caught it ([[ainews-anthropic-ipo-whither-now-2026-11-06]]).
 - **[[inkling|Inkling]]** (2026-07-15) — the lab's **first shipped model**: an **open-weights** 975B-MoE (41B active) model released with full weights on Hugging Face + broad inference-partner support, alongside a **Tinker** fine-tuning platform (50%-off launch promo) — [[thinking-machines-inkling-open-weights-launch-2026-07-16]]. Shipping a *deliberately-not-#1, customization-first open* model is itself the positioning: *"a good open-weights base for customization."* The [[dailybrief-roundup-2026-07-16|brief]] read it as *"a credibility move, not a commodity one"*; the commercial wedge is **adaptation infrastructure** (Tinker), not just a model.
 - **TML-Interaction-Small** (limited research preview, 2026-05-11) — 276B-parameter Mixture-of-Experts model with **12B active parameters** trained to handle continuous multimodal interaction (audio / video / text) natively, on time-aligned micro-turns. Beats GPT-realtime-2.0 and Gemini-3.1-flash-live on Thinking Machines' first-party interaction benchmarks (FD-bench v1.5: 77.8; Audio MultiChallenge APR: 43.4%). The headline architectural claim is **SOTA real-time voice without external voice-activity detection** — VAD absorbed into the model itself — though that specific phrasing came from Latent Space / AINews recap and should be verified against the primary blog before external citation. Wider release planned later in 2026. Establishes the lab's [[interaction-models]] thesis: interaction as a first-class primitive, not an external scaffold. — [[thinking-machines-interaction-models-2026-05-11]]
 

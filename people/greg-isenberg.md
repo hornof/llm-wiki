@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-11-02
+last_updated: 2026-11-07
 ---
 
 ## Who They Are
@@ -27,6 +27,7 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 
 ## Notable Takes
 
+- **"building a company these days is basically a loop"** ([[gregisenberg-company-as-loop-2026-11-06]], 2026-11-06): acquire context, orchestrate agents on it, feed the data back, *"call humans like an api"*, repeat; *"the best context/faster loop wins"*. A thesis without numbers. The sharpest reply named the risk: data fed back in is increasingly agent-written. → [[loop-engineering]]
 - **"Fable 5 is kinda like fine china"** ([[greg-isenberg-fable-5-pricing-psa-fine-china-metaphor-2026-07-03|Jul 3 pricing PSA]]): *"Fable 5 is kinda like fine china. You don't pull it out to reheat leftovers. You save it for the meal that matters. I'd run your everyday stuff on Sonnet or Opus and point Fable at the one thing that actually needs the best model on earth."* **The wiki's first model-tier metaphor, and still the most useful one** — it is the [[claude-code|`opusplan`]] tiering argument made eighteen months before the flag existed.
 - **"Use the 1M context. That's Fable's real superpower and it's the default, not an upgrade"** ([[greg-isenberg-fable-5-pricing-psa-fine-china-metaphor-2026-07-03]]). His named use cases: **dump an entire codebase, a stack of contracts, or months of customer transcripts.** The framing that it is the default rather than an upgrade is the part practitioners kept repeating.
 - **Front-load the expensive jobs** ([[greg-isenberg-fable-5-pricing-psa-fine-china-metaphor-2026-07-03]]): *"The big refactor, the deep research report, the thing you'd hate to pay per-token for after July 8. Do those this weekend, not next."* **Adjacent to Mike Fishbein's *"the only barrier is the thought now"*** — both locate the bottleneck in deciding what to ask for rather than in the model.

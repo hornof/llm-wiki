@@ -2,7 +2,7 @@
 name: Company Brain
 type: concept
 maturity: emerging
-last_updated: 2026-09-24
+last_updated: 2026-11-07
 ---
 
 ## Definition
@@ -18,6 +18,8 @@ In Rauch's three-part anatomy (**Brain / Hands / Files**), storage is normally w
 > *"Imagine you want to run a memory consolidation cron job every night ('dreaming'). You can read/write to the files directly **without 'booting up' the agent's full computer**."*
 
 **Forgetting becomes a scheduled job against storage rather than a task the agent must be alive to perform.** That is a real answer to the gap, and it reframes it: the reason nobody owns pruning may be less about willingness than about the fact that, in a single-machine agent, there is no cheap place to put it. *(Vendor thread announcing Vercel Drives; no implementation or cost evidence.)*
+
+**Measured 2026-11-06** ([[anthropic-components-of-agent-memory-2026-11-06]]). Anthropic ran dreaming as a separate pass over transcripts. It fixed a wrong note in Pokémon that otherwise stalled the run, and it built a wiki over a 420M-token corpus that rose from 13% to 48% on graded questions over 128 sessions. One finding bears on the forgetting gap: memory folders that store what the environment already shows go stale, so Fable 5 kept 9 files where Sonnet 3.7 kept 413, and got further.
 
 ## Why It Matters
 
