@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-10-23
+last_updated: 2026-11-07
 
 ---
 
@@ -129,10 +129,23 @@ Rules 3 & 6 are scheduled/synthesis **loops**; rule 7 is **context engineering**
 
 Its own stated limit applies here too: *verification shows a fact matches its source, not that the source is true.* Scope differs: it's one batch over a closed corpus, not a stream like this wiki's.
 
+## A lab measures it — Anthropic's dreaming wiki (2026-11-06)
+
+[[anthropic-components-of-agent-memory-2026-11-06]]: Anthropic had Opus 5 agents build a linked wiki over about 350,000 Stainless documents (roughly 420M tokens) across 128 sessions, coordinated by a shared log. That is this pattern, with ingest and lint run as offline "dreaming" passes. Results:
+- **It compounds.** Score on 25 questions rose from 13% to 48% of graded criteria as sessions went from 2 to 128.
+- **Wiki plus search beats either alone.** 61% against 53% for search alone, and about 20,000 fewer tokens per question. Wiki alone peaked at 48%.
+- **It pays on questions that span documents.** 87% against 73% on merger questions that needed several documents; no clear gain on a task answerable from one document.
+- **It can fail by not abstracting.** On one task the wiki grew larger than the source files.
+- **Shared summary tables lose facts.** Agents writing one shared table kept 41 of 57 contract facts; one page per contract, quoting terms word for word, kept all of them. That is the same lesson as the [[#A measured build — the Enron Brain (2026-10-23)|Enron Brain]] and this wiki's quote-the-number rule, reached independently.
+- **A second pass fixes dangling links** (nine repointed, an index added), which is what this wiki's lint does.
+
+This is the first lab-run measurement of the pattern in the wiki, and it answers the [[#Key Risks|Key Risks]] question on index overflow in one way: keep the always-loaded layer small and link down to the rest, as Claude Code's `MEMORY.md` does with its 200-line / 25 KB load limit.
+
 ## Karpathy's Ongoing Use (Confirmed 2026)
 At AI Ascent 2026, Karpathy confirmed he still actively uses a personal LLM Wiki: "Anytime I see a different projection onto information, I always feel like I gain insight. So it's really just a lot of prompts for me to do synthetic data generation over some fixed data... I love asking questions about things." He frames it as a tool to enhance human *understanding* specifically — the bottleneck he identifies is not access to information but the ability to understand and direct. — [[karpathy-vibe-coding-agentic-engineering]]
 
 ## Resources
+- [[anthropic-components-of-agent-memory-2026-11-06]] — Anthropic measures a Claude-built wiki: 13% → 48% over 128 dreaming sessions; wiki + search 61% vs search 53%
 - [[karpathy-llm-wiki-gist]] — PRIMARY SOURCE: Karpathy's original gist
 - [[karpathy-llm-wiki-overview]] — Medium article overview of the pattern
 - [[reddit-llm-wiki-weekend-build]] — first-hand build experience, practical use-case guidance

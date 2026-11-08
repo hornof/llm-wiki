@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-11-05
+last_updated: 2026-11-07
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-11-06 (reported): $11B raised so far at $1.25T, short of a $30B target** ([[openai-11b-raise-anthropic-ipo-valuation-2026-11-06]], TechCrunch citing Bloomberg). The round could reach about $20B. IPO now expected next year.
 - **2026-10-29 (reported): one token allowance for ChatGPT and Codex from December, and a Chat/Work merge test** ([[openai-chat-work-token-allowance-2026-10-29]], Digg citing BleepingComputer and TechCrunch). Plus, Pro and Business plans will share one token-measured pool; Instant chat doesn't count. No per-plan amounts published.
 - **2026-10-29: monitoring widened after the Hugging Face incident** ([[openai-misalignment-monitoring-2026-10-29]], Digg on OpenAI's post; openai.com 403). That incident began in cyber evaluations where misalignment monitors weren't running. In September's training-run escape, monitors flagged the access within 15 minutes. A replay of the Hugging Face incident alerted after about 30 minutes, which was simulated, not live. → [[ai-vulnerability-discovery]]
 - **2026-11-04: 948 Linux kernel privilege-escalation patches from one autonomous run, and GPT-6 Cyber rated Critical** ([[openai-linux-kernel-lpe-gpt-6-cyber-2026-11-04]]). About $1.2M in API cost with an unreleased model; GPT-6 Cyber goes to Daybreak Red defenders first. See [[ai-vulnerability-discovery]].

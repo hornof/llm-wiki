@@ -2,7 +2,7 @@
 name: Microsoft
 type: company
 status: active
-last_updated: 2026-10-19
+last_updated: 2026-11-07
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-10-19
 **Microsoft Corp.** — the Azure hyperscaler, **[[openai|OpenAI's]] largest single investor and exclusive Azure distribution partner**, host of [[anthropic|Anthropic]] via Azure Foundry, and parent of Microsoft AI. **First paged 2026-07-03**, after several lints had flagged it as a pattern-watch: the [[satya-nadella|Nadella]] / Frontier Co. / $2.5B cluster on Jul 2 was net-new enough to force the page.
 
 ## Traction Signals
+
+- **2026-11-06: Microsoft Research's AI Frontiers group ends** ([[langford-end-of-ai-frontiers-2026-11-06]], [[john-langford]]'s blog). The roughly 50-person AIF, which built Autogen and the Fara computer-use agent, was reorganized into Microsoft AI in early September. Langford says MAI's ex-Inflection leadership is *"scaling, and aggressively not research"*, and that he and the rest of AIF's founding leadership have left. Pairs with the 2026-09-25 retreat to enterprise Copilot below.
 
 - **2026-10-19: Guardian Agents — "frontier models, regardless of their origin, cannot be trusted"** ([[microsoft-agents-insider-threats-2026-10-19]], TechCrunch). Agent monitoring within Project Perception, Defender detection of 60 agent types brought in by employees, task-scoped permissions and human approval for risky actions. Microsoft is also an inaugural member of NVIDIA's Open Agent Safety Platform, which can stop agents at the hardware level. **The third containment move in twelve days**, after [[#Execution Containers (Mxc) 1.0.0 — containment for agents (2026-10-07)|Execution Containers]] (10-07) and Nadella's "emergency brake" (10-10). → [[frontier-ai-governance]]
 

@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-11-06
+last_updated: 2026-11-07
 ---
 
 
@@ -11,6 +11,7 @@ last_updated: 2026-11-06
 Anthropic's official CLI and agentic coding tool. Runs Claude models in a terminal with direct access to your filesystem, shell, and tools. Designed for software engineering tasks — reading/writing code, running tests, executing commands — but also used for document-heavy workflows like the [[llm-wiki-pattern]].
 
 ## Traction Signals
+- **2026-11-06: auto memory loads only the first 200 lines or 25 KB of `MEMORY.md`**, per Anthropic's agent-memory post ([[anthropic-components-of-agent-memory-2026-11-06]]). The file acts as an index; the rest of memory is read on demand. The same post cites the Claude Code docs warning that longer instruction files reduce adherence.
 - **2026-11-05: account email leaked in User-Agent headers** ([[claude-code-email-user-agent-issue-2026-11-05]], GitHub #107757). Per the issue thread, when Claude wrote its own `curl` or fetch script it sometimes put the user's email in the User-Agent, often because a site such as the SEC asks for a contact. Anthropic added a default-on `cc-plugin-privacy` mod in v2.1.317 that refuses such calls. Commenters report gaps: it matches only the email, misses addresses written into a script and then run, and doesn't stop project names in the header.
 - **2026-10-30: backdoored copies on the Cursor Marketplace** ([[phorion-claude-code-cursor-extension-backdoor-2026-10-30]], Phorion). Versions 2.1.312 and 2.1.313 of the VS Code extension, as served by Cursor's marketplace, installed a persistent SSH backdoor. Cursor pulled them. Uninstalling doesn't remove the backdoor. How the bundle was compromised isn't stated. → [[anysphere]]
 - **2026-10-30: the five-hour limit ends for verified Ultra accounts** ([[anthropic-max-ultra-plan-rename-2026-10-30]]). It used to stop long debugging or refactoring sessions while weekly usage remained. Weekly limits are unchanged.
@@ -230,6 +231,10 @@ By June 2026 the practitioner-content register elevates above harness-engineerin
 **Cherny context-rot counter-claim** ([[bcherny-5-tips-opus-autonomous-2026-06-05|2026-06-08 X reply]]): *"Context rot isn't a thing with 4.8 imo"* — direct contradiction of [[linas-beliunas-claude-goal-guide-2026-05-14|Linas's "context rot silently degrades long runs"]] at the Anthropic-creator voice layer; resolution-pending.
 
 **19-hour `/goal` receipt** (Ray Amjad via [[bcherny-5-tips-opus-autonomous-2026-06-05]]): *"I just had a goal running for 19 hours which verified almost 300 user flows with Chrome."* Cherny endorses (*"Nice!"*).
+
+## Verification-pending
+
+- **Apiiro: "Claude Code leaks passwords in 1,122 GitHub files" (2026-11-07 brief).** Headline only; apiiro.com returned 403 and no secondary coverage was found. Mechanism, date range and whether "Don't Ask Again" is the cause are all unconfirmed ([[dailybrief-roundup-2026-11-07]]).
 
 ## Resources
 - [[claude-code-team-code-review-2026-10-15]] — how the Claude Code team reviews: seven layers, risk-tiered human approval, incidents-as-evals, review convergence 2.08→1.32 rounds (2026-10-15)
