@@ -3,7 +3,7 @@ name: Garry Tan
 type: person
 affiliation: Y Combinator (President & CEO)
 signal_sources: [yc-rfs, twitter]
-last_updated: 2026-10-29
+last_updated: 2026-11-09
 ---
 
 ## Who They Are
@@ -16,6 +16,8 @@ President and CEO of Y Combinator. Long-time YC presence (former YC partner, the
 ## Their Current Focus
 
 Running YC. Public-facing leadership signal-posting on AI, startup ecosystem, and the YC RFS. Internal "G-Brain" concept (referenced by [[tom-blomfield]] in the Company Brain RFS) suggests Garry is also actively workshopping the personal/organizational-memory pattern at YC scale.
+
+- **2026-11-08 — "software factory" test of the implicit-state-machines prompt** ([[garrytan-implicit-state-machines-2026-11-08]]): quote-posts @Voxyz_ai's viral prompt and says he'll report back. No result yet; replies ask that the eval rerun old tests rather than count fixes.
 
 - **2026-10-29 — hosted GBrain** ([[garrytan-gbrain-hosted-2026-10-29]]): their agent memory system, now launchable from the terminal at gbrain.io as managed Postgres with pgvector. Setup means pointing any agent at the page. Replies ask what it writes and who can read it.
 

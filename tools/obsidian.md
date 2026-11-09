@@ -3,7 +3,7 @@ name: Obsidian
 type: tool
 category: platform
 status: mainstream
-last_updated: 2026-06-29
+last_updated: 2026-11-09
 dormant_since: 2026-09-20
 ---
 
@@ -11,6 +11,7 @@ dormant_since: 2026-09-20
 A local-first markdown note-taking app built around a personal knowledge graph. Notes are plain `.md` files stored on disk; Obsidian adds graph visualization, backlinks, and a plugin ecosystem on top. Made by Obsidian (the company).
 
 ## Traction Signals
+- **2026-10-27: a ten-step non-programmer guide to Claude Code plus Obsidian** as an LLM wiki, from @imryven ([[imryven-second-brain-claude-obsidian-guide-2026-10-27]]), and a follow-up listing eight open-source second-brain repos, most built on Obsidian or plain markdown ([[imryven-8-second-brain-repos-2026-11]]). The author says they did not run the guide end to end.
 - Large, active community of knowledge management practitioners ("PKM" space)
 - Frequently recommended as the visualization layer for the [[llm-wiki-pattern]]
 - Karpathy quote: "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase." — [[karpathy-llm-wiki-overview]]
