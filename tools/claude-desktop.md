@@ -3,7 +3,7 @@ name: Claude Desktop
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-07-10
+last_updated: 2026-11-09
 dormant_since: 2026-09-20
 ---
 
@@ -59,6 +59,8 @@ Example config skeleton (from [[personal-ai-agent-claude-desktop-mcp]]):
 
 - The seelffff tutorial is currently the only first-hand walkthrough in this wiki. Promote `gaining-traction` → `mainstream` only after multiple independent practitioner sources or a primary Anthropic announcement of Desktop-as-agent-platform.
 - Native scheduled-tasks claim is from the practitioner post and has not been verified against Anthropic primary docs in this wiki.
+- Native scheduled-tasks claim is from the practitioner post and has not been verified against Anthropic primary docs in this wiki.
+  > **Resolved 2026-11-09** ([[claude-code-desktop-scheduled-tasks-docs]]): Anthropic's docs describe scheduled tasks in the Desktop app, as local tasks (file access; run only while the app is open and the machine awake) or cloud tasks. Each run is a Claude Code session, so the seelffff expectation of cron *without Claude Code in the loop* was wrong in that detail. The feature exists.
 
 ## Resources
 

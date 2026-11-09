@@ -2,7 +2,7 @@
 name: LLM Wiki Pattern
 type: concept
 maturity: emerging
-last_updated: 2026-11-07
+last_updated: 2026-11-09
 
 ---
 
@@ -50,6 +50,8 @@ The schema (CLAUDE.md) is designed to be co-evolved by you and the LLM over time
 - **Headkey**: belief graphs with confidence scores
 - **NEBULA**: human-defined entity types + LLM-enriched connections
 - **CodeDNA**: opt-in wiki pointers (lighter-weight integration)
+- **Packaged Claude Code / Obsidian builds (2026-10/11):** claude-obsidian (AgriciDaniel, a Claude Code plugin) and obsidian-second-brain (eugeniughelbur, 43 slash commands, also runs on Codex, Gemini CLI and OpenCode), per [[imryven-second-brain-claude-obsidian-guide-2026-10-27]]. A listicle names eight more repos, mostly plain markdown with no database, including Garry Tan's gbrain and itechmeat's open-second-brain, whose nightly pass turns repeated corrections into rules ([[imryven-8-second-brain-repos-2026-11]]). None checked here.
+- **Running it on a schedule.** The same guide runs ingest nightly as a Claude Code Desktop scheduled task and lint weekly as a read-only review. Anthropic's docs confirm local tasks fire only while the app is open and the machine awake; a missed run is skipped, with one catch-up on wake ([[claude-code-desktop-scheduled-tasks-docs]]). The guide's other point applies here too: CLAUDE.md is context, not enforcement, so block deletes with permissions or hooks rather than rules.
 
 ## Organic adoption — the pattern named unprompted in the wild (2026-07-01)
 
