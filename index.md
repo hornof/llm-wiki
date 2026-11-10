@@ -237,6 +237,7 @@
 - [[john-langford]] — ML researcher (hunch.net); founding leader of Microsoft Research's AI Frontiers, which he says was dissolved into scaling-only Microsoft AI in 2026
 
 ## Companies & Labs
+- [[mercor]] — expert-contractor training data, evals and RL environments; $750M Series D at $20B (2026-11-10)
 - [[fal]] — generative-media inference (image, video, audio, 3D); $1.65B Series E+F (2026-11-03); two reporting levels, coding agents 3–4× engineering speed (founder claims)
 - [[a16z]] — Andreessen Horowitz; major AI-infra VC + open-weights-coalition co-lead + a16z-podcast platform; under DOJ antitrust probe (Clayton Act §8, 2026-08)
 - [[amazon]] — AWS + Anthropic's primary compute/capital partner; part of the 4-vendor compute cluster; CEO Andy Jassy (stub, created 2026-08-12)

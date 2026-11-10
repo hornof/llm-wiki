@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-10-29
+last_updated: 2026-11-10
 ---
 
 ## What It Is
@@ -31,6 +31,18 @@ Companion transparency artifact: **System Card: Claude Fable 5 and Claude Mythos
 
 Consistent with the [[claude-fable-5|Fable 5]] "english→code-interpreter at the frontier" capability arc; costs/times are self-reported viral-curation, not benchmarks.
 
+## Fable 5.2 (2026-11-09)
+
+Anthropic shipped **Claude Fable 5.2** and **Claude Mythos 5.2** on 2026-11-09, the day before its IPO roadshow ([[anthropic-claude-fable-mythos-5-2-2026-11-09]]). Anthropic now says outright that the two are **the same underlying model**: Fable has cyber and biology classifiers and is open to all, and Mythos goes to vetted organizations.
+
+- **Price:** $8/$40 per million input/output tokens, down from $10/$50 for 5.1. Fast mode costs $16/$80. API name `claude-fable-5-2`.
+- **Vendor benchmarks:** FrontierCode 2.0 49.1% at Xhigh (Opus 5.5: 45.5%). At High effort it matches Opus 5.5's best score for about half the cost per task.
+- **Independent results** ([[ainews-fable-5-2-roadshow-2026-11-09]]): #1 on the Artificial Analysis index at 65. But it spends more tokens: SemiAnalysis's cost per task rose 31% despite the lower price, because it writes far more tests and spawns checking subagents. Several evals found **Max and Xhigh scoring below High**, a dip only Fable models show. Not ahead on Terminal-Bench 4.0, finance, legal or AI-R&D tasks.
+- **AI R&D deliberately held back** to about Opus 5.5's level in kernel optimization and LLM architecture work, by training rather than at inference. This replaces the earlier "silently restricts" description below with Anthropic's own account.
+- **Blocked queries fall back** to Opus 4.8 for cyber and Opus 5 for biology. Blocks are down about 55% from 5.1.
+- **Data retention:** 30 days for safety monitoring unless the customer qualifies for zero retention or the new Enterprise Frontier Safeguards beta.
+- **Prompting tip** ([[willison-prompting-fable-5-2-ownership-2026-11-10]]): tell it the codebase is its own and it will restructure rather than add on top. In Anthropic's small-task tests it merged repeated code about half the time with that sentence and under a tenth without.
+
 ## Strengths & Weaknesses
 
 **Strengths**:
@@ -51,6 +63,7 @@ Consistent with the [[claude-fable-5|Fable 5]] "english→code-interpreter at th
 - Public-tier frontier-capability tasks
 - General-purpose reasoning, coding, agentic workflows
 - **Avoid** if task involves frontier-LLM-development (silently-restricted; 0.03% of traffic)
+- **2026-11-09, Anthropic's own guidance for 5.2:** start with [[claude-opus-5-5|Opus 5.5]] for most coding and knowledge work, and move up to Fable only for the most ambitious open-ended technical tasks. Use Medium (the default) or High effort; independent evals found Max underperforming ([[ainews-fable-5-2-roadshow-2026-11-09]]).
 
 ## Benchmarks
 
@@ -148,8 +161,11 @@ Per [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|David Sac
 
 - System Card PDF deep-fetch — specific benchmarks + safety eval results
 - Specific Fable 5 vs Mythos 5 capability gap (quantitative)
+  > **Resolved 2026-11-10** ([[anthropic-claude-fable-mythos-5-2-2026-11-09]]): for 5.2, Anthropic says Fable and Mythos are the same model and the gap is the safeguards. Its benchmark table gives Mythos 5.2 "without safeguards" scores on the cyber and protein tasks, where Fable's classifiers block most of the work.
 - Specific Fable 5 pricing / API access tier / rate-limit framework
+  > **Resolved 2026-11-10 for 5.2** ([[anthropic-claude-fable-mythos-5-2-2026-11-09]]): $8/$40 per million tokens; subscribers on Pro and Team standard seats can spend up to 50% of the weekly limit on Fable. Fable 5.1 was $10/$50 ([[ainews-fable-5-2-roadshow-2026-11-09]]). Fable 5.0's own price is still not captured.
 - Specific "silently-restricts" implementation detection mechanism
+  > **Partly answered 2026-11-10** ([[anthropic-claude-fable-mythos-5-2-2026-11-09]]): for 5.2 the restriction is done in training, not at serving time (*"We do not alter these capabilities as the model is being served"*, per Anthropic). Whether the same was true of Fable 5 is not stated.
 - Whether 0.03%-of-traffic figure is Anthropic-disclosed or analyst-estimated
 
 *(2026-10-21 backlog triage: 2 items removed. Taelin's critique is tracked once, on [[victor-taelin]]; an Anthropic response is a watch item, not a question.)*

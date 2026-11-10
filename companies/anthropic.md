@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-11-08
+last_updated: 2026-11-10
 ---
 
 ## What It Is
@@ -99,6 +99,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-10: IPO roadshow launches** ([[anthropic-ipo-roadshow-launch-2026-11-10]]). 825M Class A shares, 801.35M of them from Anthropic, at $70–78 a share, on Nasdaq as **ANT**, with Goldman Sachs and Morgan Stanley. At the range, Anthropic's own shares raise roughly $56–62.5B before the underwriters' option. The notice gives no valuation or share count outstanding, so the implied market value is not on the page.
+- **2026-11-09: Claude Fable 5.2 and Mythos 5.2** ([[anthropic-claude-fable-mythos-5-2-2026-11-09]]), shipped the day before the roadshow. Same model behind both names, 20% cheaper per token, AI-R&D ability deliberately held to Opus 5.5's level. Anthropic says *"Over 90% of the changes merged into Anthropic’s core codebase are now written by Claude"*. See [[claude-fable-5]].
 - **2026-11-07 (reported): Public First, a group backed in part by Anthropic, says it spent more than $63M in the midterms** backing candidates who favor stricter AI oversight, several of whom won ([[dailybrief-roundup-2026-11-08]], Digg citing Bloomberg). Digg names Dario Amodei among its funders. The spend figure is the group's own.
 - **2026-11-05: METR's assessment — AI R&D about twice as fast, most key evidence redacted** ([[metr-anthropic-ai-rd-acceleration-2026-11-05]]). METR estimates Anthropic is improving its models on well-specified tasks at roughly double its 2024–25 rate, mostly from its own AI use. Anthropic redacted most of the evidence METR found most informative and cut the compute-allocation check from the contract midway. → [[metr]], [[recursive-self-improvement]].
 - **2026-11-06 (reported): AI spending stalls on Ramp, and the IPO valuation falls** ([[ramp-ai-spending-stalls-2026-11-06]], TechCrunch). Token spend grew 1.5% across August and September while usage rose. TechCrunch says Anthropic's filing put the cost of its Fable 5.1 and Opus 5.5 price cuts at about $600M of revenue growth, and reports Bloomberg's valuation estimate falling from $2T to $1.2–1.3T.
