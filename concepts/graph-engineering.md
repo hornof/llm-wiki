@@ -3,6 +3,7 @@ name: Graph Engineering
 type: concept
 maturity: emerging
 last_updated: 2026-09-08
+dormant_since: 2026-11-10
 ---
 
 ## Definition
