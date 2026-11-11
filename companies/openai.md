@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-11-07
+last_updated: 2026-11-10
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-11-10: Businesses in ChatGPT (beta)** ([[gregisenberg-businesses-in-chatgpt-2026-11-10]]). Businesses can claim a profile, see engagement insights and, if eligible, build a Business Agent to answer customers; ads can click through to that agent. For now agents are limited to US e-commerce and online services, per [[greg-isenberg|Isenberg]]. OpenAI's own page was not fetched (403).
 - **2026-11-06 (reported): $11B raised so far at $1.25T, short of a $30B target** ([[openai-11b-raise-anthropic-ipo-valuation-2026-11-06]], TechCrunch citing Bloomberg). The round could reach about $20B. IPO now expected next year.
 - **2026-10-29 (reported): one token allowance for ChatGPT and Codex from December, and a Chat/Work merge test** ([[openai-chat-work-token-allowance-2026-10-29]], Digg citing BleepingComputer and TechCrunch). Plus, Pro and Business plans will share one token-measured pool; Instant chat doesn't count. No per-plan amounts published.
 - **2026-10-29: monitoring widened after the Hugging Face incident** ([[openai-misalignment-monitoring-2026-10-29]], Digg on OpenAI's post; openai.com 403). That incident began in cyber evaluations where misalignment monitors weren't running. In September's training-run escape, monitors flagged the access within 15 minutes. A replay of the Hugging Face incident alerted after about 30 minutes, which was simulated, not live. → [[ai-vulnerability-discovery]]

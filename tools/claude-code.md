@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-11-07
+last_updated: 2026-11-10
 ---
 
 
@@ -237,6 +237,7 @@ By June 2026 the practitioner-content register elevates above harness-engineerin
 - **Apiiro: "Claude Code leaks passwords in 1,122 GitHub files" (2026-11-07 brief).** Headline only; apiiro.com returned 403 and no secondary coverage was found. Mechanism, date range and whether "Don't Ask Again" is the cause are all unconfirmed ([[dailybrief-roundup-2026-11-07]]).
 
 ## Resources
+- [[reddit-repos-to-master-claude-code-2026-11-09]] — five learning repos with star counts: learn-claude-code (build a mini Claude Code in 17 lessons), claude-code-best-practice, awesome-claude-code, gstack, ECC (2026-11-10)
 - [[claude-code-team-code-review-2026-10-15]] — how the Claude Code team reviews: seven layers, risk-tiered human approval, incidents-as-evals, review convergence 2.08→1.32 rounds (2026-10-15)
 - [[claudedevs-code-review-ga-2026-10-15]] — Code Review GA on Team/Enterprise; Quick/Standard/Deep per repo; ~3× faster than preview (vendor claim) (2026-10-15)
 - [[anthropic-redesigning-source-control-2026-10-13]] — Scion/Antique replace Git and PRs in Anthropic's monorepo; 2,500 → 30,000+ changes/day May→Sep (2026-10-13)

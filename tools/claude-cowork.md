@@ -3,7 +3,7 @@ name: Claude Cowork
 type: tool
 category: platform
 status: gaining-traction
-last_updated: 2026-10-17
+last_updated: 2026-11-10
 ---
 
 ## What It Is
@@ -31,6 +31,7 @@ Surface details: no CLI, no terminal, no config files. Default model is **Claude
 > **Current-state refresh (2026-08-12, [claude.com/product/cowork](https://claude.com/product/cowork))**: Cowork has broadened well past the "tab in Claude Desktop" framing. It now runs on **desktop** (macOS, Windows x64/arm64, Linux), with **web rolling out** and **mobile in beta** (+ ChromeOS via Play Store) — *"tasks you can steer from anywhere,"* with **cross-platform continuity**. New capabilities surfaced: **visual step-by-step transparency** (files opened, tools used, decisions made), **unattended operation** (tasks run while you're offline), and **parallel task handling**. An **effort control** (alongside the model selector) lets you dial how deeply Claude thinks per task. **Availability**: requires a **paid plan** — included with **Enterprise**; **Sonnet 4.6 is the default** on Free/Pro tiers where available. Enterprise adds **admin controls, spend management, usage analytics, Analytics API + OpenTelemetry observability, and private plugin marketplaces**. Also note the **domain migration**: Anthropic's product pages moved from `anthropic.com/product/*` to **`claude.com/product/*`**.
 
 ## Traction Signals
+- **2026-11-10: Claude Sheets, Whiteboards and Data, plus interactive connectors** ([[claude-sheets-whiteboards-data-2026-11-10]]). Three new artifact types join Docs, Slides and Design in the main Claude interface. Sheets and Whiteboards are in beta on paid plans, and Data (formerly Dashboards) is generally available. Interactive connectors put partner apps (Adobe, Atlassian, Box) inside the Claude window, and Anthropic says its marketplace lists more than 9,000 connectors and plugins. With Slides in September, Claude now covers most of what an office suite does.
 - **2026-10-16: [[boris-cherny|Cherny]]: "Don't sleep on Claude Slides. This is how I make slide decks now"** ([[raw-batch-roundup-2026-10-17]]). The reply worth keeping is his answer to whether it is tied to the web app: **"Claude Code in a terminal can make a slides artifact."** So Slides is an artifact type that any Claude surface can produce, not a feature of one app. One commenter, who trains enterprise staff, says **"the legacy [[claude-design|Claude Design]] tool"** is retiring and users must re-learn. That is unconfirmed and single-sourced, but worth checking against the claude-design page. *(Creator endorsement of his own company's product; replies are anecdotal.)*
 
 - **Named publicly 2026-05-05** as a plugin host alongside [[claude-code]] in the [[claudeai-financial-services-agents-2026-05]] launch; one of three deployment surfaces for Claude for Financial Services agents

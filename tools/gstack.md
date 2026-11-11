@@ -3,7 +3,7 @@ name: gstack
 type: tool
 category: software-factory
 status: emerging
-last_updated: 2026-10-21
+last_updated: 2026-11-10
 ---
 
 ## What It Is
@@ -21,6 +21,7 @@ Companion but separate project ([github.com/garrytan/gbrain](https://github.com/
 
 ## Traction Signals
 
+- **GitHub, 2026-11-10:** ~141.1k stars (`gh api`), up from ~137.2k on 2026-10-21. Listed in a five-repo r/claudeskills "master Claude Code" post ([[reddit-repos-to-master-claude-code-2026-11-09]]); ECC in the same list has about 300.8k.
 - **GitHub, 2026-10-21:** ~137.2k stars on `garrytan/gstack` (`gh api`), up from the README's 135K+ on 2026-10-01.
 - **2026-10-16:** the companion GBrain launched as a product on Product Hunt (see gbrain above).
 - **Cited as the reference point for two October positions:** Osmani's 25-skill pack is read against it ([[addyosmani-agent-skills-repo-2026-10-03]]), and DHH's "barely any skills" setup against it ([[dhh-no-magic-sauce-harness-setup-2026-10-06]]).
