@@ -29,7 +29,7 @@ Cross-reference index for `Daily Briefs/2026-11-10.md`. Three items got primary 
 ## Headline only
 
 - **Gemini Robotics 2.5** (DeepMind, fetched): Google's *"most capable vision-language-action (VLA) model to date"*, tested on *"over 200 distinct tasks"* and *"rolling out to our robotics partners"*. Not folded further; no deployment data.
-- **Bloomberg via Digg: Anthropic office tools** including *"Claude Sheets, a video call assistant and a data dashboard"*. Not fetched.
+- **Bloomberg via Digg: Anthropic office tools** including *"Claude Sheets, a video call assistant and a data dashboard"*. Not fetched. *Since ingested from Anthropic's article (2026-11-10): [[claude-sheets-whiteboards-data-2026-11-10]]. Anthropic's list is Sheets, Whiteboards and Data; it doesn't mention a video call assistant.*
 - **Kora**, an AI-native OS with a Qualcomm partnership, 2027 launch (Digg). Not fetched.
 - **Stanford CS146S**, **Import AI 480**. Not fetched.
 - Digg: Ring's $250 drone, Adobe Premiere Generative Remove. Headlines only.

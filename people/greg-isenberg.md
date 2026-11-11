@@ -3,7 +3,7 @@ name: Greg Isenberg
 type: person
 affiliation: Independent founder + investor; host of Startup Ideas Podcast (`@startupideaspod`)
 signal_sources: [twitter, podcast]
-last_updated: 2026-11-07
+last_updated: 2026-11-10
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Greg Isenberg is an **independent founder + investor** and host of **Startup Ide
 
 ## Their Current Focus
 
+- **2026-11-10: Businesses in ChatGPT as "the google my business moment for ai"** ([[gregisenberg-businesses-in-chatgpt-2026-11-10]]). He expects an agency business in claiming and tuning business profiles, and calls the product feed the new SEO. His own caveat: people may prefer their own agent to talk to a brand's agent for them.
 - **2026-11-01: Opus 5.5 and would-be video creators** ([[gregisenberg-opus-5-5-video-creators-2026-11-01]]): a two-sentence prediction that millions will start making videos within two years without editing skills. No workflow given. The replies mostly say editing was never the bottleneck; having something worth filming was.
 
 - **The missing "escalate to human" button (2026-09-25)** ([[gregisenberg-escalate-to-human-button-2026-09-25]]): *"Every personal agent right now is fully AI. Muse, Instinct, all of them… there's the 1 thing a week that needs an actual person. Right now I'm the person."*
