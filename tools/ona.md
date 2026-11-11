@@ -2,12 +2,15 @@
 name: Ona
 type: tool
 category: platform
-status: acquisition-target
+status: acquisition-announced-close-unconfirmed
 last_updated: 2026-08-18
 dormant_since: 2026-10-21
 ---
 
 ## What It Is
+
+> [!note] On `status: acquisition-announced-close-unconfirmed` (2026-11-10 lint)
+> The tool schema has no value for an acquired product. This page follows the wiki's convention for acquisitions (see `hugging-face`, `anysphere`). OpenAI announced it would acquire Ona on 2026-06-16 ([[openai-ona-acquisition-deployment-simulation-2026-06-16]]). The wiki has no source on whether the deal closed. Until 2026-11-10 this field read `acquisition-target`.
 
 **Ona** is a **persistent cloud agents platform** — provides long-running stateful environments for AI agents, distinguishing from standard prompt-and-return agent-deployment patterns. As of 2026-06-16, Ona is an **acquisition target of [[openai|OpenAI]]** (announcement Jun 16; price + closing-date verification-pending). Wiki-tracked primarily for the **OpenAI-Ona acquisition event** (extends OpenAI's Codex platform to long-running-stateful-agent-environment deployment).
 

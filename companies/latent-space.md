@@ -1,43 +1,46 @@
 ---
 name: Latent Space
 type: company
-focus: canonical-AI-research-podcast-and-newsletter canonical-publication
-status: gaining-traction
-last_updated: 2026-06-25
+status: active
+last_updated: 2026-11-10
 ---
 
 ## What It Is
 
-**Latent Space** is a canonical-AI-research-podcast-and-newsletter canonical-publication producing canonical-1000-word-tier canonical-interviews with canonical-frontier-AI canonical-direct-voices. Wiki-tracked as canonical-anchor-tier canonical-publication via canonical-1-day-2-interview canonical-cadence demonstrated Jun 24-25 (Gray Swan + Databricks). **2 canonical-substantive surfaces** in canonical-2-day window.
+**Latent Space** is an AI-engineering publication and podcast run by [[swyx]] (Shawn Wang) and Alessio Fanelli. It publishes long interviews with builders at labs and startups, essays, and **AINews**, a daily digest of AI Twitter and Reddit that is now *"a section of Latent Space"* ([[ainews-fable-5-2-roadshow-2026-11-09]]). It is the most-used secondary source in this wiki: 24 source pages carry a latent.space URL, from May to November 2026.
 
 ## Traction Signals
 
-- **2026-06-25: Databricks (Matei Zaharia + Reynold Xin) canonical-frontier-ecosystem-must-be-open canonical-interview** ([[databricks-frontier-ecosystem-must-be-open-zaharia-xin-latent-space-2026-06-25]]) — canonical-2-co-founder canonical-Databricks-direct-voice canonical-cluster anchor.
-- **2026-06-24: Gray Swan (Zico Kolter + Matt Fredrikson) canonical-Red-Teaming-after-Mythos canonical-1000-word interview** ([[dailybrief-roundup-2026-06-24]]) — canonical-AI-security-firm canonical-anchor-tier.
-- **Canonical-1-day-2-interview canonical-publication canonical-cadence** = canonical-anchor-tier canonical-validation pattern.
+- **Source volume.** 24 source pages link to latent.space, the most of any publication the wiki ingests. Since late October most are AINews issues, which became the wiki's usual route to first independent evaluation results on new models ([[ainews-fable-5-2-roadshow-2026-11-09]], [[ainews-anthropic-ipo-whither-now-2026-11-06]], [[ainews-swapping-season-2026-11-04]]).
+- **2026-11-02:** Legora's CTO on building legal agents without seeing customer data ([[legora-lauritzen-legal-agents-2026-11-02]]).
+- **2026-10-27:** how Anthropic builds Claude with Claude, "separating the brain from the hands" ([[latent-space-opus-5-5-brain-hands-2026-10-27]]).
+- **2026-07-08:** *The Field Guide to Fable* ([[latent-space-field-guide-to-fable-2026-07-08]]).
+- **2026-06-25:** Databricks' Matei Zaharia and Reynold Xin on why the frontier ecosystem must be open ([[databricks-frontier-ecosystem-must-be-open-zaharia-xin-latent-space-2026-06-25]]).
+- **2026-06-24:** Gray Swan's Zico Kolter and Matt Fredrikson on red-teaming after Mythos ([[dailybrief-roundup-2026-06-24]]).
+- **2026-05-13:** the "End of Finetuning" issue ([[latentspace-end-of-finetuning-2026-05-13]]).
 
 ## Key People
 
-- Verification-pending Latent Space canonical-editor + canonical-host canonical-roster.
-- **swyx** — canonical-Latent-Space-author canonical-attribution (verification-pending current-canonical-role).
+- [[swyx]] — founder, co-host, AINews author
+- Alessio Fanelli — co-host (no wiki page)
 
 ## How to Use It
 
-- canonical-1000-word-tier canonical-interview canonical-format = canonical-long-form-canonical-direct-voice canonical-publication-tier.
-- canonical-AI-research-podcast canonical-format.
-- canonical-AI-newsletter canonical-substack canonical-distribution.
+- **AINews** for a fast read on how a model release landed: it gathers eval-group and practitioner posts within a day. Every number in it is second-hand, so follow its links to the original post before citing one.
+- **Interviews** for how a specific team builds, in their own words. They are long and are better read as transcripts than listened to.
 
 ## Compared To
 
-- **Vs. [[dwarkesh-patel]] *The Dwarkesh Podcast***: Latent Space canonical-publication canonical-vendor-multi-author tier vs Dwarkesh canonical-individual-host canonical-tier.
-- **Vs. [[jack-clark]] *Import AI***: Latent Space canonical-interview-format vs Import AI canonical-weekly-newsletter canonical-summary-format.
-- **Vs. canonical-Sequoia-Capital canonical-AI-Ascent**: Latent Space canonical-recurring-podcast canonical-publication vs canonical-AI-Ascent canonical-annual-conference canonical-format.
+- **[[dwarkesh-patel]]'s podcast**: also long-form interviews, but on research and big-picture questions, with one host. Latent Space is aimed at engineers building products.
+- **[[jack-clark]]'s *Import AI***: a weekly newsletter of research summaries with commentary. AINews is daily and aggregates social posts.
 
 ## Resources
 
-- [[databricks-frontier-ecosystem-must-be-open-zaharia-xin-latent-space-2026-06-25]] — Jun 25 Databricks canonical-interview (2nd substantive surface)
-- [[dailybrief-roundup-2026-06-24]] — Jun 24 Gray Swan canonical-interview (1st substantive surface)
-- [[gray-swan]] — paired canonical-1st-interview canonical-subject
-- [[matei-zaharia]] — paired canonical-Databricks canonical-direct-voice canonical-interview canonical-subject
-- [[dwarkesh-patel]] — paired canonical-long-form canonical-AI-interview canonical-cohort
-- [[jack-clark]] — paired canonical-AI-newsletter canonical-author canonical-cohort
+- [[ainews-fable-5-2-roadshow-2026-11-09]] — independent evals of Fable 5.2, one day after launch
+- [[latent-space-opus-5-5-brain-hands-2026-10-27]] — Anthropic's internal use of Claude
+- [[latent-space-deepseek-inference-economics-2026-10-21]] — open-source inference economics
+- [[latent-space-field-guide-to-fable-2026-07-08]] — practitioner guide to Fable
+- [[databricks-frontier-ecosystem-must-be-open-zaharia-xin-latent-space-2026-06-25]] — Databricks founders interview
+- [[gray-swan]], [[matei-zaharia]] — interview subjects with wiki pages
+
+*Rewritten 2026-11-10 (lint). The previous text was `canonical-` filler; the facts it held (two June interviews, swyx as author) are kept above.*
