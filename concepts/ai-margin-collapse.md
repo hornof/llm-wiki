@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-11-11
+last_updated: 2026-11-12
 ---
 
 ## Definition
@@ -16,6 +16,7 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 ## Current State
 
 - **A neocloud charges double for short contracts and still loses money (2026-11-11)** ([[techcrunch-coreweave-prepayments-2026-11-11]]). CoreWeave's Q3: $3.66B revenue, up 168%, against a $709M net loss and $846M of quarterly interest. It is funding growth with about $9B of expected customer prepayments and contract-backed loans, not unsecured debt. Short-term capacity sells at over $40M per megawatt a year against $20–25M on four- and five-year contracts, and prices rose about 25% in July. Some of its bond yields topped 15% in October. **Compute is scarce enough to raise prices, and lenders still treat the business as risky.** That updates the 2026-09-21 entry below: still unprofitable, but now with pricing power.
+  **Nebius the next day (2026-11-12)** ([[dailybrief-roundup-2026-11-12]], Digg): it beat revenue estimates, but shares fell. Capacity delays pushed some revenue into 2027, and it raised 2026 capex to about $27B, with $40–45B planned for 2027. It expects customer prepayments and asset-backed borrowing to cover 75–85% of next year's spending. **That makes two neoclouds in two days funding their buildouts mostly with customers' money.**
 - **A lab's serving margin, from its own filing (2026-10-26)** ([[anthropic-s1-public-filing-2026-10-26]]). Anthropic's H1 2026 cost of revenue was **$2.38B on $16.29B revenue, about 85%** (my arithmetic). Q2 was operating-profitable at an 8% margin.
   > **This cuts against the page's central claim, at least for now and for this lab.** Serving customers is profitable at a SaaS-like margin. The cost problem sits in training and future capacity: R&D was $9.7B in H1, and the filing names $120.5B with SpaceXAI, $44.9B with Microsoft and $245B of new obligations after June 30. The filing itself warns that agentic workloads could make compute *"increase disproportionately relative to the associated revenue"*. So the margin story moves from "inference doesn't pay" to "commitments are sized for revenue that hasn't arrived".
   > **Price pressure the same day:** OpenAI won Replit with 30%+ off and cut GPT-6.1 Terra to $1/$5 per million tokens, half GPT-5.6 Terra ([[replit-openai-discount-switch-2026-10-26]], [[gpt-6-1-terra-launch-2026-10-26]]). SpaceX leased $40B of GPUs from Apollo rather than borrowing, and Musk said debt markets have closed to GPU-only neoclouds ([[spacex-apollo-40b-gpu-lease-2026-10-26]]).

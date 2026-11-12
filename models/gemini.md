@@ -3,7 +3,7 @@ name: Gemini
 type: model
 provider: Google DeepMind
 status: available
-last_updated: 2026-11-11
+last_updated: 2026-11-12
 ---
 
 > **Status note:** `available` refers to Gemini 4 Argon, which has been generally available since 2026-10-13. **Gemini 4 Carbon** (2026-10-28) is restricted: cyber defenders first, then trusted partners in the Fairwind Program, with no public date yet. The status field doesn't fit that, the same gap as [[claude-mythos]].
@@ -24,6 +24,7 @@ Google's frontier model line, built by [[google-deepmind]]. This page covers the
 *This page was created 2026-10-28. On 2026-09-30 [[google-deepmind]] recorded the missing page as the wiki's most valuable page to create, and held off until a primary source was fetched.*
 
 **Gemini Decision 1 (2026-11-11)** ([[willison-gemini-decisions-api-2026-11-11]]): a decision model that scores yes/no, choice and rubric questions instead of writing text. It takes text, images, audio, video and PDFs, at 10 cents per million input tokens with output free. See [[jev]] for the category.
+  Independent numbers (2026-11-11, [[ainews-d-day-decision-models-2026-11-11]]): it ties Jev 1.14 at 66 on the Decision Index but costs more per task and is slower (211 ms vs 92 ms). Google says a small team built it in about six weeks.
 
 ## Strengths & Weaknesses
 

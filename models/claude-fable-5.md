@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-11-10
+last_updated: 2026-11-12
 ---
 
 ## What It Is
@@ -71,6 +71,7 @@ Anthropic shipped **Claude Fable 5.2** and **Claude Mythos 5.2** on 2026-11-09, 
 
 ## Community Sentiment
 
+- **2026-11-11: #1 on Agent Arena, and more effort isn't always better** ([[ainews-d-day-decision-models-2026-11-11]], second-hand). Fable 5.2 at Max ranks first across 4.7K real agentic sessions, about 1.6× Opus 5.5's score. It also costs more per task: a median of $7.30 against $5.50 for Opus 5.5. Artificial Analysis finds a higher model tier beats a higher effort setting: Opus 5.5 at xhigh outscores Sonnet 5.5 at max for 40% less per task. Vals says Fable's High setting is often cheaper and better than xhigh or Max.
 - **2026-10-29 — running a production game autonomously** ([[willison-spawn-autonomous-game-dev-2026-10-29]]). Spawn's founder says Fable 5, then 5.1, is what made hourly autonomous shipping possible, at over $3M a month in tokens. Opus 5.5 didn't manage it for them. One team's account, relayed by [[simon-willison]].
 
 - **2026-07-02 — "an operating systems tool, not a vibe coding tool"** ([[alex-finn-fable-5-operating-systems-audit-2026-07-02]], @AlexFinn): Finn spent 24 hours having Fable 5 audit and redesign his personal workflows (coding loops, research, local-model routing). It designed skills that act as his *"software factory"*: idea → spec → build → test and review. His advice: *"the first thing you should be doing with a model this high quality is completely redesigning the foundations of how you work. Not actually doing the work."* *(One practitioner's post; no measurements.)*
