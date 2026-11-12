@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-10-21
+last_updated: 2026-11-11
 
 ---
 
@@ -147,6 +147,14 @@ This is the cleanest counter this page holds to the floor-raising story, and it 
 **That is the opposite of the democratization claim accompanying essentially every tool launch this wiki has captured.**
 
 **The dissent is same-week and first-person.** [[garrytan-capy-harness-4x-2026-09-23]]: [[garry-tan|Tan]] reports 4× on his own PRs *"with no increase in time in-editor"* — an explicit denial that the speedup is paid for in attention. Neither side is measured, and the disagreement is exactly what [[developer-productivity-measurement|a change-failure rate and a DXI would arbitrate]]. Until someone publishes one, this resolves by whose experience you find more representative.
+
+## A spec and a test environment, or the agent can't check itself (AWS, 2026-11-11)
+
+[[aws-emulator-agents-2026-11-11]]: Swami Sivasubramanian, launching AWS Emulator, describes rebuilding a replication engine that first took him and a colleague about four months. He *"supervised the agent for four nights"* before noticing it had no way to check its results. With a spec and a test environment, the rebuild took about two hours.
+
+AWS then built the emulator itself the same way. Agents wrote tests from the public API models, corrected each test until it passed against real AWS, and then built the emulator until it passed too. The merge gate combines several security-review agents, a general reviewer and deterministic checks on which code agents may touch.
+
+**The engineer's job, in AWS's words:** build *"the specs, tests, and merge gates that decide when that work is correct."* That matches the outcome-validation section above, with a concrete case: the same agent was useless for four nights and done in two hours, and the only difference was something it could check its work against.
 
 ## Related Concepts
 - [[vibe-coding]] — the floor-raising complement; entry-level

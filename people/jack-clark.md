@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-10-29
+last_updated: 2026-11-11
 ---
 
 ## Who They Are
@@ -13,6 +13,8 @@ last_updated: 2026-10-29
 Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor of **Import AI**, a weekly Substack newsletter that has been one of the most-cited AI-policy + research-synthesis newsletters since 2017 (predates Anthropic). Clark's beat is the **intersection of AI capability and policy**: he reads heavily on the technical side and translates the implications for regulators, economists, and lab leadership. The Import AI archive functions as a structured weekly log of research and policy news, with Clark's editorial framing on what each item *means*.
 
 ## Their Current Focus
+
+- **Import AI 480 (2026-11-11)** ([[import-ai-480-clark-2026-11-11]]): leads with Physical Superintelligence's claim to have proved the Aaronson–Ambainis quantum-computing conjecture using a non-public Anthropic model, checked in Lean. Clark calls it more evidence that *"we’re in the early stages of the singularity"*. Also: Core Automation's training run across two clusters 9,000 miles apart, and Meta's Tactus glove for hand-manipulation data.
 
 - **Import AI 478 (2026-10-26)** ([[import-ai-478-clark-math-alignment-2026-10-26]]): Resolution autoformalized resolution of singularities in about a week with an orchestrator agent working from a 112-page plan, at an estimated $135,000 in tokens and about 600K lines of Lean. Clark's argument is that math tools like this can help alignment.
 

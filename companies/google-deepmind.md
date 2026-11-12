@@ -2,7 +2,7 @@
 name: Google DeepMind
 type: company
 status: active
-last_updated: 2026-11-10
+last_updated: 2026-11-11
 ---
 
 ## What It Is
@@ -29,6 +29,7 @@ Combine deep learning (then newly published by Hinton) with reinforcement learni
 
 ## Traction Signals
 
+- **2026-11-11: AlphaGenome 2** ([[deepmind-alphagenome-2-2026-11-11]]). Predicts how DNA variants change gene activity in specific cell types, taking the cell type as an input. Trained on over 107 million single-cell profiles. DeepMind reports it finds nearly twice as many causal variants as AlphaGenome 1 (30% vs. 16% on TenK10K). Free API for non-commercial research. See [[ai-for-science]].
 - **2026-11-10: AlphaProof Code verifies Signal's protocol code** ([[deepmind-alphaproof-code-signal-2026-11-10]]). Gemini Carbon agents wrote over six million lines of Lean proving security properties of Signal's compiled code in four weeks; humans reviewed the specifications and about 1% of the proof. Same week as Anthropic's 1,000-agent Lean formalization of Fermat's Last Theorem.
 - **2026-11-05: Cheminformatics Skills for Antigravity** ([[deepmind-antigravity-cheminformatics-2026-11-05]]). See [[ai-for-science]].
 - **2026-10-31: PlanAssist goes to 12 more English councils** ([[deepmind-planassist-uk-planning-2026-10-31]]). Gemini-based drafting of householder planning assessments, built with the UK government, Google Cloud and Faculty. DeepMind's pilot figures: officer time cut by up to 58%, and more than 70% of drafted reports approved with no edits. Officers keep the decision. Next is a 12-month beta on live applications.

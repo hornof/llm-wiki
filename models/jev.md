@@ -3,7 +3,7 @@ name: Jev
 type: model
 provider: TypeSafe AI
 status: available
-last_updated: 2026-11-06
+last_updated: 2026-11-11
 ---
 
 ## What It Is
@@ -77,6 +77,7 @@ TypeSafe names the lineage itself: *"the dream of neuro-symbolic AI… sometimes
 - **[[control-flow-agents]]** — the same instinct from the practitioner side (deterministic code holds the control flow, the model supplies judgment). Jev is that argument shipped as a model rather than a pattern.
 - **[[graph-engineering]]** — *"deterministic code controls predictable routing"* is listed there as an open hard problem; this is a vendor attacking it directly.
 - **[[loop-engineering]]** — Jev targets the judgment calls inside the loop, not the loop itself.
+- **Gemini Decision 1 and OpenAI's GPT-6 Luna decision model** (2026-11-11, [[willison-gemini-decisions-api-2026-11-11]]). Google's API copies Jev's three question types and even its "Noul" term. Both rivals charge 10 cents per million input tokens, with output free; Jev stays cheapest at 4.2 cents. Jev handles text and JSON only, OpenAI's adds images, and Gemini's covers text, images, audio, video and PDFs. Gemini returns graded probabilities where Jev and OpenAI return 1.0 or 0.0. The category now has three vendors with near-identical APIs.
 
 ## Community Sentiment
 
