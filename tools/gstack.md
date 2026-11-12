@@ -3,7 +3,7 @@ name: gstack
 type: tool
 category: software-factory
 status: emerging
-last_updated: 2026-11-10
+last_updated: 2026-11-12
 ---
 
 ## What It Is
@@ -21,6 +21,7 @@ Companion but separate project ([github.com/garrytan/gbrain](https://github.com/
 
 ## Traction Signals
 
+- **2026-11-05, recirculated by an engagement account** ([[godsystemsmd-skills-are-the-prompts-2026-11-05]]): a clip of YC's 2026-04-23 GStack video, quoting Tan, "The skills are the prompts". The video's description centres on the Office Hours skill, modelled on YC partner sessions. Reach, not adoption; the video wasn't watched.
 - **GitHub, 2026-11-10:** ~141.1k stars (`gh api`), up from ~137.2k on 2026-10-21. Listed in a five-repo r/claudeskills "master Claude Code" post ([[reddit-repos-to-master-claude-code-2026-11-09]]); ECC in the same list has about 300.8k.
 - **GitHub, 2026-10-21:** ~137.2k stars on `garrytan/gstack` (`gh api`), up from the README's 135K+ on 2026-10-01.
 - **2026-10-16:** the companion GBrain launched as a product on Product Hunt (see gbrain above).
