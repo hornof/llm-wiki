@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-10-21
+last_updated: 2026-11-12
 ---
 
 ## What It Is
@@ -20,6 +20,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-11-12: Jensen Huang resigns as CEO; CFO Colette Kress is interim CEO** ([[nvidia-ceo-transition-2026-11-12]]). Nvidia's release gives no reason. TechCrunch reports the board ousted him after he admitted an affair with an executive at a Singapore neocloud the US suspects of smuggling chips to China. The board named its first-ever chair, Harvey Jones, and will consider outside candidates. Q3 results are still due 2026-11-17. **Why it matters here:** TechCrunch argues Huang personally led several things this page tracks: open-weight advocacy, the Open Agent Safety Platform below, the Hugging Face deal (not yet closed) and the financing of the data-center buildout. Whether those continue without him is now an open question.
 - **2026-10-21: an OpenShell blueprint for agent boundaries** ([[dailybrief-roundup-2026-10-21]], Digg). It pairs the open-source OpenShell runtime with Vera computing, with BlueField-4 monitoring as an optional safeguard. It's the reference-design version of the 2026-09-28 product below. *(One-line aggregator summary.)*
 - **2026-09-03/13 — "Nvidia is the central bank of AI"** (The Economist interactive briefing, surfaced in both the 09-12 and 09-13 briefs — [[dailybrief-roundup-2026-09-13]]): a structural framing of Nvidia's position — not merely the dominant supplier but the institution that effectively **sets the terms of credit** for everyone building on AI, since access to compute determines who can attempt what. The 09-13 brief is appropriately cool: *"structural but no new data."* The framing is the contribution, and it is the macro counterpart to the wiki's [[ai-margin-collapse|compute-consolidation]] thread ([[dylan-patel|Dylan Patel's]] *"everything's a neocloud"* and the 2028 two-lab projection) plus the [[hugging-face|Hugging Face acquisition]] — a central bank that also bought the exchange. *(Analysis piece; no new figures.)*
 - $5 trillion market cap crossed April 2026 — [[post-aakashgupta-jensen-huang-management]]
@@ -43,6 +44,8 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 Pairs with the same week's [[gpt-6-astra|UK AISI measurement]]: **enforcement from a vendor, measurement from a government, in the same seven days.** *(Digg summary of a vendor launch; no technical detail, pricing or availability captured.)*
 
 ## Management Notes
+
+*2026-11-12: the structure below was Huang's, and he resigned that day ([[nvidia-ceo-transition-2026-11-12]]). Whether it survives under an interim CEO is unknown.*
 
 Jensen Huang runs an unconventional structure: 55 direct reports, identical executive pay, no scheduled 1:1s, information broadcast to all directs simultaneously. Designed to eliminate executive politics and compress org layers (3-4 vs. industry-standard 9-10). See [[post-aakashgupta-jensen-huang-management]].
 

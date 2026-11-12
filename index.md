@@ -138,7 +138,7 @@
 - [[charlie-hills]] — Substack creator; "Build Your Whole Team with Claude" (42 skills as a company org chart); Claude-skills packaging/distribution voice
 - [[jack-dorsey]] — Block co-founder; "rebuild vs. copilot" AI strategy framing; building Goose agent harness
 - [[richard-hamming]] — Bell Labs mathematician; Hamming codes; "You and Your Research" (1986); career philosophy for great technical work
-- [[jensen-huang]] — Nvidia CEO/co-founder; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute
+- [[jensen-huang]] — Nvidia co-founder; CEO until he resigned 2026-11-12; 55 direct reports, identical exec pay, no 1:1s; steered Nvidia to $5T on AI compute
 - [[aakashgupta]] — X/product analyst; AI company strategy and management coverage
 - [[demis-hassabis]] — CEO Google DeepMind; Nobel laureate; AGI by 2030; Einstein Test; ex-Bullfrog/Elixir game designer
 - [[jeff-dean]] — legendary Google systems/ML engineer (MapReduce/Bigtable/TensorFlow/Google Brain, ex-Chief-Scientist Google DeepMind); left Google after 27 years (Aug 2026) to co-found DiscoLoop AI
@@ -253,7 +253,7 @@
 - [[z-ai]] — Z.ai (Zhipu AI); Chinese open-weights GLM family; GLM-5.2 (753B MoE, MIT licence) triggered the margin-collapse thesis; GLM-5.3 within two points of Mythos on Anthropic's exploitation test (merged with zhipu-ai 2026-10-16)
 - [[anthropic-public-record]] — Anthropic structural-transparency-disclosure initiative; Jun 12 first-results publication; 4 substantive surfaces across a 4-vendor, 3-week vendor-side AI-control and transparency cluster (June 2026)
 - [[block]] — fintech (Square/Cash App); restructuring around AI world models; DRI + player-coach org design
-- [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang CEO
+- [[nvidia]] — GPU infrastructure backbone of all frontier AI; $5T market cap (April 2026); Jensen Huang resigned as CEO 2026-11-12, Colette Kress interim
 - [[ami-labs]] — Yann LeCun's world-model AI lab; $1.03B raised (March 2026)
 - [[anysphere]] — **Anysphere (Cursor)**; AI-first code editor; $3.3B raised, $29.3B valuation (Apr 2026); competes with Claude Code and Codex — i.e. with the labs it depends on. **Acquired by SpaceX** — $60B all-stock merger closed 2026-08-14 (SEC 8-K); now a wholly owned subsidiary; would complete a SpaceX 3-layer AI stack (compute substrate + xAI frontier model + coding product). Merged with the former `cursor` page at lint 2026-09-14.
 - [[eureka-labs]] — Karpathy's AI-native education company; founded 2024

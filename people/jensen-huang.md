@@ -1,9 +1,9 @@
 ---
 name: Jensen Huang
 type: person
-affiliation: Nvidia (CEO, co-founder)
+affiliation: Nvidia (co-founder; CEO 1993–2026-11-12)
 signal_sources: [twitter, conference]
-last_updated: 2026-04-26
+last_updated: 2026-11-12
 ---
 
 ## Who They Are
@@ -13,6 +13,8 @@ Jensen Huang (born 1963) is the co-founder and CEO of [[nvidia]], a position he 
 Known for leather jacket keynotes, long-arc strategic bets (doubling down on CUDA for ML a decade before it paid off), and an unconventional management philosophy.
 
 ## Their Current Focus
+
+**2026-11-12: resigned as Nvidia's president and CEO and left its board, effective immediately** ([[nvidia-ceo-transition-2026-11-12]]). Nvidia gave no reason. TechCrunch reports the board ousted him after he admitted an affair, with a second allegation also reported, and that Republican committee chairs want him to testify in closed session. CFO Colette Kress is interim CEO. The focus described below is as of April 2026.
 
 Scaling Nvidia's Blackwell GPU architecture for AI training and inference; positioning Nvidia as an end-to-end AI infrastructure company (hardware + software stack + networking). Crossed $5 trillion market cap April 2026.
 
