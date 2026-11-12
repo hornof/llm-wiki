@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-10-28
+last_updated: 2026-11-12
 ---
 
 ## Definition
@@ -83,6 +83,8 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** â
 
 **Record it as open, and note what would settle it.** The skill thesis predicts that **codified workflow outperforms a strong model used plainly, and that the advantage grows as skills accumulate.** dax predicts the opposite â€” that it **decays as models improve**, because the skills encode workarounds for problems that get fixed upstream. **The deletion condition is where the two theories diverge observably**: a skill library that needs regular pruning is evidence for dax; one whose entries keep earning their place is evidence for Tan. **Nobody in the wiki's record reports pruning.** [[gstack|gstack's]] `/retro` and [[addyosmani-agent-skills-repo-2026-10-03|Osmani's pack]] both add; neither documents removal.
 
+> **Partly answered 2026-11-12.** "No measurement on either side" no longer holds. [[skillsbench-arxiv-2026-02-13|SkillsBench]] measured curated skills against no skills: +16.2 points on average, smallest in software engineering (+4.5), and negative on 16 of 84 tasks. That supports the skill thesis on average and dax on coding in particular. It doesn't test whether the advantage grows or decays as models improve, so the core of the disagreement is still open. On pruning, [[perplexity-agent-skills-guide-2026-05-01|Perplexity]] calls its skills "append-mostly" but deletes at the sentence level, and drops skills for anything changing faster than it can maintain them. See the section below.
+
 ## The standard goes to a foundation (2026-10-22)
 
 [[anthropic-agent-skills-to-aaif-2026-10-22]]: Anthropic donated the Agent Skills standard, along with its name, logo, GitHub org and agentskills.io, to the Linux Foundation's **Agentic AI Foundation**, where [[mcp|MCP]] and [[goose]] already sit. Lead maintainers are David Soria Parra and Mahesh Murag. Planned work: versioned releases, a proposal process, and **security guidance for skill authors and installers**, which is the gap the [[ai-vulnerability-discovery|supply-chain thread]] keeps pointing at. Adoption per Anthropic: 70+ platforms (ChatGPT, Cursor, GitHub Copilot, VS Code), 1M published skills, ~280M installs.
@@ -92,6 +94,25 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** â
 ## Personal stacks go public (2026-10-26)
 
 [[theo-tstack-agent-skills-2026-10-26]]: Theo Browne published tstack, their daily skills for Claude Code and Codex, after arguing against it. It had 2.1k stars when fetched. [[garry-tan|Garry Tan]] answered *"Publish your stack"*. **Two of the skills use models from different labs to review each other** (`council` uses three providers, `sol-loop` uses GPT Sol), so this pack treats cross-vendor review as part of the workflow. One reply puts the case for sharing: the wiring is the hard part, and it doesn't transfer by reading. Another says *"can't wait to clone this and never open it again"*, which is the 10-06 dissent above in one line.
+
+## Authoring guides and the first measurement (2026-11-12)
+
+An X post listing free skills links ([[godsystemsmd-skills-are-the-prompts-2026-11-05]]) led to four sources the wiki lacked.
+
+**[[perplexity-agent-skills-guide-2026-05-01|Perplexity's internal guide]] is the most practical authoring document on this page.** Its rules:
+- The description is a routing trigger: start with "Load when...", keep it to 50 words or fewer, and phrase it in users' own words.
+- Every skill carries a cost. About 100 tokens per skill sit in every session's index, and a loaded body should stay under 5,000.
+- Test every sentence with "Would the agent get this wrong without this instruction?"
+- Write evals before the skill, including negative ones for neighbouring skills, because adding a skill can make others worse.
+- Maintain a skill by appending gotchas, not by rewriting it.
+
+Two points are new here. **Skills interfere with each other**, which this page hadn't considered. And dumping a whole reference corpus into a skill (all 1,945 sections of the tax code) did worse than loading no skill at all.
+
+**[[anthropic-equipping-agents-agent-skills-2025-10-16|Anthropic's 2025-10-16 launch post]] and [[zhang-murag-dont-build-agents-build-skills-2025-12-08|Zhang and Murag's talk]] are the format's origin.** They set out three-level progressive disclosure and scripts for deterministic steps. The talk's layering puts MCP in charge of connectivity and skills in charge of expertise. They are the founding documents behind the 10-22 foundation section above.
+
+**[[skillsbench-arxiv-2026-02-13|SkillsBench]] is the first controlled measurement on this page.** Curated skills raised the average pass rate by 16.2 points. Focused skills with 2â€“3 modules beat comprehensive documentation, which supports Perplexity's "short as it can be". Smaller models with skills matched larger ones without.
+
+**The open disagreement is who writes the skill.** Anthropic's post advises asking Claude to capture its own successful approaches. The talk names agents writing their own skills as the goal, and [[gstack|Tan's]] loop turns the trace into a skill file. SkillsBench v1 found that self-generated skills gave no benefit on average, and Perplexity cites it to argue against one-shotting skills with an LLM. **These may not conflict.** SkillsBench's self-generated skills were written by the model before the task. Tan's and Anthropic's are distilled from a run that a human corrected. But the v4 abstract no longer mentions the self-generated result, and the paper hasn't been read, so treat the finding as provisional.
 
 ## Related Concepts
 

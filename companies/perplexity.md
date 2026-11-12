@@ -3,7 +3,7 @@ name: Perplexity
 type: company
 focus: AI search product; canonical-$20B-valuation-anchor
 status: gaining-traction
-last_updated: 2026-06-24
+last_updated: 2026-11-12
 ---
 
 ## What It Is
@@ -11,6 +11,8 @@ last_updated: 2026-06-24
 **Perplexity** is a canonical-AI-search-product canonical-startup at canonical-$20B-valuation-anchor (Jun 2026), founded and led by **[[aravind-srinivas|Aravind Srinivas]]** (canonical-CEO-direct-voice). Wiki-tracked primarily for canonical-CEO-tier canonical-horizontal-thesis voice (*"the model is no longer the product"* canonical-thesis articulation Jun 24 20VC canonical-95-min interview) and canonical-Salesforce-vs-Google canonical-AI-market-structure canonical-framing. **4+ canonical-substantive surfaces** across Jun 24 Srinivas canonical-95-min interview + Forbes AI 50 2026 + Exa canonical-agent-search-infrastructure canonical-cohort + prior Daily Brief mentions.
 
 ## Traction Signals
+
+- **2026-05-01: published its internal Agent Skills guide** ([[perplexity-agent-skills-guide-2026-05-01]]). Perplexity Computer runs on a curated skills library, including tax skills nested three levels deep, and evaluates skill loading across GPT, Claude Opus and Claude Sonnet orchestrators. See [[skill-md]].
 
 - **2026-06-24: STRUCTURALLY MAJOR Aravind Srinivas 20VC canonical-95-min interview** ([[srinivas-perplexity-20vc-model-not-product-2026-06-24]]) — $20B canonical-valuation-anchor update + canonical "the model is no longer the product" canonical-thesis + canonical "Salesforce vs Google" canonical-AI-market-structure framing + canonical "boring glue that becomes the system of record" canonical-stack-positioning + canonical-3-vendor canonical-agent-stack-tier-2 reference cluster (Buildbetter + Fullenrich + Askui) + canonical-swap-cost-asymmetry framing (model = 1-day-swap-cost; layer = months-rebuild-cost).
 - **[[forbes-ai-50-2026|Forbes AI 50 2026]]** — canonical-$1.7B-raised reference (pre-Jun-24 canonical-baseline).
@@ -33,6 +35,8 @@ last_updated: 2026-06-24
 - **Vs. [[anthropic]] Claude + Claude Code**: canonical-counter-positioning to canonical-vertical-integration thesis — Anthropic Claude + Claude Code ([[anthropic-claude-tag-slack-65-percent-prs-2026-06-23|Claude Tag 65%-internal-PRs]]) embodies canonical-vertical-integration; Perplexity Srinivas argues canonical-horizontal-thesis (model is canonical-commodity).
 
 ## Resources
+
+- [[perplexity-agent-skills-guide-2026-05-01]] — how Perplexity writes, evaluates and maintains Agent Skills
 
 - [[srinivas-perplexity-20vc-model-not-product-2026-06-24]] — Jun 24 STRUCTURALLY MAJOR Srinivas 20VC canonical-95-min interview (most recent + canonical-substantive-anchor)
 - [[forbes-ai-50-2026]] — canonical-$1.7B-raised reference (pre-Jun-24 canonical-baseline)
