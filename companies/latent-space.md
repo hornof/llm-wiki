@@ -2,16 +2,17 @@
 name: Latent Space
 type: company
 status: active
-last_updated: 2026-11-10
+last_updated: 2026-11-11
 ---
 
 ## What It Is
 
-**Latent Space** is an AI-engineering publication and podcast run by [[swyx]] (Shawn Wang) and Alessio Fanelli. It publishes long interviews with builders at labs and startups, essays, and **AINews**, a daily digest of AI Twitter and Reddit that is now *"a section of Latent Space"* ([[ainews-fable-5-2-roadshow-2026-11-09]]). It is the most-used secondary source in this wiki: 24 source pages carry a latent.space URL, from May to November 2026.
+**Latent Space** is an AI-engineering publication and podcast run by [[swyx]] (Shawn Wang) and Alessio Fanelli. It publishes long interviews with builders at labs and startups, essays, and **AINews**, a daily digest of AI Twitter and Reddit that is now *"a section of Latent Space"* ([[ainews-fable-5-2-roadshow-2026-11-09]]). It is the most-used secondary source in this wiki: 25 source pages carry a latent.space URL, from May to November 2026.
 
 ## Traction Signals
 
-- **Source volume.** 24 source pages link to latent.space, the most of any publication the wiki ingests. Since late October most are AINews issues, which became the wiki's usual route to first independent evaluation results on new models ([[ainews-fable-5-2-roadshow-2026-11-09]], [[ainews-anthropic-ipo-whither-now-2026-11-06]], [[ainews-swapping-season-2026-11-04]]).
+- **Source volume.** 25 source pages link to latent.space, the most of any publication the wiki ingests. Since late October most are AINews issues, which became the wiki's usual route to first independent evaluation results on new models ([[ainews-fable-5-2-roadshow-2026-11-09]], [[ainews-anthropic-ipo-whither-now-2026-11-06]], [[ainews-swapping-season-2026-11-04]]).
+- **2026-11-11:** Resend's Zeno Rocha on designing products that agents choose and can use ([[latent-space-resend-designing-for-agents-2026-11-11]]).
 - **2026-11-02:** Legora's CTO on building legal agents without seeing customer data ([[legora-lauritzen-legal-agents-2026-11-02]]).
 - **2026-10-27:** how Anthropic builds Claude with Claude, "separating the brain from the hands" ([[latent-space-opus-5-5-brain-hands-2026-10-27]]).
 - **2026-07-08:** *The Field Guide to Fable* ([[latent-space-field-guide-to-fable-2026-07-08]]).

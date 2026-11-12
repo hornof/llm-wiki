@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-11-10
+last_updated: 2026-11-11
 ---
 
 
@@ -11,6 +11,7 @@ last_updated: 2026-11-10
 Anthropic's official CLI and agentic coding tool. Runs Claude models in a terminal with direct access to your filesystem, shell, and tools. Designed for software engineering tasks — reading/writing code, running tests, executing commands — but also used for document-heavy workflows like the [[llm-wiki-pattern]].
 
 ## Traction Signals
+- **2026-11-11: Claude Code's default picks win the market** ([[latent-space-resend-designing-for-agents-2026-11-11]]). In a study Latent Space cites, Claude Code recommended Resend first in 64 of 102 email recommendations; SendGrid came first seven times but appeared 55 times as an alternative. When a developer accepts the agent's patch, the first choice is usually the one that ships. The study itself wasn't fetched.
 - **2026-11-06: auto memory loads only the first 200 lines or 25 KB of `MEMORY.md`**, per Anthropic's agent-memory post ([[anthropic-components-of-agent-memory-2026-11-06]]). The file acts as an index; the rest of memory is read on demand. The same post cites the Claude Code docs warning that longer instruction files reduce adherence.
 - **2026-11-05: account email leaked in User-Agent headers** ([[claude-code-email-user-agent-issue-2026-11-05]], GitHub #107757). Per the issue thread, when Claude wrote its own `curl` or fetch script it sometimes put the user's email in the User-Agent, often because a site such as the SEC asks for a contact. Anthropic added a default-on `cc-plugin-privacy` mod in v2.1.317 that refuses such calls. Commenters report gaps: it matches only the email, misses addresses written into a script and then run, and doesn't stop project names in the header.
 - **2026-10-30: backdoored copies on the Cursor Marketplace** ([[phorion-claude-code-cursor-extension-backdoor-2026-10-30]], Phorion). Versions 2.1.312 and 2.1.313 of the VS Code extension, as served by Cursor's marketplace, installed a persistent SSH backdoor. Cursor pulled them. Uninstalling doesn't remove the backdoor. How the bundle was compromised isn't stated. → [[anysphere]]

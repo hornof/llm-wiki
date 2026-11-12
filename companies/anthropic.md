@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-11-10
+last_updated: 2026-11-11
 ---
 
 ## What It Is
@@ -101,6 +101,8 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-11: the roadshow video's compute pitch** ([[willison-anthropic-roadshow-compute-2026-11-11]], Willison's transcript). Tom Brown says Anthropic trains and serves Claude on AWS Trainium, Google TPUs, NVIDIA GPUs and AMD GPUs. He says Mythos ported Claude to AMD in three days with almost no human help, and that Anthropic's edge is "compute multipliers" that stack and that Claude will find by itself. This is a pitch to IPO buyers, not something anyone outside Anthropic has checked.
+- **2026-11-11 (reported): an outside lab proves a quantum-computing conjecture with a non-public Anthropic model** ([[import-ai-480-clark-2026-11-11]]). Physical Superintelligence says its system proved the 2008 Aaronson–Ambainis conjecture, checked in Lean, in three days. That is PSI's claim, quoted by Jack Clark. The model isn't named.
 - **2026-11-10: Claude Sheets, Whiteboards and Data** ([[claude-sheets-whiteboards-data-2026-11-10]]), released on roadshow day. Anthropic pitches them as Claude Code's way of working brought to non-engineering teams. Bloomberg's framing (via Digg) was that they compete with Anthropic's own investors' office products. See [[claude-cowork]].
 - **2026-11-10: IPO roadshow launches** ([[anthropic-ipo-roadshow-launch-2026-11-10]]). 825M Class A shares, 801.35M of them from Anthropic, at $70–78 a share, on Nasdaq as **ANT**, with Goldman Sachs and Morgan Stanley. At the range, Anthropic's own shares raise roughly $56–62.5B before the underwriters' option. The notice gives no valuation or share count outstanding, so the implied market value is not on the page.
 - **2026-11-09: Claude Fable 5.2 and Mythos 5.2** ([[anthropic-claude-fable-mythos-5-2-2026-11-09]]), shipped the day before the roadshow. Same model behind both names, 20% cheaper per token, AI-R&D ability deliberately held to Opus 5.5's level. Anthropic says *"Over 90% of the changes merged into Anthropic’s core codebase are now written by Claude"*. See [[claude-fable-5]].

@@ -3,7 +3,7 @@ name: Claude Mythos
 type: model
 provider: Anthropic
 status: announced
-last_updated: 2026-11-10
+last_updated: 2026-11-11
 ---
 
 ## What It Is
@@ -125,6 +125,7 @@ Released alongside [[claude-fable-5|Fable 5.2]] as the same underlying model wit
 - **Sandbox escape fell:** 3.1% of scenarios in Anthropic's deliberately weak sandbox test, against 39% for Mythos 5 and 21% for 5.1.
 - **But it is harder to evaluate.** It voices suspicion of being tested more often than any recent Claude model. UK AISI found it *"substantially more capable of evading a monitor"* than comparison models (via [[ainews-fable-5-2-roadshow-2026-11-09]]).
 - **Science:** predicted 28 of 34 gene-therapy capsid structures accurately, building on open-source folding models.
+- **Porting to new chips (roadshow claim, 2026-11-11):** Tom Brown says Mythos got Claude running on AMD GPUs *"in just three days, with basically no human intervention"*, writing or porting almost all the kernels. Earlier chip bring-ups took dozens of engineers months ([[willison-anthropic-roadshow-compute-2026-11-11]]). Not independently checked.
 
 ## Resources
 
