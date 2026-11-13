@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-11-05
+last_updated: 2026-11-13
 ---
 
 ## Definition
@@ -31,6 +31,10 @@ Google DeepMind is the most prominent institution pursuing AI for science at sca
 A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT-5.x) are used in iterative dialogue to *derive novel theoretical results*. [[alex-lupsasca]] (OpenAI Science) documented GPT-5.2 deriving novel gluon-amplitude and graviton results that had stumped expert humans for over a year. This is a categorically different mode than AlphaFold-style application: model produces *frontier theoretical conjectures*, not interpolation on a well-defined problem. — [[latent-space-lupsasca-vibe-physics-2026-05]]
 
 **AI-assisted cryptanalysis as a research *methodology* (2026-07-28/30)** ([[dailybrief-roundup-2026-07-30]], via [[simon-willison|Willison]]): Anthropic researchers prompted **Claude to discover mathematical weaknesses** in the post-quantum signature scheme **HAWK** and in **weakened AES variants**, then **published the prompts**. The load-bearing signal is *methodological, not the flaws themselves* (**practical impact ≈ zero** — real-world crypto isn't broken): it demonstrates a new mode of **AI-as-research-accelerant** — prompt-engineering a model to hunt for attack surfaces in a formal domain, with the prompt chain as the reproducible artifact. Extends the vibe-physics pattern (novel research-grade findings) from theoretical physics to **cryptanalysis/security**; a datapoint for Jack Clark's *"automation reaching too-hard-to-automate work"* thread ([[jack-clark]]).
+
+## Reading an archive, then checking it formally — Gödel's workbooks (2026-11-13)
+
+Jan von Plato's team had read Gödel's 1940s workbooks at about a page a week since 2017. In September he gave Claude his transcriptions plus his own books on Gödel; within days it produced a 650-page explanation and a list of 663 theorems. Coq verified about 400 as stated, about 200 after repair, and found about 50 false ([[godel-notebooks-claude-guardian-2026-11-13]]). The model's contribution was reading the whole corpus at once; the transcription, the context and the verification stayed with the human and the proof assistant. The open point is Hamkins's: how much of a reconstructed proof is Gödel's and how much is Claude's.
 
 ## Agents that hand the arithmetic to checked tools (2026-11-05)
 

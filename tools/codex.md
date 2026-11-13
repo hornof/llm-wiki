@@ -3,7 +3,7 @@ name: Codex
 type: tool
 category: cli
 status: mainstream
-last_updated: 2026-09-20
+last_updated: 2026-11-13
 ---
 
 ## What It Is
@@ -12,6 +12,7 @@ last_updated: 2026-09-20
 
 ## Traction Signals
 
+- **2026-11-12: the review surface for Daybreak Defense Factory** ([[openai-daybreak-red-team-defense-factory-2026-11-12]]). OpenAI's new security product drafts patches from scanner and red-team findings; engineers use Codex to examine the evidence and refine the fix before merging.
 - **2026-08 (web refresh): default model → GPT-5.6 Sol; desktop + cross-tool import ship** ([Releasebot Codex updates](https://releasebot.io/updates/openai/codex), [Codex review 2026](https://zackproser.com/blog/openai-codex-review-2026)): after **GPT-5.6 (Sol / Terra / Luna) went GA on 2026-07-09**, Codex switched its default to **gpt-5.6-sol** (**88.8% Terminal-Bench 2.1, 64.6% SWE-Bench Pro**). New in the Aug cycle: a **Linux desktop app preview** (Ubuntu/Debian/Fedora), **`/import` of setup + recent chats from [[claude-code|Claude Code]] and [[anysphere|Cursor]]** (a direct switching-cost attack on rivals), broader **plugin support**, persistent conversation sections, and an **`--approve-for-me`** auto-approval CLI flag. Basis for the **status upgrade gaining-traction → mainstream** (OpenAI flagship, frontier-default, cross-tool import). *(Web-sourced; benchmark figures per third-party trackers.)*
 - **2026-06-17: Codex configurable to route any open-source model + self-hosted local endpoints** — Thibault Sottiaux (OpenAI Codex engineering lead) announcement: *"Codex tools can now be configured to run any open-source model. Users can route client traffic to self-hosted local endpoints."* **First wiki-captured operator-substrate-control-friendly AI-coding-product canonical category-positioning** (OpenAI first vendor-side adopter). **STRUCTURALLY MAJOR**: validates [[gregisenberg-fable-5-ban-local-models-pivot-2026-06-13|Jun 13 Greg Isenberg "local models are insurance" canonical framing]] via OpenAI-side vendor-shipping. — [[agentic-coding-tooling-cluster-2026-06-17]]
 - **2026-06-16: Practitioner-tier preference dominance** — [[gregisenberg-pick-a-side-7-question-poll-2026-06-16|Greg Isenberg "Pick a side" poll]]: 4/4 distinct-answer comments pick Codex over [[claude-code|Claude Code]]. **First wiki-captured Codex-dominance signal in practitioner-content register**. Peter Yang: *"Codex browser use is incredible"*. Riley Brown + klöss + nick vasilescu + AmirMušić all pick Codex.

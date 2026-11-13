@@ -3,23 +3,25 @@ name: Gemini
 type: model
 provider: Google DeepMind
 status: available
-last_updated: 2026-11-12
+last_updated: 2026-11-13
 ---
 
 > **Status note:** `available` refers to Gemini 4 Argon, which has been generally available since 2026-10-13. **Gemini 4 Carbon** (2026-10-28) is restricted: cyber defenders first, then trusted partners in the Fairwind Program, with no public date yet. The status field doesn't fit that, the same gap as [[claude-mythos]].
 
 ## What It Is
 
-Google's frontier model line, built by [[google-deepmind]]. This page covers the Gemini 4 generation, which has two frontier tiers so far:
+Google's frontier model line, built by [[google-deepmind]]. This page covers the Gemini 4 generation, which has two frontier tiers and, since 2026-11-12, a fast tier:
 
 | Model | Announced | General availability | Introductory price (input / output, per 1M tokens) |
 |---|---|---|---|
 | **Gemini 4 Argon** | 2026-09-30, cyber defenders only | 2026-10-13: API, AI Studio, Antigravity, Gemini app, AI Mode in Search | $2 / $10 until 2026-11-30, then $4 / $20 |
 | **Gemini 4 Carbon** | 2026-10-28, cyber defenders only | not announced | $2 / $10, then $4 / $20 |
+| **Gemini 4 Hydrogen** (fast tier) | 2026-11-12 | 2026-11-12: all Gemini API tiers including AI Studio's free tier; default in AI Mode in Search | $1.50 / $7.50 |
 
-- **Context:** Argon has a 1M-token limit shared between input and output. Output was raised from 64K to 1M ([[google-gemini-4-argon-launch-2026-10-13]]). Carbon's limit isn't stated.
+- **Context:** Argon has a 1M-token limit shared between input and output. Output was raised from 64K to 1M ([[google-gemini-4-argon-launch-2026-10-13]]). Carbon's limit isn't stated. Hydrogen has a 1M context window and four thinking levels, up to xhigh ([[ainews-jensen-huang-resigns-hydrogen-2026-11-12]]).
+- **Hydrogen, measured (2026-11-12):** Google claims it finishes tasks 2.5x faster than Gemini 3.8 Flash. Artificial Analysis puts it one point behind Claude Sonnet 5.5 and GPT-6.1 Sol on its index at xhigh, with a much lower hallucination rate (8% against 43% and 52%), but behind both on Terminal-Bench 4.0 (54% against 64% and 56%). The complaint is price: Willison notes it is only 25% below the Carbon/Argon token price, and a Reddit commenter compared it with Flash-tier pricing around $0.20/$1.00 ([[ainews-jensen-huang-resigns-hydrogen-2026-11-12]], AINews aggregate).
 - **Other Gemini models the wiki mentions:** Gemini 3.8 Flash (and a "3.8 Flash Cyber" variant), Gemini Omni, which anchors [[deepmind-genie-4-world-model-2026-10-27|Genie 4]]'s simulations, and Gemini Robotics.
-- **The release pattern is the distinctive part.** Both Gemini 4 models went to cyber defenders before anyone else, with Google *"actively engaged in the U.S. government’s voluntary process"* for pre-release testing. Argon took two weeks from announcement to general availability. If Carbon follows the same gap, it would reach general availability around mid-November (my inference; Google gave no date).
+- **The release pattern is the distinctive part.** Argon and Carbon went to cyber defenders before anyone else, with Google *"actively engaged in the U.S. government’s voluntary process"* for pre-release testing. Argon took two weeks from announcement to general availability. If Carbon follows the same gap, it would reach general availability around mid-November (my inference; Google gave no date).
 
 *This page was created 2026-10-28. On 2026-09-30 [[google-deepmind]] recorded the missing page as the wiki's most valuable page to create, and held off until a primary source was fetched.*
 
