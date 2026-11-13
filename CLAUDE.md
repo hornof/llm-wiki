@@ -319,7 +319,7 @@ When given a new source:
    - Commit with a `Ingest YYYY-MM-DD: <one-line summary>` title and a body that lists each source and the judgment calls made (new pages skipped, contradictions, etc.).
    - Push with `-u` and open a PR via `gh pr create` with a Summary + Test plan section. The owner reviews and merges via the GitHub UI.
    - After merge, the next session syncs with `git checkout main && git pull`.
-   - **At session start, also check open PRs for conflicts** (`gh pr list --json number,mergeable`). Rebase any that show `CONFLICTING` onto `main`, resolve, and push with `--force-with-lease`, so the owner never resolves a conflict by hand. Check the PR is still open first.
+   - **At session start, also check open PRs for conflicts** (`gh pr list --json number,mergeable`). Rebase any that show `CONFLICTING` onto `main`, resolve, and push with `--force-with-lease`, so the owner never resolves a conflict by hand. Check the PR is still open first. Do the same right after the owner merges a PR while another is open, since GitHub ignores the `log.md` union setting (see Log Maintenance).
 
 ### Query
 
@@ -419,7 +419,7 @@ Where a descriptive value is used, say so in a note on the page. **The status fi
 - **Retention wins over size (owner decision, 2026-10-21).** When the size trigger and the two-month retention rule conflict, keep both months. On 2026-10-21 `log.md` was 379 KB holding only September and October, and the fix is **shorter entries, not an early rollover.** The bloat came from entry length, about 6 KB per entry. Aim for one line of a few hundred characters per entry.
 - **Ordering**: entries are sorted by date within each file. The log drifted out of order before 2026-09-13 (56 misordered entries across five months), which is one reason date-based dedup greps were unreliable; keep it sorted.
 - **Dedup depends on this** — see Ingest step 0. Any grep for prior processing must cover `log.md` *and* `meta/log-archive/`.
-- **Concurrent PRs (owner request, 2026-11-03).** Every PR appends a line to the end of `log.md`, so two open PRs used to conflict there every time, and the owner resolved each one as "accept both". `.gitattributes` now sets `log.md merge=union`, which keeps both sides' lines. Tested with local git; whether GitHub's merge button honors it is unconfirmed. If a PR still shows a conflict, the session-start check under Ingest step 7 rebases it.
+- **Concurrent PRs (owner request, 2026-11-03).** Every PR appends a line to the end of `log.md`, so two open PRs used to conflict there every time, and the owner resolved each one as "accept both". `.gitattributes` now sets `log.md merge=union`, which keeps both sides' lines. **GitHub does not honor it (confirmed 2026-11-12):** after #358 merged, GitHub marked #359 `CONFLICTING` on `log.md`. A local `git rebase origin/main` applied the union driver, kept both lines with no manual resolution, and the PR became mergeable. So with two PRs open, the second will conflict once the first merges. **When the owner says they merged a PR, check the other open PRs' `mergeable` in the same turn** and rebase any that conflict. `mergeable` reads `UNKNOWN` for a few seconds after a merge, so poll until it settles. The session-start check under Ingest step 7 is the backstop.
 - **Entry length**: prose entries have grown to multi-kilobyte paragraphs. That is what drove `log.md` to 1.0 MB by 2026-09-13. Keep new entries to the facts a future dedup or audit needs: sources, pages touched, judgment calls, verification caveats.
 
 ## Conventions
