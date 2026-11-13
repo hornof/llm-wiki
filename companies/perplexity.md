@@ -1,47 +1,45 @@
 ---
 name: Perplexity
 type: company
-focus: AI search product; canonical-$20B-valuation-anchor
+focus: AI search; agent products (Perplexity Computer)
 status: gaining-traction
 last_updated: 2026-11-12
 ---
 
 ## What It Is
 
-**Perplexity** is a canonical-AI-search-product canonical-startup at canonical-$20B-valuation-anchor (Jun 2026), founded and led by **[[aravind-srinivas|Aravind Srinivas]]** (canonical-CEO-direct-voice). Wiki-tracked primarily for canonical-CEO-tier canonical-horizontal-thesis voice (*"the model is no longer the product"* canonical-thesis articulation Jun 24 20VC canonical-95-min interview) and canonical-Salesforce-vs-Google canonical-AI-market-structure canonical-framing. **4+ canonical-substantive surfaces** across Jun 24 Srinivas canonical-95-min interview + Forbes AI 50 2026 + Exa canonical-agent-search-infrastructure canonical-cohort + prior Daily Brief mentions.
+**Perplexity** is an AI search company led by CEO **[[aravind-srinivas|Aravind Srinivas]]**. It uses models from several labs (GPT, Claude Opus and Claude Sonnet orchestrate its agent product), and a Reddit commenter describes it as a company that "doesn't make models". Forbes's 2026 AI 50 lists it at $1.7B raised ([[forbes-ai-50-2026]]). Its agent product, Perplexity Computer, runs on a curated library of Agent Skills ([[perplexity-agent-skills-guide-2026-05-01]]).
+
+The wiki tracks it for two things: Srinivas's argument that the model is no longer the product, and the company's published practice for writing agent skills.
+
+*(Rewritten 2026-11-12 against its sources to remove automated-pass filler. The earlier version gave a "$20B valuation" as fact; that figure comes only from a Reddit post's title. It also attributed lines to Srinivas that the post's author wrote. Both are corrected below.)*
 
 ## Traction Signals
 
 - **2026-05-01: published its internal Agent Skills guide** ([[perplexity-agent-skills-guide-2026-05-01]]). Perplexity Computer runs on a curated skills library, including tax skills nested three levels deep, and evaluates skill loading across GPT, Claude Opus and Claude Sonnet orchestrators. See [[skill-md]].
-
-- **2026-06-24: STRUCTURALLY MAJOR Aravind Srinivas 20VC canonical-95-min interview** ([[srinivas-perplexity-20vc-model-not-product-2026-06-24]]) — $20B canonical-valuation-anchor update + canonical "the model is no longer the product" canonical-thesis + canonical "Salesforce vs Google" canonical-AI-market-structure framing + canonical "boring glue that becomes the system of record" canonical-stack-positioning + canonical-3-vendor canonical-agent-stack-tier-2 reference cluster (Buildbetter + Fullenrich + Askui) + canonical-swap-cost-asymmetry framing (model = 1-day-swap-cost; layer = months-rebuild-cost).
-- **[[forbes-ai-50-2026|Forbes AI 50 2026]]** — canonical-$1.7B-raised reference (pre-Jun-24 canonical-baseline).
-- **[[dailybrief-roundup-2026-05-20]]** — canonical-agent-search-infrastructure canonical-cohort reference (paired with Exa + Brave Search API + Tavily).
-- **Canonical-skeptic-counter signals** (Jun 24): jayb331 canceling Perplexity Pro after Gemini-in-Google integration = canonical-user-churn canonical-counter-evidence; pattern-watch for canonical-Perplexity-user-churn canonical-quantitative-anchor.
+- **2026-06-24: Srinivas on 20VC, via Reddit** ([[srinivas-perplexity-20vc-model-not-product-2026-06-24]]). An r/ArtificialInteligence post summarizes a 95-minute interview in which, per the poster, Srinivas argued that the value is in the layer around the model and that the market *"looks more like Salesforce than Google"*: many workflows customers get locked into, not one product everyone uses. The interview wasn't watched. The post's title calls Perplexity a "$20B AI company", which no other source in the wiki confirms. The lines about "boring glue" and swapping models by Friday are the poster's own, not Srinivas's.
+- **A user's counterpoint in the same thread:** one Pro subscriber said they hadn't touched Perplexity in weeks since Google put Gemini into Search, and didn't plan to renew. Another commenter noted that a CEO whose company doesn't make models has a reason to say models don't matter. One anecdote, not a churn figure.
+- **2026-05-20: named as an agent-search API** alongside Brave Search API and Tavily, in the brief item on Exa ([[dailybrief-roundup-2026-05-20]]).
 
 ## Key People
 
-- **[[aravind-srinivas|Aravind Srinivas]]** — canonical-CEO + canonical-co-founder; canonical-direct-voice on 20VC (Jun 24); canonical-horizontal-thesis canonical-anchor.
+- **[[aravind-srinivas|Aravind Srinivas]]**: CEO.
 
 ## How to Use It
 
-- Canonical-AI-search-product canonical-positioning (canonical-conversational-search canonical-frontier-incumbent).
-- Canonical-Perplexity-Pro canonical-subscription-tier (canonical-pricing + canonical-features verification-pending).
+- AI search, on the web and through the Perplexity Search API for agents.
+- Perplexity Pro is the paid tier. Its pricing and features aren't recorded in the wiki.
+- Perplexity Computer is its agent product. The [[perplexity-agent-skills-guide-2026-05-01|skills guide]] is useful to anyone writing skills, whether or not they use Perplexity.
 
 ## Compared To
 
-- **Vs. [[google]] Gemini-in-Search**: Srinivas Jun 24 acknowledges canonical-conflict-with-canonical-Google-Search-AI canonical-integration; skeptic-comment cites canonical-Perplexity-Pro-cancellation after canonical-Gemini-Search-integration.
-- **Vs. [[openai]] ChatGPT Search**: canonical-AI-search-product canonical-cohort.
-- **Vs. [[anthropic]] Claude + Claude Code**: canonical-counter-positioning to canonical-vertical-integration thesis — Anthropic Claude + Claude Code ([[anthropic-claude-tag-slack-65-percent-prs-2026-06-23|Claude Tag 65%-internal-PRs]]) embodies canonical-vertical-integration; Perplexity Srinivas argues canonical-horizontal-thesis (model is canonical-commodity).
+- **[[google]]**: Gemini in Search competes directly with Perplexity's core product, as the subscriber's comment above illustrates.
+- **[[anthropic]]**: the clearest contrast to Srinivas's thesis. Anthropic pairs its own models with its own harness (Claude and [[claude-code|Claude Code]]), which one Reddit commenter called the vertical alternative. If owning both the model and the harness wins, labs win; if the layer is interchangeable across models, companies like Perplexity do. See [[anthropic-claude-tag-slack-65-percent-prs-2026-06-23]] and [[silicon-vertical-integration-2026-06-24-openai-jalapeno-qualcomm-modular-cluster]] for the vertical side.
 
 ## Resources
 
-- [[perplexity-agent-skills-guide-2026-05-01]] — how Perplexity writes, evaluates and maintains Agent Skills
-
-- [[srinivas-perplexity-20vc-model-not-product-2026-06-24]] — Jun 24 STRUCTURALLY MAJOR Srinivas 20VC canonical-95-min interview (most recent + canonical-substantive-anchor)
-- [[forbes-ai-50-2026]] — canonical-$1.7B-raised reference (pre-Jun-24 canonical-baseline)
-- [[dailybrief-roundup-2026-05-20]] — canonical-agent-search-infrastructure canonical-cohort reference
-- [[aravind-srinivas]] — canonical-CEO canonical-direct-voice (canonical-paired-entity)
-- [[anthropic-claude-tag-slack-65-percent-prs-2026-06-23]] — paired canonical-vertical-integration canonical-counter-positioning
-- [[block-builderbot-launch-2026-06-17]] — paired canonical-firm-tier-vertical-integration canonical-counter-positioning
-- [[silicon-vertical-integration-2026-06-24-openai-jalapeno-qualcomm-modular-cluster]] — paired canonical-silicon-tier-vertical-integration canonical-counter-positioning
+- [[perplexity-agent-skills-guide-2026-05-01]]: how Perplexity writes, evaluates and maintains Agent Skills
+- [[srinivas-perplexity-20vc-model-not-product-2026-06-24]]: Reddit summary of Srinivas's 20VC interview
+- [[forbes-ai-50-2026]]: funding figure
+- [[dailybrief-roundup-2026-05-20]]: agent-search API category
+- [[block-builderbot-launch-2026-06-17]]: an in-house agent layer at Block, cited in the same vertical-vs-horizontal debate
