@@ -9,30 +9,31 @@ dormant_since: 2026-09-20
 
 ## What It Is
 
-**Colossus 2** is SpaceX's canonical multi-tenant frontier-AI training substrate (Nvidia GB300 GPU cluster), anchoring the canonical $5.4B–$6.3B multi-year compute-leasing deal with [[reflection-ai|Reflection AI]] ($150M/month through 2029). First wiki-captured canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning. Repositions SpaceX from pure-launch-services provider to canonical-frontier-AI-infrastructure-provider.
+**Colossus 2** is the Nvidia GB300 GPU cluster from which SpaceX leases training compute to [[reflection-ai|Reflection AI]], an open-source AI lab. Its name follows Colossus 1, the xAI cluster whose capacity Anthropic contracted for training in May 2026 ([[willison-anthropic-xai-colossus-2026-05]], [[anthropic-spacex-higher-limits-2026-05-06]]). Whether Colossus 2 is a direct successor isn't stated in the sources. Reflection AI is the only Colossus 2 customer the wiki has a source for.
+
+*(Rewritten 2026-11-12 to remove automated-pass filler. The earlier version gave "$5.4B–$6.3B" as one deal's range; the two figures come from two different reports. It also presented SpaceX's move into AI infrastructure and further tenants as findings; those were the wiki's inferences.)*
 
 ## Traction Signals
 
-- **2026-06-22: SpaceX $5.4B–$6.3B Reflection AI canonical-anchor-customer deal** ([[dailybrief-roundup-2026-06-22]]) — $150M/month through 2029; Nvidia GB300 GPU leasing canonical-anchor. First wiki-captured canonical-multi-year frontier-training-compute-commitment-at-this-scale outside of canonical-hyperscaler-tier (AWS/GCP/Azure).
-- **Canonical-multi-tenant canonical-positioning**: explicit Reflection AI as canonical-anchor-customer framing implies additional canonical-tenants to follow — first wiki-captured canonical-SpaceX-positioning as canonical-AI-substrate-provider.
+- **2026-06-22: the Reflection AI lease** ([[spacex-reflection-ai-150m-month-compute-deal-2026-06-22]]). TechCrunch reports $150M a month and $5.4B through 2029. A Digg summary gives $6.3 billion for a lease of GB300 GPUs from Colossus 2. The gap between the two figures isn't explained in either source.
+- **A pattern, not yet a business line:** Colossus 1 to Anthropic and Colossus 2 to Reflection AI make two frontier-scale leases from SpaceX/xAI clusters about seven weeks apart (2026-05-06 and 2026-06-22). Whether more tenants follow is open. [Judgment.]
 
 ## How to Use It
 
-- Compute-leasing canonical-positioning (per current canonical-surface): customers commit multi-year canonical-monthly canonical-spend for Nvidia GB300 GPU access.
-- Pricing/access-tier canonical-articulation: verification-pending beyond Reflection AI canonical-anchor-customer canonical-commitment-rate ($150M/month).
+Not a self-serve product. Access so far is a multi-year lease negotiated by a lab, at about $150M a month in the one public case. No pricing or access terms are published.
 
 ## Key Concepts
 
-- **Canonical-anchor-customer canonical-pattern**: Reflection AI as first canonical-substantive canonical-tenant on canonical-Colossus-2 canonical-substrate.
-- **Canonical-multi-tenant canonical-positioning**: implied additional canonical-tenants beyond canonical-anchor-customer.
-- **SpaceX canonical-infrastructure-pivot**: canonical-launch-services-provider → canonical-AI-substrate-provider canonical-repositioning.
+- **Lab-scale compute lease:** a lab rents a dedicated cluster for years instead of buying hardware or using a public cloud.
 
 ## Compared To
 
-- Closest cohort: canonical-hyperscaler-tier (AWS Trainium + GCP TPU + Azure ND) and canonical-CoreWeave-tier specialized canonical-GPU-cloud providers.
-- Distinguishes itself via canonical-SpaceX-affiliation + canonical-frontier-lab-anchor-customer canonical-pattern (vs. canonical-broad-customer-mix on canonical-hyperscaler-tier).
+- **Hyperscalers** (AWS, Google Cloud, Azure) rent compute to many customers. Colossus 2 so far has one known tenant.
+- **Neoclouds** such as CoreWeave also lease GPU capacity to labs; see [[ai-margin-collapse]] for how they're financing the buildout.
 
 ## Resources
 
-- [[dailybrief-roundup-2026-06-22]] — Jun 22 SpaceX $5.4B Reflection AI deal canonical-anchor
-- [[reflection-ai]] — canonical-anchor-customer (STRUCTURALLY MAJOR canonical-paired-entity)
+- [[spacex-reflection-ai-150m-month-compute-deal-2026-06-22]]: the Reflection AI deal (TechCrunch, Digg)
+- [[dailybrief-roundup-2026-06-22]]: the brief that carried it
+- [[reflection-ai]]: the tenant
+- [[willison-anthropic-xai-colossus-2026-05]]: Colossus 1 and Anthropic
