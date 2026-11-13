@@ -57,12 +57,13 @@ This was published the same week as [[openai-testing-ads-in-chatgpt-2026-05-08]]
 
 ## Products
 
-- **Claude**: frontier AI assistant. **Model lineup as of 2026-11-10**, newest first, from the wiki's model pages (corrected 2026-10-16; this section had described Opus 4.7 as current for five months. Sonnet 5.5 and Fable 5.1 added 2026-11-03; the 10-16 table had missed both):
+- **Claude**: frontier AI assistant. **Model lineup as of 2026-11-12**, newest first, from the wiki's model pages (corrected 2026-10-16; this section had described Opus 4.7 as current for five months. Sonnet 5.5 and Fable 5.1 added 2026-11-03; the 10-16 table had missed both. Haiku 5.5 added 2026-11-12 from its launch post; it has no model page yet):
 
   | Model | Launched | Role |
   |---|---|---|
   | [[claude-fable-5\|Fable 5.2]] | 2026-11-09 | top of the line on most benchmarks; same model as Mythos 5.2 with cyber and biology safeguards; $8/$40 per M tokens |
   | [[claude-mythos\|Mythos 5.2]] | 2026-11-09, restricted | Fable 5.2 without those safeguards; vetted organizations via the Cyber and Life Sciences Verification Programs |
+  | [[anthropic-claude-haiku-5-5-2026-10-07\|Haiku 5.5]] | 2026-10-07 | small, fast model for subagents and high-volume work; $0.10/$0.50 per M tokens (prompts up to 100k); first Haiku with an effort setting |
   | [[claude-sonnet-5\|Sonnet 5.5]] | 2026-09-28 | point release; Anthropic says faster and cheaper per task at the same per-token price |
   | [[claude-opus-5-5\|Opus 5.5]] | 2026-09-22 | current flagship; Anthropic's recommended default ("strongest daily driver"), with Fable 5.2 above it for the hardest work |
   | [[claude-fable-5\|Fable 5.1]] | 2026-09-01 | Fable point release, for coding and long-running work |
