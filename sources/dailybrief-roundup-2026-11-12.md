@@ -8,7 +8,7 @@ local_source: "Daily Briefs/2026-11-12.md"
 
 ## Summary
 
-Cross-reference index for `Daily Briefs/2026-11-12.md`. One new event: Jensen Huang resigned as Nvidia's CEO. Two new Latent Space pieces cover decision models. The other ten items repeat the 11-10 and 11-11 ingests. The brief repeats the three-million-lines error for AlphaProof Code a third time, and again calls the S-1 news.
+Cross-reference index for `Daily Briefs/2026-11-12.md`. One new event: Jensen Huang resigned as Nvidia's CEO. Two new Latent Space pieces cover decision models. The other ten items repeat the [[dailybrief-roundup-2026-11-10|11-10]] and [[dailybrief-roundup-2026-11-11|11-11]] ingests. The brief repeats the three-million-lines error for AlphaProof Code a third time, and again calls the S-1 news.
 
 ## Folded
 
