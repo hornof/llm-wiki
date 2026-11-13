@@ -4,7 +4,6 @@ type: tool
 category: platform
 status: mainstream
 last_updated: 2026-11-09
-dormant_since: 2026-09-20
 ---
 
 ## What It Is
