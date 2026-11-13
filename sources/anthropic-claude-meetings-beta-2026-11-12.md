@@ -22,7 +22,7 @@ Anthropic's post (dated 2026-11-12) introducing Claude Meetings, in beta on Team
 - **Partners for transcripts:** Gong, Attention, Granola, Fireflies.ai, Otter and Plaud, *"so you’ll soon be able to send a meeting’s transcript to the tools your team already uses."* Not yet live.
 - **TechCrunch's framing:** the launch comes *"just a few weeks after OpenAI unveiled a series of workplace tools"*, with *"both companies compete to turn their products into office suites of sorts to take on Microsoft and Google."*
 - **Why it matters here:** meeting notetakers are the partners named above, and Claude now does their core job inside the plan. That's the [[claude-sheets-whiteboards-data-2026-11-10|11-10 pattern]] again, an office-suite feature competing with tools that also plug into Claude. [Judgment.]
-- **Same-day posts, not ingested:** self-hosted Claude Managed Agents and Claude for Manufacturing, both dated 2026-11-12 in the post's related-articles list.
+- **Same-day posts:** self-hosted Claude Managed Agents (ingested: [[anthropic-self-hosted-managed-agents-2026-11-12]]) and Claude for Manufacturing (not ingested), both dated 2026-11-12 in the post's related-articles list.
 
 ## Pages Updated
 
