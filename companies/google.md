@@ -3,14 +3,14 @@ name: Google
 type: company
 sector: AI / cloud infrastructure / search / hardware
 status: incumbent + frontier-lab parent
-last_updated: 2026-11-07
+last_updated: 2026-11-12
 ---
 
 ## What It Does
 
 **Google** (Alphabet subsidiary) is one of the three primary US-frontier-AI organizations operating in 2026, alongside [[anthropic|Anthropic]] + [[openai|OpenAI]]. Google operates [[google-deepmind|Google DeepMind]] as its frontier-AI research arm + Google Cloud as its substrate-distribution arm + Gemini as its consumer-facing model line. **First wiki entity surface 2026-06-13** consolidating substantive Google references across the wiki's pt5–pt13 ingest cluster (10+ substantive surfaces across 6 days). **Structurally load-bearing as the 3rd US-frontier-AI organization** alongside Anthropic + OpenAI.
 
-**Current frontier models (2026-10-28):** Gemini 4 Argon, generally available since 2026-10-13, and Gemini 4 Carbon, announced 2026-10-28 and released to cyber defenders first. See [[gemini]].
+**Current frontier models (2026-10-28):** Gemini 4 Argon, generally available since 2026-10-13, and Gemini 4 Carbon, announced 2026-10-28 and released to cyber defenders first. Also **Gemini Decision 1** (2026-11-11), a decision model that scores yes/no, choice and rubric questions instead of writing text ([[willison-gemini-decisions-api-2026-11-11]]). See [[gemini]].
 
 ## Takes over Crusoe's Wyoming data center project (2026-11-06)
 
