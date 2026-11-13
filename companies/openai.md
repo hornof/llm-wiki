@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-11-10
+last_updated: 2026-11-13
 ---
 
 ## What It Is
@@ -23,6 +23,8 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-11-13: ChatGPT Wallet** ([[openai-chatgpt-wallet-2026-11-13]], Digg citing CNBC). Dots agents can buy things for US Pro subscribers. The user approves each purchase with Face ID or a fingerprint, and the agent gets a network payment token, not the card. Built with Amex, Mastercard and Visa; OpenAI takes no cut at launch. Spending within preset limits is planned, undated.
+- **2026-11-12: Daybreak Red Team and Daybreak Defense Factory** ([[openai-daybreak-red-team-defense-factory-2026-11-12]], Digg citing The Register). Agents pen-test web apps in isolated environments; Defense Factory drafts patches that engineers review in [[codex|Codex]]. Red Team is in early access, Defense Factory in preview. Brockman: companies *"will be secure only to the extent of the frontier model that they use to defend themselves"*.
 - **2026-11-10: Businesses in ChatGPT (beta)** ([[gregisenberg-businesses-in-chatgpt-2026-11-10]]). Businesses can claim a profile, see engagement insights and, if eligible, build a Business Agent to answer customers; ads can click through to that agent. For now agents are limited to US e-commerce and online services, per [[greg-isenberg|Isenberg]]. OpenAI's own page was not fetched (403).
 - **2026-11-06 (reported): $11B raised so far at $1.25T, short of a $30B target** ([[openai-11b-raise-anthropic-ipo-valuation-2026-11-06]], TechCrunch citing Bloomberg). The round could reach about $20B. IPO now expected next year.
 - **2026-10-29 (reported): one token allowance for ChatGPT and Codex from December, and a Chat/Work merge test** ([[openai-chat-work-token-allowance-2026-10-29]], Digg citing BleepingComputer and TechCrunch). Plus, Pro and Business plans will share one token-measured pool; Instant chat doesn't count. No per-plan amounts published.

@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-11-12
+last_updated: 2026-11-13
 ---
 
 ## What It Is
@@ -20,6 +20,8 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-11-13 (reported): Kress was the brake on buyer guarantees, and an export allegation** ([[nvidia-kress-guarantees-china-exports-2026-11-13]], Digg on the WSJ, Reuters and The Information). The Journal reports Huang belittled Kress in an August meeting after she questioned guarantees for chip buyers who couldn't afford Nvidia hardware; she halved Nvidia's commitment to OpenAI's Ohio data center. Separately, The Information alleges 240,000 Nvidia chips worth at least $7.5B reached China since 2023 through a group of companies, some via an Nvidia preferred cloud partner. Unverified, and Digg notes the label doesn't show Nvidia knew.
+- **2026-11-12: board acceptance dated 11-11; Blackwell fingerprints claim** ([[ainews-jensen-huang-resigns-hydrogen-2026-11-12]], AINews). Nvidia's SEC filing dates the board's acceptance of the resignation to November 11, and the board has opened a CEO search. The same issue carries Will Depue's claim that six Chinese models, including DeepSeek-V4-Pro and Kimi K3, were initialized on Blackwell systems, at an estimated 2–3K GPUs per run. Critics say that scale suggests export controls are mostly holding.
 - **2026-11-12: Jensen Huang resigns as CEO; CFO Colette Kress is interim CEO** ([[nvidia-ceo-transition-2026-11-12]]). Nvidia's release gives no reason. TechCrunch reports the board ousted him after he admitted an affair with an executive at a Singapore neocloud the US suspects of smuggling chips to China. The board named its first-ever chair, Harvey Jones, and will consider outside candidates. Q3 results are still due 2026-11-17. **Why it matters here:** TechCrunch argues Huang personally led several things this page tracks: open-weight advocacy, the Open Agent Safety Platform below, the Hugging Face deal (not yet closed) and the financing of the data-center buildout. Whether those continue without him is now an open question.
 - **2026-10-21: an OpenShell blueprint for agent boundaries** ([[dailybrief-roundup-2026-10-21]], Digg). It pairs the open-source OpenShell runtime with Vera computing, with BlueField-4 monitoring as an optional safeguard. It's the reference-design version of the 2026-09-28 product below. *(One-line aggregator summary.)*
 - **2026-09-03/13 — "Nvidia is the central bank of AI"** (The Economist interactive briefing, surfaced in both the 09-12 and 09-13 briefs — [[dailybrief-roundup-2026-09-13]]): a structural framing of Nvidia's position — not merely the dominant supplier but the institution that effectively **sets the terms of credit** for everyone building on AI, since access to compute determines who can attempt what. The 09-13 brief is appropriately cool: *"structural but no new data."* The framing is the contribution, and it is the macro counterpart to the wiki's [[ai-margin-collapse|compute-consolidation]] thread ([[dylan-patel|Dylan Patel's]] *"everything's a neocloud"* and the 2028 two-lab projection) plus the [[hugging-face|Hugging Face acquisition]] — a central bank that also bought the exchange. *(Analysis piece; no new figures.)*
