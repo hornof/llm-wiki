@@ -35,7 +35,7 @@ Cross-reference index for `Daily Briefs/2026-11-12.md`. One new event: Jensen Hu
 - **Lumbra raises $25M** (Digg on SiliconANGLE). A Series A for AI agents in classified work; LumbraOS *"traces AI agents’ claims to source data for expert validation"*. No wiki page.
 - **Repos:** `trengrj/go-potion` (static embeddings in Go), `FrigadeHQ/yogurt` (listed at *"800★"*, up from 7 in yesterday's brief), `huggingface/pybot`. Not checked.
 - **Digg tail:** Gemini smart glasses from $395, Apple TV 4K reviews. Headlines only.
-- **Still not ingested:** "Claude Meetings" (seen in TechCrunch's sidebar on 11-11). It isn't in this brief either.
+- **Still not ingested:** "Claude Meetings" (seen in TechCrunch's sidebar on 11-11). It isn't in this brief either. **Ingested 2026-11-12:** [[anthropic-claude-meetings-beta-2026-11-12]].
 
 ## Pages Updated
 

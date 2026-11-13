@@ -21,6 +21,7 @@ Anthropic's article (2026-11-10), linked from the @claudeai launch post saved in
 - **Interactive connectors.** *"partners can embed their apps directly in Claude"*, starting with Adobe, Atlassian and Box. Plugins from Salesforce (beta), NetSuite and Workday (beta) come with built-in skills.
 - **Connector count.** *"Claude Marketplace lists more than 9,000 connectors and plugins, including community-built ones."*
 - **Admin controls.** Claude auto-connect (beta, Team and Enterprise) makes connecting an app a one-time setup for the whole organization. Admins can limit a connector so *"Claude might be able to read Slack but not send messages on your behalf."* On Enterprise, *"each cloud session runs in its own isolated virtual machine"*, with connector credentials kept outside it.
+- **Claude Meetings "coming soon"** (missed at ingest, added 2026-11-12): the article previews it as a way to add Claude to a call to take notes and update documents. Launched in beta 2026-11-12: [[anthropic-claude-meetings-beta-2026-11-12]].
 - **Customer quote** (Datadog CPO): product managers go *"from an idea to a feature brief, PRD, and testable prototype much faster"*. Vendor-selected.
 
 ## Pages Updated
