@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-11-11
+last_updated: 2026-11-12
 ---
 
 ## What It Is
@@ -101,6 +101,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-12: Claude Meetings in beta** ([[anthropic-claude-meetings-beta-2026-11-12]]). Claude joins Google Meet calls and works during them; Team and Enterprise. The same day's posts also announced self-hosted Managed Agents and Claude for Manufacturing (not ingested). See [[claude-cowork]].
 - **2026-11-11: the roadshow video's compute pitch** ([[willison-anthropic-roadshow-compute-2026-11-11]], Willison's transcript). Tom Brown says Anthropic trains and serves Claude on AWS Trainium, Google TPUs, NVIDIA GPUs and AMD GPUs. He says Mythos ported Claude to AMD in three days with almost no human help, and that Anthropic's edge is "compute multipliers" that stack and that Claude will find by itself. This is a pitch to IPO buyers, not something anyone outside Anthropic has checked.
 - **2026-11-11 (reported): an outside lab proves a quantum-computing conjecture with a non-public Anthropic model** ([[import-ai-480-clark-2026-11-11]]). Physical Superintelligence says its system proved the 2008 Aaronson–Ambainis conjecture, checked in Lean, in three days. That is PSI's claim, quoted by Jack Clark. The model isn't named.
 - **2026-11-10: Claude Sheets, Whiteboards and Data** ([[claude-sheets-whiteboards-data-2026-11-10]]), released on roadshow day. Anthropic pitches them as Claude Code's way of working brought to non-engineering teams. Bloomberg's framing (via Digg) was that they compete with Anthropic's own investors' office products. See [[claude-cowork]].

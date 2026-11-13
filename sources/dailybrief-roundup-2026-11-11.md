@@ -35,7 +35,7 @@ Cross-reference index for `Daily Briefs/2026-11-11.md`. ai-pulse ran twice on 20
 - **Repos** (stars from the GitHub API on 2026-11-11): `janestreet/agent_skills`, about 5,900 stars, created 2026-11-03, a set of SKILL.md files; `facebookresearch/sgl-muse-mega`, a decoding megakernel for Muse Spark Open, 7 stars; `FrigadeHQ/yogurt`, local meeting notes; `postgres/postgres`. First run only: `runwayml/praxis-1-oss`, 65 stars and no description.
 - **First run only:** a personal site (pietromiotti.com). Not fetched.
 - **Digg tail:** ByteDance agent plans, Gemini on CarPlay, Google Tabletop, the House House/IGF AI-disclosure dispute. Headlines only.
-- **Seen, not in the brief:** TechCrunch's sidebar lists *"Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks"*. Not fetched; a candidate for the next ingest.
+- **Seen, not in the brief:** TechCrunch's sidebar lists *"Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks"*. Not fetched; a candidate for the next ingest. **Ingested 2026-11-12:** [[anthropic-claude-meetings-beta-2026-11-12]].
 
 ## Pages Updated
 
