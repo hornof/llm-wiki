@@ -3,7 +3,7 @@ name: Nathan Lambert
 type: person
 affiliation: independent (post-AI2 as of 2026-06)
 signal_sources: [substack, twitter, podcast]
-last_updated: 2026-06-19
+last_updated: 2026-11-14
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Nathan Lambert is a post-training + RLHF researcher and editor of **Interconnect
 
 ## Their Current Focus
 
+- **2026-11-14: "Open-source AI without Jensen"** (Interconnects, via Digg; [[nvidia-after-huang-techcrunch-2026-11-13]]). Lambert argues Huang supplied US open models with money and political cover, expects the funding to dry up, and calls for a US open-model lab that can compete at the frontier. His biggest near-term worry is state-level regulation.
 - Post-training methodology — particularly **on-policy distillation pipelines** and the migration from RLHF-only to multi-teacher distillation as the load-bearing competitive surface for frontier models
 - Open-weight / open-source ecosystem strategy + practitioner-level evaluation
 - Independent voice on industry post-training-methodology trends after departing AI2

@@ -2,7 +2,7 @@
 name: SKILL.md
 type: concept
 maturity: emerging
-last_updated: 2026-11-12
+last_updated: 2026-11-14
 ---
 
 ## Definition
@@ -94,6 +94,10 @@ An r/claudeskills post shares a practitioner workflow for **`sn-motion-html`** â
 ## Personal stacks go public (2026-10-26)
 
 [[theo-tstack-agent-skills-2026-10-26]]: Theo Browne published tstack, their daily skills for Claude Code and Codex, after arguing against it. It had 2.1k stars when fetched. [[garry-tan|Garry Tan]] answered *"Publish your stack"*. **Two of the skills use models from different labs to review each other** (`council` uses three providers, `sol-loop` uses GPT Sol), so this pack treats cross-vendor review as part of the workflow. One reply puts the case for sharing: the wiring is the hard part, and it doesn't transfer by reading. Another says *"can't wait to clone this and never open it again"*, which is the 10-06 dissent above in one line.
+
+## A skill that proposes skills (2026-11-13)
+
+[[garrytan-idea-miner-skill-2026-11-13]]: Garry Tan's Idea Miner reads recent meetings, notes and the existing skill list each morning and proposes new skills or upgrades. It must cite something that actually happened for each idea and say so when there's nothing. A reply suggests the safer variant: have the agent propose memory changes as a diff a human approves.
 
 ## Authoring guides and the first measurement (2026-11-12)
 

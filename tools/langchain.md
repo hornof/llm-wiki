@@ -3,7 +3,7 @@ name: LangChain
 type: tool
 category: framework
 status: mainstream
-last_updated: 2026-07-06
+last_updated: 2026-11-14
 dormant_since: 2026-09-20
 ---
 
@@ -11,6 +11,7 @@ dormant_since: 2026-09-20
 A Python (and JavaScript) framework for building LLM-powered applications. Provides abstractions for chains, agents, RAG pipelines, memory, and tool use. Described as "the agent engineering platform."
 
 ## Traction Signals
+- **2026-11-13: $300M Series C at a $3B valuation, led by CapitalG** ([[ainews-no-ai-slop-llamacpp-langchain-2026-11-13]], AINews). New LangSmith features are due on 2026-11-20. The primary announcement wasn't fetched.
 - Forked by wiki owner for active exploration — [[github-hornof-profile]]
 - One of the earliest and most widely adopted LLM frameworks; large ecosystem [unsourced]
 - **2026 book-publishing signal**: Packt's *30 Agents Every AI Engineer Must Build* by [[imran-ahmad]] explicitly names LangChain + LangGraph as the build stack for the book's pattern-catalog approach. A trade publisher teaching on the LangChain stack is a durability signal — separate from frontier practitioner adoption (which has shifted toward [[claude-code]] / [[claude-desktop]] + [[mcp]] for direct-agent workflows). — [[30-agents-every-ai-engineer-must-build]]
