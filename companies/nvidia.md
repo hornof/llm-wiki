@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 ## What It Is
@@ -20,6 +20,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-11-13/14: what Huang's exit does to Nvidia's other roles** ([[nvidia-after-huang-techcrunch-2026-11-13]], TechCrunch; Lambert via Digg). *Investor:* Nvidia joined 105 funding rounds this year per PitchBook, often as the largest check, and VCs expect Kress to be more conservative. *Export controls:* Will DePue's analysis finds Blackwell fingerprints in Kimi K3 and DeepSeek V4 weights, and TechCrunch says Nvidia's potential liability likely factored into the board's decision. *Customers:* South Korea says Nvidia reaffirmed its 260,000-GPU supply plan, and Taipei says the overseas headquarters is on track. *Open models:* Nathan Lambert expects the funding Huang drove to dry up and worries more about losing his political cover.
 - **2026-11-13 (reported): Kress was the brake on buyer guarantees, and an export allegation** ([[nvidia-kress-guarantees-china-exports-2026-11-13]], Digg on the WSJ, Reuters and The Information). The Journal reports Huang belittled Kress in an August meeting after she questioned guarantees for chip buyers who couldn't afford Nvidia hardware; she halved Nvidia's commitment to OpenAI's Ohio data center. Separately, The Information alleges 240,000 Nvidia chips worth at least $7.5B reached China since 2023 through a group of companies, some via an Nvidia preferred cloud partner. Unverified, and Digg notes the label doesn't show Nvidia knew.
 - **2026-11-12: board acceptance dated 11-11; Blackwell fingerprints claim** ([[ainews-jensen-huang-resigns-hydrogen-2026-11-12]], AINews). Nvidia's SEC filing dates the board's acceptance of the resignation to November 11, and the board has opened a CEO search. The same issue carries Will Depue's claim that six Chinese models, including DeepSeek-V4-Pro and Kimi K3, were initialized on Blackwell systems, at an estimated 2–3K GPUs per run. Critics say that scale suggests export controls are mostly holding.
 - **2026-11-12: Jensen Huang resigns as CEO; CFO Colette Kress is interim CEO** ([[nvidia-ceo-transition-2026-11-12]]). Nvidia's release gives no reason. TechCrunch reports the board ousted him after he admitted an affair with an executive at a Singapore neocloud the US suspects of smuggling chips to China. The board named its first-ever chair, Harvey Jones, and will consider outside candidates. Q3 results are still due 2026-11-17. **Why it matters here:** TechCrunch argues Huang personally led several things this page tracks: open-weight advocacy, the Open Agent Safety Platform below, the Hugging Face deal (not yet closed) and the financing of the data-center buildout. Whether those continue without him is now an open question.

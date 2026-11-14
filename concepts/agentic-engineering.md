@@ -2,7 +2,7 @@
 name: Agentic Engineering
 type: concept
 maturity: emerging
-last_updated: 2026-11-11
+last_updated: 2026-11-14
 
 ---
 
@@ -147,6 +147,10 @@ This is the cleanest counter this page holds to the floor-raising story, and it 
 **That is the opposite of the democratization claim accompanying essentially every tool launch this wiki has captured.**
 
 **The dissent is same-week and first-person.** [[garrytan-capy-harness-4x-2026-09-23]]: [[garry-tan|Tan]] reports 4× on his own PRs *"with no increase in time in-editor"* — an explicit denial that the speedup is paid for in attention. Neither side is measured, and the disagreement is exactly what [[developer-productivity-measurement|a change-failure rate and a DXI would arbitrate]]. Until someone publishes one, this resolves by whose experience you find more representative.
+
+## The No AI Slop Manifesto (AIE Code Summit, 2026-11-13)
+
+[[no-ai-slop-manifesto-2026-11-13]]: speakers and attendees of the AI Engineer Code Summit wrote an Agile-style manifesto for AI-assisted work. Its two values are *"Our own thinking over a model's first draft"* and *"Improving the system over patching the output"*. The diagnosis is cost asymmetry: generating a thousand-line PR costs almost nothing, reviewing it costs as much as ever, and slop left in a knowledge base gets copied by the next agent. The resolutions are practical: say when an agent wrote something, review a share of output scaled to the stakes, and when a mistake happens twice, fix the system rather than the output. It explicitly allows one-shot prompts and vibe coding where the outcome doesn't suffer.
 
 ## A spec and a test environment, or the agent can't check itself (AWS, 2026-11-11)
 

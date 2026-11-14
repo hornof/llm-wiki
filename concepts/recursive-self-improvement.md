@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-11-06
+last_updated: 2026-11-14
 ---
 
 ## Definition
@@ -141,6 +141,10 @@ The June section below records Jeffries and LeCun on **time** and **multiplicity
 **How this fits the outer-loop distinction above.** It is still humans directing research with AI help, not a model improving its own weights. But it is the first evidence that the outer loop changes the lab's overall rate, not just a harness or a skill.
 
 **Read it with its limits.** Anthropic redacted most of the evidence METR found most informative, so the public is taking METR's judgment on trust. The measure is a benchmark index, which METR says could overstate progress on tasks that are hard to grade. And the skeptics' bottleneck argument isn't refuted, only unconfirmed: METR's view of the bottlenecks *"changed several times"*.
+
+## A dated forecast built on the METR finding (Dwarkesh Patel, 2026-11-13)
+
+[[dwarkesh-rsi-superintelligence-2026-11-13]]: Patel cites the METR measurement above as one of three pieces of evidence, with OpenAI's researchers spending over $7,000 a day on internal coding agents and Claude leading more than 26% of Anthropic's AI R&D work. His median for AI matching the best human AI researchers is 2028. After that he describes two outcomes: a software-only singularity if models improve faster than ideas get harder to find, or a "spark" of three to six years of progress in one year before compute limits bite. He names the same limit as the skeptics earlier on this page: training works on tasks that can be graded inside a datacenter.
 
 ## Related Concepts
 

@@ -3,7 +3,7 @@ name: swyx (Shawn Wang)
 type: person
 affiliation: Latent Space (co-host with Alessio Fanelli; founder)
 signal_sources: [podcast, substack, twitter]
-last_updated: 2026-06-01
+last_updated: 2026-11-14
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ swyx (Shawn Wang) is the co-host of the **Latent Space** podcast (with Alessio F
 
 ## Their Current Focus
 
+- **2026-11-13: the No AI Slop Manifesto** ([[no-ai-slop-manifesto-2026-11-13]]). Written at AIE Code Summit 2026, which swyx's company runs, with swyx among the credited contributors; AINews made it the day's title story. Its core definition: slop is putting less effort into making something than you ask the reader to spend understanding it.
 - **Latent Space podcast** — weekly cadence; preferred surface
 - **AI-engineering trend-naming** — swyx and Alessio crystallize practitioner-content register categories via guest interviews
 - **AINews** newsletter — daily curation

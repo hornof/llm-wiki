@@ -3,7 +3,7 @@ name: Dwarkesh Patel
 type: person
 affiliation: independent (host of Dwarkesh Podcast)
 signal_sources: [podcast, blog, youtube]
-last_updated: 2026-11-06
+last_updated: 2026-11-14
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Host of **The Dwarkesh Podcast** (dwarkesh.com / formerly The Lunar Society), on
 
 ## Their Current Focus
 
+- **2026-11-13: a dated forecast for automated AI research** ([[dwarkesh-rsi-superintelligence-2026-11-13]]). After three months of changing his mind, his median for AI matching the best human AI researchers is 2028, with a 25% chance it comes after 2032. His reasoning runs from AI's fast progress on verifiable math to ML research being mostly the same kind of well-scoped search.
 - Long-form interviews on the macroeconomics + sociology of transformative AI
 - Frontier-AI research interviews (Anthropic / Reiner Pope / Imas+Trammell / etc.)
 - Cross-disciplinary economics + science interviews (Phil Trammell on post-AGI scarcity; Alex Imas on attention-as-scarcity)

@@ -3,7 +3,7 @@ name: Garry Tan
 type: person
 affiliation: Y Combinator (President & CEO)
 signal_sources: [yc-rfs, twitter]
-last_updated: 2026-11-09
+last_updated: 2026-11-14
 ---
 
 ## Who They Are
@@ -16,6 +16,8 @@ President and CEO of Y Combinator. Long-time YC presence (former YC partner, the
 ## Their Current Focus
 
 Running YC. Public-facing leadership signal-posting on AI, startup ecosystem, and the YC RFS. Internal "G-Brain" concept (referenced by [[tom-blomfield]] in the Company Brain RFS) suggests Garry is also actively workshopping the personal/organizational-memory pattern at YC scale.
+
+- **2026-11-13 — Idea Miner, a free skill** ([[garrytan-idea-miner-skill-2026-11-13]]): each morning it reads the last 24–48 hours of meetings and notes and proposes 3–6 things to build, new skills first, and keeps a dated history of its suggestions. Tan calls it recursive self-improvement; replies ask what is allowed to write into the agent's memory.
 
 - **2026-11-08 — "software factory" test of the implicit-state-machines prompt** ([[garrytan-implicit-state-machines-2026-11-08]]): quote-posts @Voxyz_ai's viral prompt and says he'll report back. No result yet; replies ask that the eval rerun old tests rather than count fixes.
 
