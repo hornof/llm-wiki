@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-11-12
+last_updated: 2026-11-14
 ---
 
 ## What It Is
@@ -71,6 +71,7 @@ Anthropic shipped **Claude Fable 5.2** and **Claude Mythos 5.2** on 2026-11-09, 
 
 ## Community Sentiment
 
+- **2026-11-14: an underwater world in one prompt** ([[abyssal-garden-fable-5-2-2026-11-14]]). An r/ClaudeAI user built a WebGPU scene with no engine and no asset files, under 100 KB, from one Claude Code prompt and a few follow-ups. They say Fable 5.2 worked for 2-3 hours, but Pro-plan limits stretched that to about three days. The prompt defines done as two gates, a critic subagent that sees only the renders and a frame-time budget. Self-reported; the code wasn't run.
 - **2026-11-11: #1 on Agent Arena, and more effort isn't always better** ([[ainews-d-day-decision-models-2026-11-11]], second-hand). Fable 5.2 at Max ranks first across 4.7K real agentic sessions, about 1.6× Opus 5.5's score. It also costs more per task: a median of $7.30 against $5.50 for Opus 5.5. Artificial Analysis finds a higher model tier beats a higher effort setting: Opus 5.5 at xhigh outscores Sonnet 5.5 at max for 40% less per task. Vals says Fable's High setting is often cheaper and better than xhigh or Max.
 - **2026-10-29 — running a production game autonomously** ([[willison-spawn-autonomous-game-dev-2026-10-29]]). Spawn's founder says Fable 5, then 5.1, is what made hourly autonomous shipping possible, at over $3M a month in tokens. Opus 5.5 didn't manage it for them. One team's account, relayed by [[simon-willison]].
 

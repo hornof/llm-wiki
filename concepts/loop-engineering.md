@@ -2,7 +2,7 @@
 name: Loop Engineering
 type: concept
 maturity: gaining-mainstream-recognition
-last_updated: 2026-10-21
+last_updated: 2026-11-14
 ---
 
 > [!key-insight] 2026-06-30 — the term reaches mainstream AI education
@@ -243,6 +243,8 @@ Four "laws" worth extracting:
 4. **Deterministic URLs as a bug-repro primitive** — every view is a URL, so *"when I found a visual bug I pasted the link into the chat and Fable reproduced the exact frame headlessly and bisected it."*
 
 **Mechanism 4 is the novel one** and generalizes past graphics. It closes the **observability gap** between a human looking at output and an agent that cannot see it: rather than describing a defect in prose — which is where the [[dailybrief-roundup-2026-09-08|Danluu finding]] says agents lose the thread — the human hands over an address the agent can re-enter exactly, and the loop closes on the same artifact both parties observed. **Any domain that can make its state addressable gets the same property.** Note also that the human role reduces to precisely what a verifier cannot supply: reviewing all 92 PRs, flying the app as a user to find the bugs worth fixing, and *"everything that needed an opinion."*
+
+**The same verifier as a single prompt (Abyssal Garden, 2026-11-14).** [[abyssal-garden-fable-5-2-2026-11-14]] puts the visual check into the prompt rather than into CI. A separate subagent sees only renders from six fixed camera poses plus a fly-through recording, never the code or the builder's reasoning, and the builder iterates until the critic reports nothing above "minor". A second gate is GPU timing against a stated frame budget, and the prompt ends with when the task is done. Keeping the critic away from the code is what makes it independent: it judges the output the way a user would. One user's build with Fable 5.2, self-reported.
 
 **The judgment calls inside the loop get their own model — [[jev|Jev]] (2026-09-20).** [[jev-typesafe-system-one-model-2026-09-18]] targets a cost this page has not named: an agent run *"can contain many calls that require judgment but no generated prose"* — choose a tool, judge a result, detect risk, decide whether the task is done, pick the next model. Each currently goes to a generative model that emits tokens sequentially for a one-word answer.
 
