@@ -22,6 +22,8 @@ Latent Space's AINews issue for 2026-11-12 (covering 11-11 to 11-12). The headli
 - **Anthropic IPO:** *"pricing is reportedly set for next Wednesday"* (a tweet by Theo; not from Anthropic). The roadshow claims Claude got one of its models doing prompt processing on AMD *"in about 3 days with almost no human intervention"*.
 - **Also listed, not followed up:** Mercor's OWE-Bench (*"Fable 5.2 at 54.6%, GPT-6 Astra at 44.2% and Opus 5.5 at 41.6%"*), NVIDIA's Alpamayo 2 Edge self-driving model, Baidu's ERNIE 5.5 Flash, and Smitline, an MCP tool that lets Claude Code place phone calls.
 
+*Correction 2026-11-15: the primary report was revised on 11-12 and now estimates about 4,500 and 3,000 Blackwell GPUs for the two largest runs; the 2–3K figure quoted above is the first version ([[depue-checkpoint-forensics-blackwell-2026-11-12]]).*
+
 ## Pages Updated
 
 - [[gemini]] — Hydrogen row in the model table

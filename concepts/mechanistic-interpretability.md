@@ -2,7 +2,7 @@
 name: Mechanistic Interpretability
 type: concept
 maturity: active-research
-last_updated: 2026-11-02
+last_updated: 2026-11-15
 ---
 
 ## Definition
@@ -78,6 +78,10 @@ Three independent surfaces of sparse-autoencoder-based interpretability research
 Until now the wiki's interpretability record used purpose-built tools (SAEs, probes, Anthropic's NLAs). Takehi et al. at MIT CSAIL used GPT-6 Astra as it ships, given weights as text ([[takehi-weight-space-programming-2026-11-02]]). Given only the middle layers of three small language models, it found every induction head and named no false ones. Unprompted, it used a weight-multiplication method the authors recognised from Elhage et al. It also traced Qwen3.5-0.8B's reasoning loops to one direction and removed it by editing 0.016% of the weights.
 
 **The limits are the useful part.** From weights alone it couldn't tell which of two Gemma 3 270M copies was sycophantic; given attention patterns on texts it wrote, it could. That's the [[#Probing-vs-Causal Gap (Cheng & Zhang, May 2026)|probing-versus-causal]] question again: spotting structure in weights isn't the same as knowing what behaviour it produces. The authors hope to audit weights for backdoors without test sets, which would bear on [[agentic-backdoors-pretraining-poisoning-2026-10-27|pretraining-poisoned agents]], but nothing in the post tests that. *(Blog post; networks up to 0.8B.)*
+
+## A 3D map of Qwen's states, and how much it hides (2026-11-14)
+
+An independent field note maps final-layer token states of Qwen3-1.7B across 3,690 question-and-answer examples in four languages and Python ([[operator0x-qwen-conversation-state-space-2026-11-14]]). In 3D the states form a thin sheet, with Chinese offset from the Latin-script languages. The author then checks the picture: the 3D view left out 82.4% of the variation, and the best flat plane in the full 2,048 dimensions held only 28.7%. The main axes still track language, with topic structure underneath. It's a useful caution for any PCA picture of model internals: a striking shape can be mostly the projection.
 
 ## Key Papers / Posts
 

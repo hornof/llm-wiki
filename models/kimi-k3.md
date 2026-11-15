@@ -3,7 +3,7 @@ name: Kimi K3 (2.8T-A50B)
 type: model
 provider: Moonshot AI
 status: available
-last_updated: 2026-11-05
+last_updated: 2026-11-15
 ---
 
 ## What It Is
@@ -28,6 +28,7 @@ last_updated: 2026-11-05
 
 ## Community Sentiment
 
+- **2026-11-12: trained on Blackwell, per a weight fingerprint** ([[depue-checkpoint-forensics-blackwell-2026-11-12]]). K3's published weights match GB200/GB300-class GPUs, confirmed on physical Blackwell hardware; K2.5 read as Hopper. K3.1 Pro starts from the same seed. The report's best estimate for K3's run is about 4,500 Blackwell GPUs over two to three months, which it calls uncertain.
 Launch (2026-07-16). Read as an **open-weight scaling inflection** feeding the [[ai-margin-collapse]] thesis — *"expect margin compression across the mid-market LLM API stack"* ([[dailybrief-roundup-2026-07-17|brief]]). Willison's grounding note: past the point where parameter count alone signals capability; benchmark *design* matters more as hype peaks.
 
 - **2026-07-25 — UK AISI / CAISI preliminary cyber-capability assessment** ([[dailybrief-roundup-2026-07-25]], NIST): a safety-body pre-deployment evaluation of K3's *cyber* attack surface — the kind of independent held-out testing [[frontier-ai-governance|Hassabis's SRO]] proposed, now happening ad hoc on a specific open model. Also the model named in [[us-treasury-china-ai-sanctions-threat-2026-07-21|Bessent's sanctions-threat]] framing → K3 sits at the center of the open-weights governance/geopolitics debate.

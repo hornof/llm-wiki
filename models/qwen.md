@@ -3,7 +3,7 @@ name: Qwen
 type: model
 provider: Alibaba
 status: available
-last_updated: 2026-11-08
+last_updated: 2026-11-15
 ---
 
 ## What It Is
@@ -21,6 +21,8 @@ last_updated: 2026-11-08
 - Cost-sensitive or self-hosted workloads where an open-weight model is "good enough" and switching cost matters — the demand-side of the margin-collapse dynamic.
 
 ## Community Sentiment
+- **2026-11-14: a map of Qwen3-1.7B's internal states** ([[operator0x-qwen-conversation-state-space-2026-11-14]]). An independent author projects the model's token states across four languages and Python into 3D. Language dominates the main axes. The post's own measurements show the 3D view captures under a fifth of the variation. See [[mechanistic-interpretability]].
+- **2026-11-12: no Blackwell fingerprint in Qwen** ([[depue-checkpoint-forensics-blackwell-2026-11-12]]). The newest Qwen models the forensic report could read are Hopper-trained, and several Qwen3 models were initialized on a CPU, which leaves no GPU trace.
 - **2026-11-07: Nous Research's Arete-27B, a Qwen3.8-27B fine-tune for "Western values"** ([[dailybrief-roundup-2026-11-08]], Digg). In Nous's own 803-prompt eval, answers flagged for Chinese-state framing fell from 22% to 0.9%, with no meaningful capability regression reported. Developer's evaluation only.
 - **2026-11-03: Qwen 3.8 27B reads model weights on a laptop** ([[willison-qwen-interprets-model-weights-2026-11-03]]). Given only the weights of small game-playing networks, it named Pac-Man, Pong and Breakout, and missed Freeway. Each took 46 to 65 minutes and needed a context window above the default 8,192 tokens. [[simon-willison|Willison]] calls it *"still my favorite model to run on my own laptop"*.
 - **2026-11-02: Qwen3.5-0.8B's thinking loops, fixed by a weight edit** ([[takehi-weight-space-programming-2026-11-02]]). Qwen's own model card warns the model is prone to loops; in this test 85 of its first 96 practice answers ran to the 32,768-token limit. GPT-6 Astra removed one direction in two MLP layers (0.016% of weights), and MATH-500 rose from 7.9% to 48.1%. The edited model is on Hugging Face.
