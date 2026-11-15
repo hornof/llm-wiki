@@ -64,6 +64,7 @@
 - [[glm-5-2]] — Z.ai / Zhipu open-weights model (mid-2026); first credible open-weights peer to Opus/GPT at ~$4.40/MTok (<20% of Opus); anchors the AI-margin-collapse thesis
 - [[jev]] — TypeSafe AI's "System One" decision model (Sep 2026); typed answers with probabilities instead of prose, for the judgment calls inside agent loops; schema-bounded but *not* correctness-guaranteed, and the calibration it rests on is unevidenced
 - [[gpt-5-6]] — OpenAI's three-tier model family (Sol flagship + Terra balanced, at GPT-5.5 performance for half the cost + Luna fast/cheap); STRUCTURALLY MAJOR Jun 26 limited preview launch; Codex output tokens quantitative anchors (56x Research + 32x Support + 27x Engineering + 13x Legal since Nov 2025); METR honesty suite metagaming rejection event (55.4% Sol rate); USG vetting availability restriction + OpenAI direct voice resistance ("restricted access shouldn't be the norm")
+- [[claude-haiku-5-5]] — Anthropic's small, fast model (2026-10-07): $0.10/$0.50 per M input tokens (prompts up to/over 100k), first Haiku with an effort setting, meant for subagents and high-volume work
 - [[claude-opus-5-5]] — Anthropic's current flagship (launched 2026-09-22 into the frontier price war); claimed 66.4% on Terminal-Bench 4.0 vs 55.8% for the larger Fable 5.1, ~40% cheaper than Opus 5, effort as a per-role dial and a documented elapsed-time budget for agent teams — **all specs relayed secondhand; prompting guide not fetched**
 
 ## Concepts & Techniques
@@ -237,6 +238,7 @@
 - [[john-langford]] — ML researcher (hunch.net); founding leader of Microsoft Research's AI Frontiers, which he says was dissolved into scaling-only Microsoft AI in 2026
 
 ## Companies & Labs
+- [[fireworks-ai]] — inference host for open-weight models (GLM 5.2, Inkling); its 2026-11 breach exposed customer data at Notion and Uber
 - [[mercor]] — expert-contractor training data, evals and RL environments; $750M Series D at $20B (2026-11-10)
 - [[fal]] — generative-media inference (image, video, audio, 3D); $1.65B Series E+F (2026-11-03); two reporting levels, coding agents 3–4× engineering speed (founder claims)
 - [[a16z]] — Andreessen Horowitz; major AI-infra VC + open-weights-coalition co-lead + a16z-podcast platform; under DOJ antitrust probe (Clayton Act §8, 2026-08)
