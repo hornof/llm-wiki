@@ -3,7 +3,7 @@ name: Gray Swan
 type: company
 focus: AI security and red-teaming
 status: emerging
-last_updated: 2026-11-03
+last_updated: 2026-11-15
 ---
 
 ## What It Is
@@ -29,7 +29,7 @@ The wiki has no hands-on notes. Its benchmark is the practical touchpoint: when 
 
 ## Compared To
 
-- **Lab-internal red teams** ([[anthropic]], [[anthropic-public-record]]): Gray Swan is an outside firm whose benchmark labs cite.
+- **Lab-internal red teams** ([[anthropic]]): Gray Swan is an outside firm whose benchmark labs cite.
 - **[[metr]] and [[arena]]**: evaluation businesses measuring capability and preference. Gray Swan measures attack resistance.
 - **Runlayer** ([[dailybrief-roundup-2026-06-24]]): runtime security for enterprise agents, not model red-teaming.
 

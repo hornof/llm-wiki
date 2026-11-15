@@ -1,58 +1,42 @@
 ---
 name: Reflection AI
 type: company
-focus: open-source frontier AI lab
+focus: open-weight frontier models
 status: emerging
-last_updated: 2026-10-16
+last_updated: 2026-11-15
 ---
 
 ## What It Is
 
-**Reflection AI** (a.k.a. "Reflection") is a Brooklyn-based open-source frontier AI lab (founded 2024), explicitly positioned as an **American alternative to Chinese open-source models like DeepSeek**. Founded by **Misha Laskin** and **Ioannis Antonoglou** — both former [[google-deepmind|Google DeepMind]] researchers who led early work on the Gemini model family. Raised **$2.1B at an $8B valuation** (Forbes 2026 AI 50), and is a **STRUCTURALLY MAJOR canonical-SpaceX-anchor-customer** for [[colossus-2|Colossus 2]] under a multi-year **$5.4B–$6.3B** canonical-compute-commitment ($150M/month through 2029). First wiki-captured canonical 4-day Jun 19 → Jun 22 SpaceX-Colossus-2-Reflection-AI canonical-infrastructure-consolidation cluster anchor.
+**Reflection AI** (often just "Reflection") is a New York lab, founded in 2024, that builds open-weight frontier models and presents itself as an American alternative to Chinese open models such as [[deepseek|DeepSeek]] ([[forbes-ai-50-2026]]). Its founders are **Misha Laskin** and **Ioannis Antonoglou**, former [[google-deepmind|Google DeepMind]] researchers who led early Gemini work. Forbes's 2026 AI 50 lists $2.1B raised at an $8B valuation, from investors including [[nvidia|Nvidia]], [[sequoia-capital|Sequoia]], Lightspeed and 1789 Capital. At the time of that list it had not released a model and was building a data center in South Korea.
 
-*(Page merged 2026-09-10 from the former `reflection` + `reflection-ai` split — same company.)*
+Its first model, **Beam** (501B parameters), shipped in October 2026 under Apache 2.0, with its tokenizer and the training harness it used.
 
-## Background
-
-Founded by **Misha Laskin** and **Ioannis Antonoglou** (ex-DeepMind, Gemini). As of April 2026 the company had **not publicly released its own AI**, but was building a **data center in South Korea** and developing bespoke AI systems for Korean companies — a dual US-Asia strategy.
+*(Page merged 2026-09-10 from the former `reflection` + `reflection-ai` split. Rewritten 2026-11-15 to remove `canonical-` filler from an automated pass. The earlier version gave "$5.4B–$6.3B" as one deal's range; the figures come from two reports. It also carried two claims no source in the wiki supports, one about an investor's partner and one about building custom AI for Korean companies; both were removed.)*
 
 ## Traction Signals
 
-- **2026-06-22: SpaceX inks $5.4B–$6.3B compute deal with Reflection AI** ([[dailybrief-roundup-2026-06-22]]) — $150M/month through 2029 anchor; canonical-multi-year canonical-anchor-customer canonical-positioning. Reported across TechCrunch + Digg-headlined-coverage. First wiki-captured canonical-non-OpenAI canonical-non-xAI canonical-Anthropic-non-allied canonical-frontier-lab-funding model.
-- **Open-source positioning**: explicit canonical-open-source-lab framing distinguishes Reflection AI from the closed-frontier-lab cohort (OpenAI + Anthropic + xAI).
-- **Infrastructure-consolidation signal**: $5.4B+ commitment to a single substrate provider (SpaceX/Colossus 2) demonstrates the canonical-capital-concentration-shapes-who-can-train-frontier-models thesis.
-- **$2.1B raised; $8B valuation** — [[forbes-ai-50-2026]]; Forbes 2026 AI 50 inclusion (newcomer). Backed by Nvidia + Sequoia even as a **pre-product** company — rare.
-- Founded by DeepMind/Gemini veterans.
+- **2026-10-16: Beam's licence and harness** ([[dailybrief-roundup-2026-10-16]], Digg). Beam is available across platforms as Apache 2.0 open weights. Reflection is also releasing the tokenizer and Mirror CLI, the open-source harness it used to train Beam. The repo, [`reflection-oss/mirror`](https://github.com/reflection-oss/mirror), is a terminal coding agent that edits files, runs commands and runs parallel tasks in separate worktrees; it had 15 stars on 2026-10-16. Labs that ship open weights don't usually ship the agent harness used in training, so this is the unusual part. See [[domain-specific-harness]]. *(Digg summary plus the brief's repo entry; architecture and benchmarks still not captured.)*
+- **2026-10-06: Beam, a 501B open-weight model** ([[dailybrief-roundup-2026-10-06]], reflection.ai; not fetched). It shipped the same day as [[mistral-ai|Mistral Large 4]], whose weights were staged for three weeks later. Nothing beyond the parameter count was captured that day.
+- **2026-06-22: compute lease from SpaceX's Colossus 2** ([[spacex-reflection-ai-150m-month-compute-deal-2026-06-22]]). TechCrunch reports $150M a month and $5.4B through 2029; a Digg summary gives $6.3B for a lease of Nvidia GB300 GPUs from [[colossus-2|Colossus 2]]. Neither source explains the gap. It's the only Colossus 2 tenant the wiki knows of.
+- **2026-04: Forbes AI 50** ([[forbes-ai-50-2026]]): $2.1B raised, $8B valuation, still pre-product.
 
-## Beam — a 501B open-weight model (2026-10-06)
+## Key People
 
-**Reflection released *Beam*, a 501B-parameter open-weight model** ([[dailybrief-roundup-2026-10-06]], reflection.ai). **Detail is sparse and the brief says so**: *"worth checking if the architecture or training method carry novel signal."*
+- **Misha Laskin** and **Ioannis Antonoglou**: co-founders, formerly at Google DeepMind.
 
-**It lands the same day as [[mistral-ai|Mistral Large 4]] (1T, weights staged to 10-27), which makes the contrast the useful part.** Reflection announced open-weight *at release*; Mistral announced open-weight *in three weeks*. **For a lab whose entire positioning is open-source frontier AI — and which the wiki records leasing $5.4–6.3B of SpaceX compute at ~$150M/month through 2029 — shipping weights immediately is the consistent move**, and the one that costs most.
+## How to Use It
 
-**Nothing captured beyond the parameter count**: no architecture, no activation sparsity, no benchmarks, no licence. **501B open weights is a large release if the licence is permissive and unremarkable if it is not**, and the wiki does not know which. *(Vendor blog, not fetched.)*
-
-> **Licence question resolved 2026-10-16** ([[dailybrief-roundup-2026-10-16]], Digg): **Beam is available across platforms under Apache 2.0 open weights**, and Reflection says it is also releasing **the tokenizer and Mirror CLI, the open-source harness it used to train Beam.** By this section's own test, a permissive licence makes Beam a large release. **The harness is the more unusual part.** Labs that ship open weights do not usually ship the agent harness used in training. That is the training-time half of the [[domain-specific-harness|harness]] question, which the wiki usually sees only from the inference side. The repo is [`reflection-oss/mirror`](https://github.com/reflection-oss/mirror): a terminal coding agent that reads and edits files, runs commands, and runs parallel tasks in separate worktrees, at **15★ on 2026-10-16** (brief's repo list). It is new, so the star count says nothing yet. *(Digg summary plus the brief's repo entry. Architecture and benchmarks are still uncaptured.)*
-
-## Investors
-
-Backed by **[[nvidia|Nvidia]]**, **[[sequoia-capital|Sequoia]]**, **Lightspeed**, and **1789 Capital** (where Donald Trump Jr. is a partner) — an unusual combination reflecting the venture's geopolitical framing.
-
-## Geopolitical Angle
-
-Reflection's founding rationale is explicitly tied to promoting an **American alternative to Chinese open-source AI**. The combination of government-adjacent investors (1789 Capital) and a South Korea data center signals a dual US-Asia strategy — the same open-source-as-geopolitical-theater framing the wiki tracks for [[mistral-ai|Mistral]] (European sovereignty) and the Chinese open-weights cohort.
+Beam's weights are open under Apache 2.0, and Mirror is on GitHub. The wiki hasn't recorded benchmarks, hardware needs or where Beam is hosted.
 
 ## Compared To
 
-- Closest cohort: open-source frontier labs ([[allenai|Ai2/Allen Institute]], [[mistral-ai|Mistral]], [[meta|Meta]]/Llama). Reflection AI's $5.4B+ compute commitment puts it in the canonical-frontier-training-tier rather than the canonical-academic-research-tier.
-- Distinguishes itself via canonical-SpaceX-substrate-anchor commitment (not a multi-cloud pattern).
-- The **American open-source answer to [[deepseek|DeepSeek]]** — the offense/defense mirror of the Chinese-open-weights cluster.
+- **Other open-weight labs:** [[mistral-ai|Mistral]] (sold to European governments as a non-American option), [[allenai|Ai2]] and [[meta|Meta]]'s Llama. Forbes frames Reflection as the American answer to DeepSeek ([[ai-50-2026-snapshot]]), which makes open weights a geopolitical position as much as a technical one.
 
 ## Resources
 
-- [[dailybrief-roundup-2026-06-22]] — Jun 22 SpaceX $5.4B compute deal canonical-anchor
-- [[forbes-ai-50-2026]] — AI 50 coverage with founding story ($2.1B/$8B)
-- [[ai-50-2026-snapshot]] — open-source as geopolitical play framing
-- [[colossus-2]] — canonical-SpaceX-substrate-anchor + canonical-multi-tenant canonical-positioning
-- [[nvidia]] / [[sequoia-capital]] — investors
-- [[spacex]] — Colossus-2 substrate provider
+- [[forbes-ai-50-2026]]: founders, funding, investors
+- [[ai-50-2026-snapshot]]: open source as a geopolitical play
+- [[spacex-reflection-ai-150m-month-compute-deal-2026-06-22]]: the Colossus 2 lease
+- [[colossus-2]]: the cluster
+- [[dailybrief-roundup-2026-10-06]], [[dailybrief-roundup-2026-10-16]]: Beam and Mirror

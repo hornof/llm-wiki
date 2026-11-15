@@ -3,7 +3,7 @@ name: Arena (Arena AI)
 type: company
 focus: AI leaderboard and evaluation infrastructure
 status: gaining-traction
-last_updated: 2026-10-21
+last_updated: 2026-11-15
 ---
 
 ## What It Is
@@ -39,7 +39,7 @@ last_updated: 2026-10-21
 
 - [[arena-100m-evaluation-infrastructure-2026-06-29]] — the $100M anchor
 - [[dailybrief-roundup-2026-10-08]] — the Series B and the Alignment Index
-- [[metr]] · [[gray-swan]] · [[anthropic-public-record]] · [[frontier-ai-governance]]
+- [[metr]] · [[gray-swan]] · [[frontier-ai-governance]]
 - [[gpt-5-6-launch-3-event-cluster-2026-06-26]] — METR's rejection, the comparison case for evaluator independence
 
 ## Verification-pending
