@@ -2,58 +2,39 @@
 name: Anthropic Public Record
 type: company
 status: active
-last_updated: 2026-06-20
+last_updated: 2026-11-15
 ---
 
 ## What It Is
 
-**Anthropic Public Record** is [[anthropic|Anthropic]]'s **structural-transparency-disclosure initiative** launched (or made-public) **2026-06-12** with first-results publication — a canonical-discipline-substrate for ongoing model-evaluation + safety-testing + failure-mode-disclosures at vendor-creator-tier. **First wiki-captured canonical Anthropic-Public-Record entity-surface event** noted in [[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16|Jun 16 Anthropic-USG-conflict cluster Jun 16 extension]]. Anthropic Public Record sits at the **vendor-side transparency-and-safety-evaluation-discipline canonical-cluster** layer alongside Anthropic MITRE ATT&CK + Anthropic "How We Contain Claude" + Dario "Policy on the AI Exponential" essay. **4 substantive surfaces across 4 distinct ingest cycles** (Jun 16 + Jun 16-pt2 + Jun 18 + Jun 20) validates dedicated-entity-page creation past multi-lint carry-over threshold.
+**Anthropic Public Record** is [[anthropic|Anthropic]]'s recurring survey of what the US public thinks and feels about AI ([[anthropic-public-record-survey-2026-06-12]]). The first wave was fielded by YouGov in November and December 2025 with 51,993 Americans, weighted to Census benchmarks, and the results were published on 2026-06-12. Anthropic plans to repeat it regularly and expand outside the US. It sits alongside Anthropic's other public-facing research: the Anthropic Economic Index (usage data) and Anthropic Interviewer (an 81,000-person qualitative study of Claude users).
+
+It's filed under `companies/` because the page was created that way in June; it's an Anthropic research program, not a company.
+
+*(Rewritten 2026-11-15. The earlier version, built from the Daily Brief's framing without reading the announcement, described Public Record as a model-evaluation and failure-disclosure initiative and grouped it with AI-control and safety publications from OpenAI and DeepMind. That was wrong: it's an opinion survey. The earlier version was also full of `canonical-` filler from an automated pass.)*
+
+## Key Findings (first wave, late 2025)
+
+- **Hopes:** curing diseases topped the list, chosen by 48% as a top-three hope.
+- **Fears:** job loss was the most common fear in every state (64%), then cognitive dependency (56%) and misinformation (52%). People worried more about misuse (crime, surveillance) than about AI "going rogue".
+- **Use and worry:** daily users of AI at work were less worried about job loss than non-users (54% versus 70%). Worry about job loss rose with education.
+- **Trust:** only 15% trust AI companies to decide how AI is developed and used, below every other institution tested. 71% want government involved in regulating AI, with majorities in both parties.
+- **Heavy users:** about 6% used AI daily for both work and personal life. They were less worried overall but wanted government involvement at roughly the national rate.
+
+Anthropic's own caveat: this is what Americans believed in late 2025, and it's a baseline.
 
 ## Traction Signals
 
-- **2026-06-20: Anthropic Public Record paired with Google DeepMind AI Control Roadmap canonical-event** ([[deepmind-jun-20-jumper-anthropic-ai-control-roadmap-2026-06-20]]) — paired 4-vendor 3-week vendor-side AI-control + AI-safety-and-transparency canonical-discipline cluster. **First wiki-captured Anthropic Public Record as canonical-Anthropic-side foundational-element of multi-vendor canonical-safety-discipline cluster**.
-- **2026-06-18: Anthropic Public Record paired with OpenAI Deployment Simulation + Thomas Dimson In The Weights** ([[openai-jun-18-7-event-cluster-2026-06-18]]) — **first wiki-captured 3-vendor 6-day vendor-side transparency-and-safety-evaluation-discipline cluster** (Anthropic Public Record Jun 12 + OpenAI Deployment Simulation Jun 16 + In The Weights Jun 18).
-- **2026-06-16: Anthropic Public Record paired with OpenAI Deployment Simulation** ([[openai-ona-acquisition-deployment-simulation-2026-06-16]]) — **first wiki-captured 4-day 2-vendor vendor-side safety-evaluation-discipline cluster** (Anthropic Public Record Jun 12 + OpenAI Deployment Simulation Jun 16).
-- **2026-06-16: Anthropic Public Record Jun 12 first-results event canonical-discovery** ([[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16]]) — first wiki-captured Anthropic Public Record entity-surface; Jun 12 first-results publication 1 day BEFORE the [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|Jun 13 Sacks export-control event]] — **strengthens Anthropic-side 3-day Jun 11-12-13 governance-positioning coordinated-positioning hypothesis** (Dario essay + Public Record + Anthropic-statement). Brief insightful-tier framing (per Daily Brief 2026-06-16): *"The real test isn't that Anthropic disclosed — it's whether competitors feel compelled to match it. Transparency becomes table stakes only if it's costly to ignore."*
-
-## Strategic Position
-
-Anthropic Public Record canonical-substrate positions Anthropic at the **structural-transparency-disclosure canonical-vendor-tier**. Pairs structurally with canonical Anthropic-side AI-safety-and-transparency-discipline canonical-publications:
-
-| Date | Anthropic publication | Canonical-tier |
-|---|---|---|
-| 2026-05-31 | [[anthropic-how-we-contain-claude-2026-05-31|"How We Contain Claude"]] | Containment-canonical-positioning |
-| 2026-06-03 | [[anthropic-mitre-attack-cyber-threats-2026-06-03|Anthropic MITRE ATT&CK cyber-threats mapping]] | Cyber-defense-positioning |
-| 2026-06-11 | [[dario-policy-on-ai-exponential-via-mehta-2026-06-11|Dario "Policy on the AI Exponential" essay]] | CEO-tier policy-positioning |
-| **2026-06-12** | **Anthropic Public Record first results** | **Structural-transparency-disclosure canonical-substrate** |
-| 2026-06-13 | [[anthropic-statement-fable-mythos-access-suspension-2026-06-13|Anthropic Fable/Mythos suspension statement]] | Vendor-side-statement-response canonical |
-
-**First wiki-captured Anthropic-side 5-event 13-day vendor-side AI-control + AI-safety-and-transparency canonical-discipline cluster** = canonical-most-load-bearing Anthropic vendor-side canonical-discipline cluster captured to date.
-
-## Multi-vendor canonical-discipline cluster
-
-Anthropic Public Record sits at the **4-vendor 3-week vendor-side AI-control + AI-safety-and-transparency canonical-discipline cluster**:
-
-| Vendor | Publications | Cadence |
-|---|---|---|
-| **Anthropic** | MITRE ATT&CK + How-We-Contain-Claude + Public Record + Dario Policy + Fable/Mythos statement | 5-event 13-day cadence |
-| **OpenAI** | [[openai-deployment-simulation|Deployment Simulation Jun 16]] + [[openai-jun-18-7-event-cluster-2026-06-18|In The Weights Jun 18]] | 2-event 3-day cadence |
-| **Google DeepMind** | [[deepmind-jun-20-jumper-anthropic-ai-control-roadmap-2026-06-20|AI Control Roadmap Jun 20]] + [[jun-19-open-source-research-origin-cluster-2026-06-19|Andreas Kirsch governance-direct-voice Jun 19]] | 2-event 2-day cadence |
-| **Block + Anthropic** | [[mcp|MCP Model Context Protocol]] + [[goose|Goose-AAIF Linux Foundation]] | Multi-month canonical-substrate-cadence |
+- **2026-06-12: first results published** ([[anthropic-public-record-survey-2026-06-12]]).
+- **2026-06-16: first appeared in the wiki via the Daily Brief** ([[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16]]), whose draft read it as a transparency move on model evals. That reading is corrected on the source page.
 
 ## Compared To
 
-- **Anthropic Public Record** vs **OpenAI Deployment Simulation** = canonical 2-vendor vendor-side safety-evaluation-discipline cluster (Jun 12 + Jun 16)
-- **Anthropic Public Record** vs **DeepMind AI Control Roadmap** = canonical 2-vendor vendor-side AI-control-roadmap cluster (Jun 12 + Jun 20)
-- **Anthropic Public Record** + **OpenAI Deployment Simulation** + **DeepMind AI Control Roadmap** + **Thomas Dimson In The Weights** = first wiki-captured 4-vendor 8-day vendor-side AI-control + AI-safety-and-transparency canonical-discipline cluster
+- **Anthropic Economic Index:** measures how people use Claude from anonymized usage data. Public Record asks the general public, including people who don't use AI.
+- **Anthropic Interviewer study:** in-depth interviews with 81,000 Claude users. Public Record is a broad survey that reaches non-users; both found job loss and cognitive dependency among the top fears.
 
 ## Resources
 
-- [[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16]] — Jun 16 Anthropic Public Record Jun 12 first-results event canonical-discovery
-- [[openai-ona-acquisition-deployment-simulation-2026-06-16]] — paired Jun 16 2-vendor vendor-side safety-evaluation-discipline cluster
-- [[openai-jun-18-7-event-cluster-2026-06-18]] — paired 3-vendor 6-day vendor-side transparency cluster
-- [[deepmind-jun-20-jumper-anthropic-ai-control-roadmap-2026-06-20]] — paired 4-vendor 3-week vendor-side AI-control + AI-safety-and-transparency canonical-discipline cluster
-- [[anthropic|Anthropic]] — parent vendor-entity
-- [[dario-policy-on-ai-exponential-via-mehta-2026-06-11]] — paired CEO-tier policy-positioning
-- [[anthropic-mitre-attack-cyber-threats-2026-06-03]] — paired cyber-defense-positioning
-- [[anthropic-how-we-contain-claude-2026-05-31]] — paired containment-canonical-positioning
+- [[anthropic-public-record-survey-2026-06-12]]: the announcement, with method and findings
+- [[anthropic-usg-conflict-cluster-jun-16-extension-2026-06-16]]: where the wiki first recorded it
+- [[anthropic]]: parent company

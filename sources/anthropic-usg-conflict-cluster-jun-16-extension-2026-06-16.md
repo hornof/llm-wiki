@@ -43,6 +43,8 @@ ingested: 2026-06-16
 
 ### Event 3: Anthropic Public Record transparency initiative
 
+> **Correction 2026-11-15** ([[anthropic-public-record-survey-2026-06-12]]): the announcement, fetched for the first time, describes a public-opinion survey of 51,993 Americans, not a disclosure of model evals or safety testing. The "Initiative" line below repeats the brief's guess.
+
 - **Source**: [Anthropic announcement (2026-06-12)](https://www.anthropic.com/news/anthropic-public-record) — *"Results from the first Anthropic Public Record"*
 - **Initiative**: structured-disclosure publication of model evals + safety testing + failure modes
 - **Date of first results**: 2026-06-12 (1 day BEFORE the [[davidsacks-anthropic-fable-5-export-control-jailbreak-2026-06-13|Jun 13 Sacks export-control event]])

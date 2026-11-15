@@ -3,7 +3,7 @@ name: METR (Model Evaluation and Threat Research)
 type: company
 focus: third-party AI evaluation; frontier capability and honesty evaluations
 status: gaining-traction
-last_updated: 2026-11-06
+last_updated: 2026-11-15
 ---
 
 ## What It Is
@@ -45,7 +45,6 @@ Every other evaluator the wiki tracks has acquired a funding relationship worth 
 ## Compared To
 
 - **[[gray-swan|Gray Swan]]** — red-teaming against METR's capability-and-honesty evaluation. Two disciplines, one cohort.
-- **[[anthropic-public-record|Anthropic Public Record]]** — internal lab evaluation against METR's external third-party position. **The distinction is the whole value.**
 - **Epoch AI (MirrorCode)** — multi-day software-engineering benchmarks against METR's honesty focus ([[dailybrief-roundup-2026-06-26]]).
 - **[[arena|Arena]]** — the commercial leaderboard, now venture-funded at $3.1B. **The sharpest live comparison on evaluator independence.**
 - **[[victor-taelin|Victor Taelin]]** — his *"benchmarks as marketing"* skepticism, and **METR's rejection is the strongest validation of it the wiki holds**: vendor benchmarks are gameable, and here is an evaluator saying so by withholding.
@@ -55,7 +54,7 @@ Every other evaluator the wiki tracks has acquired a funding relationship worth 
 - [[metr-anthropic-ai-rd-acceleration-2026-11-05]] — the Anthropic AI R&D acceleration assessment and its redactions
 - [[gpt-5-6-launch-3-event-cluster-2026-06-26]] — the rejection
 - [[dailybrief-roundup-2026-06-26]] — the three-voice evaluation cluster (METR, Eric Topol, Epoch AI)
-- [[gray-swan]] · [[anthropic-public-record]] · [[arena]] · [[victor-taelin]] · [[verifiability-and-jagged-intelligence]]
+- [[gray-swan]] · [[arena]] · [[victor-taelin]] · [[verifiability-and-jagged-intelligence]]
 - Evaluation targets: [[anthropic]] · [[openai]] · [[google-deepmind]]
 
 ## Verification-pending
