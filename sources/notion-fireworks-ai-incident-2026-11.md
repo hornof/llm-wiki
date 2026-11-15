@@ -21,4 +21,4 @@ Notion's help-center notice (fetched 2026-11-10) on a breach at Fireworks AI, an
 
 ## Pages Updated
 
-None. The wiki has no Notion or Fireworks page, and one incident doesn't justify creating them. Recorded here and in [[dailybrief-roundup-2026-11-10]].
+- [[fireworks-ai]] — created 2026-11-15, after the Uber follow-up made it two known customers. The wiki still has no Notion page. Also recorded in [[dailybrief-roundup-2026-11-10]].
