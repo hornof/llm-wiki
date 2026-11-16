@@ -204,6 +204,7 @@ One entry per publication: venue, authors, link, one-paragraph abstract, context
 ```
 - `owner/profile.md` — bio, career summary, all professional/social links
 - `owner/publications.md` — academic and professional publications list
+- `owner/project-ideas.md` — every project idea in one list, with status and a pointer to its write-up (added 2026-11-16)
 - Add new files to `owner/` as needed (e.g., `owner/talks.md`, `owner/notes.md`)
 - These pages are not tracked in `index.md` under the standard categories; they are self-referential wiki-owner pages
 
@@ -310,6 +311,9 @@ When given a new source:
 5a. **Close what this source answers.** Before finishing, grep every entity page you touched for open-question markers — `verification-pending`, `open question`, `remains unclear`, `unconfirmed`, `insufficient detail`, `not yet` — and resolve any the new source settles. Mark it resolved in place with the date rather than deleting the question, so the progression stays legible. Also check the page's `status:` frontmatter against what you just added to its body.
 
    *Why this step exists:* `claude-mythos` carried "insufficient public detail to call this yet" for three months after the 2026-06-09 launch answered it, and `companies/cursor` described a confirmed acquisition as a rumor for the same reason. Both were found by lint, not by ingest. 111 entity pages still carry open-question markers.
+5b. **Add build ideas to `owner/project-ideas.md`.** If a source describes something the owner could build or reproduce (a "For the owner" note suggesting a build is the usual sign), add a *candidate* line there with the date and a wikilink to the source page. If the idea is already listed, add the source to its line instead. Check the Rejected table first: when the idea matches a rejected one, say so on the line rather than listing it as new.
+
+   *Why (owner decision, 2026-11-16):* project ideas were spread across six Cowork pages and the wiki's source notes, with nothing showing the others, so the same idea got collected more than once.
 6. Append a one-line entry to `log.md` (current + prior month only; older months are archived to `meta/log-archive/YYYY-MM.md`): `YYYY-MM-DD | ingest | <source-slug> | pages touched: <list>`. **If the ingest was driven by a Daily Brief, the description field MUST include the brief filename(s) verbatim** (e.g., `Daily Briefs/2026-09-12.md`, `Daily Briefs/2026-09-10-neutral.md`) so step 0 of the next ingest can detect prior processing via grep.
 
    **On brief filenames.** The daily [AI Pulse](../../../../src/claude/ai-pulse) run writes one personal-voice brief per day, `YYYY-MM-DD.md`. A neutral-voice edition, `YYYY-MM-DD-neutral.md`, is **on-demand only** (`main.py --neutral[=DATE]`, regenerated from that day's cache) — so its absence on most days is by design, not a gap. The `-personal`/`-neutral` pair convention ran only 2026-05-07 → 2026-05-12 and is dead. Note that `Daily Briefs/` in the vault is a **mirror**; `~/src/claude/ai-pulse/output/` is the source of truth.
