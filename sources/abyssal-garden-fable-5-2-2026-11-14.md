@@ -30,3 +30,4 @@ An r/ClaudeAI post (2026-11-14) by u/Any-Reputation8118 about Abyssal Garden, a 
 - [[claude-fable-5]] — Community Sentiment
 - [[loop-engineering]] — verifier section
 - [[vibe-coding]] — games section
+- [[owner/project-ideas]] — listed as a candidate (2026-11-16)
