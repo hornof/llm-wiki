@@ -206,7 +206,7 @@ One entry per publication: venue, authors, link, one-paragraph abstract, context
 - `owner/publications.md` — academic and professional publications list
 - `owner/project-ideas.md` — every project idea in one list, with status and a pointer to its write-up (added 2026-11-16)
 - Add new files to `owner/` as needed (e.g., `owner/talks.md`, `owner/notes.md`)
-- These pages are not tracked in `index.md` under the standard categories; they are self-referential wiki-owner pages
+- These pages are not listed under the standard categories in `index.md`. **They are listed in its `## Owner` section at the end** — add every new `owner/` page there. (Clarified 2026-11-16: the old wording read as "owner pages are not in the index", and `owner/project-ideas` shipped without an index link.)
 
 ---
 
