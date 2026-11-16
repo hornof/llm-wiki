@@ -131,3 +131,4 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-11-16 | maintenance | index: added owner/project-ideas under Owner (missed in #371) | pages touched: index
 2026-11-16 | maintenance | CLAUDE.md: owner pages go in the index Owner section (old wording caused #372) | pages touched: CLAUDE.md
 2026-11-16 | maintenance | owner/project-ideas rewritten as a list of the 12 places ideas are saved (old tables were unreadable summaries) | pages touched: index, CLAUDE.md (step 5b removed until the capture method is decided), abyssal-garden-fable-5-2-2026-11-14
+2026-11-16 | maintenance | owner/project-ideas: listed the 14 "I built this" posts and 5 roundup threads found in _raw, with links | pages touched: owner/project-ideas
