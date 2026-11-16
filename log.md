@@ -130,3 +130,4 @@ Append-only. Format: `YYYY-MM-DD | operation | description | pages touched`
 2026-11-16 | maintenance | new page owner/project-ideas (one list of project ideas from six Cowork pages + wiki sources, with statuses) | pages touched: CLAUDE.md (ingest step 5b, owner list), abyssal-garden-fable-5-2-2026-11-14 (Pages Updated) | statuses from Cowork agent-status.md and GitHub repo pushes, checked 2026-11-16
 2026-11-16 | maintenance | index: added owner/project-ideas under Owner (missed in #371) | pages touched: index
 2026-11-16 | maintenance | CLAUDE.md: owner pages go in the index Owner section (old wording caused #372) | pages touched: CLAUDE.md
+2026-11-16 | maintenance | owner/project-ideas rewritten as a list of the 12 places ideas are saved (old tables were unreadable summaries) | pages touched: index, CLAUDE.md (step 5b removed until the capture method is decided), abyssal-garden-fable-5-2-2026-11-14
