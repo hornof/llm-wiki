@@ -367,7 +367,7 @@ Most source pages are reachable from the entity pages they updated. These few ar
 ## Owner
 - [[owner/profile]] — bio, career summary, professional social links (LinkedIn, GitHub, Scholar)
 - [[owner/publications]] — academic publications; NeurIPS, IWAN/Springer
-- [[owner/project-ideas]] — every project idea in one list: built, candidate or rejected, with links to the write-ups
+- [[owner/project-ideas]] — every place you save project ideas and inspiration
 
 ## Topics & Themes
 - [[agentic-ai]] — LLMs that take autonomous actions; multi-agent, tool use, MCP, A2A
