@@ -2,8 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-10-22
-last_updated: 2026-10-21
+last_updated: 2026-11-20
 ---
 
 ## Definition
@@ -98,6 +97,10 @@ The section above records Karpathy's view that even subjective domains can use *
 ### Where the thesis is now, in one paragraph
 
 **Verifiability still predicts where capability concentrates — the 2026 results confirm that strongly.** What has changed is the shape of the constraint: **the binding question is no longer "is this domain verifiable?" but "does this task come with an oracle?"** Security does when a finding has a reproduction and does not otherwise; routing does because the answer set is enumerable; honesty does not, which is why it is the one axis where a frontier lab's results were refused. **The jagged edge has moved from capability to verification.**
+
+## Formal verification as the verifier for code (2026-11-20)
+
+A Latent Space survey of Harmonic, Theorem, Axiom Math and &Truth ([[latent-space-formal-verification-andtruth-2026-11-20]]) applies this page's mechanism to software: when agents "verify" their work they usually mean tests or another model's review, and &Truth's Clark Barrett says that never tells you when you're done. A Lean proof that code meets a precise requirement does. Axiom also uses proofs as training feedback, which is the verifiable-reward loop this page describes. The same week, a Riemann proof found with Claude was accepted by Lean before anyone could explain it ([[alpoge-riemann-claude-lean-2026-11-20]]).
 
 ## Relationship to AGI Definition
 See [[agi]]. Hassabis uses similar language — "jagged intelligence" — to describe why current systems are not AGI. Karpathy's verifiability framework gives a mechanistic explanation for why the jaggedness exists: RL training shapes peaks around verified domains. This complements Hassabis's phenomenological observation with a causal theory.

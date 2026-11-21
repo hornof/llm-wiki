@@ -1,8 +1,7 @@
 ---
 name: SaaS Disruption Thesis
 type: topic
-last_updated: 2026-09-16
-dormant_since: 2026-11-20
+last_updated: 2026-11-20
 ---
 
 ## What This Is
@@ -394,6 +393,10 @@ His 2026-09-12 list of *"the only businesses left to build"* puts **domain-speci
 **Where this sharpens the page**: [[naval-ravikant|Naval's]] *"pure software is uninvestable"* said the category is dead. Vernal says **the middle** is dead and both ends grow — which is a more testable claim, and it predicts specific casualties (mid-market point solutions) on a specific mechanism (buying-center consolidation). His own caveat is the one investors should hold: the small-software winners *"will not be 'venture-addressable'… many founders and investors will be led astray by thinking they are."*
 
 *(Structural reasoning, not evidence. The newspaper table he anchors on was LLM-compiled by his own admission. Create-candidate: Mike Vernal, first surface.)*
+
+## Whose ARR is real — Linear's COO on the AI budget (2026-11-19)
+
+Linear passed $100M ARR with more than 40,000 paying customers and 177% net revenue retention, never hired an SDR, and agents now create more than half of its issues, up from 3% a year earlier ([[linear-gtm-100m-arr-cordova-2026-11-19]], Latent Space). Cristina Cordova's caution is the useful part: companies set aside an AI budget that lets AI tools skip the usual fight for spend, but buyers are signing one-year deals and paid pilots, and some "overnight $100M" stories are a few $30–40M contracts. *"When those one-year deals come up for renewal, we'll find out whose ARR was real."* It repeats the ARR-inflation skepticism section above, from an operator, and it comes from an incumbent that rebuilt itself around agents rather than being replaced by them.
 
 ## Tracking Signals
 

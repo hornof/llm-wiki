@@ -59,6 +59,7 @@ Google's frontier model line, built by [[google-deepmind]]. This page covers the
 - Pick these for long-context work (1M tokens) and security tasks. For other work there's no independent evidence yet; compare on your own tasks.
 
 ## Community Sentiment
+- **Neon's showcase: a Mont Blanc ski simulator** (2026-11-19/20, [[dailybrief-roundup-2026-11-20]], Digg citing Google). Google says Neon coded it in Antigravity, about 10,000 lines of JavaScript and shaders with no pre-made 3D models or sounds. Neither post gives development time or how much a person did.
 - **2026-11-02: GDPx** ([[semianalysis-gdpx-benchmark-2026-11-02]], Digg on SemiAnalysis). A new agent benchmark whose best model scores 12%. SemiAnalysis says safety classifiers pull down Opus 5.5 and GPT-6 Astra in cyber, biology and alignment tasks. Sundar Pichai praised its headroom and pointed to Carbon's cost line without a figure. Which model leads wasn't in Digg's text.
 
 **Nothing independent yet.** Digg's summary of the Carbon launch called the figures *"Google’s characterizations, not independently established results"* ([[google-gemini-4-carbon-2026-10-28]]). Gemini's agent incident on 2026-09-18 is recorded on [[google]].
