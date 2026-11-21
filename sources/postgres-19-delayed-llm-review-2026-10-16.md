@@ -20,6 +20,10 @@ The Register reports PostgreSQL 19 slipping from late September / early October 
 
 *(Single trade-press article. The headline overstates the case; the body describes a triage-time problem, and attribution to LLM review is partial by the quoted committer's own account.)*
 
+## Follow-up
+
+- **Released 2026-11-19** (Willison): two months after the usual September release, *"thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse."* See [[dailybrief-roundup-2026-11-20]].
+
 ## Pages Updated
 
 - [[ai-vulnerability-discovery]], [[claude-code]]

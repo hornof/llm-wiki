@@ -2,7 +2,7 @@
 name: Model Context Protocol (MCP)
 type: concept
 maturity: foundational
-last_updated: 2026-11-11
+last_updated: 2026-11-20
 ---
 
 ## Definition
@@ -39,6 +39,7 @@ MCP is the connective tissue for agentic AI systems. Instead of hard-coding tool
 - **MCP tunnels (public beta, 2026-05-19)** — named network-primitive for connecting Claude to MCP servers behind customer firewalls. Shipped alongside [[anthropic|Anthropic's self-hosted sandboxes]] (Claude running inside customer infrastructure) as part of the May 2026 enterprise-deployment expansion. First wiki capture of MCP tunnels as a distinct named primitive; prior MCP framing was protocol-only without specific network-tunneling tooling. — [[dailybrief-roundup-2026-05-19]]
 - **Google makes MCP the way into Gemini and Search** (2026-10-28, [[google-connected-apps-platform-2026-10-28]]): the Connected Apps Platform takes third-party apps through *"a cloud-hosted MCP (Model Context Protocol) server or Android MCP"*. A distribution channel for MCP servers, run by the largest search engine.
 
+- **Agents now create most of the issues in Linear** (2026-11-19, [[linear-gtm-100m-arr-cordova-2026-11-19]]). Linear shipped its MCP server in May 2025; Cordova says agents created 3% of Linear's work a year ago and more than half now.
 - **Designing an MCP server: tool count isn't the problem, result size is** (2026-11-11, [[latent-space-resend-designing-for-agents-2026-11-11]]). Resend's MCP server grew from about 20 tools to over 80 so a chat user can do anything the dashboard can. Zeno Rocha opened the collapsed tool calls in his own sessions and found one result too large for the context window, which cutting tools wouldn't fix. His cheap test: expand a call you make every day and see how much of the result the model uses.
 
 ## Key Papers / Posts

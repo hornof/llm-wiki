@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-11-14
+last_updated: 2026-11-20
 ---
 
 ## Definition
@@ -145,6 +145,10 @@ The June section below records Jeffries and LeCun on **time** and **multiplicity
 ## A dated forecast built on the METR finding (Dwarkesh Patel, 2026-11-13)
 
 [[dwarkesh-rsi-superintelligence-2026-11-13]]: Patel cites the METR measurement above as one of three pieces of evidence, with OpenAI's researchers spending over $7,000 a day on internal coding agents and Claude leading more than 26% of Anthropic's AI R&D work. His median for AI matching the best human AI researchers is 2028. After that he describes two outcomes: a software-only singularity if models improve faster than ideas get harder to find, or a "spark" of three to six years of progress in one year before compute limits bite. He names the same limit as the skeptics earlier on this page: training works on tasks that can be graded inside a datacenter.
+
+## A model that edits its own weights, and a board member's one-year number (2026-11-16)
+
+Two items from the same week. A preprint claims an open 27B model, given its weights and its graded answers, edited those weights by reasoning, with no gradients, and gained 6.6 points on unseen problems; only the largest model in its family could do it ([[self-rewriting-weights-arxiv-2026-11-16]], abstract only, unreviewed). The authors call it a step toward recursive self-improvement. On Dwarkesh's podcast, Paul Christiano put AI takeover risk over the next year at *"more like a 10% risk than a 1% risk"* and about a one-in-three chance of superintelligence within a year if development doesn't slow, driven by AI automating its own development. He argues labs should pause algorithmic progress until they can secure it ([[christiano-dwarkesh-takeover-12-months-2026-11-16]]). That's opinion from a senior alignment researcher who sits on OpenAI's board, not new evidence; the evidence he cites is the trend this page already tracks.
 
 ## Related Concepts
 
