@@ -76,7 +76,7 @@ After a year of design-partner work, [[ashwingop]] reframed the architecture abo
 
 ## Single Brain 5-layer architecture (Eric Siu, 2026-05-29)
 
-A **2nd substantive vendor surface** in the Company Brain space (after Sentra/Ashwingop): Eric Siu (Single Grain CEO; Single Brain founder) publishes [[eric-siu-single-brain-5-layer-company-brain-2026-05-29|the Single Brain canonical 5-layer architecture]] grounded in concrete Single Grain implementation metrics. **Validates Company Brain as multi-vendor canonical-category**, not single-vendor positioning.
+Eric Siu (Single Grain CEO; Single Brain founder) published [[eric-siu-single-brain-5-layer-company-brain-2026-05-29|a 5-layer Company Brain architecture]], with numbers from running it at Single Grain. It's the second vendor in this space after Sentra (Ashwingop), so Company Brain is now a category more than one company sells into.
 
 The 5 layers (stacked bottom-up):
 
@@ -86,20 +86,20 @@ The 5 layers (stacked bottom-up):
 4. **Permissions** — workflow-level access boundaries. Marketing-agent ≠ private-HR-details; content-agent ≠ client-financials. *"The goal is not one big brain with no walls. The goal is the right brain for the right workflow."*
 5. **Feedback Loops** — every human correction becomes a future rule: voice rule + source rule + pipeline rule + workflow rule. *"This is where company intelligence turns into company learning. Without feedback loops, you're just babysitting software."*
 
-**Architectural-principle anchor**: *"Memory is the raw material. Retrieval is the operating layer."* — first wiki-captured operator-side canonical-principle distinguishing **raw-material layer from operating layer**. Pairs structurally with [[ashwingop-semantics-ontology-2026-05-07|Sentra substrate-vs-lens framing]] at the **2-vendor architectural-principle convergence** layer.
+**The principle:** *"Memory is the raw material. Retrieval is the operating layer."* Stored memory isn't useful until something picks the right piece for the task. Sentra makes a similar split between substrate and lens ([[ashwingop-semantics-ontology-2026-05-07]]).
 
-**Sentra 3-layer mapping**: Sentra's Factual Memory ≈ Single Brain Capture; Sentra's Context Graph + Reasoning ≈ Single Brain Retrieval + Source Truth; Sentra's Action Coordination ≈ Single Brain Feedback Loops + Permissions. Both architectures converge on the **memory-substrate-as-load-bearing canonical-pattern** while differing on **which layer-boundaries are explicitly named**.
+**Sentra 3-layer mapping**: Sentra's Factual Memory ≈ Single Brain Capture; Sentra's Context Graph + Reasoning ≈ Single Brain Retrieval + Source Truth; Sentra's Action Coordination ≈ Single Brain Feedback Loops + Permissions. Both treat the memory store as the foundation; they differ in where they draw the layer boundaries, and Single Brain names Source Truth and Permissions as layers of their own.
 
-**Implementation-metrics anchor** (Single Grain operating-scale proof-point):
+**Single Grain's numbers:**
 - **500K+ tokens** persistent memory + **90+ daily crons** + **multiple specialized agents** + **2,862 Gong call transcripts** processed into operational playbooks
-- **Single-day proof-point**: 15 calls → **390 insights + 470 facts + 125 frameworks**
-- **Latency collapse**: weekly-reporting 25-min-data-pulling-plus-hours-of-follow-up → **< 60 seconds**
+- In one day's ingestion, 15 calls produced **390 insights, 470 facts and 125 frameworks**
+- Weekly reporting went from 25 minutes of pulling data plus hours of follow-up to **under 60 seconds**
 
-**Failure-mode canonical articulations** (Single Brain):
-- *"Memory itself became the bottleneck. Our persistent memory files started eating about 40% of the context window."* — **first wiki-captured "memory-as-bottleneck" canonical operator-side failure-mode**
-- *"The human becomes the router. Every agent output depends on whether someone remembered the right call."* — **first wiki-captured "human-as-router" canonical Company-Brain-failure-mode**
+**Two failure modes Siu hit:**
+- *"Memory itself became the bottleneck. Our persistent memory files started eating about 40% of the context window."* Memory crowding out the task.
+- *"The human becomes the router. Every agent output depends on whether someone remembered the right call."* Without a retrieval layer, a person does the retrieval.
 
-**6-question canonical workflow-automation-readiness audit** (Single Brain):
+**Six questions to answer before automating a workflow:**
 1. What sources does this workflow depend on?
 2. Which source is the truth when they conflict?
 3. What context does the agent need every time?
@@ -109,7 +109,7 @@ The 5 layers (stacked bottom-up):
 
 *"If you can't answer those, you're not ready to automate the workflow yet. You'll just make the mess faster."*
 
-**Closing canonical anchor**: *"The companies that win with AI won't be the ones with the biggest prompt library. They'll be the ones with the cleanest intelligence layer."* — first wiki-captured Company-Brain-as-competitive-moat canonical-framing alongside [[ashwingop|Sentra "moat is the system"]] + [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella firm-tier learning-loop-architecture]] + [[levie-nadella-cognitive-loop-thread-2026-06-14|Levie "applied AI layer"]] cluster.
+**His conclusion:** *"The companies that win with AI won't be the ones with the biggest prompt library. They'll be the ones with the cleanest intelligence layer."* Others make the same moat argument: [[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08|Greg Isenberg]] (*"The moat is the system"*; this page previously credited it to Sentra, corrected 2026-11-20), [[satya-nadella-frontier-ecosystem-not-frontier-model-2026-06-14|Nadella]] (a firm's own learning loop) and [[levie-nadella-cognitive-loop-thread-2026-06-14|Levie]] (the "applied AI layer").
 
 ## World Model of the Company
 

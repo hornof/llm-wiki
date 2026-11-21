@@ -123,3 +123,12 @@ On #376 before merge:
 6. Link `dailybrief-roundup-2026-11-19` from the Anthropic IPO source, and `livesfo-3d-airport-2026-11-15` from `owner/project-ideas`.
 
 Next filler batch after that: `obsidian`, `microgpt`, `openclaw`.
+
+## Fixes applied (2026-11-20, owner chose all six)
+
+Fixes 1–4 are on this branch; 5 and 6 are on #376.
+
+- `langchain`'s `dormant_since` cleared; the four pages marked `dormant_since: 2026-11-20`.
+- `dailybrief-roundup-2026-11-15` linked from the DePue source.
+- `company-brain`'s Single Brain section and `anthropic`'s 2026-06-03 bullet rewritten in plain prose, with quotes and numbers checked against the `_raw` clips. Filler: 745 → 740, not counting the count this lint wrote into `log.md`.
+- **Found while rewriting:** `company-brain` credited *"The moat is the system"* to Sentra. The quote is Greg Isenberg's ([[gregisenberg-theo-tabah-ai-native-masterclass-2026-06-08]]). Corrected on the page with a note.
