@@ -4,6 +4,7 @@ type: model
 provider: Z.ai / Zhipu
 status: available
 last_updated: 2026-09-13
+dormant_since: 2026-11-20
 ---
 
 > [!update] Successor announced — GLM 5.3 (2026-08-20)

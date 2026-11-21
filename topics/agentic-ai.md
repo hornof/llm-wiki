@@ -2,6 +2,7 @@
 name: Agentic AI
 type: topic
 last_updated: 2026-09-20
+dormant_since: 2026-11-20
 ---
 
 ## What It Is

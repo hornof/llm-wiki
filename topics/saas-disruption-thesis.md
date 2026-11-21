@@ -2,6 +2,7 @@
 name: SaaS Disruption Thesis
 type: topic
 last_updated: 2026-09-16
+dormant_since: 2026-11-20
 ---
 
 ## What This Is
