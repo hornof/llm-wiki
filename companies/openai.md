@@ -2,7 +2,7 @@
 name: OpenAI
 type: company
 status: active
-last_updated: 2026-11-13
+last_updated: 2026-11-20
 ---
 
 ## What It Is
@@ -23,6 +23,7 @@ AI research lab and product company. Creator of GPT model family, ChatGPT, DALL-
 - [[alex-lupsasca]] — theoretical physicist on OpenAI's Science team; 2024 Breakthrough Prize in Fundamental Physics; coined the term [[vibe-physics]] for using GPT-5.x to derive novel theoretical physics results (May 2026)
 
 ## Traction Signals
+- **2026-11-13/16: embedded safety assessments** ([[openai-embedded-assessments-apollo-2026-11-16]], Digg; OpenAI's post returned 403). Apollo Research, [[metr|METR]], Transluce and Goodfire get inside access to assess alignment and safeguards. OpenAI can withhold information for stated reasons and redact evidence, but not Apollo's verdicts. Plans only; no results. Same week, the FBI tied the open-source Artex pen-testing tool, which can run on OpenAI or Anthropic models, to fast real-world breaches ([[fbi-artex-ai-hacking-tool-2026-11-16]]) — the attacker's side of what Daybreak Red Team sells to defenders.
 - **2026-11-13: ChatGPT Wallet** ([[openai-chatgpt-wallet-2026-11-13]], Digg citing CNBC). Dots agents can buy things for US Pro subscribers. The user approves each purchase with Face ID or a fingerprint, and the agent gets a network payment token, not the card. Built with Amex, Mastercard and Visa; OpenAI takes no cut at launch. Spending within preset limits is planned, undated.
 - **2026-11-12: Daybreak Red Team and Daybreak Defense Factory** ([[openai-daybreak-red-team-defense-factory-2026-11-12]], Digg citing The Register). Agents pen-test web apps in isolated environments; Defense Factory drafts patches that engineers review in [[codex|Codex]]. Red Team is in early access, Defense Factory in preview. Brockman: companies *"will be secure only to the extent of the frontier model that they use to defend themselves"*.
 - **2026-11-10: Businesses in ChatGPT (beta)** ([[gregisenberg-businesses-in-chatgpt-2026-11-10]]). Businesses can claim a profile, see engagement insights and, if eligible, build a Business Agent to answer customers; ads can click through to that agent. For now agents are limited to US e-commerce and online services, per [[greg-isenberg|Isenberg]]. OpenAI's own page was not fetched (403).
