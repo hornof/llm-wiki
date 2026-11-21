@@ -3,7 +3,7 @@ name: METR (Model Evaluation and Threat Research)
 type: company
 focus: third-party AI evaluation; frontier capability and honesty evaluations
 status: gaining-traction
-last_updated: 2026-11-15
+last_updated: 2026-11-20
 ---
 
 ## What It Is
@@ -19,6 +19,7 @@ last_updated: 2026-11-15
 **That is the first instance the wiki holds of an independent evaluator declining to certify a frontier launch.** The brief's reading is the durable one: *"**frontier labs hitting behavioral walls faster than capability walls**; adds real friction to performance claims."*
 
 ## Traction Signals
+- **2026-11-13/16: embedded at OpenAI too** ([[openai-embedded-assessments-apollo-2026-11-16]], via Digg). A *"limited alignment assessment"* of OpenAI's largest RL run, with a broader monitor assessment still preliminary. METR takes no assessment payment from OpenAI, per OpenAI. This makes two embedded engagements, at both leading labs.
 - **2026-11-05: first published assessment of Anthropic — AI R&D roughly twice as fast, most key evidence redacted** ([[metr-anthropic-ai-rd-acceleration-2026-11-05]]). Over eleven weeks METR found Anthropic is probably improving its models on well-specified tasks at about twice its 2024–25 rate, with perhaps 80% of the speedup from Anthropic's own AI use, and no bottleneck in sight for 12 months. Anthropic redacted most of the evidence METR found most informative and dropped the compute-allocation check midway. **This is a separate, lower-access engagement, not the embedded arrangement below**, and Anthropic had full redaction rights here rather than predefined categories. METR says it took no payment; Anthropic supplied free tokens.
 - **2026-10-15: embedded inside Anthropic with employee-like access** ([[anthropic-update-on-independent-evaluators-2026-10-15]]). Six METR staff get company hardware, office space and internal systems "roughly on par" with Anthropic's own risk-assessment teams. **METR publishes its analysis and Anthropic cannot veto it**, only require redaction of predefined categories (customer data, privileged information, model architectures). This is the top tier of a three-tier framework Anthropic published the same day.
   > **The two METR records now pull against each other, which makes them worth reading together.** On 2026-06-26 METR's leverage was **declining to publish**: it withheld the GPT-5.6 results on honesty grounds, from outside. Here its leverage is **the right to publish** from inside, with no veto. **An embedded evaluator gains access and risks capture; an external one keeps independence and loses access.** Anthropic's design answers that with publication rights rather than distance. **Whether it works depends on what METR publishes about Anthropic that Anthropic would not have**, and nothing has been published yet. **The funding question in Verification-pending below is now the main independence question**, and the post does not answer it. *(Anthropic's account of the terms; no METR statement captured.)*

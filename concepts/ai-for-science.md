@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-11-13
+last_updated: 2026-11-20
 ---
 
 ## Definition
@@ -31,6 +31,10 @@ Google DeepMind is the most prominent institution pursuing AI for science at sca
 A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT-5.x) are used in iterative dialogue to *derive novel theoretical results*. [[alex-lupsasca]] (OpenAI Science) documented GPT-5.2 deriving novel gluon-amplitude and graviton results that had stumped expert humans for over a year. This is a categorically different mode than AlphaFold-style application: model produces *frontier theoretical conjectures*, not interpolation on a well-defined problem. — [[latent-space-lupsasca-vibe-physics-2026-05]]
 
 **AI-assisted cryptanalysis as a research *methodology* (2026-07-28/30)** ([[dailybrief-roundup-2026-07-30]], via [[simon-willison|Willison]]): Anthropic researchers prompted **Claude to discover mathematical weaknesses** in the post-quantum signature scheme **HAWK** and in **weakened AES variants**, then **published the prompts**. The load-bearing signal is *methodological, not the flaws themselves* (**practical impact ≈ zero** — real-world crypto isn't broken): it demonstrates a new mode of **AI-as-research-accelerant** — prompt-engineering a model to hunt for attack surfaces in a formal domain, with the prompt chain as the reproducible artifact. Extends the vibe-physics pattern (novel research-grade findings) from theoretical physics to **cryptanalysis/security**; a datapoint for Jack Clark's *"automation reaching too-hard-to-automate work"* thread ([[jack-clark]]).
+
+## Answers without explanations — black holes and the Goemans counterexample (2026-11-17/19)
+
+Two results from the same week show where the checking sits. Anthropic says Claude agents, running about six weeks on 22 candidate problems, settled whether the Hawking-Page transition stays abrupt where spacetime has no definite shape, and found the exact limit of the simplest modular bootstrap ceiling. Both were checked in Lean, and a physicist checked every main result ([[anthropic-claude-black-hole-physics-2026-11-17]]). That is Anthropic's account; the preprints weren't read here. Separately, four researchers took the seven-vertex counterexample to Goemans's unsplittable-flow conjecture that Dmitry Rybin found with ChatGPT, and worked out why it works, which the chat never said. Given their theory, ChatGPT then found counterexamples from 93 other starting shapes ([[goemans-counterexample-anatomy-2026-09-04]]). In both cases the model found the answer and people, or a proof checker, supplied the confidence.
 
 ## Reading an archive, then checking it formally — Gödel's workbooks (2026-11-13)
 
