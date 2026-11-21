@@ -8,7 +8,7 @@ ingested: 2026-11-20
 
 ## Summary
 
-Anthropic priced its IPO on 2026-11-18 at $83 a share, above the $70–78 range, and began trading on Nasdaq as ANT on 2026-11-19. Digg's write-up of the pricing breaks down who gets the money; TechCrunch reports the opening trade and Dario Amodei's speech before the bell. Reuters' $2T story from the brief was not readable (JavaScript wall); TechCrunch carries the same $2T figure. Other sources: [Digg on the pricing](https://digg.com/tech/973rjks9), [Digg on the European retail slice](https://digg.com/tech/io68bprw).
+Anthropic priced its IPO on 2026-11-18 at $83 a share, above the $70–78 range, and began trading on Nasdaq as ANT on 2026-11-19. It led the 2026-11-19 brief ([[dailybrief-roundup-2026-11-19]]). Digg's write-up of the pricing breaks down who gets the money; TechCrunch reports the opening trade and Dario Amodei's speech before the bell. Reuters' $2T story from the brief was not readable (JavaScript wall); TechCrunch carries the same $2T figure. Other sources: [Digg on the pricing](https://digg.com/tech/973rjks9), [Digg on the European retail slice](https://digg.com/tech/io68bprw).
 
 ## Key Claims / Takeaways
 

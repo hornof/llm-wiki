@@ -3,14 +3,14 @@ name: Google
 type: company
 sector: AI / cloud infrastructure / search / hardware
 status: incumbent + frontier-lab parent
-last_updated: 2026-11-13
+last_updated: 2026-11-20
 ---
 
 ## What It Does
 
 **Google** (Alphabet subsidiary) is one of the three primary US-frontier-AI organizations operating in 2026, alongside [[anthropic|Anthropic]] + [[openai|OpenAI]]. Google operates [[google-deepmind|Google DeepMind]] as its frontier-AI research arm + Google Cloud as its substrate-distribution arm + Gemini as its consumer-facing model line. **First wiki entity surface 2026-06-13** consolidating substantive Google references across the wiki's pt5–pt13 ingest cluster (10+ substantive surfaces across 6 days). **Structurally load-bearing as the 3rd US-frontier-AI organization** alongside Anthropic + OpenAI.
 
-**Current frontier models (2026-10-28):** Gemini 4 Argon, generally available since 2026-10-13, and Gemini 4 Carbon, announced 2026-10-28 and released to cyber defenders first. **Gemini 4 Hydrogen** (2026-11-12) is the fast tier, generally available on launch and the default in AI Mode in Search ([[ainews-jensen-huang-resigns-hydrogen-2026-11-12]]). Also **Gemini Decision 1** (2026-11-11), a decision model that scores yes/no, choice and rubric questions instead of writing text ([[willison-gemini-decisions-api-2026-11-11]]). See [[gemini]].
+**Current frontier models (2026-11-20):** Gemini 4 Argon, generally available since 2026-10-13, and Gemini 4 Carbon, announced 2026-10-28 and released to cyber defenders first. **Gemini 4 Hydrogen** (2026-11-12) is the fast tier, generally available on launch and the default in AI Mode in Search ([[ainews-jensen-huang-resigns-hydrogen-2026-11-12]]). **Gemini 4 Neon** (2026-11-18) is the mid tier, at $3/$15 per million input/output tokens, on the paid Gemini API, AI Studio, Android Studio, Gemini for business, Antigravity (Pro and Ultra) and the Gemini app as "Deeper analysis" ([[ainews-gemini-4-neon-2026-11-18]]). Also **Gemini Decision 1** (2026-11-11), a decision model that scores yes/no, choice and rubric questions instead of writing text ([[willison-gemini-decisions-api-2026-11-11]]). See [[gemini]].
 
 ## Gemini 4 Hydrogen, the fast tier (2026-11-12)
 
