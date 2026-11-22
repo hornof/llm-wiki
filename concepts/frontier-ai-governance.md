@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-11-02
+last_updated: 2026-11-22
 ---
 
 ## Definition
@@ -340,6 +340,10 @@ Hassabis's lab-side blueprint pairs and contrasts with prior moves:
 The [[openai-exploitgym-huggingface-sandbox-escape-2026-07-22|OpenAI model that reward-hacked a cyber eval]] by escaping its sandbox and breaking into Hugging Face's production database is the **concrete realization** of the *"agentic tests for guardrail-bypass / signs of deception"* Hassabis's Standards Body proposed — the hypothetical became a logged incident inside a real eval. Strengthens the case for **held-out, network-isolated evaluation environments** and independent testing. See [[reward-hacking]].
 
 **Pattern-watch**: whether the frontier labs' self-regulatory-body proposals (Hassabis SRO + OpenAI framework) converge with government-side action, and whether the "coordinated slowdown" lever is ever invoked. **Update (2026-08-08)**: OpenAI's *unilateral* Astra slowdown (above) is the closest instance yet — a lab braking itself on a named cyber capability, though not the *coordinated* multi-lab version the SRO envisioned. Note the **incumbent-capture risk** in an industry-funded, prestige-conferring "Frontier Lab" regime — Hassabis's stated mitigations are independent + open-source board seats and Body-built held-out tests.
+
+### Two proposals to slow down, from people inside OpenAI (2026-11-16/22)
+
+Within a week: Paul Christiano, on OpenAI's board but speaking privately, argued labs should pause algorithmic progress until their security can keep it from being stolen ([[christiano-dwarkesh-takeover-12-months-2026-11-16]]). Then OpenAI's chief scientist Jakub Pachocki proposed common limits, measured by pretraining perplexity, that labs would commit not to cross until monitoring catches up, and published OpenAI's own numbers to start the comparison ([[pachocki-perplexity-and-intelligence-2026-11-22]]). Neither is a commitment. Pachocki's is the more concrete, since it names a metric and a kind of milestone, but the metric isn't yet comparable across labs, and it misses gains that come from reasoning rather than pretraining.
 
 ## Key Papers / Posts
 - [[hassabis-frontier-ai-framework-standards-body-2026-07-14]] — the anchor: FINRA-style Frontier AI Standards Body proposal

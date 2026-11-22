@@ -2,7 +2,7 @@
 name: Verifiability and Jagged Intelligence
 type: concept
 maturity: active-research
-last_updated: 2026-11-20
+last_updated: 2026-11-22
 ---
 
 ## Definition
@@ -100,7 +100,7 @@ The section above records Karpathy's view that even subjective domains can use *
 
 ## Formal verification as the verifier for code (2026-11-20)
 
-A Latent Space survey of Harmonic, Theorem, Axiom Math and &Truth ([[latent-space-formal-verification-andtruth-2026-11-20]]) applies this page's mechanism to software: when agents "verify" their work they usually mean tests or another model's review, and &Truth's Clark Barrett says that never tells you when you're done. A Lean proof that code meets a precise requirement does. Axiom also uses proofs as training feedback, which is the verifiable-reward loop this page describes. The same week, a Riemann proof found with Claude was accepted by Lean before anyone could explain it ([[alpoge-riemann-claude-lean-2026-11-20]]).
+A Latent Space survey of Harmonic, Theorem, Axiom Math and &Truth ([[latent-space-formal-verification-andtruth-2026-11-20]]) applies this page's mechanism to software: when agents "verify" their work they usually mean tests or another model's review, and &Truth's Clark Barrett says that never tells you when you're done. A Lean proof that code meets a precise requirement does. Axiom also uses proofs as training feedback, which is the verifiable-reward loop this page describes. The same week, a Riemann proof found with Claude was accepted by Lean before anyone could explain it ([[alpoge-riemann-claude-lean-2026-11-20]]), and on 2026-11-21 the Lean community certified it, checking the checkers too ([[lean-community-rh-verification-2026-11-21]]). Mathematics is the most verifiable domain there is, and that is where the first result of this size landed.
 
 ## Relationship to AGI Definition
 See [[agi]]. Hassabis uses similar language — "jagged intelligence" — to describe why current systems are not AGI. Karpathy's verifiability framework gives a mechanistic explanation for why the jaggedness exists: RL training shapes peaks around verified domains. This complements Hassabis's phenomenological observation with a causal theory.

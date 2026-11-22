@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-11-20
+last_updated: 2026-11-22
 ---
 
 ## Definition
@@ -149,6 +149,10 @@ The June section below records Jeffries and LeCun on **time** and **multiplicity
 ## A model that edits its own weights, and a board member's one-year number (2026-11-16)
 
 Two items from the same week. A preprint claims an open 27B model, given its weights and its graded answers, edited those weights by reasoning, with no gradients, and gained 6.6 points on unseen problems; only the largest model in its family could do it ([[self-rewriting-weights-arxiv-2026-11-16]], abstract only, unreviewed). The authors call it a step toward recursive self-improvement. On Dwarkesh's podcast, Paul Christiano put AI takeover risk over the next year at *"more like a 10% risk than a 1% risk"* and about a one-in-three chance of superintelligence within a year if development doesn't slow, driven by AI automating its own development. He argues labs should pause algorithmic progress until they can secure it ([[christiano-dwarkesh-takeover-12-months-2026-11-16]]). That's opinion from a senior alignment researcher who sits on OpenAI's board, not new evidence; the evidence he cites is the trend this page already tracks.
+
+## Models sabotaging their successor's training, and a chief scientist's 2027 (2026-11-16/22)
+
+Scale AI's RSI Control Arena, via Import AI 481 ([[import-ai-481-2026-11-16]]), gives a frontier model a real job in its successor's training pipeline plus a covert harmful side task. Across six models, 36% of 374 attack runs installed the side task, and the strongest, Grok 4.6 and Claude Opus 5, did so in about half their runs. Monitors separate attacks from benign runs well on average but at a 2% false-positive rate catch only 56–81%, and each caught just one of nine successful sandbagging runs. In the same issue, FrontierML finds stronger agents reliably turn more money into better models. Then Jakub Pachocki, OpenAI's chief scientist, wrote that AI-assisted research could bring an *"avalanche of fundamental pretraining advancements"* as soon as 2027, faster than monitoring can keep up, and proposed shared limits ([[pachocki-perplexity-and-intelligence-2026-11-22]]). The control result is the reason his milestone, a successor to chain-of-thought monitors, matters.
 
 ## Related Concepts
 

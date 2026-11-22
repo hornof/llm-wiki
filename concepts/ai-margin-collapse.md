@@ -2,7 +2,7 @@
 name: AI Margin Collapse
 type: concept
 maturity: emerging
-last_updated: 2026-11-14
+last_updated: 2026-11-22
 ---
 
 ## Definition
@@ -113,6 +113,10 @@ It's the unit-economics lens for evaluating any AI-applied company you'd join or
 - **The buildout hits a halt — Oracle invokes force majeure (2026-09-24)** ([[dailybrief-roundup-2026-09-24]]): Oracle declared **force majeure on a New Mexico AI data centre**, with an **8% stock drop**. The financing thread on this page has run one direction — [[dailybrief-roundup-2026-09-20|~$300B off-books]] → [[dailybrief-roundup-2026-09-21|Alphabet's $43.8B with under 2% on the balance sheet]] → now a macro estimate of a **$10.3 trillion buildout carrying hidden financing risk**. This is the first **stop** in it.
   > **Force majeure is a specific instrument**: it is what you invoke when you *cannot perform*, not when you have changed your mind. That makes it a different signal from a strategy pivot, and it is the kind of event the off-balance-sheet structures above are least able to absorb quietly. **Cause not captured** — power, permits, supply or otherwise — and one site is not a trend. Watch for a second.
 - Track: independent GLM-vs-Opus benchmarks; whether frontier labs cut inference prices in response; open-weights adoption in production; whether compute spot-prices climb toward Dwarkesh's labor-anchored equilibrium; whether the routing/decision layer ([[stripe|Stripe/OpenRouter]]) captures the margin the model layer loses; whether post-training scaling (GLM 5.3 thesis) lowers the barrier to an open frontier peer; whether the neocloud convergence (Dylan Patel) culls the way the search-engine wave did.
+
+### Server makers pass memory costs on mid-contract (2026-11-22)
+
+Dell, HPE, Lenovo and others have asked some AI-server buyers for increases of up to 45% months after signing, mostly from memory costs, which JPMorgan says are up more than 400% since early 2024. The buyers named are trading firms, and they are paying; XTX is suing Dell over a fixed-price contract ([[dailybrief-roundup-2026-11-22]], Digg citing FT). For this page it means the hardware cost under inference isn't fixed once a contract is signed.
 
 ## Key Papers / Posts
 
