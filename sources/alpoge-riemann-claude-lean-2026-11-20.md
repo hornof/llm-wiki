@@ -20,6 +20,10 @@ TechCrunch (Tim Fernholz, 2026-11-20). Levent Alpöge, a mathematician at Anthro
 - **The human proof:** Vakil, quoted: *"it is all human, with no AI."* It isn't in Lean, so TechCrunch says *"it is too early to say whether the proof checks out"*. Masullo, whose proof is *"the result of 12 years of work"*: *"we are still here. We are very much alive. We are not going anywhere."*
 - **Earlier:** a Jacobian-conjecture counterexample credited to Alpöge and Claude surfaced unconfirmed on 2026-07-20 ([[dailybrief-roundup-2026-07-20]]).
 
+## Follow-up
+
+- **Certified 2026-11-21.** The Lean and Mathlib communities certified *both the statement and the proof* as correct, using several independent proof checkers, and Andrew Sutherland published his checks. The proof is a 17-million-line Lean library and covers more than the classical hypothesis. Still open: a human explanation. See [[lean-community-rh-verification-2026-11-21]].
+
 ## Pages Updated
 
 - [[ai-for-science]]

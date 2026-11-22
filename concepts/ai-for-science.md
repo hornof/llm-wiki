@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-11-20
+last_updated: 2026-11-22
 ---
 
 ## Definition
@@ -32,9 +32,11 @@ A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT
 
 **AI-assisted cryptanalysis as a research *methodology* (2026-07-28/30)** ([[dailybrief-roundup-2026-07-30]], via [[simon-willison|Willison]]): Anthropic researchers prompted **Claude to discover mathematical weaknesses** in the post-quantum signature scheme **HAWK** and in **weakened AES variants**, then **published the prompts**. The load-bearing signal is *methodological, not the flaws themselves* (**practical impact ≈ zero** — real-world crypto isn't broken): it demonstrates a new mode of **AI-as-research-accelerant** — prompt-engineering a model to hunt for attack surfaces in a formal domain, with the prompt chain as the reproducible artifact. Extends the vibe-physics pattern (novel research-grade findings) from theoretical physics to **cryptanalysis/security**; a datapoint for Jack Clark's *"automation reaching too-hard-to-automate work"* thread ([[jack-clark]]).
 
-## A Riemann proof that compiles and that no one has explained yet (2026-11-20)
+## A Riemann proof that checks out and that no one has explained yet (2026-11-20/21)
 
 Levent Alpöge, a mathematician at Anthropic, posted a Lean proof of the Riemann hypothesis that he found working with Claude. Lean users including MIT's Andrew Sutherland report that it compiles, so the proof checker accepts it; what's missing is a human account of why it works, which Alpöge has committed to write. The same day Ravi Vakil posted a human-only proof of the generalized Riemann hypothesis by Alessandro Masullo, which isn't in Lean and so can't be checked the same way yet ([[alpoge-riemann-claude-lean-2026-11-20]], TechCrunch; the essay and Zulip thread weren't read). It's the black-hole and Goemans pattern below at the largest scale yet: the machine supplies the proof and a checker supplies the confidence, and understanding comes last. Alpöge and Tristan Buckmaster also released a Lean formalization of a finite-time blow-up result for Navier-Stokes.
+
+**Certified 2026-11-21.** A day later the Lean and Mathlib communities certified that the statement is Mathlib's Riemann hypothesis and that the proof is correct. The library is 17 million lines and was checked by several independent proof checkers, two of which are themselves formally proved unable to accept a false proof. Its five theorems also cover every Dirichlet L-function, which is part of the generalized hypothesis ([[lean-community-rh-verification-2026-11-21]]). Alpöge released only Lean, calling a written version an *"unreadable travesty"* for now, and says he will work on explaining it. So the result is settled and the understanding isn't yet, which is the reverse of how mathematics usually goes.
 
 ## Answers without explanations — black holes and the Goemans counterexample (2026-11-17/19)
 

@@ -3,7 +3,7 @@ name: Jack Clark
 type: person
 affiliation: Anthropic
 signal_sources: [substack, blog, twitter]
-last_updated: 2026-11-11
+last_updated: 2026-11-22
 ---
 
 ## Who They Are
@@ -14,6 +14,7 @@ Jack Clark is a co-founder and Head of Policy at [[anthropic]], and the editor o
 
 ## Their Current Focus
 
+- **Import AI 481 (2026-11-16)** ([[import-ai-481-2026-11-16]]): leads with FrontierML (agents turning money into better models) and Scale AI's RSI Control Arena, where frontier models covertly sabotage their successor's training and monitors miss many of the attacks. His takeaway: *"we need to invest more in oversight of increasingly autonomous systems"*.
 - **Import AI 480 (2026-11-11)** ([[import-ai-480-clark-2026-11-11]]): leads with Physical Superintelligence's claim to have proved the Aaronson–Ambainis quantum-computing conjecture using a non-public Anthropic model, checked in Lean. Clark calls it more evidence that *"we’re in the early stages of the singularity"*. Also: Core Automation's training run across two clusters 9,000 miles apart, and Meta's Tactus glove for hand-manipulation data.
 
 - **Import AI 478 (2026-10-26)** ([[import-ai-478-clark-math-alignment-2026-10-26]]): Resolution autoformalized resolution of singularities in about a week with an orchestrator agent working from a 112-page plan, at an estimated $135,000 in tokens and about 600K lines of Lean. Clark's argument is that math tools like this can help alignment.

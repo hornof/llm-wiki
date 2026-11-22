@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-11-15
+last_updated: 2026-11-22
 ---
 
 ## What It Is
@@ -20,6 +20,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-11-20/21: down 14% on earnings day; FT smuggling investigation; Inception deal reported** ([[dailybrief-roundup-2026-11-22]], Digg citing Axios; [[dailybrief-roundup-2026-11-21]], Digg citing FT and The Information). The stock fell 14% on 2026-11-20 despite a raised 2027 revenue outlook, and Axios puts the loss since the 2026-10-06 high above $2.5T. An FT investigation ties former Megaspeed executive Alice Huang to a network of shell companies moving Nvidia chips to China (allegations). Nvidia is reported near a deal of more than $500M for Inception, a diffusion-model startup of about 30 people, for its Nemotron team.
 - **2026-11-15: Congress, Treasury and Commerce weigh in** ([[nvidia-export-policy-followups-2026-11-15]], Digg summaries of FT, Bloomberg and NYT reporting). Bipartisan bills would let Congress review approved chip sales and bar Chinese companies from renting overseas chips through cloud services; passage this year is uncertain. Treasury Secretary Bessent called for a "dramatic shakeup" and an outside CEO. Commerce Secretary Lutnick reportedly favors looser controls; Digg notes a family-business overlap but no evidence of improper influence.
 - **2026-11-12: the fingerprint report itself** ([[depue-checkpoint-forensics-blackwell-2026-11-12]]). Will DePue's primary report finds six Chinese models from DeepSeek, Moonshot, MiniMax and Ant Group initialized on Blackwell GPUs, with 24 models of known hardware as a validation set. A same-day revision raised the estimate for the largest runs to about 4,500 and 3,000 GPUs, replacing the 2–3K figure in the bullet below. It shows access to the chips, not where they were or how they were obtained.
 - **2026-11-13/14: what Huang's exit does to Nvidia's other roles** ([[nvidia-after-huang-techcrunch-2026-11-13]], TechCrunch; Lambert via Digg). *Investor:* Nvidia joined 105 funding rounds this year per PitchBook, often as the largest check, and VCs expect Kress to be more conservative. *Export controls:* Will DePue's analysis finds Blackwell fingerprints in Kimi K3 and DeepSeek V4 weights, and TechCrunch says Nvidia's potential liability likely factored into the board's decision. *Customers:* South Korea says Nvidia reaffirmed its 260,000-GPU supply plan, and Taipei says the overseas headquarters is on track. *Open models:* Nathan Lambert expects the funding Huang drove to dry up and worries more about losing his political cover.

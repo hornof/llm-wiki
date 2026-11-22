@@ -2,7 +2,7 @@
 name: Amazon
 type: company
 status: active
-last_updated: 2026-11-11
+last_updated: 2026-11-22
 ---
 
 ## What It Is
@@ -19,6 +19,7 @@ last_updated: 2026-11-11
 
 ## Traction Signals
 
+- **2026-11-21 (reported): near a $7.5B Decart deal** ([[dailybrief-roundup-2026-11-21]], Digg citing FT). Decart's software makes models run more efficiently, freeing chip capacity, and it already runs on Trainium3; the FT frames it as help for AWS against Nvidia. Talks could still collapse; neither side commented.
 - **2026-11-11: AWS Emulator, built by agents** ([[aws-emulator-agents-2026-11-11]]). A local copy of AWS APIs for coding agents to test against, released under CC0. Agents built it from AWS's public API models, checking each behavior against real AWS; Willison counts 29,684 commits in three weeks. Swami Sivasubramanian's guest post on Werner Vogels' blog is mostly about what the engineer's job becomes: writing the specs, tests and merge gates. See [[agentic-engineering]].
 - **2026-10-27: the largest financial winner of Anthropic's IPO** ([[anthropic-ipo-governance-amazon-stake-2026-10-27]], TechCrunch reading the S-1). Amazon holds $6.2B of convertible notes, which are all of Anthropic's debt. Its own filings value them at $97.9B. Conversion is capped at 12% of Anthropic's share count unless Amazon waives the cap. Total investment is about $18B, including $10B of nonvoting preferred stock bought in Q2. Anthropic has committed to spend at least $110B on AWS over ten years. **The note gains are the $72.4B charge on Anthropic's income statement** ([[anthropic-s1-public-filing-2026-10-26]]).
 - **2026-09-21: blocks [[meta|Meta's Muse]] agent from shopping on Amazon** ([[dailybrief-roundup-2026-09-21]], Digg): four days after Muse shipped with **Stripe purchasing authority**, Amazon shut it out. The brief calls it *"first major platform friction on AI agent access."*
