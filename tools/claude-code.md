@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-11-15
+last_updated: 2026-11-23
 ---
 
 
@@ -113,6 +113,19 @@ Four rules from the post are worth copying into any team's review policy:
 **It also fits the reviewer-seat thread.** [[#`/advisor` — a different model in the reviewer seat (2026-09-20)|`/advisor`]] puts a different model in the reviewer seat. This post puts **several agents plus a voting group** there, and only posts findings with enough agreement. That is ensemble review with a precision filter. The companion [[anthropic-redesigning-source-control-2026-10-13|source-control post]] says the remaining weakness is the one this design leaves open: adversarial review works but can be *"myopic,"* so engineers had to steer Claude away from over-engineering against hypothetical concerns.
 
 *(Vendor posts about Anthropic's own process, with internal unaudited figures and no measurement windows on the before/after numbers. The GA speed claim is unbenchmarked. Not tried by the owner.)*
+
+## Claude Ship — review, fix and approve, and a `/ship` command (2026-11-23)
+
+**Five weeks after Code Review went GA, Anthropic wrapped it into Claude Ship** ([[claude-ship-launch-2026-11-23]]), with two beta agents: **PR Steward** fixes failing CI, merge conflicts and review comments but never approves or merges, and **Claude Approvals** approves under a policy file, `.claude/approvals.yml`, that sets how many people each path needs and where Claude may approve. Team and Enterprise on GitHub only, billed on tokens.
+
+**For individual use there's `/ship`** (Claude Code v2.1.330+, not in cloud sessions): it commits, pushes, opens the PR, runs `/code-review`, then watches the PR and pushes fixes until it's ready for you to merge. `/steward` skips the review on a PR that's already open.
+
+Three things in the docs are worth knowing before using it:
+- `/ship` has **no confirmation prompt** and can commit every uncommitted file, new ones included. Its secret check goes by file name only.
+- The watch runs code from the PR on your machine, so the docs say to use it only where you trust everyone who can push to the branch or merge to the base.
+- Approvals can let a change merge with no human review: the author fills a seat, GitHub counts Claude's approval, and `claude: approves` doesn't start a review by itself.
+
+This is the same loop this wiki runs by hand (branch, PR, the `claude-review` check, owner merges); Claude Approvals would take over the merge decision, which the wiki's rules leave to the owner.
 
 ## `opusplan` — tiering by phase, as a documented flag (2026-10-15)
 
@@ -240,6 +253,7 @@ By June 2026 the practitioner-content register elevates above harness-engineerin
 
 ## Resources
 - [[reddit-repos-to-master-claude-code-2026-11-09]] — five learning repos with star counts: learn-claude-code (build a mini Claude Code in 17 lessons), claude-code-best-practice, awesome-claude-code, gstack, ECC (2026-11-10)
+- [[claude-ship-launch-2026-11-23]] — Claude Ship: Code Review + PR Steward + Claude Approvals, and the `/ship` command (2026-11-23)
 - [[claude-code-team-code-review-2026-10-15]] — how the Claude Code team reviews: seven layers, risk-tiered human approval, incidents-as-evals, review convergence 2.08→1.32 rounds (2026-10-15)
 - [[claudedevs-code-review-ga-2026-10-15]] — Code Review GA on Team/Enterprise; Quick/Standard/Deep per repo; ~3× faster than preview (vendor claim) (2026-10-15)
 - [[anthropic-redesigning-source-control-2026-10-13]] — Scion/Antique replace Git and PRs in Anthropic's monorepo; 2,500 → 30,000+ changes/day May→Sep (2026-10-13)

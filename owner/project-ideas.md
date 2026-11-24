@@ -1,7 +1,7 @@
 ---
 name: Project Ideas
 type: owner-notes
-last_updated: 2026-11-16
+last_updated: 2026-11-23
 ---
 
 **What this page is for:** when you're ready to build something new, it shows every place you've saved ideas and inspiration, so you can go through them.
@@ -25,7 +25,7 @@ last_updated: 2026-11-16
    - [Idea Miner](https://x.com/garrytan/status/2121352628915593422): Garry Tan's skill that proposes new skills from your activity.
    - Roundups of other people's builds, Min Choi's "10 examples" threads: [1](https://x.com/minchoi/status/2064547105662996921), [2](https://x.com/minchoi/status/2065559239486304733), [3](https://x.com/minchoi/status/2072523302921285659), [4](https://x.com/minchoi/status/2072884649840275739), [5](https://x.com/minchoi/status/2073791465713480109)
 
-2. **Source pages**: `llm-wiki/sources/`. One summary per ingested clip. Build posts so far: [[abyssal-garden-fable-5-2-2026-11-14]], [[chrisjz-universe-atlas-fable-verification-2026-07-16]]. Clipped as a build idea, maker unknown: [[livesfo-3d-airport-2026-11-15]] (SFO airport in 3D with every aircraft live)
+2. **Source pages**: `llm-wiki/sources/`. One summary per ingested clip. Build posts so far: [[abyssal-garden-fable-5-2-2026-11-14]], [[chrisjz-universe-atlas-fable-verification-2026-07-16]]. Clipped as a build idea, maker unknown: [[livesfo-3d-airport-2026-11-15]] (SFO airport in 3D with every aircraft live). Agent Kanban board, and a thread listing a dozen like it: [[plainboard-agent-kanban-2026-11-18]]
 
 ## In Claude-Cowork (`Claude-Cowork/projects/`)
 

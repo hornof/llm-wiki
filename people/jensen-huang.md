@@ -1,9 +1,9 @@
 ---
 name: Jensen Huang
 type: person
-affiliation: Nvidia (co-founder; CEO 1993–2026-11-12)
+affiliation: Nvidia (co-founder; CEO since 1993, out 2026-11-12, reinstated 2026-11-23)
 signal_sources: [twitter, conference]
-last_updated: 2026-11-12
+last_updated: 2026-11-23
 ---
 
 ## Who They Are
@@ -13,6 +13,8 @@ Jensen Huang (born 1963) is the co-founder and CEO of [[nvidia]], a position he 
 Known for leather jacket keynotes, long-arc strategic bets (doubling down on CUDA for ML a decade before it paid off), and an unconventional management philosophy.
 
 ## Their Current Focus
+
+**2026-11-23: reinstated as Nvidia's president, CEO and director** ([[nvidia-huang-reinstated-2026-11-23]]), by a unanimous board vote after Trump pushed for it. The board says US officials told it he poses no national security risk; it hasn't said who or what they said. The independent directors' investigation into whether he was targeted by a foreign intelligence effort continues, and he says he'll cooperate.
 
 **2026-11-12: resigned as Nvidia's president and CEO and left its board, effective immediately** ([[nvidia-ceo-transition-2026-11-12]]). Nvidia gave no reason. TechCrunch reports the board ousted him after he admitted an affair, with a second allegation also reported, and that Republican committee chairs want him to testify in closed session. CFO Colette Kress is interim CEO. The focus described below is as of April 2026.
 

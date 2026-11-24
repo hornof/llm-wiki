@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 ## Definition
@@ -344,6 +344,10 @@ The [[openai-exploitgym-huggingface-sandbox-escape-2026-07-22|OpenAI model that 
 ### Two proposals to slow down, from people inside OpenAI (2026-11-16/22)
 
 Within a week: Paul Christiano, on OpenAI's board but speaking privately, argued labs should pause algorithmic progress until their security can keep it from being stolen ([[christiano-dwarkesh-takeover-12-months-2026-11-16]]). Then OpenAI's chief scientist Jakub Pachocki proposed common limits, measured by pretraining perplexity, that labs would commit not to cross until monitoring catches up, and published OpenAI's own numbers to start the comparison ([[pachocki-perplexity-and-intelligence-2026-11-22]]). Neither is a commitment. Pachocki's is the more concrete, since it names a metric and a kind of milestone, but the metric isn't yet comparable across labs, and it misses gains that come from reasoning rather than pretraining.
+
+### OpenAI asks for laws against foreign distillers (2026-11-23)
+
+OpenAI's distillation post ([[openai-adversarial-distillation-2026-11-23]]) treats copying a model's outputs as a way around its safeguards, not only as IP theft, and asks for legislation to *"identify and sanction foreign actors"*. It names three bills it supports (the Chip Security Act, the AI OVERWATCH Act and the MATCH Act) and pairs export controls on chips with distillation defenses on models. Compare the open-weights coalition below, which argued distillation is legitimate.
 
 ## Key Papers / Posts
 - [[hassabis-frontier-ai-framework-standards-body-2026-07-14]] — the anchor: FINRA-style Frontier AI Standards Body proposal
