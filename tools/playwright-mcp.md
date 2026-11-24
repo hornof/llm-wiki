@@ -3,8 +3,7 @@ name: Playwright MCP
 type: tool
 category: api
 status: gaining-traction
-last_updated: 2026-07-10
-dormant_since: 2026-09-20
+last_updated: 2026-11-23
 ---
 
 ## What It Is
@@ -52,7 +51,7 @@ For a starting point, Microsoft's repo at https://github.com/microsoft/playwrigh
 - **Bash + curl / web scraping**: works for static GET requests; falls apart on JS-heavy sites, logged-in sessions, file uploads, captchas, and dynamic content.
 - **Custom Selenium / Puppeteer wrappers as MCP servers**: pre-Playwright-MCP, practitioners wrote their own; the existence of Microsoft's published `@playwright/mcp` is what made the niche converge.
 - **Web-scraping APIs (Browserbase, Browserless, etc.)**: hosted browser-as-a-service alternatives. Playwright MCP runs locally so credentials and cookies stay on-device — a privacy/security tradeoff.
-- **Computer-use models (Claude Sonnet computer use, OpenAI Operator)**: Claude-driven *vision-based* GUI automation, which is more flexible but slower, more expensive, and more error-prone than DOM-level Playwright automation. Playwright MCP wins when the target is a known web app; computer use wins for arbitrary desktop apps.
+- **Computer-use models (Claude Sonnet computer use, OpenAI Operator)**: Claude-driven *vision-based* GUI automation, which is more flexible but slower, more expensive, and more error-prone than DOM-level Playwright automation. Playwright MCP wins when the target is a known web app; computer use wins for arbitrary desktop apps. *Update 2026-11-23 ([[greptile-trex-computer-use-2026-11-23]]): on 172 OSWorld tasks, giving the model the accessibility tree and clicks by element ID tripled a weak model's score (GPT-5.2, 15.8% to 52.8%) but did nothing for the strongest (GPT-6.1 Sol, 83.8% on screenshots alone). The strongest models clicked as accurately from screenshots as with the tree; structured access still pays off for cheaper models.*
 
 ## Caveats
 

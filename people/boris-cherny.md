@@ -3,7 +3,7 @@ name: Boris Cherny
 type: person
 affiliation: Anthropic (Claude Code creator)
 signal_sources: [conference, twitter, podcast]
-last_updated: 2026-10-15
+last_updated: 2026-11-23
 ---
 
 ## Who They Are
@@ -11,6 +11,8 @@ last_updated: 2026-10-15
 Boris Cherny is the creator of [[claude-code]] at [[anthropic]] — started as a side project in **September 2024**. Confirmed speaker at Sequoia's AI Ascent 2026 conference, **Code w/ Claude 2026** (May 6 2026 — closed out the event-keynote arc alongside Cat Wu), and **WorkOS Acquired Unplugged** (June 2 2026). Per [[mvanhorn-wtf-is-a-loop-2026-06-07|Van Horn's 2026-06-07 synthesis]]: Claude Code *"now reportedly sits behind close to four percent of all public commits on GitHub"* (verification-pending primary).
 
 ## Their Current Focus
+
+**2026-11-23: Claude Ship** ([[claude-ship-launch-2026-11-23]]). Launching it, Cherny wrote that Opus 4.5 was *"the first model to write 100% of my code"* and that *"Shipping PRs hasn’t caught up"*.
 
 [[claude-code]] product surface, the architectural consolidation toward the [[claude-agent-sdk]], and — as of June 2026 — **[[loop-engineering|loop-engineering]] as primary job-description**. Cherny self-describes the abstraction transition at the WorkOS Acquired Unplugged talk (2026-06-02):
 

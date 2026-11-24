@@ -2,7 +2,7 @@
 name: DeepSeek
 type: company
 status: active
-last_updated: 2026-11-15
+last_updated: 2026-11-23
 ---
 
 ## What It Is
@@ -11,6 +11,7 @@ Chinese AI lab, one of the canonical **Chinese open-weights frontier vendors** t
 
 ## Recent Activity
 
+- **2026-11-23: named again by OpenAI** ([[openai-adversarial-distillation-2026-11-23]]). OpenAI's distillation post recalls its February briefing to Congress on DeepSeek trying to distill US models, and says more on recent campaigns is coming.
 - **2026-11-12: Blackwell fingerprints in V4** ([[depue-checkpoint-forensics-blackwell-2026-11-12]]). An independent forensic read of the published weights finds DeepSeek-V3 initialized on Hopper-class GPUs and both V4 models on export-controlled Blackwell GPUs. For V4-Flash the author calls the evidence conclusive and excludes AMD hardware. The report doesn't say where the chips were or how they were obtained.
 - **2026-10-23 (reported): ~$15B raised, led by Tencent and CATL, at ~$74.8B pre-money** ([[deepseek-15b-raise-2026-10-23]], Bloomberg via Digg; no company confirmation). Per the reporting, a first round of more than $7.5B closed in June, and this round's target was raised twice, for ~$22.5B in about six months. The valuation was reportedly unchanged while the round doubled. **This conflicts with the 2026-07-22 "fundraise pause" entry below.** Either the pause followed a closed round or the report was wrong. Both claims are kept.
 

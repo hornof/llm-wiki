@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 ## What It Is
@@ -20,6 +20,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-11-23: Huang reinstated as CEO; Megaspeed headed for the Entity List** ([[nvidia-huang-reinstated-2026-11-23]], Nvidia; TechCrunch citing Semafor). The board voted unanimously to bring Huang back as president, CEO and director, 11 days after he resigned and six days after the chair said it didn't intend to. It cites unnamed *"senior levels of the United States government"* for its view that he poses no national security risk; Trump had pushed for the return. Kress is CFO only again and Jones stays chair. The foreign-intelligence investigation continues, a National Security and Export Control Committee oversees compliance, and Nvidia is hiring a Chief Compliance Officer. Separately, Megaspeed, the Singapore customer Alice Huang led, is reported headed for the Commerce Department's Entity List. Arm's Rene Haas, approached about the job, extended his Arm contract to 2033.
 - **2026-11-20/21: down 14% on earnings day; FT smuggling investigation; Inception deal reported** ([[dailybrief-roundup-2026-11-22]], Digg citing Axios; [[dailybrief-roundup-2026-11-21]], Digg citing FT and The Information). The stock fell 14% on 2026-11-20 despite a raised 2027 revenue outlook, and Axios puts the loss since the 2026-10-06 high above $2.5T. An FT investigation ties former Megaspeed executive Alice Huang to a network of shell companies moving Nvidia chips to China (allegations). Nvidia is reported near a deal of more than $500M for Inception, a diffusion-model startup of about 30 people, for its Nemotron team.
 - **2026-11-15: Congress, Treasury and Commerce weigh in** ([[nvidia-export-policy-followups-2026-11-15]], Digg summaries of FT, Bloomberg and NYT reporting). Bipartisan bills would let Congress review approved chip sales and bar Chinese companies from renting overseas chips through cloud services; passage this year is uncertain. Treasury Secretary Bessent called for a "dramatic shakeup" and an outside CEO. Commerce Secretary Lutnick reportedly favors looser controls; Digg notes a family-business overlap but no evidence of improper influence.
 - **2026-11-12: the fingerprint report itself** ([[depue-checkpoint-forensics-blackwell-2026-11-12]]). Will DePue's primary report finds six Chinese models from DeepSeek, Moonshot, MiniMax and Ant Group initialized on Blackwell GPUs, with 24 models of known hardware as a validation set. A same-day revision raised the estimate for the largest runs to about 4,500 and 3,000 GPUs, replacing the 2–3K figure in the bullet below. It shows access to the chips, not where they were or how they were obtained.
@@ -51,7 +52,7 @@ Pairs with the same week's [[gpt-6-astra|UK AISI measurement]]: **enforcement fr
 
 ## Management Notes
 
-*2026-11-12: the structure below was Huang's, and he resigned that day ([[nvidia-ceo-transition-2026-11-12]]). Whether it survives under an interim CEO is unknown.*
+*2026-11-12: the structure below was Huang's, and he resigned that day ([[nvidia-ceo-transition-2026-11-12]]). **Resolved 2026-11-23:** he was reinstated ([[nvidia-huang-reinstated-2026-11-23]]), so the interim question is moot; whether the new compliance committee and officer change how he runs the company isn't known.*
 
 Jensen Huang runs an unconventional structure: 55 direct reports, identical executive pay, no scheduled 1:1s, information broadcast to all directs simultaneously. Designed to eliminate executive politics and compress org layers (3-4 vs. industry-standard 9-10). See [[post-aakashgupta-jensen-huang-management]].
 

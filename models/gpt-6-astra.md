@@ -3,7 +3,7 @@ name: GPT-6 (Astra)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-11-06
+last_updated: 2026-11-23
 ---
 
 > [!update] Line extended — GPT-6.1 Terra (2026-10-26)
@@ -28,6 +28,8 @@ last_updated: 2026-11-06
 > **Worth reading against this page's own pricing frame.** Astra launched three weeks earlier at ~2.5× per-token cost on the argument that *"you're not paying for inference anymore, you're paying for solved problems."* A 40–50% cut on the same line within a month is **the opposite move on the same axis** — either the per-outcome framing did not hold commercially, or price is being used as a launch weapon independently of it. *(Sol and Luna have no pages; no specs captured.)*
 
 ## What It Is
+
+**Superseded (noted 2026-11-23): GPT-6.2 Astra has shipped** ([[openai-adversarial-distillation-2026-11-23]]), alongside GPT-6.2 Sol. OpenAI says its reasoning is much harder to extract (0.2% attack success vs 54.0% on this model). The wiki has no GPT-6.2 page yet; see [[openai]].
 
 **GPT-6**, codenamed **Astra**, is [[openai|OpenAI's]] frontier flagship, launched **2026-09-08** and billed by AINews as *"OpenAI's biggest LLM launch of all time"* ([[dailybrief-roundup-2026-09-08]]). "Astra" is the same model line OpenAI put through a public **Preparedness-Framework** process earlier: it **slowed deployment on 2026-08-08** after Astra crossed a *critical cyber-capability threshold* (a model that can independently identify and execute cyberattacks), published **"Path to Astra: critical capabilities and frontier safeguards" on ~09-03**, and now ships the full model. The launch is thus the first frontier flagship whose release was explicitly **gated through a dangerous-capability governance process** rather than shipped on capability alone.
 
