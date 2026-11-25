@@ -3,9 +3,11 @@ name: GLM 5.2
 type: model
 provider: Z.ai / Zhipu
 status: available
-last_updated: 2026-09-13
-dormant_since: 2026-11-20
+last_updated: 2026-11-24
 ---
+
+> [!update] Two generations on — GLM-5.4 (2026-11-23)
+> Z.ai's **GLM-5.4** is its first looped transformer, available on the Coding Plan ([[ainews-jensen-back-pretraining-curve-2026-11-23]]). See [[z-ai]].
 
 > [!update] Successor announced — GLM 5.3 (2026-08-20)
 > Z.ai CEO **Jie Tang** surfaced **GLM 5.3** alongside a *"death of params"* post-training-scaling thesis ([[dailybrief-roundup-2026-08-20]], Latent Space AINews) — param-count is no longer the frontier; **post-training** is the new scaling axis. Continues Z.ai's rapid cadence and keeps the [[ai-margin-collapse|open-weight-parity]] pressure on. *(Summary "too vague to confirm depth"; no dedicated GLM-5.3 page yet — fold on a 2nd substantive surface.)*

@@ -3,13 +3,14 @@ name: Simon Willison
 type: person
 affiliation: independent (creator of Datasette; co-creator of Django)
 signal_sources: [blog, twitter, github]
-last_updated: 2026-11-20
+last_updated: 2026-11-24
 ---
 
 ## Who They Are
 Simon Willison is an independent software engineer, blogger, and tooling builder. Co-creator of Django (2003–2005), creator of Datasette (open-source data publishing platform), and one of the most consistently high-signal practitioner voices on LLM tooling and applied AI engineering. Maintains a daily-cadence blog at simonwillison.net that has become a primary source for many practitioners tracking real-world LLM tool behavior, prompt-injection issues, and model-release evaluations.
 
 ## Their Current Focus
+- **2026-11-24 — three inflection points in a year** ([[willison-three-inflection-points-2026-11-24]]): Opus 4.5 made Claude Code a daily tool; Fable 5 introduced "Fable class" models (*"Give it a goal, give it the right tools, and watch it cook"*), a class he extends to Opus 5.5 and GPT-6 Astra; Opus 5.5 was the first model that *"appeared to understand fun"*. Undecided whether Fable 5.2 is a fourth. Also 2026-11-23: tried GLM-5.4 and shipped an `llm-glm` plugin ([[ainews-jensen-back-pretraining-curve-2026-11-23]]).
 - **2026-11-17/18 — external sandboxes; Stenberg on curl rewrites** ([[willison-external-sandboxes-2026-11-17]]): with Prime Radiant, a pattern where the agent stays outside and sends code into a sandbox, with three implementations behind one localhost API, a host allow-list and credential substitution. Next day they quoted Daniel Stenberg: agents turned curl's 185,000 lines of C into 340,000 of Rust while the real project merged 300+ commits and about 200 bug fixes.
 - **2026-11-14 — datasette-llm 0.1a11** ([[willison-datasette-llm-openai-compatible-2026-11-14]]): Datasette's LLM plugin now takes any OpenAI-compatible endpoint, so a local model in LM Studio, Ollama or llama.cpp can run a Datasette Agent.
 - **2026-11-03 — Qwen 3.8 27B reads model weights** ([[willison-qwen-interprets-model-weights-2026-11-03]]): reran the weight-space paper's no-tools experiment on a laptop model, which got three of four games. They separate the paper's two claims and push back on the commentary: *"I'm not ready to declare that the age of source code is over"*. Same day: Datasette Agent 0.5a0 adds a chat panel beside Datasette pages.

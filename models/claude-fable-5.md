@@ -3,7 +3,7 @@ name: Claude Fable 5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-11-20
+last_updated: 2026-11-24
 ---
 
 ## What It Is
@@ -71,6 +71,7 @@ Anthropic shipped **Claude Fable 5.2** and **Claude Mythos 5.2** on 2026-11-09, 
 
 ## Community Sentiment
 
+- **2026-11-24: Willison's "Fable class"** ([[willison-three-inflection-points-2026-11-24]]). He calls Fable 5 one of three inflection points of the year and the baseline he now expects from a frontier model; of 5.2 he says *"if you can imagine and then clearly describe a piece of software, Fable can build it."* OpenAI claims [[gpt-6-2|GPT-6.2 Astra]] beats Fable 5.2 on two benchmarks ([[openai-gpt-6-2-astra-sol-2026-11-17]]).
 - **2026-11-19: Screenshot Thursday** ([[claudehomies-screenshot-thursday-2026-11-19]]). One r/ClaudeHomies poster shows a multiplayer game about their Montana childhood on a custom engine, started *"10 days ago when fable 5.2 dropped."* Their claim; only a video is linked.
 - **2026-11-17: black-hole physics** ([[anthropic-claude-black-hole-physics-2026-11-17]]). Anthropic credits Fable 5.2 agents with two open theoretical-physics results, checked in Lean and by a physicist. Anthropic's account; no outside response yet.
 - **2026-11-14: Deedy Das's list** ([[deedydas-fable-5-2-builds-2026-11-14]]). Eight things he made with 5.2, two marked as failed or so-so; no results posted yet. A reply claims a Kerbal Space Program clone from two prompts and about $5K.

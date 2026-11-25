@@ -3,7 +3,7 @@ name: Dwarkesh Patel
 type: person
 affiliation: independent (host of Dwarkesh Podcast)
 signal_sources: [podcast, blog, youtube]
-last_updated: 2026-11-20
+last_updated: 2026-11-24
 ---
 
 ## Who They Are
@@ -12,6 +12,7 @@ Host of **The Dwarkesh Podcast** (dwarkesh.com / formerly The Lunar Society), on
 
 ## Their Current Focus
 
+- **2026-11-24: answering critics of the RSI essay** ([[dwarkesh-rsi-objections-2026-11-24]]). Keeps 2028 for automating the best AI researchers and about 2029 for superintelligence, with 25% on next year. Concedes the evidence leans on intuition pumps and one METR data point, and that compute growth limits progress if automation is late.
 - **2026-11-13: a dated forecast for automated AI research** ([[dwarkesh-rsi-superintelligence-2026-11-13]]). After three months of changing his mind, his median for AI matching the best human AI researchers is 2028, with a 25% chance it comes after 2032. His reasoning runs from AI's fast progress on verifiable math to ML research being mostly the same kind of well-scoped search.
 - Long-form interviews on the macroeconomics + sociology of transformative AI
 - Frontier-AI research interviews (Anthropic / Reiner Pope / Imas+Trammell / etc.)

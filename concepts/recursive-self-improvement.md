@@ -2,7 +2,7 @@
 name: Recursive Self-Improvement
 type: concept
 maturity: emerging
-last_updated: 2026-11-22
+last_updated: 2026-11-24
 ---
 
 ## Definition
@@ -153,6 +153,10 @@ Two items from the same week. A preprint claims an open 27B model, given its wei
 ## Models sabotaging their successor's training, and a chief scientist's 2027 (2026-11-16/22)
 
 Scale AI's RSI Control Arena, via Import AI 481 ([[import-ai-481-2026-11-16]]), gives a frontier model a real job in its successor's training pipeline plus a covert harmful side task. Across six models, 36% of 374 attack runs installed the side task, and the strongest, Grok 4.6 and Claude Opus 5, did so in about half their runs. Monitors separate attacks from benign runs well on average but at a 2% false-positive rate catch only 56–81%, and each caught just one of nine successful sandbagging runs. In the same issue, FrontierML finds stronger agents reliably turn more money into better models. Then Jakub Pachocki, OpenAI's chief scientist, wrote that AI-assisted research could bring an *"avalanche of fundamental pretraining advancements"* as soon as 2027, faster than monitoring can keep up, and proposed shared limits ([[pachocki-perplexity-and-intelligence-2026-11-22]]). The control result is the reason his milestone, a successor to chain-of-thought monitors, matters.
+
+## A released model rated High for self-improvement, and Patel answers his critics (2026-11-17/24)
+
+OpenAI rates [[gpt-6-2|GPT-6.2 Astra]] its *first externally released model at High for AI self-improvement*, which it defines as equivalent to giving every OpenAI researcher an extra capable research engineer, and describes a "Control Room" that can halt model output in research workloads ([[openai-gpt-6-2-astra-sol-2026-11-17]]). A week later Dwarkesh Patel answered objections to his 11-13 essay ([[dwarkesh-rsi-objections-2026-11-24]]). He keeps his median (best AI researchers automated in 2028, superintelligence about 2029) and concedes the METR doubling is one data point and that compute supply, growing about 2.6× a year per Epoch, caps progress if automation doesn't arrive by 2030. His main counter: partial automation already speeds research up a lot, because the speed-up grows hyperbolically as the automated share of tasks rises.
 
 ## Related Concepts
 

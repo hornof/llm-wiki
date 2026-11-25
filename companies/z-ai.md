@@ -2,7 +2,7 @@
 name: Z.ai (Zhipu AI)
 type: company
 status: active
-last_updated: 2026-10-20
+last_updated: 2026-11-24
 ---
 
 > [!note] Merged page
@@ -33,7 +33,7 @@ last_updated: 2026-10-20
 
 ## Products
 
-- **GLM family**, open-weights LLMs. Current tracked model: **GLM-5.3** (surfaced 2026-08-20, no specs captured). Previous: [[glm-5-2|GLM-5.2]] (753B MoE, ~40B active, MIT licence, 1M context; text-only, no vision, weaker web search).
+- **GLM family**, open-weights LLMs. **Current: GLM-5.4** (2026-11-23), Z.ai's first looped transformer, continued from the GLM-5 base, with vision added; Coding Plan only for now, API after safety evaluation, weights promised, no benchmarks published ([[ainews-jensen-back-pretraining-curve-2026-11-23]]). Before that: **GLM-5.3** (surfaced 2026-08-20, no specs captured). Previous: [[glm-5-2|GLM-5.2]] (753B MoE, ~40B active, MIT licence, 1M context; text-only, no vision, weaker web search).
 - **GLM Coding Plan**, a subscription that got early GLM-5.2 access.
 - **Slime**, the open-sourced RL-scaling training framework.
 
