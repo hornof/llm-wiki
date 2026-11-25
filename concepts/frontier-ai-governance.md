@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 ## Definition
@@ -343,7 +343,7 @@ The [[openai-exploitgym-huggingface-sandbox-escape-2026-07-22|OpenAI model that 
 
 ### Two proposals to slow down, from people inside OpenAI (2026-11-16/22)
 
-Within a week: Paul Christiano, on OpenAI's board but speaking privately, argued labs should pause algorithmic progress until their security can keep it from being stolen ([[christiano-dwarkesh-takeover-12-months-2026-11-16]]). Then OpenAI's chief scientist Jakub Pachocki proposed common limits, measured by pretraining perplexity, that labs would commit not to cross until monitoring catches up, and published OpenAI's own numbers to start the comparison ([[pachocki-perplexity-and-intelligence-2026-11-22]]). Neither is a commitment. Pachocki's is the more concrete, since it names a metric and a kind of milestone, but the metric isn't yet comparable across labs, and it misses gains that come from reasoning rather than pretraining.
+Within a week: Paul Christiano, on OpenAI's board but speaking privately, argued labs should pause algorithmic progress until their security can keep it from being stolen ([[christiano-dwarkesh-takeover-12-months-2026-11-16]]). Then OpenAI's chief scientist Jakub Pachocki proposed common limits, measured by pretraining perplexity, that labs would commit not to cross until monitoring catches up, and published OpenAI's own numbers to start the comparison ([[pachocki-perplexity-and-intelligence-2026-11-22]]). Neither is a commitment. Pachocki's is the more concrete, since it names a metric and a kind of milestone, but the metric isn't yet comparable across labs, and it misses gains that come from reasoning rather than pretraining. **Update 2026-11-23:** Microsoft AI joined, reporting its MAI-2 Base on OpenAI's evaluation set with OpenAI's permission, the first outside lab to do so ([[ainews-jensen-back-pretraining-curve-2026-11-23]]). Anthropic hasn't, and it redacted pretraining metrics from its METR report. **2026-11-24:** Axios reports staff at both OpenAI and Anthropic debating whether to keep future models internal or stop training; these are reported debates, not decisions ([[dailybrief-roundup-2026-11-24]]).
 
 ### OpenAI asks for laws against foreign distillers (2026-11-23)
 

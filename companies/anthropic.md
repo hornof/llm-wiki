@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 ## What It Is
@@ -102,6 +102,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-24: below the IPO price on day four** ([[dailybrief-roundup-2026-11-24]], Digg citing Bloomberg, CNBC, Reuters). Low of $79.42 against the $83 offer. Three banks started coverage at $120–150. Dario and Daniela Amodei each sold more than 3.37M shares to the underwriters at $83, as the prospectus set out. MSCI adds ANT after the 11-30 close.
 - **2026-11-23: Claude Ship** ([[claude-ship-launch-2026-11-23]], Anthropic). Code Review plus two beta agents that fix PRs and approve them under a team-written policy, and a `/ship` command in Claude Code. Team and Enterprise on GitHub; details on [[claude-code]].
 - **2026-11-21: Riemann proof certified; IPO bank terms reported** ([[lean-community-rh-verification-2026-11-21]], Lean and Mathlib communities; [[dailybrief-roundup-2026-11-22]], Digg citing Reuters). The Lean community certified Alpöge's Claude-assisted proof as correct. Separately, Reuters reports Anthropic asked some of its 22 underwriters to limit teams to four senior bankers and to stay off work for OpenAI, Cursor, DeepSeek and Hugging Face for six months; the banks still earned more than $500M in fees.
 - **2026-11-20: IPO closed at $93.5B gross; Riemann claim from an Anthropic mathematician** ([[anthropic-ipo-close-2026-11-20]], Anthropic; [[alpoge-riemann-claude-lean-2026-11-20]], TechCrunch). The underwriters took all 147M optional shares, so the IPO was 1,127M shares and about $93.5B gross, $91.6B of it to Anthropic. The $26.0B placement went to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC; about $119.5B in all. First-day close $97.17; second day down 8.5%, touching $83.05, in a week the Nasdaq 100 fell 10.4%. Separately, Levent Alpöge posted a Lean proof of the Riemann hypothesis found with Claude; Lean users report it compiles, and no one has explained it yet.

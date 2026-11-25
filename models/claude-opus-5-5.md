@@ -3,7 +3,7 @@ name: Claude Opus 5.5
 type: model
 provider: Anthropic
 status: available
-last_updated: 2026-11-10
+last_updated: 2026-11-24
 ---
 
 ## What It Is
@@ -34,6 +34,7 @@ Practitioner use in the wild: [[garrytan-capy-harness-4x-2026-09-23|Tan running 
 - **2026-11-09: still Anthropic's recommended default after Fable 5.2.** Anthropic calls Opus 5.5 *"our strongest daily driver"* and says to start there, moving up to [[claude-fable-5|Fable 5.2]] only for the hardest open-ended work. Fable 5.2 beats it on most of Anthropic's benchmarks but costs more per task ([[anthropic-claude-fable-mythos-5-2-2026-11-09]], [[ainews-fable-5-2-roadshow-2026-11-09]]).
 
 ## Community Sentiment
+- **2026-11-24 — "cheap Fable", and the first model that understood fun** ([[willison-three-inflection-points-2026-11-24]]): Willison puts Opus 5.5 in his "Fable class" and credits it with turning his RTS game from dull to fun *"after Opus spent 12 hours playtesting new features and rebalancing the gameplay."*
 - **2026-10-29 — not enough for Spawn's autonomy** ([[willison-spawn-autonomous-game-dev-2026-10-29]]): Spawn's team says Opus 5.5 *"doesn't quite hack it"* for their fully autonomous setup, where Fable 5.1 does. The day before, Willison had found Opus 5.5 good at game design ([[willison-vibe-game-development-2026-10-28]]). Those are different jobs.
 
 **Thin.** The launch was overshadowed by its own price cut and by GPT-6 Sol landing the same day; the wiki's 09-23 entry read the simultaneity as *"the first frontier-on-frontier price war"* and folded the pricing rather than the model. **Six weeks on there is still no independent evaluation in the record.**

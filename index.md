@@ -49,6 +49,7 @@
 ## Models & Providers
 - [[gemini]] — Google's frontier line: Gemini 4 Argon (GA 2026-10-13, 1M tokens) and Carbon (2026-10-28, cyber defenders first); Google-reported numbers only
 - [[gpt-6-astra]] — OpenAI's GPT-6 flagship (codename "Astra", launched 2026-09-08); claimed SOTA computer-use + coding; ~2.5× token cost but cheaper per task; first frontier flagship gated through a dangerous-capability (critical-cyber) governance process
+- [[gpt-6-2]] — OpenAI's GPT-6.2 Astra and Sol (2026-11-17): current frontier pair; Astra is OpenAI's first released model rated High for AI self-improvement; Sol near Astra on coding at a fifth of the cost
 - [[kimi-k3]] — Moonshot's 2.8T-A50B MoE, "largest open model ever" (weights promised 2026-07-27); Opus-class-ish at Sonnet pricing; open-weight scaling inflection
 - [[muse-glimmer]] — Meta's 30B Apache-2.0 agentic open-weights model (Aug 2026); a permissive-license shift re-entering the open-weights race
 - [[claude-opus-5]] — Anthropic's new Opus generation (2026-07-24); Fable-level capability at Opus-4.8 per-token price; "half the price" = cost-per-task; most-aligned + hardest-to-prompt-inject Claude yet

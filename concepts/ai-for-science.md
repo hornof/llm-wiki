@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-11-22
+last_updated: 2026-11-24
 ---
 
 ## Definition
@@ -31,6 +31,10 @@ Google DeepMind is the most prominent institution pursuing AI for science at sca
 A second pattern emerged in May 2026: [[vibe-physics]], where frontier LLMs (GPT-5.x) are used in iterative dialogue to *derive novel theoretical results*. [[alex-lupsasca]] (OpenAI Science) documented GPT-5.2 deriving novel gluon-amplitude and graviton results that had stumped expert humans for over a year. This is a categorically different mode than AlphaFold-style application: model produces *frontier theoretical conjectures*, not interpolation on a well-defined problem. — [[latent-space-lupsasca-vibe-physics-2026-05]]
 
 **AI-assisted cryptanalysis as a research *methodology* (2026-07-28/30)** ([[dailybrief-roundup-2026-07-30]], via [[simon-willison|Willison]]): Anthropic researchers prompted **Claude to discover mathematical weaknesses** in the post-quantum signature scheme **HAWK** and in **weakened AES variants**, then **published the prompts**. The load-bearing signal is *methodological, not the flaws themselves* (**practical impact ≈ zero** — real-world crypto isn't broken): it demonstrates a new mode of **AI-as-research-accelerant** — prompt-engineering a model to hunt for attack surfaces in a formal domain, with the prompt chain as the reproducible artifact. Extends the vibe-physics pattern (novel research-grade findings) from theoretical physics to **cryptanalysis/security**; a datapoint for Jack Clark's *"automation reaching too-hard-to-automate work"* thread ([[jack-clark]]).
+
+## Lean-checked quantum circuits, and GPT-6 designs proteins (2026-11-24)
+
+Two results that check AI output against something outside the model. DeepMind's Gemini 4 agent teams made known quantum algorithms 2.5× to 290× cheaper and proved each change correct in Lean, because circuits that size can't be run to test them ([[deepmind-quantum-algorithms-lean-2026-11-24]]); the circuits still exceed what early error-corrected machines will offer. OpenAI's GPT-6 models designed proteins using only reasoning and code, and lab tests found binders for all five targets: 35 of 322 minibinders bound, below RFdiffusion's published hit rate, and specialized models still picked the candidates ([[openai-gpt-6-protein-design-2026-11-24]]).
 
 ## A Riemann proof that checks out and that no one has explained yet (2026-11-20/21)
 

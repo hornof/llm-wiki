@@ -3,7 +3,7 @@ name: Inkling
 type: model
 provider: Thinking Machines Lab
 status: available
-last_updated: 2026-11-07
+last_updated: 2026-11-24
 ---
 
 ## What It Is
@@ -29,6 +29,10 @@ last_updated: 2026-11-07
 ## Community Sentiment
 
 Launch-day (2026-07-15). Framed by the [[dailybrief-roundup-2026-07-16|brief]] as a *"credibility move, not a commodity one"* — an open-weights release from a frontier lab signals confidence that the frontier isn't closed. Sentiment tracking TBD; **license not specified in the announcement** (calls it "open-weights," full weights on HF, but no named license) — verification-pending.
+
+## Inkling 2 Mini, a looped transformer (2026-11-20/24)
+
+Inkling 2 Mini *"is a looped transformer, running the middle layers of the model three times for every token"* (Thinking Machines, quoted by Willison), and Z.ai's GLM-5.4 used the same idea a week later ([[ainews-jensen-back-pretraining-curve-2026-11-23]]). A Hugging Face employee reports it first among models under 32B on DeepSWE (48.2%) and under 128B on SWE-bench Verified (79.2%) ([[dailybrief-roundup-2026-11-24]]); not from Thinking Machines. Lucas Beyer warns that bridging Inkling onto OpenAI's perplexity curve may flatter it.
 
 ## Inkling 2 Small (2026-11-06)
 

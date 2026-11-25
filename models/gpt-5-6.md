@@ -3,8 +3,11 @@ name: GPT-5.6 (Sol + Terra + Luna)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-10-26
+last_updated: 2026-11-24
 ---
+
+> [!update] Deprecation date set — 2026-12-23 (added 2026-11-24)
+> OpenAI is deprecating **GPT-5.6 Sol in ChatGPT (Chat and Work) and Codex, and GPT-5.6 Terra in ChatGPT Work and Codex, on 2026-12-23** ([[openai-gpt-6-2-astra-sol-2026-11-17]], Digg citing 9to5Mac and MacRumors). API availability wasn't stated. Current line: [[gpt-6-2]].
 
 > [!update] Superseded by the GPT-6 line — added 2026-10-15
 > **[[gpt-6-astra|GPT-6 Astra]]** launched **2026-09-08**, followed by **Sol and Luna** (2026-09-22) and **GPT-6.1 Sol** (2026-09-29). **The GPT-6 line reuses the Sol / Terra / Luna tier names from this family**, which is a real source of confusion: *"Sol"* means the 5.6 flagship here and a cheap near-flagship there.
