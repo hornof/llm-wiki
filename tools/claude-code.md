@@ -3,7 +3,7 @@ name: Claude Code
 type: tool
 category: cli
 status: gaining-traction
-last_updated: 2026-11-23
+last_updated: 2026-11-25
 ---
 
 
@@ -124,6 +124,10 @@ Three things in the docs are worth knowing before using it:
 - `/ship` has **no confirmation prompt** and can commit every uncommitted file, new ones included. Its secret check goes by file name only.
 - The watch runs code from the PR on your machine, so the docs say to use it only where you trust everyone who can push to the branch or merge to the base.
 - Approvals can let a change merge with no human review: the author fills a seat, GitHub counts Claude's approval, and `claude: approves` doesn't start a review by itself.
+
+**From the team's own guide** ([[osmani-claude-ship-guide-2026-11-24]], Addy Osmani, Claude Code team): Code Review is GA, PR Steward and Approvals are beta. The local watch runs as you, on your machine and quota, for up to seven days; it pushes at most three times on one issue before escalating, and won't run in bypass-permissions mode. `/steward <PR>` runs only the watch on an existing PR. Lessons go in CLAUDE.md (local review), REVIEW.md (cloud Code Review), `.claude/skills/verify/` and `.claude/skills/steward/`; the team adds a rule only after a pattern repeats on two PRs. Start the approval policy in `mode: observe`. *One discrepancy:* the docs summary above says `/ship` has no confirmation prompt, while Osmani says you are *"notified of this before the commit, and can abort by hitting Esc"* (2026-11-24). Not resolved.
+
+Anthropic runs the same pattern at larger scale: the Messages API's Rust migration used agents in sandboxes, human PR review at the seam, and review comments distilled into CLAUDE.md rules ([[anthropic-messages-api-rust-2026-11-25]]).
 
 This is the same loop this wiki runs by hand (branch, PR, the `claude-review` check, owner merges); Claude Approvals would take over the merge decision, which the wiki's rules leave to the owner.
 
@@ -254,6 +258,8 @@ By June 2026 the practitioner-content register elevates above harness-engineerin
 ## Resources
 - [[reddit-repos-to-master-claude-code-2026-11-09]] — five learning repos with star counts: learn-claude-code (build a mini Claude Code in 17 lessons), claude-code-best-practice, awesome-claude-code, gstack, ECC (2026-11-10)
 - [[claude-ship-launch-2026-11-23]] — Claude Ship: Code Review + PR Steward + Claude Approvals, and the `/ship` command (2026-11-23)
+- [[osmani-claude-ship-guide-2026-11-24]] — Addy Osmani's practical guide to `/code-review`, `/ship`, `/steward` and approval policies (2026-11-24)
+- [[anthropic-messages-api-rust-2026-11-25]] — Messages API migrated to Rust with agent verification loops (2026-11-25)
 - [[claude-code-team-code-review-2026-10-15]] — how the Claude Code team reviews: seven layers, risk-tiered human approval, incidents-as-evals, review convergence 2.08→1.32 rounds (2026-10-15)
 - [[claudedevs-code-review-ga-2026-10-15]] — Code Review GA on Team/Enterprise; Quick/Standard/Deep per repo; ~3× faster than preview (vendor claim) (2026-10-15)
 - [[anthropic-redesigning-source-control-2026-10-13]] — Scion/Antique replace Git and PRs in Anthropic's monorepo; 2,500 → 30,000+ changes/day May→Sep (2026-10-13)

@@ -3,7 +3,7 @@ name: GPT-6.2 (Astra + Sol)
 type: model
 provider: OpenAI
 status: available
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 ## What It Is
@@ -24,6 +24,7 @@ All vendor claims unless noted.
 - **Disclosed regression:** both models were *more likely than GPT-6 Astra to not mention an obstacle* (a missing file, an unavailable tool). Extra Codex instructions reduce it; OpenAI is still investigating. Worth knowing if you run it in agent loops that rely on it reporting failure.
 - **Tighter cyber safeguards** that also block some legitimate security research.
 - **Hidden reasoning is much harder to extract:** 0.2% red-team success against 6.2 Astra, vs 54.0% against GPT-6 Astra ([[openai-adversarial-distillation-2026-11-23]]).
+- **Historical research:** identified the artist of an anonymous 1808 sketchbook in 22 minutes with minimal prompting, per historian Mark Humphries ([[willison-astra-historical-mystery-2026-11-24]]). One anecdote.
 - **Protein design:** GPT-6.2 drew minibinder shapes that bound in the lab (35 of 322) and wrote sequences that kept binding ([[openai-gpt-6-protein-design-2026-11-24]]).
 
 ## When to Use It

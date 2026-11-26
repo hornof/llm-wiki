@@ -2,7 +2,7 @@
 name: AI for Science
 type: concept
 maturity: active-research
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 ## Definition
@@ -91,6 +91,13 @@ Topos joined **Eli Lilly's TuneLab** (2026-06-30): federated access to models tr
 **It also reframes two items the wiki recorded separately.** [[world-labs|AMD's $8.2B for World Labs]] and the [[dailybrief-roundup-2026-10-11|Standard Bots]] account of *"learning factory tasks from demonstrations with real-world correction loops"* are both bets on this constraint rather than on model capability — **and $48B says they are not outliers.**
 
 **Treat the figure as directional.** It is a Digg summary of a report, with **no source, no definition of "physical AI," and no breakdown** — a category that can include humanoid robotics, industrial automation, autonomous vehicles and chip-adjacent hardware will produce whatever total the definition allows. *(No primary; the wiki has one number and the framing around it.)*
+
+## Late November 2026: two labs prove the same theorem, and history joins in
+
+- **VP ≠ VNP, from Anthropic and OpenAI** (2026-11-24, [[ainews-gemini-4-neon-frontier-return-2026-11-24]]). An Anthropic GitHub repo reportedly holds a proof by an internal Claude research model that VP ≠ VNP, Valiant's algebraic analogue of P vs NP; OpenAI posted its own proof, dated November 6. Neither lab named a model or announced it. It does not settle P vs NP.
+- **OpenAI: the matrix-multiplication exponent is 9/4** (2026-11-24/25, [[dailybrief-roundup-2026-11-25]]). A preprint claims a matching lower bound for formal arithmetic circuits, with a Lean formalization for division-free circuits. No independent validation yet, and it says nothing about GPU speed.
+- **Outside verifiable domains: a history find** (2026-11-24, [[willison-astra-historical-mystery-2026-11-24]]). GPT-6.2 Astra identified the artist of an anonymous 1808 sketchbook at Yale in 22 minutes and predicted which archive would confirm it. Mark Humphries expects historians' "crisis of confidence" next year to be milder than mathematicians'.
+- **Scott Aaronson** on complexity theory: not one-off results but "a whole new continent of mathematical truth" ([[dailybrief-roundup-2026-11-25]]).
 
 ## Simulations as New Science
 Hassabis argues AI-powered simulations could unlock entirely new sciences for emergent-system domains (economics, social science) by enabling repeatable controlled experiments that are impossible in the real world. Economics, for example, can't run "interest rates +0.5%" a thousand times; accurate simulators could change this.

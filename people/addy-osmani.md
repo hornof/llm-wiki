@@ -1,9 +1,9 @@
 ---
 name: Addy Osmani
 type: person
-affiliation: Google (Chrome / web-platform DevRel)
+affiliation: Anthropic (Claude Code team)
 signal_sources: [blog, twitter, book]
-last_updated: 2026-09-16
+last_updated: 2026-11-25
 ---
 
 ## Who They Are
@@ -11,6 +11,8 @@ last_updated: 2026-09-16
 Addy Osmani is an engineering leader in Google's Chrome / web-platform organization and one of the most-read practitioner authors on front-end performance and, since 2025–26, on **AI-assisted software engineering**. His long-running blog and books (e.g. *Learning JavaScript Design Patterns*) give him unusually broad practitioner reach; in the AI-coding era he has become a recurring synthesizer of **agent/harness engineering** patterns cited across the wiki's [[loop-engineering|loop-engineering]] cluster.
 
 ## Their Current Focus
+
+- **2026-11-24: Claude Ship guide, written from the Claude Code team** ([[osmani-claude-ship-guide-2026-11-24]]). He writes *"based on my experience on the Claude Code team"*, so the Google affiliation this page carried was stale. The wiki has no date for the move; an October post already called him *"an Anthropic engineer"* ([[addyosmani-agent-skills-repo-2026-10-03]]). The guide's rule worth keeping: a pattern becomes a rule only after it repeats on two PRs.
 
 - **Agent Harness Engineering** ([[addy-osmani-agent-harness-engineering-2026-04-19]], 2026-04-19): a comprehensive taxonomy of the agent *harness* under the equation **`Agent = Model + Harness`**. Introduces the **ratchet principle** (*"every line in a good `AGENTS.md` should be traceable back to a specific thing that went wrong"*) and **working-backwards-from-behavior**, plus an 8-layer harness model and the **Harness-as-a-Service** framing. Resurfaced in the [[dailybrief-roundup-2026-07-12|2026-07-12 Daily Brief]].
 

@@ -2,7 +2,7 @@
 name: Microsoft
 type: company
 status: active
-last_updated: 2026-11-07
+last_updated: 2026-11-25
 ---
 
 ## What It Is
@@ -10,6 +10,8 @@ last_updated: 2026-11-07
 **Microsoft Corp.** — the Azure hyperscaler, **[[openai|OpenAI's]] largest single investor and exclusive Azure distribution partner**, host of [[anthropic|Anthropic]] via Azure Foundry, and parent of Microsoft AI. **First paged 2026-07-03**, after several lints had flagged it as a pattern-watch: the [[satya-nadella|Nadella]] / Frontier Co. / $2.5B cluster on Jul 2 was net-new enough to force the page.
 
 ## Traction Signals
+
+- **2026-11-24/25 (reported): "Code Red" after a 24-hour Microsoft 365 outage** ([[dailybrief-roundup-2026-11-25]], Digg citing Reuters and The Verge). Responders sent more than 11,000 messages across 11 Teams chats without a shared picture. Microsoft wants worldwide recovery within an hour and plans AI agents to help diagnose incidents. It blamed a Windows scalability defect from July, not AI agents.
 
 - **2026-11-06: Microsoft Research's AI Frontiers group ends** ([[langford-end-of-ai-frontiers-2026-11-06]], [[john-langford]]'s blog). The roughly 50-person AIF, which built Autogen and the Fara computer-use agent, was reorganized into Microsoft AI in early September. Langford says MAI's ex-Inflection leadership is *"scaling, and aggressively not research"*, and that he and the rest of AIF's founding leadership have left. Pairs with the 2026-09-25 retreat to enterprise Copilot below.
 
