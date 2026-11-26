@@ -2,7 +2,7 @@
 name: Anthropic
 type: company
 status: active
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 ## What It Is
@@ -102,6 +102,7 @@ Cataloged via [[rubenhassid-anthropic-30-term-map-2026-05]] — single secondary
 - **Connectors** — links between Claude and user apps (often bundled with Skills as Plugins)
 
 ## Traction Signals
+- **2026-11-25: Messages API moved to Rust; stock under $75** ([[anthropic-messages-api-rust-2026-11-25]], Anthropic; [[dailybrief-roundup-2026-11-25]], Digg citing the FT). Claude agents rewrote the Messages API in Rust, verified against the live Python service; about 70% less CPU per request and about 20% faster median time to first token. Public traffic moved in September. Separately, the stock fell about 9% to just under $75 during a Nasdaq selloff, and Amodei answered an Axios report that some employees favour handing authority to superintelligent AI (see [[dario-amodei]]). Claude Code's Thariq Shihipar has left for OpenAI ([[latent-space-thariq-revolution-renaissance-2026-11-25]]).
 - **2026-11-24: below the IPO price on day four** ([[dailybrief-roundup-2026-11-24]], Digg citing Bloomberg, CNBC, Reuters). Low of $79.42 against the $83 offer. Three banks started coverage at $120–150. Dario and Daniela Amodei each sold more than 3.37M shares to the underwriters at $83, as the prospectus set out. MSCI adds ANT after the 11-30 close.
 - **2026-11-23: Claude Ship** ([[claude-ship-launch-2026-11-23]], Anthropic). Code Review plus two beta agents that fix PRs and approve them under a team-written policy, and a `/ship` command in Claude Code. Team and Enterprise on GitHub; details on [[claude-code]].
 - **2026-11-21: Riemann proof certified; IPO bank terms reported** ([[lean-community-rh-verification-2026-11-21]], Lean and Mathlib communities; [[dailybrief-roundup-2026-11-22]], Digg citing Reuters). The Lean community certified Alpöge's Claude-assisted proof as correct. Separately, Reuters reports Anthropic asked some of its 22 underwriters to limit teams to four senior bankers and to stay off work for OpenAI, Cursor, DeepSeek and Hugging Face for six months; the banks still earned more than $500M in fees.

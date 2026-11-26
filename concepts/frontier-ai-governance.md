@@ -2,7 +2,7 @@
 name: Frontier AI Governance
 type: concept
 maturity: active-research
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 ## Definition
@@ -348,6 +348,12 @@ Within a week: Paul Christiano, on OpenAI's board but speaking privately, argued
 ### OpenAI asks for laws against foreign distillers (2026-11-23)
 
 OpenAI's distillation post ([[openai-adversarial-distillation-2026-11-23]]) treats copying a model's outputs as a way around its safeguards, not only as IP theft, and asks for legislation to *"identify and sanction foreign actors"*. It names three bills it supports (the Chip Security Act, the AI OVERWATCH Act and the MATCH Act) and pairs export controls on chips with distillation defenses on models. Compare the open-weights coalition below, which argued distillation is legitimate.
+
+### Rules aimed at products, not models — Australia and New York (2026-11-24/25)
+
+Two laws in two days regulate what reaches users rather than how models are built ([[dailybrief-roundup-2026-11-25]]). **Australia's Digital Duty of Care Act** sets fines of up to 5% of global revenue and requires services to reduce harm proactively; the US ambassador and the opposition warn it will censor lawful speech. **New York's five-year ban on AI chatbot toys** covers making, selling and distributing them, with penalties up to $15,000 a day, but starts 90 days after signing, after the holiday season. Both target what reaches users: rules arrive product by product, where the seller is identifiable and the user can't protect themselves.
+
+The same day, Dario Amodei rejected an Axios account that some Anthropic employees support handing authority to superintelligent AI, saying humans should make political decisions ([[dario-amodei]]).
 
 ## Key Papers / Posts
 - [[hassabis-frontier-ai-framework-standards-body-2026-07-14]] — the anchor: FINRA-style Frontier AI Standards Body proposal

@@ -3,7 +3,7 @@ name: Dario Amodei
 type: person
 affiliation: Anthropic (co-founder, CEO)
 signal_sources: [blog, podcast, paper]
-last_updated: 2026-10-15
+last_updated: 2026-11-25
 ---
 
 ## Who They Are
@@ -13,6 +13,8 @@ Dario Amodei is the co-founder and CEO of [[anthropic|Anthropic]], the AI safety
 Widely regarded as one of the most consequential AI-safety-and-capability voices of the 2020s — his *"Machines of Loving Grace"* essay (October 2024) is the canonical articulation of the *"AI as accelerator of biology / science / governance"* thesis from a frontier-lab CEO. Co-architect with [[jack-clark]] and others of Anthropic's *constitutional AI + alignment-by-published-principles* approach.
 
 ## Their Current Focus
+
+- **2026-11-25: "AI shouldn't govern humanity"** ([[dailybrief-roundup-2026-11-25]], Digg citing Axios, TechCrunch and Forbes). Responding to an Axios report that some Anthropic employees favour handing authority to superintelligent AI, Amodei said humans should make political decisions and separated governance by AI from automating tasks. He said some automation may warrant limits, citing autonomous AI development and job disruption. TechCrunch's headline has him calling the accusation "absurd". This came in Anthropic's first week as a public company.
 
 - **Anthropic at near-$1T valuation** — leading Anthropic through the [[anthropic-series-h-65b-965b-2026-05-28|Series H $65B raise at $965B post-money]] (May 28 2026), the largest single-event capital event in wiki-tracked AI history
 - **Frontier-lab institutional positioning** — Anthropic's same-week triple-bundle (Series H + [[claude-opus-4-8|Opus 4.8]] + [[anthropic-claude-space-to-think-2026-05-28|ad-free positioning]]) is the *"capability + capital + values"* strategic stack Amodei has been building

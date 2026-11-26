@@ -2,7 +2,7 @@
 name: Nvidia
 type: company
 status: active
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 ## What It Is
@@ -20,6 +20,7 @@ Led by co-founder and CEO [[jensen-huang]], who has held the role since founding
 
 ## Traction Signals
 
+- **2026-11-25: shares down 8% in a Nasdaq selloff; House interviews set** ([[dailybrief-roundup-2026-11-25]], Digg citing Forbes and Bloomberg; [[ainews-gemini-4-neon-frontier-return-2026-11-24]]). Nvidia fell more than 8% after the open as the Nasdaq 100 touched bear-market territory, erasing part of the reinstatement rally. House committee chairs say reinstatement doesn't settle the smuggling questions; Huang and Tim Teter give transcribed interviews on Dec 1–2. That's the House; the Senate date (Dec 3 per the 11-23 brief, about Dec 1 per AINews) is still unresolved. Separately, the Washington Post found Shenzhen vendors quoting $3M–$3.4M for unverified eight-B300 servers, roughly five times US retail.
 - **2026-11-24: Huang apologizes to staff; Trump's stake** ([[dailybrief-roundup-2026-11-24]], Digg citing WIRED, the WSJ and the FT). At his first all-hands back, Huang acknowledged a code-of-conduct violation and said his direct reports would send reviews of his behavior to the board. The FT estimates the post-reinstatement rally (shares up more than 30%) added up to $15M on paper to Trump's holdings, under the largest-stake assumption. AINews puts Huang's Senate hearing about December 1; the 11-23 brief said December 3 ([[ainews-jensen-back-pretraining-curve-2026-11-23]]).
 - **2026-11-23: Huang reinstated as CEO; Megaspeed headed for the Entity List** ([[nvidia-huang-reinstated-2026-11-23]], Nvidia; TechCrunch citing Semafor). The board voted unanimously to bring Huang back as president, CEO and director, 11 days after he resigned and six days after the chair said it didn't intend to. It cites unnamed *"senior levels of the United States government"* for its view that he poses no national security risk; Trump had pushed for the return. Kress is CFO only again and Jones stays chair. The foreign-intelligence investigation continues, a National Security and Export Control Committee oversees compliance, and Nvidia is hiring a Chief Compliance Officer. Separately, Megaspeed, the Singapore customer Alice Huang led, is reported headed for the Commerce Department's Entity List. Arm's Rene Haas, approached about the job, extended his Arm contract to 2033.
 - **2026-11-20/21: down 14% on earnings day; FT smuggling investigation; Inception deal reported** ([[dailybrief-roundup-2026-11-22]], Digg citing Axios; [[dailybrief-roundup-2026-11-21]], Digg citing FT and The Information). The stock fell 14% on 2026-11-20 despite a raised 2027 revenue outlook, and Axios puts the loss since the 2026-10-06 high above $2.5T. An FT investigation ties former Megaspeed executive Alice Huang to a network of shell companies moving Nvidia chips to China (allegations). Nvidia is reported near a deal of more than $500M for Inception, a diffusion-model startup of about 30 people, for its Nemotron team.

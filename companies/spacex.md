@@ -2,7 +2,7 @@
 name: SpaceX
 type: company
 status: active
-last_updated: 2026-10-31
+last_updated: 2026-11-25
 ---
 
 ## What It Is
@@ -11,6 +11,7 @@ Space-launch + satellite-internet company founded by [[elon-musk|Elon Musk]] in 
 
 ## Recent Activity
 
+- **2026-11-25: a $50B AI campus pitched for Cochise County, Arizona** ([[dailybrief-roundup-2026-11-25]], Digg citing SpaceX). Nine buildings, up to 6 GW, up to 24 GWh of batteries, $3.6B of grid upgrades, and a claim that local residential rates may fall up to 40% (not independently checked). No on-site plant, but about 10 MW of gas standby generation per building. Musk calls it "SpaceX Colossus 3". Arizona's attorney general asked the county to delay its permit vote.
 - **2025: Acquired [[xai|xAI]]**, removing xAI from independent-AI-company indices like the Forbes AI 50 — [[forbes-ai-50-2026]]. **First wiki-captured vertical-integration event** combining a frontier-AI lab with a substrate-tier compute provider.
 - **2026-05-07: Anthropic-xAI Colossus deal — entire Colossus 1 capacity contracted to [[anthropic|Anthropic]]** for frontier-model training. ~$5B/yr per Daily Brief synopses (corroborated by Latent Space AINews); Willison primary omits pricing. *Notable*: Musk publicly states he reserves the right to *"reclaim the compute if their AI engages in actions that harm humanity"* — non-commercial discretionary clause inside an otherwise commercial deal. — [[willison-anthropic-xai-colossus-2026-05]]
 - **2026-06-04: Goldman Sachs forecasts SpaceX AI revenue $322B by 2030** driven by compute-as-a-service offerings. **First wiki-captured concrete dollar-forecast for SpaceX AI revenue trajectory.** Skepticism noted on Goldman's IPO underwriting role potentially biasing the forecast upward. — [[dailybrief-roundup-2026-06-04]]
